@@ -1,0 +1,48 @@
+name: Release
+on:
+  schedule:
+    - cron: "0 * * * *"
+jobs:
+  release:
+    name: Updates languages, releases a new version if needed
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v2
+      - name: Install Node
+        id: install_node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          registry-url: "https://registry.npmjs.org"
+      - name: Install dependencies
+        id: install_dependencies
+        run: |
+          npm install
+      - name: Update languages
+        id: update
+        run: |
+          DEEPL_KEY=${{ secrets.DEEPL_KEY }} npm run update
+      - name: Test
+        id: test
+        if: ${{ steps.update.outputs.status == 'updated' }}
+        run: |
+          npm run test
+      - name: Bump version
+        id: bump_version
+        if: ${{ steps.update.outputs.status == 'updated' }}
+        run: |
+          npm run bump_version
+      - name: Release
+        id: release
+        if: ${{ steps.update.outputs.status == 'updated' }}
+        run: |
+          npm run release
+      - name: Publish
+        id: publish
+        if: ${{ steps.update.outputs.status == 'updated' }}
+        run: |
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

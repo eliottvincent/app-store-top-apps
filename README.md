@@ -8,7 +8,7 @@ App Store' Top Apps, by countries, pricing and genres. The data **auto-updates e
 ## Usage
 
 ```js
-const { isAppTop } = require("app-store-top-apps");
+const { isAppTop, getAppPositions } = require("app-store-top-apps");
 
 console.log(isAppTop("com.alertus.zenly"));
 // true

@@ -188,19 +188,25 @@ var __dispatch_request = (method, uri) => {
       });
 
       response.on("end", () => {
-        if (_body.length) {
-          try {
-            _body = JSON.parse(_body);
-          } catch(error) {
-            return reject(error);
-          }
-        }
-
         if (response.statusCode !== 200) {
-          return reject(
-            new Error(`Got error: ${response.statusCode}`)
-          );
+          console.error(`Got error: ${response.statusCode}`);
+          // Schedule next attempt
+          return Promise.resolve()
+            .then(() => {
+              return __temporize_action(10000);
+            })
+            .then(() => {
+              return __dispatch_request(method, uri);
+            });
         } else {
+          if (_body.length) {
+            try {
+              _body = JSON.parse(_body);
+            } catch(error) {
+              return reject(error);
+            }
+          }
+
           return resolve(_body);
         }
       });

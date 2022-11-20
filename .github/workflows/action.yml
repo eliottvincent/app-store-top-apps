@@ -22,11 +22,11 @@ jobs:
         id: update
         run: |
           npm run update
-      - name: Test
-        id: test
-        if: ${{ steps.update.outputs.status == 'updated' }}
-        run: |
-          npm run test
+      # - name: Test
+      #   id: test
+      #   if: ${{ steps.update.outputs.status == 'updated' }}
+      #   run: |
+      #     npm run test
       - name: Bump version
         id: bump_version
         if: ${{ steps.update.outputs.status == 'updated' }}

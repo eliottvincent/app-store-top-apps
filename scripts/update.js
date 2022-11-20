@@ -275,13 +275,24 @@ var update_apps = (store_front, pricing, genre) => {
       );
     })
     .then(body => {
-      _new_apps = (body.feed || {}).entry;
+      _new_apps = ((body.feed || {}).entry || []);
+
+      _new_apps = _new_apps.map((app, index) => {
+        return {
+          $position : {
+            current : index + 1,
+            limit   : _new_apps.length
+          },
+
+          ...app
+        }
+      });
 
       _apps_changed = (
         JSON.stringify(_new_apps) !== JSON.stringify(_existing_apps)
       );
 
-      if (_apps_changed && _new_apps) {
+      if (_apps_changed && _new_apps.length > 0) {
         return __write_json_file(_data_path, _new_apps);
       }
 

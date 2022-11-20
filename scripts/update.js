@@ -20,12 +20,9 @@ var genres       = require("./../res/genres");
  ***************************************************************************/
 
 var DATA_DIR = path.join(__dirname, "/../data/");
+var APPS = {};
 
 var ACTION_TEMPORIZE_DELAY = 500; // 500 milliseconds
-
-var STORE_FRONTS = store_fronts;
-var GENRES       = genres;
-var PRICINGS     = pricings;
 
 var APPLE = {
   METHOD   : "GET",
@@ -277,8 +274,26 @@ var update_apps = (store_front, pricing, genre) => {
     .then(body => {
       _new_apps = ((body.feed || {}).entry || []);
 
+      // Transform app entries
       _new_apps = _new_apps.map((app, index) => {
+        if (!APPS[app.id.attributes["im:bundleId"]]) {
+          APPS[app.id.attributes["im:bundleId"]] = [];
+        }
+
+        // Add in apps list
+        APPS[app.id.attributes["im:bundleId"]].push({
+          store_front : store_front[1],
+          pricing     : pricing,
+          genre       : genre[1],
+
+          $position    : {
+            current : index + 1,
+            limit   : _new_apps.length
+          }
+        });
+
         return {
+          // Include position
           $position : {
             current : index + 1,
             limit   : _new_apps.length
@@ -311,14 +326,16 @@ var update_apps = (store_front, pricing, genre) => {
  * Entry point
  */
 var update = () => {
+  let _results;
+
   return Promise.resolve()
     .then(() => {
       let _updates = [];
 
       // Map all updates to perform
-      STORE_FRONTS.map(store_front => {
-        PRICINGS.map(pricing => {
-          GENRES.map(genre => {
+      store_fronts.map(store_front => {
+        pricings.map(pricing => {
+          genres.map(genre => {
             _updates.push(
               () => {
                 return update_apps(store_front, pricing, genre);
@@ -336,9 +353,18 @@ var update = () => {
       return __execute_sequentially(updates);
     })
     .then((results) => {
+      _results = results;
+
+      // Write apps
+      return __write_json_file(
+        path.join(DATA_DIR, "apps.json"),
+        APPS
+      );
+    })
+    .then(() => {
       process.stdout.write(os.EOL);
 
-      if (results.indexOf(true) !== -1) {
+      if (_results.indexOf(true) !== -1) {
         // At least one top updated
         process.stdout.write("::set-output name=status::updated" + os.EOL);
       } else {

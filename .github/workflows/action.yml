@@ -4,7 +4,7 @@ on:
     - cron: "0 * * * *"
 jobs:
   release:
-    name: Updates languages, releases a new version if needed
+    name: Updates apps, releases a new version if needed
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
@@ -20,10 +20,10 @@ jobs:
         id: install_dependencies
         run: |
           npm install
-      - name: Update languages
+      - name: Update apps
         id: update
         run: |
-          DEEPL_KEY=${{ secrets.DEEPL_KEY }} npm run update
+          npm run update
       - name: Test
         id: test
         if: ${{ steps.update.outputs.status == 'updated' }}

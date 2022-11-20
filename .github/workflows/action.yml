@@ -1,7 +1,5 @@
 name: Release
-on:
-  schedule:
-    - cron: "55 * * * *"
+on: push
 jobs:
   release:
     name: Updates apps, releases a new version if needed

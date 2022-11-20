@@ -282,6 +282,12 @@ var update_apps = (store_front, pricing, genre) => {
     .then(body => {
       _new_apps = ((body.feed || {}).entry || []);
 
+
+      // Only one entry?
+      if (typeof _new_apps === "object" && !Array.isArray(_new_apps)) {
+        _new_apps = [_new_apps];
+      }
+
       // Transform app entries
       _new_apps = _new_apps.map((app, index) => {
         let _position = {

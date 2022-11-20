@@ -276,28 +276,25 @@ var update_apps = (store_front, pricing, genre) => {
 
       // Transform app entries
       _new_apps = _new_apps.map((app, index) => {
+        let _position = {
+          country_code : store_front[1],
+          pricing      : pricing,
+          genre        : genre[1],
+
+          index        : index + 1,
+          total        : _new_apps.length
+        };
+
         if (!APPS[app.id.attributes["im:bundleId"]]) {
           APPS[app.id.attributes["im:bundleId"]] = [];
         }
 
         // Add in apps list
-        APPS[app.id.attributes["im:bundleId"]].push({
-          store_front : store_front[1],
-          pricing     : pricing,
-          genre       : genre[1],
-
-          $position    : {
-            current : index + 1,
-            limit   : _new_apps.length
-          }
-        });
+        APPS[app.id.attributes["im:bundleId"]].push(_position);
 
         return {
           // Include position
-          $position : {
-            current : index + 1,
-            limit   : _new_apps.length
-          },
+          $position : _position,
 
           ...app
         }

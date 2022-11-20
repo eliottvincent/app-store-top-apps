@@ -20,113 +20,115 @@ var DATA_DIR = path.join(__dirname, "/../data/");
 var ACTION_TEMPORIZE_DELAY = 500; // 500 milliseconds
 
 var STORE_FRONTS = [
-  143505, // ar (Argentina)
-  143460, // au (Australia)
-  143445, // at (Austria)
-  143446, // be (Belgium)
-  143503, // br (Brazil)
-  143455, // ca (Canada)
-  143483, // cl (Chile)
-  143465, // cn (China)
-  143501, // co (Colombia)
-  143495, // cr (Costa Rica)
-  143494, // hr (Croatia)
-  143489, // cz (Czech Republic)
-  143458, // dk (Denmark)
-  143508, // do (Dominican Rep.)
-  143509, // ec (Ecuador)
-  143516, // eg (Egypt)
-  143506, // sv (El Salvador)
-  143518, // ee (Estonia)
-  143447, // fi (Finland)
-  143442, // fr (France)
-  143443, // de (Germany)
-  143448, // gr (Greece)
-  143504, // gt (Guatemala)
-  143510, // hn (Honduras)
-  143463, // hk (Hong Kong)
-  143482, // hu (Hungary)
-  143467, // in (India)
-  143476, // id (Indonesia)
-  143449, // ie (Ireland)
-  143491, // il (Israel)
-  143450, // it (Italy)
-  143511, // jm (Jamaica)
-  143462, // jp (Japan)
-  143517, // kz (Kazakstan)
-  143466, // kr (Korea, Republic Of)
-  143493, // kw (Kuwait)
-  143519, // lv (Latvia)
-  143497, // lb (Lebanon)
-  143520, // lt (Lithuania)
-  143451, // lu (Luxembourg)
-  143515, // mo (Macau)
-  143473, // my (Malaysia)
-  143521, // mt (Malta)
-  143468, // mx (Mexico)
-  143523, // md (Moldova, Republic Of)
-  143452, // nl (Netherlands)
-  143461, // nz (New Zealand)
-  143512, // ni (Nicaragua)
-  143457, // no (Norway)
-  143477, // pk (Pakistan)
-  143485, // pa (Panama)
-  143513, // py (Paraguay)
-  143507, // pe (Peru)
-  143474, // ph (Philippines)
-  143478, // pl (Poland)
-  143453, // pt (Portugal)
-  143498, // qa (Qatar)
-  143487, // ro (Romania)
-  143469, // ru (Russia)
-  143479, // sa (Saudi Arabia)
-  143464, // sg (Singapore)
-  143496, // sk (Slovakia)
-  143499, // si (Slovenia)
-  143472, // za (South Africa)
-  143454, // es (Spain)
-  143486, // lk (Sri Lanka)
-  143456, // se (Sweden)
-  143459, // ch (Switzerland)
-  143470, // tw (Taiwan)
-  143475, // th (Thailand)
-  143480, // tr (Turkey)
-  143481, // ae (United Arab Emirates)
-  143444, // gb (United Kingdom)
-  143441, // us (United States)
-  143514, // uy (Uruguay)
-  143502, // ve (Venezuela)
-  143471  // vn (Vietnam)
+  // [store_front_id, country_code]
+  [143505, "ar"], // Argentina
+  [143460, "au"], // Australia
+  [143445, "at"], // Austria
+  [143446, "be"], // Belgium
+  [143503, "br"], // Brazil
+  [143455, "ca"], // Canada
+  [143483, "cl"], // Chile
+  [143465, "cn"], // China
+  [143501, "co"], // Colombia
+  [143495, "cr"], // Costa Rica
+  [143494, "hr"], // Croatia
+  [143489, "cz"], // Czech Republic
+  [143458, "dk"], // Denmark
+  [143508, "do"], // Dominican Rep.
+  [143509, "ec"], // Ecuador
+  [143516, "eg"], // Egypt
+  [143506, "sv"], // El Salvador
+  [143518, "ee"], // Estonia
+  [143447, "fi"], // Finland
+  [143442, "fr"], // France
+  [143443, "de"], // Germany
+  [143448, "gr"], // Greece
+  [143504, "gt"], // Guatemala
+  [143510, "hn"], // Honduras
+  [143463, "hk"], // Hong Kong
+  [143482, "hu"], // Hungary
+  [143467, "in"], // India
+  [143476, "id"], // Indonesia
+  [143449, "ie"], // Ireland
+  [143491, "il"], // Israel
+  [143450, "it"], // Italy
+  [143511, "jm"], // Jamaica
+  [143462, "jp"], // Japan
+  [143517, "kz"], // Kazakstan
+  [143466, "kr"], // Korea, Republic Of
+  [143493, "kw"], // Kuwait
+  [143519, "lv"], // Latvia
+  [143497, "lb"], // Lebanon
+  [143520, "lt"], // Lithuania
+  [143451, "lu"], // Luxembourg
+  [143515, "mo"], // Macau
+  [143473, "my"], // Malaysia
+  [143521, "mt"], // Malta
+  [143468, "mx"], // Mexico
+  [143523, "md"], // Moldova, Republic Of
+  [143452, "nl"], // Netherlands
+  [143461, "nz"], // New Zealand
+  [143512, "ni"], // Nicaragua
+  [143457, "no"], // Norway
+  [143477, "pk"], // Pakistan
+  [143485, "pa"], // Panama
+  [143513, "py"], // Paraguay
+  [143507, "pe"], // Peru
+  [143474, "ph"], // Philippines
+  [143478, "pl"], // Poland
+  [143453, "pt"], // Portugal
+  [143498, "qa"], // Qatar
+  [143487, "ro"], // Romania
+  [143469, "ru"], // Russia
+  [143479, "sa"], // Saudi Arabia
+  [143464, "sg"], // Singapore
+  [143496, "sk"], // Slovakia
+  [143499, "si"], // Slovenia
+  [143472, "za"], // South Africa
+  [143454, "es"], // Spain
+  [143486, "lk"], // Sri Lanka
+  [143456, "se"], // Sweden
+  [143459, "ch"], // Switzerland
+  [143470, "tw"], // Taiwan
+  [143475, "th"], // Thailand
+  [143480, "tr"], // Turkey
+  [143481, "ae"], // United Arab Emirates
+  [143444, "gb"], // United Kingdom
+  [143441, "us"], // United States
+  [143514, "uy"], // Uruguay
+  [143502, "ve"], // Venezuela
+  [143471, "vn"]  // Vietnam
 ];
 
 var GENRES = [
-  6000, // Business
-  6001, // Weather
-  6002, // Utilities
-  6003, // Travel
-  6004, // Sports
-  6005, // Social Networking
-  6006, // Reference
-  6007, // Productivity
-  6008, // Photo & Video
-  6009, // News
-  6010, // Navigation
-  6011, // Music
-  6012, // Lifestyle
-  6013, // Health & Fitness
-  6014, // Games
-  6015, // Finance
-  6016, // Entertainment
-  6017, // Education
-  6018, // Book
-  6020, // Medical
-  6021, // Magazine & Newspapers
-  6022, // Catalogs
-  6023, // Food & Drink
-  6024, // Shopping
-  6025, // Stickers
-  6026, // Developer Tools
-  6027  // Graphics & Design
+  // [genre_id, genre_name]
+  [6000, "business"],                // Business
+  [6001, "weather"],                 // Weather
+  [6002, "utilities"],               // Utilities
+  [6003, "travel"],                  // Travel
+  [6004, "sports"],                  // Sports
+  [6005, "social_networking"],       // Social Networking
+  [6006, "reference"],               // Reference
+  [6007, "productivity"],            // Productivity
+  [6008, "photo_and_video"],         // Photo & Video
+  [6009, "news"],                    // News
+  [6010, "navigation"],              // Navigation
+  [6011, "music"],                   // Music
+  [6012, "lifestyle"],               // Lifestyle
+  [6013, "health_and_fitness"],      // Health & Fitness
+  [6014, "games"],                   // Games
+  [6015, "finance"],                 // Finance
+  [6016, "entertainment"],           // Entertainment
+  [6017, "education"],               // Education
+  [6018, "book"],                    // Book
+  [6020, "medical"],                 // Medical
+  [6021, "magazine_and_newspapers"], // Magazine & Newspapers
+  [6022, "catalogs"],                // Catalogs
+  [6023, "food_and_drink"],          // Food & Drink
+  [6024, "shopping"],                // Shopping
+  [6025, "stickers"],                // Stickers
+  [6026, "developer_tools"],         // Developer Tools
+  [6027, "graphics_and_design"]      // Graphics & Design
 ];
 
 var PRICINGS = [
@@ -347,7 +349,7 @@ var __dispatch_request = (method, uri) => {
  */
 var update_apps = (store_front, pricing, genre) => {
   // Log trace
-  console.log(`update_apps:${store_front}:${pricing}:${genre}`);
+  console.log(`update_apps:${store_front[1]}:${pricing}:${genre[1]}`);
 
   let _existing_apps = {},
       _new_apps      = {},
@@ -355,9 +357,9 @@ var update_apps = (store_front, pricing, genre) => {
       _data_path     = path.join(
         DATA_DIR,
 
-        `${store_front}`,
+        `${store_front[1]}`,
         `${pricing}`,
-        `${genre}.json`
+        `${genre[1]}.json`
       );
 
   return Promise.resolve()
@@ -378,7 +380,7 @@ var update_apps = (store_front, pricing, genre) => {
 
       return __dispatch_request(
         APPLE.METHOD,
-        APPLE.ENDPOINT(store_front, pricing, genre)
+        APPLE.ENDPOINT(store_front[0], pricing, genre[0])
       );
     })
     .then(body => {

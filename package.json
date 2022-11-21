@@ -13,10 +13,10 @@
     "url": "https://github.com/eliottvincent/app-store-top-apps/issues"
   },
   "scripts": {
-    "bump_version": "node ./scripts/bump_version.js",
-    "release": "./scripts/release.sh",
+    "bump_version": "node ./res/scripts/bump_version.js",
+    "release": "./res/scripts/release.sh",
     "test": "nodeunit ./test/index.js",
-    "update": "node ./scripts/update.js"
+    "update": "node ./res/scripts/update.js"
   },
   "devDependencies": {
     "nodeunit-x": "0.14.0"

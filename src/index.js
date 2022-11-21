@@ -8,9 +8,9 @@ Object.defineProperty(exports, "__esModule", {
  * IMPORTS
  ***************************************************************************/
 
-var store_fronts = require("./../res/store_fronts");
-var pricings     = require("./../res/pricings");
-var genres       = require("./../res/genres");
+var store_fronts = require("./../res/config/store_fronts");
+var pricings     = require("./../res/config/pricings");
+var genres       = require("./../res/config/genres");
 
 var apps = require("./../data/apps.json");
 

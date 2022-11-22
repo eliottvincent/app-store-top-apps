@@ -10,9 +10,9 @@ var os    = require("os");
 var path  = require("path");
 var url   = require("url");
 
-var store_fronts = require("./../res/config/store_fronts");
-var pricings     = require("./../res/config/pricings");
-var genres       = require("./../res/config/genres");
+var store_fronts = require("./../config/store_fronts");
+var pricings     = require("./../config/pricings");
+var genres       = require("./../config/genres");
 
 
 /**************************************************************************

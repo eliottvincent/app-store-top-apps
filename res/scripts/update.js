@@ -19,7 +19,7 @@ var genres       = require("./../config/genres");
  * CONFIGURATION
  ***************************************************************************/
 
-var DATA_DIR = path.join(__dirname, "/../data/");
+var DATA_DIR = path.join(__dirname, "/../../data/");
 var APPS = {};
 
 var ACTION_TEMPORIZE_DELAY = 500; // 500 milliseconds

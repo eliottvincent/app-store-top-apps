@@ -8,6 +8,108 @@
       "total": 75
     },
     "im:name": {
+      "label": "My Lisp"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/8c/39/99/8c3999fb-bb17-1063-c4ad-e60ec6a435bd/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/8c/39/99/8c3999fb-bb17-1063-c4ad-e60ec6a435bd/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/8c/39/99/8c3999fb-bb17-1063-c4ad-e60ec6a435bd/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
+    },
+    "im:price": {
+      "label": "NT$130.00",
+      "attributes": {
+        "amount": "130",
+        "currency": "TWD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2008-2022 Laurent Rodier."
+    },
+    "title": {
+      "label": "My Lisp - Laurent Rodier"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/tw/app/my-lisp/id1245341806?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/26/44/0b/26440bc9-0c21-cf79-ae3e-6aab20c464f0/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/tw/app/my-lisp/id1245341806?l=en&uo=2",
+      "attributes": {
+        "im:id": "1245341806",
+        "im:bundleId": "net.lsrodier.MyLisp"
+      }
+    },
+    "im:artist": {
+      "label": "Laurent Rodier",
+      "attributes": {
+        "href": "https://apps.apple.com/tw/developer/laurent-rodier/id697920086?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/tw/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-11-07T11:32:31-07:00",
+      "attributes": {
+        "label": "November 7, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "tw",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 75
+    },
+    "im:name": {
       "label": "C Code Develop"
     },
     "im:image": [
@@ -98,108 +200,6 @@
       "label": "2021-01-06T00:00:00-07:00",
       "attributes": {
         "label": "January 6, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "tw",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 2,
-      "total": 75
-    },
-    "im:name": {
-      "label": "TCP  UDP Debugger"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/60/64/2c/60642cb5-22ca-874c-2208-2673aaa33b3a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/60/64/2c/60642cb5-22ca-874c-2208-2673aaa33b3a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/60/64/2c/60642cb5-22ca-874c-2208-2673aaa33b3a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The network debugging tool is a TCP&UDP communication debugging tool with rich functions, clear interface, and easy to use. It can assist network maintenance personnel and program developers to debug the network. The main features include:\n1. Integrated TCP client and server; UDP client and server\n2. Support Ping\n3. Support Ping Monitor(Timed automatic Ping server)\n4. Support UDP Broadcast\n5. Support Multicast\n6. Support Port Scan\n7. Support TraceRoute\n8. Support Lan Scan\n9. Support Whois\n10. Support Command Panel\n11. Multi-client link management at the same time\n12. Automatically send messages at regular intervals\n13. Support hexadecimal, UTF-8, Unicode, GBK character encoding switching\n14. Automatically cache the last message sent"
-    },
-    "im:price": {
-      "label": "NT$33.00",
-      "attributes": {
-        "amount": "33",
-        "currency": "TWD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© NetTools"
-    },
-    "title": {
-      "label": "TCP  UDP Debugger - Xun Zhang"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/tw/app/tcp-udp-debugger/id1461652639?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/eb/12/6d/eb126df6-fe35-5132-e856-261f0fcdfe55/7b7f2227-59b5-4970-8275-b3ff04501401_iPad1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/tw/app/tcp-udp-debugger/id1461652639?l=en&uo=2",
-      "attributes": {
-        "im:id": "1461652639",
-        "im:bundleId": "com.wjyw.NetTools"
-      }
-    },
-    "im:artist": {
-      "label": "Xun Zhang",
-      "attributes": {
-        "href": "https://apps.apple.com/tw/developer/xun-zhang/id1001435294?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/tw/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-05-05T14:44:46-07:00",
-      "attributes": {
-        "label": "May 5, 2019"
       }
     }
   },
@@ -518,35 +518,35 @@
       "total": 75
     },
     "im:name": {
-      "label": "Programming Notebook PRO"
+      "label": "TCP  UDP Debugger"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/60/64/2c/60642cb5-22ca-874c-2208-2673aaa33b3a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/60/64/2c/60642cb5-22ca-874c-2208-2673aaa33b3a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/60/64/2c/60642cb5-22ca-874c-2208-2673aaa33b3a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "This is the PRO version of our free application, Programming Notebook.\n\nFEATURES:\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- ability to hide navigation bar\n- status bar hidden automatically\n- dark mode support\n- new buttons to enable easier navigation on tricky web pages\n- JS injection to modify the site HTML slightly to remove contents that are unnecessary and consume space on a mobile device\n- no need to double tap in the browser in order to be recognized by buttons\n- automatic link handling, including authentication flow for Google sign-in\n- ability to connect runtime to Google Drive, both that of the current account and another account, thanks to automatic link handling\n- iPhone and iPad support\n- No ads\n\nCOMING SOON\n- Other programming sites will be returning shortly. The feature has briefly been removed with the latest update, as it is being reworked\n- Split view for opening multiple sites at once\n- Support for multitasking on iPad\n- Markdown toolbar, automatically recognizes when a text cell is being edited\n- Ability to upload an image from your photos album to a text cell.\n- Copy/paste functionality\n- Swipe from edges to navigate backwards/forwards, allows us to preserve space on screen by removing unnecessary navigation buttons\n- Search history"
+      "label": "The network debugging tool is a TCP&UDP communication debugging tool with rich functions, clear interface, and easy to use. It can assist network maintenance personnel and program developers to debug the network. The main features include:\n1. Integrated TCP client and server; UDP client and server\n2. Support Ping\n3. Support Ping Monitor(Timed automatic Ping server)\n4. Support UDP Broadcast\n5. Support Multicast\n6. Support Port Scan\n7. Support TraceRoute\n8. Support Lan Scan\n9. Support Whois\n10. Support Command Panel\n11. Multi-client link management at the same time\n12. Automatically send messages at regular intervals\n13. Support hexadecimal, UTF-8, Unicode, GBK character encoding switching\n14. Automatically cache the last message sent"
     },
     "im:price": {
-      "label": "NT$190.00",
+      "label": "NT$33.00",
       "attributes": {
-        "amount": "190",
+        "amount": "33",
         "currency": "TWD"
       }
     },
@@ -557,17 +557,17 @@
       }
     },
     "rights": {
-      "label": "© 2021 Ryan Rudes"
+      "label": "© NetTools"
     },
     "title": {
-      "label": "Programming Notebook PRO - Xylemark Games Corp."
+      "label": "TCP  UDP Debugger - Xun Zhang"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/tw/app/programming-notebook-pro/id1521883614?l=en&uo=2"
+          "href": "https://apps.apple.com/tw/app/tcp-udp-debugger/id1461652639?l=en&uo=2"
         }
       },
       {
@@ -578,22 +578,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/40/07/c9/4007c95f-5b45-95d1-7ed2-211987e2cbf4/e60eea41-9d07-4882-bf28-5c96eb650311_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-05-06_at_18.41.09.png/1024x1024bb.png",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/eb/12/6d/eb126df6-fe35-5132-e856-261f0fcdfe55/7b7f2227-59b5-4970-8275-b3ff04501401_iPad1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/tw/app/programming-notebook-pro/id1521883614?l=en&uo=2",
+      "label": "https://apps.apple.com/tw/app/tcp-udp-debugger/id1461652639?l=en&uo=2",
       "attributes": {
-        "im:id": "1521883614",
-        "im:bundleId": "com.appconda.ryan-rudes"
+        "im:id": "1461652639",
+        "im:bundleId": "com.wjyw.NetTools"
       }
     },
     "im:artist": {
-      "label": "Xylemark Games Corp.",
+      "label": "Xun Zhang",
       "attributes": {
-        "href": "https://apps.apple.com/tw/developer/xylemark-games-corp/id804250931?l=en&uo=2"
+        "href": "https://apps.apple.com/tw/developer/xun-zhang/id1001435294?l=en&uo=2"
       }
     },
     "category": {
@@ -605,9 +605,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-07-07T00:00:00-07:00",
+      "label": "2019-05-05T14:44:46-07:00",
       "attributes": {
-        "label": "July 7, 2020"
+        "label": "May 5, 2019"
       }
     }
   },
@@ -722,6 +722,108 @@
       "total": 75
     },
     "im:name": {
+      "label": "Programming Notebook PRO"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is the PRO version of our free application, Programming Notebook.\n\nFEATURES:\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- ability to hide navigation bar\n- status bar hidden automatically\n- dark mode support\n- new buttons to enable easier navigation on tricky web pages\n- JS injection to modify the site HTML slightly to remove contents that are unnecessary and consume space on a mobile device\n- no need to double tap in the browser in order to be recognized by buttons\n- automatic link handling, including authentication flow for Google sign-in\n- ability to connect runtime to Google Drive, both that of the current account and another account, thanks to automatic link handling\n- iPhone and iPad support\n- No ads\n\nCOMING SOON\n- Other programming sites will be returning shortly. The feature has briefly been removed with the latest update, as it is being reworked\n- Split view for opening multiple sites at once\n- Support for multitasking on iPad\n- Markdown toolbar, automatically recognizes when a text cell is being edited\n- Ability to upload an image from your photos album to a text cell.\n- Copy/paste functionality\n- Swipe from edges to navigate backwards/forwards, allows us to preserve space on screen by removing unnecessary navigation buttons\n- Search history"
+    },
+    "im:price": {
+      "label": "NT$190.00",
+      "attributes": {
+        "amount": "190",
+        "currency": "TWD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Ryan Rudes"
+    },
+    "title": {
+      "label": "Programming Notebook PRO - Xylemark Games Corp."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/tw/app/programming-notebook-pro/id1521883614?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/40/07/c9/4007c95f-5b45-95d1-7ed2-211987e2cbf4/e60eea41-9d07-4882-bf28-5c96eb650311_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-05-06_at_18.41.09.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/tw/app/programming-notebook-pro/id1521883614?l=en&uo=2",
+      "attributes": {
+        "im:id": "1521883614",
+        "im:bundleId": "com.appconda.ryan-rudes"
+      }
+    },
+    "im:artist": {
+      "label": "Xylemark Games Corp.",
+      "attributes": {
+        "href": "https://apps.apple.com/tw/developer/xylemark-games-corp/id804250931?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/tw/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-07-07T00:00:00-07:00",
+      "attributes": {
+        "label": "July 7, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "tw",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 9,
+      "total": 75
+    },
+    "im:name": {
       "label": "PPHub For GitHub - Developer"
     },
     "im:image": [
@@ -820,7 +922,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 75
     },
     "im:name": {
@@ -922,7 +1024,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 11,
       "total": 75
     },
     "im:name": {
@@ -1024,7 +1126,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 12,
       "total": 75
     },
     "im:name": {
@@ -1126,7 +1228,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 13,
       "total": 75
     },
     "im:name": {
@@ -1228,7 +1330,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 14,
       "total": 75
     },
     "im:name": {
@@ -1330,7 +1432,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 15,
       "total": 75
     },
     "im:name": {
@@ -1432,7 +1534,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 16,
       "total": 75
     },
     "im:name": {
@@ -1534,7 +1636,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 17,
       "total": 75
     },
     "im:name": {
@@ -1636,7 +1738,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 75
     },
     "im:name": {
@@ -1738,7 +1840,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 19,
       "total": 75
     },
     "im:name": {
@@ -1840,7 +1942,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 20,
       "total": 75
     },
     "im:name": {
@@ -1942,7 +2044,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 21,
       "total": 75
     },
     "im:name": {
@@ -2044,7 +2146,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 75
     },
     "im:name": {
@@ -2146,7 +2248,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 75
     },
     "im:name": {
@@ -2248,7 +2350,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 24,
       "total": 75
     },
     "im:name": {
@@ -2350,7 +2452,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 25,
       "total": 75
     },
     "im:name": {
@@ -2452,7 +2554,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 26,
       "total": 75
     },
     "im:name": {
@@ -2554,7 +2656,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 75
     },
     "im:name": {
@@ -2656,7 +2758,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 28,
       "total": 75
     },
     "im:name": {
@@ -2758,7 +2860,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 29,
       "total": 75
     },
     "im:name": {
@@ -2857,7 +2959,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 30,
       "total": 75
     },
     "im:name": {
@@ -2959,7 +3061,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 31,
       "total": 75
     },
     "im:name": {
@@ -3061,7 +3163,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
+      "index": 32,
       "total": 75
     },
     "im:name": {
@@ -3163,7 +3265,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 32,
+      "index": 33,
       "total": 75
     },
     "im:name": {
@@ -3265,7 +3367,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 34,
       "total": 75
     },
     "im:name": {
@@ -3367,7 +3469,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 35,
       "total": 75
     },
     "im:name": {
@@ -3469,7 +3571,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 75
     },
     "im:name": {
@@ -3571,7 +3673,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 37,
       "total": 75
     },
     "im:name": {
@@ -3673,7 +3775,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 37,
+      "index": 38,
       "total": 75
     },
     "im:name": {
@@ -3775,7 +3877,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 38,
+      "index": 39,
       "total": 75
     },
     "im:name": {
@@ -3877,7 +3979,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 39,
+      "index": 40,
       "total": 75
     },
     "im:name": {
@@ -3979,7 +4081,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 40,
+      "index": 41,
       "total": 75
     },
     "im:name": {
@@ -4081,7 +4183,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 41,
+      "index": 42,
       "total": 75
     },
     "im:name": {
@@ -4183,7 +4285,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 42,
+      "index": 43,
       "total": 75
     },
     "im:name": {
@@ -4285,7 +4387,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 43,
+      "index": 44,
       "total": 75
     },
     "im:name": {
@@ -4387,7 +4489,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 44,
+      "index": 45,
       "total": 75
     },
     "im:name": {
@@ -4489,7 +4591,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 45,
+      "index": 46,
       "total": 75
     },
     "im:name": {
@@ -4591,7 +4693,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 46,
+      "index": 47,
       "total": 75
     },
     "im:name": {
@@ -4693,7 +4795,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 47,
+      "index": 48,
       "total": 75
     },
     "im:name": {
@@ -4795,7 +4897,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 48,
+      "index": 49,
       "total": 75
     },
     "im:name": {
@@ -4897,7 +4999,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 49,
+      "index": 50,
       "total": 75
     },
     "im:name": {
@@ -4999,7 +5101,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 50,
+      "index": 51,
       "total": 75
     },
     "im:name": {
@@ -5101,7 +5203,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 51,
+      "index": 52,
       "total": 75
     },
     "im:name": {
@@ -5203,7 +5305,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 52,
+      "index": 53,
       "total": 75
     },
     "im:name": {
@@ -5305,7 +5407,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 53,
+      "index": 54,
       "total": 75
     },
     "im:name": {
@@ -5407,7 +5509,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 54,
+      "index": 55,
       "total": 75
     },
     "im:name": {
@@ -5509,7 +5611,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 55,
+      "index": 56,
       "total": 75
     },
     "im:name": {
@@ -5611,7 +5713,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 56,
+      "index": 57,
       "total": 75
     },
     "im:name": {
@@ -5713,7 +5815,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 57,
+      "index": 58,
       "total": 75
     },
     "im:name": {
@@ -5815,7 +5917,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 58,
+      "index": 59,
       "total": 75
     },
     "im:name": {
@@ -5917,7 +6019,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 59,
+      "index": 60,
       "total": 75
     },
     "im:name": {
@@ -6019,7 +6121,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 60,
+      "index": 61,
       "total": 75
     },
     "im:name": {
@@ -6121,7 +6223,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 61,
+      "index": 62,
       "total": 75
     },
     "im:name": {
@@ -6223,7 +6325,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 62,
+      "index": 63,
       "total": 75
     },
     "im:name": {
@@ -6325,7 +6427,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 63,
+      "index": 64,
       "total": 75
     },
     "im:name": {
@@ -6427,7 +6529,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 64,
+      "index": 65,
       "total": 75
     },
     "im:name": {
@@ -6529,7 +6631,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 65,
+      "index": 66,
       "total": 75
     },
     "im:name": {
@@ -6631,7 +6733,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 66,
+      "index": 67,
       "total": 75
     },
     "im:name": {
@@ -6733,7 +6835,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 67,
+      "index": 68,
       "total": 75
     },
     "im:name": {
@@ -6835,7 +6937,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 68,
+      "index": 69,
       "total": 75
     },
     "im:name": {
@@ -6937,7 +7039,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 69,
+      "index": 70,
       "total": 75
     },
     "im:name": {
@@ -7039,7 +7141,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 70,
+      "index": 71,
       "total": 75
     },
     "im:name": {
@@ -7141,7 +7243,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 71,
+      "index": 72,
       "total": 75
     },
     "im:name": {
@@ -7243,7 +7345,7 @@
       "country_code": "tw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 72,
+      "index": 73,
       "total": 75
     },
     "im:name": {
@@ -7337,108 +7439,6 @@
       "label": "2018-04-22T00:03:11-07:00",
       "attributes": {
         "label": "April 22, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "tw",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 73,
-      "total": 75
-    },
-    "im:name": {
-      "label": "My Lisp"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/8c/39/99/8c3999fb-bb17-1063-c4ad-e60ec6a435bd/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/8c/39/99/8c3999fb-bb17-1063-c4ad-e60ec6a435bd/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/8c/39/99/8c3999fb-bb17-1063-c4ad-e60ec6a435bd/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
-    },
-    "im:price": {
-      "label": "NT$130.00",
-      "attributes": {
-        "amount": "130",
-        "currency": "TWD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2008-2022 Laurent Rodier."
-    },
-    "title": {
-      "label": "My Lisp - Laurent Rodier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/tw/app/my-lisp/id1245341806?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/26/44/0b/26440bc9-0c21-cf79-ae3e-6aab20c464f0/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/tw/app/my-lisp/id1245341806?l=en&uo=2",
-      "attributes": {
-        "im:id": "1245341806",
-        "im:bundleId": "net.lsrodier.MyLisp"
-      }
-    },
-    "im:artist": {
-      "label": "Laurent Rodier",
-      "attributes": {
-        "href": "https://apps.apple.com/tw/developer/laurent-rodier/id697920086?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/tw/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-07T11:32:31-07:00",
-      "attributes": {
-        "label": "November 7, 2017"
       }
     }
   },

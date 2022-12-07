@@ -5,313 +5,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 1,
-      "total": 56
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "HUF1,990.00",
-      "attributes": {
-        "amount": "1990",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/f9/91/1c/f9911c57-aa25-9681-cc94-9d70c59f56bd/075b5e02-5dda-4ba8-b97f-525643e9200e_1.1.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/hu/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 2,
-      "total": 56
-    },
-    "im:name": {
-      "label": "AirTerminal - BLE Terminal"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/1f/fb/c41ffba2-711b-f474-1566-f0c9894c92e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/1f/fb/c41ffba2-711b-f474-1566-f0c9894c92e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/1f/fb/c41ffba2-711b-f474-1566-f0c9894c92e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "AirTerminal is a Bluetooth (BLE) terminal for embedded devices such as Raspberry Pi, BeagleBone, Arduino Yún and more. With AirTerminal, you can easily access the console / shell of your embedded devices without a Internet / SSH connection.\n\n(To use AirTerminal, an additional BLE serial adapter is required.)\n\n\nFeatures:\n- Full feature terminal works with bash, vim, top, tmux and more.\n- Hardware keyboard support.\n- Addition buttons to input ESC, TAB, CTL or cursor keys easily.\n- A \"Fit\" button uses \"stty\" command to adjust terminal size automatically.\n- Support central and peripheral mode.\n- Send or receive files with XMODEM protocol"
-    },
-    "im:price": {
-      "label": "HUF799.00",
-      "attributes": {
-        "amount": "799",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Blanboom"
-    },
-    "title": {
-      "label": "AirTerminal - BLE Terminal - Xiaozhong Ma"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/airterminal-ble-terminal/id1296588408?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/38/3e/04/383e04ee-91eb-feb3-c426-b50ccc1da9fe/mzl.uqmwlptw.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/airterminal-ble-terminal/id1296588408?uo=2",
-      "attributes": {
-        "im:id": "1296588408",
-        "im:bundleId": "org.blanboom.airterm"
-      }
-    },
-    "im:artist": {
-      "label": "Xiaozhong Ma",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/xiaozhong-ma/id1120243545?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/hu/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-29T16:28:40-07:00",
-      "attributes": {
-        "label": "November 29, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
-      "total": 56
-    },
-    "im:name": {
-      "label": "Zeitgeist"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
-    },
-    "im:price": {
-      "label": "HUF799.00",
-      "attributes": {
-        "amount": "799",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Daniel Eden"
-    },
-    "title": {
-      "label": "Zeitgeist - Dan Eden"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/zeitgeist/id1526052028?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5f/93/a4/5f93a413-d500-82f9-6ce5-027b9fb610a5/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/zeitgeist/id1526052028?uo=2",
-      "attributes": {
-        "im:id": "1526052028",
-        "im:bundleId": "me.daneden.Zeitgeist"
-      }
-    },
-    "im:artist": {
-      "label": "Dan Eden",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/dan-eden/id508167369?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/hu/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-02T00:00:00-07:00",
-      "attributes": {
-        "label": "December 2, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 4,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Textastic Code Editor"
@@ -412,8 +106,8 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
-      "total": 56
+      "index": 2,
+      "total": 55
     },
     "im:name": {
       "label": "Buffer Editor - Code Editor"
@@ -514,39 +208,39 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
-      "total": 56
+      "index": 3,
+      "total": 55
     },
     "im:name": {
-      "label": "Number System Converter Pro"
+      "label": "Docker Management"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/2d/ff/d9/2dffd9c9-40c5-46d1-3464-d5375811b8af/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/2d/ff/d9/2dffd9c9-40c5-46d1-3464-d5375811b8af/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/2d/ff/d9/2dffd9c9-40c5-46d1-3464-d5375811b8af/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Get the ad free experience of our popular Number System Converter with this Pro version of the app.\nNumber System Converter Pro lets you convert between decimal, binary, hexadecimal and Octal values or simply choose any other base.\nAll the values are calculated simultaneously and visible at the same time. \n\n\nYou can convert between decimal, binary, hexadecimal and Octal values or simply choose any other base."
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
     },
     "im:price": {
-      "label": "HUF1,290.00",
+      "label": "HUF1,990.00",
       "attributes": {
-        "amount": "1290",
+        "amount": "1990",
         "currency": "HUF"
       }
     },
@@ -557,17 +251,17 @@
       }
     },
     "rights": {
-      "label": "© Julian Lau"
+      "label": "© nevishs"
     },
     "title": {
-      "label": "Number System Converter Pro - Julian Lau"
+      "label": "Docker Management - Nevis Shkenza"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/number-system-converter-pro/id1616033906?uo=2"
+          "href": "https://apps.apple.com/hu/app/docker-management/id1527656144?uo=2"
         }
       },
       {
@@ -578,22 +272,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0e/89/4c/0e894c1b-3827-c79b-ed88-35a7ba156851/813bd549-ecf1-47c0-8f38-65a87d2d96e6_1.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/f9/91/1c/f9911c57-aa25-9681-cc94-9d70c59f56bd/075b5e02-5dda-4ba8-b97f-525643e9200e_1.1.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/hu/app/number-system-converter-pro/id1616033906?uo=2",
+      "label": "https://apps.apple.com/hu/app/docker-management/id1527656144?uo=2",
       "attributes": {
-        "im:id": "1616033906",
-        "im:bundleId": "app.netlify.number-system-converter-pro"
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
       }
     },
     "im:artist": {
-      "label": "Julian Lau",
+      "label": "Nevis Shkenza",
       "attributes": {
-        "href": "https://apps.apple.com/hu/developer/julian-lau/id1603050262?uo=2"
+        "href": "https://apps.apple.com/hu/developer/nevis-shkenza/id1268450891?uo=2"
       }
     },
     "category": {
@@ -605,9 +299,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2022-03-26T00:00:00-07:00",
+      "label": "2020-08-14T00:00:00-07:00",
       "attributes": {
-        "label": "March 26, 2022"
+        "label": "August 14, 2020"
       }
     }
   },
@@ -616,8 +310,212 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
-      "total": 56
+      "index": 4,
+      "total": 55
+    },
+    "im:name": {
+      "label": "AirTerminal - BLE Terminal"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/1f/fb/c41ffba2-711b-f474-1566-f0c9894c92e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/1f/fb/c41ffba2-711b-f474-1566-f0c9894c92e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/1f/fb/c41ffba2-711b-f474-1566-f0c9894c92e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "AirTerminal is a Bluetooth (BLE) terminal for embedded devices such as Raspberry Pi, BeagleBone, Arduino Yún and more. With AirTerminal, you can easily access the console / shell of your embedded devices without a Internet / SSH connection.\n\n(To use AirTerminal, an additional BLE serial adapter is required.)\n\n\nFeatures:\n- Full feature terminal works with bash, vim, top, tmux and more.\n- Hardware keyboard support.\n- Addition buttons to input ESC, TAB, CTL or cursor keys easily.\n- A \"Fit\" button uses \"stty\" command to adjust terminal size automatically.\n- Support central and peripheral mode.\n- Send or receive files with XMODEM protocol"
+    },
+    "im:price": {
+      "label": "HUF799.00",
+      "attributes": {
+        "amount": "799",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Blanboom"
+    },
+    "title": {
+      "label": "AirTerminal - BLE Terminal - Xiaozhong Ma"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/airterminal-ble-terminal/id1296588408?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/38/3e/04/383e04ee-91eb-feb3-c426-b50ccc1da9fe/mzl.uqmwlptw.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/airterminal-ble-terminal/id1296588408?uo=2",
+      "attributes": {
+        "im:id": "1296588408",
+        "im:bundleId": "org.blanboom.airterm"
+      }
+    },
+    "im:artist": {
+      "label": "Xiaozhong Ma",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/xiaozhong-ma/id1120243545?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/hu/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-11-29T16:28:40-07:00",
+      "attributes": {
+        "label": "November 29, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 5,
+      "total": 55
+    },
+    "im:name": {
+      "label": "Zeitgeist"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
+    },
+    "im:price": {
+      "label": "HUF799.00",
+      "attributes": {
+        "amount": "799",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Daniel Eden"
+    },
+    "title": {
+      "label": "Zeitgeist - Dan Eden"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/zeitgeist/id1526052028?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5f/93/a4/5f93a413-d500-82f9-6ce5-027b9fb610a5/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/zeitgeist/id1526052028?uo=2",
+      "attributes": {
+        "im:id": "1526052028",
+        "im:bundleId": "me.daneden.Zeitgeist"
+      }
+    },
+    "im:artist": {
+      "label": "Dan Eden",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/dan-eden/id508167369?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/hu/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-12-02T00:00:00-07:00",
+      "attributes": {
+        "label": "December 2, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 6,
+      "total": 55
     },
     "im:name": {
       "label": "Smart NFC"
@@ -718,8 +616,110 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
+      "index": 7,
+      "total": 55
+    },
+    "im:name": {
+      "label": "Number System Converter Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/2d/ff/d9/2dffd9c9-40c5-46d1-3464-d5375811b8af/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/2d/ff/d9/2dffd9c9-40c5-46d1-3464-d5375811b8af/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/2d/ff/d9/2dffd9c9-40c5-46d1-3464-d5375811b8af/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Get the ad free experience of our popular Number System Converter with this Pro version of the app.\nNumber System Converter Pro lets you convert between decimal, binary, hexadecimal and Octal values or simply choose any other base.\nAll the values are calculated simultaneously and visible at the same time. \n\n\nYou can convert between decimal, binary, hexadecimal and Octal values or simply choose any other base."
+    },
+    "im:price": {
+      "label": "HUF1,290.00",
+      "attributes": {
+        "amount": "1290",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Julian Lau"
+    },
+    "title": {
+      "label": "Number System Converter Pro - Julian Lau"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/number-system-converter-pro/id1616033906?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0e/89/4c/0e894c1b-3827-c79b-ed88-35a7ba156851/813bd549-ecf1-47c0-8f38-65a87d2d96e6_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/number-system-converter-pro/id1616033906?uo=2",
+      "attributes": {
+        "im:id": "1616033906",
+        "im:bundleId": "app.netlify.number-system-converter-pro"
+      }
+    },
+    "im:artist": {
+      "label": "Julian Lau",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/julian-lau/id1603050262?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/hu/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-03-26T00:00:00-07:00",
+      "attributes": {
+        "label": "March 26, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "developer_tools",
       "index": 8,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Blink Shell 14: Legacy"
@@ -821,7 +821,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 9,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Code App"
@@ -923,7 +923,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 10,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "MongoLime - manage databases"
@@ -1025,7 +1025,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 11,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Packet Sender - UDP/ TCP/ SSL"
@@ -1127,7 +1127,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 12,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Inspect Browser"
@@ -1229,7 +1229,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 13,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "DraftCode Local PHP"
@@ -1331,7 +1331,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 14,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "LadderTouch"
@@ -1433,7 +1433,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 15,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "ESP32 BLE Terminal"
@@ -1535,7 +1535,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 16,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "UCoW - Ultimate Code Wrapper"
@@ -1637,7 +1637,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 17,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Source Code Reader"
@@ -1739,7 +1739,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 18,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Netdata server monitoring"
@@ -1841,7 +1841,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 19,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Kuber - Kubernetes Dashboard"
@@ -1943,7 +1943,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 20,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Lighthouse Score"
@@ -2045,7 +2045,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 21,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Node-PAD"
@@ -2147,7 +2147,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 22,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "RevenueCat Sales: RCReporting"
@@ -2249,7 +2249,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 23,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "OpenTerm"
@@ -2351,7 +2351,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 24,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Hexer — Hex File Viewer"
@@ -2453,7 +2453,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 25,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Juno: Jupyter/Python IDE"
@@ -2555,7 +2555,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 26,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Adaptivity (A)"
@@ -2657,7 +2657,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 27,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Source 3"
@@ -2759,7 +2759,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 28,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "IDFA"
@@ -2861,7 +2861,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 29,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "UIdraw"
@@ -2963,7 +2963,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 30,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "RegEx Lab: Regular Expressions"
@@ -3065,7 +3065,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 31,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "php$ - programming language"
@@ -3167,7 +3167,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 32,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "MongoGrip"
@@ -3269,7 +3269,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 33,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Terminal Commands Pro"
@@ -3371,7 +3371,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 34,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "App icon Generator: icon Maker"
@@ -3473,7 +3473,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 35,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Logger for Shortcuts"
@@ -3575,7 +3575,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 36,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "CodeTree"
@@ -3677,7 +3677,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 37,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "StoreShot"
@@ -3779,7 +3779,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 38,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "DashTabs: Firebase, AdMob …"
@@ -3881,7 +3881,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 39,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "JavaScript Recipes Pro"
@@ -3983,7 +3983,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 40,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Text Editor - Document Editor"
@@ -4085,7 +4085,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 41,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "HapticKit"
@@ -4187,7 +4187,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 42,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "ScriptWidget"
@@ -4289,7 +4289,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 43,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "auth. - 2FA Smart Sync"
@@ -4391,7 +4391,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 44,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "App ScreenShots for Developer"
@@ -4493,7 +4493,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 45,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "SecurityKit - Developer Tools"
@@ -4595,7 +4595,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 46,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "200OK - API Monitoring Widget"
@@ -4697,7 +4697,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 47,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Wireshark Helper - Decrypt TLS"
@@ -4799,7 +4799,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 48,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "BetterAppIcons"
@@ -4901,7 +4901,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 49,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "PingTools Network Utilities"
@@ -5000,7 +5000,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 50,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Fabula"
@@ -5102,7 +5102,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 51,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Lorem Ipsum Keyboard"
@@ -5204,7 +5204,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 52,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Http Traffic pro - sniffer"
@@ -5306,7 +5306,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 53,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "StudIO - Code"
@@ -5408,7 +5408,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 54,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "PPHub For GitHub - Developer"
@@ -5510,109 +5510,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 55,
-      "total": 56
-    },
-    "im:name": {
-      "label": "App Icon Generator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/de/02/01/de02017a-dc9f-f0bb-20d9-47cf552dd890/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/de/02/01/de02017a-dc9f-f0bb-20d9-47cf552dd890/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/de/02/01/de02017a-dc9f-f0bb-20d9-47cf552dd890/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Generate your app icons in seconds for iOS, watchOS, iMessage Apps, macOS and more with just a few taps!\n\n1. Choose your icon image from your Photo Library or from Files.\n2. Choose the devices that you would like to export for.\n3. Tap export.\n\nAll of your icons are then exported into the selected folder, named by size and automatically converted to PNG ready for use. App Icon Generator is updated to support the current size and resolution requirements for new devices and icon sizes.\n\nThe icons for this app were generated using this app."
-    },
-    "im:price": {
-      "label": "HUF799.00",
-      "attributes": {
-        "amount": "799",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2017 - 2022 Thomas Coomer"
-    },
-    "title": {
-      "label": "App Icon Generator - Thomas Coomer"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/app-icon-generator/id1253599389?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/85/77/80/857780c2-b2cb-36c6-77c3-bcecb468cba1/924b7253-a220-434e-a382-045e6e6b2452_pad_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/app-icon-generator/id1253599389?uo=2",
-      "attributes": {
-        "im:id": "1253599389",
-        "im:bundleId": "com.smudgeinc.Icon-Generator"
-      }
-    },
-    "im:artist": {
-      "label": "Thomas Coomer",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/thomas-coomer/id1006451481?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/hu/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-06-29T20:04:58-07:00",
-      "attributes": {
-        "label": "June 29, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 56,
-      "total": 56
+      "total": 55
     },
     "im:name": {
       "label": "Code Recipes Pro"

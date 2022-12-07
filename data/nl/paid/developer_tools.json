@@ -314,108 +314,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "€ 5,99",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/docker-management/id1527656144?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/f9/91/1c/f9911c57-aa25-9681-cc94-9d70c59f56bd/075b5e02-5dda-4ba8-b97f-525643e9200e_1.1.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/nl/app/docker-management/id1527656144?l=en&uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/nl/developer/nevis-shkenza/id1268450891?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "nl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
-      "total": 99
-    },
-    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -514,7 +412,7 @@
       "country_code": "nl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -616,7 +514,7 @@
       "country_code": "nl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -710,6 +608,108 @@
       "label": "2012-03-01T16:33:04-07:00",
       "attributes": {
         "label": "March 1, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "nl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 7,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/0f/b8/f20fb8be-c842-3da5-a4d2-ab315bce0c98/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "€ 5,99",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/nl/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/f9/91/1c/f9911c57-aa25-9681-cc94-9d70c59f56bd/075b5e02-5dda-4ba8-b97f-525643e9200e_1.1.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/nl/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/nl/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
       }
     }
   },
@@ -1334,6 +1334,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Juno: Jupyter/Python IDE"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/13/f1/bd/13f1bd39-1995-5b50-6a7c-53dadc4769a4/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/13/f1/bd/13f1bd39-1995-5b50-6a7c-53dadc4769a4/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/13/f1/bd/13f1bd39-1995-5b50-6a7c-53dadc4769a4/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Juno — zero-setup Jupyter/Python environment in a first-class citizen app for iPad and iPhone.\n\nJuno is a Python IDE that works with Jupyter notebooks — a document format with focus on applying Python to data analysis and computational science. Notebooks make great Python coding playgrounds for data manipulation and experiments, and Juno makes working with them a breeze!\n\nWith Juno you can:\n\n• Start coding right away with our zero-setup and user friendly Jupyter/Python IDE\n• Use Jupyter notebooks as programming and data science playgrounds\n• Leverage powerful data analysis and machine learning tools: NumPy, Matplotlib, SciPy, Scikit-learn, Pandas, LXML and others\n• Run Python code right on your iPhone or iPad in a first-class citizen native app, completely offline\n• Install pure Python packages easily with intuitive package manager\n• Take full advantage of your keyboard and trackpad in our full-featured code editor\n• Utilise full multitasking and multi-window capabilities on iPad\n\n\nWHAT ARE JUPYTER NOTEBOOKS?\n\nJupyter notebook is a document format that allows storing live code, markdown text, plots, images and equations in LaTeX — all wrapped into a single notebook file. This makes Jupyter notebooks a great learning tool, whether you learn to code, or try to build and practice your data analysis skills.\n\nNotebook documents keep record of all inputs and outputs of the interactive programming session, and the rich output generated by running Python scripts (including HTML, images, video, and plots) is embedded into the Jupyter notebook document. They are especially convenient if you are coding in Python for data analysis, machine learning, or computational science in general.\n\nA notebook consists of a sequence of cells, each representing either a narrative text in a form of markdown text or HTML, or a coding script with a text or media output. This makes notebooks both human-readable documents with the analysis description and the results (figures, tables, etc), as well as executable scripts for data analysis or plain programming. You can use Jupyter notebook as a document with optional executable code in it, or simply as a programming playground for data manipulation and experiments.\n\n\nWHO IS JUNO FOR?\n\nJuno offers a great programming environment if you use (or learn to use) Python for data analysis, machine learning or computational science. Jupyter notebooks can be a great educational tool if you learn Python or want to practice coding, especially in the context of data science — this makes Juno both a perfect learning companion, and a great developer tool where you can practice your new programming and data analysis skills."
+    },
+    "im:price": {
+      "label": "€ 17,99",
+      "attributes": {
+        "amount": "17.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Rational Matter Ltd"
+    },
+    "title": {
+      "label": "Juno: Jupyter/Python IDE - Rational Matter"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/nl/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9f/5f/02/9f5f02db-e894-d177-b5de-3d2b31996116/093f7443-5241-43c5-bdab-f03012a6a4c4_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/nl/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2",
+      "attributes": {
+        "im:id": "1462586500",
+        "im:bundleId": "com.rationalmatter.junoapp"
+      }
+    },
+    "im:artist": {
+      "label": "Rational Matter",
+      "attributes": {
+        "href": "https://apps.apple.com/nl/developer/rational-matter/id1315744136?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-09-26T00:00:00-07:00",
+      "attributes": {
+        "label": "September 26, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "nl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 15,
+      "total": 99
+    },
+    "im:name": {
       "label": "RevenueCat Sales: RCReporting"
     },
     "im:image": [
@@ -1432,7 +1534,7 @@
       "country_code": "nl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1526,108 +1628,6 @@
       "label": "2020-12-02T00:00:00-07:00",
       "attributes": {
         "label": "December 2, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "nl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 16,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Juno: Jupyter/Python IDE"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/13/f1/bd/13f1bd39-1995-5b50-6a7c-53dadc4769a4/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/13/f1/bd/13f1bd39-1995-5b50-6a7c-53dadc4769a4/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/13/f1/bd/13f1bd39-1995-5b50-6a7c-53dadc4769a4/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Juno — zero-setup Jupyter/Python environment in a first-class citizen app for iPad and iPhone.\n\nJuno is a Python IDE that works with Jupyter notebooks — a document format with focus on applying Python to data analysis and computational science. Notebooks make great Python coding playgrounds for data manipulation and experiments, and Juno makes working with them a breeze!\n\nWith Juno you can:\n\n• Start coding right away with our zero-setup and user friendly Jupyter/Python IDE\n• Use Jupyter notebooks as programming and data science playgrounds\n• Leverage powerful data analysis and machine learning tools: NumPy, Matplotlib, SciPy, Scikit-learn, Pandas, LXML and others\n• Run Python code right on your iPhone or iPad in a first-class citizen native app, completely offline\n• Install pure Python packages easily with intuitive package manager\n• Take full advantage of your keyboard and trackpad in our full-featured code editor\n• Utilise full multitasking and multi-window capabilities on iPad\n\n\nWHAT ARE JUPYTER NOTEBOOKS?\n\nJupyter notebook is a document format that allows storing live code, markdown text, plots, images and equations in LaTeX — all wrapped into a single notebook file. This makes Jupyter notebooks a great learning tool, whether you learn to code, or try to build and practice your data analysis skills.\n\nNotebook documents keep record of all inputs and outputs of the interactive programming session, and the rich output generated by running Python scripts (including HTML, images, video, and plots) is embedded into the Jupyter notebook document. They are especially convenient if you are coding in Python for data analysis, machine learning, or computational science in general.\n\nA notebook consists of a sequence of cells, each representing either a narrative text in a form of markdown text or HTML, or a coding script with a text or media output. This makes notebooks both human-readable documents with the analysis description and the results (figures, tables, etc), as well as executable scripts for data analysis or plain programming. You can use Jupyter notebook as a document with optional executable code in it, or simply as a programming playground for data manipulation and experiments.\n\n\nWHO IS JUNO FOR?\n\nJuno offers a great programming environment if you use (or learn to use) Python for data analysis, machine learning or computational science. Jupyter notebooks can be a great educational tool if you learn Python or want to practice coding, especially in the context of data science — this makes Juno both a perfect learning companion, and a great developer tool where you can practice your new programming and data analysis skills."
-    },
-    "im:price": {
-      "label": "€ 17,99",
-      "attributes": {
-        "amount": "17.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Rational Matter Ltd"
-    },
-    "title": {
-      "label": "Juno: Jupyter/Python IDE - Rational Matter"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9f/5f/02/9f5f02db-e894-d177-b5de-3d2b31996116/093f7443-5241-43c5-bdab-f03012a6a4c4_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/nl/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2",
-      "attributes": {
-        "im:id": "1462586500",
-        "im:bundleId": "com.rationalmatter.junoapp"
-      }
-    },
-    "im:artist": {
-      "label": "Rational Matter",
-      "attributes": {
-        "href": "https://apps.apple.com/nl/developer/rational-matter/id1315744136?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-09-26T00:00:00-07:00",
-      "attributes": {
-        "label": "September 26, 2019"
       }
     }
   },
@@ -1946,6 +1946,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Hexer — Hex File Viewer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive or your desktop. Or you can just share any file to it.\n\nBytes are highlighted in different colors: Printable characters are cyan, spaces blue, null bytes grey, control characters pink and so on. The colors appear across the binary, hexadecimal, and ascii column — or can just be turned off completely.\n\n▶ Many advanced options\n• Many popular themes from text editors and terminals\n• Line numbers (offsets)\n• Overscroll\n• Complete control over the formatting of what you copy or share\n• Column counts in powers of two (8 bytes, 16, 32, ...) or in any number that fits\n• Interpret bytes as ASCII, ISO Latin 1 or EBCDIC\n• The UI is navigable by keyboard and there are keyboard shortcuts to toggle almost everything\n• Further features for you to discover\n\n▶ Search\n• Search for content in the hexadecimal, ASCII or binary column\n• Preview results with context and jump to and highlight them in the document\n• Filter results with Regular Expression and based on case sensitivity\n• Jump between results with arrow keys\n\n▶ Analysis\n• Get information about the selection or the entire document\n• Decode to integers\n• See byte frequencies\n• See detected file signatures (magic numbers)\n• Read metadata like creation date and Unix permissions\n\n▶ The App is made by a real person out of love\nWhen you buy the app (no hidden in app purchases) the money goes straight to me to support development. If you have any questions or feature requests you can just write me an email and let me know. I will continue development with many more planned features like editing.\n\n▶ The App is friendly\nThere are no in app purchases, ads, tracking, nor is there any data collected. You buy it once and then use it. Nothing more. Nothing less."
+    },
+    "im:price": {
+      "label": "€ 4,99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Hans Schülein"
+    },
+    "title": {
+      "label": "Hexer — Hex File Viewer - Hans Schulein"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/nl/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/01/21/c2/0121c269-851f-dfb4-c75a-f78390e4fd5d/ffdc3ba6-bddd-443b-8f9d-2c29abeb249a_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-0_Main_framed.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/nl/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2",
+      "attributes": {
+        "im:id": "1468880337",
+        "im:bundleId": "com.hans.Hexer"
+      }
+    },
+    "im:artist": {
+      "label": "Hans Schulein",
+      "attributes": {
+        "href": "https://apps.apple.com/nl/developer/hans-schulein/id1247291041?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-10-01T00:00:00-07:00",
+      "attributes": {
+        "label": "October 1, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "nl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 21,
+      "total": 99
+    },
+    "im:name": {
       "label": "MermaidEditor"
     },
     "im:image": [
@@ -2044,7 +2146,7 @@
       "country_code": "nl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2138,108 +2240,6 @@
       "label": "2021-05-12T00:00:00-07:00",
       "attributes": {
         "label": "May 12, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "nl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 22,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Hexer — Hex File Viewer"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive or your desktop. Or you can just share any file to it.\n\nBytes are highlighted in different colors: Printable characters are cyan, spaces blue, null bytes grey, control characters pink and so on. The colors appear across the binary, hexadecimal, and ascii column — or can just be turned off completely.\n\n▶ Many advanced options\n• Many popular themes from text editors and terminals\n• Line numbers (offsets)\n• Overscroll\n• Complete control over the formatting of what you copy or share\n• Column counts in powers of two (8 bytes, 16, 32, ...) or in any number that fits\n• Interpret bytes as ASCII, ISO Latin 1 or EBCDIC\n• The UI is navigable by keyboard and there are keyboard shortcuts to toggle almost everything\n• Further features for you to discover\n\n▶ Search\n• Search for content in the hexadecimal, ASCII or binary column\n• Preview results with context and jump to and highlight them in the document\n• Filter results with Regular Expression and based on case sensitivity\n• Jump between results with arrow keys\n\n▶ Analysis\n• Get information about the selection or the entire document\n• Decode to integers\n• See byte frequencies\n• See detected file signatures (magic numbers)\n• Read metadata like creation date and Unix permissions\n\n▶ The App is made by a real person out of love\nWhen you buy the app (no hidden in app purchases) the money goes straight to me to support development. If you have any questions or feature requests you can just write me an email and let me know. I will continue development with many more planned features like editing.\n\n▶ The App is friendly\nThere are no in app purchases, ads, tracking, nor is there any data collected. You buy it once and then use it. Nothing more. Nothing less."
-    },
-    "im:price": {
-      "label": "€ 4,99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Hans Schülein"
-    },
-    "title": {
-      "label": "Hexer — Hex File Viewer - Hans Schulein"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/01/21/c2/0121c269-851f-dfb4-c75a-f78390e4fd5d/ffdc3ba6-bddd-443b-8f9d-2c29abeb249a_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-0_Main_framed.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/nl/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2",
-      "attributes": {
-        "im:id": "1468880337",
-        "im:bundleId": "com.hans.Hexer"
-      }
-    },
-    "im:artist": {
-      "label": "Hans Schulein",
-      "attributes": {
-        "href": "https://apps.apple.com/nl/developer/hans-schulein/id1247291041?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-10-01T00:00:00-07:00",
-      "attributes": {
-        "label": "October 1, 2019"
       }
     }
   },
@@ -2660,108 +2660,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Sprite Cutter+"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/bf/b3/f0/bfb3f00a-ba27-a93d-4d24-4928a0a3fe55/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/bf/b3/f0/bfb3f00a-ba27-a93d-4d24-4928a0a3fe55/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/bf/b3/f0/bfb3f00a-ba27-a93d-4d24-4928a0a3fe55/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Sprite Cutter allows you to quickly cut spritesheets into separate sprite PNG images. It is simple and even works with spritesheets that have spacing between sprites.\n\nAutomate your workflow using the Sprite Cutter shortcut action!"
-    },
-    "im:price": {
-      "label": "€ 1,19",
-      "attributes": {
-        "amount": "1.19",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Jayden Irwin"
-    },
-    "title": {
-      "label": "Sprite Cutter+ - Jayden Irwin"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/sprite-cutter/id1562779425?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/7d/e9/73/7de9732e-6912-ddf6-a0bc-bb09dd31748b/2a740e00-52c0-42f1-9f3d-13c5b4c63f9f_Old_Pad.PNG/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/nl/app/sprite-cutter/id1562779425?l=en&uo=2",
-      "attributes": {
-        "im:id": "1562779425",
-        "im:bundleId": "com.jaydenirwin.spritecutter"
-      }
-    },
-    "im:artist": {
-      "label": "Jayden Irwin",
-      "attributes": {
-        "href": "https://apps.apple.com/nl/developer/jayden-irwin/id1437835951?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-04-13T00:00:00-07:00",
-      "attributes": {
-        "label": "April 13, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "nl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 28,
-      "total": 99
-    },
-    "im:name": {
       "label": "Code App"
     },
     "im:image": [
@@ -2860,7 +2758,7 @@
       "country_code": "nl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2954,6 +2852,108 @@
       "label": "2018-01-23T20:31:52-07:00",
       "attributes": {
         "label": "January 23, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "nl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 29,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Sprite Cutter+"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/bf/b3/f0/bfb3f00a-ba27-a93d-4d24-4928a0a3fe55/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/bf/b3/f0/bfb3f00a-ba27-a93d-4d24-4928a0a3fe55/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/bf/b3/f0/bfb3f00a-ba27-a93d-4d24-4928a0a3fe55/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Sprite Cutter allows you to quickly cut spritesheets into separate sprite PNG images. It is simple and even works with spritesheets that have spacing between sprites.\n\nAutomate your workflow using the Sprite Cutter shortcut action!"
+    },
+    "im:price": {
+      "label": "€ 1,19",
+      "attributes": {
+        "amount": "1.19",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Jayden Irwin"
+    },
+    "title": {
+      "label": "Sprite Cutter+ - Jayden Irwin"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/nl/app/sprite-cutter/id1562779425?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/7d/e9/73/7de9732e-6912-ddf6-a0bc-bb09dd31748b/2a740e00-52c0-42f1-9f3d-13c5b4c63f9f_Old_Pad.PNG/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/nl/app/sprite-cutter/id1562779425?l=en&uo=2",
+      "attributes": {
+        "im:id": "1562779425",
+        "im:bundleId": "com.jaydenirwin.spritecutter"
+      }
+    },
+    "im:artist": {
+      "label": "Jayden Irwin",
+      "attributes": {
+        "href": "https://apps.apple.com/nl/developer/jayden-irwin/id1437835951?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-04-13T00:00:00-07:00",
+      "attributes": {
+        "label": "April 13, 2021"
       }
     }
   },
@@ -7653,19 +7653,19 @@
     },
     "im:image": [
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/b9/01/56/b90156f8-9b4b-f6e9-422f-2e54a9aa2e8c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/c6/56/29/c656291e-0d56-8e78-b57d-b7f720f0edb7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/b9/01/56/b90156f8-9b4b-f6e9-422f-2e54a9aa2e8c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/c6/56/29/c656291e-0d56-8e78-b57d-b7f720f0edb7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/b9/01/56/b90156f8-9b4b-f6e9-422f-2e54a9aa2e8c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/c6/56/29/c656291e-0d56-8e78-b57d-b7f720f0edb7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }

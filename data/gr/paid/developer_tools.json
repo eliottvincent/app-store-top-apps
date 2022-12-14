@@ -5,7 +5,109 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 1,
-      "total": 39
+      "total": 40
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/gr/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/gr/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/gr/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/gr/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "gr",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 40
     },
     "im:name": {
       "label": "Logger for Shortcuts"
@@ -106,8 +208,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
-      "total": 39
+      "index": 3,
+      "total": 40
     },
     "im:name": {
       "label": "Textastic Code Editor"
@@ -208,8 +310,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
-      "total": 39
+      "index": 4,
+      "total": 40
     },
     "im:name": {
       "label": "Buffer Editor - Code Editor"
@@ -310,8 +412,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
-      "total": 39
+      "index": 5,
+      "total": 40
     },
     "im:name": {
       "label": "Smart NFC"
@@ -412,8 +514,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
-      "total": 39
+      "index": 6,
+      "total": 40
     },
     "im:name": {
       "label": "Source 3"
@@ -514,8 +616,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
-      "total": 39
+      "index": 7,
+      "total": 40
     },
     "im:name": {
       "label": "Blink Shell 14: Legacy"
@@ -616,8 +718,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
-      "total": 39
+      "index": 8,
+      "total": 40
     },
     "im:name": {
       "label": "Inspect Browser"
@@ -718,8 +820,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
-      "total": 39
+      "index": 9,
+      "total": 40
     },
     "im:name": {
       "label": "Code App"
@@ -820,8 +922,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
-      "total": 39
+      "index": 10,
+      "total": 40
     },
     "im:name": {
       "label": "Juno: Jupyter/Python IDE"
@@ -922,8 +1024,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
-      "total": 39
+      "index": 11,
+      "total": 40
     },
     "im:name": {
       "label": "Adaptivity (A)"
@@ -1024,8 +1126,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
-      "total": 39
+      "index": 12,
+      "total": 40
     },
     "im:name": {
       "label": "OpenTerm"
@@ -1126,8 +1228,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
-      "total": 39
+      "index": 13,
+      "total": 40
     },
     "im:name": {
       "label": "LadderTouch"
@@ -1228,8 +1330,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
-      "total": 39
+      "index": 14,
+      "total": 40
     },
     "im:name": {
       "label": "Phone repair screen color test"
@@ -1327,8 +1429,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
-      "total": 39
+      "index": 15,
+      "total": 40
     },
     "im:name": {
       "label": "Globe Topper"
@@ -1429,8 +1531,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
-      "total": 39
+      "index": 16,
+      "total": 40
     },
     "im:name": {
       "label": "Flutter Cheats"
@@ -1531,8 +1633,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
-      "total": 39
+      "index": 17,
+      "total": 40
     },
     "im:name": {
       "label": "Learn PL-SQL Programming"
@@ -1633,8 +1735,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
-      "total": 39
+      "index": 18,
+      "total": 40
     },
     "im:name": {
       "label": "Kuber - Kubernetes Dashboard"
@@ -1735,8 +1837,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
-      "total": 39
+      "index": 19,
+      "total": 40
     },
     "im:name": {
       "label": "php$ - programming language"
@@ -1837,8 +1939,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
-      "total": 39
+      "index": 20,
+      "total": 40
     },
     "im:name": {
       "label": "ESP32 BLE Terminal"
@@ -1939,8 +2041,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
-      "total": 39
+      "index": 21,
+      "total": 40
     },
     "im:name": {
       "label": "Text Editor - Document Editor"
@@ -2041,8 +2143,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
-      "total": 39
+      "index": 22,
+      "total": 40
     },
     "im:name": {
       "label": "Code Develop IDE"
@@ -2143,8 +2245,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
-      "total": 39
+      "index": 23,
+      "total": 40
     },
     "im:name": {
       "label": "Terminal Emulator"
@@ -2242,8 +2344,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
-      "total": 39
+      "index": 24,
+      "total": 40
     },
     "im:name": {
       "label": "auth. - 2FA Smart Sync"
@@ -2344,8 +2446,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
-      "total": 39
+      "index": 25,
+      "total": 40
     },
     "im:name": {
       "label": "UCoW - Ultimate Code Wrapper"
@@ -2446,8 +2548,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
-      "total": 39
+      "index": 26,
+      "total": 40
     },
     "im:name": {
       "label": "BASIC: programming language"
@@ -2548,8 +2650,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
-      "total": 39
+      "index": 27,
+      "total": 40
     },
     "im:name": {
       "label": "ActionsHub - GitHub Actions"
@@ -2650,8 +2752,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
-      "total": 39
+      "index": 28,
+      "total": 40
     },
     "im:name": {
       "label": "PingTools Network Utilities"
@@ -2749,8 +2851,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
-      "total": 39
+      "index": 29,
+      "total": 40
     },
     "im:name": {
       "label": "Programming Notebook PRO"
@@ -2851,8 +2953,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
-      "total": 39
+      "index": 30,
+      "total": 40
     },
     "im:name": {
       "label": "Code - Compile & Run Program"
@@ -2953,8 +3055,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
-      "total": 39
+      "index": 31,
+      "total": 40
     },
     "im:name": {
       "label": "RegEx+"
@@ -3055,8 +3157,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
-      "total": 39
+      "index": 32,
+      "total": 40
     },
     "im:name": {
       "label": "Ayecon"
@@ -3157,8 +3259,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 32,
-      "total": 39
+      "index": 33,
+      "total": 40
     },
     "im:name": {
       "label": "Http Traffic pro - sniffer"
@@ -3259,8 +3361,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
-      "total": 39
+      "index": 34,
+      "total": 40
     },
     "im:name": {
       "label": "MQTT Terminal Pro"
@@ -3361,8 +3463,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
-      "total": 39
+      "index": 35,
+      "total": 40
     },
     "im:name": {
       "label": "Hexer — Hex File Viewer"
@@ -3463,8 +3565,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
-      "total": 39
+      "index": 36,
+      "total": 40
     },
     "im:name": {
       "label": "StudIO - Code"
@@ -3565,8 +3667,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
-      "total": 39
+      "index": 37,
+      "total": 40
     },
     "im:name": {
       "label": "UWeb.io Website Builder"
@@ -3667,8 +3769,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 37,
-      "total": 39
+      "index": 38,
+      "total": 40
     },
     "im:name": {
       "label": "DraftCode Local PHP"
@@ -3769,8 +3871,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 38,
-      "total": 39
+      "index": 39,
+      "total": 40
     },
     "im:name": {
       "label": "luai5.2.1$"
@@ -3871,8 +3973,8 @@
       "country_code": "gr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 39,
-      "total": 39
+      "index": 40,
+      "total": 40
     },
     "im:name": {
       "label": "Source Code Reader"

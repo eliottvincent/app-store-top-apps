@@ -8,6 +8,108 @@
       "total": 100
     },
     "im:name": {
+      "label": "rtl_tcp SDR"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/43/c9/31/43c9314d-945c-2075-9721-39d4991f2064/AppIcon-1x_U007emarketing-3-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/43/c9/31/43c9314d-945c-2075-9721-39d4991f2064/AppIcon-1x_U007emarketing-3-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/43/c9/31/43c9314d-945c-2075-9721-39d4991f2064/AppIcon-1x_U007emarketing-3-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "An RTL-SDR Software Defined Radio receiver app for iOS devices.  Listen to AM, FM, SSB and CW radio signals.  View an RF spectrum and waterfall. Connect, via the rtl_tcp network protocol, to networked RTL-SDR USB peripherals.  \n\nThis app requires an external rtl_tcp server.  iOS devices do not currently support the direct connection of USB peripherals such as an RTL-SDR.  Thus, the use of this app requires network access to a server, such as a Raspberry Pi (or Mac), with an RTL-SDR unit plugged into its USB port, and running the rtl_tcp protocol at an TCP/IP network address accessible from your iOS device.  This allows a Raspberry Pi (or Mac) to act, essentially, as the USB port adapter for your iOS device.   The rtl_tcp SDR app can also connect to hfp_tcp for the Airspy HF+, rsp_tcp for SDRPlay devices, and lmm_tcp for the LimeSDR Mini; see GitHub for server source code.  This app can also connect directly to a networked Hermes Lite 2 QRP SDR transceiver, no server required.\n\nNo support is provided for installing any of the rtl_tcp or other tcp software needed to use this app (with a Raspberry Pi, or otherwise).  Please do not download this app unless you are already familiar with Software Defined Radio, have an RTL-SDR or equivalent USB SDR peripheral, and have already installed and tested rtl_tcp on your Raspberry Pi, Mac, or other server.  Note that this app requires a very high bandwidth network connection in order to receive streams of real-time RF samples from an RTL-SDR.   It is recommended that your rtl_tcp server be on a wired connection rather than on the same WiFi as your iOS device."
+    },
+    "im:price": {
+      "label": "11,99 €",
+      "attributes": {
+        "amount": "11.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 HotPaw Productions"
+    },
+    "title": {
+      "label": "rtl_tcp SDR - HotPaw Productions"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/rtl-tcp-sdr/id1351164646?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/4a/57/42/4a57421f-7823-c63a-ffe0-3efdadbf0993/3917b869-e8f9-4eeb-b98c-a6d3a7ed9c83_sdr.ipadbig.ss31.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/rtl-tcp-sdr/id1351164646?uo=2",
+      "attributes": {
+        "im:id": "1351164646",
+        "im:bundleId": "com.hotpaw.sdr4rtltcp2"
+      }
+    },
+    "im:artist": {
+      "label": "HotPaw Productions",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/hotpaw-productions/id285074853?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-05-02T12:07:36-07:00",
+      "attributes": {
+        "label": "May 2, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 2,
+      "total": 100
+    },
+    "im:name": {
       "label": "Vinegar - Tube Cleaner"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 2,
+      "index": 3,
       "total": 100
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 3,
+      "index": 4,
       "total": 100
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 4,
+      "index": 5,
       "total": 100
     },
     "im:name": {
@@ -412,7 +514,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 5,
+      "index": 6,
       "total": 100
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 6,
+      "index": 7,
       "total": 100
     },
     "im:name": {
@@ -608,108 +710,6 @@
       "label": "2022-10-06T00:00:00-07:00",
       "attributes": {
         "label": "October 6, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 7,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Triangle Calculator 90° angle"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/25/b9/ce/25b9cede-68fa-5ceb-fff8-d35a2eeb6dec/AppIcon-1x_U007emarketing-85-220-0-6.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/25/b9/ce/25b9cede-68fa-5ceb-fff8-d35a2eeb6dec/AppIcon-1x_U007emarketing-85-220-0-6.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/25/b9/ce/25b9cede-68fa-5ceb-fff8-d35a2eeb6dec/AppIcon-1x_U007emarketing-85-220-0-6.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Versatile app that makes it easy to solve right-angled (90°) triangle problems.\n\nQuickly and easily find out the unknown side length(s) and angle(s) to your triangle problems at the press of a button.\n\nNever have to remember right-angled triangle trigonometry again!"
-    },
-    "im:price": {
-      "label": "2,49 €",
-      "attributes": {
-        "amount": "2.49",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Claire Holmes"
-    },
-    "title": {
-      "label": "Triangle Calculator 90° angle - Claire Holmes"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/triangle-calculator-90-angle/id815332883?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/05/df/ca/05dfcabd-0efe-9de8-69df-c972b7801c13/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/triangle-calculator-90-angle/id815332883?uo=2",
-      "attributes": {
-        "im:id": "815332883",
-        "im:bundleId": "trigonometary"
-      }
-    },
-    "im:artist": {
-      "label": "Claire Holmes",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/claire-holmes/id397229185?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-02-11T19:49:18-07:00",
-      "attributes": {
-        "label": "February 11, 2014"
       }
     }
   },
@@ -1334,108 +1334,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "ARRuler - линейка AR"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/98/39/6e983901-e052-9b4e-35f1-93aa6b10dbdd/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/98/39/6e983901-e052-9b4e-35f1-93aa6b10dbdd/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/98/39/6e983901-e052-9b4e-35f1-93aa6b10dbdd/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Приложение ARRuler - это умная и простая в использовании виртуальная линейка, которая дает такие же точные и точные результаты, как и традиционный измерительный инструмент. Измерьте объекты или расстояния в разных единицах. Наслаждайтесь бесплатной измерительной рулеткой, которая точно измеряет все для вас.\n\nОсобенности:\n• ARKit линейка\n• Выбор единицы измерения\n• Продуманный интерфейс\n• Удобное управление\n• Без рекламы\n• Без встроенных покупок"
-    },
-    "im:price": {
-      "label": "0,49 €",
-      "attributes": {
-        "amount": "0.49",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Vlad Developer"
-    },
-    "title": {
-      "label": "ARRuler - линейка AR - Vlad Developer"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/arruler-%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0-ar/id1357242872?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/83/c3/9d/83c39dc5-1b3f-e829-955d-63e993dfa915/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/arruler-%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0-ar/id1357242872?uo=2",
-      "attributes": {
-        "im:id": "1357242872",
-        "im:bundleId": "com.vladlikov.ARRuler"
-      }
-    },
-    "im:artist": {
-      "label": "Vlad Developer",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/vlad-developer/id883130742?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-03-29T16:29:03-07:00",
-      "attributes": {
-        "label": "March 29, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 15,
-      "total": 100
-    },
-    "im:name": {
       "label": "Remote Mouse Pro"
     },
     "im:image": [
@@ -1534,39 +1432,39 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 15,
       "total": 100
     },
     "im:name": {
-      "label": "AdGuard Pro — adblock&privacy"
+      "label": "ARRuler - линейка AR"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/81/d7/cd/81d7cd02-77d3-6749-17a1-6f47a128ac4d/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/98/39/6e983901-e052-9b4e-35f1-93aa6b10dbdd/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/81/d7/cd/81d7cd02-77d3-6749-17a1-6f47a128ac4d/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/98/39/6e983901-e052-9b4e-35f1-93aa6b10dbdd/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/81/d7/cd/81d7cd02-77d3-6749-17a1-6f47a128ac4d/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/98/39/6e983901-e052-9b4e-35f1-93aa6b10dbdd/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "AdGuard is an ultra-efficient ad blocker for Safari. It will not only remove annoying ads but also secure your privacy with advanced tracking protection. AdGuard for iOS is an open source app, it’s totally transparent and safe to use.\n\nKEY FEATURES:\n\n- Safari ad blocking. Removes all kinds of ads in Safari. Say goodbye to annoying banners, pop-ups and video ads. Whitelist your favorite websites or use manual blocking tool to hide any element on the page.\n\n- Privacy protection. The web is full of trackers that literally watch your every click. AdGuard offers a selection of filters aimed directly at trackers and web analytics that will ensure your private data stays that way.\n\n- Speed acceleration. Safari browser runs up to 4x faster. AdGuard removes tons of rubbish and you can freely surf the web!\n\n- Reduced traffic consumption and increased battery life. Banners and ads sometimes add up to half the size of the page. By blocking them, you’re saving your battery life and Wi-Fi/mobile traffic.\n\n- More than 50 popular subscriptions (EasyList, EasyPrivacy, etc.) plus AdGuard's own powerful ad filters, including language-specific filters. Together they don't leave ads a chance.\n\nADGUARD PRO FEATURES\n\nAdGuard Pro includes the following features:\n\n- Custom filters. Add your own filters by URL even if they are not on the default list.\n\n- DNS privacy. Blocking regular online trackers is not enough if you want to assure 100% protection of your online privacy. Choose any of the user-favorite DNS providers or configure a custom DNS server.\n\n- Security filters. Protect yourself from dangerous websites riddled with cryptojacking or fraud.\n\n* Privacy policy: https://adguard.com/privacy.html\n* Terms of Use: https://adguard.com/eula.html\n\nABOUT ADGUARD\n\nAdGuard is a leading company in developing ad blocking software for multiple platforms. For more than ten years AdGuard has been helping millions of users enjoy safe, clean, and fast internet.\n\nFollow us at @AdGuard on Twitter, facebook.com/AdGuardEn/ on FB or send us a message at support@adguard.com."
+      "label": "Приложение ARRuler - это умная и простая в использовании виртуальная линейка, которая дает такие же точные и точные результаты, как и традиционный измерительный инструмент. Измерьте объекты или расстояния в разных единицах. Наслаждайтесь бесплатной измерительной рулеткой, которая точно измеряет все для вас.\n\nОсобенности:\n• ARKit линейка\n• Выбор единицы измерения\n• Продуманный интерфейс\n• Удобное управление\n• Без рекламы\n• Без встроенных покупок"
     },
     "im:price": {
-      "label": "11,99 €",
+      "label": "0,49 €",
       "attributes": {
-        "amount": "11.99",
+        "amount": "0.49",
         "currency": "EUR"
       }
     },
@@ -1577,17 +1475,17 @@
       }
     },
     "rights": {
-      "label": "© Adguard Software Ltd"
+      "label": "© Vlad Developer"
     },
     "title": {
-      "label": "AdGuard Pro — adblock&privacy - Adguard Software Limited"
+      "label": "ARRuler - линейка AR - Vlad Developer"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/adguard-pro-adblock-privacy/id1126386264?uo=2"
+          "href": "https://apps.apple.com/lv/app/arruler-%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0-ar/id1357242872?uo=2"
         }
       },
       {
@@ -1598,22 +1496,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/c1/0a/bb/c10abb7d-49d3-3814-3d47-4b685d8d6006/pr_source.jpg/1024x1024bb.jpg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/83/c3/9d/83c39dc5-1b3f-e829-955d-63e993dfa915/pr_source.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/lv/app/adguard-pro-adblock-privacy/id1126386264?uo=2",
+      "label": "https://apps.apple.com/lv/app/arruler-%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0-ar/id1357242872?uo=2",
       "attributes": {
-        "im:id": "1126386264",
-        "im:bundleId": "com.adguard.AdguardPro"
+        "im:id": "1357242872",
+        "im:bundleId": "com.vladlikov.ARRuler"
       }
     },
     "im:artist": {
-      "label": "Adguard Software Limited",
+      "label": "Vlad Developer",
       "attributes": {
-        "href": "https://apps.apple.com/lv/developer/adguard-software-limited/id1440147258?uo=2"
+        "href": "https://apps.apple.com/lv/developer/vlad-developer/id883130742?uo=2"
       }
     },
     "category": {
@@ -1625,9 +1523,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2016-09-30T02:10:39-07:00",
+      "label": "2018-03-29T16:29:03-07:00",
       "attributes": {
-        "label": "September 30, 2016"
+        "label": "March 29, 2018"
       }
     }
   },
@@ -1636,7 +1534,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1738,39 +1636,39 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 17,
       "total": 100
     },
     "im:name": {
-      "label": "Just Press Record"
+      "label": "AdGuard Pro — adblock&privacy"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/18/4f/0b/184f0bcb-5646-9a77-773a-b39201656e23/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/14/c9/d6/14c9d60b-8100-d8cb-5679-8a11a063f29e/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/18/4f/0b/184f0bcb-5646-9a77-773a-b39201656e23/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/75x75bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/14/c9/d6/14c9d60b-8100-d8cb-5679-8a11a063f29e/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/18/4f/0b/184f0bcb-5646-9a77-773a-b39201656e23/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/14/c9/d6/14c9d60b-8100-d8cb-5679-8a11a063f29e/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Just Press Record is the ultimate audio recorder bringing one tap recording, transcription and iCloud syncing to all your devices. You can edit your audio and transcriptions right inside the app and even start a new recording completely hands-free with Siri!\n\nLife is full of moments we would rather not forget - like your child’s first words, an important meeting or spontaneous idea. Capture these moments effortlessly on iPhone, iPad, Mac or for ultimate convenience, Apple Watch.\n\nRECORD\n• One tap to start, stop, pause and resume recording.\n• Start and stop recording from Shortcuts, Siri, the Widget, a 3D Touch Quick Action or via the URL scheme.\n• Unlimited recording time.\n• Record discretely in the background.\n• Choose to record from the built-in mic, AirPods or external microphones.\n• Record independently on Apple Watch and sync later.\n\nPLAY\n• Seek backwards and forwards during playback.\n• Adjustable playback speed.\n\nTRANSCRIBE\n• Turn speech into searchable text.\n• Support for over 30 languages, independent of your device's language setting.\n• Synchronized text highlighting and audio playback.\n• Format as you record with punctuation commands.\n\nEDIT\n• Audio - visualise your audio in the waveform view and cut out the parts you don’t need.\n• Text - make corrections and add new text to your transcriptions.\n\nSHARE\n• Share audio and text to other apps.\n• Share easily to social media as a video clip.\n• Share to iTunes on Mac or PC via USB cable.\n• Print a hard copy of your transcripts.\n• Share audio files from other apps to Just Press Record. \n\nORGANISATION\n• View recent recordings or browse your library by date and time.\n• Search by filename or transcription content.\n• Dedicated tab for quick access to recordings made on Apple Watch.\n• Rename recordings.\n• Slide Over and Split View support on iPad.\n• Add a badge to the app icon showing the number of unplayed recordings.\n\nSTORAGE\n• Choose to store recordings in iCloud Drive or locally on-device.\n• Recordings stored in iCloud Drive automatically sync across all your devices.\n• Recordings stored locally benefit from Files app integration and automatic iTunes File Sharing.\n• Transcriptions are stored within the audio file.\n\nPRO-AUDIO\n• Support for stereo recording from the built-in microphone on supported devices.\n• Support for high quality external microphones connected via the Lightning Port.\n• Customisable Audio Settings to enhance your recording experience.\n• File types include WAV, AIF or standard iTunes M4A (ACC).\n• High quality audio up to 96kHz / 24-bit.\n\nACCESSIBILITY\n• VoiceOver support throughout the app.\n• Magic Tap gesture to start / stop a recording.\n\nAPPLE WATCH\nJust Press Record includes an Apple Watch app that gives you the freedom to record anywhere, even when your iPhone is not around.\n\n• Start recording with a single tap on the Complication.\n• Record discretely in the background.\n• Unlimited recording time.\n• Recordings automatically transfer to iPhone for transcription and iCloud syncing.\n• Listen to recent recordings through the built-in speaker or AirPods.\n• Adjust volume with the Digital Crown.\n• Pause recording with a downward swipe.\n• Accessibility support with VoiceOver, reduced motion and support for the extra large Complication template.\n\nIMPORTANT:\n• Just Press Record does not record phone calls or audio from other apps.\n• Transcription requires a good, clean audio signal.  Avoid recording in noisy environments and ensure the microphone is positioned close to the source.\n• Recording from AirPods is not available on Apple Watch.\n• URL scheme implemented by Just Press Record can be found on our FAQ page."
+      "label": "AdGuard is an ultra-efficient ad blocker for Safari. It will not only remove annoying ads but also secure your privacy with advanced tracking protection. AdGuard for iOS is an open source app, it’s totally transparent and safe to use.\n\nKEY FEATURES:\n\n- Safari ad blocking. Removes all kinds of ads in Safari. Say goodbye to annoying banners, pop-ups and video ads. Whitelist your favorite websites or use manual blocking tool to hide any element on the page.\n\n- Privacy protection. The web is full of trackers that literally watch your every click. AdGuard offers a selection of filters aimed directly at trackers and web analytics that will ensure your private data stays that way.\n\n- Speed acceleration. Safari browser runs up to 4x faster. AdGuard removes tons of rubbish and you can freely surf the web!\n\n- Reduced traffic consumption and increased battery life. Banners and ads sometimes add up to half the size of the page. By blocking them, you’re saving your battery life and Wi-Fi/mobile traffic.\n\n- More than 50 popular subscriptions (EasyList, EasyPrivacy, etc.) plus AdGuard's own powerful ad filters, including language-specific filters. Together they don't leave ads a chance.\n\nADGUARD PRO FEATURES\n\nAdGuard Pro includes the following features:\n\n- Custom filters. Add your own filters by URL even if they are not on the default list.\n\n- DNS privacy. Blocking regular online trackers is not enough if you want to assure 100% protection of your online privacy. Choose any of the user-favorite DNS providers or configure a custom DNS server.\n\n- Security filters. Protect yourself from dangerous websites riddled with cryptojacking or fraud.\n\n* Privacy policy: https://adguard.com/privacy.html\n* Terms of Use: https://adguard.com/eula.html\n\nABOUT ADGUARD\n\nAdGuard is a leading company in developing ad blocking software for multiple platforms. For more than ten years AdGuard has been helping millions of users enjoy safe, clean, and fast internet.\n\nFollow us at @AdGuard on Twitter, facebook.com/AdGuardEn/ on FB or send us a message at support@adguard.com."
     },
     "im:price": {
-      "label": "5,99 €",
+      "label": "11,99 €",
       "attributes": {
-        "amount": "5.99",
+        "amount": "11.99",
         "currency": "EUR"
       }
     },
@@ -1781,17 +1679,17 @@
       }
     },
     "rights": {
-      "label": "© 2022 Open Planet Software Ltd."
+      "label": "© Adguard Software Ltd"
     },
     "title": {
-      "label": "Just Press Record - Open Planet Software"
+      "label": "AdGuard Pro — adblock&privacy - Adguard Software Limited"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/just-press-record/id1033342465?uo=2"
+          "href": "https://apps.apple.com/lv/app/adguard-pro-adblock-privacy/id1126386264?uo=2"
         }
       },
       {
@@ -1802,22 +1700,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ef/d7/af/efd7afcd-f25c-128c-1282-70dbcaa3efd9/3738b0e0-2065-4551-ad1b-b8c90fdc267d_iPad_Pro_All_Devices.png/1024x1024bb.png",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/e2/3c/3c/e23c3cbf-d80a-c91b-e64a-5bb0f04cd863/pr_source.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/lv/app/just-press-record/id1033342465?uo=2",
+      "label": "https://apps.apple.com/lv/app/adguard-pro-adblock-privacy/id1126386264?uo=2",
       "attributes": {
-        "im:id": "1033342465",
-        "im:bundleId": "com.openplanetsoftware.Just-Press-Record-for-iOS"
+        "im:id": "1126386264",
+        "im:bundleId": "com.adguard.AdguardPro"
       }
     },
     "im:artist": {
-      "label": "Open Planet Software",
+      "label": "Adguard Software Limited",
       "attributes": {
-        "href": "https://apps.apple.com/lv/developer/open-planet-software/id307887935?uo=2"
+        "href": "https://apps.apple.com/lv/developer/adguard-software-limited/id1440147258?uo=2"
       }
     },
     "category": {
@@ -1829,9 +1727,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2015-09-21T12:29:39-07:00",
+      "label": "2016-09-30T02:10:39-07:00",
       "attributes": {
-        "label": "September 21, 2015"
+        "label": "September 30, 2016"
       }
     }
   },
@@ -1840,7 +1738,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
+      "index": 18,
       "total": 100
     },
     "im:name": {
@@ -1934,6 +1832,108 @@
       "label": "2009-03-26T13:10:51-07:00",
       "attributes": {
         "label": "March 26, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 19,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Just Press Record"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/18/4f/0b/184f0bcb-5646-9a77-773a-b39201656e23/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/18/4f/0b/184f0bcb-5646-9a77-773a-b39201656e23/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/18/4f/0b/184f0bcb-5646-9a77-773a-b39201656e23/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Just Press Record is the ultimate audio recorder bringing one tap recording, transcription and iCloud syncing to all your devices. You can edit your audio and transcriptions right inside the app and even start a new recording completely hands-free with Siri!\n\nLife is full of moments we would rather not forget - like your child’s first words, an important meeting or spontaneous idea. Capture these moments effortlessly on iPhone, iPad, Mac or for ultimate convenience, Apple Watch.\n\nRECORD\n• One tap to start, stop, pause and resume recording.\n• Start and stop recording from Shortcuts, Siri, the Widget, a 3D Touch Quick Action or via the URL scheme.\n• Unlimited recording time.\n• Record discretely in the background.\n• Choose to record from the built-in mic, AirPods or external microphones.\n• Record independently on Apple Watch and sync later.\n\nPLAY\n• Seek backwards and forwards during playback.\n• Adjustable playback speed.\n\nTRANSCRIBE\n• Turn speech into searchable text.\n• Support for over 30 languages, independent of your device's language setting.\n• Synchronized text highlighting and audio playback.\n• Format as you record with punctuation commands.\n\nEDIT\n• Audio - visualise your audio in the waveform view and cut out the parts you don’t need.\n• Text - make corrections and add new text to your transcriptions.\n\nSHARE\n• Share audio and text to other apps.\n• Share easily to social media as a video clip.\n• Share to iTunes on Mac or PC via USB cable.\n• Print a hard copy of your transcripts.\n• Share audio files from other apps to Just Press Record. \n\nORGANISATION\n• View recent recordings or browse your library by date and time.\n• Search by filename or transcription content.\n• Dedicated tab for quick access to recordings made on Apple Watch.\n• Rename recordings.\n• Slide Over and Split View support on iPad.\n• Add a badge to the app icon showing the number of unplayed recordings.\n\nSTORAGE\n• Choose to store recordings in iCloud Drive or locally on-device.\n• Recordings stored in iCloud Drive automatically sync across all your devices.\n• Recordings stored locally benefit from Files app integration and automatic iTunes File Sharing.\n• Transcriptions are stored within the audio file.\n\nPRO-AUDIO\n• Support for stereo recording from the built-in microphone on supported devices.\n• Support for high quality external microphones connected via the Lightning Port.\n• Customisable Audio Settings to enhance your recording experience.\n• File types include WAV, AIF or standard iTunes M4A (ACC).\n• High quality audio up to 96kHz / 24-bit.\n\nACCESSIBILITY\n• VoiceOver support throughout the app.\n• Magic Tap gesture to start / stop a recording.\n\nAPPLE WATCH\nJust Press Record includes an Apple Watch app that gives you the freedom to record anywhere, even when your iPhone is not around.\n\n• Start recording with a single tap on the Complication.\n• Record discretely in the background.\n• Unlimited recording time.\n• Recordings automatically transfer to iPhone for transcription and iCloud syncing.\n• Listen to recent recordings through the built-in speaker or AirPods.\n• Adjust volume with the Digital Crown.\n• Pause recording with a downward swipe.\n• Accessibility support with VoiceOver, reduced motion and support for the extra large Complication template.\n\nIMPORTANT:\n• Just Press Record does not record phone calls or audio from other apps.\n• Transcription requires a good, clean audio signal.  Avoid recording in noisy environments and ensure the microphone is positioned close to the source.\n• Recording from AirPods is not available on Apple Watch.\n• URL scheme implemented by Just Press Record can be found on our FAQ page."
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Open Planet Software Ltd."
+    },
+    "title": {
+      "label": "Just Press Record - Open Planet Software"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/just-press-record/id1033342465?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ef/d7/af/efd7afcd-f25c-128c-1282-70dbcaa3efd9/3738b0e0-2065-4551-ad1b-b8c90fdc267d_iPad_Pro_All_Devices.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/just-press-record/id1033342465?uo=2",
+      "attributes": {
+        "im:id": "1033342465",
+        "im:bundleId": "com.openplanetsoftware.Just-Press-Record-for-iOS"
+      }
+    },
+    "im:artist": {
+      "label": "Open Planet Software",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/open-planet-software/id307887935?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-09-21T12:29:39-07:00",
+      "attributes": {
+        "label": "September 21, 2015"
       }
     }
   },
@@ -2150,108 +2150,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "FileBrowser - Document Manager"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/3a/01/20/3a0120f5-a583-6619-b3b6-035151c708d5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/3a/01/20/3a0120f5-a583-6619-b3b6-035151c708d5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/3a/01/20/3a0120f5-a583-6619-b3b6-035151c708d5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Use your iPad or iPhone to connect to your home computers, network drives and cloud storage. Easily upload/download/copy files and folders from one location to another, and browse your content using a variety of built-in viewers.\n\n*** FileBrowser remains the best option if you're looking for a file manager that supports a variety of external connections and also integrates deeply with iOS - Federico Viticci - MacStories ***\n\n*** FileBrowser's setup varies for every device, and the automatic wizards work super-well.\nCharlie Sorrel - Cult of Mac ***\n\nUltra-fast browsing of your computers. Faster than Windows Explorer or Mac Finder and our users agree!\n\nGET ORGANIZED\nFileBrowser gives you everything you need to keep your files effortlessly organized:\nMove, edit, delete, rename, copy, zip and unzip. Download files from the web and paste them wherever you choose.\n\nMULTI-TABBED BROWSING\nOur FileBrowser suite of apps are the first file management apps to support multiple tabs. Connect to many of your locations at once and switch between them with ease. Use iPadOS split-screen mode to drag & drop between multiple windows.\n\nCONNECT TO\nWindows, Mac, Linux, Time Capsule, NAS drives, portable WiFi drives, SMB, Samba.\nGoogle Drive, Dropbox, Box, OneDrive, WebDAV, FTP and SFTP.\nLink to the same cloud storage with multiple accounts, if you have more than one Dropbox account, for example.\n\nEXTEND THE FILES APP\nFileBrowser allows you to access all your connections from the iOS Files app and other apps that use this as their document chooser, bringing network access to those apps.\n\nEDIT IN-PLACE\nNo more copying of documents between apps. Launch an app to edit a network document in-place, such as Word or Pages or any of the Office and Mac suite. Changes are saved to the original document automatically.\n\nBLAZINGLY FAST\nCreate bookmarks to your favorite locations & folders. Use a single tap to connect and browse to a favorite folder.\n\nPHOTO VIEWER\nBrowse your photos wherever they are stored and display them on your TV or projector using AirPlay or Chromecast. Easily flick through holiday snaps or use the built-in slideshow feature.\n\nSTREAM YOUR MOVIES / MUSIC\nStream movie files or listen to music, both with AirPlay™ and Chromecast support. Use our built-in viewers or stream video to other apps.\n\nDOCUMENT VIEWER\nView Microsoft Office, Apple Pages, Numbers, KeyNote, PDF, text files, source code, HTML, and many more using the built-in viewers.\n\nANNOTATE PDFS AND IMAGES\nUse the built-in annotation tools for PDFs and images, or use the iOS annotation tools to add notes, drawings or highlight text.\n\nSECURITY AND ENCRYPTION\nFileBrowser securely stores your passwords in the iOS keychain and uses iOS encryption features to protect your local content. Protect local files using a password, TouchID or FaceID.\n\nCONNECT ANYWHERE\nConnect to your Mac or PC when away from home. See our website for details: https://www.stratospherix.com/setupvpn\n\nTOO MANY FEATURES TO LIST\nFileBrowser has many features that we would like to tell you about. Check out our website. You'll be amazed!\nhttps://www.stratospherix.com/products/filebrowser\n\nFIRST CLASS SUPPORT\nUser manuals and help are available at stratospherix.com/support with how-to articles and videos. You can also email us for fast, friendly support."
-    },
-    "im:price": {
-      "label": "7,99 €",
-      "attributes": {
-        "amount": "7.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2012 Stratospherix Ltd"
-    },
-    "title": {
-      "label": "FileBrowser - Document Manager - Stratospherix Ltd"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/filebrowser-document-manager/id364738545?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/8a/81/35/8a81353d-2ffe-4bc8-f3f8-423eaec9e9a1/26bf4cb8-fb50-4a81-83c6-3a8be24934a9_FB_iPad_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/filebrowser-document-manager/id364738545?uo=2",
-      "attributes": {
-        "im:id": "364738545",
-        "im:bundleId": "com.stratospherix.filebrowser"
-      }
-    },
-    "im:artist": {
-      "label": "Stratospherix Ltd",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/stratospherix-ltd/id323133606?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-04-03T00:00:00-07:00",
-      "attributes": {
-        "label": "April 3, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 23,
-      "total": 100
-    },
-    "im:name": {
       "label": "CryptoTab Browser Pro"
     },
     "im:image": [
@@ -2350,7 +2248,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2444,6 +2342,108 @@
       "label": "2016-02-19T17:21:05-07:00",
       "attributes": {
         "label": "February 19, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 24,
+      "total": 100
+    },
+    "im:name": {
+      "label": "FileBrowser - Document Manager"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/3a/01/20/3a0120f5-a583-6619-b3b6-035151c708d5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/3a/01/20/3a0120f5-a583-6619-b3b6-035151c708d5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/3a/01/20/3a0120f5-a583-6619-b3b6-035151c708d5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Use your iPad or iPhone to connect to your home computers, network drives and cloud storage. Easily upload/download/copy files and folders from one location to another, and browse your content using a variety of built-in viewers.\n\n*** FileBrowser remains the best option if you're looking for a file manager that supports a variety of external connections and also integrates deeply with iOS - Federico Viticci - MacStories ***\n\n*** FileBrowser's setup varies for every device, and the automatic wizards work super-well.\nCharlie Sorrel - Cult of Mac ***\n\nUltra-fast browsing of your computers. Faster than Windows Explorer or Mac Finder and our users agree!\n\nGET ORGANIZED\nFileBrowser gives you everything you need to keep your files effortlessly organized:\nMove, edit, delete, rename, copy, zip and unzip. Download files from the web and paste them wherever you choose.\n\nMULTI-TABBED BROWSING\nOur FileBrowser suite of apps are the first file management apps to support multiple tabs. Connect to many of your locations at once and switch between them with ease. Use iPadOS split-screen mode to drag & drop between multiple windows.\n\nCONNECT TO\nWindows, Mac, Linux, Time Capsule, NAS drives, portable WiFi drives, SMB, Samba.\nGoogle Drive, Dropbox, Box, OneDrive, WebDAV, FTP and SFTP.\nLink to the same cloud storage with multiple accounts, if you have more than one Dropbox account, for example.\n\nEXTEND THE FILES APP\nFileBrowser allows you to access all your connections from the iOS Files app and other apps that use this as their document chooser, bringing network access to those apps.\n\nEDIT IN-PLACE\nNo more copying of documents between apps. Launch an app to edit a network document in-place, such as Word or Pages or any of the Office and Mac suite. Changes are saved to the original document automatically.\n\nBLAZINGLY FAST\nCreate bookmarks to your favorite locations & folders. Use a single tap to connect and browse to a favorite folder.\n\nPHOTO VIEWER\nBrowse your photos wherever they are stored and display them on your TV or projector using AirPlay or Chromecast. Easily flick through holiday snaps or use the built-in slideshow feature.\n\nSTREAM YOUR MOVIES / MUSIC\nStream movie files or listen to music, both with AirPlay™ and Chromecast support. Use our built-in viewers or stream video to other apps.\n\nDOCUMENT VIEWER\nView Microsoft Office, Apple Pages, Numbers, KeyNote, PDF, text files, source code, HTML, and many more using the built-in viewers.\n\nANNOTATE PDFS AND IMAGES\nUse the built-in annotation tools for PDFs and images, or use the iOS annotation tools to add notes, drawings or highlight text.\n\nSECURITY AND ENCRYPTION\nFileBrowser securely stores your passwords in the iOS keychain and uses iOS encryption features to protect your local content. Protect local files using a password, TouchID or FaceID.\n\nCONNECT ANYWHERE\nConnect to your Mac or PC when away from home. See our website for details: https://www.stratospherix.com/setupvpn\n\nTOO MANY FEATURES TO LIST\nFileBrowser has many features that we would like to tell you about. Check out our website. You'll be amazed!\nhttps://www.stratospherix.com/products/filebrowser\n\nFIRST CLASS SUPPORT\nUser manuals and help are available at stratospherix.com/support with how-to articles and videos. You can also email us for fast, friendly support."
+    },
+    "im:price": {
+      "label": "7,99 €",
+      "attributes": {
+        "amount": "7.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2012 Stratospherix Ltd"
+    },
+    "title": {
+      "label": "FileBrowser - Document Manager - Stratospherix Ltd"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/filebrowser-document-manager/id364738545?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/8a/81/35/8a81353d-2ffe-4bc8-f3f8-423eaec9e9a1/26bf4cb8-fb50-4a81-83c6-3a8be24934a9_FB_iPad_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/filebrowser-document-manager/id364738545?uo=2",
+      "attributes": {
+        "im:id": "364738545",
+        "im:bundleId": "com.stratospherix.filebrowser"
+      }
+    },
+    "im:artist": {
+      "label": "Stratospherix Ltd",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/stratospherix-ltd/id323133606?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-04-03T00:00:00-07:00",
+      "attributes": {
+        "label": "April 3, 2010"
       }
     }
   },
@@ -3068,108 +3068,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Shadowrocket"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/64/4f/32/644f32cc-0fd1-8f95-f610-27d7edc8aa69/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/64/4f/32/644f32cc-0fd1-8f95-f610-27d7edc8aa69/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/64/4f/32/644f32cc-0fd1-8f95-f610-27d7edc8aa69/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
-    },
-    "im:price": {
-      "label": "3,49 €",
-      "attributes": {
-        "amount": "3.49",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Li Guangming"
-    },
-    "title": {
-      "label": "Shadowrocket - Shadow Launch Technology Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/shadowrocket/id932747118?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/e9/16/d0/e916d09e-2a78-60df-adb0-59878ea0647d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/shadowrocket/id932747118?uo=2",
-      "attributes": {
-        "im:id": "932747118",
-        "im:bundleId": "com.liguangming.Shadowrocket"
-      }
-    },
-    "im:artist": {
-      "label": "Shadow Launch Technology Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/shadow-launch-technology-limited/id687237009?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-04-13T19:09:18-07:00",
-      "attributes": {
-        "label": "April 13, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 32,
-      "total": 100
-    },
-    "im:name": {
       "label": "Night Vision Camera"
     },
     "im:image": [
@@ -3268,7 +3166,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 33,
+      "index": 32,
       "total": 100
     },
     "im:name": {
@@ -3370,7 +3268,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 34,
+      "index": 33,
       "total": 100
     },
     "im:name": {
@@ -3472,7 +3370,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 35,
+      "index": 34,
       "total": 100
     },
     "im:name": {
@@ -3574,7 +3472,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 36,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3676,7 +3574,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 37,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3770,6 +3668,108 @@
       "label": "2019-02-07T00:00:00-07:00",
       "attributes": {
         "label": "February 7, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 37,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Shadowrocket"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/64/4f/32/644f32cc-0fd1-8f95-f610-27d7edc8aa69/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/64/4f/32/644f32cc-0fd1-8f95-f610-27d7edc8aa69/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/64/4f/32/644f32cc-0fd1-8f95-f610-27d7edc8aa69/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
+    },
+    "im:price": {
+      "label": "3,49 €",
+      "attributes": {
+        "amount": "3.49",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Li Guangming"
+    },
+    "title": {
+      "label": "Shadowrocket - Shadow Launch Technology Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/shadowrocket/id932747118?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/e9/16/d0/e916d09e-2a78-60df-adb0-59878ea0647d/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/shadowrocket/id932747118?uo=2",
+      "attributes": {
+        "im:id": "932747118",
+        "im:bundleId": "com.liguangming.Shadowrocket"
+      }
+    },
+    "im:artist": {
+      "label": "Shadow Launch Technology Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/shadow-launch-technology-limited/id687237009?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-04-13T19:09:18-07:00",
+      "attributes": {
+        "label": "April 13, 2015"
       }
     }
   },
@@ -5618,125 +5618,23 @@
       "total": 100
     },
     "im:name": {
-      "label": "SatFinder"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/00/f2/ae/00f2aed7-a443-a044-189d-2e6bdd890c63/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/00/f2/ae/00f2aed7-a443-a044-189d-2e6bdd890c63/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/00/f2/ae/00f2aed7-a443-a044-189d-2e6bdd890c63/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "With SatFinder you can adjust your satellite antenna in a few seconds and with 4 simple steps:\n\nSTEP 1 - CHOOSE YOUR ANTENNA\nChoose one of the four different antenna designs: \n - Offset antennas (the most common, is slightly oval, the LNB is not in the center).\n - Special design (e.g. Oblong shaped Offset antenna, Multifeed antenna)  \n - Parabolic antenna (LNB is located in the center of the reflector, usually larger than 100cm)\n - Flat or planar antenna (small, camping antennas)\n\nIf you have an offset antenna, enter the height and width of the antenna. If your antenna has a special shape, enter the offset angle and the size of the satellite antenna. You can find the offset angle in the manual of your satellite antenna. For parabolic antennas it is sufficient to enter the antenna diameter. With a flat antenna you do not have to set anything. If you know the exact antenna name, check if your antenna is already in the database.\n\nTip: Press the wizard button to measure the size of the satellite antenna using the iPhone camera and LiDAR scanner. \n\nSTEP 2 - CHOOSE YOUR SATELLITE\nTo quickly and easily select a suitable satellite, simply press the \"AUTO\" button. The SatFinder will now automatically search for satellites that are in your reception area and that offer TV or radio stations in your language (the language setting of your iPhone will be selected). The stars (1-10) shown in the table result from the number of radio and TV channels offered and the reception strength at your location.  \n\nIf you want to receive a special satellite, switch off \"AUTO\": Now you can simply scroll through the table and select the satellite. Faster is the search function - just enter the name of the satellite, the channel or the orbit position. You can also reduce the number of table entries by hiding satellites that are not available at your location or do not broadcast in your language. With the button \"Channel Info\" you can check which channels the selected satellite is currently broadcasting - including all channel parameters for your satellite receiver.  \n\nSTEP 3 - CHECK OBSTACLES\nFor a smooth satellite reception, there must not be any obstacles between the satellite and your satellite antenna. You can check this with the \"View\" function. Simply aim at the satellite and watch the signs (GREEN - no obstacle, RED - caution, free view may not be given).\n\nTip: Press the button for the assistant to activate the voice output.\n\nSTEP 4 - ADJUST ANTENNA\nIn the menu item \"Align\" different graphics appear depending on the selected antenna type. If you use an offset antenna, you have to adjust the azimuth and elevation separately. With planar or parabolic antennas the adjustment of the angles is done together. Before you press the \"Start\" button, a video clip shows how to position your iPhone at the antenna. \n\nTip: Press the button for the assistant to activate the voice output.\n\nSTEP 5 - FINE TUNING \nIf necessary, you can optimize the reception of your satellite system. The SatFinder provides you with the function \"FineTuning\". To use this function, you need a second iOS device. One device serves as a camera; the second device as a monitor. Simply place an iPhone in front of your reception screen and observe changes in picture quality while slightly rotating or tilting your satellite antenna. With the FineTuning feature, you'll have visual contact with your TV even when you're out of sight. \n\nTHAT'S IT. YOU SHOULD NOW BE ABLE TO ENJOY INTERFERENCE-FREE SATELLITE RECEPTION... \nNote: Satellite antenna tuning is only available on iOS devices with LiDAR sensor (e.g. iPhone 12 Pro)."
-    },
-    "im:price": {
-      "label": "6,99 €",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "©2022 RA Software"
-    },
-    "title": {
-      "label": "SatFinder - Ralf Andrae"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/satfinder/id397993104?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/6b/e4/89/6be489a7-a416-2e45-f649-d316773a5ca0/350e329f-d11e-42c1-9e64-96cc85092250_1.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/satfinder/id397993104?uo=2",
-      "attributes": {
-        "im:id": "397993104",
-        "im:bundleId": "AYM8AR77H3.com.domainname.SatFinder"
-      }
-    },
-    "im:artist": {
-      "label": "Ralf Andrae",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/ralf-andrae/id305338261?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-20T17:50:47-07:00",
-      "attributes": {
-        "label": "October 20, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 57,
-      "total": 100
-    },
-    "im:name": {
       "label": "Phone Drive: File Storage Sync"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/9a/91/7f/9a917faa-00ed-81ce-f907-f014dc93df1d/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/76/64/bb/7664bbe7-b3a2-0540-4477-9d4d157e503b/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/9a/91/7f/9a917faa-00ed-81ce-f907-f014dc93df1d/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/76/64/bb/7664bbe7-b3a2-0540-4477-9d4d157e503b/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/9a/91/7f/9a917faa-00ed-81ce-f907-f014dc93df1d/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/76/64/bb/7664bbe7-b3a2-0540-4477-9d4d157e503b/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -5818,7 +5716,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 58,
+      "index": 57,
       "total": 100
     },
     "im:name": {
@@ -5912,6 +5810,108 @@
       "label": "2013-05-13T16:20:24-07:00",
       "attributes": {
         "label": "May 13, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 58,
+      "total": 100
+    },
+    "im:name": {
+      "label": "SatFinder"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/00/f2/ae/00f2aed7-a443-a044-189d-2e6bdd890c63/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/00/f2/ae/00f2aed7-a443-a044-189d-2e6bdd890c63/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/00/f2/ae/00f2aed7-a443-a044-189d-2e6bdd890c63/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "With SatFinder you can adjust your satellite antenna in a few seconds and with 4 simple steps:\n\nSTEP 1 - CHOOSE YOUR ANTENNA\nChoose one of the four different antenna designs: \n - Offset antennas (the most common, is slightly oval, the LNB is not in the center).\n - Special design (e.g. Oblong shaped Offset antenna, Multifeed antenna)  \n - Parabolic antenna (LNB is located in the center of the reflector, usually larger than 100cm)\n - Flat or planar antenna (small, camping antennas)\n\nIf you have an offset antenna, enter the height and width of the antenna. If your antenna has a special shape, enter the offset angle and the size of the satellite antenna. You can find the offset angle in the manual of your satellite antenna. For parabolic antennas it is sufficient to enter the antenna diameter. With a flat antenna you do not have to set anything. If you know the exact antenna name, check if your antenna is already in the database.\n\nTip: Press the wizard button to measure the size of the satellite antenna using the iPhone camera and LiDAR scanner. \n\nSTEP 2 - CHOOSE YOUR SATELLITE\nTo quickly and easily select a suitable satellite, simply press the \"AUTO\" button. The SatFinder will now automatically search for satellites that are in your reception area and that offer TV or radio stations in your language (the language setting of your iPhone will be selected). The stars (1-10) shown in the table result from the number of radio and TV channels offered and the reception strength at your location.  \n\nIf you want to receive a special satellite, switch off \"AUTO\": Now you can simply scroll through the table and select the satellite. Faster is the search function - just enter the name of the satellite, the channel or the orbit position. You can also reduce the number of table entries by hiding satellites that are not available at your location or do not broadcast in your language. With the button \"Channel Info\" you can check which channels the selected satellite is currently broadcasting - including all channel parameters for your satellite receiver.  \n\nSTEP 3 - CHECK OBSTACLES\nFor a smooth satellite reception, there must not be any obstacles between the satellite and your satellite antenna. You can check this with the \"View\" function. Simply aim at the satellite and watch the signs (GREEN - no obstacle, RED - caution, free view may not be given).\n\nTip: Press the button for the assistant to activate the voice output.\n\nSTEP 4 - ADJUST ANTENNA\nIn the menu item \"Align\" different graphics appear depending on the selected antenna type. If you use an offset antenna, you have to adjust the azimuth and elevation separately. With planar or parabolic antennas the adjustment of the angles is done together. Before you press the \"Start\" button, a video clip shows how to position your iPhone at the antenna. \n\nTip: Press the button for the assistant to activate the voice output.\n\nSTEP 5 - FINE TUNING \nIf necessary, you can optimize the reception of your satellite system. The SatFinder provides you with the function \"FineTuning\". To use this function, you need a second iOS device. One device serves as a camera; the second device as a monitor. Simply place an iPhone in front of your reception screen and observe changes in picture quality while slightly rotating or tilting your satellite antenna. With the FineTuning feature, you'll have visual contact with your TV even when you're out of sight. \n\nTHAT'S IT. YOU SHOULD NOW BE ABLE TO ENJOY INTERFERENCE-FREE SATELLITE RECEPTION... \nNote: Satellite antenna tuning is only available on iOS devices with LiDAR sensor (e.g. iPhone 12 Pro)."
+    },
+    "im:price": {
+      "label": "6,99 €",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "©2022 RA Software"
+    },
+    "title": {
+      "label": "SatFinder - Ralf Andrae"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/satfinder/id397993104?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/6b/e4/89/6be489a7-a416-2e45-f649-d316773a5ca0/350e329f-d11e-42c1-9e64-96cc85092250_1.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/satfinder/id397993104?uo=2",
+      "attributes": {
+        "im:id": "397993104",
+        "im:bundleId": "AYM8AR77H3.com.domainname.SatFinder"
+      }
+    },
+    "im:artist": {
+      "label": "Ralf Andrae",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/ralf-andrae/id305338261?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-20T17:50:47-07:00",
+      "attributes": {
+        "label": "October 20, 2010"
       }
     }
   },
@@ -7458,19 +7458,19 @@
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/d3/bd/d8/d3bdd8f9-5bc1-7479-85dd-0d64c723d91c/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/0d/2e/f8/0d2ef81b-776d-0d4f-7d99-0692109ac2bc/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/d3/bd/d8/d3bdd8f9-5bc1-7479-85dd-0d64c723d91c/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/0d/2e/f8/0d2ef81b-776d-0d4f-7d99-0692109ac2bc/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/d3/bd/d8/d3bdd8f9-5bc1-7479-85dd-0d64c723d91c/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/0d/2e/f8/0d2ef81b-776d-0d4f-7d99-0692109ac2bc/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -7964,108 +7964,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "µBrowser"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/78/40/fd7840b9-0f12-4a47-44c1-e19b5638a0de/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/78/40/fd7840b9-0f12-4a47-44c1-e19b5638a0de/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/78/40/fd7840b9-0f12-4a47-44c1-e19b5638a0de/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "µBrowser is the micro browser for your Apple Watch.\nµBrowser is the quick way to do some basic browsing on your Apple Watch when it is necessary. While it is limited it is good way to browse the web when you have no other device around.\n\nFeatures:\n- Open any URL (Entering a URL works especially good with the new Series 7 keyboard)\n- Search the web with DuckDuckGo\n- See your last visited pages\n- Save pages from the history to your favorites\n- iOS companion app to manage bookmarks\n- Complications to quickly access the browser from the watch face\n\nPlease note:\nµBrowser is a limited browsing experience. At first it is limited by the device size.\nThen there are limitations regarding Javascript and large webpages. Login on pages will most likely not work. There is no back button (swiping still works) you need to start a new sessions."
-    },
-    "im:price": {
-      "label": "1,19 €",
-      "attributes": {
-        "amount": "1.19",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 APPenzeller"
-    },
-    "title": {
-      "label": "µBrowser - Arno Appenzeller"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/%C2%B5browser/id1590622755?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/bd/38/1e/bd381ea3-b225-de33-7c2a-0c6c3136ca8b/56db44f7-ac14-465a-acb8-f583a10988d7_1_55inch.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/%C2%B5browser/id1590622755?uo=2",
-      "attributes": {
-        "im:id": "1590622755",
-        "im:bundleId": "de.APPenzeller.WebWatcher"
-      }
-    },
-    "im:artist": {
-      "label": "Arno Appenzeller",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/arno-appenzeller/id515339331?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-12-09T00:00:00-07:00",
-      "attributes": {
-        "label": "December 9, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 80,
-      "total": 100
-    },
-    "im:name": {
       "label": "Toolbox™"
     },
     "im:image": [
@@ -8156,6 +8054,108 @@
       "label": "2013-03-15T23:49:09-07:00",
       "attributes": {
         "label": "March 15, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 80,
+      "total": 100
+    },
+    "im:name": {
+      "label": "µBrowser"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/78/40/fd7840b9-0f12-4a47-44c1-e19b5638a0de/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/78/40/fd7840b9-0f12-4a47-44c1-e19b5638a0de/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/78/40/fd7840b9-0f12-4a47-44c1-e19b5638a0de/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "µBrowser is the micro browser for your Apple Watch.\nµBrowser is the quick way to do some basic browsing on your Apple Watch when it is necessary. While it is limited it is good way to browse the web when you have no other device around.\n\nFeatures:\n- Open any URL (Entering a URL works especially good with the new Series 7 keyboard)\n- Search the web with DuckDuckGo\n- See your last visited pages\n- Save pages from the history to your favorites\n- iOS companion app to manage bookmarks\n- Complications to quickly access the browser from the watch face\n\nPlease note:\nµBrowser is a limited browsing experience. At first it is limited by the device size.\nThen there are limitations regarding Javascript and large webpages. Login on pages will most likely not work. There is no back button (swiping still works) you need to start a new sessions."
+    },
+    "im:price": {
+      "label": "1,19 €",
+      "attributes": {
+        "amount": "1.19",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 APPenzeller"
+    },
+    "title": {
+      "label": "µBrowser - Arno Appenzeller"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/%C2%B5browser/id1590622755?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/bd/38/1e/bd381ea3-b225-de33-7c2a-0c6c3136ca8b/56db44f7-ac14-465a-acb8-f583a10988d7_1_55inch.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/%C2%B5browser/id1590622755?uo=2",
+      "attributes": {
+        "im:id": "1590622755",
+        "im:bundleId": "de.APPenzeller.WebWatcher"
+      }
+    },
+    "im:artist": {
+      "label": "Arno Appenzeller",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/arno-appenzeller/id515339331?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-12-09T00:00:00-07:00",
+      "attributes": {
+        "label": "December 9, 2021"
       }
     }
   },
@@ -8678,108 +8678,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Remote Mouse & Keyboard Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/be/fa/99/befa9948-37f4-fe23-b924-851257a7a895/AppIcon-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/be/fa/99/befa9948-37f4-fe23-b924-851257a7a895/AppIcon-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/be/fa/99/befa9948-37f4-fe23-b924-851257a7a895/AppIcon-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "App offers remote control for Mac or PC, with a mouse, keyboard, and media controls. Great if you connect your computer to the TV or projector, to control from a sofa or bed.\n\nIn 2013, I created this app to control my Mac Mini connected to a big-screen TV in my living room. In 2016 I quit my job and became an indie developer, and now my sole focus is on building my apps. The app has been downloaded more than 2,000,000 times over the years and has favorable reviews.\n\nMAIN FEATURES\n· Remote Mouse and Keyboard\n· Media Controls for popular apps and websites\n· Live view of your computer screen\n· System Commands: shut down, restart, sleep, etc.\n· Launch and Quit apps\n· Use Siri to control your computer\n· Control Sound Output / Screen Mirroring [Mac only]\n\nADVANCED FEATURES\n· Create Control Panels\n· Add Custom Actions using AppleScript / PowerShell\n\nQUICK AND EASY SETUP\n· Install the free helper app from https://cherpake.com/get\n· Connect both devices to the same network\n\nSECURITY\nThe app uses standard security measures like HTTPS to communicate and only works on your local network. Whenever an unknown device tries to establish a connection with your computer,  the app presents a dialog for you to choose to allow or deny it.\n\nREQUIREMENTS\n· Mac with macOS 10.10 or newer\n· PC with Windows 7 SP1 or newer\n· Latest helper app (available at https://cherpake.com/get)\n· Shared network connection (WiFi or Personal Hotspot), see https://cherpake.com/connect\n\nFREE TRIAL\nThis app is a hidden gem that most people don't know they need. Those are not my words, just one of the latest app reviews. Still not convinced, download and install the free app and use the free trial to see it yourself. Available at https://bit.ly/mpcrc"
-    },
-    "im:price": {
-      "label": "11,99 €",
-      "attributes": {
-        "amount": "11.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2013-2022 Evgeny Cherpak"
-    },
-    "title": {
-      "label": "Remote Mouse & Keyboard Pro - Evgeny Cherpak"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/remote-mouse-keyboard-pro/id884153085?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/3f/49/18/3f491884-0520-570a-de78-828a490434ab/3877e063-4e36-417e-aca8-85957cda050e_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-01Computers_d65eb0ce-ab8d-489e-a341-6925b6e4a895_framed.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/remote-mouse-keyboard-pro/id884153085?uo=2",
-      "attributes": {
-        "im:id": "884153085",
-        "im:bundleId": "com.cherpake.macrc.adsfree"
-      }
-    },
-    "im:artist": {
-      "label": "Evgeny Cherpak",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/evgeny-cherpak/id619088610?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-06-06T23:04:51-07:00",
-      "attributes": {
-        "label": "June 6, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 87,
-      "total": 100
-    },
-    "im:name": {
       "label": "BFT - Bear Focus Timer"
     },
     "im:image": [
@@ -8878,7 +8776,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 88,
+      "index": 87,
       "total": 100
     },
     "im:name": {
@@ -8980,7 +8878,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 89,
+      "index": 88,
       "total": 100
     },
     "im:name": {
@@ -9082,7 +8980,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 90,
+      "index": 89,
       "total": 100
     },
     "im:name": {
@@ -9184,7 +9082,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 91,
+      "index": 90,
       "total": 100
     },
     "im:name": {
@@ -9286,7 +9184,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 92,
+      "index": 91,
       "total": 100
     },
     "im:name": {
@@ -9388,313 +9286,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 93,
-      "total": 100
-    },
-    "im:name": {
-      "label": "HLL Artillery Calculator"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/46/e3/ac/46e3ac56-cd48-aede-a3ee-fbb31e32544e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/46/e3/ac/46e3ac56-cd48-aede-a3ee-fbb31e32544e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/46/e3/ac/46e3ac56-cd48-aede-a3ee-fbb31e32544e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Simple, intuitive calculator for the video game  Hell Let Loose\n\nPlease keep in mind that as of Update 10 (1.0 version of the game), artillery cannons can have a random dispersion of up to 20 m. This is done by design by the games developers and cannot be taken into account with this app.\n\nThis app is not affiliated with the makers of Hell Let Loose - Black Matter Pty Ltd or Team17 Group PLC."
-    },
-    "im:price": {
-      "label": "1,19 €",
-      "attributes": {
-        "amount": "1.19",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Aleksei Murentcev"
-    },
-    "title": {
-      "label": "HLL Artillery Calculator - Aleksei Murentcev"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/hll-artillery-calculator/id1595749542?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/b9/d5/14/b9d514f1-7781-16a5-a829-a6c0054ac91d/95d7131a-344c-4664-8cb8-9fbeabfcee03_21.jpg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/hll-artillery-calculator/id1595749542?uo=2",
-      "attributes": {
-        "im:id": "1595749542",
-        "im:bundleId": "murentsev.HLL-Artillery"
-      }
-    },
-    "im:artist": {
-      "label": "Aleksei Murentcev",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/aleksei-murentcev/id1595749544?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-11-18T00:00:00-07:00",
-      "attributes": {
-        "label": "November 18, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 94,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Contacts to Excel , PDF , CSV"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/d5/f4/ecd5f44b-534b-4acc-7b62-f1a964fc8cf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/d5/f4/ecd5f44b-534b-4acc-7b62-f1a964fc8cf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/d5/f4/ecd5f44b-534b-4acc-7b62-f1a964fc8cf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Export Files To :\n\n1. XLSX Format | Supports Microsoft Excel with formatting of contacts details !\n2. PDF Format | You can generate a PDF file, Print or Share it to mark and work on the list !\n3. CSV Format | Now export to CSV format for Outlook, Gmail and other supported apps or softwares !\n4. VCF ( vCard ) Format | Standard VCF file to export contacts to other devices or to create backup of your contacts !\n\n\nFeatures :\n\n1. Export contacts to XLSX, PDF, CSV or VCF file format\n2. Export all contacts at once or choose the contacts you want to export !\n3. Preview exported file and the share with other apps or mail it using other apps!\n4. Backup contacts by exporting with VCF ( vCard ) file !\n5. Edit File Name, delete exported files or share anytime.\n\nFor any further questions please feel free to contact us at :\nsupport@dropouts.in"
-    },
-    "im:price": {
-      "label": "3,49 €",
-      "attributes": {
-        "amount": "3.49",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Dropouts Technologies LLP"
-    },
-    "title": {
-      "label": "Contacts to Excel , PDF , CSV - Dropouts Technologies LLP"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/contacts-to-excel-pdf-csv/id1315523858?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/3a/f9/c9/3af9c906-28fc-c293-2c5f-8cc8158dba4f/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/contacts-to-excel-pdf-csv/id1315523858?uo=2",
-      "attributes": {
-        "im:id": "1315523858",
-        "im:bundleId": "com.dropouts.contacts2excel"
-      }
-    },
-    "im:artist": {
-      "label": "Dropouts Technologies LLP",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/dropouts-technologies-llp/id575481782?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-22T10:23:54-07:00",
-      "attributes": {
-        "label": "November 22, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 95,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Ghost Tracker EMF EVP Recorder"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/09/76/e6/0976e6e3-8cd8-8e18-88af-7ece64bdf572/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/09/76/e6/0976e6e3-8cd8-8e18-88af-7ece64bdf572/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/09/76/e6/0976e6e3-8cd8-8e18-88af-7ece64bdf572/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NOTE! You phone/tablet MUST have a built in Magnetometer and Accelerometer sensor for the app to work. More info: https://www.laxton.se/ghost-tracker-emf-evp-recorder-app/faq/#info\n\n3-in-1 ghost hunting app developed by Sweden's most popular paranormal investigation team \"LaxTon Ghost Sweden\". More than 30.000 satisfied users have given the app 4.5 out of 5 in average rating.\n\nLaxTon Ghost Sweden has +30 years of combined experience in the paranormal area and more than 100.000 subscribers on their YouTube channel. When developing this application they wanted to select the 3 most useful basic functions used in a ghost hunt.\n\nThe app contains a EMF-scanner, a Motion Detector and a EVP / Voice recorder that will help you to easily detect EMF (Electromagnetic Fields), Motion and EVP (Electronic Voice Phenomenon). With this tool you will have a much greater chance to succeed with your ghost hunts - a ghost tracker app based on scientific sensors in your smartphone / tablet!\n\n-----------------------------------------------------------\n\nEMF METER -  ELECTROMAGNETIC FIELD DETECTOR / SCANNER\n\nNOTE! The EMF function requires a Magnetometer sensor.\n\nWe are all surrounded by various electrical devices that create natural electromagnetic fields that are affecting us to varying degrees. Some EMF fields, however, lack natural source and these are extra interesting for ghost hunters. Until the day the researchers succeed in presenting scientific evidence for these EMF fields, the phenomenon is paranormal.\n\nThere is a theory within the paranormal society that you can measure EMF that doesn’t have a natural power source and this can be paranormal activity. This EMF meter allows you to measure and view your EMF value and communicate with the help of the light that shows how strong EMF value the tool is capturing. \n\nEasy to use, click the button and scan the area around you.\n\n-----------------------------------------------------------\n\nMOTION DETECTOR / VIBRATION INDICATOR \n\nNOTE! The motion detector requires an Accelerometer sensor.\n\nSometimes you can feel small bangs and vibrations in the floors, stairs, chairs and tables. Within the paranormal society we try to capture these vibrations. With this motion detector you can easily register all vibrations and collect the data for later use. \n\nEasy to use, just place the device where you want to capture motion and then click the button to start collecting motion data.\n\n-----------------------------------------------------------\n\nEVP Recorder - Electronic Voice Phenomenon\n\nElectronic voice phenomena - test record voices from the dead. With this tool you can run EVP sessions, save the data and evaluate / listen at a later time. Within the paranormal society, EVP recorders are used to capture voices considered to come from the other side, ghosts, lost souls, spirits, scary demons, or whatever you choose to call the phenomenon.\n\nEasy to use voice recorder - click the button to record and ask questions, then listen through if you managed to capture voices from the other side.\n\n-----------------------------------------------------------\nDISCLAIMER\n\nMeasurements performed by this app are based 100% on data from sensors in your phone / tablet. There are no false indications or sound effects. The results are completely dependent on the quality of your phone / tablet sensors.\n\nWe do not recommend replacing dedicated (and much more expensive) equipment with this app (because that type of equipment has stronger sensors).\n\nBecause the results are not scientifically reviewed, we MUST write this; The app should only be used for entertainment."
-    },
-    "im:price": {
-      "label": "4,99 €",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© LaxTon Ghost Sweden AB"
-    },
-    "title": {
-      "label": "Ghost Tracker EMF EVP Recorder - LaxTon Ghost Sweden HB"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/lv/app/ghost-tracker-emf-evp-recorder/id1403373580?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/2a/bd/13/2abd1377-53a2-d5da-d624-c2fa21de2519/mzl.ydfucosu.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/lv/app/ghost-tracker-emf-evp-recorder/id1403373580?uo=2",
-      "attributes": {
-        "im:id": "1403373580",
-        "im:bundleId": "se.laxton.ghost"
-      }
-    },
-    "im:artist": {
-      "label": "LaxTon Ghost Sweden HB",
-      "attributes": {
-        "href": "https://apps.apple.com/lv/developer/laxton-ghost-sweden-hb/id1403373579?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-08-12T16:22:37-07:00",
-      "attributes": {
-        "label": "August 12, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "lv",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 96,
+      "index": 92,
       "total": 100
     },
     "im:name": {
@@ -9796,7 +9388,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 97,
+      "index": 93,
       "total": 100
     },
     "im:name": {
@@ -9898,7 +9490,109 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 98,
+      "index": 94,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Remote Mouse & Keyboard Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/be/fa/99/befa9948-37f4-fe23-b924-851257a7a895/AppIcon-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/be/fa/99/befa9948-37f4-fe23-b924-851257a7a895/AppIcon-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/be/fa/99/befa9948-37f4-fe23-b924-851257a7a895/AppIcon-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "App offers remote control for Mac or PC, with a mouse, keyboard, and media controls. Great if you connect your computer to the TV or projector, to control from a sofa or bed.\n\nIn 2013, I created this app to control my Mac Mini connected to a big-screen TV in my living room. In 2016 I quit my job and became an indie developer, and now my sole focus is on building my apps. The app has been downloaded more than 2,000,000 times over the years and has favorable reviews.\n\nMAIN FEATURES\n· Remote Mouse and Keyboard\n· Media Controls for popular apps and websites\n· Live view of your computer screen\n· System Commands: shut down, restart, sleep, etc.\n· Launch and Quit apps\n· Use Siri to control your computer\n· Control Sound Output / Screen Mirroring [Mac only]\n\nADVANCED FEATURES\n· Create Control Panels\n· Add Custom Actions using AppleScript / PowerShell\n\nQUICK AND EASY SETUP\n· Install the free helper app from https://cherpake.com/get\n· Connect both devices to the same network\n\nSECURITY\nThe app uses standard security measures like HTTPS to communicate and only works on your local network. Whenever an unknown device tries to establish a connection with your computer,  the app presents a dialog for you to choose to allow or deny it.\n\nREQUIREMENTS\n· Mac with macOS 10.10 or newer\n· PC with Windows 7 SP1 or newer\n· Latest helper app (available at https://cherpake.com/get)\n· Shared network connection (WiFi or Personal Hotspot), see https://cherpake.com/connect\n\nFREE TRIAL\nThis app is a hidden gem that most people don't know they need. Those are not my words, just one of the latest app reviews. Still not convinced, download and install the free app and use the free trial to see it yourself. Available at https://bit.ly/mpcrc"
+    },
+    "im:price": {
+      "label": "11,99 €",
+      "attributes": {
+        "amount": "11.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2013-2022 Evgeny Cherpak"
+    },
+    "title": {
+      "label": "Remote Mouse & Keyboard Pro - Evgeny Cherpak"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/remote-mouse-keyboard-pro/id884153085?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/3f/49/18/3f491884-0520-570a-de78-828a490434ab/3877e063-4e36-417e-aca8-85957cda050e_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-01Computers_d65eb0ce-ab8d-489e-a341-6925b6e4a895_framed.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/remote-mouse-keyboard-pro/id884153085?uo=2",
+      "attributes": {
+        "im:id": "884153085",
+        "im:bundleId": "com.cherpake.macrc.adsfree"
+      }
+    },
+    "im:artist": {
+      "label": "Evgeny Cherpak",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/evgeny-cherpak/id619088610?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-06-06T23:04:51-07:00",
+      "attributes": {
+        "label": "June 6, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 95,
       "total": 100
     },
     "im:name": {
@@ -10000,7 +9694,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 99,
+      "index": 96,
       "total": 100
     },
     "im:name": {
@@ -10102,7 +9796,7 @@
       "country_code": "lv",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 100,
+      "index": 97,
       "total": 100
     },
     "im:name": {
@@ -10196,6 +9890,312 @@
       "label": "2010-12-14T14:24:35-07:00",
       "attributes": {
         "label": "December 14, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 98,
+      "total": 100
+    },
+    "im:name": {
+      "label": "ePrint"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple117/v4/4d/a2/2d/4da22d1b-5ff3-a0eb-1625-e8501cb2fbde/mzl.dieueamg.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/4d/a2/2d/4da22d1b-5ff3-a0eb-1625-e8501cb2fbde/mzl.dieueamg.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple117/v4/4d/a2/2d/4da22d1b-5ff3-a0eb-1625-e8501cb2fbde/mzl.dieueamg.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "“ePrint” solves to print directory from iPad,iPhone or iPod touch.\n\n*****\nFor ink-jet printer users:\nCanon, brother, Samsung, Lexmark ink-jet printers are not available on ePrint.\n*****\n\n[The differences of ePrint and ePrint Free]\nPaid Version Only:\n- Web page printing. Also Downloaded Image or PDF file printing.\n- Various print formats\n- Print several pages\n- Borderless or Border printing\n- Supports shared printers by Mac (Regardless of Printer models)\nPlease test with “ePrint Free” at first, then get “ePrint”.\n\n[HP ink-jet printer user]\nwhen \"Failed to get printer control command\" message appears,\nplease set PDL to \"PCL3GUI\".\nAlso set \"Port\" is \"Port9100\", when register printer manually.\n\n[Support Printers / PDL (Printer Description Language)]\nePrint works with the printers installing the following printer description language.\nPlease check each printer manufacture web site to confirm what printer description language your printer has.\nPlease check if ePrint supports your printer’s PDL before you purchase ePrint.\n\nEPSON Inkjet Printer\n- PDL: ESC/P-R (except for ESC/P raster)\nEPSON Page Printer\n- PDL: ESC/Page,ESC/Page-Color,ESC/Page-S(Color only)\nHP Inkjet Printer\n- PDL: PCL3GUI\nHP Page Printer\n - PDL: PCL (Except for HostBase model)\nCanon Page Printer\n - PDL: LOPS (Except for CAPT)\nCanon, brother, Samsung, Lexmark or other manufacture’s Page Printer\n ePrint works if the printer supports the following PDL.\n - PCL\n - PostScript\nCanon, brother, Samsung, Lexmark or other manufacture’s Inkjet Printer\n- NONE. (ePrint DONOT work.)\n\nShared printer by Mac\nePrint supports shared printer by Mac. It isn’t depends on Printer manufactures (PDL).\n\n[Requirements]\n   Wi-Fi\n   Printer is connected on the network and printed through TCP/IP (LPR).\n   Printer should be available for SNMP.\n   Meet support printers conditions.\n[For iDisk users]\nplease enter user name without [@me.com] when you try to connect iDisk.\n\n[New Features]\n- Add Camera/ Web/ Server function limitation.\n- Add e-mail attached file printing. (only for iPad)\nHold down an attached file icon on the Mail application.\n- Support to call other application form the files on the server. (only for iPad)\n- Support ESC/Page-S printing system (Epson page printer)\n\n[Outline]\nIf you have “ePrint” and required printers, you don’t need PC anymore.\nYou can print various contents such as contacts, photos, notes, Web pages or PDF files contacts in your iPad,iPhone or iPod touch as you like.\n“ePrint” has a lot of print settings; paper size, color etc.\n\n[Features]\n1. Web page printing\n  - “ePrint” arranges linked PDF or image files before printing.\n  - You can save linked PDF or image files\n  - You can also specify print pages\n2. Camera (24 formats) (Borderless printing support)\n  - Date stamp or time stamp function\n3. Contacts (3 formats)\n4. Albums. (24 formats) (Borderless printing support)\n5. Note. (6 formats)\n6. Photo calendar (5 formats)\n7. Photo card (13 formats)\n8. Clipboard\n9. Add a printer. (Bonjour search / Enter IP address)\n10. Print Settings\n   Color\n   Duplex (Limited printer models)\n   Sepia\n   Paper size\n   Orientation\n   Media type\n   Print image preview\n11. Support direct printing for the Printer connected AirMac with USB\n12. Support Printing for the shared printer by Mac\n13. Display consumable information (Limited printer models)\n14. Mail print \n\nProduced by e-Workshop"
+    },
+    "im:price": {
+      "label": "3,49 €",
+      "attributes": {
+        "amount": "3.49",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2009 - 2017 Microtech Corp."
+    },
+    "title": {
+      "label": "ePrint - Microtech Corp."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/eprint/id304221132?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple111/v4/c1/75/f5/c175f514-cf44-df29-950a-85551f675b0d/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/eprint/id304221132?uo=2",
+      "attributes": {
+        "im:id": "304221132",
+        "im:bundleId": "jp.co.microtech.ePrint"
+      }
+    },
+    "im:artist": {
+      "label": "Microtech Corp.",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/microtech-corp/id293806300?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-03-31T10:45:34-07:00",
+      "attributes": {
+        "label": "March 31, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 99,
+      "total": 100
+    },
+    "im:name": {
+      "label": "PCalc"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/7f/ba/a1/7fbaa1b3-abc0-f8c4-8efa-c3bad23ec342/AppIcon-1x_U007emarketing-0-0-0-6-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/7f/ba/a1/7fbaa1b3-abc0-f8c4-8efa-c3bad23ec342/AppIcon-1x_U007emarketing-0-0-0-6-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7f/ba/a1/7fbaa1b3-abc0-f8c4-8efa-c3bad23ec342/AppIcon-1x_U007emarketing-0-0-0-6-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "PCalc is the powerful choice for scientists, engineers, students, programmers, or indeed anybody looking for a feature rich calculator. It includes an optional RPN mode and multi-line display, a choice of button layouts, an extensive set of unit conversions and constants, a paper tape, multiple undo and redo, engineering and scientific notation, as well as support for hexadecimal, octal, and binary calculations.\n\nIncludes an Apple Watch app, so you can calculate on your wrist!"
+    },
+    "im:price": {
+      "label": "11,99 €",
+      "attributes": {
+        "amount": "11.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 1992 - 2022 James Thomson"
+    },
+    "title": {
+      "label": "PCalc - TLA Systems Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/pcalc/id284666222?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/61/18/1a/61181a69-e435-6846-c739-b64a71e0b8a6/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/pcalc/id284666222?uo=2",
+      "attributes": {
+        "im:id": "284666222",
+        "im:bundleId": "com.pcalc.mobile"
+      }
+    },
+    "im:artist": {
+      "label": "TLA Systems Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/tla-systems-ltd/id284666225?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-02-08T00:00:00-07:00",
+      "attributes": {
+        "label": "February 8, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "lv",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 100,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Triangle Calculator 90° angle"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/25/b9/ce/25b9cede-68fa-5ceb-fff8-d35a2eeb6dec/AppIcon-1x_U007emarketing-85-220-0-6.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/25/b9/ce/25b9cede-68fa-5ceb-fff8-d35a2eeb6dec/AppIcon-1x_U007emarketing-85-220-0-6.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/25/b9/ce/25b9cede-68fa-5ceb-fff8-d35a2eeb6dec/AppIcon-1x_U007emarketing-85-220-0-6.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Versatile app that makes it easy to solve right-angled (90°) triangle problems.\n\nQuickly and easily find out the unknown side length(s) and angle(s) to your triangle problems at the press of a button.\n\nNever have to remember right-angled triangle trigonometry again!"
+    },
+    "im:price": {
+      "label": "2,49 €",
+      "attributes": {
+        "amount": "2.49",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Claire Holmes"
+    },
+    "title": {
+      "label": "Triangle Calculator 90° angle - Claire Holmes"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/lv/app/triangle-calculator-90-angle/id815332883?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/05/df/ca/05dfcabd-0efe-9de8-69df-c972b7801c13/pr_source.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/lv/app/triangle-calculator-90-angle/id815332883?uo=2",
+      "attributes": {
+        "im:id": "815332883",
+        "im:bundleId": "trigonometary"
+      }
+    },
+    "im:artist": {
+      "label": "Claire Holmes",
+      "attributes": {
+        "href": "https://apps.apple.com/lv/developer/claire-holmes/id397229185?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/lv/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-02-11T19:49:18-07:00",
+      "attributes": {
+        "label": "February 11, 2014"
       }
     }
   }

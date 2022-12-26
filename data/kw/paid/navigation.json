@@ -314,108 +314,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "Airborne Flight Instrument"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/bc/f6/d5bcf61a-af9f-e38a-df07-0d076bde1580/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/bc/f6/d5bcf61a-af9f-e38a-df07-0d076bde1580/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/bc/f6/d5bcf61a-af9f-e38a-df07-0d076bde1580/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This app is an intelligent flight instrument that reads altitude. It is designed for devices that contain a barometer. This includes iPhone6, iPhone6s, iPhone6 Plus and iPhone6s Plus models running IOS 8.0 or later. For altitude reading it automatically retrieves the QNH or AS Altimeter Setting from the web and uses it in combination with the pressure sensor (barometer) to determine the actual altitude. You can either select an ICAO METAR station, like EHAM or KJFK for Schiphol and JFK airports, or enter the QNH directly in the app. It is ideal for a number of air sports to be used as a backup. Besides altitude and flight level this instrument also displays true heading and speed. The indicated values are displayed using a large font so they can easily be read from a distance. When backgrounded, this app is inactive to save power.\n\nDevice requirements:\n- GPS (required)\n- Barometer (strongly recommended)\n\nAltimeter details\n\nThe altimeter is using the barometric pressure sensor of the iPhone when available. For devices that do not contain a barometer altitude is measured in the conventional way using a GPS. Pilots who fly airplanes, gliders, hotairballoons or other airframes are familiar with altimeter settings. This setting is retrieved by looking up a METAR report for a given area, most often an airport, and locate the QNH or AS value in it. This value is then used to setup the aircraft altimeter. This device automates this process by retrieving it from the web and then automatically use it to setup the airfeet instrument. It is possible to override the automatic retrieved value by entering the QNH or AS value manually. When the field is touched the keyboard will popup and the value that could be manually entered.  Same is true for the ICAO station identifier like EBBL or KBOS. Next to the ICAO station field the activity indicator will show up when network access is in progress. This will only happen at app startup or when the manual “update QNH” or “update AS” for USA key is selected. Selecting “flight level mode” by using the “QNH-FL” switch on the bottom of the main screen,  1013.25 millibar or 29.92 inches of mercury reference pressure is used. In this mode the “altitude”  label will change to “flight level” and the indicated value will be the level in feet or meters. This mode is only available for devices that contain a barometer and will be disabled on other devices.\n\nHeading details\n\nThe GPS is used to determine the heading. The indicated true heading in displayed in degrees. Magnetic heading is not available. To work reliably an adequate GPS signal is required.\n\nSpeed details\n\nFor speed measurements the GPS needs to be operational. The speed can be set to knots or kilometers per hour. For this the “speed .x knots” or “speed .x kmh” settings are available. The set value determines at what speed a digit after the comma is displayed. When this setting is for example, set to 25, the speed below 25 is displayed as 24.2, and 25 and above is displayed without extra digit to make it more readable.\n\nVersion 3.0 Enhanced manual QNH settings when no network is available to automatically retrieve this.\n\nVersion 2.0 new feature, automatically locate nearby airport option is now available. The station/airport field contains a small A or M indicator in the left bottom to indicate Automatic or Manual mode.\n\nVersion 2.1 new feature, the QNH is now automatically updated when the app is started and \"Get AS at startup\" option is selected.\n\nVersion 4.4 Update airports for QNH retrieval."
-    },
-    "im:price": {
-      "label": "$2.99",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Hotballoon"
-    },
-    "title": {
-      "label": "Airborne Flight Instrument - Henri van Bommel"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/airborne-flight-instrument/id1071898324?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/be/fa/12/befa1271-d1e1-ce8e-8772-5f889cd78e92/tns.oigpxmtj.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/airborne-flight-instrument/id1071898324?uo=2",
-      "attributes": {
-        "im:id": "1071898324",
-        "im:bundleId": "nl.hotballoon.nl.hotballoon.airfeet"
-      }
-    },
-    "im:artist": {
-      "label": "Henri van Bommel",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/henri-van-bommel/id1071898323?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6010",
-        "term": "Navigation",
-        "scheme": "https://apps.apple.com/kw/genre/ios-navigation/id6010?uo=2",
-        "label": "Navigation"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-01-21T19:34:11-07:00",
-      "attributes": {
-        "label": "January 21, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "navigation",
-      "index": 5,
-      "total": 98
-    },
-    "im:name": {
       "label": "Localscope - Find places and people around you"
     },
     "im:image": [
@@ -514,7 +412,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 6,
+      "index": 5,
       "total": 98
     },
     "im:name": {
@@ -616,7 +514,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 7,
+      "index": 6,
       "total": 98
     },
     "im:name": {
@@ -718,7 +616,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 8,
+      "index": 7,
       "total": 98
     },
     "im:name": {
@@ -820,7 +718,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 9,
+      "index": 8,
       "total": 98
     },
     "im:name": {
@@ -922,7 +820,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 10,
+      "index": 9,
       "total": 98
     },
     "im:name": {
@@ -1024,7 +922,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 11,
+      "index": 10,
       "total": 98
     },
     "im:name": {
@@ -1126,7 +1024,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 12,
+      "index": 11,
       "total": 98
     },
     "im:name": {
@@ -1228,7 +1126,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 13,
+      "index": 12,
       "total": 98
     },
     "im:name": {
@@ -1330,7 +1228,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 14,
+      "index": 13,
       "total": 98
     },
     "im:name": {
@@ -1432,7 +1330,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 15,
+      "index": 14,
       "total": 98
     },
     "im:name": {
@@ -1534,7 +1432,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 16,
+      "index": 15,
       "total": 98
     },
     "im:name": {
@@ -1636,7 +1534,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 17,
+      "index": 16,
       "total": 98
     },
     "im:name": {
@@ -1738,7 +1636,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 18,
+      "index": 17,
       "total": 98
     },
     "im:name": {
@@ -1840,7 +1738,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 19,
+      "index": 18,
       "total": 98
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 20,
+      "index": 19,
       "total": 98
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 21,
+      "index": 20,
       "total": 98
     },
     "im:name": {
@@ -2146,7 +2044,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 22,
+      "index": 21,
       "total": 98
     },
     "im:name": {
@@ -2248,7 +2146,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 23,
+      "index": 22,
       "total": 98
     },
     "im:name": {
@@ -2350,7 +2248,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 24,
+      "index": 23,
       "total": 98
     },
     "im:name": {
@@ -2452,7 +2350,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 25,
+      "index": 24,
       "total": 98
     },
     "im:name": {
@@ -2554,7 +2452,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 26,
+      "index": 25,
       "total": 98
     },
     "im:name": {
@@ -2656,7 +2554,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 27,
+      "index": 26,
       "total": 98
     },
     "im:name": {
@@ -2758,7 +2656,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 28,
+      "index": 27,
       "total": 98
     },
     "im:name": {
@@ -2860,7 +2758,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 29,
+      "index": 28,
       "total": 98
     },
     "im:name": {
@@ -2962,7 +2860,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 30,
+      "index": 29,
       "total": 98
     },
     "im:name": {
@@ -3064,7 +2962,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 31,
+      "index": 30,
       "total": 98
     },
     "im:name": {
@@ -3166,7 +3064,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 32,
+      "index": 31,
       "total": 98
     },
     "im:name": {
@@ -3268,7 +3166,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 33,
+      "index": 32,
       "total": 98
     },
     "im:name": {
@@ -3370,7 +3268,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 34,
+      "index": 33,
       "total": 98
     },
     "im:name": {
@@ -3472,7 +3370,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 35,
+      "index": 34,
       "total": 98
     },
     "im:name": {
@@ -3574,7 +3472,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 36,
+      "index": 35,
       "total": 98
     },
     "im:name": {
@@ -3676,7 +3574,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 37,
+      "index": 36,
       "total": 98
     },
     "im:name": {
@@ -3778,7 +3676,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 38,
+      "index": 37,
       "total": 98
     },
     "im:name": {
@@ -3880,7 +3778,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 39,
+      "index": 38,
       "total": 98
     },
     "im:name": {
@@ -3982,7 +3880,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 40,
+      "index": 39,
       "total": 98
     },
     "im:name": {
@@ -4084,7 +3982,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 41,
+      "index": 40,
       "total": 98
     },
     "im:name": {
@@ -4186,7 +4084,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 42,
+      "index": 41,
       "total": 98
     },
     "im:name": {
@@ -4288,7 +4186,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 43,
+      "index": 42,
       "total": 98
     },
     "im:name": {
@@ -4390,7 +4288,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 44,
+      "index": 43,
       "total": 98
     },
     "im:name": {
@@ -4492,7 +4390,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 45,
+      "index": 44,
       "total": 98
     },
     "im:name": {
@@ -4594,7 +4492,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 46,
+      "index": 45,
       "total": 98
     },
     "im:name": {
@@ -4696,7 +4594,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 47,
+      "index": 46,
       "total": 98
     },
     "im:name": {
@@ -4798,7 +4696,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 48,
+      "index": 47,
       "total": 98
     },
     "im:name": {
@@ -4900,7 +4798,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 49,
+      "index": 48,
       "total": 98
     },
     "im:name": {
@@ -4994,6 +4892,108 @@
       "label": "2011-02-18T00:59:43-07:00",
       "attributes": {
         "label": "February 18, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "navigation",
+      "index": 49,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Airborne Flight Instrument"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/bc/f6/d5bcf61a-af9f-e38a-df07-0d076bde1580/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/bc/f6/d5bcf61a-af9f-e38a-df07-0d076bde1580/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/bc/f6/d5bcf61a-af9f-e38a-df07-0d076bde1580/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This app is an intelligent flight instrument that reads altitude. It is designed for devices that contain a barometer. This includes iPhone6, iPhone6s, iPhone6 Plus and iPhone6s Plus models running IOS 8.0 or later. For altitude reading it automatically retrieves the QNH or AS Altimeter Setting from the web and uses it in combination with the pressure sensor (barometer) to determine the actual altitude. You can either select an ICAO METAR station, like EHAM or KJFK for Schiphol and JFK airports, or enter the QNH directly in the app. It is ideal for a number of air sports to be used as a backup. Besides altitude and flight level this instrument also displays true heading and speed. The indicated values are displayed using a large font so they can easily be read from a distance. When backgrounded, this app is inactive to save power.\n\nDevice requirements:\n- GPS (required)\n- Barometer (strongly recommended)\n\nAltimeter details\n\nThe altimeter is using the barometric pressure sensor of the iPhone when available. For devices that do not contain a barometer altitude is measured in the conventional way using a GPS. Pilots who fly airplanes, gliders, hotairballoons or other airframes are familiar with altimeter settings. This setting is retrieved by looking up a METAR report for a given area, most often an airport, and locate the QNH or AS value in it. This value is then used to setup the aircraft altimeter. This device automates this process by retrieving it from the web and then automatically use it to setup the airfeet instrument. It is possible to override the automatic retrieved value by entering the QNH or AS value manually. When the field is touched the keyboard will popup and the value that could be manually entered.  Same is true for the ICAO station identifier like EBBL or KBOS. Next to the ICAO station field the activity indicator will show up when network access is in progress. This will only happen at app startup or when the manual “update QNH” or “update AS” for USA key is selected. Selecting “flight level mode” by using the “QNH-FL” switch on the bottom of the main screen,  1013.25 millibar or 29.92 inches of mercury reference pressure is used. In this mode the “altitude”  label will change to “flight level” and the indicated value will be the level in feet or meters. This mode is only available for devices that contain a barometer and will be disabled on other devices.\n\nHeading details\n\nThe GPS is used to determine the heading. The indicated true heading in displayed in degrees. Magnetic heading is not available. To work reliably an adequate GPS signal is required.\n\nSpeed details\n\nFor speed measurements the GPS needs to be operational. The speed can be set to knots or kilometers per hour. For this the “speed .x knots” or “speed .x kmh” settings are available. The set value determines at what speed a digit after the comma is displayed. When this setting is for example, set to 25, the speed below 25 is displayed as 24.2, and 25 and above is displayed without extra digit to make it more readable.\n\nVersion 3.0 Enhanced manual QNH settings when no network is available to automatically retrieve this.\n\nVersion 2.0 new feature, automatically locate nearby airport option is now available. The station/airport field contains a small A or M indicator in the left bottom to indicate Automatic or Manual mode.\n\nVersion 2.1 new feature, the QNH is now automatically updated when the app is started and \"Get AS at startup\" option is selected.\n\nVersion 4.4 Update airports for QNH retrieval."
+    },
+    "im:price": {
+      "label": "$2.99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Hotballoon"
+    },
+    "title": {
+      "label": "Airborne Flight Instrument - Henri van Bommel"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/airborne-flight-instrument/id1071898324?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/be/fa/12/befa1271-d1e1-ce8e-8772-5f889cd78e92/tns.oigpxmtj.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/airborne-flight-instrument/id1071898324?uo=2",
+      "attributes": {
+        "im:id": "1071898324",
+        "im:bundleId": "nl.hotballoon.nl.hotballoon.airfeet"
+      }
+    },
+    "im:artist": {
+      "label": "Henri van Bommel",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/henri-van-bommel/id1071898323?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6010",
+        "term": "Navigation",
+        "scheme": "https://apps.apple.com/kw/genre/ios-navigation/id6010?uo=2",
+        "label": "Navigation"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-01-21T19:34:11-07:00",
+      "attributes": {
+        "label": "January 21, 2016"
       }
     }
   },
@@ -5108,108 +5108,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "Real Tides & Currents Graph HD"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/e7/bb/79/e7bb79dd-27f4-e712-d535-498ec88e6e5b/realTide_HD-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e7/bb/79/e7bb79dd-27f4-e712-d535-498ec88e6e5b/realTide_HD-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/e7/bb/79/e7bb79dd-27f4-e712-d535-498ec88e6e5b/realTide_HD-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "• FlyToMap is a valid and interesting alternative, Benetti Yachts!\n• Top Ten since 2008!\n• Featured in : On the Deck!\n• 15000+ Tide & Current spots available! \n\n• Worldwide Marine Charts Coverage - The only one!\n\n• INTERNET CONNECTION NOT REQUIRED!\n\nRealtime TIDE calculation at your GPS position. YES!\nOur unique alghorithm is able to calculate the TIDE at any GPS location date and time in the world. No need to figure out your Lat, Long or Zip Code. Your iPad, iPod or iPhone figures it out for you. Just one click!\n\nTry it, you will love this app and its features !"
-    },
-    "im:price": {
-      "label": "$6.99",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "©2008-2022 FlyToMap"
-    },
-    "title": {
-      "label": "Real Tides & Currents Graph HD - Flytomap"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/real-tides-currents-graph-hd/id489534088?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/d2/1b/be/d21bbea0-9498-6685-3a19-5894f23091dd/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/real-tides-currents-graph-hd/id489534088?uo=2",
-      "attributes": {
-        "im:id": "489534088",
-        "im:bundleId": "com.flytomap.realTideHD"
-      }
-    },
-    "im:artist": {
-      "label": "Flytomap",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/flytomap/id297575434?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6010",
-        "term": "Navigation",
-        "scheme": "https://apps.apple.com/kw/genre/ios-navigation/id6010?uo=2",
-        "label": "Navigation"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-12-21T09:50:29-07:00",
-      "attributes": {
-        "label": "December 21, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "navigation",
-      "index": 52,
-      "total": 98
-    },
-    "im:name": {
       "label": "Air Distance"
     },
     "im:image": [
@@ -5300,6 +5198,108 @@
       "label": "2010-08-27T09:28:17-07:00",
       "attributes": {
         "label": "August 27, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "navigation",
+      "index": 52,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Real Tides & Currents Graph HD"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/e7/bb/79/e7bb79dd-27f4-e712-d535-498ec88e6e5b/realTide_HD-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e7/bb/79/e7bb79dd-27f4-e712-d535-498ec88e6e5b/realTide_HD-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/e7/bb/79/e7bb79dd-27f4-e712-d535-498ec88e6e5b/realTide_HD-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "• FlyToMap is a valid and interesting alternative, Benetti Yachts!\n• Top Ten since 2008!\n• Featured in : On the Deck!\n• 15000+ Tide & Current spots available! \n\n• Worldwide Marine Charts Coverage - The only one!\n\n• INTERNET CONNECTION NOT REQUIRED!\n\nRealtime TIDE calculation at your GPS position. YES!\nOur unique alghorithm is able to calculate the TIDE at any GPS location date and time in the world. No need to figure out your Lat, Long or Zip Code. Your iPad, iPod or iPhone figures it out for you. Just one click!\n\nTry it, you will love this app and its features !"
+    },
+    "im:price": {
+      "label": "$6.99",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "©2008-2022 FlyToMap"
+    },
+    "title": {
+      "label": "Real Tides & Currents Graph HD - Flytomap"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/real-tides-currents-graph-hd/id489534088?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/d2/1b/be/d21bbea0-9498-6685-3a19-5894f23091dd/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/real-tides-currents-graph-hd/id489534088?uo=2",
+      "attributes": {
+        "im:id": "489534088",
+        "im:bundleId": "com.flytomap.realTideHD"
+      }
+    },
+    "im:artist": {
+      "label": "Flytomap",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/flytomap/id297575434?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6010",
+        "term": "Navigation",
+        "scheme": "https://apps.apple.com/kw/genre/ios-navigation/id6010?uo=2",
+        "label": "Navigation"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-12-21T09:50:29-07:00",
+      "attributes": {
+        "label": "December 21, 2011"
       }
     }
   },
@@ -7684,9 +7684,9 @@
       "label": "This app puts the Mayan Dreamspell Calendar in your pocket! \"13:20:Sync makes it so much easier to understand and integrate the calendar into every day life. Highly recommend it.\" \n\nThe Mayan People have described, in breathtaking precision, the cycles of both the universe and nature around us. They created a harmonic calendar that is synchronized to all those cycles. Following these cycles can help you get a stronger connection with nature around you and become conscious of your essence.\n\nThis app provides a simple way to sync along those cycles, to raise our frequency and give us a new lens to view both our day-to-day and planetary events.\n\n- Did you ever realize that our (Gregorian) calendar is not a harmonic calendar? \n- Did you know that the moon has 13 (not 12!) orbits around the earth in 1 year? \n- Why do we live with this irregular calendar?\n- Are you interested in Astrology?\n\n-> All this, and more, is explained carefully in this app. (over 15.000 words on 37 pages) Please note that these text are in English language only.\n\nIn the New Time, synchronicity is the norm.\n\n\n///////////////////////////////////////////////////////////////// \n5 star rating across the world! \n///////////////////////////////////////////////////////////////// \n\"Entertaining as well as enlightening\" \n///////////////////////////////////////////////////////////////// \n\nMORE INFO: \nwww.1320sync.com \n\n\nFor the beginner this app is a learning tool because it contains an extensive explanation about Tones and Seals and the synchronizing order of the Mayan Astrology. You may think it's difficult at first but soon you will feel how it all connects. \n\n\"This app is great, and allows easy manipulation of dates. I spent years in books doing in hours what I can now do in seconds.\"\n\nFor the ones who are already familiar with the Mayan Calendar this app is a handy tool to navigate the cycles, and calculate the Combined Kin for any given combination. Furthermore this app can be of great assistance to teach other people about the 13:20 cycles and is used in teachings around the world.\n\n\n=== FEATURES ===\n\n+ Kin Calendar\nThis is your main Mayan Dreamspell Calendar Dashboard with all the details you need to stay in sync. Shows the Kin of today by default, and you can calculate the Kin for any other date.\n\n+ Personal Notes\nOn this new page you can keep your personal notes for the 2 main cycles of time: the Tzolkin cycle of 260 days and the 13 Moon cycle of 365 days. And with the powerful text search function you quickly find your notes.\n\n+ Kin Picker\nSelect any combination of the 13 Tones and 20 Seals. Top section can scroll to 4 pages with information.\n\n+ Combined Kin Calculator \nCalculate the Combined Kin of any combination of Kin. You can add as many Kin as you like to calculate the Combined Kin for a group of people. \n\n+ Tzolkin with indication of the GAP day's and Wavespell and more. Tap and hold to select a Kin number directly.\n\n+ Contact Import \nAll contacts in your Contacts App will be automatically imported and assigned to the correct Kin. See all your contacts with their Mayan Reading and how you relate to them. \n\n+ 13 Moon Calendar \nFull integration of 13 Moon Calendar. (doubles as a birthday calendar!) \n\n+ 13:20 Information \nLots of information about the theory behind synchronization to help you navigate the Mayan Dreamspell Calendar. The texts provide a clear explanation of the Cycles of Time. (More than 15.000 words on 37 pages) Please note that these text are in English language only.\n\n+ Sharing\nOn all the 3 main tabs you can share the current selected Galactic Signature using your favorite app. \n\n\n# Based on the work of José Argüelles.\n# This app was made with permission of and in cooperation with the Foundation for the Law of Time - www.lawoftime.org, \n# Ariel Spilsbury."
     },
     "im:price": {
-      "label": "$4.99",
+      "label": "$3.99",
       "attributes": {
-        "amount": "4.99",
+        "amount": "3.99",
         "currency": "USD"
       }
     },
@@ -9392,108 +9392,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "MapOut"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/07/f3/cf/07f3cf2a-f025-17eb-550c-1ffe377f9cce/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/07/f3/cf/07f3cf2a-f025-17eb-550c-1ffe377f9cce/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/07/f3/cf/07f3cf2a-f025-17eb-550c-1ffe377f9cce/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "“MapOut saves the day by using a simple interface to draw routes, and check out elevation profiles… I’m pretty blown away by its capabilities.” – Alee from cyclingabout.com\n\nOffline map covering the whole world for iPhone and iPad. Almost as beautiful as a paper map - only more versatile.\n- For hikers: With an easy-to-read representation of the terrain, even in the furthest corners without internet\n- For cyclists: With cycling route network, speed and distance display\n- For city travelers: City maps with tourist information\n- For the connoisseur: Simply beautiful map to look at\n\n3D tilt view\n- Tilt the device in any direction to get a better impression of the terrain. More information on https://mapout.app.\n\nSearch feature\n- Search for places, streets, mountains, etc. No internet connection required.\n\nMap material\n- MapOut is based on the OpenStreetMap project, the “Wikipedia of Maps” - you can make corrections and additions yourself on OpenStreetMap.org. The latest maps are delivered with periodic updates.\n- Download the regions of your choice - the maps can now be displayed without an internet connection (offline map).\n\nTours\n- Drawing: Draw your own routes and waypoints directly on the map. Retouch existing tours and imported GPX files or let them directly snap to the road network.\n- Import: With a free “MapOut.me” account you can send directions by email to your device. GPS-Tours can be found as gpx or kml files on many websites with tips for hiking or biking (e.g. on www.gpsies.com)\nRecord: Take recordings of your own tours and share them with friends. \nInformation: Quick overview of each tour - length, altitude change, map section and route profile\n\nMap view\n- Fast map display (hardware accelerated)\n- Step-free zoom, always a pixel-perfect map\n- Topographical map with contour lines and shading\n- Selectable overlays: Bike/hike/ski routes, sightseeing, public transport\n\nFind all answers to your questions in our user manual: https://mapout.app/manual\n\nMap data © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)"
-    },
-    "im:price": {
-      "label": "$4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2013 Valnova GmbH"
-    },
-    "title": {
-      "label": "MapOut - Valnova"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/mapout/id477094081?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/2d/99/ee/2d99ee8c-c4a1-e39b-8d02-23f62214a4c7/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/mapout/id477094081?uo=2",
-      "attributes": {
-        "im:id": "477094081",
-        "im:bundleId": "ch.valnova.MapOut"
-      }
-    },
-    "im:artist": {
-      "label": "Valnova",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/valnova/id312297700?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6010",
-        "term": "Navigation",
-        "scheme": "https://apps.apple.com/kw/genre/ios-navigation/id6010?uo=2",
-        "label": "Navigation"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-03-19T19:22:13-07:00",
-      "attributes": {
-        "label": "March 19, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "navigation",
-      "index": 94,
-      "total": 98
-    },
-    "im:name": {
       "label": "VFR Course Calculator"
     },
     "im:image": [
@@ -9592,7 +9490,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 95,
+      "index": 94,
       "total": 98
     },
     "im:name": {
@@ -9694,7 +9592,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 96,
+      "index": 95,
       "total": 98
     },
     "im:name": {
@@ -9796,7 +9694,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 97,
+      "index": 96,
       "total": 98
     },
     "im:name": {
@@ -9898,7 +9796,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 98,
+      "index": 97,
       "total": 98
     },
     "im:name": {
@@ -9992,6 +9890,108 @@
       "label": "2010-09-11T09:36:55-07:00",
       "attributes": {
         "label": "September 11, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "navigation",
+      "index": 98,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Speedometer App"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple49/v4/96/8e/c6/968ec6d7-abbb-ed5e-4d52-52c15006961c/mzl.uoeiqaam.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple49/v4/96/8e/c6/968ec6d7-abbb-ed5e-4d52-52c15006961c/mzl.uoeiqaam.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple49/v4/96/8e/c6/968ec6d7-abbb-ed5e-4d52-52c15006961c/mzl.uoeiqaam.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This application helps to calculate the average velocity over a given distance. Use this to measure e.g. your walking and running speed or to calibrate your car speedometer. It doesn't use GPS so it works on the iPod Touch as well.\n\nHow to use:\n\n1. Find a known distance and enter it into the Distance field.\n\n2. Get ready and press Start when you are at the start point.\n\n3. The time and the calculated speed are updated live during measurement. \n\n4. Press Stop when you reach the end point.\n\n5. Press Restart when you want to start again or Resume when you want to go on and add to your current values.\n\nYou can change the distance during or after measurement.\n\nIt keeps a history list of your old measurements. Everytime you press Stop the current values are added to the history. You can email the history data for further processing and remove data entries from the history."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2008 Piet Jonas"
+    },
+    "title": {
+      "label": "Speedometer App - Piet Jonas"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/speedometer-app/id303145704?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/1f/93/1d/1f931df7-6274-47c8-87fa-1222793f6b6c/mzl.hdrcaroa.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/speedometer-app/id303145704?uo=2",
+      "attributes": {
+        "im:id": "303145704",
+        "im:bundleId": "com.speedymarks.apps.Speedometer"
+      }
+    },
+    "im:artist": {
+      "label": "Piet Jonas",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/piet-jonas/id288060167?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6010",
+        "term": "Navigation",
+        "scheme": "https://apps.apple.com/kw/genre/ios-navigation/id6010?uo=2",
+        "label": "Navigation"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-01-31T11:27:24-07:00",
+      "attributes": {
+        "label": "January 31, 2009"
       }
     }
   }

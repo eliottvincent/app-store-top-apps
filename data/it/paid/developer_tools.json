@@ -8,35 +8,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "DNS Client"
+      "label": "Docker Management"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/93/dd/50/93dd50ca-dcb1-e70f-92b2-7d5b7273e35f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/93/dd/50/93dd50ca-dcb1-e70f-92b2-7d5b7273e35f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/93/dd/50/93dd50ca-dcb1-e70f-92b2-7d5b7273e35f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "DNS Client is a networking developer tool for debugging Domain Name Servers.\nIt gives an ability to create requests in human-readable format and interprets responses. Supports all known DNS query types. \n\nCurrently supported protocols: \n- DNS over UDP\n- DNS over HTTPs\n- DNS over TLS"
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
     },
     "im:price": {
-      "label": "1,19 €",
+      "label": "5,99 €",
       "attributes": {
-        "amount": "1.19",
+        "amount": "5.99",
         "currency": "EUR"
       }
     },
@@ -47,17 +47,17 @@
       }
     },
     "rights": {
-      "label": "© 2022 Sergii Kryvobloskyi"
+      "label": "© nevishs"
     },
     "title": {
-      "label": "DNS Client - Sergii Kryvoblotskyi"
+      "label": "Docker Management - Nevis Shkenza"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/it/app/dns-client/id1517487743?l=en&uo=2"
+          "href": "https://apps.apple.com/it/app/docker-management/id1527656144?l=en&uo=2"
         }
       },
       {
@@ -68,22 +68,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/6d/50/f6/6d50f671-a302-1e6a-9fa6-655c64366bc7/bb60efb4-70bd-4437-9e30-2bd1867dd44d_12.9_inch_-_Screenshot_27.jpg/1024x1024bb.jpg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/it/app/dns-client/id1517487743?l=en&uo=2",
+      "label": "https://apps.apple.com/it/app/docker-management/id1527656144?l=en&uo=2",
       "attributes": {
-        "im:id": "1517487743",
-        "im:bundleId": "com.krivoblotsky.DNSDebugger"
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
       }
     },
     "im:artist": {
-      "label": "Sergii Kryvoblotskyi",
+      "label": "Nevis Shkenza",
       "attributes": {
-        "href": "https://apps.apple.com/it/developer/sergii-kryvoblotskyi/id1451846243?l=en&uo=2"
+        "href": "https://apps.apple.com/it/developer/nevis-shkenza/id1268450891?l=en&uo=2"
       }
     },
     "category": {
@@ -95,9 +95,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-07-29T00:00:00-07:00",
+      "label": "2020-08-14T00:00:00-07:00",
       "attributes": {
-        "label": "July 29, 2020"
+        "label": "August 14, 2020"
       }
     }
   },
@@ -107,6 +107,108 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 2,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Cookie Editor - For Safari"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "We deliver the first ever Cookie Editor extension available for Safari Web Browser, which helps in\n1: Edit cookies as simple text\n2: Delete cookies,\n3: Import cookies as JSON or simple text.\nfrom any saved website. \nHappy Editing cookies now take rest and have some water."
+    },
+    "im:price": {
+      "label": "0,49 €",
+      "attributes": {
+        "amount": "0.49",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Shubham Sharma"
+    },
+    "title": {
+      "label": "Cookie Editor - For Safari - Shubham Sharma"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/it/app/cookie-editor-for-safari/id1643498176?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/41/05/71/410571cb-07e4-e295-684a-2ddf12090ced/0e647d22-f494-437f-bebe-84504fb9a9e7_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/it/app/cookie-editor-for-safari/id1643498176?l=en&uo=2",
+      "attributes": {
+        "im:id": "1643498176",
+        "im:bundleId": "com.clint.Cookie-Editor"
+      }
+    },
+    "im:artist": {
+      "label": "Shubham Sharma",
+      "attributes": {
+        "href": "https://apps.apple.com/it/developer/shubham-sharma/id1643497398?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-09-12T00:00:00-07:00",
+      "attributes": {
+        "label": "September 12, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "it",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -412,7 +514,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -616,7 +718,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -718,7 +820,109 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 9,
+      "total": 99
+    },
+    "im:name": {
+      "label": "DNS Client"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/93/dd/50/93dd50ca-dcb1-e70f-92b2-7d5b7273e35f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/93/dd/50/93dd50ca-dcb1-e70f-92b2-7d5b7273e35f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/93/dd/50/93dd50ca-dcb1-e70f-92b2-7d5b7273e35f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "DNS Client is a networking developer tool for debugging Domain Name Servers.\nIt gives an ability to create requests in human-readable format and interprets responses. Supports all known DNS query types. \n\nCurrently supported protocols: \n- DNS over UDP\n- DNS over HTTPs\n- DNS over TLS"
+    },
+    "im:price": {
+      "label": "1,19 €",
+      "attributes": {
+        "amount": "1.19",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Sergii Kryvobloskyi"
+    },
+    "title": {
+      "label": "DNS Client - Sergii Kryvoblotskyi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/it/app/dns-client/id1517487743?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/6d/50/f6/6d50f671-a302-1e6a-9fa6-655c64366bc7/bb60efb4-70bd-4437-9e30-2bd1867dd44d_12.9_inch_-_Screenshot_27.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/it/app/dns-client/id1517487743?l=en&uo=2",
+      "attributes": {
+        "im:id": "1517487743",
+        "im:bundleId": "com.krivoblotsky.DNSDebugger"
+      }
+    },
+    "im:artist": {
+      "label": "Sergii Kryvoblotskyi",
+      "attributes": {
+        "href": "https://apps.apple.com/it/developer/sergii-kryvoblotskyi/id1451846243?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-07-29T00:00:00-07:00",
+      "attributes": {
+        "label": "July 29, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "it",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -820,7 +1024,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -922,7 +1126,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1016,210 +1220,6 @@
       "label": "2021-05-12T00:00:00-07:00",
       "attributes": {
         "label": "May 12, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "it",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 11,
-      "total": 99
-    },
-    "im:name": {
-      "label": "iHTTP Tracker -Network monitor"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "HTTP packet capturing tool, LAN devices can connect and capture packets, monitor network requests, analyze data.\n\nIt will create a VPN configuration. After the service is enabled, all HTTP traffic will be forwarded to the proxy through the local proxy to realize the network debugging function.\n\n#Support blacklist and whitelist\n#Support split screen browsing\n#Common file resolution, source path can be copied\n#View request information, request headers, and packets\n#View response status codes, response headers, and packets\n#Format highlighting of common files\n#More flexible data filtering\n#Support computers and other devices to access packet capturing records through browser\n#Support rewriting rule sharing, importing and exporting\n#CA certificate download, supporting HTTPS decryption\n#Support IOS 11+"
-    },
-    "im:price": {
-      "label": "4,99 €",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Phoenix Lab Technology Co., Ltd."
-    },
-    "title": {
-      "label": "iHTTP Tracker -Network monitor - Phoenix Lab Technology Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/it/app/ihttp-tracker-network-monitor/id1463315864?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9c/86/30/9c8630b3-f3fd-8b77-9a58-1ce77e5c19c2/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/it/app/ihttp-tracker-network-monitor/id1463315864?l=en&uo=2",
-      "attributes": {
-        "im:id": "1463315864",
-        "im:bundleId": "com.cyp.httpCatcher"
-      }
-    },
-    "im:artist": {
-      "label": "Phoenix Lab Technology Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/it/developer/phoenix-lab-technology-co-ltd/id1441899762?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-05-21T14:09:54-07:00",
-      "attributes": {
-        "label": "May 21, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "it",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 12,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Wireshark Helper - Decrypt TLS"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nRequires: two softwares on your desktop:\n\nWireshark: https://www.wireshark.org\nWireshark Helper: https://www.txthinking.com\n\n- Redirect all mobile TCP&UDP to your desktop Wireshark\n- SSL/TLS-capable intercepting\n- HTTP, HTTPS, SMTP, IMAP, DNS, FTP, POP3, SSH, Telnel, IRC, *ANY* custom protocol…"
-    },
-    "im:price": {
-      "label": "11,99 €",
-      "attributes": {
-        "amount": "11.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© TxThinking, Inc."
-    },
-    "title": {
-      "label": "Wireshark Helper - Decrypt TLS - TxThinking, Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/it/app/wireshark-helper-decrypt-tls/id1534485108?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/3f/b1/61/3fb1611d-5746-6c18-cd01-2de6aa953ab0/ff24f463-0d31-47fd-a39e-a16261a741e1_2.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/it/app/wireshark-helper-decrypt-tls/id1534485108?l=en&uo=2",
-      "attributes": {
-        "im:id": "1534485108",
-        "im:bundleId": "com.txthinking.wireshark"
-      }
-    },
-    "im:artist": {
-      "label": "TxThinking, Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/it/developer/txthinking-inc/id1634589596?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-11-06T00:00:00-07:00",
-      "attributes": {
-        "label": "November 6, 2020"
       }
     }
   },
@@ -1334,6 +1334,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "iHTTP Tracker -Network monitor"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "HTTP packet capturing tool, LAN devices can connect and capture packets, monitor network requests, analyze data.\n\nIt will create a VPN configuration. After the service is enabled, all HTTP traffic will be forwarded to the proxy through the local proxy to realize the network debugging function.\n\n#Support blacklist and whitelist\n#Support split screen browsing\n#Common file resolution, source path can be copied\n#View request information, request headers, and packets\n#View response status codes, response headers, and packets\n#Format highlighting of common files\n#More flexible data filtering\n#Support computers and other devices to access packet capturing records through browser\n#Support rewriting rule sharing, importing and exporting\n#CA certificate download, supporting HTTPS decryption\n#Support IOS 11+"
+    },
+    "im:price": {
+      "label": "4,99 €",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Phoenix Lab Technology Co., Ltd."
+    },
+    "title": {
+      "label": "iHTTP Tracker -Network monitor - Phoenix Lab Technology Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/it/app/ihttp-tracker-network-monitor/id1463315864?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9c/86/30/9c8630b3-f3fd-8b77-9a58-1ce77e5c19c2/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/it/app/ihttp-tracker-network-monitor/id1463315864?l=en&uo=2",
+      "attributes": {
+        "im:id": "1463315864",
+        "im:bundleId": "com.cyp.httpCatcher"
+      }
+    },
+    "im:artist": {
+      "label": "Phoenix Lab Technology Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/it/developer/phoenix-lab-technology-co-ltd/id1441899762?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-05-21T14:09:54-07:00",
+      "attributes": {
+        "label": "May 21, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "it",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 15,
+      "total": 99
+    },
+    "im:name": {
       "label": "DraftCode Local PHP"
     },
     "im:image": [
@@ -1432,7 +1534,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1534,7 +1636,109 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 17,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Wireshark Helper - Decrypt TLS"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nRequires: two softwares on your desktop:\n\nWireshark: https://www.wireshark.org\nWireshark Helper: https://www.txthinking.com\n\n- Redirect all mobile TCP&UDP to your desktop Wireshark\n- SSL/TLS-capable intercepting\n- HTTP, HTTPS, SMTP, IMAP, DNS, FTP, POP3, SSH, Telnel, IRC, *ANY* custom protocol…"
+    },
+    "im:price": {
+      "label": "11,99 €",
+      "attributes": {
+        "amount": "11.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© TxThinking, Inc."
+    },
+    "title": {
+      "label": "Wireshark Helper - Decrypt TLS - TxThinking, Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/it/app/wireshark-helper-decrypt-tls/id1534485108?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/3f/b1/61/3fb1611d-5746-6c18-cd01-2de6aa953ab0/ff24f463-0d31-47fd-a39e-a16261a741e1_2.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/it/app/wireshark-helper-decrypt-tls/id1534485108?l=en&uo=2",
+      "attributes": {
+        "im:id": "1534485108",
+        "im:bundleId": "com.txthinking.wireshark"
+      }
+    },
+    "im:artist": {
+      "label": "TxThinking, Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/it/developer/txthinking-inc/id1634589596?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-11-06T00:00:00-07:00",
+      "attributes": {
+        "label": "November 6, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "it",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1636,7 +1840,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +1942,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -1840,7 +2044,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +2146,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2044,109 +2248,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/it/app/docker-management/id1527656144?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/it/app/docker-management/id1527656144?l=en&uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/it/developer/nevis-shkenza/id1268450891?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "it",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2248,7 +2350,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 24,
       "total": 99
     },
     "im:name": {
@@ -2350,7 +2452,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2449,7 +2551,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 26,
       "total": 99
     },
     "im:name": {
@@ -2551,7 +2653,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2653,7 +2755,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2752,7 +2854,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -2854,7 +2956,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -2956,7 +3058,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -3058,7 +3160,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3160,7 +3262,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 32,
+      "index": 33,
       "total": 99
     },
     "im:name": {
@@ -3262,7 +3364,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 34,
       "total": 99
     },
     "im:name": {
@@ -3364,7 +3466,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3466,7 +3568,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3568,7 +3670,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3670,7 +3772,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 37,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3772,7 +3874,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 38,
+      "index": 39,
       "total": 99
     },
     "im:name": {
@@ -3874,7 +3976,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 39,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -3976,7 +4078,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 40,
+      "index": 41,
       "total": 99
     },
     "im:name": {
@@ -4078,7 +4180,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 41,
+      "index": 42,
       "total": 99
     },
     "im:name": {
@@ -4180,7 +4282,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 42,
+      "index": 43,
       "total": 99
     },
     "im:name": {
@@ -4282,7 +4384,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 43,
+      "index": 44,
       "total": 99
     },
     "im:name": {
@@ -4384,7 +4486,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 44,
+      "index": 45,
       "total": 99
     },
     "im:name": {
@@ -4486,7 +4588,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 45,
+      "index": 46,
       "total": 99
     },
     "im:name": {
@@ -4588,7 +4690,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 46,
+      "index": 47,
       "total": 99
     },
     "im:name": {
@@ -4682,108 +4784,6 @@
       "label": "2017-11-07T11:32:31-07:00",
       "attributes": {
         "label": "November 7, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "it",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 47,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Cookie Editor - For Safari"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "We deliver the first ever Cookie Editor extension available for Safari Web Browser, which helps in\n1: Edit cookies as simple text\n2: Delete cookies,\n3: Import cookies as JSON or simple text.\nfrom any saved website. \nHappy Editing cookies now take rest and have some water."
-    },
-    "im:price": {
-      "label": "0,49 €",
-      "attributes": {
-        "amount": "0.49",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Shubham Sharma"
-    },
-    "title": {
-      "label": "Cookie Editor - For Safari - Shubham Sharma"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/it/app/cookie-editor-for-safari/id1643498176?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/41/05/71/410571cb-07e4-e295-684a-2ddf12090ced/0e647d22-f494-437f-bebe-84504fb9a9e7_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/it/app/cookie-editor-for-safari/id1643498176?l=en&uo=2",
-      "attributes": {
-        "im:id": "1643498176",
-        "im:bundleId": "com.clint.Cookie-Editor"
-      }
-    },
-    "im:artist": {
-      "label": "Shubham Sharma",
-      "attributes": {
-        "href": "https://apps.apple.com/it/developer/shubham-sharma/id1643497398?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-09-12T00:00:00-07:00",
-      "attributes": {
-        "label": "September 12, 2022"
       }
     }
   },

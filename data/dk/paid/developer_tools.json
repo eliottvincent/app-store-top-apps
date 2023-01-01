@@ -544,9 +544,9 @@
       "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
     },
     "im:price": {
-      "label": "17,00 kr",
+      "label": "25,00 kr",
       "attributes": {
-        "amount": "17.00",
+        "amount": "25.00",
         "currency": "DKK"
       }
     },
@@ -824,108 +824,6 @@
       "total": 74
     },
     "im:name": {
-      "label": "Zeitgeist"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
-    },
-    "im:price": {
-      "label": "17,00 kr",
-      "attributes": {
-        "amount": "17.00",
-        "currency": "DKK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Daniel Eden"
-    },
-    "title": {
-      "label": "Zeitgeist - Dan Eden"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/dk/app/zeitgeist/id1526052028?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5f/93/a4/5f93a413-d500-82f9-6ce5-027b9fb610a5/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/dk/app/zeitgeist/id1526052028?uo=2",
-      "attributes": {
-        "im:id": "1526052028",
-        "im:bundleId": "me.daneden.Zeitgeist"
-      }
-    },
-    "im:artist": {
-      "label": "Dan Eden",
-      "attributes": {
-        "href": "https://apps.apple.com/dk/developer/dan-eden/id508167369?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/dk/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-02T00:00:00-07:00",
-      "attributes": {
-        "label": "December 2, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "dk",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 10,
-      "total": 74
-    },
-    "im:name": {
       "label": "Adaptivity (A)"
     },
     "im:image": [
@@ -1016,6 +914,108 @@
       "label": "2015-11-16T16:22:40-07:00",
       "attributes": {
         "label": "November 16, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "dk",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 10,
+      "total": 74
+    },
+    "im:name": {
+      "label": "Zeitgeist"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
+    },
+    "im:price": {
+      "label": "17,00 kr",
+      "attributes": {
+        "amount": "17.00",
+        "currency": "DKK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Daniel Eden"
+    },
+    "title": {
+      "label": "Zeitgeist - Dan Eden"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/dk/app/zeitgeist/id1526052028?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5f/93/a4/5f93a413-d500-82f9-6ce5-027b9fb610a5/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/dk/app/zeitgeist/id1526052028?uo=2",
+      "attributes": {
+        "im:id": "1526052028",
+        "im:bundleId": "me.daneden.Zeitgeist"
+      }
+    },
+    "im:artist": {
+      "label": "Dan Eden",
+      "attributes": {
+        "href": "https://apps.apple.com/dk/developer/dan-eden/id508167369?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/dk/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-12-02T00:00:00-07:00",
+      "attributes": {
+        "label": "December 2, 2020"
       }
     }
   },
@@ -6457,9 +6457,9 @@
       "label": "RCReporting is the most powerful reporting tool for RevenueCat, providing all the features from the website in a native, dark mode supported, beautiful interface.\n\nRCReporting is available for a one-time purchase and will include all future updates, made by an indie developer for indie developers. \n\nFeatures include:\n- Overview reporting\n- Overview filtering by an app\n- Subscriber lists\n- Transaction history\n- Transaction filtering by app, date, and status\n- Transaction search by email, transaction id, and customer id\n- Transaction and subscriber details\n- Subscriber attributes\n- Subscriber history\n- Subscriber event details\n- Daily stats and transaction history\n- Charts for:\n    - Active Subscriptions,\n    - Active Subscriptions Movement\n    - ARR\n    - MRR\n    - MRR Movement\n    - Refund Rate\n    - Revenue\n    - Subscription Retention\n    - Trial Conversion\n    - Active Trials\n    - Active Trials Movement\n- Local transaction notifications\n- Remote subscription notifications\n- Custom currency\n- Sandbox mode\n- iCloud sync\n- Widgets\n- Custom transaction fee\n- Rename products\n\nAuthenticating with RevenueCat uses the RevenueCat web APIs and all your information is sent directly to RevenueCat only. Your email and password are NOT saved anywhere. \nRCReporting supports login with 2FA.\n\nRCReporting is not affiliated with RevenueCat."
     },
     "im:price": {
-      "label": "89,00 kr",
+      "label": "99,00 kr",
       "attributes": {
-        "amount": "89.00",
+        "amount": "99.00",
         "currency": "DKK"
       }
     },

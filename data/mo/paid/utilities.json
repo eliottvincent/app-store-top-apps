@@ -3578,108 +3578,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Quantumult"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/7e/68/66/7e686672-168b-3d8a-db13-3baaadc1d9c4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/7e/68/66/7e686672-168b-3d8a-db13-3baaadc1d9c4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7e/68/66/7e686672-168b-3d8a-db13-3baaadc1d9c4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "***THIS APPLICATION DOES NOT PROVIDE ANY SERVER SIDE SERVICE***\n\nQuantumult is a powerful proxy client.\n• Right now supports protocol Shadowsocks(r), HTTP, HTTP over TLS, SOCKS5 and SOCKS5 over TLS, VMess.\n\nIt can capture all the TCP traffic and redirect under you own way by using Filter function.\n• The filter has a few types to match. For TCP traffic that has the upper layer protocol HTTP(S), 'HOST', 'HOST-SUFFIX', 'HOST-KEYWORD', 'USER-AGENT', 'GEOIP' and 'IP-CIDR' are all supported. For the other TCP traffic, 'GEOIP' and 'IP-CIDR' are supported. Especially, when deal with HTTP(S) traffic, Quantumult has another function called Rejection, it matchs the whole URL of the HTTP(S) request.\n• After match, the filter has a lot of actions to deal with the request, built-in policy 'DIRECT', 'REJECT', 'PROXY', all your servers and your customized policies. Actually you can see all the actions as a lot of paths and you can decide which request goes through which path by using filter function.\n\nMore over, Quantumult can be a convenient web develop tool on mobile device.\n• When you on the road without the Mac platform debug tools like Charles and Wireshark, you still can use Quantumult to log parts of the web request to debug some web issues.\n• Quantumult can log all the HTTP(S) request header and response header.\n• Yes, you are right it can log the HTTPS request header and response header, be sure to install and trust Quantumult root CA for this advanced function.\n\nSince quantumult has a function called PROXY, sure it can redirect your traffic to remote proxy servers. But be clear, we do NOT provide any server side service or support, you should build your own servers.\n• Like we said early Quantumult can redirect all TCP traffic through the filter function, that means you can visit different web site through different servers by the filter. See it can accelerate your network connection if you set your filter right, and of course the filter is totally customizable.\n• About the customized policy, there are 3 different types of customized policy, 'SSID', 'Latency' and 'Static'. The 'SSID' policy depends on your network enviroment, Wi-Fi, Cellular or specific Wi-Fi with the SSID your provided. The 'Latency' policy is based on the latencies of all the servers of the policy settings, the result is the shortest(The test interval has the option of 600 or 1200 seconds). The 'Static' policy is based on your manual selection of servers or other polices from the policy settings. Sure you are right, some of polices can wrap other polices, convinent, right ?\n\nAbout working state, Quantumult can work in 3 state, 'GLOBAL', 'DIRECT' AND 'AUTO'.\n• The GLOBAL state will ignore filter settings and redirect all TCP traffic through the built-in PROXY policy(you need build and add your server first).\n• The DIRECT state will ignore filter settings and redirect all TCP traffic directly to the destination web site. How this state useful ? Yes, it can be a simple web develop tools by analizing the reqeust header and response header including HTTPS.\n• The AUTO state, we call it auto because it base on the filter you set to divide the TCP traffic through different paths, like the popular ACL way.\n\nExtra, Quantumult can also work as a HTTP proxy server for devices under the same Wi-Fi, when this function is turned on, the home view will show the IP and port for other device easily to connect.\n\n\nAt last, some attentions.\n• About the location on the map of home view. It is not the real location in the real world, it's just the IP location and might not be correct."
-    },
-    "im:price": {
-      "label": "USD 9.99",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2018 Cross Utility Ltd."
-    },
-    "title": {
-      "label": "Quantumult - Cross Utility Ltd"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mo/app/quantumult/id1252015438?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8d/5d/2a/8d5d2abd-f53a-6258-d942-02e29b6af243/mzl.nufuqusq.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mo/app/quantumult/id1252015438?l=en&uo=2",
-      "attributes": {
-        "im:id": "1252015438",
-        "im:bundleId": "com.crossutility.quantumult"
-      }
-    },
-    "im:artist": {
-      "label": "Cross Utility Ltd",
-      "attributes": {
-        "href": "https://apps.apple.com/mo/developer/cross-utility-ltd/id1252015437?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mo/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-06-28T16:02:05-07:00",
-      "attributes": {
-        "label": "June 28, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mo",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 37,
-      "total": 100
-    },
-    "im:name": {
       "label": "十三行八字 for iPhone"
     },
     "im:image": [
@@ -3778,39 +3676,39 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 38,
+      "index": 37,
       "total": 100
     },
     "im:name": {
-      "label": "White Balance Meter - KEV"
+      "label": "Quantumult"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/76/43/67/76436731-7b9a-c101-e80d-558c505723ac/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/7e/68/66/7e686672-168b-3d8a-db13-3baaadc1d9c4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/76/43/67/76436731-7b9a-c101-e80d-558c505723ac/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/7e/68/66/7e686672-168b-3d8a-db13-3baaadc1d9c4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/76/43/67/76436731-7b9a-c101-e80d-558c505723ac/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7e/68/66/7e686672-168b-3d8a-db13-3baaadc1d9c4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "KEV is the #1 White Balance app.\nKEV app turns your iPhone or iPad into a professional and easy-to-use light meter. Using KEV app is as easy as pie, no sensor required, the in-built camera already got you covered.\n\nMinimalist KEV analyses live preview of the scene and gives you accurate white balance data in Kelvin.\n\nTrying to get the perfect White Balance on your DSLR can be annoying. KEV helps you by letting you know what the White Balance should be. You can measure the colour temperature of a light source in Kelvin without having to spend hundreds of dollars on professional devices.\n\nWe calibrated KEV using Sekonic C-700R-U SpectroMaster Colour Meter, and we guarantee from fair to almost 100% accuracy. Just open the KEV app and point the camera on surface or scene.\n \nThe white balance is a correction of color rendition to make the picture from the camera sensor as similar to the perception by human eyes as possible.\n\nFunctions and Capabilities:\n• Gets you Color Temperature in Kelvin in real-time.\n• Ability to compensate and calculate the white balance readings.\n• Capture a snapshot with color temperature reading and location.\n• Ability to manually focus on the scene and objects.\n• Minimal yet integral point and shoot capability.\n• A go-to spectrometer for photographers, videographers, cinematographers, gaffers, drones and action cameras.\n• Save time in post-processing.\n• Mount your iPhone using hot-shoe over the camera or on a tripod stand and get colour temperature data on the KEV Watch app.\n• Zoom in to get colour temperature data of a close-range.\n• Balance Color Temperature of the Ambient Light and Your Light Source.\n\nOverride the Auto-White Balance and choose settings yourself.\n\nWatch these cool tutorial videos published by the KEV users:\nhttps://youtu.be/C4oihcY7Dh4\nhttps://vimeo.com/654324525/b8dfe3ea3a\n\nWe care about your privacy:\nhttps://kevapp.co/privacy/\n\nIf you'd like to contact, please send us an email at 29satnam@gmail.com."
+      "label": "***THIS APPLICATION DOES NOT PROVIDE ANY SERVER SIDE SERVICE***\n\nQuantumult is a powerful proxy client.\n• Right now supports protocol Shadowsocks(r), HTTP, HTTP over TLS, SOCKS5 and SOCKS5 over TLS, VMess.\n\nIt can capture all the TCP traffic and redirect under you own way by using Filter function.\n• The filter has a few types to match. For TCP traffic that has the upper layer protocol HTTP(S), 'HOST', 'HOST-SUFFIX', 'HOST-KEYWORD', 'USER-AGENT', 'GEOIP' and 'IP-CIDR' are all supported. For the other TCP traffic, 'GEOIP' and 'IP-CIDR' are supported. Especially, when deal with HTTP(S) traffic, Quantumult has another function called Rejection, it matchs the whole URL of the HTTP(S) request.\n• After match, the filter has a lot of actions to deal with the request, built-in policy 'DIRECT', 'REJECT', 'PROXY', all your servers and your customized policies. Actually you can see all the actions as a lot of paths and you can decide which request goes through which path by using filter function.\n\nMore over, Quantumult can be a convenient web develop tool on mobile device.\n• When you on the road without the Mac platform debug tools like Charles and Wireshark, you still can use Quantumult to log parts of the web request to debug some web issues.\n• Quantumult can log all the HTTP(S) request header and response header.\n• Yes, you are right it can log the HTTPS request header and response header, be sure to install and trust Quantumult root CA for this advanced function.\n\nSince quantumult has a function called PROXY, sure it can redirect your traffic to remote proxy servers. But be clear, we do NOT provide any server side service or support, you should build your own servers.\n• Like we said early Quantumult can redirect all TCP traffic through the filter function, that means you can visit different web site through different servers by the filter. See it can accelerate your network connection if you set your filter right, and of course the filter is totally customizable.\n• About the customized policy, there are 3 different types of customized policy, 'SSID', 'Latency' and 'Static'. The 'SSID' policy depends on your network enviroment, Wi-Fi, Cellular or specific Wi-Fi with the SSID your provided. The 'Latency' policy is based on the latencies of all the servers of the policy settings, the result is the shortest(The test interval has the option of 600 or 1200 seconds). The 'Static' policy is based on your manual selection of servers or other polices from the policy settings. Sure you are right, some of polices can wrap other polices, convinent, right ?\n\nAbout working state, Quantumult can work in 3 state, 'GLOBAL', 'DIRECT' AND 'AUTO'.\n• The GLOBAL state will ignore filter settings and redirect all TCP traffic through the built-in PROXY policy(you need build and add your server first).\n• The DIRECT state will ignore filter settings and redirect all TCP traffic directly to the destination web site. How this state useful ? Yes, it can be a simple web develop tools by analizing the reqeust header and response header including HTTPS.\n• The AUTO state, we call it auto because it base on the filter you set to divide the TCP traffic through different paths, like the popular ACL way.\n\nExtra, Quantumult can also work as a HTTP proxy server for devices under the same Wi-Fi, when this function is turned on, the home view will show the IP and port for other device easily to connect.\n\n\nAt last, some attentions.\n• About the location on the map of home view. It is not the real location in the real world, it's just the IP location and might not be correct."
     },
     "im:price": {
-      "label": "USD 2.99",
+      "label": "USD 9.99",
       "attributes": {
-        "amount": "2.99",
+        "amount": "9.99",
         "currency": "USD"
       }
     },
@@ -3821,17 +3719,17 @@
       }
     },
     "rights": {
-      "label": "© 2022 KEV"
+      "label": "© 2018 Cross Utility Ltd."
     },
     "title": {
-      "label": "White Balance Meter - KEV - Satnam Singh"
+      "label": "Quantumult - Cross Utility Ltd"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/mo/app/white-balance-meter-kev/id1494197457?l=en&uo=2"
+          "href": "https://apps.apple.com/mo/app/quantumult/id1252015438?l=en&uo=2"
         }
       },
       {
@@ -3842,22 +3740,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/ca/ab/b7/caabb798-759e-984e-6c86-ff56a71eed8f/24e1453e-533b-4747-a5ef-cbbb24a3c488_iPad_Pro_12.9_U2033@2x.png/1024x1024bb.png",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8d/5d/2a/8d5d2abd-f53a-6258-d942-02e29b6af243/mzl.nufuqusq.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/mo/app/white-balance-meter-kev/id1494197457?l=en&uo=2",
+      "label": "https://apps.apple.com/mo/app/quantumult/id1252015438?l=en&uo=2",
       "attributes": {
-        "im:id": "1494197457",
-        "im:bundleId": "com.silverseahog.kev"
+        "im:id": "1252015438",
+        "im:bundleId": "com.crossutility.quantumult"
       }
     },
     "im:artist": {
-      "label": "Satnam Singh",
+      "label": "Cross Utility Ltd",
       "attributes": {
-        "href": "https://apps.apple.com/mo/developer/satnam-singh/id1090760318?l=en&uo=2"
+        "href": "https://apps.apple.com/mo/developer/cross-utility-ltd/id1252015437?l=en&uo=2"
       }
     },
     "category": {
@@ -3869,9 +3767,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-01-30T00:00:00-07:00",
+      "label": "2017-06-28T16:02:05-07:00",
       "attributes": {
-        "label": "January 30, 2020"
+        "label": "June 28, 2017"
       }
     }
   },
@@ -3880,7 +3778,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 39,
+      "index": 38,
       "total": 100
     },
     "im:name": {
@@ -3982,109 +3880,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 40,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Stash - Rule Based Proxy"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/33/b8/7c/33b87c5f-98d3-c77e-a412-f3d63a0b9740/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/33/b8/7c/33b87c5f-98d3-c77e-a412-f3d63a0b9740/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/33/b8/7c/33b87c5f-98d3-c77e-a412-f3d63a0b9740/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Stash is the best choice for Clash rules on iOS! Full adaptation of Clash Premium configuration. \nStash is a rule-based proxy client with multiple proxy protocol support. Support for Rule Set, JavaScript, HTTP Rewriting, MitM, SSID Policy Groups, On-Demand Connections and other new features.\n\n- Handle TCP / UDP / ICMP traffic and forward to any proxy server\n- Route traffic to different endpoint by rule of domain, IP-CIDR, or User-Agent\n- Support DNS over TCP / DNS over TLS / DNS over HTTPS\n- Native UI dashboard to display HTTP / HTTPS / TCP request\n- Support for Rewriting HTTP(S) requests using JavaScript\n- Decrypt HTTPS traffic with Man-in-the-Middle\n- Support for URL Rewrite\n- Fully IPv6 supports\n- Builtin DNS server with hostname mapping\n- Support for overriding some of the settings of the current configuration file using Override"
-    },
-    "im:price": {
-      "label": "USD 3.99",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Stash Networks Limited"
-    },
-    "title": {
-      "label": "Stash - Rule Based Proxy - STASH NETWORKS LIMITED"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mo/app/stash-rule-based-proxy/id1596063349?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/6a/59/81/6a598143-9126-04d9-2bb0-e776b28ed2b8/a1cec389-5249-428c-acad-b0e68d501571_Frame_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mo/app/stash-rule-based-proxy/id1596063349?l=en&uo=2",
-      "attributes": {
-        "im:id": "1596063349",
-        "im:bundleId": "ws.stash.app"
-      }
-    },
-    "im:artist": {
-      "label": "STASH NETWORKS LIMITED",
-      "attributes": {
-        "href": "https://apps.apple.com/mo/developer/stash-networks-limited/id1596063351?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mo/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-12-10T00:00:00-07:00",
-      "attributes": {
-        "label": "December 10, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mo",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 41,
+      "index": 39,
       "total": 100
     },
     "im:name": {
@@ -4186,7 +3982,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 42,
+      "index": 40,
       "total": 100
     },
     "im:name": {
@@ -4288,7 +4084,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
+      "index": 41,
       "total": 100
     },
     "im:name": {
@@ -4390,7 +4186,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 44,
+      "index": 42,
       "total": 100
     },
     "im:name": {
@@ -4492,7 +4288,109 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
+      "index": 43,
+      "total": 100
+    },
+    "im:name": {
+      "label": "White Balance Meter - KEV"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/76/43/67/76436731-7b9a-c101-e80d-558c505723ac/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/76/43/67/76436731-7b9a-c101-e80d-558c505723ac/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/76/43/67/76436731-7b9a-c101-e80d-558c505723ac/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "KEV is the #1 White Balance app.\nKEV app turns your iPhone or iPad into a professional and easy-to-use light meter. Using KEV app is as easy as pie, no sensor required, the in-built camera already got you covered.\n\nMinimalist KEV analyses live preview of the scene and gives you accurate white balance data in Kelvin.\n\nTrying to get the perfect White Balance on your DSLR can be annoying. KEV helps you by letting you know what the White Balance should be. You can measure the colour temperature of a light source in Kelvin without having to spend hundreds of dollars on professional devices.\n\nWe calibrated KEV using Sekonic C-700R-U SpectroMaster Colour Meter, and we guarantee from fair to almost 100% accuracy. Just open the KEV app and point the camera on surface or scene.\n \nThe white balance is a correction of color rendition to make the picture from the camera sensor as similar to the perception by human eyes as possible.\n\nFunctions and Capabilities:\n• Gets you Color Temperature in Kelvin in real-time.\n• Ability to compensate and calculate the white balance readings.\n• Capture a snapshot with color temperature reading and location.\n• Ability to manually focus on the scene and objects.\n• Minimal yet integral point and shoot capability.\n• A go-to spectrometer for photographers, videographers, cinematographers, gaffers, drones and action cameras.\n• Save time in post-processing.\n• Mount your iPhone using hot-shoe over the camera or on a tripod stand and get colour temperature data on the KEV Watch app.\n• Zoom in to get colour temperature data of a close-range.\n• Balance Color Temperature of the Ambient Light and Your Light Source.\n\nOverride the Auto-White Balance and choose settings yourself.\n\nWatch these cool tutorial videos published by the KEV users:\nhttps://youtu.be/C4oihcY7Dh4\nhttps://vimeo.com/654324525/b8dfe3ea3a\n\nWe care about your privacy:\nhttps://kevapp.co/privacy/\n\nIf you'd like to contact, please send us an email at 29satnam@gmail.com."
+    },
+    "im:price": {
+      "label": "USD 2.99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 KEV"
+    },
+    "title": {
+      "label": "White Balance Meter - KEV - Satnam Singh"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mo/app/white-balance-meter-kev/id1494197457?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/ca/ab/b7/caabb798-759e-984e-6c86-ff56a71eed8f/24e1453e-533b-4747-a5ef-cbbb24a3c488_iPad_Pro_12.9_U2033@2x.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mo/app/white-balance-meter-kev/id1494197457?l=en&uo=2",
+      "attributes": {
+        "im:id": "1494197457",
+        "im:bundleId": "com.silverseahog.kev"
+      }
+    },
+    "im:artist": {
+      "label": "Satnam Singh",
+      "attributes": {
+        "href": "https://apps.apple.com/mo/developer/satnam-singh/id1090760318?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mo/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-01-30T00:00:00-07:00",
+      "attributes": {
+        "label": "January 30, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mo",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 44,
       "total": 100
     },
     "im:name": {
@@ -4586,6 +4484,108 @@
       "label": "2017-04-11T10:34:34-07:00",
       "attributes": {
         "label": "April 11, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mo",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 45,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Stash - Rule Based Proxy"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/33/b8/7c/33b87c5f-98d3-c77e-a412-f3d63a0b9740/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/33/b8/7c/33b87c5f-98d3-c77e-a412-f3d63a0b9740/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/33/b8/7c/33b87c5f-98d3-c77e-a412-f3d63a0b9740/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Stash is the best choice for Clash rules on iOS! Full adaptation of Clash Premium configuration. \nStash is a rule-based proxy client with multiple proxy protocol support. Support for Rule Set, JavaScript, HTTP Rewriting, MitM, SSID Policy Groups, On-Demand Connections and other new features.\n\n- Handle TCP / UDP / ICMP traffic and forward to any proxy server\n- Route traffic to different endpoint by rule of domain, IP-CIDR, or User-Agent\n- Support DNS over TCP / DNS over TLS / DNS over HTTPS\n- Native UI dashboard to display HTTP / HTTPS / TCP request\n- Support for Rewriting HTTP(S) requests using JavaScript\n- Decrypt HTTPS traffic with Man-in-the-Middle\n- Support for URL Rewrite\n- Fully IPv6 supports\n- Builtin DNS server with hostname mapping\n- Support for overriding some of the settings of the current configuration file using Override"
+    },
+    "im:price": {
+      "label": "USD 3.99",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Stash Networks Limited"
+    },
+    "title": {
+      "label": "Stash - Rule Based Proxy - STASH NETWORKS LIMITED"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mo/app/stash-rule-based-proxy/id1596063349?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/6a/59/81/6a598143-9126-04d9-2bb0-e776b28ed2b8/a1cec389-5249-428c-acad-b0e68d501571_Frame_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mo/app/stash-rule-based-proxy/id1596063349?l=en&uo=2",
+      "attributes": {
+        "im:id": "1596063349",
+        "im:bundleId": "ws.stash.app"
+      }
+    },
+    "im:artist": {
+      "label": "STASH NETWORKS LIMITED",
+      "attributes": {
+        "href": "https://apps.apple.com/mo/developer/stash-networks-limited/id1596063351?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mo/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-12-10T00:00:00-07:00",
+      "attributes": {
+        "label": "December 10, 2021"
       }
     }
   },
@@ -6332,108 +6332,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "女帝的日常"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/95/fa/2b/95fa2bb5-5b3a-5897-a808-3fa78726da62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/95/fa/2b/95fa2bb5-5b3a-5897-a808-3fa78726da62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/95/fa/2b/95fa2bb5-5b3a-5897-a808-3fa78726da62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "表面上，这是一个你扮演开国女帝想办法平衡朝堂，制约后宫，将自己的皇朝传至万代的养成游戏，实际上，这是一个你就算什么都不做天天只是蹲着看京城人民爱恨情仇豪门恩怨也很难把自己作死的吃瓜模拟器……（当然皇位继承人还是至少要生一个的，不然就没法持续的吃瓜了……\n友情提示：不要对他国皇子，你手握重兵的大都督以及朝中大佬始乱终弃，使劲作还是真的会翻车的……\n排雷：本作世界设定男女具有均等的继承权，工作权和生育子嗣的能力"
-    },
-    "im:price": {
-      "label": "USD 0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 HydrozoaWorks"
-    },
-    "title": {
-      "label": "女帝的日常 - HydrozoaWorks Tech Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mo/app/%E5%A5%B3%E5%B8%9D%E7%9A%84%E6%97%A5%E5%B8%B8/id1576763082?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/ca/04/ce/ca04ce32-129d-e9a6-d33c-ffe793763337/5c107688-48ab-4c89-93e9-957a4ba62f0d_4-3-10.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mo/app/%E5%A5%B3%E5%B8%9D%E7%9A%84%E6%97%A5%E5%B8%B8/id1576763082?l=en&uo=2",
-      "attributes": {
-        "im:id": "1576763082",
-        "im:bundleId": "com.hydrozoa.emp"
-      }
-    },
-    "im:artist": {
-      "label": "HydrozoaWorks Tech Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/mo/developer/hydrozoaworks-tech-ltd/id1538638368?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mo/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-07-25T00:00:00-07:00",
-      "attributes": {
-        "label": "July 25, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mo",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 64,
-      "total": 100
-    },
-    "im:name": {
       "label": "GoMusic -  Video player"
     },
     "im:image": [
@@ -6532,7 +6430,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 65,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6634,7 +6532,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 66,
+      "index": 65,
       "total": 100
     },
     "im:name": {
@@ -6728,6 +6626,108 @@
       "label": "2011-10-03T16:50:47-07:00",
       "attributes": {
         "label": "October 3, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mo",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 66,
+      "total": 100
+    },
+    "im:name": {
+      "label": "女帝的日常"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/95/fa/2b/95fa2bb5-5b3a-5897-a808-3fa78726da62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/95/fa/2b/95fa2bb5-5b3a-5897-a808-3fa78726da62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/95/fa/2b/95fa2bb5-5b3a-5897-a808-3fa78726da62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "表面上，这是一个你扮演开国女帝想办法平衡朝堂，制约后宫，将自己的皇朝传至万代的养成游戏，实际上，这是一个你就算什么都不做天天只是蹲着看京城人民爱恨情仇豪门恩怨也很难把自己作死的吃瓜模拟器……（当然皇位继承人还是至少要生一个的，不然就没法持续的吃瓜了……\n友情提示：不要对他国皇子，你手握重兵的大都督以及朝中大佬始乱终弃，使劲作还是真的会翻车的……\n排雷：本作世界设定男女具有均等的继承权，工作权和生育子嗣的能力"
+    },
+    "im:price": {
+      "label": "USD 0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 HydrozoaWorks"
+    },
+    "title": {
+      "label": "女帝的日常 - HydrozoaWorks Tech Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mo/app/%E5%A5%B3%E5%B8%9D%E7%9A%84%E6%97%A5%E5%B8%B8/id1576763082?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/ca/04/ce/ca04ce32-129d-e9a6-d33c-ffe793763337/5c107688-48ab-4c89-93e9-957a4ba62f0d_4-3-10.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mo/app/%E5%A5%B3%E5%B8%9D%E7%9A%84%E6%97%A5%E5%B8%B8/id1576763082?l=en&uo=2",
+      "attributes": {
+        "im:id": "1576763082",
+        "im:bundleId": "com.hydrozoa.emp"
+      }
+    },
+    "im:artist": {
+      "label": "HydrozoaWorks Tech Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/mo/developer/hydrozoaworks-tech-ltd/id1538638368?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mo/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-07-25T00:00:00-07:00",
+      "attributes": {
+        "label": "July 25, 2021"
       }
     }
   },
@@ -8882,108 +8882,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Chess Clock Timer (Full)"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/5a/cd/4f/5acd4f2e-ca50-b32e-71b4-d4f20875af7b/AppIcon-1x_U007emarketing-0-10-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/5a/cd/4f/5acd4f2e-ca50-b32e-71b4-d4f20875af7b/AppIcon-1x_U007emarketing-0-10-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/5a/cd/4f/5acd4f2e-ca50-b32e-71b4-d4f20875af7b/AppIcon-1x_U007emarketing-0-10-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Keep track of time while playing chess !\n\nFeatures:\n- Clean and intuitive interface design\n- Includes 3 delay modes: Fischer Before / After, Bronstein delay modes\n\nWhat are Delay Modes?\n\nDelay Modes serve the purpose of giving you some free time for each move\n\n- Fischer Before/After: Delay is incremented to the player's timer before/after a turn. Times can increase indefinitely\n- Bronstein: Time is added after each turn but it cannot exceed the original amount of time that appears at the beginning of the turn.\n\n2017 Senzillo\ninfo@senzillo.com"
-    },
-    "im:price": {
-      "label": "USD 0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 Senzillo"
-    },
-    "title": {
-      "label": "Chess Clock Timer (Full) - Senzillo Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mo/app/chess-clock-timer-full/id1215488023?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/77/9c/af/779caf94-989b-abab-4d03-588d1b01a5dd/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mo/app/chess-clock-timer-full/id1215488023?l=en&uo=2",
-      "attributes": {
-        "im:id": "1215488023",
-        "im:bundleId": "com.senzillo.chess.full"
-      }
-    },
-    "im:artist": {
-      "label": "Senzillo Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/mo/developer/senzillo-inc/id979433324?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mo/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-03-17T10:00:21-07:00",
-      "attributes": {
-        "label": "March 17, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mo",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 89,
-      "total": 100
-    },
-    "im:name": {
       "label": "Cool Fonts Pro - Font Keyboard"
     },
     "im:image": [
@@ -9082,7 +8980,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 90,
+      "index": 89,
       "total": 100
     },
     "im:name": {
@@ -9184,7 +9082,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 91,
+      "index": 90,
       "total": 100
     },
     "im:name": {
@@ -9286,7 +9184,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 92,
+      "index": 91,
       "total": 100
     },
     "im:name": {
@@ -9388,7 +9286,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 93,
+      "index": 92,
       "total": 100
     },
     "im:name": {
@@ -9490,7 +9388,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 94,
+      "index": 93,
       "total": 100
     },
     "im:name": {
@@ -9592,7 +9490,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 95,
+      "index": 94,
       "total": 100
     },
     "im:name": {
@@ -9694,7 +9592,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 96,
+      "index": 95,
       "total": 100
     },
     "im:name": {
@@ -9796,7 +9694,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 97,
+      "index": 96,
       "total": 100
     },
     "im:name": {
@@ -9898,7 +9796,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 98,
+      "index": 97,
       "total": 100
     },
     "im:name": {
@@ -10000,7 +9898,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 99,
+      "index": 98,
       "total": 100
     },
     "im:name": {
@@ -10102,7 +10000,7 @@
       "country_code": "mo",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 100,
+      "index": 99,
       "total": 100
     },
     "im:name": {
@@ -10196,6 +10094,108 @@
       "label": "2009-09-08T13:00:45-07:00",
       "attributes": {
         "label": "September 8, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mo",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 100,
+      "total": 100
+    },
+    "im:name": {
+      "label": "iComic -comic reader-"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/49/8b/df/498bdf3c-1427-cab9-8bf2-616094901f50/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/49/8b/df/498bdf3c-1427-cab9-8bf2-616094901f50/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/49/8b/df/498bdf3c-1427-cab9-8bf2-616094901f50/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Welcome to iComic, the premier application for reading comics on your iPhone or iPod Touch.\n \niComic makes great use of the multi-touch function for simple and effective page navigation and zooming to provide the best portable comic book read you will find. iComic displays high resolution comic pages (jpg, tif, or png image files) contained inside compressed zip or cbz format archives. Using the built-in download function, comics can be downloaded from the internet or from a personal server and stored locally on your iPhone or iPod Touch. Your downloaded comics are stored on your device and so are always available for reading, even when you have no internet connection.\n \nAs iTunes resizes images to a compressed format, iComic is also useful for displaying images for other uses e.g. maps, high detailed photos and ebooks (convert your pdf books to jpeg and you have a perfect reader for those large pdf files, normally unreadable due to the high memory requirement).\n \niComic currently provides three methods for turning pages: swiping your finger on the screen; by taps in the screen corners using the Corner-Tap method; or by Multi-Touch (tap once to page forward, twice to page back). Zooming is by the familiar pinch method used in Safari and other applications or by double tapping the screen when in Corner-Tap mode. The application is very stable and can easily handle zip files up to 60MB with infrequent problems observed with files of much larger size. Individual image files inside the zip files are constrained to a maximum 3 million pixels (e.g. 3,000 pixels high x 1,000 pixels wide or equivalent) though for the sake of battery conservation much smaller sizes (~1000 pixels high) are generally used.\n \nA manual for setting up and using iComic can be downloaded from http://red.halfmoon.jp/AppStore_iComic_V1.3_FAQ.pdf\n \nThe author of this application is Japanese so for excellent community support and discussion in English please visit the helpful and friendly ~*~ Ultimate icomic Thread ~*~ at www.ipodtouchfans.com/forums/showthread.php?t=23759"
+    },
+    "im:price": {
+      "label": "USD 0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Yoshitake Yamamoto"
+    },
+    "title": {
+      "label": "iComic -comic reader- - Y.Yamamoto"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mo/app/icomic-comic-reader/id297328082?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/86/3f/d8/863fd811-feaf-3c07-9c9a-be4e6e83f411/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mo/app/icomic-comic-reader/id297328082?l=en&uo=2",
+      "attributes": {
+        "im:id": "297328082",
+        "im:bundleId": "jp.halfmoon.red.iComic"
+      }
+    },
+    "im:artist": {
+      "label": "Y.Yamamoto",
+      "attributes": {
+        "href": "https://apps.apple.com/mo/developer/y-yamamoto/id297328085?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mo/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-03-26T14:43:45-07:00",
+      "attributes": {
+        "label": "March 26, 2009"
       }
     }
   }

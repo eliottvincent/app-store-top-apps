@@ -12,19 +12,19 @@
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/b0/b1/2d/b0b12d64-3754-cad9-3fe6-f9f7d16f79ea/AppIcon-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/b6/53/86/b6538676-65bc-0bbf-1cfe-b9432e110a7c/AppIcon-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b0/b1/2d/b0b12d64-3754-cad9-3fe6-f9f7d16f79ea/AppIcon-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/b6/53/86/b6538676-65bc-0bbf-1cfe-b9432e110a7c/AppIcon-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/b0/b1/2d/b0b12d64-3754-cad9-3fe6-f9f7d16f79ea/AppIcon-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/b6/53/86/b6538676-65bc-0bbf-1cfe-b9432e110a7c/AppIcon-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -47,7 +47,7 @@
       }
     },
     "rights": {
-      "label": "© 2010-2022 Alexander Blach"
+      "label": "© 2010-2023 Alexander Blach"
     },
     "title": {
       "label": "Textastic Code Editor - Alexander Blach"
@@ -518,108 +518,6 @@
       "total": 80
     },
     "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/be/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "be",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 7,
-      "total": 80
-    },
-    "im:name": {
       "label": "Adaptivity (A)"
     },
     "im:image": [
@@ -710,6 +608,108 @@
       "label": "2015-11-16T16:22:40-07:00",
       "attributes": {
         "label": "November 16, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "be",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 7,
+      "total": 80
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/be/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
       }
     }
   },
@@ -6250,9 +6250,9 @@
       "label": "--- COLORS FOR YOUR DESIGN PROJECTS ---\n\nContrasts lets you create and manage color pairs of text and background colors for your design projects.\n\n--- WCAG 2.1 CONFORMANCE ---\n\nBy calculating the contrast ratio and the resulting WCAG 2.1 conformance level, it is possible to determine whether a text color is readable for people with visual impairments or not.\n\n--- SIMULATE COLOR BLINDNESS ---\n\nThe perception of color pairs can be simulated for different color abnormalities and weaknesses.\n\n--- SHARE COLORS WITH YOUR TEAM ---\n\nColor pairs can be shared with your colleagues as text and images, along with all detail information (color and alpha values, contrast ratio, and WCAG conformance).\n\n--- ICLOUD SYNC ---\n\nSync your color pairs across your Apple devices by using iCloud.\n\n--- ALPHA SUPPORT ---\n\nThe WCAG calculation of these values is also supported for semi-transparent text colors.\n\n--- COLOR GRIDS, RGB, and HEX ---\n\nCreating a color pair can be done by using color grids and RGB or HEX values."
     },
     "im:price": {
-      "label": "0,49 €",
+      "label": "2,49 €",
       "attributes": {
-        "amount": "0.49",
+        "amount": "2.49",
         "currency": "EUR"
       }
     },

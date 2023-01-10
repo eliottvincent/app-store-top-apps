@@ -557,7 +557,7 @@
       }
     },
     "rights": {
-      "label": "© 2015-2022 Hacknicity"
+      "label": "© 2015-2023 Hacknicity"
     },
     "title": {
       "label": "Adaptivity (A) - Geoff Hackworth"
@@ -617,108 +617,6 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 7,
-      "total": 80
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/be/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "be",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 8,
       "total": 80
     },
     "im:name": {
@@ -820,39 +718,39 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 8,
       "total": 80
     },
     "im:name": {
-      "label": "RegEx Lab: Regular Expressions"
+      "label": "Docker Management"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/64/cc/a2/64cca287-d2bd-3926-7806-e91b4d8c0f7d/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/64/cc/a2/64cca287-d2bd-3926-7806-e91b4d8c0f7d/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/64/cc/a2/64cca287-d2bd-3926-7806-e91b4d8c0f7d/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "RegEx Lab - test regular expressions\n\n• Highlighting of regex syntax and of matches and capture groups.\n• Choose the color of the match highlights\n• Results List View which lists all the matches and capture groups.\n• Replace feature\n• Dark theme (by default) based on the Solarized color palette\n• Themes to choose from (light/dark)\n• A handy cheatsheet which tells you about the different operators, option flags and metacharacters.\n• An extra row of keyboard keys for common special characters\n• Undo / Redo quick access buttons\n• Support for Dynamic Type (iOS Settings Text Size)\n• Export / Import feature\n\nQuestions, suggestions, issues?\nregexlab@sovio.co\n\nMade by Nikolay Suvandzhiev"
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
     },
     "im:price": {
-      "label": "2,49 €",
+      "label": "5,99 €",
       "attributes": {
-        "amount": "2.49",
+        "amount": "5.99",
         "currency": "EUR"
       }
     },
@@ -863,17 +761,17 @@
       }
     },
     "rights": {
-      "label": "© 2022 Sovio Ltd."
+      "label": "© nevishs"
     },
     "title": {
-      "label": "RegEx Lab: Regular Expressions - sovio"
+      "label": "Docker Management - Nevis Shkenza"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/be/app/regex-lab-regular-expressions/id1252988123?uo=2"
+          "href": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2"
         }
       },
       {
@@ -884,22 +782,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/3e/40/f0/3e40f061-e369-6a50-29f8-24d2987a7a14/mzl.msmxljij.png/1024x1024bb.png",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/be/app/regex-lab-regular-expressions/id1252988123?uo=2",
+      "label": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2",
       "attributes": {
-        "im:id": "1252988123",
-        "im:bundleId": "com.NikolaySuvandzhiev.RegExLab"
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
       }
     },
     "im:artist": {
-      "label": "sovio",
+      "label": "Nevis Shkenza",
       "attributes": {
-        "href": "https://apps.apple.com/be/developer/sovio/id1397333570?uo=2"
+        "href": "https://apps.apple.com/be/developer/nevis-shkenza/id1268450891?uo=2"
       }
     },
     "category": {
@@ -911,9 +809,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2017-07-26T12:09:06-07:00",
+      "label": "2020-08-14T00:00:00-07:00",
       "attributes": {
-        "label": "July 26, 2017"
+        "label": "August 14, 2020"
       }
     }
   },
@@ -922,7 +820,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 9,
       "total": 80
     },
     "im:name": {
@@ -1016,6 +914,108 @@
       "label": "2019-09-26T00:00:00-07:00",
       "attributes": {
         "label": "September 26, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "be",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 10,
+      "total": 80
+    },
+    "im:name": {
+      "label": "RegEx Lab: Regular Expressions"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/64/cc/a2/64cca287-d2bd-3926-7806-e91b4d8c0f7d/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/64/cc/a2/64cca287-d2bd-3926-7806-e91b4d8c0f7d/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/64/cc/a2/64cca287-d2bd-3926-7806-e91b4d8c0f7d/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "RegEx Lab - test regular expressions\n\n• Highlighting of regex syntax and of matches and capture groups.\n• Choose the color of the match highlights\n• Results List View which lists all the matches and capture groups.\n• Replace feature\n• Dark theme (by default) based on the Solarized color palette\n• Themes to choose from (light/dark)\n• A handy cheatsheet which tells you about the different operators, option flags and metacharacters.\n• An extra row of keyboard keys for common special characters\n• Undo / Redo quick access buttons\n• Support for Dynamic Type (iOS Settings Text Size)\n• Export / Import feature\n\nQuestions, suggestions, issues?\nregexlab@sovio.co\n\nMade by Nikolay Suvandzhiev"
+    },
+    "im:price": {
+      "label": "2,49 €",
+      "attributes": {
+        "amount": "2.49",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Sovio Ltd."
+    },
+    "title": {
+      "label": "RegEx Lab: Regular Expressions - sovio"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/be/app/regex-lab-regular-expressions/id1252988123?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/3e/40/f0/3e40f061-e369-6a50-29f8-24d2987a7a14/mzl.msmxljij.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/be/app/regex-lab-regular-expressions/id1252988123?uo=2",
+      "attributes": {
+        "im:id": "1252988123",
+        "im:bundleId": "com.NikolaySuvandzhiev.RegExLab"
+      }
+    },
+    "im:artist": {
+      "label": "sovio",
+      "attributes": {
+        "href": "https://apps.apple.com/be/developer/sovio/id1397333570?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-07-26T12:09:06-07:00",
+      "attributes": {
+        "label": "July 26, 2017"
       }
     }
   },

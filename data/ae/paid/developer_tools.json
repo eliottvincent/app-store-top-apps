@@ -5,211 +5,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 1,
-      "total": 59
-    },
-    "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "AED 10.99",
-      "attributes": {
-        "amount": "10.99",
-        "currency": "AED"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ae/app/laddertouch/id386737169?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ae/app/laddertouch/id386737169?uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/ae/developer/motonari-hibi/id386737172?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ae/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ae",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 2,
-      "total": 59
-    },
-    "im:name": {
-      "label": "Appfigurate"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/55/1b/b4/551bb4e5-27dc-aa14-2b17-5888074786a2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/55/1b/b4/551bb4e5-27dc-aa14-2b17-5888074786a2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/55/1b/b4/551bb4e5-27dc-aa14-2b17-5888074786a2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Appfigurate provides the ability to change configuration properties in iOS and watchOS, apps and app extensions, securely, at runtime.\n\n* Do your Xcode projects suffer from slow compilation and deployment times? Speed up development and testing by removing the edit/compile/deploy cycle, when you just need to change your apps configuration properties.\n\n* Multiple test environments? Reduce your Xcode projects complexity by removing custom build schemes. Build, deploy and test just one app across multiple test regions.\n\nAppfigurate consists of:\n\n* Appfigurate app - both a Simulator and Device build - to allow you to configure your apps at runtime.\n* Appfigurate library - a small static XCFramework to embed into your apps.\n* Examples - Objective-C and Swift.\n* Documentation.\n\nDownload the free Appfigurate SDK (including Appfigurate Simulator build) today from http://github.com/electricbolt/appfiguratesdk\n\nADDITIONAL FEATURES\n\n* Appfigurate uses digital signatures to sign and verify configuration payloads. (2048-bit RSA with SHA256)\n\n* Appfigurate doesn't require a network connection, and it doesn't store your secrets in the cloud.\n\n* Execute custom action methods to go beyond basic property manipulation.\n\n* Apply configuration to your iOS app when running UI automation (XCUITest) tests.\n\n* Safely embed sensitive information such as server URLs into your app with our encrypted strings feature.\n\n* Change the configuration of any embedded app extension (Action, Keyboard, Intent, Photo Editing, VPN, Share, Today...)"
-    },
-    "im:price": {
-      "label": "AED 10.99",
-      "attributes": {
-        "amount": "10.99",
-        "currency": "AED"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 Electric Bolt Limited"
-    },
-    "title": {
-      "label": "Appfigurate - Electric Bolt Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ae/app/appfigurate/id1332575368?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/31/e7/9b/31e79bb2-70f3-7330-e207-7fad6fbb5343/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ae/app/appfigurate/id1332575368?uo=2",
-      "attributes": {
-        "im:id": "1332575368",
-        "im:bundleId": "nz.co.electricbolt.appfigurate"
-      }
-    },
-    "im:artist": {
-      "label": "Electric Bolt Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/ae/developer/electric-bolt-limited/id430813584?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ae/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-01-16T10:42:10-07:00",
-      "attributes": {
-        "label": "January 16, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ae",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "PingTools Network Utilities"
@@ -307,8 +103,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
-      "total": 59
+      "index": 2,
+      "total": 61
     },
     "im:name": {
       "label": "Lorem Ipsum Generator Keyboard"
@@ -409,8 +205,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
-      "total": 59
+      "index": 3,
+      "total": 61
     },
     "im:name": {
       "label": "Mobile App Icon Maker-Designer"
@@ -511,8 +307,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
-      "total": 59
+      "index": 4,
+      "total": 61
     },
     "im:name": {
       "label": "Lorem Ipsum Keyboard"
@@ -613,8 +409,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
-      "total": 59
+      "index": 5,
+      "total": 61
     },
     "im:name": {
       "label": "Flutter Cheats"
@@ -715,8 +511,212 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
+      "index": 6,
+      "total": 61
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "AED 10.99",
+      "attributes": {
+        "amount": "10.99",
+        "currency": "AED"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ae/app/laddertouch/id386737169?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ae/app/laddertouch/id386737169?uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/ae/developer/motonari-hibi/id386737172?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ae/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ae",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 7,
+      "total": 61
+    },
+    "im:name": {
+      "label": "Appfigurate"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/55/1b/b4/551bb4e5-27dc-aa14-2b17-5888074786a2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/55/1b/b4/551bb4e5-27dc-aa14-2b17-5888074786a2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/55/1b/b4/551bb4e5-27dc-aa14-2b17-5888074786a2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Appfigurate provides the ability to change configuration properties in iOS and watchOS, apps and app extensions, securely, at runtime.\n\n* Do your Xcode projects suffer from slow compilation and deployment times? Speed up development and testing by removing the edit/compile/deploy cycle, when you just need to change your apps configuration properties.\n\n* Multiple test environments? Reduce your Xcode projects complexity by removing custom build schemes. Build, deploy and test just one app across multiple test regions.\n\nAppfigurate consists of:\n\n* Appfigurate app - both a Simulator and Device build - to allow you to configure your apps at runtime.\n* Appfigurate library - a small static XCFramework to embed into your apps.\n* Examples - Objective-C and Swift.\n* Documentation.\n\nDownload the free Appfigurate SDK (including Appfigurate Simulator build) today from http://github.com/electricbolt/appfiguratesdk\n\nADDITIONAL FEATURES\n\n* Appfigurate uses digital signatures to sign and verify configuration payloads. (2048-bit RSA with SHA256)\n\n* Appfigurate doesn't require a network connection, and it doesn't store your secrets in the cloud.\n\n* Execute custom action methods to go beyond basic property manipulation.\n\n* Apply configuration to your iOS app when running UI automation (XCUITest) tests.\n\n* Safely embed sensitive information such as server URLs into your app with our encrypted strings feature.\n\n* Change the configuration of any embedded app extension (Action, Keyboard, Intent, Photo Editing, VPN, Share, Today...)"
+    },
+    "im:price": {
+      "label": "AED 10.99",
+      "attributes": {
+        "amount": "10.99",
+        "currency": "AED"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Electric Bolt Limited"
+    },
+    "title": {
+      "label": "Appfigurate - Electric Bolt Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ae/app/appfigurate/id1332575368?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/31/e7/9b/31e79bb2-70f3-7330-e207-7fad6fbb5343/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ae/app/appfigurate/id1332575368?uo=2",
+      "attributes": {
+        "im:id": "1332575368",
+        "im:bundleId": "nz.co.electricbolt.appfigurate"
+      }
+    },
+    "im:artist": {
+      "label": "Electric Bolt Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/ae/developer/electric-bolt-limited/id430813584?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ae/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-01-16T10:42:10-07:00",
+      "attributes": {
+        "label": "January 16, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ae",
+      "pricing": "paid",
+      "genre": "developer_tools",
       "index": 8,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "C Code Develop"
@@ -818,7 +818,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 9,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Smart NFC"
@@ -920,7 +920,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 10,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "iHTTP Tracker -Network monitor"
@@ -1022,7 +1022,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 11,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "XliffTool"
@@ -1124,7 +1124,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 12,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "OpenTerm"
@@ -1226,7 +1226,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 13,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Inspect Browser"
@@ -1328,7 +1328,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 14,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "ESP32 BLE Terminal"
@@ -1430,7 +1430,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 15,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "RegEx+"
@@ -1532,7 +1532,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 16,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Hexer — Hex File Viewer"
@@ -1634,7 +1634,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 17,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Textastic Code Editor"
@@ -1736,7 +1736,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 18,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "DNS Client"
@@ -1838,7 +1838,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 19,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "App Icon Generator"
@@ -1940,7 +1940,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 20,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "JSON to XML Converter"
@@ -2039,7 +2039,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 21,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Node-PAD"
@@ -2141,7 +2141,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 22,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Buffer Editor - Code Editor"
@@ -2243,7 +2243,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 23,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "View Source Premier"
@@ -2345,7 +2345,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 24,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Docker Management"
@@ -2447,7 +2447,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 25,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Programming Notebook PRO"
@@ -2549,7 +2549,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 26,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Blink Shell 14: Legacy"
@@ -2651,7 +2651,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 27,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Adaptivity (A)"
@@ -2753,7 +2753,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 28,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Source Code Reader"
@@ -2855,7 +2855,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 29,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "SeeLess - C Compiler"
@@ -2957,7 +2957,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 30,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Juno: Jupyter/Python IDE"
@@ -3059,7 +3059,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 31,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "UWeb.io Website Builder"
@@ -3161,7 +3161,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 32,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "DraftCode Local PHP"
@@ -3263,7 +3263,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 33,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Cookie Editor - For Safari"
@@ -3365,7 +3365,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 34,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "BLE Spy"
@@ -3467,7 +3467,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 35,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "MongoLime - manage databases"
@@ -3569,7 +3569,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 36,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Source 3"
@@ -3671,7 +3671,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 37,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Mockup Screenshot"
@@ -3773,7 +3773,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 38,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Terminal Commands Pro"
@@ -3875,7 +3875,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 39,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "DashTabs: Firebase, AdMob …"
@@ -3977,7 +3977,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 40,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Terminal Emulator"
@@ -4076,7 +4076,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 41,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "mitmproxy helper by txthinking"
@@ -4178,7 +4178,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 42,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "WebDebug - Web debugging tool"
@@ -4280,7 +4280,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 43,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Neural Object Detector"
@@ -4382,7 +4382,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 44,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Kodika - No Code App Builder"
@@ -4484,7 +4484,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 45,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Juno Connect: Jupyter Client"
@@ -4586,7 +4586,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 46,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "PasteMe - Pastebin Client"
@@ -4688,7 +4688,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 47,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "Simple: HTTP Server"
@@ -4790,7 +4790,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 48,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "SSH Term Pro"
@@ -4892,7 +4892,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 49,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "DashTabs Alt"
@@ -4994,7 +4994,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 50,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "ScriptWidget"
@@ -5096,7 +5096,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 51,
-      "total": 59
+      "total": 61
     },
     "im:name": {
       "label": "auth. - 2FA Smart Sync"
@@ -5198,7 +5198,109 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 52,
-      "total": 59
+      "total": 61
+    },
+    "im:name": {
+      "label": "ServerStatus & SSH Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/68/c9/c9/68c9c994-64b4-a4e8-1ca2-ce6badbf6411/AppIconPro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/68/c9/c9/68c9c994-64b4-a4e8-1ca2-ce6badbf6411/AppIconPro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/68/c9/c9/68c9c994-64b4-a4e8-1ca2-ce6badbf6411/AppIconPro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "ServerStatus is a Linux status tool. Easily view server load, cpu usage, memory usage, io rate, network rate and processes. No server-side dependencies, as long as it supports ssh.\n\n# Features\n* Server list quick view. List all your servers with simple load, memory usage, swap usage and disk usage, io rate and network rate.\n* Overall View. server name, processor name and count, process status and report, load chart, cpu usage and core usage chart, disk free and used chart, tcp report, io tps and read/write rate and network rate chart.\n* Load View. Load live chart, memory usage chart, cpu overall usage chart and cpu core charts. Overall cpu usage of us, sy, ni, id, wa, hi, si and st.\n* IO View. io tps and read/write rate charts.\n* Network View. Network interface tx/rx rate charts and TCP status.\n* Process View. process list and cpu usage and memory usage.\n* SSH Terminal. Full featured, create sessions and run commands. Interactive console, add snippet shortcuts and reuse. Copy terminal output and paste command from clipboard.\n* SSH Editor. Edit files with editors and enhanced keyboard functions.\n* SFTP file explorer.\n\n# How it works\nThe app get live data by Linux ssh socket. No root account required, only need a regular user, the app loads proc data and generate reports and charts. The app will not write and modify files on the server.\n\n# Data security\nAll configuration and data will only be saved locally on the iPhone/iPad. It will be syned to iCloud if you tap iCloud backup button.\n\n# Compatibility\nThe app is tested on Ubuntu16.04, Ubuntu18.04, Ubuntu20.04, CentOS8, CentOS7, Alpine, Gentoo stage3, openSUSE and Debian. It should support all major linux distributions."
+    },
+    "im:price": {
+      "label": "AED 54.99",
+      "attributes": {
+        "amount": "54.99",
+        "currency": "AED"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Zhipeng"
+    },
+    "title": {
+      "label": "ServerStatus & SSH Pro - Zhipeng Pan"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ae/app/serverstatus-ssh-pro/id1546705394?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/24/0e/04/240e0462-e0e7-c9b0-507f-256c81e201af/fa1d971a-6778-48cf-addb-899811f9281b_ipad11-load.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ae/app/serverstatus-ssh-pro/id1546705394?uo=2",
+      "attributes": {
+        "im:id": "1546705394",
+        "im:bundleId": "com.fishnetwork.ServerStatusPro"
+      }
+    },
+    "im:artist": {
+      "label": "Zhipeng Pan",
+      "attributes": {
+        "href": "https://apps.apple.com/ae/developer/zhipeng-pan/id1140381489?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ae/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-11T00:00:00-07:00",
+      "attributes": {
+        "label": "January 11, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ae",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 53,
+      "total": 61
     },
     "im:name": {
       "label": "ActionsHub - GitHub Actions"
@@ -5299,8 +5401,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 53,
-      "total": 59
+      "index": 54,
+      "total": 61
     },
     "im:name": {
       "label": "Starry: App Reviews"
@@ -5401,8 +5503,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 54,
-      "total": 59
+      "index": 55,
+      "total": 61
     },
     "im:name": {
       "label": "TinyServer"
@@ -5503,8 +5605,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 55,
-      "total": 59
+      "index": 56,
+      "total": 61
     },
     "im:name": {
       "label": "Code App"
@@ -5605,8 +5707,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 56,
-      "total": 59
+      "index": 57,
+      "total": 61
     },
     "im:name": {
       "label": "Http Traffic pro - sniffer"
@@ -5707,8 +5809,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 57,
-      "total": 59
+      "index": 58,
+      "total": 61
     },
     "im:name": {
       "label": "Kuber - Kubernetes Dashboard"
@@ -5809,8 +5911,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 58,
-      "total": 59
+      "index": 59,
+      "total": 61
     },
     "im:name": {
       "label": "PPHub For GitHub - Developer"
@@ -5911,8 +6013,8 @@
       "country_code": "ae",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 59,
-      "total": 59
+      "index": 60,
+      "total": 61
     },
     "im:name": {
       "label": "AirTerminal - BLE Terminal"
@@ -6005,6 +6107,108 @@
       "label": "2017-11-29T16:28:40-07:00",
       "attributes": {
         "label": "November 29, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ae",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 61,
+      "total": 61
+    },
+    "im:name": {
+      "label": "Arduino Bluetooth: Omni-Remote"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/dd/cf/d6ddcf33-e8c2-54c3-1c62-3f3e3acfdaf9/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/dd/cf/d6ddcf33-e8c2-54c3-1c62-3f3e3acfdaf9/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/dd/cf/d6ddcf33-e8c2-54c3-1c62-3f3e3acfdaf9/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "There's nothing you can't do with a good Arduino Bluetooth connection!\nConnect to and control your Arduino project with this easy-to-use Bluetooth Serial Monitor + Controller\nSend/Recieve Data\nCommand your Drones to take off\nTell your Smart Lights to Dance\nAsk your Robot to bring you a drink\n\nA very easy-to-use GUI\nAutomatically searches for Bluetooth Devices and Bluetooth-enabled Arduino boards or boards with a bluetooth module attached\nSend data as String format to your boards with whatever you programmed your Arduino to recognize and Receive data back in the Serial Monitor below\n\nNew features continually added, newest feature is the customizable D-Pad\nYou can set what Data string it sends when Pressed/Released (you can also leave onRelease() blank to send null)\n\nSuggestions on next features to add are welcome. Currently in line are voice control and accelerometer control. If you have an idea leave it below or contact us."
+    },
+    "im:price": {
+      "label": "AED 10.99",
+      "attributes": {
+        "amount": "10.99",
+        "currency": "AED"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Bad Assassin Games 2022"
+    },
+    "title": {
+      "label": "Arduino Bluetooth: Omni-Remote - Bad Assassin Games"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ae/app/arduino-bluetooth-omni-remote/id1111181830?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/40/d5/5f/40d55f76-d0a6-720d-78d0-86eb3f60651f/9f6454d1-08fa-4e29-acfb-4f34b382c6d9_DDFBAA35-78B7-406A-B2C0-1C89D421E11F.jpeg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ae/app/arduino-bluetooth-omni-remote/id1111181830?uo=2",
+      "attributes": {
+        "im:id": "1111181830",
+        "im:bundleId": "com.vacantbuzzard.game89"
+      }
+    },
+    "im:artist": {
+      "label": "Bad Assassin Games",
+      "attributes": {
+        "href": "https://apps.apple.com/ae/developer/bad-assassin-games/id556279629?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ae/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2022"
       }
     }
   }

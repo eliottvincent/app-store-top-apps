@@ -110,108 +110,6 @@
       "total": 75
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "฿99.00",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "THB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/th/app/laddertouch/id386737169?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/th/app/laddertouch/id386737169?uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/th/developer/motonari-hibi/id386737172?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/th/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "th",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
-      "total": 75
-    },
-    "im:name": {
       "label": "Buffer Editor - Code Editor"
     },
     "im:image": [
@@ -302,6 +200,108 @@
       "label": "2012-03-01T16:33:04-07:00",
       "attributes": {
         "label": "March 1, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "th",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 3,
+      "total": 75
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "฿99.00",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "THB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/th/app/laddertouch/id386737169?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/th/app/laddertouch/id386737169?uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/th/developer/motonari-hibi/id386737172?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/th/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
       }
     }
   },
@@ -416,132 +416,30 @@
       "total": 75
     },
     "im:name": {
-      "label": "Code Recipes Pro"
+      "label": "Flutter Cheats"
     },
     "im:image": [
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/1f/6ea11f19-8b69-238a-d364-d3b7b9a845ae/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/1f/6ea11f19-8b69-238a-d364-d3b7b9a845ae/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/1f/6ea11f19-8b69-238a-d364-d3b7b9a845ae/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "• Programming languages:\n  - How to get a substring? \n  - How to declare a generalized method? \n  - How to perform a database query?\n• SQL:\n  - How to combine multiple tables in a single query? \n  - How to sort the result of grouping data?\n  - What types of data are there in SQL Server?\nThese and over 300 of other code samples for each language are available in the application.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Finding the best decision on the Internet may demand hours of working time. Ready for use and tested code \"recipes\" are included in the application\n\n• You don`t know which programming language to choose? The application can compare syntax from every example in different programming languages and make a balanced decision during choosing a programming language.\n\n• This is an excellent help for those who often use several programming languages. The application reduces the time required to switch to a different syntax.\n\n• The application is a good tool during the exam or the preparation to the interview because it contains a reference to frequently used operations in different programming languages.\n\n• Quick search of the correct example by the code or by the name of topic. Print or send the code example, which you like and share it with your colleagues.\n\n• Being a developer, I use this program when I need to remember quickly how to solve a given task in one or another programming language.\n\nIf you can help with translating the names of topics into your language, please contact me by e-mail."
-    },
-    "im:price": {
-      "label": "฿149.00",
-      "attributes": {
-        "amount": "149.00",
-        "currency": "THB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Obraztsov Fedor Alexandrovich"
-    },
-    "title": {
-      "label": "Code Recipes Pro - Fedor Obraztsov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/th/app/code-recipes-pro/id1061486140?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a6/95/3c/a6953c42-7fec-431d-97dc-d6f5f59279bd/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/th/app/code-recipes-pro/id1061486140?uo=2",
-      "attributes": {
-        "im:id": "1061486140",
-        "im:bundleId": "ru.obraztsov.codeSamplesHD"
-      }
-    },
-    "im:artist": {
-      "label": "Fedor Obraztsov",
-      "attributes": {
-        "href": "https://apps.apple.com/th/developer/fedor-obraztsov/id1012115119?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/th/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-12-19T13:24:02-07:00",
-      "attributes": {
-        "label": "December 19, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "th",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 6,
-      "total": 75
-    },
-    "im:name": {
-      "label": "ESP32 BLE Terminal"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
+      "label": "Become an expert in Flutter and Dart! \n\nWith 20+ cheat sheets and growing, you get everything you need to help you in your Flutter development. Every cheat sheet contains multiple code examples and detailed explanations. Including a simple overview, if that's what you prefer. All at your fingertips and completely available offline.\n\nYou will learn basic, intermediate, and advanced techniques in Flutter and Dart. Does that sound like a lot of Flutter content? It is and it's still growing!\n\nLearn about: \n- Data Types\n- Variables\n- Lists\n- Functions\n- Loops\n- Widgets\n- Classes\n- Layouts\n- Routing\n- Stateless / Stateful widgets\n- ... lots, lots more"
     },
     "im:price": {
       "label": "฿35.00",
@@ -557,17 +455,17 @@
       }
     },
     "rights": {
-      "label": "© 2021 mightyIT"
+      "label": "© Christopher Kreymborg"
     },
     "title": {
-      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
+      "label": "Flutter Cheats - Christopher Kreymborg"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/th/app/esp32-ble-terminal/id1567601472?uo=2"
+          "href": "https://apps.apple.com/th/app/flutter-cheats/id1547935361?uo=2"
         }
       },
       {
@@ -578,22 +476,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/d7/34/2c/d7342ccd-694a-c970-0230-2cb17ff9e7fd/a1200ef1-cc7c-467d-a27d-f038cd097f58_ios_5_5_01.png/480x480bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/th/app/esp32-ble-terminal/id1567601472?uo=2",
+      "label": "https://apps.apple.com/th/app/flutter-cheats/id1547935361?uo=2",
       "attributes": {
-        "im:id": "1567601472",
-        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
+        "im:id": "1547935361",
+        "im:bundleId": "net.chriskreymborg.fcheats"
       }
     },
     "im:artist": {
-      "label": "Gopi Gadhiya",
+      "label": "Christopher Kreymborg",
       "attributes": {
-        "href": "https://apps.apple.com/th/developer/gopi-gadhiya/id1387816354?uo=2"
+        "href": "https://apps.apple.com/th/developer/christopher-kreymborg/id1450315531?uo=2"
       }
     },
     "category": {
@@ -605,9 +503,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-06-01T00:00:00-07:00",
+      "label": "2021-01-14T00:00:00-07:00",
       "attributes": {
-        "label": "June 1, 2021"
+        "label": "January 14, 2021"
       }
     }
   },
@@ -616,7 +514,7 @@
       "country_code": "th",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 6,
       "total": 75
     },
     "im:name": {
@@ -718,34 +616,34 @@
       "country_code": "th",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 7,
       "total": 75
     },
     "im:name": {
-      "label": "Flutter Cheats"
+      "label": "ESP32 BLE Terminal"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Become an expert in Flutter and Dart! \n\nWith 20+ cheat sheets and growing, you get everything you need to help you in your Flutter development. Every cheat sheet contains multiple code examples and detailed explanations. Including a simple overview, if that's what you prefer. All at your fingertips and completely available offline.\n\nYou will learn basic, intermediate, and advanced techniques in Flutter and Dart. Does that sound like a lot of Flutter content? It is and it's still growing!\n\nLearn about: \n- Data Types\n- Variables\n- Lists\n- Functions\n- Loops\n- Widgets\n- Classes\n- Layouts\n- Routing\n- Stateless / Stateful widgets\n- ... lots, lots more"
+      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
     },
     "im:price": {
       "label": "฿35.00",
@@ -761,17 +659,17 @@
       }
     },
     "rights": {
-      "label": "© Christopher Kreymborg"
+      "label": "© 2021 mightyIT"
     },
     "title": {
-      "label": "Flutter Cheats - Christopher Kreymborg"
+      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/th/app/flutter-cheats/id1547935361?uo=2"
+          "href": "https://apps.apple.com/th/app/esp32-ble-terminal/id1567601472?uo=2"
         }
       },
       {
@@ -782,22 +680,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/d7/34/2c/d7342ccd-694a-c970-0230-2cb17ff9e7fd/a1200ef1-cc7c-467d-a27d-f038cd097f58_ios_5_5_01.png/480x480bb.png",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/th/app/flutter-cheats/id1547935361?uo=2",
+      "label": "https://apps.apple.com/th/app/esp32-ble-terminal/id1567601472?uo=2",
       "attributes": {
-        "im:id": "1547935361",
-        "im:bundleId": "net.chriskreymborg.fcheats"
+        "im:id": "1567601472",
+        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
       }
     },
     "im:artist": {
-      "label": "Christopher Kreymborg",
+      "label": "Gopi Gadhiya",
       "attributes": {
-        "href": "https://apps.apple.com/th/developer/christopher-kreymborg/id1450315531?uo=2"
+        "href": "https://apps.apple.com/th/developer/gopi-gadhiya/id1387816354?uo=2"
       }
     },
     "category": {
@@ -809,9 +707,111 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-01-14T00:00:00-07:00",
+      "label": "2021-06-01T00:00:00-07:00",
       "attributes": {
-        "label": "January 14, 2021"
+        "label": "June 1, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "th",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 8,
+      "total": 75
+    },
+    "im:name": {
+      "label": "Code Recipes Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/1f/6ea11f19-8b69-238a-d364-d3b7b9a845ae/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/1f/6ea11f19-8b69-238a-d364-d3b7b9a845ae/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/1f/6ea11f19-8b69-238a-d364-d3b7b9a845ae/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "• Programming languages:\n  - How to get a substring? \n  - How to declare a generalized method? \n  - How to perform a database query?\n• SQL:\n  - How to combine multiple tables in a single query? \n  - How to sort the result of grouping data?\n  - What types of data are there in SQL Server?\nThese and over 300 of other code samples for each language are available in the application.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Finding the best decision on the Internet may demand hours of working time. Ready for use and tested code \"recipes\" are included in the application\n\n• You don`t know which programming language to choose? The application can compare syntax from every example in different programming languages and make a balanced decision during choosing a programming language.\n\n• This is an excellent help for those who often use several programming languages. The application reduces the time required to switch to a different syntax.\n\n• The application is a good tool during the exam or the preparation to the interview because it contains a reference to frequently used operations in different programming languages.\n\n• Quick search of the correct example by the code or by the name of topic. Print or send the code example, which you like and share it with your colleagues.\n\n• Being a developer, I use this program when I need to remember quickly how to solve a given task in one or another programming language.\n\nIf you can help with translating the names of topics into your language, please contact me by e-mail."
+    },
+    "im:price": {
+      "label": "฿149.00",
+      "attributes": {
+        "amount": "149.00",
+        "currency": "THB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Obraztsov Fedor Alexandrovich"
+    },
+    "title": {
+      "label": "Code Recipes Pro - Fedor Obraztsov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/th/app/code-recipes-pro/id1061486140?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a6/95/3c/a6953c42-7fec-431d-97dc-d6f5f59279bd/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/th/app/code-recipes-pro/id1061486140?uo=2",
+      "attributes": {
+        "im:id": "1061486140",
+        "im:bundleId": "ru.obraztsov.codeSamplesHD"
+      }
+    },
+    "im:artist": {
+      "label": "Fedor Obraztsov",
+      "attributes": {
+        "href": "https://apps.apple.com/th/developer/fedor-obraztsov/id1012115119?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/th/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-12-19T13:24:02-07:00",
+      "attributes": {
+        "label": "December 19, 2015"
       }
     }
   },

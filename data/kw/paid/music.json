@@ -212,312 +212,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Brusfri"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/db/df/fe/dbdffe33-7c15-b77b-90ce-480e622404e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/db/df/fe/dbdffe33-7c15-b77b-90ce-480e622404e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/db/df/fe/dbdffe33-7c15-b77b-90ce-480e622404e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Brusfri* is a highly advanced audio noise reducer, packed into a simple and straight-forward interface. It is very well suited for cleaning up noisy audio recordings, while retaining sound quality. Unlike many other noise reducers on the market, Brusfri doesn't mess with audio phasing to suppress noise (a technique that often comes with audible side effects). Instead, multiple fine-tuned gates are used to silence unwanted noise.\n\nBrusfri can also be used as a AUv3 plug-in in compatible hosts, for example in GarageBand.\n\n*Brusfri means \"Noise free\" in Swedish.\n\nHere are some examples of sound conditions that Brusfri handles well:\n\n* Guitar amp\n* Noisy vintage gear\n* Boosted pre-amp\n* iPhone/iPad and external mic hiss\n* Room reverb removal\n* Fan noise\n* Background ambiance\n* Mains hum / Electric hum\n\nUsage\n\nIn short, press “Learn” during a couple of seconds of isolated noise to create a \"profile\" for noise. This may be all you need to do.\n\nBrusfri can be used in two ways, either standalone or as a AUv3 plug-in.\n\nStandalone\nImport the audio, either by extracting audio from a video, by importing from iTunes, or by using the “Open In…” option in any other app that can export audio. Press and hold the Learn button (the ear) while playing unwanted noise. (It’s important that the Ear is only fed with isolated noise). When Learn is released, Brusfri will start reducing noise. \n\nAUv3 plug-in\nOpen Brusfri in any AUv3 compatible host.\nFind a region in the recording that only contains noise and play it. \nTap and hold the “LEARN” button for a short while (a second will be enough). When the LEARN button is released, Brusfri will start reducing noise.\n\nThere are a bunch of parameters available that affect the noise reduction algorithm:\n\nATK / THRS / REL (Attack Time / Threshold / Release Time)\nThreshold - basically determines how much noise to be removed. A lower value means more reduction.\nAttack and Release sets the time it will take for the reducer to start working.\n\nLOOKAHEAD\nMakes transient processing a bit smoother.\n\nEDGE\nControls the reduction aggressivity. A lower value gives a smoother reduction.\n\nHPF\nReduces low frequencies.\n\nHIGH\nCompensates high frequencies by boosting them.\n\nMIX\nMixes between dry and noise reduced signal.\n\nNOTE! Brusfri is CPU intensive and iPhone 6 / iPad AIR 2 or better is recommended. When used as an AUv3 plug-in, we highly recommend freezing/bouncing tracks to reduce CPU usage."
-    },
-    "im:price": {
-      "label": "$14.99",
-      "attributes": {
-        "amount": "14.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Klevgränd Produkter AB"
-    },
-    "title": {
-      "label": "Brusfri - Klevgränd produkter AB"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/brusfri/id1289165912?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/c1/d4/43/c1d443df-d8fa-dd5c-6410-903fc2199568/d17ac2da-45e7-4f95-bc09-3a1e5ef927a2_brusfri_1_2_ipadpro_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/brusfri/id1289165912?uo=2",
-      "attributes": {
-        "im:id": "1289165912",
-        "im:bundleId": "com.klevgrand.Brusfri"
-      }
-    },
-    "im:artist": {
-      "label": "Klevgränd produkter AB",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/klevgr%C3%A4nd-produkter-ab/id1118902192?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-10-10T20:48:28-07:00",
-      "attributes": {
-        "label": "October 10, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 4,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Analog Rack Reverb"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/c9/99/5a/c9995af7-f20d-d735-4fa0-53c1f6d67a09/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c9/99/5a/c9995af7-f20d-d735-4fa0-53c1f6d67a09/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/c9/99/5a/c9995af7-f20d-d735-4fa0-53c1f6d67a09/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Analog Rack Reverb two plugins in one, Stereo Hall and Stereo Room reverb algorithms ideal for every source!\n\nNembrini Audio has taken the guitarists most preferred analog and digital effect pedals and has repacked it in new rack style plugins easy to use and extremely powerful at the same time, with the addition of a custom design tube preamp virtual circuit which gives color to the signal in a very special way.\r\n\r\nJust insert the Analog Rack Reverb plugin in your tracks to hear its beautiful analog tube coloration!\n\nWorks as a standalone app, AudioUnit v3 effect, or Inter-App Audio effect"
-    },
-    "im:price": {
-      "label": "$3.99",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2018 Nembrini Audio S.R.L."
-    },
-    "title": {
-      "label": "Analog Rack Reverb - Nembrini Audio"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/analog-rack-reverb/id1497464859?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/cd/1c/94/cd1c9428-bbfb-df2f-7428-4e6f5c28595b/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/analog-rack-reverb/id1497464859?uo=2",
-      "attributes": {
-        "im:id": "1497464859",
-        "im:bundleId": "com.nembriniaudio.ARReverb"
-      }
-    },
-    "im:artist": {
-      "label": "Nembrini Audio",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/nembrini-audio/id1493296895?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-02-07T00:00:00-07:00",
-      "attributes": {
-        "label": "February 7, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 5,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Music Player & MP3 Manager for Dropbox"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple60/v4/3f/8c/c0/3f8cc09d-061a-46b3-4fd0-1972fc410f9e/mzl.kipfguio.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple60/v4/3f/8c/c0/3f8cc09d-061a-46b3-4fd0-1972fc410f9e/mzl.kipfguio.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple60/v4/3f/8c/c0/3f8cc09d-061a-46b3-4fd0-1972fc410f9e/mzl.kipfguio.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Listen to your music with in advanced and powerful media player.\n\nApp Features:\n\n√ Full iOS9, iPhone 6 and 6 Plus Support! \n√ FLAC format support. Enjoy your favourite tracks in the best quality!\n√ Skins Customization\n\nMusic player:\n√ Full featured media player\n√ Sleep timer\n√ Lock screen playback controls\n√ Background music playback\n√ Equalizer with BassBooster\n√ Over 20 realistic EQ presets\n√ Stylish audio Visualizer\n√ Fine scrubbing\n√ Album cover art – auto search or upload your own\n√ Display lyrics while listening to music\n\nPlaylists: \n√ Smart iPod-like music playlists\n√ Create your own playlists\n\nMedia Library \n√ Import music from your iPod library\n√ Rate songs like in iTunes\n√ Tabs for Songs, Albums, Artists, Genres\n√ Tag editor\n√ Lyrics editor\n\nManager:\n√ iTunes File Sharing\n√ Wi-Fi Transfer\n√ Download music, pictures, archives from \n- Dropbox\n- Google Drive\n- OneDrive\n√ Move, rename or delete tracks & songs\n√ Search by artist, title, album, genre\n√ Create and manage folders\n√ Sort by artist, track name, date, duration\n√ History of Recently listened tracks"
-    },
-    "im:price": {
-      "label": "$1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Atlantis Mobile Inc"
-    },
-    "title": {
-      "label": "Music Player & MP3 Manager for Dropbox - Nguyen Nam Giang"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/music-player-mp3-manager-for-dropbox/id906366237?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple18/v4/12/7e/53/127e536c-7768-e898-2a26-7a0a007f80f8/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/music-player-mp3-manager-for-dropbox/id906366237?uo=2",
-      "attributes": {
-        "im:id": "906366237",
-        "im:bundleId": "atlantis.mobile.inc.unlimitedmusic"
-      }
-    },
-    "im:artist": {
-      "label": "Nguyen Nam Giang",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/nguyen-nam-giang/id583763906?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-10-05T04:11:14-07:00",
-      "attributes": {
-        "label": "October 5, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 6,
-      "total": 100
-    },
-    "im:name": {
       "label": "SoundHound∞ - Music Discovery"
     },
     "im:image": [
@@ -616,7 +310,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 7,
+      "index": 4,
       "total": 100
     },
     "im:name": {
@@ -718,7 +412,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 8,
+      "index": 5,
       "total": 100
     },
     "im:name": {
@@ -820,7 +514,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 9,
+      "index": 6,
       "total": 100
     },
     "im:name": {
@@ -922,7 +616,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 10,
+      "index": 7,
       "total": 100
     },
     "im:name": {
@@ -1024,7 +718,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 11,
+      "index": 8,
       "total": 100
     },
     "im:name": {
@@ -1126,7 +820,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 12,
+      "index": 9,
       "total": 100
     },
     "im:name": {
@@ -1228,7 +922,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 13,
+      "index": 10,
       "total": 100
     },
     "im:name": {
@@ -1330,7 +1024,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 14,
+      "index": 11,
       "total": 100
     },
     "im:name": {
@@ -1432,7 +1126,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 15,
+      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -1534,7 +1228,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 16,
+      "index": 13,
       "total": 100
     },
     "im:name": {
@@ -1636,7 +1330,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 17,
+      "index": 14,
       "total": 100
     },
     "im:name": {
@@ -1738,7 +1432,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 18,
+      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1840,7 +1534,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 19,
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1942,7 +1636,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 20,
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -2044,7 +1738,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 21,
+      "index": 18,
       "total": 100
     },
     "im:name": {
@@ -2146,7 +1840,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 22,
+      "index": 19,
       "total": 100
     },
     "im:name": {
@@ -2248,7 +1942,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 23,
+      "index": 20,
       "total": 100
     },
     "im:name": {
@@ -2350,7 +2044,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 24,
+      "index": 21,
       "total": 100
     },
     "im:name": {
@@ -2452,7 +2146,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 25,
+      "index": 22,
       "total": 100
     },
     "im:name": {
@@ -2554,7 +2248,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 26,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2656,7 +2350,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 27,
+      "index": 24,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +2452,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 28,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2860,7 +2554,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 29,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2962,7 +2656,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 30,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -3064,7 +2758,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 31,
+      "index": 28,
       "total": 100
     },
     "im:name": {
@@ -3166,7 +2860,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 32,
+      "index": 29,
       "total": 100
     },
     "im:name": {
@@ -3260,6 +2954,312 @@
       "label": "2008-10-21T00:00:00-07:00",
       "attributes": {
         "label": "October 21, 2008"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 30,
+      "total": 100
+    },
+    "im:name": {
+      "label": "FL Studio Mobile"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/0a/54/fe/0a54fe99-1ddc-648d-640f-f94fb1bde560/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/0a/54/fe/0a54fe99-1ddc-648d-640f-f94fb1bde560/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/0a/54/fe/0a54fe99-1ddc-648d-640f-f94fb1bde560/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Create and save complete multi-track music projects on your iPad, iPhone or Mac. Record, sequence, edit, mix and render complete songs.\n\n\nFEATURE HIGHLIGHTS\n\n* Audio recording, track-length stem/wav import\n* Browse sample and presets with preview\n* Effects modules (see Included Content)\n* Full-screen MacBook and iMac Trackpad and Mouse support.\n* High quality synthesizers, sampler, drum kits & sliced-loop beats\n* Instrument modules (see Included Content)\n* Load projects in the FL STUDIO** FREE Plugin version of this App\n* MIDI controller support (class compliant). Automation support.\n* MIDI file import and Export (Single-track or Multi-track)\n* Mixer: Per-track mute, solo, effect bus, pan and volume adjustment\n* Piano roll. Edit notes or capture recorded performances.\n* Save and load WAV, MP3, AAC*, FLAC, MIDI\n* Share your songs via Wi-Fi or Cloud to other Mobile 3 installations\n* Step sequencer\n* User interface configurable with all screen resolutions and sizes.\n* Virtual piano-keyboard & Drumpads#\n* IAA App support (In/Out), Audiobus support (In/Out)\n* Audio recording (external and internal sources)\n* Share your songs via Sync to other Mobile 3 devices / installations\n* Load your projects in the FL STUDIO* FREE 'Plugin' Version of this App#\n\nIN APP PURCHASES & INCLUDED CONTENT\n\n\nFL Studio Mobile includes in-app purchases for the DirectWave sample player. You can install your own samples and don’t need to buy content.\n\n\nAll Instrument modules are included: Drum Sampler, DirectWave Sample Player, GMS (Groove Machine Synth), Transistor Bass, MiniSynth & SuperSaw.\n\nAll Effect modules are included: Analyzer (visual), Auto Ducker, Auto-Pitch (pitch correction), Chorus, Compressor, Limiter, Distortion, Parametric Equalizer, Graphic Equalizer, Flanger, Reverb, Tuner (Guitar/Vocal/Inst), High-Pass/Low-Pass/Band-Pass/Formant (Vox) Filters, Delays, Phaser and Stereoizer.\n\nIncluded Drum Samples: Cymbals, Hats, Kicks, Snares, Toms, Percussion, Risers, SFX\n\nIncluded DirectWave Instruments: Guitars, Keyboards, Orchestral, Synth, Bass, Synth Keyboards, Synth Leads, Synth Pads, Sliced, Drums, Drum Kits and Effects.\n\nIncluded MiniSynth Presets: Bass, Keys, Leads, Pads, SFX, Synths\n\nIncluded SuperSaw Presets: Arps, Bass, Bells, SFX, Leads, Pads, Sequences, Synths\n\nWANT TO TRY BEFORE YOU BUY?\n\nInstall FL STUDIO 20 for macOS / Windows and you can use the FL Studio Mobile Plugin. This is identical to the App, as a plugin inside FL Studio. Get it here: http://www.image-line.com/downloads/flstudiodownload.html\n\nMANUAL / TRAINING / VIDEOS\n\nhttp://support.image-line.com/redirect/flstudiomobile_help\nhttp://support.image-line.com/redirect/flstudiomobile_videos\n\n\n\n\nSUPPORT\n\n\n\n\nPlease help us to help you! In the App, tap 'Help > Users & Support Forums' to register FL Studio Mobile to your Image-Line account and gain access to the forum. You can then report bugs, make feature requests and access free downloadable content: http://support.image-line.com/redirect/flmobile_forum"
+    },
+    "im:price": {
+      "label": "$14.99",
+      "attributes": {
+        "amount": "14.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Image Line Software NV"
+    },
+    "title": {
+      "label": "FL Studio Mobile - Image Line Software"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/fl-studio-mobile/id432850619?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/c4/ac/dd/c4acdd8f-67eb-3e23-d104-a93e8fb19429/mzl.otpagwkf.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/fl-studio-mobile/id432850619?uo=2",
+      "attributes": {
+        "im:id": "432850619",
+        "im:bundleId": "com.imageline.FLStudioMobileHD"
+      }
+    },
+    "im:artist": {
+      "label": "Image Line Software",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/image-line-software/id432850147?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-06-21T00:00:00-07:00",
+      "attributes": {
+        "label": "June 21, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 31,
+      "total": 100
+    },
+    "im:name": {
+      "label": "UD Tuner"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/11/f3/7c/11f37c37-dd94-23be-d2a0-be3f0b152c88/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/11/f3/7c/11f37c37-dd94-23be-d2a0-be3f0b152c88/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/11/f3/7c/11f37c37-dd94-23be-d2a0-be3f0b152c88/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "UD Tuner is a tool for tuning Turkish/Arabic musical instrument Oud. It can also tune\ninstruments cumbus, tanbur and lute\n \n*It can listen to instrument sound and measures the sound frequency. So it gives directives for finding the correct tune.\n\n* It can run in two modes with  manual string selection  and    auto string selection \n\n*It can also produce reference sounds when touching the strings on screen\n\n* you can reach 0.01Hz professional sensitivity in a silent room\n\n* it is a paid app, so you just buy the app, it doesn't run in subscription or auto-renewal mode. \nYou just pay only once"
+    },
+    "im:price": {
+      "label": "$1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© DYBOS SW"
+    },
+    "title": {
+      "label": "UD Tuner - Yasar Bozdag"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/ud-tuner/id595414005?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/69/fb/74/69fb7419-32ed-6396-8b56-1b58a47a760d/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/ud-tuner/id595414005?uo=2",
+      "attributes": {
+        "im:id": "595414005",
+        "im:bundleId": "com.dybos.udTuner"
+      }
+    },
+    "im:artist": {
+      "label": "Yasar Bozdag",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/yasar-bozdag/id590392124?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-01-25T16:12:58-07:00",
+      "attributes": {
+        "label": "January 25, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 32,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Voice Band"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/fb/c3/a4/fbc3a4bd-4d29-feb8-b0f5-84e57e0c4bfb/AppIcon-1x_U007emarketing-85-220-1.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/fb/c3/a4/fbc3a4bd-4d29-feb8-b0f5-84e57e0c4bfb/AppIcon-1x_U007emarketing-85-220-1.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/fb/c3/a4/fbc3a4bd-4d29-feb8-b0f5-84e57e0c4bfb/AppIcon-1x_U007emarketing-85-220-1.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Play instruments with your voice in real time!  Voice Band introduces a revolutionary new way to make music - with only your voice.  Featured on G4TV’s Attack of the Show (with Olivia Munn).\n\n* Imagine creating an entire song with only your voice. *\n\nJust sing into your phone and hear Voice Band transform your voice into an instrument in real time.  Voice Band doesn't simply alter your voice to sound like an instrument, it actually plays a real sampled instrument which follows what you sing.  Want to jam to a guitar solo with your favorite band?  Voice Band lets you play along with your ipod library, too.\n\nVoice Band features a recorder which lets you build a song, one instrument at a time.  Auto pitch mode helps you stay on key, and if you're a musician, you'll appreciate the adjustable scale and metronome.   Voice Band also includes a built-in effects processor with distortion, reverb, and delay.\n\nWhether you’re a musician looking to instantly capture an arrangement idea, or a music fan looking to make your own music for the first time, Voice Band will inspire and challenge you.\n\nCheck out what others have to say:\n\nNYTimes: “Want to write music but you can’t play an instrument? Download Voice Band, sing the melodies and rhythms for different instruments, and the app creates the bass, guitar and drum tracks to your specs.”\n\nGizmag: “Stunning multitrack rock band recordings using only your voice.”\n\nTuaw.com: “I don't usually gush during App reviews … [but] VoiceBand is pretty marvelous.”\n\n Features \n• Turns your voice into an instrument, in real time.\n• Instruments include: 2 guitars, bass, sax, 2 synths, Drums, and a Mic mode\n• Built-in recorder allows you to record an entire song, one instrument at a time.\n• iPod player lets you play along with your favorite music.\n• Drum mode lets you play both kick and snare at the same time by singing at two different volumes.\n• Auto Pitch mode helps you to stay on key.\n• Adjustable octave\n• Effects include distortion, reverb and delay.\n• Adjustable musical scale for auto pitch includes Major, Minor, Blues, Pentatonic, Wholetone and Mixolydian.\n• Built-in metronome with adjustable tempo.\n• Songs can be saved, and e-mailed from within Voice Band.\n• Compatible with headphone and microphone accessories.\n\nNOTE:  Like any musical instrument, Voice Band works better with practice.  If you consider yourself non-musical you can still have lots of fun with Voice Band as you continue to expand your musical talent!  For help in getting the most from Voice Band, check out our tutorial videos.\n\n Requirements \n• Quality headphones are recommended.\n• A quiet place to record, to avoid false instrument triggering from external noise.\n• Practice is required! As with any musical instrument, your results will improve dramatically as your skill develops. \n\n\nLinks to quoted sources:\n\nAttack of the Show with Olivia Munn: http://youtu.be/E6cZIPAerWA\n\nhttp://www.nytimes.com/2010/01/28/technology/personaltech/28smart.html\n\nhttp://www.gizmag.com/voice-band-iphone-app/13876/\n\nhttp://www.tuaw.com/2010/01/08/voiceband-personal-music-artistry-gone-wild/"
+    },
+    "im:price": {
+      "label": "$2.99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2011 WaveMachine Labs, Inc."
+    },
+    "title": {
+      "label": "Voice Band - WaveMachine Labs, Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/voice-band/id347859797?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d2/0b/9a/d20b9aa8-44fc-0d04-5908-03ba8f5a258c/pr_source.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/voice-band/id347859797?uo=2",
+      "attributes": {
+        "im:id": "347859797",
+        "im:bundleId": "com.wavemachine.voiceband"
+      }
+    },
+    "im:artist": {
+      "label": "WaveMachine Labs, Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/wavemachine-labs-inc/id330434153?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-01-05T15:12:25-07:00",
+      "attributes": {
+        "label": "January 5, 2010"
       }
     }
   },
@@ -3374,312 +3374,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "FL Studio Mobile"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/0a/54/fe/0a54fe99-1ddc-648d-640f-f94fb1bde560/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/0a/54/fe/0a54fe99-1ddc-648d-640f-f94fb1bde560/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/0a/54/fe/0a54fe99-1ddc-648d-640f-f94fb1bde560/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Create and save complete multi-track music projects on your iPad, iPhone or Mac. Record, sequence, edit, mix and render complete songs.\n\n\nFEATURE HIGHLIGHTS\n\n* Audio recording, track-length stem/wav import\n* Browse sample and presets with preview\n* Effects modules (see Included Content)\n* Full-screen MacBook and iMac Trackpad and Mouse support.\n* High quality synthesizers, sampler, drum kits & sliced-loop beats\n* Instrument modules (see Included Content)\n* Load projects in the FL STUDIO** FREE Plugin version of this App\n* MIDI controller support (class compliant). Automation support.\n* MIDI file import and Export (Single-track or Multi-track)\n* Mixer: Per-track mute, solo, effect bus, pan and volume adjustment\n* Piano roll. Edit notes or capture recorded performances.\n* Save and load WAV, MP3, AAC*, FLAC, MIDI\n* Share your songs via Wi-Fi or Cloud to other Mobile 3 installations\n* Step sequencer\n* User interface configurable with all screen resolutions and sizes.\n* Virtual piano-keyboard & Drumpads#\n* IAA App support (In/Out), Audiobus support (In/Out)\n* Audio recording (external and internal sources)\n* Share your songs via Sync to other Mobile 3 devices / installations\n* Load your projects in the FL STUDIO* FREE 'Plugin' Version of this App#\n\nIN APP PURCHASES & INCLUDED CONTENT\n\n\nFL Studio Mobile includes in-app purchases for the DirectWave sample player. You can install your own samples and don’t need to buy content.\n\n\nAll Instrument modules are included: Drum Sampler, DirectWave Sample Player, GMS (Groove Machine Synth), Transistor Bass, MiniSynth & SuperSaw.\n\nAll Effect modules are included: Analyzer (visual), Auto Ducker, Auto-Pitch (pitch correction), Chorus, Compressor, Limiter, Distortion, Parametric Equalizer, Graphic Equalizer, Flanger, Reverb, Tuner (Guitar/Vocal/Inst), High-Pass/Low-Pass/Band-Pass/Formant (Vox) Filters, Delays, Phaser and Stereoizer.\n\nIncluded Drum Samples: Cymbals, Hats, Kicks, Snares, Toms, Percussion, Risers, SFX\n\nIncluded DirectWave Instruments: Guitars, Keyboards, Orchestral, Synth, Bass, Synth Keyboards, Synth Leads, Synth Pads, Sliced, Drums, Drum Kits and Effects.\n\nIncluded MiniSynth Presets: Bass, Keys, Leads, Pads, SFX, Synths\n\nIncluded SuperSaw Presets: Arps, Bass, Bells, SFX, Leads, Pads, Sequences, Synths\n\nWANT TO TRY BEFORE YOU BUY?\n\nInstall FL STUDIO 20 for macOS / Windows and you can use the FL Studio Mobile Plugin. This is identical to the App, as a plugin inside FL Studio. Get it here: http://www.image-line.com/downloads/flstudiodownload.html\n\nMANUAL / TRAINING / VIDEOS\n\nhttp://support.image-line.com/redirect/flstudiomobile_help\nhttp://support.image-line.com/redirect/flstudiomobile_videos\n\n\n\n\nSUPPORT\n\n\n\n\nPlease help us to help you! In the App, tap 'Help > Users & Support Forums' to register FL Studio Mobile to your Image-Line account and gain access to the forum. You can then report bugs, make feature requests and access free downloadable content: http://support.image-line.com/redirect/flmobile_forum"
-    },
-    "im:price": {
-      "label": "$14.99",
-      "attributes": {
-        "amount": "14.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Image Line Software NV"
-    },
-    "title": {
-      "label": "FL Studio Mobile - Image Line Software"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/fl-studio-mobile/id432850619?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/c4/ac/dd/c4acdd8f-67eb-3e23-d104-a93e8fb19429/mzl.otpagwkf.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/fl-studio-mobile/id432850619?uo=2",
-      "attributes": {
-        "im:id": "432850619",
-        "im:bundleId": "com.imageline.FLStudioMobileHD"
-      }
-    },
-    "im:artist": {
-      "label": "Image Line Software",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/image-line-software/id432850147?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-06-21T00:00:00-07:00",
-      "attributes": {
-        "label": "June 21, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 35,
-      "total": 100
-    },
-    "im:name": {
-      "label": "UD Tuner"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/11/f3/7c/11f37c37-dd94-23be-d2a0-be3f0b152c88/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/11/f3/7c/11f37c37-dd94-23be-d2a0-be3f0b152c88/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/11/f3/7c/11f37c37-dd94-23be-d2a0-be3f0b152c88/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "UD Tuner is a tool for tuning Turkish/Arabic musical instrument Oud. It can also tune\ninstruments cumbus, tanbur and lute\n \n*It can listen to instrument sound and measures the sound frequency. So it gives directives for finding the correct tune.\n\n* It can run in two modes with  manual string selection  and    auto string selection \n\n*It can also produce reference sounds when touching the strings on screen\n\n* you can reach 0.01Hz professional sensitivity in a silent room\n\n* it is a paid app, so you just buy the app, it doesn't run in subscription or auto-renewal mode. \nYou just pay only once"
-    },
-    "im:price": {
-      "label": "$1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© DYBOS SW"
-    },
-    "title": {
-      "label": "UD Tuner - Yasar Bozdag"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/ud-tuner/id595414005?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/69/fb/74/69fb7419-32ed-6396-8b56-1b58a47a760d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/ud-tuner/id595414005?uo=2",
-      "attributes": {
-        "im:id": "595414005",
-        "im:bundleId": "com.dybos.udTuner"
-      }
-    },
-    "im:artist": {
-      "label": "Yasar Bozdag",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/yasar-bozdag/id590392124?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-01-25T16:12:58-07:00",
-      "attributes": {
-        "label": "January 25, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 36,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Voice Band"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/fb/c3/a4/fbc3a4bd-4d29-feb8-b0f5-84e57e0c4bfb/AppIcon-1x_U007emarketing-85-220-1.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/fb/c3/a4/fbc3a4bd-4d29-feb8-b0f5-84e57e0c4bfb/AppIcon-1x_U007emarketing-85-220-1.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/fb/c3/a4/fbc3a4bd-4d29-feb8-b0f5-84e57e0c4bfb/AppIcon-1x_U007emarketing-85-220-1.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Play instruments with your voice in real time!  Voice Band introduces a revolutionary new way to make music - with only your voice.  Featured on G4TV’s Attack of the Show (with Olivia Munn).\n\n* Imagine creating an entire song with only your voice. *\n\nJust sing into your phone and hear Voice Band transform your voice into an instrument in real time.  Voice Band doesn't simply alter your voice to sound like an instrument, it actually plays a real sampled instrument which follows what you sing.  Want to jam to a guitar solo with your favorite band?  Voice Band lets you play along with your ipod library, too.\n\nVoice Band features a recorder which lets you build a song, one instrument at a time.  Auto pitch mode helps you stay on key, and if you're a musician, you'll appreciate the adjustable scale and metronome.   Voice Band also includes a built-in effects processor with distortion, reverb, and delay.\n\nWhether you’re a musician looking to instantly capture an arrangement idea, or a music fan looking to make your own music for the first time, Voice Band will inspire and challenge you.\n\nCheck out what others have to say:\n\nNYTimes: “Want to write music but you can’t play an instrument? Download Voice Band, sing the melodies and rhythms for different instruments, and the app creates the bass, guitar and drum tracks to your specs.”\n\nGizmag: “Stunning multitrack rock band recordings using only your voice.”\n\nTuaw.com: “I don't usually gush during App reviews … [but] VoiceBand is pretty marvelous.”\n\n Features \n• Turns your voice into an instrument, in real time.\n• Instruments include: 2 guitars, bass, sax, 2 synths, Drums, and a Mic mode\n• Built-in recorder allows you to record an entire song, one instrument at a time.\n• iPod player lets you play along with your favorite music.\n• Drum mode lets you play both kick and snare at the same time by singing at two different volumes.\n• Auto Pitch mode helps you to stay on key.\n• Adjustable octave\n• Effects include distortion, reverb and delay.\n• Adjustable musical scale for auto pitch includes Major, Minor, Blues, Pentatonic, Wholetone and Mixolydian.\n• Built-in metronome with adjustable tempo.\n• Songs can be saved, and e-mailed from within Voice Band.\n• Compatible with headphone and microphone accessories.\n\nNOTE:  Like any musical instrument, Voice Band works better with practice.  If you consider yourself non-musical you can still have lots of fun with Voice Band as you continue to expand your musical talent!  For help in getting the most from Voice Band, check out our tutorial videos.\n\n Requirements \n• Quality headphones are recommended.\n• A quiet place to record, to avoid false instrument triggering from external noise.\n• Practice is required! As with any musical instrument, your results will improve dramatically as your skill develops. \n\n\nLinks to quoted sources:\n\nAttack of the Show with Olivia Munn: http://youtu.be/E6cZIPAerWA\n\nhttp://www.nytimes.com/2010/01/28/technology/personaltech/28smart.html\n\nhttp://www.gizmag.com/voice-band-iphone-app/13876/\n\nhttp://www.tuaw.com/2010/01/08/voiceband-personal-music-artistry-gone-wild/"
-    },
-    "im:price": {
-      "label": "$2.99",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2011 WaveMachine Labs, Inc."
-    },
-    "title": {
-      "label": "Voice Band - WaveMachine Labs, Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/voice-band/id347859797?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d2/0b/9a/d20b9aa8-44fc-0d04-5908-03ba8f5a258c/pr_source.jpg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/voice-band/id347859797?uo=2",
-      "attributes": {
-        "im:id": "347859797",
-        "im:bundleId": "com.wavemachine.voiceband"
-      }
-    },
-    "im:artist": {
-      "label": "WaveMachine Labs, Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/wavemachine-labs-inc/id330434153?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-01-05T15:12:25-07:00",
-      "attributes": {
-        "label": "January 5, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 37,
-      "total": 100
-    },
-    "im:name": {
       "label": "Evermusic Pro: offline player"
     },
     "im:image": [
@@ -3778,7 +3472,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 38,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3880,7 +3574,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 39,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3982,7 +3676,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 40,
+      "index": 37,
       "total": 100
     },
     "im:name": {
@@ -4084,7 +3778,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 41,
+      "index": 38,
       "total": 100
     },
     "im:name": {
@@ -4186,7 +3880,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 42,
+      "index": 39,
       "total": 100
     },
     "im:name": {
@@ -4288,7 +3982,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 43,
+      "index": 40,
       "total": 100
     },
     "im:name": {
@@ -4390,7 +4084,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 44,
+      "index": 41,
       "total": 100
     },
     "im:name": {
@@ -4492,7 +4186,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 45,
+      "index": 42,
       "total": 100
     },
     "im:name": {
@@ -4594,7 +4288,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 46,
+      "index": 43,
       "total": 100
     },
     "im:name": {
@@ -4696,7 +4390,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 47,
+      "index": 44,
       "total": 100
     },
     "im:name": {
@@ -4798,109 +4492,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 48,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Tenuto"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Tenuto is a collection of 24 highly-customizable exercises designed to enhance your musicality. From recognizing chords on a keyboard to identifying intervals by ear, it has an exercise for you. Tenuto also includes six musical calculators for accidentals, intervals, scales, chords, analysis symbols, and twelve-tone matrices.\n\nA short description of the exercises and calculators follows. For a full list of all available customizations, visit the \"Developer Website\" link on this page or open http://tenuto.link/features/ in your web browser.\n\n––––––\n\n• Note Identification\n• Key Signature Identification\n• Interval Identification\n• Scale Identification\n• Chord Identification\nTap the button corresponding to the written staff line. For example: if shown a C, E, and G with a sharp; tap the \"Augmented Triad\" button.\n\n––––––\n\n• Note Construction\n• Key Signature Construction\n• Interval Construction\n• Scale Construction\n• Chord Construction\nConstruct the specified label by moving notes and/or adding accidentals. For example: if shown a C and an \"Augmented 4th\" label, move the second note to F and add a sharp.\n\n––––––\n\n• Keyboard Reverse Identification\nTap the piano key corresponding to the written note on the staff. While similar to Note Identification, this exercise uses a piano keyboard rather than note name buttons.\n\n• Keyboard Note Identification\n• Keyboard Interval Identification\n• Keyboard Scale Identification\n• Keyboard Chord Identification\nTap the button corresponding to the highlighted piano key(s). If the C and G keys are highlighted, tap the \"P5\" (Perfect 5th) button.\n\n––––––\n\n• Fretboard Note Identification\n• Fretboard Interval Identification\n• Fretboard Scale Identification\n• Fretboard Chord Identification\nTap the button corresponding to the marked fretboard position(s). If the 2nd fret of the D string is marked, tap the \"E\" button.\n\n––––––\n\n• Keyboard Ear Training\n• Note Ear Training\nListen to the played reference and question notes. Select the piano key or note button corresponding to the question note.\n\n• Interval Ear Training\n• Scale Ear Training\n• Chord Ear Training\nTap the button corresponding to the played notes. If E and F are played, tap the \"Minor 2nd\" button.\n\n––––––\n\n• Accidental Calculator\nDisplay the accidental for a note and key.\n\n• Interval Calculator\nDisplay the interval for a note, type, and key.\n\n• Chord Calculator\nDisplay the scale for a tonic and scale type.\n\n• Chord Calculator\nDisplay the chord for a note, type, and key.\n\n• Analysis Calculator\nDisplay the chord for a symbol and key.\n\n• Matrix Calculator\nDisplay the twelve-tone matrix for a specified tone row."
-    },
-    "im:price": {
-      "label": "$4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2011-2020, musictheory.net, LLC"
-    },
-    "title": {
-      "label": "Tenuto - musictheory.net"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/tenuto/id459313476?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/5b/a5/d2/5ba5d215-8a4a-7a6a-84eb-fb8e16f69949/mzl.uyxsfprp.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/tenuto/id459313476?uo=2",
-      "attributes": {
-        "im:id": "459313476",
-        "im:bundleId": "net.musictheory.Tenuto"
-      }
-    },
-    "im:artist": {
-      "label": "musictheory.net",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/musictheory-net/id459313479?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-08-30T13:12:52-07:00",
-      "attributes": {
-        "label": "August 30, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 49,
+      "index": 45,
       "total": 100
     },
     "im:name": {
@@ -5002,7 +4594,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 50,
+      "index": 46,
       "total": 100
     },
     "im:name": {
@@ -5104,7 +4696,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 51,
+      "index": 47,
       "total": 100
     },
     "im:name": {
@@ -5206,7 +4798,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 52,
+      "index": 48,
       "total": 100
     },
     "im:name": {
@@ -5308,7 +4900,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 53,
+      "index": 49,
       "total": 100
     },
     "im:name": {
@@ -5410,7 +5002,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 54,
+      "index": 50,
       "total": 100
     },
     "im:name": {
@@ -5512,7 +5104,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 55,
+      "index": 51,
       "total": 100
     },
     "im:name": {
@@ -5614,7 +5206,109 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 56,
+      "index": 52,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Tenuto"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Tenuto is a collection of 24 highly-customizable exercises designed to enhance your musicality. From recognizing chords on a keyboard to identifying intervals by ear, it has an exercise for you. Tenuto also includes six musical calculators for accidentals, intervals, scales, chords, analysis symbols, and twelve-tone matrices.\n\nA short description of the exercises and calculators follows. For a full list of all available customizations, visit the \"Developer Website\" link on this page or open http://tenuto.link/features/ in your web browser.\n\n––––––\n\n• Note Identification\n• Key Signature Identification\n• Interval Identification\n• Scale Identification\n• Chord Identification\nTap the button corresponding to the written staff line. For example: if shown a C, E, and G with a sharp; tap the \"Augmented Triad\" button.\n\n––––––\n\n• Note Construction\n• Key Signature Construction\n• Interval Construction\n• Scale Construction\n• Chord Construction\nConstruct the specified label by moving notes and/or adding accidentals. For example: if shown a C and an \"Augmented 4th\" label, move the second note to F and add a sharp.\n\n––––––\n\n• Keyboard Reverse Identification\nTap the piano key corresponding to the written note on the staff. While similar to Note Identification, this exercise uses a piano keyboard rather than note name buttons.\n\n• Keyboard Note Identification\n• Keyboard Interval Identification\n• Keyboard Scale Identification\n• Keyboard Chord Identification\nTap the button corresponding to the highlighted piano key(s). If the C and G keys are highlighted, tap the \"P5\" (Perfect 5th) button.\n\n––––––\n\n• Fretboard Note Identification\n• Fretboard Interval Identification\n• Fretboard Scale Identification\n• Fretboard Chord Identification\nTap the button corresponding to the marked fretboard position(s). If the 2nd fret of the D string is marked, tap the \"E\" button.\n\n––––––\n\n• Keyboard Ear Training\n• Note Ear Training\nListen to the played reference and question notes. Select the piano key or note button corresponding to the question note.\n\n• Interval Ear Training\n• Scale Ear Training\n• Chord Ear Training\nTap the button corresponding to the played notes. If E and F are played, tap the \"Minor 2nd\" button.\n\n––––––\n\n• Accidental Calculator\nDisplay the accidental for a note and key.\n\n• Interval Calculator\nDisplay the interval for a note, type, and key.\n\n• Chord Calculator\nDisplay the scale for a tonic and scale type.\n\n• Chord Calculator\nDisplay the chord for a note, type, and key.\n\n• Analysis Calculator\nDisplay the chord for a symbol and key.\n\n• Matrix Calculator\nDisplay the twelve-tone matrix for a specified tone row."
+    },
+    "im:price": {
+      "label": "$4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2011-2020, musictheory.net, LLC"
+    },
+    "title": {
+      "label": "Tenuto - musictheory.net"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/tenuto/id459313476?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/5b/a5/d2/5ba5d215-8a4a-7a6a-84eb-fb8e16f69949/mzl.uyxsfprp.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/tenuto/id459313476?uo=2",
+      "attributes": {
+        "im:id": "459313476",
+        "im:bundleId": "net.musictheory.Tenuto"
+      }
+    },
+    "im:artist": {
+      "label": "musictheory.net",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/musictheory-net/id459313479?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-08-30T13:12:52-07:00",
+      "attributes": {
+        "label": "August 30, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 53,
       "total": 100
     },
     "im:name": {
@@ -5716,7 +5410,109 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 57,
+      "index": 54,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Brusfri"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/db/df/fe/dbdffe33-7c15-b77b-90ce-480e622404e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/db/df/fe/dbdffe33-7c15-b77b-90ce-480e622404e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/db/df/fe/dbdffe33-7c15-b77b-90ce-480e622404e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Brusfri* is a highly advanced audio noise reducer, packed into a simple and straight-forward interface. It is very well suited for cleaning up noisy audio recordings, while retaining sound quality. Unlike many other noise reducers on the market, Brusfri doesn't mess with audio phasing to suppress noise (a technique that often comes with audible side effects). Instead, multiple fine-tuned gates are used to silence unwanted noise.\n\nBrusfri can also be used as a AUv3 plug-in in compatible hosts, for example in GarageBand.\n\n*Brusfri means \"Noise free\" in Swedish.\n\nHere are some examples of sound conditions that Brusfri handles well:\n\n* Guitar amp\n* Noisy vintage gear\n* Boosted pre-amp\n* iPhone/iPad and external mic hiss\n* Room reverb removal\n* Fan noise\n* Background ambiance\n* Mains hum / Electric hum\n\nUsage\n\nIn short, press “Learn” during a couple of seconds of isolated noise to create a \"profile\" for noise. This may be all you need to do.\n\nBrusfri can be used in two ways, either standalone or as a AUv3 plug-in.\n\nStandalone\nImport the audio, either by extracting audio from a video, by importing from iTunes, or by using the “Open In…” option in any other app that can export audio. Press and hold the Learn button (the ear) while playing unwanted noise. (It’s important that the Ear is only fed with isolated noise). When Learn is released, Brusfri will start reducing noise. \n\nAUv3 plug-in\nOpen Brusfri in any AUv3 compatible host.\nFind a region in the recording that only contains noise and play it. \nTap and hold the “LEARN” button for a short while (a second will be enough). When the LEARN button is released, Brusfri will start reducing noise.\n\nThere are a bunch of parameters available that affect the noise reduction algorithm:\n\nATK / THRS / REL (Attack Time / Threshold / Release Time)\nThreshold - basically determines how much noise to be removed. A lower value means more reduction.\nAttack and Release sets the time it will take for the reducer to start working.\n\nLOOKAHEAD\nMakes transient processing a bit smoother.\n\nEDGE\nControls the reduction aggressivity. A lower value gives a smoother reduction.\n\nHPF\nReduces low frequencies.\n\nHIGH\nCompensates high frequencies by boosting them.\n\nMIX\nMixes between dry and noise reduced signal.\n\nNOTE! Brusfri is CPU intensive and iPhone 6 / iPad AIR 2 or better is recommended. When used as an AUv3 plug-in, we highly recommend freezing/bouncing tracks to reduce CPU usage."
+    },
+    "im:price": {
+      "label": "$14.99",
+      "attributes": {
+        "amount": "14.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Klevgränd Produkter AB"
+    },
+    "title": {
+      "label": "Brusfri - Klevgränd produkter AB"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/brusfri/id1289165912?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/c1/d4/43/c1d443df-d8fa-dd5c-6410-903fc2199568/d17ac2da-45e7-4f95-bc09-3a1e5ef927a2_brusfri_1_2_ipadpro_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/brusfri/id1289165912?uo=2",
+      "attributes": {
+        "im:id": "1289165912",
+        "im:bundleId": "com.klevgrand.Brusfri"
+      }
+    },
+    "im:artist": {
+      "label": "Klevgränd produkter AB",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/klevgr%C3%A4nd-produkter-ab/id1118902192?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-10-10T20:48:28-07:00",
+      "attributes": {
+        "label": "October 10, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 55,
       "total": 100
     },
     "im:name": {
@@ -5818,7 +5614,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 58,
+      "index": 56,
       "total": 100
     },
     "im:name": {
@@ -5920,7 +5716,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 59,
+      "index": 57,
       "total": 100
     },
     "im:name": {
@@ -6022,7 +5818,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 60,
+      "index": 58,
       "total": 100
     },
     "im:name": {
@@ -6124,7 +5920,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 61,
+      "index": 59,
       "total": 100
     },
     "im:name": {
@@ -6226,7 +6022,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 62,
+      "index": 60,
       "total": 100
     },
     "im:name": {
@@ -6328,7 +6124,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 63,
+      "index": 61,
       "total": 100
     },
     "im:name": {
@@ -6430,7 +6226,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 64,
+      "index": 62,
       "total": 100
     },
     "im:name": {
@@ -6532,7 +6328,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 65,
+      "index": 63,
       "total": 100
     },
     "im:name": {
@@ -6634,7 +6430,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 66,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6736,7 +6532,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 67,
+      "index": 65,
       "total": 100
     },
     "im:name": {
@@ -6838,7 +6634,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 68,
+      "index": 66,
       "total": 100
     },
     "im:name": {
@@ -6940,7 +6736,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 69,
+      "index": 67,
       "total": 100
     },
     "im:name": {
@@ -7042,7 +6838,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 70,
+      "index": 68,
       "total": 100
     },
     "im:name": {
@@ -7144,7 +6940,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 71,
+      "index": 69,
       "total": 100
     },
     "im:name": {
@@ -7238,6 +7034,210 @@
       "label": "2008-10-07T12:40:07-07:00",
       "attributes": {
         "label": "October 7, 2008"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 70,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Analog Rack Reverb"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/c9/99/5a/c9995af7-f20d-d735-4fa0-53c1f6d67a09/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c9/99/5a/c9995af7-f20d-d735-4fa0-53c1f6d67a09/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/c9/99/5a/c9995af7-f20d-d735-4fa0-53c1f6d67a09/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Analog Rack Reverb two plugins in one, Stereo Hall and Stereo Room reverb algorithms ideal for every source!\n\nNembrini Audio has taken the guitarists most preferred analog and digital effect pedals and has repacked it in new rack style plugins easy to use and extremely powerful at the same time, with the addition of a custom design tube preamp virtual circuit which gives color to the signal in a very special way.\r\n\r\nJust insert the Analog Rack Reverb plugin in your tracks to hear its beautiful analog tube coloration!\n\nWorks as a standalone app, AudioUnit v3 effect, or Inter-App Audio effect"
+    },
+    "im:price": {
+      "label": "$3.99",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2018 Nembrini Audio S.R.L."
+    },
+    "title": {
+      "label": "Analog Rack Reverb - Nembrini Audio"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/analog-rack-reverb/id1497464859?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/cd/1c/94/cd1c9428-bbfb-df2f-7428-4e6f5c28595b/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/analog-rack-reverb/id1497464859?uo=2",
+      "attributes": {
+        "im:id": "1497464859",
+        "im:bundleId": "com.nembriniaudio.ARReverb"
+      }
+    },
+    "im:artist": {
+      "label": "Nembrini Audio",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/nembrini-audio/id1493296895?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-02-07T00:00:00-07:00",
+      "attributes": {
+        "label": "February 7, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 71,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Music Player & MP3 Manager for Dropbox"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple60/v4/3f/8c/c0/3f8cc09d-061a-46b3-4fd0-1972fc410f9e/mzl.kipfguio.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple60/v4/3f/8c/c0/3f8cc09d-061a-46b3-4fd0-1972fc410f9e/mzl.kipfguio.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple60/v4/3f/8c/c0/3f8cc09d-061a-46b3-4fd0-1972fc410f9e/mzl.kipfguio.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Listen to your music with in advanced and powerful media player.\n\nApp Features:\n\n√ Full iOS9, iPhone 6 and 6 Plus Support! \n√ FLAC format support. Enjoy your favourite tracks in the best quality!\n√ Skins Customization\n\nMusic player:\n√ Full featured media player\n√ Sleep timer\n√ Lock screen playback controls\n√ Background music playback\n√ Equalizer with BassBooster\n√ Over 20 realistic EQ presets\n√ Stylish audio Visualizer\n√ Fine scrubbing\n√ Album cover art – auto search or upload your own\n√ Display lyrics while listening to music\n\nPlaylists: \n√ Smart iPod-like music playlists\n√ Create your own playlists\n\nMedia Library \n√ Import music from your iPod library\n√ Rate songs like in iTunes\n√ Tabs for Songs, Albums, Artists, Genres\n√ Tag editor\n√ Lyrics editor\n\nManager:\n√ iTunes File Sharing\n√ Wi-Fi Transfer\n√ Download music, pictures, archives from \n- Dropbox\n- Google Drive\n- OneDrive\n√ Move, rename or delete tracks & songs\n√ Search by artist, title, album, genre\n√ Create and manage folders\n√ Sort by artist, track name, date, duration\n√ History of Recently listened tracks"
+    },
+    "im:price": {
+      "label": "$1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Atlantis Mobile Inc"
+    },
+    "title": {
+      "label": "Music Player & MP3 Manager for Dropbox - Nguyen Nam Giang"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/music-player-mp3-manager-for-dropbox/id906366237?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple18/v4/12/7e/53/127e536c-7768-e898-2a26-7a0a007f80f8/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/music-player-mp3-manager-for-dropbox/id906366237?uo=2",
+      "attributes": {
+        "im:id": "906366237",
+        "im:bundleId": "atlantis.mobile.inc.unlimitedmusic"
+      }
+    },
+    "im:artist": {
+      "label": "Nguyen Nam Giang",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/nguyen-nam-giang/id583763906?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-10-05T04:11:14-07:00",
+      "attributes": {
+        "label": "October 5, 2014"
       }
     }
   },
@@ -8372,210 +8372,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Koala Sampler"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/79/bd/3b/79bd3bb2-c652-01a9-e533-05e81b11d6ac/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/79/bd/3b/79bd3bb2-c652-01a9-e533-05e81b11d6ac/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/79/bd/3b/79bd3bb2-c652-01a9-e533-05e81b11d6ac/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Koala is the ultimate pocket-sized sampler. Record anything with your phone's mic instantly. Use Koala to create beats with those samples, add effects and create a track!\n\nKoala’s super intuitive interface helps you make a tracks in a flash, there is no brake pedal. You can also resample the output of the app back into the input, through the effects, so the sonic possibilities are endless.\n\nKoala's design focuses totally on making the music making progress instant, keeping you in the flow and keeping it fun, not getting bogged down by pages of parameters and micro-editing.\n\n\"Been putting that $4 koala sampler to good use lately. Undeniably great tool that puts some of these expensive beat boxes to shame. A must cop.\" \n-- flying lotus, twitter\n\n* Record up to 64 different samples with your mic\n* Transform your voice or any other sound with 16 superb built-in fx\n* Load your own samples\n* Choose from one of 250 built-in sounds\n* Resample the output of the app back into a new sample\n* Export loops or entire tracks as professional quality WAV files\n* Direct export to Ableton Live Set\n* Copy/paste or merge sequences just by dragging them\n* Create beats with the high-resolution sequencer\n* Import samples using AudioShare or just open them in Koala\n* Keyboard mode lets you play chromatically or one of 9 scales\n* Quantize, add swing to get the right feel\n* Normal/One-shot/Loop/Reverse playback of samples\n* 6 Choke groups\n* Attack, release and tone adjustable on each sample\n* Add any (or all) of the 8 effects to the entire mix\n* AudioBus 3.0 and Inter-App Audio compatible\n* MIDI controllable - play your samples on a keyboard, map the effects to knobs\n* Jam with others over WiFi with Ableton Link\n* Free copy of Ableton Live Lite included\n* Use AI to separate samples into individual instruments (drums, bass, vocals and other)\n* Set your own background image and choose from a growing list of background visual FX.\n\n8 Built-in Microphone FX:\n* More Bass\n* More Treble\n* Fuzz\n* Robot\n* Reverb\n* Octave up\n* Octave down\n* Synthesizer \n\n\n16 Built-in DJ Mix FX:\n* Bit-crusher\n* Pitch-shift\n* Comb filter\n* Ring modulator\n* Reverb\n* Stutter\n* Gate\n* Resonant High/Low Pass Filters\n* Cutter\n* Reverse\n* Dub\n* Tempo Delay\n* Talkbox\n* VibroFlange\n* Dirty\n* Compressor\n\nFeatures included in SAMURAI In-App Purchase\n* Timestretch (4 modes: Modern, Retro, Beats and Re-pitch) \n* Piano roll editor \n* Auto-chop (auto, equal, and lazy chop)\n* Pocket operator sync out"
-    },
-    "im:price": {
-      "label": "$4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 elf audio"
-    },
-    "title": {
-      "label": "Koala Sampler - Marek Bereza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/koala-sampler/id1449584007?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/32/78/07/32780742-fe59-bd63-7ee9-2ebfe221b043/453385d6-72f6-4f3c-92c5-bf20c303d55f_iPad_portrait_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/koala-sampler/id1449584007?uo=2",
-      "attributes": {
-        "im:id": "1449584007",
-        "im:bundleId": "com.elf-audio.koala"
-      }
-    },
-    "im:artist": {
-      "label": "Marek Bereza",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/marek-bereza/id329604853?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-02-28T10:02:40-07:00",
-      "attributes": {
-        "label": "February 28, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 84,
-      "total": 100
-    },
-    "im:name": {
-      "label": "AVSub"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/1d/b9/33/1db933f1-7476-df25-8f44-a8c3eae90c78/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/1d/b9/33/1db933f1-7476-df25-8f44-a8c3eae90c78/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/1d/b9/33/1db933f1-7476-df25-8f44-a8c3eae90c78/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "AVSub is a fully featured, multi-language music and video streaming (after in-app purchase) app for SubSonic.  With multi-format (including FLAC) support, quick & easy browsing, caching for offline listening or viewing, playlist support and a great user interface, accessing your media is fast and simple.  With full Bluetooth Audio, Apple Watch, CarPlay, AVCast/Chromecast/FireTV & Airplay support too, you can have your media with you anywhere, anytime.  \n\nConnect AVSub to your licensed SubSonic server and you'll have access to your entire media collection.  AVSub supports any audio format that SubSonic supports and SSL.\n\nAVSub's user interface is easy to use. Buttons are large and clear and playback can be controlled by gestures.  Optimized views for both portrait & landscape orientations make the most of your device.\n\nAVSub has full Bluetooth Audio support - stream to any Bluetooth device (car stereo, amplifier, speaker, headphones) with superb quality.  Bluetooth remote-control is fully supported. \n\nAVSub also fully suports CarPlay.\n\nThe AVSub Apple Watch extension is the easiest way to get your Subsonic playlists onto your watch.  The extension supports full background playback.  You can take your music with you even without your phone!\n\nAVSub supports caching so you can listen to your music or watch video even when you're not connected to the Internet.  AVSub will intelligently cache what you listen to in the background, or you can choose to download tracks, albums or videos direct to the cache for quick pre-loading.  Cache size is configurable, along with options such as cache reading & writing and the ability to control direct-downloading over a mobile/cellular network.\n\nCache management in AVSub is easy too!  When browsing the cache, simple swipe right-to-left on item to reveal a delete button.  See the AVSub website for details.\n\nAVSub supports Subsonic playlists and will intelligently cache tracks on your device.\n\nAVSub can be used on both WiFi or a mobile/cellular connection (3G/4G).  Audio caching ensure smoother playback.\n\nAVSub shows enhanced information for your media, recognising movies, TV, artists and giving bio information, top tracks and similar artists.\n\nAVSub supports the casting app AVCast.\n\nWith AVSub you can access your full media library by browsing, selecting from the most recently added, most recently played, most frequently played or highest rated tracks, or search over your entire library.  AVSub also supports multiple SubSonic top-level music folders, allowing you to select an individual top-level folder, or your entire collection.  You can browse by folder structure or ID3 tags.\n\nAVSub Features:\n- Universal app for iPhone/iPad/iPod Touch\n- MP3/AAC/FLAC/MP4/ALAC/Vorbis/Opus/WAV/DSD\n- High-resolution digital audio output via CCK up to 24bit/192kHz\n- CarPlay\n- TMDb integration for full movie & TV posters and details\n- VLC integration\n- Equaliser\n- Mini player\n- AVCast support\n- Google Cast & Amazon Fire TV audio and video (after in-app purchase)\n- Portrait and landscape \n- Video streaming with caching  (in-app purchase)\n- Subsonic Jukebox  (in-app purchase)\n- Home screen & Notification center widget with recent items\n- 3D Touch quick action shortcuts\n- Internet radio \n- Crossfade\n- SSL support, including self-signed certificates\n- Caching for all media\n- Folder & ID3 mode\n- Multi-disc album support\n- Artist Radio/Similar Songs\n- Intelligent Bookmarks\n- Podcasts\n- Gapless playback\n- Track seeking\n- Subsonic playlist support\n- Streams over 3G/4G/5G/WiFi\n- Maximum streaming bitrate control\n- Bluetooth Audio/Airplay support\n- Remembers your playlist from the last session\n- Streams from any licensed SubSonic server (v4.0 and up)\n- Browse/search music collection\n- Browse most recently added, recently played, frequently played, highest rated\n- Random albums/songs\n- Shuffle and repeat\n- Album cover art\n- Lock-screen integration\n- Documentation & guides available at the AVSub website\n- Supports iOS10+"
-    },
-    "im:price": {
-      "label": "$3.99",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Richard Levy"
-    },
-    "title": {
-      "label": "AVSub - Richard Levy"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/avsub/id923424694?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/bb/76/e9bb76c2-5f27-15ca-e91e-11a8bab508de/mzl.sfdpexoh.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/avsub/id923424694?uo=2",
-      "attributes": {
-        "im:id": "923424694",
-        "im:bundleId": "com.rml.CarSub"
-      }
-    },
-    "im:artist": {
-      "label": "Richard Levy",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/richard-levy/id923424693?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-10-24T21:56:53-07:00",
-      "attributes": {
-        "label": "October 24, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 85,
-      "total": 100
-    },
-    "im:name": {
       "label": "Mic Room"
     },
     "im:image": [
@@ -8674,7 +8470,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 86,
+      "index": 84,
       "total": 100
     },
     "im:name": {
@@ -8776,7 +8572,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 87,
+      "index": 85,
       "total": 100
     },
     "im:name": {
@@ -8878,7 +8674,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 88,
+      "index": 86,
       "total": 100
     },
     "im:name": {
@@ -8980,7 +8776,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 89,
+      "index": 87,
       "total": 100
     },
     "im:name": {
@@ -9082,7 +8878,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 90,
+      "index": 88,
       "total": 100
     },
     "im:name": {
@@ -9184,7 +8980,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 91,
+      "index": 89,
       "total": 100
     },
     "im:name": {
@@ -9286,7 +9082,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 92,
+      "index": 90,
       "total": 100
     },
     "im:name": {
@@ -9388,7 +9184,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 93,
+      "index": 91,
       "total": 100
     },
     "im:name": {
@@ -9490,7 +9286,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 94,
+      "index": 92,
       "total": 100
     },
     "im:name": {
@@ -9592,7 +9388,109 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 95,
+      "index": 93,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Koala Sampler"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/79/bd/3b/79bd3bb2-c652-01a9-e533-05e81b11d6ac/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/79/bd/3b/79bd3bb2-c652-01a9-e533-05e81b11d6ac/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/79/bd/3b/79bd3bb2-c652-01a9-e533-05e81b11d6ac/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Koala is the ultimate pocket-sized sampler. Record anything with your phone's mic instantly. Use Koala to create beats with those samples, add effects and create a track!\n\nKoala’s super intuitive interface helps you make a tracks in a flash, there is no brake pedal. You can also resample the output of the app back into the input, through the effects, so the sonic possibilities are endless.\n\nKoala's design focuses totally on making the music making progress instant, keeping you in the flow and keeping it fun, not getting bogged down by pages of parameters and micro-editing.\n\n\"Been putting that $4 koala sampler to good use lately. Undeniably great tool that puts some of these expensive beat boxes to shame. A must cop.\" \n-- flying lotus, twitter\n\n* Record up to 64 different samples with your mic\n* Transform your voice or any other sound with 16 superb built-in fx\n* Load your own samples\n* Choose from one of 250 built-in sounds\n* Resample the output of the app back into a new sample\n* Export loops or entire tracks as professional quality WAV files\n* Direct export to Ableton Live Set\n* Copy/paste or merge sequences just by dragging them\n* Create beats with the high-resolution sequencer\n* Import samples using AudioShare or just open them in Koala\n* Keyboard mode lets you play chromatically or one of 9 scales\n* Quantize, add swing to get the right feel\n* Normal/One-shot/Loop/Reverse playback of samples\n* 6 Choke groups\n* Attack, release and tone adjustable on each sample\n* Add any (or all) of the 8 effects to the entire mix\n* AudioBus 3.0 and Inter-App Audio compatible\n* MIDI controllable - play your samples on a keyboard, map the effects to knobs\n* Jam with others over WiFi with Ableton Link\n* Free copy of Ableton Live Lite included\n* Use AI to separate samples into individual instruments (drums, bass, vocals and other)\n* Set your own background image and choose from a growing list of background visual FX.\n\n8 Built-in Microphone FX:\n* More Bass\n* More Treble\n* Fuzz\n* Robot\n* Reverb\n* Octave up\n* Octave down\n* Synthesizer \n\n\n16 Built-in DJ Mix FX:\n* Bit-crusher\n* Pitch-shift\n* Comb filter\n* Ring modulator\n* Reverb\n* Stutter\n* Gate\n* Resonant High/Low Pass Filters\n* Cutter\n* Reverse\n* Dub\n* Tempo Delay\n* Talkbox\n* VibroFlange\n* Dirty\n* Compressor\n\nFeatures included in SAMURAI In-App Purchase\n* Timestretch (4 modes: Modern, Retro, Beats and Re-pitch) \n* Piano roll editor \n* Auto-chop (auto, equal, and lazy chop)\n* Pocket operator sync out"
+    },
+    "im:price": {
+      "label": "$4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 elf audio"
+    },
+    "title": {
+      "label": "Koala Sampler - Marek Bereza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/koala-sampler/id1449584007?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/32/78/07/32780742-fe59-bd63-7ee9-2ebfe221b043/453385d6-72f6-4f3c-92c5-bf20c303d55f_iPad_portrait_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/koala-sampler/id1449584007?uo=2",
+      "attributes": {
+        "im:id": "1449584007",
+        "im:bundleId": "com.elf-audio.koala"
+      }
+    },
+    "im:artist": {
+      "label": "Marek Bereza",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/marek-bereza/id329604853?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-02-28T10:02:40-07:00",
+      "attributes": {
+        "label": "February 28, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 94,
       "total": 100
     },
     "im:name": {
@@ -9694,7 +9592,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "music",
-      "index": 96,
+      "index": 95,
       "total": 100
     },
     "im:name": {
@@ -9788,6 +9686,108 @@
       "label": "2009-10-07T15:52:29-07:00",
       "attributes": {
         "label": "October 7, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 96,
+      "total": 100
+    },
+    "im:name": {
+      "label": "AVSub"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/1d/b9/33/1db933f1-7476-df25-8f44-a8c3eae90c78/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/1d/b9/33/1db933f1-7476-df25-8f44-a8c3eae90c78/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/1d/b9/33/1db933f1-7476-df25-8f44-a8c3eae90c78/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "AVSub is a fully featured, multi-language music and video streaming (after in-app purchase) app for SubSonic.  With multi-format (including FLAC) support, quick & easy browsing, caching for offline listening or viewing, playlist support and a great user interface, accessing your media is fast and simple.  With full Bluetooth Audio, Apple Watch, CarPlay, AVCast/Chromecast/FireTV & Airplay support too, you can have your media with you anywhere, anytime.  \n\nConnect AVSub to your licensed SubSonic server and you'll have access to your entire media collection.  AVSub supports any audio format that SubSonic supports and SSL.\n\nAVSub's user interface is easy to use. Buttons are large and clear and playback can be controlled by gestures.  Optimized views for both portrait & landscape orientations make the most of your device.\n\nAVSub has full Bluetooth Audio support - stream to any Bluetooth device (car stereo, amplifier, speaker, headphones) with superb quality.  Bluetooth remote-control is fully supported. \n\nAVSub also fully suports CarPlay.\n\nThe AVSub Apple Watch extension is the easiest way to get your Subsonic playlists onto your watch.  The extension supports full background playback.  You can take your music with you even without your phone!\n\nAVSub supports caching so you can listen to your music or watch video even when you're not connected to the Internet.  AVSub will intelligently cache what you listen to in the background, or you can choose to download tracks, albums or videos direct to the cache for quick pre-loading.  Cache size is configurable, along with options such as cache reading & writing and the ability to control direct-downloading over a mobile/cellular network.\n\nCache management in AVSub is easy too!  When browsing the cache, simple swipe right-to-left on item to reveal a delete button.  See the AVSub website for details.\n\nAVSub supports Subsonic playlists and will intelligently cache tracks on your device.\n\nAVSub can be used on both WiFi or a mobile/cellular connection (3G/4G).  Audio caching ensure smoother playback.\n\nAVSub shows enhanced information for your media, recognising movies, TV, artists and giving bio information, top tracks and similar artists.\n\nAVSub supports the casting app AVCast.\n\nWith AVSub you can access your full media library by browsing, selecting from the most recently added, most recently played, most frequently played or highest rated tracks, or search over your entire library.  AVSub also supports multiple SubSonic top-level music folders, allowing you to select an individual top-level folder, or your entire collection.  You can browse by folder structure or ID3 tags.\n\nAVSub Features:\n- Universal app for iPhone/iPad/iPod Touch\n- MP3/AAC/FLAC/MP4/ALAC/Vorbis/Opus/WAV/DSD\n- High-resolution digital audio output via CCK up to 24bit/192kHz\n- CarPlay\n- TMDb integration for full movie & TV posters and details\n- VLC integration\n- Equaliser\n- Mini player\n- AVCast support\n- Google Cast & Amazon Fire TV audio and video (after in-app purchase)\n- Portrait and landscape \n- Video streaming with caching  (in-app purchase)\n- Subsonic Jukebox  (in-app purchase)\n- Home screen & Notification center widget with recent items\n- 3D Touch quick action shortcuts\n- Internet radio \n- Crossfade\n- SSL support, including self-signed certificates\n- Caching for all media\n- Folder & ID3 mode\n- Multi-disc album support\n- Artist Radio/Similar Songs\n- Intelligent Bookmarks\n- Podcasts\n- Gapless playback\n- Track seeking\n- Subsonic playlist support\n- Streams over 3G/4G/5G/WiFi\n- Maximum streaming bitrate control\n- Bluetooth Audio/Airplay support\n- Remembers your playlist from the last session\n- Streams from any licensed SubSonic server (v4.0 and up)\n- Browse/search music collection\n- Browse most recently added, recently played, frequently played, highest rated\n- Random albums/songs\n- Shuffle and repeat\n- Album cover art\n- Lock-screen integration\n- Documentation & guides available at the AVSub website\n- Supports iOS10+"
+    },
+    "im:price": {
+      "label": "$3.99",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Richard Levy"
+    },
+    "title": {
+      "label": "AVSub - Richard Levy"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/avsub/id923424694?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/bb/76/e9bb76c2-5f27-15ca-e91e-11a8bab508de/mzl.sfdpexoh.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/avsub/id923424694?uo=2",
+      "attributes": {
+        "im:id": "923424694",
+        "im:bundleId": "com.rml.CarSub"
+      }
+    },
+    "im:artist": {
+      "label": "Richard Levy",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/richard-levy/id923424693?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kw/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-10-24T21:56:53-07:00",
+      "attributes": {
+        "label": "October 24, 2014"
       }
     }
   },

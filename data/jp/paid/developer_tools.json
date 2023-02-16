@@ -8,108 +8,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "¥480",
-      "attributes": {
-        "amount": "480",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-08-25T09:56:35-07:00",
-      "attributes": {
-        "label": "August 25, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 2,
-      "total": 99
-    },
-    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -200,6 +98,108 @@
       "label": "2016-03-12T01:33:30-07:00",
       "attributes": {
         "label": "March 12, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "¥480",
+      "attributes": {
+        "amount": "480",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-08-25T09:56:35-07:00",
+      "attributes": {
+        "label": "August 25, 2010"
       }
     }
   },
@@ -1028,210 +1028,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Adaptivity (A)"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/be/1a/fe/be1afef4-2ce8-8057-0584-3a38635e4293/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/be/1a/fe/be1afef4-2ce8-8057-0584-3a38635e4293/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/be/1a/fe/be1afef4-2ce8-8057-0584-3a38635e4293/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Adaptivity is an invaluable tool for developers and designers. Use it to visualize how Size Classes and margins for layout, readable content and the safe area look on real devices and how they change with respect to orientation, iPad multitasking and Dynamic Type size changes. A comprehensive System Images browser shows the different SF Symbols data sets across iOS versions with availability, localization and name change information. There are also views for visualizing Dynamic Type styles, System Colors, System Fonts and System Materials.\n\nTESTIMONIALS\n• “Adaptivity is not just highly recommended – it’s essential” — Paul Hudson, Hacking With Swift article “8 essential apps for iOS developers”, 30th March 2020.\n• “It's a very, very good tool as a reference for both developers and designers” — Gui Rambo, Stacktrace podcast episode #77, 1st April 2020.\n• “I'm not trying to spend your money, but to me this is a no-brainer” — Sean Allen YouTube video “Indie Dev Apps”, 12th April 2020.\n\nMAIN FEATURES\n• Visualize sizes for full view, layout margins, readable content guide and safe area layout guide.\n• Sizes displayed in points or pixels.\n• Regular or large navigation bar titles.\n• Toggle status bar and navigation bar/toolbar/tab bar visibility.\n• Activity View Controller support for sharing a snapshot image of each view.\n• iPad multitasking and multiple window support (see note).\n• Dark appearance support (requires iOS/iPadOS 13 or later).\n• Setting to force right-to-left layout.\n• Keyboard shortcuts.\n• Keyboard navigation (requires iPadOS 15 or later).\n• Handoff actions from Adaptivity (A), (B) or (C) on one device to Adaptivity (A) on another.\n• External display support.\n\nOTHER VIEWS\n• Popover, Form/Page Sheet, Full Screen and Automatic modal presentations.\n• Customise Sheet Presentations on iOS/iPadOS 15 or later.\n• Tab Bar Controller.\n• Table View Controller.\n• Classic style Split View Controller.\n• Double and triple column style Split View Controllers (requires iOS/iPadOS 14 or later).\n• Keyboard Dodging and Custom Keyboard.\n• Dynamic Type styles for the current Content Size Category.\n• Explore Pointer Interactions (requires iPadOS 13.4 or later and a trackpad or mouse).\n• Explore System Colors.\n• Explore System Fonts.\n• Explore System Images (requires iOS/iPadOS 13 or later). Choose which SF Symbols data set to view, configure rendering modes and much more.\n• Explore System Materials (requires iOS/iPadOS 13 or later).\n\nEXTENSION TARGETS\n• Siri shortcut with custom response UI (requires iOS 12 or later).\n• Pre- and post-iOS 14 style Widgets to show layout.\n• iOS 14 style Widgets to show random System Images.\n• iOS 14 style Widgets to show Dynamic Type text styles.\n• iOS 16 lock screen Widgets to show layout.\n• iOS 16 lock screen Widgets to show random System Images.\n• Notification Content Extension.\n• Watch App (requires watchOS 4 or later).\n• iMessage App.\n\n\nNote: Adaptivity (A) supports multiple windows on iPadOS 13 or later. On earlier iOS versions, Adaptivity (B) must also be downloaded to run Adaptivity twice using Split View or Slide Over iPad multitasking.\n\nAdaptivity (A) is a universal purchase and includes a Mac Catalyst version of the app. Buying one allows the other to be downloaded at no extra cost using the same Apple ID.\n\nAdaptivity (C) has the same reduced features as Adaptivity (B) but only supports iPhone. Use it to visualize how an iPhone‑only app appears on iPad.\n\nFor more information see https://hacknicity.com/adaptivity"
-    },
-    "im:price": {
-      "label": "¥1,200",
-      "attributes": {
-        "amount": "1200",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2015-2023 Hacknicity"
-    },
-    "title": {
-      "label": "Adaptivity (A) - Geoff Hackworth"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/adaptivity-a/id1054670022?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d3/ef/51/d3ef510d-1de6-3ac4-0a1b-2cb2b2a25574/8540f5ea-865f-47c7-814b-348da21dac3e_Adaptivity_WebAppStoreScreenshot1A_Popover_U002bSystemColors-1112h@2x_U007eipad.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/adaptivity-a/id1054670022?l=en&uo=2",
-      "attributes": {
-        "im:id": "1054670022",
-        "im:bundleId": "com.hacknicity.adaptivity.a"
-      }
-    },
-    "im:artist": {
-      "label": "Geoff Hackworth",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/geoff-hackworth/id463855590?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-11-16T16:22:40-07:00",
-      "attributes": {
-        "label": "November 16, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 12,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Cookie Editor - For Safari"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "We deliver the first ever Cookie Editor extension available for Safari Web Browser, which helps in\n1: Edit cookies as simple text\n2: Delete cookies,\n3: Import cookies as JSON or simple text.\nfrom any saved website. \nHappy Editing cookies now take rest and have some water."
-    },
-    "im:price": {
-      "label": "¥160",
-      "attributes": {
-        "amount": "160",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Shubham Sharma"
-    },
-    "title": {
-      "label": "Cookie Editor - For Safari - Shubham Sharma"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id1643498176?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/41/05/71/410571cb-07e4-e295-684a-2ddf12090ced/0e647d22-f494-437f-bebe-84504fb9a9e7_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id1643498176?l=en&uo=2",
-      "attributes": {
-        "im:id": "1643498176",
-        "im:bundleId": "com.clint.Cookie-Editor"
-      }
-    },
-    "im:artist": {
-      "label": "Shubham Sharma",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/shubham-sharma/id1643497398?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-09-12T00:00:00-07:00",
-      "attributes": {
-        "label": "September 12, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 13,
-      "total": 99
-    },
-    "im:name": {
       "label": "PPHub For GitHub - Developer"
     },
     "im:image": [
@@ -1330,7 +1126,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1432,7 +1228,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1534,7 +1330,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1628,6 +1424,210 @@
       "label": "2020-10-14T00:00:00-07:00",
       "attributes": {
         "label": "October 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 15,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Cookie Editor - For Safari"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "We deliver the first ever Cookie Editor extension available for Safari Web Browser, which helps in\n1: Edit cookies as simple text\n2: Delete cookies,\n3: Import cookies as JSON or simple text.\nfrom any saved website. \nHappy Editing cookies now take rest and have some water."
+    },
+    "im:price": {
+      "label": "¥160",
+      "attributes": {
+        "amount": "160",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Shubham Sharma"
+    },
+    "title": {
+      "label": "Cookie Editor - For Safari - Shubham Sharma"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id1643498176?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/41/05/71/410571cb-07e4-e295-684a-2ddf12090ced/0e647d22-f494-437f-bebe-84504fb9a9e7_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id1643498176?l=en&uo=2",
+      "attributes": {
+        "im:id": "1643498176",
+        "im:bundleId": "com.clint.Cookie-Editor"
+      }
+    },
+    "im:artist": {
+      "label": "Shubham Sharma",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/shubham-sharma/id1643497398?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-09-12T00:00:00-07:00",
+      "attributes": {
+        "label": "September 12, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 16,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Adaptivity (A)"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/be/1a/fe/be1afef4-2ce8-8057-0584-3a38635e4293/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/be/1a/fe/be1afef4-2ce8-8057-0584-3a38635e4293/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/be/1a/fe/be1afef4-2ce8-8057-0584-3a38635e4293/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Adaptivity is an invaluable tool for developers and designers. Use it to visualize how Size Classes and margins for layout, readable content and the safe area look on real devices and how they change with respect to orientation, iPad multitasking and Dynamic Type size changes. A comprehensive System Images browser shows the different SF Symbols data sets across iOS versions with availability, localization and name change information. There are also views for visualizing Dynamic Type styles, System Colors, System Fonts and System Materials.\n\nTESTIMONIALS\n• “Adaptivity is not just highly recommended – it’s essential” — Paul Hudson, Hacking With Swift article “8 essential apps for iOS developers”, 30th March 2020.\n• “It's a very, very good tool as a reference for both developers and designers” — Gui Rambo, Stacktrace podcast episode #77, 1st April 2020.\n• “I'm not trying to spend your money, but to me this is a no-brainer” — Sean Allen YouTube video “Indie Dev Apps”, 12th April 2020.\n\nMAIN FEATURES\n• Visualize sizes for full view, layout margins, readable content guide and safe area layout guide.\n• Sizes displayed in points or pixels.\n• Regular or large navigation bar titles.\n• Toggle status bar and navigation bar/toolbar/tab bar visibility.\n• Activity View Controller support for sharing a snapshot image of each view.\n• iPad multitasking and multiple window support (see note).\n• Dark appearance support (requires iOS/iPadOS 13 or later).\n• Setting to force right-to-left layout.\n• Keyboard shortcuts.\n• Keyboard navigation (requires iPadOS 15 or later).\n• Handoff actions from Adaptivity (A), (B) or (C) on one device to Adaptivity (A) on another.\n• External display support.\n\nOTHER VIEWS\n• Popover, Form/Page Sheet, Full Screen and Automatic modal presentations.\n• Customise Sheet Presentations on iOS/iPadOS 15 or later.\n• Tab Bar Controller.\n• Table View Controller.\n• Classic style Split View Controller.\n• Double and triple column style Split View Controllers (requires iOS/iPadOS 14 or later).\n• Keyboard Dodging and Custom Keyboard.\n• Dynamic Type styles for the current Content Size Category.\n• Explore Pointer Interactions (requires iPadOS 13.4 or later and a trackpad or mouse).\n• Explore System Colors.\n• Explore System Fonts.\n• Explore System Images (requires iOS/iPadOS 13 or later). Choose which SF Symbols data set to view, configure rendering modes and much more.\n• Explore System Materials (requires iOS/iPadOS 13 or later).\n\nEXTENSION TARGETS\n• Siri shortcut with custom response UI (requires iOS 12 or later).\n• Pre- and post-iOS 14 style Widgets to show layout.\n• iOS 14 style Widgets to show random System Images.\n• iOS 14 style Widgets to show Dynamic Type text styles.\n• iOS 16 lock screen Widgets to show layout.\n• iOS 16 lock screen Widgets to show random System Images.\n• Notification Content Extension.\n• Watch App (requires watchOS 4 or later).\n• iMessage App.\n\n\nNote: Adaptivity (A) supports multiple windows on iPadOS 13 or later. On earlier iOS versions, Adaptivity (B) must also be downloaded to run Adaptivity twice using Split View or Slide Over iPad multitasking.\n\nAdaptivity (A) is a universal purchase and includes a Mac Catalyst version of the app. Buying one allows the other to be downloaded at no extra cost using the same Apple ID.\n\nAdaptivity (C) has the same reduced features as Adaptivity (B) but only supports iPhone. Use it to visualize how an iPhone‑only app appears on iPad.\n\nFor more information see https://hacknicity.com/adaptivity"
+    },
+    "im:price": {
+      "label": "¥1,200",
+      "attributes": {
+        "amount": "1200",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2015-2023 Hacknicity"
+    },
+    "title": {
+      "label": "Adaptivity (A) - Geoff Hackworth"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/adaptivity-a/id1054670022?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d3/ef/51/d3ef510d-1de6-3ac4-0a1b-2cb2b2a25574/8540f5ea-865f-47c7-814b-348da21dac3e_Adaptivity_WebAppStoreScreenshot1A_Popover_U002bSystemColors-1112h@2x_U007eipad.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/adaptivity-a/id1054670022?l=en&uo=2",
+      "attributes": {
+        "im:id": "1054670022",
+        "im:bundleId": "com.hacknicity.adaptivity.a"
+      }
+    },
+    "im:artist": {
+      "label": "Geoff Hackworth",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/geoff-hackworth/id463855590?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-11-16T16:22:40-07:00",
+      "attributes": {
+        "label": "November 16, 2015"
       }
     }
   },

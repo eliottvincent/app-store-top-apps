@@ -8,6 +8,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "$6.99",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
       "label": "Inspect Browser"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -412,7 +514,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -616,7 +718,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -718,7 +820,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -820,7 +922,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -914,108 +1016,6 @@
       "label": "2019-09-26T00:00:00-07:00",
       "attributes": {
         "label": "September 26, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 10,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Programming Notebook PRO"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is the PRO version of our free application, Programming Notebook.\n\nFEATURES:\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- ability to hide navigation bar\n- status bar hidden automatically\n- dark mode support\n- new buttons to enable easier navigation on tricky web pages\n- JS injection to modify the site HTML slightly to remove contents that are unnecessary and consume space on a mobile device\n- no need to double tap in the browser in order to be recognized by buttons\n- automatic link handling, including authentication flow for Google sign-in\n- ability to connect runtime to Google Drive, both that of the current account and another account, thanks to automatic link handling\n- iPhone and iPad support\n- No ads\n\nCOMING SOON\n- Other programming sites will be returning shortly. The feature has briefly been removed with the latest update, as it is being reworked\n- Split view for opening multiple sites at once\n- Support for multitasking on iPad\n- Markdown toolbar, automatically recognizes when a text cell is being edited\n- Ability to upload an image from your photos album to a text cell.\n- Copy/paste functionality\n- Swipe from edges to navigate backwards/forwards, allows us to preserve space on screen by removing unnecessary navigation buttons\n- Search history"
-    },
-    "im:price": {
-      "label": "$8.49",
-      "attributes": {
-        "amount": "8.49",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Ryan Rudes"
-    },
-    "title": {
-      "label": "Programming Notebook PRO - Xylemark Games Corp."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/programming-notebook-pro/id1521883614?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/40/07/c9/4007c95f-5b45-95d1-7ed2-211987e2cbf4/e60eea41-9d07-4882-bf28-5c96eb650311_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-05-06_at_18.41.09.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/programming-notebook-pro/id1521883614?uo=2",
-      "attributes": {
-        "im:id": "1521883614",
-        "im:bundleId": "com.appconda.ryan-rudes"
-      }
-    },
-    "im:artist": {
-      "label": "Xylemark Games Corp.",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/xylemark-games-corp/id804250931?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-07-07T00:00:00-07:00",
-      "attributes": {
-        "label": "July 7, 2020"
       }
     }
   },
@@ -1232,6 +1232,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Programming Notebook PRO"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is the PRO version of our free application, Programming Notebook.\n\nFEATURES:\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- ability to hide navigation bar\n- status bar hidden automatically\n- dark mode support\n- new buttons to enable easier navigation on tricky web pages\n- JS injection to modify the site HTML slightly to remove contents that are unnecessary and consume space on a mobile device\n- no need to double tap in the browser in order to be recognized by buttons\n- automatic link handling, including authentication flow for Google sign-in\n- ability to connect runtime to Google Drive, both that of the current account and another account, thanks to automatic link handling\n- iPhone and iPad support\n- No ads\n\nCOMING SOON\n- Other programming sites will be returning shortly. The feature has briefly been removed with the latest update, as it is being reworked\n- Split view for opening multiple sites at once\n- Support for multitasking on iPad\n- Markdown toolbar, automatically recognizes when a text cell is being edited\n- Ability to upload an image from your photos album to a text cell.\n- Copy/paste functionality\n- Swipe from edges to navigate backwards/forwards, allows us to preserve space on screen by removing unnecessary navigation buttons\n- Search history"
+    },
+    "im:price": {
+      "label": "$8.49",
+      "attributes": {
+        "amount": "8.49",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Ryan Rudes"
+    },
+    "title": {
+      "label": "Programming Notebook PRO - Xylemark Games Corp."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/programming-notebook-pro/id1521883614?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/40/07/c9/4007c95f-5b45-95d1-7ed2-211987e2cbf4/e60eea41-9d07-4882-bf28-5c96eb650311_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-05-06_at_18.41.09.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/programming-notebook-pro/id1521883614?uo=2",
+      "attributes": {
+        "im:id": "1521883614",
+        "im:bundleId": "com.appconda.ryan-rudes"
+      }
+    },
+    "im:artist": {
+      "label": "Xylemark Games Corp.",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/xylemark-games-corp/id804250931?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-07-07T00:00:00-07:00",
+      "attributes": {
+        "label": "July 7, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 14,
+      "total": 99
+    },
+    "im:name": {
       "label": "Source Code Reader"
     },
     "im:image": [
@@ -1322,108 +1424,6 @@
       "label": "2012-03-25T21:34:23-07:00",
       "attributes": {
         "label": "March 25, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 14,
-      "total": 99
-    },
-    "im:name": {
-      "label": "RegEx+"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/75/3b/66/753b66af-4546-6a6d-17ce-6ee6eef20f98/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/75/3b/66/753b66af-4546-6a6d-17ce-6ee6eef20f98/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/75/3b/66/753b66af-4546-6a6d-17ce-6ee6eef20f98/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "A nifty develop tool for the regular expression, for both macOS and iOS. Your data are synced through your devices with CloudKit. There's also a cheat sheet that helps you to get a better understanding of metacharacters and operators of the regular expression."
-    },
-    "im:price": {
-      "label": "$1.39",
-      "attributes": {
-        "amount": "1.39",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Lex.sh"
-    },
-    "title": {
-      "label": "RegEx+ - Shenggang Tang"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/regex/id1511763524?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/d7/98/4c/d7984c97-c791-a4e5-7f8d-d02ab91e0cd9/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/regex/id1511763524?uo=2",
-      "attributes": {
-        "im:id": "1511763524",
-        "im:bundleId": "sh.lex.RegExCatalyst"
-      }
-    },
-    "im:artist": {
-      "label": "Shenggang Tang",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/shenggang-tang/id951344278?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-05-06T00:00:00-07:00",
-      "attributes": {
-        "label": "May 6, 2020"
       }
     }
   },
@@ -1538,6 +1538,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "RegEx+"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/75/3b/66/753b66af-4546-6a6d-17ce-6ee6eef20f98/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/75/3b/66/753b66af-4546-6a6d-17ce-6ee6eef20f98/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/75/3b/66/753b66af-4546-6a6d-17ce-6ee6eef20f98/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "A nifty develop tool for the regular expression, for both macOS and iOS. Your data are synced through your devices with CloudKit. There's also a cheat sheet that helps you to get a better understanding of metacharacters and operators of the regular expression."
+    },
+    "im:price": {
+      "label": "$1.39",
+      "attributes": {
+        "amount": "1.39",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Lex.sh"
+    },
+    "title": {
+      "label": "RegEx+ - Shenggang Tang"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/regex/id1511763524?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/d7/98/4c/d7984c97-c791-a4e5-7f8d-d02ab91e0cd9/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/regex/id1511763524?uo=2",
+      "attributes": {
+        "im:id": "1511763524",
+        "im:bundleId": "sh.lex.RegExCatalyst"
+      }
+    },
+    "im:artist": {
+      "label": "Shenggang Tang",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/shenggang-tang/id951344278?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-05-06T00:00:00-07:00",
+      "attributes": {
+        "label": "May 6, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 17,
+      "total": 99
+    },
+    "im:name": {
       "label": "RegEx Lab: Regular Expressions"
     },
     "im:image": [
@@ -1636,7 +1738,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +1840,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -1840,7 +1942,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +2044,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -1950,19 +2052,19 @@
     },
     "im:image": [
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/91/75/bf/9175bf0b-53a0-94f9-e0f1-31564b99681d/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/1a/12/58/1a125866-8522-10dd-f979-c428ee3b04b7/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/91/75/bf/9175bf0b-53a0-94f9-e0f1-31564b99681d/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/1a/12/58/1a125866-8522-10dd-f979-c428ee3b04b7/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/91/75/bf/9175bf0b-53a0-94f9-e0f1-31564b99681d/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/1a/12/58/1a125866-8522-10dd-f979-c428ee3b04b7/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -2044,7 +2146,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2146,7 +2248,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2248,211 +2350,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
-      "total": 99
-    },
-    "im:name": {
-      "label": "View Source Premier"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/31/10/e6/3110e602-cdba-7453-f535-6074abcbdb41/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/31/10/e6/3110e602-cdba-7453-f535-6074abcbdb41/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/31/10/e6/3110e602-cdba-7453-f535-6074abcbdb41/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Hello everyone! We present you a powerful tool for analyzing and viewing HTML, XML, JavaScript, CSS, JSON, RSS and ATOM code, which will provide you with the following great features:\n\n• work with the application on three types of devices iPhone, iPad and Mac;\n• view and analyze formatted HTML, XML, JSON, RSS and ATOM code in structured and text form;\n• view the log of detected errors in the structure of HTML, XML, JSON, RSS and ATOM code;\n• view the web page in the built-in simulator;\n• change the size of the simulator to preset or set manually;\n• test a web page using a terminal for entering Javascript code;\n• view the connected styles for the selected element of the web page in code or in the simulator;\n• get a list of files connected to a web page or to a CSS file;\n• view the formatted content of JavaScript, CSS and JSON files connected to the web page;\n• view all known image formats added to a web page or to a CSS file;\n• open links that are available in the code;\n• search by text or using regular expressions in the code or in the simulator;\n• view formatted JavaScript, CSS, XML, JSON, RSS and ATOM code received separately upon request;\n• open and view the formatted content of files on the device's storage;\n• create unique requests with support for method input, Headers, Cookies and Body;\n• view the cookie values ​​from the request response;\n• change UserAgent values ​​for requests;\n• view, edit or re-execute queries that were made earlier;\n• copy to the clipboard all the code, individual sections or generated code from all child elements of the selected element of the code structure;\n• copy to the clipboard any displayed information contained in the application panels;\n• view the time spent on the execution of the request;\n• change the formatting parameters of the code;\n• change the user interface to your taste;\n• change the font in any work area;\n• use hot keys when working with an external keyboard.\n\nYour comments and feedback help us to be better! Write what you want to see in new releases and we will definitely do it!\n\nAnd if you liked our app, you can share your nice feedback or support us on Patreon."
-    },
-    "im:price": {
-      "label": "$10.99",
-      "attributes": {
-        "amount": "10.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Andrey Uspanov"
-    },
-    "title": {
-      "label": "View Source Premier - Andrey Uspanov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/view-source-premier/id1425213172?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/be/ff/c3/beffc399-5ff8-541c-a5d0-134694186c80/f3652f20-bc14-496e-b911-247fe011e8d1_Simulator_Screen_Shot_-_iPad_Pro__U002810.5-inch_U0029_-_2021-09-28_at_14.37.28.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/view-source-premier/id1425213172?uo=2",
-      "attributes": {
-        "im:id": "1425213172",
-        "im:bundleId": "com.cloudwhale.anoren-reviewer"
-      }
-    },
-    "im:artist": {
-      "label": "Andrey Uspanov",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/andrey-uspanov/id1203890914?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-08-18T01:05:46-07:00",
-      "attributes": {
-        "label": "August 18, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
       "index": 24,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Xc Fonts"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/76/52/2b/76522bc4-0d3f-5721-72b5-b2b6101623bd/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/76/52/2b/76522bc4-0d3f-5721-72b5-b2b6101623bd/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/76/52/2b/76522bc4-0d3f-5721-72b5-b2b6101623bd/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Xc Fonts delivers a quick, easy and intuitive way for Xcode and web developers to view the hundreds of fonts and thousands of unique characters bundled into iOS 15.0 and up. It's now easier than ever for you to add that extra layer of artistic flair to your apps and websites.\n\nWritten with Xcode 13.3.1 and SwiftUI 3 Xc Fonts delivers a responsive, fluid, animation-rich user experience rich via its clean lightweight interface. The user experience is dynamically scaled and provides full support for any model of iPhone or iPad that supports iOS 15.0 or higher.\n\nAs a bonus, Xc Fonts includes a deep dive into the Apple Symbols font family to provide access to the forty unique fonts available. Fonts that are not viewable in Apple's own Font Book application.\n\nRelease your inner artist today and wow your clients and visitors with just the right amount of flair!"
-    },
-    "im:price": {
-      "label": "$1.39",
-      "attributes": {
-        "amount": "1.39",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Forefront Systems Inc."
-    },
-    "title": {
-      "label": "Xc Fonts - Douglas J Farmer"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/xc-fonts/id1618796606?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/40/26/4c/40264c81-74a2-b4bb-58fb-530d3344b668/46b03c44-8b16-4fc3-9264-d26ca91ed045_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2022-04-14_at_10.47.20.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/xc-fonts/id1618796606?uo=2",
-      "attributes": {
-        "im:id": "1618796606",
-        "im:bundleId": "com.ForefrontSystems.XcFonts"
-      }
-    },
-    "im:artist": {
-      "label": "Douglas J Farmer",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/douglas-j-farmer/id660495720?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-04-21T00:00:00-07:00",
-      "attributes": {
-        "label": "April 21, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2554,7 +2452,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2648,6 +2546,108 @@
       "label": "2020-10-14T00:00:00-07:00",
       "attributes": {
         "label": "October 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 26,
+      "total": 99
+    },
+    "im:name": {
+      "label": "View Source Premier"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/31/10/e6/3110e602-cdba-7453-f535-6074abcbdb41/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/31/10/e6/3110e602-cdba-7453-f535-6074abcbdb41/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/31/10/e6/3110e602-cdba-7453-f535-6074abcbdb41/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Hello everyone! We present you a powerful tool for analyzing and viewing HTML, XML, JavaScript, CSS, JSON, RSS and ATOM code, which will provide you with the following great features:\n\n• work with the application on three types of devices iPhone, iPad and Mac;\n• view and analyze formatted HTML, XML, JSON, RSS and ATOM code in structured and text form;\n• view the log of detected errors in the structure of HTML, XML, JSON, RSS and ATOM code;\n• view the web page in the built-in simulator;\n• change the size of the simulator to preset or set manually;\n• test a web page using a terminal for entering Javascript code;\n• view the connected styles for the selected element of the web page in code or in the simulator;\n• get a list of files connected to a web page or to a CSS file;\n• view the formatted content of JavaScript, CSS and JSON files connected to the web page;\n• view all known image formats added to a web page or to a CSS file;\n• open links that are available in the code;\n• search by text or using regular expressions in the code or in the simulator;\n• view formatted JavaScript, CSS, XML, JSON, RSS and ATOM code received separately upon request;\n• open and view the formatted content of files on the device's storage;\n• create unique requests with support for method input, Headers, Cookies and Body;\n• view the cookie values ​​from the request response;\n• change UserAgent values ​​for requests;\n• view, edit or re-execute queries that were made earlier;\n• copy to the clipboard all the code, individual sections or generated code from all child elements of the selected element of the code structure;\n• copy to the clipboard any displayed information contained in the application panels;\n• view the time spent on the execution of the request;\n• change the formatting parameters of the code;\n• change the user interface to your taste;\n• change the font in any work area;\n• use hot keys when working with an external keyboard.\n\nYour comments and feedback help us to be better! Write what you want to see in new releases and we will definitely do it!\n\nAnd if you liked our app, you can share your nice feedback or support us on Patreon."
+    },
+    "im:price": {
+      "label": "$10.99",
+      "attributes": {
+        "amount": "10.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Andrey Uspanov"
+    },
+    "title": {
+      "label": "View Source Premier - Andrey Uspanov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/view-source-premier/id1425213172?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/be/ff/c3/beffc399-5ff8-541c-a5d0-134694186c80/f3652f20-bc14-496e-b911-247fe011e8d1_Simulator_Screen_Shot_-_iPad_Pro__U002810.5-inch_U0029_-_2021-09-28_at_14.37.28.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/view-source-premier/id1425213172?uo=2",
+      "attributes": {
+        "im:id": "1425213172",
+        "im:bundleId": "com.cloudwhale.anoren-reviewer"
+      }
+    },
+    "im:artist": {
+      "label": "Andrey Uspanov",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/andrey-uspanov/id1203890914?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-08-18T01:05:46-07:00",
+      "attributes": {
+        "label": "August 18, 2018"
       }
     }
   },
@@ -2762,30 +2762,30 @@
       "total": 99
     },
     "im:name": {
-      "label": "Terminal Commands Pro"
+      "label": "Xc Fonts"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/76/52/2b/76522bc4-0d3f-5721-72b5-b2b6101623bd/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/76/52/2b/76522bc4-0d3f-5721-72b5-b2b6101623bd/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/76/52/2b/76522bc4-0d3f-5721-72b5-b2b6101623bd/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "If you use Linux or  MacOs and you need a command line handbook this application maded for you. And you can save your commands to application. If you want share commands to other people on third party softwares.\n\nThis application contains the following commands\n- Search Commands\n- Pacman Commands\n- System Commands\n- Permission Commands\n- Compression Commands\n- FTP Commands\n- GIT Commands\n- ADB Commands\n- Network Commands\n- File Commands\n- Docker Commands\n- APT Commands \n- SSH Commands"
+      "label": "Xc Fonts delivers a quick, easy and intuitive way for Xcode and web developers to view the hundreds of fonts and thousands of unique characters bundled into iOS 15.0 and up. It's now easier than ever for you to add that extra layer of artistic flair to your apps and websites.\n\nWritten with Xcode 13.3.1 and SwiftUI 3 Xc Fonts delivers a responsive, fluid, animation-rich user experience rich via its clean lightweight interface. The user experience is dynamically scaled and provides full support for any model of iPhone or iPad that supports iOS 15.0 or higher.\n\nAs a bonus, Xc Fonts includes a deep dive into the Apple Symbols font family to provide access to the forty unique fonts available. Fonts that are not viewable in Apple's own Font Book application.\n\nRelease your inner artist today and wow your clients and visitors with just the right amount of flair!"
     },
     "im:price": {
       "label": "$1.39",
@@ -2801,17 +2801,17 @@
       }
     },
     "rights": {
-      "label": "© 2021 Havucapps"
+      "label": "© 2022 Forefront Systems Inc."
     },
     "title": {
-      "label": "Terminal Commands Pro - Kasim SAGIR"
+      "label": "Xc Fonts - Douglas J Farmer"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/terminal-commands-pro/id1630546383?uo=2"
+          "href": "https://apps.apple.com/ca/app/xc-fonts/id1618796606?uo=2"
         }
       },
       {
@@ -2822,22 +2822,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/5d/b8/c9/5db8c9a5-46fd-1b93-3c18-d6ff6a933bfd/aa422b8e-932f-4057-9fd6-33e3e7fa0a4d_12.9-inch_Screenshot_1.png/1024x1024bb.png",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/40/26/4c/40264c81-74a2-b4bb-58fb-530d3344b668/46b03c44-8b16-4fc3-9264-d26ca91ed045_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2022-04-14_at_10.47.20.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/terminal-commands-pro/id1630546383?uo=2",
+      "label": "https://apps.apple.com/ca/app/xc-fonts/id1618796606?uo=2",
       "attributes": {
-        "im:id": "1630546383",
-        "im:bundleId": "havucapps.terminalkomutlaripro"
+        "im:id": "1618796606",
+        "im:bundleId": "com.ForefrontSystems.XcFonts"
       }
     },
     "im:artist": {
-      "label": "Kasim SAGIR",
+      "label": "Douglas J Farmer",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/kasim-sagir/id1563742521?uo=2"
+        "href": "https://apps.apple.com/ca/developer/douglas-j-farmer/id660495720?uo=2"
       }
     },
     "category": {
@@ -2849,9 +2849,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2022-06-25T00:00:00-07:00",
+      "label": "2022-04-21T00:00:00-07:00",
       "attributes": {
-        "label": "June 25, 2022"
+        "label": "April 21, 2022"
       }
     }
   },
@@ -2861,108 +2861,6 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 29,
-      "total": 99
-    },
-    "im:name": {
-      "label": "StudIO - Code"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/60/c0/55/60c0556f-7cfa-4ec7-fb18-b09b0f255db9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/60/c0/55/60c0556f-7cfa-4ec7-fb18-b09b0f255db9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/60/c0/55/60c0556f-7cfa-4ec7-fb18-b09b0f255db9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "DEEP INTEGRATION\n\nStudIO has great integration with services you already know and use: GitHub, Gists, Gitlab, ... That means you won't change your habits by switching.\n\nNATIVE\n\nStudIO is native but hackable: almost everything in the app is written in pure Swift. But our editor is compatible with most CodeMirror plugins (see docs for integration).\n\nFULL OF FEATURES\n\nWhen it comes to features, StudIO has a lot to offer: from smart code completion to SSH terminal. There are dozens of little tweaks that will make you feel like a superhero. You can also run Python scripts, or preview your website right from the editor\n\nUPGRADABLE\n\nStudIO receives constant updates with incredible new features. The future has never been as bright. Also, the community has full power over StudIO: you want the latest and greatest theme? Just install it!\n\nNO COMPROMISES\n\nStudIO is compatible with SSH and the new Files app, which means you can directly import your code into other apps such as iSH for using a full Linux powered terminal on your device.\n\nFUN TO USE\n\nWhen using an iPad (or other devices), creating something should be fun. StudIO aims above all to let developers and enthusiasts benefit from the most enjoyable experience.\n\nAFFORDABLE\n\nWhile other apps like Textastic or Buffer editor costs around 10$, StudIO only costs 4.99$. Price shouldn't be a feature, it should be a strength."
-    },
-    "im:price": {
-      "label": "$6.99",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "Copyright © Arthur Guiot"
-    },
-    "title": {
-      "label": "StudIO - Code - Arthur Guiot"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/studio-code/id1452038669?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/24/22/d5/2422d5d2-366b-7494-caa3-7852a3dffb17/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/studio-code/id1452038669?uo=2",
-      "attributes": {
-        "im:id": "1452038669",
-        "im:bundleId": "com.ArthurG.StudIO"
-      }
-    },
-    "im:artist": {
-      "label": "Arthur Guiot",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/arthur-guiot/id1392983459?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-11-01T00:00:00-07:00",
-      "attributes": {
-        "label": "November 1, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -3064,7 +2962,211 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
+      "index": 30,
+      "total": 99
+    },
+    "im:name": {
+      "label": "StudIO - Code"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/60/c0/55/60c0556f-7cfa-4ec7-fb18-b09b0f255db9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/60/c0/55/60c0556f-7cfa-4ec7-fb18-b09b0f255db9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/60/c0/55/60c0556f-7cfa-4ec7-fb18-b09b0f255db9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "DEEP INTEGRATION\n\nStudIO has great integration with services you already know and use: GitHub, Gists, Gitlab, ... That means you won't change your habits by switching.\n\nNATIVE\n\nStudIO is native but hackable: almost everything in the app is written in pure Swift. But our editor is compatible with most CodeMirror plugins (see docs for integration).\n\nFULL OF FEATURES\n\nWhen it comes to features, StudIO has a lot to offer: from smart code completion to SSH terminal. There are dozens of little tweaks that will make you feel like a superhero. You can also run Python scripts, or preview your website right from the editor\n\nUPGRADABLE\n\nStudIO receives constant updates with incredible new features. The future has never been as bright. Also, the community has full power over StudIO: you want the latest and greatest theme? Just install it!\n\nNO COMPROMISES\n\nStudIO is compatible with SSH and the new Files app, which means you can directly import your code into other apps such as iSH for using a full Linux powered terminal on your device.\n\nFUN TO USE\n\nWhen using an iPad (or other devices), creating something should be fun. StudIO aims above all to let developers and enthusiasts benefit from the most enjoyable experience.\n\nAFFORDABLE\n\nWhile other apps like Textastic or Buffer editor costs around 10$, StudIO only costs 4.99$. Price shouldn't be a feature, it should be a strength."
+    },
+    "im:price": {
+      "label": "$6.99",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "Copyright © Arthur Guiot"
+    },
+    "title": {
+      "label": "StudIO - Code - Arthur Guiot"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/studio-code/id1452038669?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/24/22/d5/2422d5d2-366b-7494-caa3-7852a3dffb17/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/studio-code/id1452038669?uo=2",
+      "attributes": {
+        "im:id": "1452038669",
+        "im:bundleId": "com.ArthurG.StudIO"
+      }
+    },
+    "im:artist": {
+      "label": "Arthur Guiot",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/arthur-guiot/id1392983459?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-11-01T00:00:00-07:00",
+      "attributes": {
+        "label": "November 1, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
       "index": 31,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Terminal Commands Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "If you use Linux or  MacOs and you need a command line handbook this application maded for you. And you can save your commands to application. If you want share commands to other people on third party softwares.\n\nThis application contains the following commands\n- Search Commands\n- Pacman Commands\n- System Commands\n- Permission Commands\n- Compression Commands\n- FTP Commands\n- GIT Commands\n- ADB Commands\n- Network Commands\n- File Commands\n- Docker Commands\n- APT Commands \n- SSH Commands"
+    },
+    "im:price": {
+      "label": "$1.39",
+      "attributes": {
+        "amount": "1.39",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Havucapps"
+    },
+    "title": {
+      "label": "Terminal Commands Pro - Kasim SAGIR"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/terminal-commands-pro/id1630546383?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/5d/b8/c9/5db8c9a5-46fd-1b93-3c18-d6ff6a933bfd/aa422b8e-932f-4057-9fd6-33e3e7fa0a4d_12.9-inch_Screenshot_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/terminal-commands-pro/id1630546383?uo=2",
+      "attributes": {
+        "im:id": "1630546383",
+        "im:bundleId": "havucapps.terminalkomutlaripro"
+      }
+    },
+    "im:artist": {
+      "label": "Kasim SAGIR",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/kasim-sagir/id1563742521?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-06-25T00:00:00-07:00",
+      "attributes": {
+        "label": "June 25, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3158,108 +3260,6 @@
       "label": "2017-11-29T16:28:40-07:00",
       "attributes": {
         "label": "November 29, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 32,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Zeitgeist"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
-    },
-    "im:price": {
-      "label": "$2.79",
-      "attributes": {
-        "amount": "2.79",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Daniel Eden"
-    },
-    "title": {
-      "label": "Zeitgeist - Dan Eden"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/zeitgeist/id1526052028?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5f/93/a4/5f93a413-d500-82f9-6ce5-027b9fb610a5/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/zeitgeist/id1526052028?uo=2",
-      "attributes": {
-        "im:id": "1526052028",
-        "im:bundleId": "me.daneden.Zeitgeist"
-      }
-    },
-    "im:artist": {
-      "label": "Dan Eden",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/dan-eden/id508167369?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-02T00:00:00-07:00",
-      "attributes": {
-        "label": "December 2, 2020"
       }
     }
   },
@@ -3374,35 +3374,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "Docker Management"
+      "label": "Zeitgeist"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
     },
     "im:price": {
-      "label": "$6.99",
+      "label": "$2.79",
       "attributes": {
-        "amount": "6.99",
+        "amount": "2.79",
         "currency": "CAD"
       }
     },
@@ -3413,17 +3413,17 @@
       }
     },
     "rights": {
-      "label": "© nevishs"
+      "label": "© Daniel Eden"
     },
     "title": {
-      "label": "Docker Management - Nevis Shkenza"
+      "label": "Zeitgeist - Dan Eden"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
+          "href": "https://apps.apple.com/ca/app/zeitgeist/id1526052028?uo=2"
         }
       },
       {
@@ -3434,22 +3434,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5f/93/a4/5f93a413-d500-82f9-6ce5-027b9fb610a5/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
+      "label": "https://apps.apple.com/ca/app/zeitgeist/id1526052028?uo=2",
       "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
+        "im:id": "1526052028",
+        "im:bundleId": "me.daneden.Zeitgeist"
       }
     },
     "im:artist": {
-      "label": "Nevis Shkenza",
+      "label": "Dan Eden",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
+        "href": "https://apps.apple.com/ca/developer/dan-eden/id508167369?uo=2"
       }
     },
     "category": {
@@ -3461,9 +3461,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
+      "label": "2020-12-02T00:00:00-07:00",
       "attributes": {
-        "label": "August 14, 2020"
+        "label": "December 2, 2020"
       }
     }
   },
@@ -5826,26 +5826,26 @@
     },
     "im:image": [
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/1f/6ea11f19-8b69-238a-d364-d3b7b9a845ae/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/d1/73/7c/d1737c5a-bfd5-f52d-c437-cb46293e8fe0/AppIcon-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/1f/6ea11f19-8b69-238a-d364-d3b7b9a845ae/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/d1/73/7c/d1737c5a-bfd5-f52d-c437-cb46293e8fe0/AppIcon-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/1f/6ea11f19-8b69-238a-d364-d3b7b9a845ae/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/d1/73/7c/d1737c5a-bfd5-f52d-c437-cb46293e8fe0/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "• Programming languages:\n  - How to get a substring? \n  - How to declare a generalized method? \n  - How to perform a database query?\n• SQL:\n  - How to combine multiple tables in a single query? \n  - How to sort the result of grouping data?\n  - What types of data are there in SQL Server?\nThese and over 300 of other code samples for each language are available in the application.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Finding the best decision on the Internet may demand hours of working time. Ready for use and tested code \"recipes\" are included in the application\n\n• You don`t know which programming language to choose? The application can compare syntax from every example in different programming languages and make a balanced decision during choosing a programming language.\n\n• This is an excellent help for those who often use several programming languages. The application reduces the time required to switch to a different syntax.\n\n• The application is a good tool during the exam or the preparation to the interview because it contains a reference to frequently used operations in different programming languages.\n\n• Quick search of the correct example by the code or by the name of topic. Print or send the code example, which you like and share it with your colleagues.\n\n• Being a developer, I use this program when I need to remember quickly how to solve a given task in one or another programming language.\n\nIf you can help with translating the names of topics into your language, please contact me by e-mail."
+      "label": "• Programming languages:\n  - How to get a substring? \n  - How to declare a generalized method? \n  - How to perform a database query?\n• SQL:\n  - How to combine multiple tables in a single query? \n  - How to sort the result of grouping data?\n  - What types of data are there in SQL Server?\nThese and over 300 of other code samples for each language are available in the application.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Finding the best decision on the Internet may demand hours of working time. Ready for use and tested code \"recipes\" are included in the application.\n\n• One app for iOS and MacOS. Buy once and use on your phone, tablet or computer.\n\n• This is an excellent help for those who often use several programming languages. The application reduces the time required to switch to a different syntax.\n\n• The application is a good tool during the exam or the preparation to the interview because it contains a reference to frequently used operations in different programming languages.\n\n• All examples in the application are available offline. The application can be used when the Internet connection is not available.\n\n• Quick search of the correct example by the code or by the name of topic. Print or send the code example, which you like and share it with your colleagues.\n\n• Being a developer, I use this program when I need to remember quickly how to solve a given task in one or another programming language.\n\n• One of the app reviews:\nA must have app for any consultant. Rather than being a lexicon of coding descriptions and commands, as so many of these apps are, Fedor has provided a reference tool for real-world developers. There are three main areas of the app; list of topics leading to subject menu, explanation page, settings. Starting with the list of topics, the index is broken into logical sections that direct the developer quickly to a sub-menu and the area needed - precisely where a developer would expect to find what they’re looking for. The explanations in each and every page are succinct, well thought out, and clearly presented with excellent examples where needed. There is no boiler plate generic definitions here. The ‘settings’ section is equally efficient. It allows to switch to dark, change font and size, upgrade/release additional language examples, or simply upgrade to a full and ad-free version. It should be noted that the cost and features of a fully upgraded ‘Codes recipes’ app is the same as buying the ‘Codes recipes PRO’ version. Fedor, thank you for developing this app - it’s excellent.\n\nIf you can help with translating the names of topics into your language, please contact me by e-mail."
     },
     "im:price": {
       "label": "$5.49",

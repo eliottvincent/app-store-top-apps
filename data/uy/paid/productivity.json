@@ -4496,108 +4496,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "VerbTeX Pro LaTeX Editor"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/0a/c9/8c/0ac98cfd-d15c-6cb8-482a-d6246712ba02/AppIcon-Pro-1x_U007emarketing-0-5-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/0a/c9/8c/0ac98cfd-d15c-6cb8-482a-d6246712ba02/AppIcon-Pro-1x_U007emarketing-0-5-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/0a/c9/8c/0ac98cfd-d15c-6cb8-482a-d6246712ba02/AppIcon-Pro-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "VerbTeX Pro is the secure LaTeX Editor for your iOS device. It allows you to create and manage LaTeX projects directly on your iOS device and generate a PDF by using Verbosus (Online LaTeX Editor).\n\nThis software is provided \"as is\" without warranties or conditions of any kind, either expressed or implied.\n\nFeatures:\n* Automatic Dropbox synchronization (Local Mode)\n* Automatic Box synchronization (Local Mode)\n* iCloud integration (Local Mode)\n* Use PdfTeX or XeTeX to generate a PDF\n* Use BibTeX or Biber for bibliographies\n* 2 Modes: Local (stores .tex documents on your device) and Cloud (synchronizes your projects with Verbosus)\n* Syntax highlighting\n* Line numbers\n* Autosave\n* Hotkeys (see below)\n* File upload incl. subfolders (Local Mode)\n* Web-Interface (Cloud Mode) \n* Two factor authentication (Cloud Mode, in combination with Copiosus)\n* Export the generated PDF to other Apps that support PDF handling \n* Export projects from Local Mode\n* Import projects to Local Mode\n* No ads\n\nIf you experience any performance issues when loading a project or while using the editor please try\n* to disable syntax highlighting and line numbers by choosing Preferences -> Syntax Highlighting\n* to split up your project into multiple .tex files by using the include{...} command of LaTeX\n\nAdditional features in VerbTeX Pro:\n* Code completion (commands)\n* Unlimited number of projects (Local Mode)\n* Unlimited number of documents (Local Mode)\n* Unlimited number of file uploads per project (Local Mode)\n* Continue using projects of free VerbTeX version using Dropbox or Box\n* Support development of free iOS apps\n\nImport or export existing projects (Local Mode):\nIf you want to import or export existing projects you have two options: Automatic Dropbox or Box synchronization (Preferences -> Link to Dropbox or Box) or copy the font file to your root Documents path by using Finder -> Device -> VerbTeX -> Files -> Drag and drop your files. Please refresh the project list.\n\nUse any .ttf/.otf font (Local Mode):\nIf you want to use a custom font or a font that is not installed you have two options: Automatic Dropbox or Box synchronization (Preferences -> Link to Dropbox or Box) or copy the font file to your root Documents path by using Finder -> Device -> VerbTeX -> Files -> Drag and drop your files. In your project you can use the font like this:\n\n\\documentclass{article}\n\\usepackage{fontspec}\n\\setmainfont{fontname.otf}\n\\begin{document}\n\\section{Main Heading}\nЭто тест\n\\end{document}\n\nYou can write chinese in PdfTeX using the CJKutf8 package as shown in the following example:\n\n\\documentclass{article}\n\\usepackage{CJKutf8}\n\\begin{document}\n\\begin{CJK}{UTF8}{gbsn}\n这是一个测试\n\\end{CJK}\n\\end{document}\n\nYou can write chinese in XeTeX using the xeCJK package as shown in the following example:\n\n\\documentclass{article}\n\\usepackage{xeCJK}\n\\begin{document}\n这是一个测试\n\\end{document}\n\nHotkeys in editor:\nctrl+s: save\nctrl+g: generate PDF\nctrl+n: new document\nctrl+d: delete document\nctrl+b: switch bib and tex\nctrl+.: next document"
-    },
-    "im:price": {
-      "label": "USD 7.99",
-      "attributes": {
-        "amount": "7.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© verbosus.com"
-    },
-    "title": {
-      "label": "VerbTeX Pro LaTeX Editor - Verbosus.com"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/uy/app/verbtex-pro-latex-editor/id560872078?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/6c/68/da/6c68da7e-3811-63c3-ead0-7ae72f9c2560/4c67fce8-3383-4d81-9a83-0c048aa9c532_ipad_pro_2nd_editor.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/uy/app/verbtex-pro-latex-editor/id560872078?uo=2",
-      "attributes": {
-        "im:id": "560872078",
-        "im:bundleId": "com.verbosus.iverbtexpro"
-      }
-    },
-    "im:artist": {
-      "label": "Verbosus.com",
-      "attributes": {
-        "href": "https://apps.apple.com/uy/developer/verbosus-com/id560869166?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-09-18T16:06:33-07:00",
-      "attributes": {
-        "label": "September 18, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "uy",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 46,
-      "total": 100
-    },
-    "im:name": {
       "label": "CARROT To-Do"
     },
     "im:image": [
@@ -4696,7 +4594,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 47,
+      "index": 46,
       "total": 100
     },
     "im:name": {
@@ -4798,7 +4696,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 48,
+      "index": 47,
       "total": 100
     },
     "im:name": {
@@ -4900,7 +4798,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 49,
+      "index": 48,
       "total": 100
     },
     "im:name": {
@@ -5002,7 +4900,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 50,
+      "index": 49,
       "total": 100
     },
     "im:name": {
@@ -5104,7 +5002,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 51,
+      "index": 50,
       "total": 100
     },
     "im:name": {
@@ -5198,6 +5096,108 @@
       "label": "2010-03-22T13:46:24-07:00",
       "attributes": {
         "label": "March 22, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "uy",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 51,
+      "total": 100
+    },
+    "im:name": {
+      "label": "VerbTeX Pro LaTeX Editor"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/0a/c9/8c/0ac98cfd-d15c-6cb8-482a-d6246712ba02/AppIcon-Pro-1x_U007emarketing-0-5-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/0a/c9/8c/0ac98cfd-d15c-6cb8-482a-d6246712ba02/AppIcon-Pro-1x_U007emarketing-0-5-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/0a/c9/8c/0ac98cfd-d15c-6cb8-482a-d6246712ba02/AppIcon-Pro-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "VerbTeX Pro is the secure LaTeX Editor for your iOS device. It allows you to create and manage LaTeX projects directly on your iOS device and generate a PDF by using Verbosus (Online LaTeX Editor).\n\nThis software is provided \"as is\" without warranties or conditions of any kind, either expressed or implied.\n\nFeatures:\n* Automatic Dropbox synchronization (Local Mode)\n* Automatic Box synchronization (Local Mode)\n* iCloud integration (Local Mode)\n* Use PdfTeX or XeTeX to generate a PDF\n* Use BibTeX or Biber for bibliographies\n* 2 Modes: Local (stores .tex documents on your device) and Cloud (synchronizes your projects with Verbosus)\n* Syntax highlighting\n* Line numbers\n* Autosave\n* Hotkeys (see below)\n* File upload incl. subfolders (Local Mode)\n* Web-Interface (Cloud Mode) \n* Two factor authentication (Cloud Mode, in combination with Copiosus)\n* Export the generated PDF to other Apps that support PDF handling \n* Export projects from Local Mode\n* Import projects to Local Mode\n* No ads\n\nIf you experience any performance issues when loading a project or while using the editor please try\n* to disable syntax highlighting and line numbers by choosing Preferences -> Syntax Highlighting\n* to split up your project into multiple .tex files by using the include{...} command of LaTeX\n\nAdditional features in VerbTeX Pro:\n* Code completion (commands)\n* Unlimited number of projects (Local Mode)\n* Unlimited number of documents (Local Mode)\n* Unlimited number of file uploads per project (Local Mode)\n* Continue using projects of free VerbTeX version using Dropbox or Box\n* Support development of free iOS apps\n\nImport or export existing projects (Local Mode):\nIf you want to import or export existing projects you have two options: Automatic Dropbox or Box synchronization (Preferences -> Link to Dropbox or Box) or copy the font file to your root Documents path by using Finder -> Device -> VerbTeX -> Files -> Drag and drop your files. Please refresh the project list.\n\nUse any .ttf/.otf font (Local Mode):\nIf you want to use a custom font or a font that is not installed you have two options: Automatic Dropbox or Box synchronization (Preferences -> Link to Dropbox or Box) or copy the font file to your root Documents path by using Finder -> Device -> VerbTeX -> Files -> Drag and drop your files. In your project you can use the font like this:\n\n\\documentclass{article}\n\\usepackage{fontspec}\n\\setmainfont{fontname.otf}\n\\begin{document}\n\\section{Main Heading}\nЭто тест\n\\end{document}\n\nYou can write chinese in PdfTeX using the CJKutf8 package as shown in the following example:\n\n\\documentclass{article}\n\\usepackage{CJKutf8}\n\\begin{document}\n\\begin{CJK}{UTF8}{gbsn}\n这是一个测试\n\\end{CJK}\n\\end{document}\n\nYou can write chinese in XeTeX using the xeCJK package as shown in the following example:\n\n\\documentclass{article}\n\\usepackage{xeCJK}\n\\begin{document}\n这是一个测试\n\\end{document}\n\nHotkeys in editor:\nctrl+s: save\nctrl+g: generate PDF\nctrl+n: new document\nctrl+d: delete document\nctrl+b: switch bib and tex\nctrl+.: next document"
+    },
+    "im:price": {
+      "label": "USD 7.99",
+      "attributes": {
+        "amount": "7.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© verbosus.com"
+    },
+    "title": {
+      "label": "VerbTeX Pro LaTeX Editor - Verbosus.com"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/uy/app/verbtex-pro-latex-editor/id560872078?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/6c/68/da/6c68da7e-3811-63c3-ead0-7ae72f9c2560/4c67fce8-3383-4d81-9a83-0c048aa9c532_ipad_pro_2nd_editor.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/uy/app/verbtex-pro-latex-editor/id560872078?uo=2",
+      "attributes": {
+        "im:id": "560872078",
+        "im:bundleId": "com.verbosus.iverbtexpro"
+      }
+    },
+    "im:artist": {
+      "label": "Verbosus.com",
+      "attributes": {
+        "href": "https://apps.apple.com/uy/developer/verbosus-com/id560869166?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-09-18T16:06:33-07:00",
+      "attributes": {
+        "label": "September 18, 2012"
       }
     }
   },
@@ -5312,108 +5312,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "HVAC Toolkit"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/44/a8/1d44a848-4beb-f288-a9b6-5511ddacd825/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/44/a8/1d44a848-4beb-f288-a9b6-5511ddacd825/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/44/a8/1d44a848-4beb-f288-a9b6-5511ddacd825/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The HVAC Toolkit app for the iPhone and iPad is the essential app for anyone in the HVAC industry. It includes a combination of many of our stand-alone iOS applications. Individually, the apps cost a total of $70. By purchasing the Toolkit, you pay only $24:\n\n1. HVAC Equipment Locator\n2. HVAC PT Chart\n3. HVAC Refrigerant Charge\n4. HVAC Duct Sizer\n5. HVAC Quick Load\n6. Psychrometrics\n7. Steam Tables\n8. Pipe Sizer - Liquid\n9. Pipe Sizer - Steam\n10. Pipe Sizer - Gas High\n11. Pipe Sizer - Gas Low \n\nThis is a universal app that works on both the iPhone and iPad.\n\nThe \"HVAC Equipment Locator\" module allows you to track, share, and customize your equipment nameplate and maintenance data. The version here includes the ability to customize your input screens.\n\nThe \"HVAC PT Chart\" module allows you to easily view the pressure-temperature properties of 75 refrigerants. Think of this app as a digital version of the paper PT charts that you may have carried around with you in the past.\n\nThe \"HVAC Refrigerant Charge\" module allows you to perform superheat and subcool refrigerant charge calculations on-the-fly. This app includes pressure-temperature data for over 75 common refrigerants.\n\nThe \"HVAC Duct Sizer\" module allows you to quickly size one HVAC duct run and a range of duct sizes. You can specify the total airflow in CFM (or L/s), the aspect ratio and one of either the velocity of air or the friction loss per 100 feet (30 meters).\n\nThe \"HVAC Quick Load\" module allows you to perform quick and simple HVAC cooling and heating load calculation analysis. You can specify the building type, total area, and # of people. The results include the total cooling and heating loads and airflows.\n\nThe \"Psychrometrics\" module allows you to easily perform single-state and mixed-air HVAC psychrometric calculations for a wide range of barometric air pressures.\n\nThe \"Steam Tables\" module allows you to calculate the properties of saturated or superheated steam by specifying 2 input properties.\n\nThe \"HVAC Pipe Sizer - Liquid\" module allows you to size a pipe run with many different types of liquids (or fluids), pipe material and fitting types.\n\nThe \"HVAC Pipe Sizer - Steam\" module allows you to size a steam pipe run, and it also includes a bonus steam table calculator.\n\nThe \"HVAC Pipe Sizer - Gas High/Low\" module allows you to quickly size a simple low (less than or equal to 1.5 psi) and high (greater than 1.5 psi) pressure gas piping system by inputting a number of piping and gas properties.\n\nThis application includes all of the great features of the individual HVAC iOS applications such as the use of slider controls that allow you to quickly increment or decrement the input values and immediately observe the calculated results. It also allows you to specify different types of liquids, gases, pipe material types, fitting quantities, min and max ranges, and step values.\n\nAll of the above modules display units in English or Metric.\n\nAlso, all of the above modules allow you to send emails with inputs and results.\n\nThe \"HVAC Toolkit\" application was designed by Carmel Software Corporation, a leader in HVAC design software since 1995. In fact, Autodesk (the makers of AutoCAD) acquired our load calculation software and incorporated it into their leading 3D modeling software called Revit. In addition, Carmel has developed customized apps for organizations such as ASHRAE, Mitsubishi Electric, and Pacific Gas and Electric, amongst others.\n\nWe also offer all of the above modules as individual apps for the iPhone/iPad:\n\n1. HVAC ResLoad-J\n2. HVAC Psych HD\n3. HVAC Duct Sizer\n4. HVAC Pipe Sizers\n5. Steam Tables\n6. Psychrometric Plus\n7. Psychrometric LT\n8. HVAC Pipe Sizer Plus\n9. HVAC Pipe Sizer Gas Plus\n10. HVAC Quick Load\n11. HVAC Load Plus\n12. HVAC Residential Load Calcs\n13. HVAC Toolkit Ultimate\n14. HVAC ASHRAE 62.1\n15. HVAC ResVent 62.2\n16. HVAC ASHRAE DFDB\n17. HVAC ASHRAE Psych Chart"
-    },
-    "im:price": {
-      "label": "USD 23.99",
-      "attributes": {
-        "amount": "23.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Carmel Software Corporation. All Rights Reserved."
-    },
-    "title": {
-      "label": "HVAC Toolkit - Carmel Software Corporation"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/uy/app/hvac-toolkit/id354558963?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/b0/09/d7/b009d710-50cf-f214-fcae-4b23a0da1649/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/uy/app/hvac-toolkit/id354558963?uo=2",
-      "attributes": {
-        "im:id": "354558963",
-        "im:bundleId": "com.carmelsoft.HVACToolkit"
-      }
-    },
-    "im:artist": {
-      "label": "Carmel Software Corporation",
-      "attributes": {
-        "href": "https://apps.apple.com/uy/developer/carmel-software-corporation/id317970398?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-02-12T23:59:35-07:00",
-      "attributes": {
-        "label": "February 12, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "uy",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 54,
-      "total": 100
-    },
-    "im:name": {
       "label": "Beam Calculator - Steel & Wood"
     },
     "im:image": [
@@ -5512,7 +5410,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 55,
+      "index": 54,
       "total": 100
     },
     "im:name": {
@@ -5614,7 +5512,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 56,
+      "index": 55,
       "total": 100
     },
     "im:name": {
@@ -5716,7 +5614,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 57,
+      "index": 56,
       "total": 100
     },
     "im:name": {
@@ -5818,7 +5716,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 58,
+      "index": 57,
       "total": 100
     },
     "im:name": {
@@ -5920,7 +5818,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 59,
+      "index": 58,
       "total": 100
     },
     "im:name": {
@@ -6022,109 +5920,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 60,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Pythonista 3"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/00/48/e9004853-f07e-0abc-ffbe-c25f964a2f10/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/00/48/e9004853-f07e-0abc-ffbe-c25f964a2f10/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/00/48/e9004853-f07e-0abc-ffbe-c25f964a2f10/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Pythonista is a complete scripting environment for Python, running directly on your iPad or iPhone. It includes support for both Python 3.6 and 2.7, so you can use all the language improvements in Python 3, while still having 2.7 available for backwards compatibility.\n\nIn true Python fashion, batteries are included – from popular third-party modules like requests, numpy, matplotlib, and many more, to modules that are tailor-made for iOS. You can write scripts that access sensor and location data, your photo library, contacts, reminders, the clipboard, and much more.\n\nYou can also use Pythonista to build interactive multi-touch experiences, custom user interfaces, animations, and 2D games.\n\nApart from learning and practicing Python, you can also use Pythonista to automate parts of iOS with app extensions, e.g. to invoke scripts directly from the standard share sheet in almost any app.\n\nFeatures:\n\n>>> Powerful code editor with syntax highlighting, code completion, scripting support, and more\n>>> Interactive prompt with code completion, command history, and support for showing images in the console output\n>>> Integrated visual debugger and object inspector\n>>> Integrated PEP 8 style checker with issues highlighted directly in the editor\n>>> Complete offline documentation with quick lookup directly from the editor\n>>> Various beautiful light and dark color themes, and a theme editor to make your own\n>>> UI editor for quick prototyping\n>>> Includes most of the Python standard library and additional modules for graphics, sound, and iOS system services (e.g. clipboard, contacts, reminders, twitter, UI...)\n>>> Matplotlib and NumPy for scientific visualizations\n>>> Lots of other popular third-party modules, e.g. requests, BeautifulSoup, Flask, bottle, SymPy, and more are included.\n>>> Lots of included examples to get started\n>>> Universal app for iPad and iPhone\n>>> Share sheet app extension for running scripts from almost any app\n>>> Custom scriptable keyboard to use Python in any app that edits text\n\nThe name \"Pythonista\" is used with kind permission of the Python Software Foundation.\n\nPlease note that Pythonista is not designed to enable the installation or download of additional native modules, and it does *not* include the SciPy stack (just parts of it)."
-    },
-    "im:price": {
-      "label": "USD 9.99",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 omz:software"
-    },
-    "title": {
-      "label": "Pythonista 3 - omz:software"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/uy/app/pythonista-3/id1085978097?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/03/c2/ce/03c2cece-8e79-f8d6-2012-91169b512c89/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/uy/app/pythonista-3/id1085978097?uo=2",
-      "attributes": {
-        "im:id": "1085978097",
-        "im:bundleId": "com.omz-software.Pythonista3"
-      }
-    },
-    "im:artist": {
-      "label": "omz:software",
-      "attributes": {
-        "href": "https://apps.apple.com/uy/developer/omz-software/id285608316?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-06-13T22:17:21-07:00",
-      "attributes": {
-        "label": "June 13, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "uy",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 61,
+      "index": 59,
       "total": 100
     },
     "im:name": {
@@ -6226,7 +6022,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 62,
+      "index": 60,
       "total": 100
     },
     "im:name": {
@@ -6328,7 +6124,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 63,
+      "index": 61,
       "total": 100
     },
     "im:name": {
@@ -6430,7 +6226,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 64,
+      "index": 62,
       "total": 100
     },
     "im:name": {
@@ -6532,7 +6328,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 65,
+      "index": 63,
       "total": 100
     },
     "im:name": {
@@ -6634,7 +6430,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 66,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6736,7 +6532,109 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 67,
+      "index": 65,
+      "total": 100
+    },
+    "im:name": {
+      "label": "HVAC Toolkit"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/44/a8/1d44a848-4beb-f288-a9b6-5511ddacd825/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/44/a8/1d44a848-4beb-f288-a9b6-5511ddacd825/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/44/a8/1d44a848-4beb-f288-a9b6-5511ddacd825/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The HVAC Toolkit app for the iPhone and iPad is the essential app for anyone in the HVAC industry. It includes a combination of many of our stand-alone iOS applications. Individually, the apps cost a total of $70. By purchasing the Toolkit, you pay only $24:\n\n1. HVAC Equipment Locator\n2. HVAC PT Chart\n3. HVAC Refrigerant Charge\n4. HVAC Duct Sizer\n5. HVAC Quick Load\n6. Psychrometrics\n7. Steam Tables\n8. Pipe Sizer - Liquid\n9. Pipe Sizer - Steam\n10. Pipe Sizer - Gas High\n11. Pipe Sizer - Gas Low \n\nThis is a universal app that works on both the iPhone and iPad.\n\nThe \"HVAC Equipment Locator\" module allows you to track, share, and customize your equipment nameplate and maintenance data. The version here includes the ability to customize your input screens.\n\nThe \"HVAC PT Chart\" module allows you to easily view the pressure-temperature properties of 75 refrigerants. Think of this app as a digital version of the paper PT charts that you may have carried around with you in the past.\n\nThe \"HVAC Refrigerant Charge\" module allows you to perform superheat and subcool refrigerant charge calculations on-the-fly. This app includes pressure-temperature data for over 75 common refrigerants.\n\nThe \"HVAC Duct Sizer\" module allows you to quickly size one HVAC duct run and a range of duct sizes. You can specify the total airflow in CFM (or L/s), the aspect ratio and one of either the velocity of air or the friction loss per 100 feet (30 meters).\n\nThe \"HVAC Quick Load\" module allows you to perform quick and simple HVAC cooling and heating load calculation analysis. You can specify the building type, total area, and # of people. The results include the total cooling and heating loads and airflows.\n\nThe \"Psychrometrics\" module allows you to easily perform single-state and mixed-air HVAC psychrometric calculations for a wide range of barometric air pressures.\n\nThe \"Steam Tables\" module allows you to calculate the properties of saturated or superheated steam by specifying 2 input properties.\n\nThe \"HVAC Pipe Sizer - Liquid\" module allows you to size a pipe run with many different types of liquids (or fluids), pipe material and fitting types.\n\nThe \"HVAC Pipe Sizer - Steam\" module allows you to size a steam pipe run, and it also includes a bonus steam table calculator.\n\nThe \"HVAC Pipe Sizer - Gas High/Low\" module allows you to quickly size a simple low (less than or equal to 1.5 psi) and high (greater than 1.5 psi) pressure gas piping system by inputting a number of piping and gas properties.\n\nThis application includes all of the great features of the individual HVAC iOS applications such as the use of slider controls that allow you to quickly increment or decrement the input values and immediately observe the calculated results. It also allows you to specify different types of liquids, gases, pipe material types, fitting quantities, min and max ranges, and step values.\n\nAll of the above modules display units in English or Metric.\n\nAlso, all of the above modules allow you to send emails with inputs and results.\n\nThe \"HVAC Toolkit\" application was designed by Carmel Software Corporation, a leader in HVAC design software since 1995. In fact, Autodesk (the makers of AutoCAD) acquired our load calculation software and incorporated it into their leading 3D modeling software called Revit. In addition, Carmel has developed customized apps for organizations such as ASHRAE, Mitsubishi Electric, and Pacific Gas and Electric, amongst others.\n\nWe also offer all of the above modules as individual apps for the iPhone/iPad:\n\n1. HVAC ResLoad-J\n2. HVAC Psych HD\n3. HVAC Duct Sizer\n4. HVAC Pipe Sizers\n5. Steam Tables\n6. Psychrometric Plus\n7. Psychrometric LT\n8. HVAC Pipe Sizer Plus\n9. HVAC Pipe Sizer Gas Plus\n10. HVAC Quick Load\n11. HVAC Load Plus\n12. HVAC Residential Load Calcs\n13. HVAC Toolkit Ultimate\n14. HVAC ASHRAE 62.1\n15. HVAC ResVent 62.2\n16. HVAC ASHRAE DFDB\n17. HVAC ASHRAE Psych Chart"
+    },
+    "im:price": {
+      "label": "USD 23.99",
+      "attributes": {
+        "amount": "23.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Carmel Software Corporation. All Rights Reserved."
+    },
+    "title": {
+      "label": "HVAC Toolkit - Carmel Software Corporation"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/uy/app/hvac-toolkit/id354558963?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/b0/09/d7/b009d710-50cf-f214-fcae-4b23a0da1649/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/uy/app/hvac-toolkit/id354558963?uo=2",
+      "attributes": {
+        "im:id": "354558963",
+        "im:bundleId": "com.carmelsoft.HVACToolkit"
+      }
+    },
+    "im:artist": {
+      "label": "Carmel Software Corporation",
+      "attributes": {
+        "href": "https://apps.apple.com/uy/developer/carmel-software-corporation/id317970398?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-02-12T23:59:35-07:00",
+      "attributes": {
+        "label": "February 12, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "uy",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 66,
       "total": 100
     },
     "im:name": {
@@ -6838,7 +6736,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 68,
+      "index": 67,
       "total": 100
     },
     "im:name": {
@@ -6940,7 +6838,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 69,
+      "index": 68,
       "total": 100
     },
     "im:name": {
@@ -7042,7 +6940,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 70,
+      "index": 69,
       "total": 100
     },
     "im:name": {
@@ -7136,6 +7034,108 @@
       "label": "2013-04-18T16:16:56-07:00",
       "attributes": {
         "label": "April 18, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "uy",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 70,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Pythonista 3"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/00/48/e9004853-f07e-0abc-ffbe-c25f964a2f10/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/00/48/e9004853-f07e-0abc-ffbe-c25f964a2f10/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/00/48/e9004853-f07e-0abc-ffbe-c25f964a2f10/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Pythonista is a complete scripting environment for Python, running directly on your iPad or iPhone. It includes support for both Python 3.6 and 2.7, so you can use all the language improvements in Python 3, while still having 2.7 available for backwards compatibility.\n\nIn true Python fashion, batteries are included – from popular third-party modules like requests, numpy, matplotlib, and many more, to modules that are tailor-made for iOS. You can write scripts that access sensor and location data, your photo library, contacts, reminders, the clipboard, and much more.\n\nYou can also use Pythonista to build interactive multi-touch experiences, custom user interfaces, animations, and 2D games.\n\nApart from learning and practicing Python, you can also use Pythonista to automate parts of iOS with app extensions, e.g. to invoke scripts directly from the standard share sheet in almost any app.\n\nFeatures:\n\n>>> Powerful code editor with syntax highlighting, code completion, scripting support, and more\n>>> Interactive prompt with code completion, command history, and support for showing images in the console output\n>>> Integrated visual debugger and object inspector\n>>> Integrated PEP 8 style checker with issues highlighted directly in the editor\n>>> Complete offline documentation with quick lookup directly from the editor\n>>> Various beautiful light and dark color themes, and a theme editor to make your own\n>>> UI editor for quick prototyping\n>>> Includes most of the Python standard library and additional modules for graphics, sound, and iOS system services (e.g. clipboard, contacts, reminders, twitter, UI...)\n>>> Matplotlib and NumPy for scientific visualizations\n>>> Lots of other popular third-party modules, e.g. requests, BeautifulSoup, Flask, bottle, SymPy, and more are included.\n>>> Lots of included examples to get started\n>>> Universal app for iPad and iPhone\n>>> Share sheet app extension for running scripts from almost any app\n>>> Custom scriptable keyboard to use Python in any app that edits text\n\nThe name \"Pythonista\" is used with kind permission of the Python Software Foundation.\n\nPlease note that Pythonista is not designed to enable the installation or download of additional native modules, and it does *not* include the SciPy stack (just parts of it)."
+    },
+    "im:price": {
+      "label": "USD 9.99",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 omz:software"
+    },
+    "title": {
+      "label": "Pythonista 3 - omz:software"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/uy/app/pythonista-3/id1085978097?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/03/c2/ce/03c2cece-8e79-f8d6-2012-91169b512c89/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/uy/app/pythonista-3/id1085978097?uo=2",
+      "attributes": {
+        "im:id": "1085978097",
+        "im:bundleId": "com.omz-software.Pythonista3"
+      }
+    },
+    "im:artist": {
+      "label": "omz:software",
+      "attributes": {
+        "href": "https://apps.apple.com/uy/developer/omz-software/id285608316?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-06-13T22:17:21-07:00",
+      "attributes": {
+        "label": "June 13, 2016"
       }
     }
   },

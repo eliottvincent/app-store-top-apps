@@ -8,35 +8,35 @@
       "total": 100
     },
     "im:name": {
-      "label": "Neon Audio Editor"
+      "label": "SpaceFields"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/0c/c3/f9/0cc3f9f5-10bb-0191-07fd-a0a7a1a5298b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/ea/5c/14/ea5c1447-080a-a19b-e9f0-13bcdeed3c9e/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/0c/c3/f9/0cc3f9f5-10bb-0191-07fd-a0a7a1a5298b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/ea/5c/14/ea5c1447-080a-a19b-e9f0-13bcdeed3c9e/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/0c/c3/f9/0cc3f9f5-10bb-0191-07fd-a0a7a1a5298b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/ea/5c/14/ea5c1447-080a-a19b-e9f0-13bcdeed3c9e/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Neon is a lightweight digital audio editor and recording plugin compatible with any AUv3 host. It supports most major iOS file formats, and allows simple drag and drop between plugins. The editor allows you to import audio from a file or the system clipboard, as well as the ability to record incoming audio.\n            \nAs an editor it supports all the usual functionality you would expect as well as being able to edit samples on a per sample basis at extreme zoom levels.\n\nNeon also contains a number of built in effects that can be applied to the whole file or a selection. Effects can be previewed and tweaked prior to applying an effect.\n\nNeon can also be used as a clip launcher within an AUv3 Host, with the ability to remotely trigger one shot or looped samples. The Warp function can automatically adjust the tempo of a clip to the host tempo without affecting pitch.\n\nNeon also features a slicer which allows you to cut up a sample into multiple slices that can be played back via an incoming MIDI controller.\n\n○ Record directly from other plugins.\n○ Auto Start via trigger level supported.\n○ Set maximum recording lengths in Beats / Seconds for perfect loops.\n○ Drag and Drop Support between apps.\n○ Drag and Drop selections to other apps.\n○ Slicing and warping of audio.\n○ Auto Sampler\n○ AudioShare support.\n○ Built in Effects.\n○ Supports loading of external AUv3 effects (standalone mode).\n○ Export to WAV, M4A, MP3 and FLAC formats.\n○ Warp / Time Stretch functionality for syncing to host.\n○ Host Sync.\n○ Media Bay file manager for organising your clips.\n○ Ability to set short name and colour in AUM.\n○ Configurable MIDI Support for clip launching.\n○ Supports iOS General Clipboard operations \n○ Run multiple instances\n○ LUFS measurement.\n\nNote: Neon imposes a 15min sample length limit on recordings due to it's memory restrictions as an AUv3 plugin."
+      "label": "Loop-based mangler effect for creating slowly changing rhythmic sound structures in a deep reverb space from any external signal. Great for experimenting and designing ambient and noise backgrounds with rhythmic elements.\n\nThe principle of the application is quite simple. It is based on a loop recorder with two loops. When one loop is recorded, the second is played back. When the loop recording stops, there is a smooth transition between them. Three separate outputs can playback the recorded loop with different pitches (speeds), each with its own effects and two automation generators. The mix of these outputs is fed to the convolution reverb. The reverb is packed with a set of long and deep sound spaces that create a blurry and ambient sound.\n\nBut the main feature of this application is its well designed parameters that make it easy to experiment with a huge number of sound options using any source material from live instruments to synthesized sound. With just two parameters you can add complex rhythmic structures based on Euclidean rhythms, and easy-to-use automation generators with a randomize option to add variations to the sound, allowing you to modify parameters like an LFO or based on a given rhythm. The convolution reverb has advanced options with which you can change and extend the original reverb spaces.\n\nEven using the randomization button, in almost every case, you will get interesting and various soundscapes and textures. With this option it is very easy to create the basis of new, unique presets, requiring only slight tweaks to some parameters to get impressive results.\n\nThe loop recorder can be started and stopped manually or by input signal, can use fixed length or overwrite the loop while recording, and has the option for crossfade between the end and the beginning of the loop. All this makes it convenient for live use as well as when processing recorded material. As an extended option, you can use a special mode in which the application works as a direct effect, without the loop recorder.\n\nThe special panel Sampler is designed for quickly load samples and easy control of the application when used it live. This panel contains the input and output controls, essential controls of the loop recorder, and a large area with a recording counter, which is also used to start/stop the recorder. You can assign up to nine samples for fast loading into the loop, as well as save a recorded loop as a sample and to an external file.\n\nSpaceFields is a universal application for iOS and macOS. It can work on iPhone and iPad as well as Mac / MacBook with M1 chip (and later). SpaceFields works on iPhone and iPad standalone, as an Audio Unit or Inter-App Audio module, and supports Audiobus and Ableton Link. On macOS, SpaceFields can works both as a standalone application and as an Audio unit (AUv3) with DAWs and audio unit hosts like Ableton Live, Logic Pro, GarageBand, MainStage, Cockos Reaper, Plogue Bidule, Hosting AU, and other hosts that support AUv3 plugins. All application features are available on iOS and macOS, including MIDI support (with a midi learn option), audio unit parameters and importing samples from any directory on device. SpaceFields has a built-in detailed description of all parameters also available as PDF file on application site.\n\nPresets demo:\n\nhttps://www.youtube.com/watch?v=cL1Dis3u0AQ\n\nThe Sampler mode overview:\n\nhttps://www.youtube.com/watch?v=TpkWkc5I0uE\n\nYou can find more information on SpaceFields and other experimental and audio processing apps at:\n\nhttps://motion-soundscape.blogspot.com"
     },
     "im:price": {
-      "label": "3,990.00₸",
+      "label": "2,990.00₸",
       "attributes": {
-        "amount": "3990.00",
+        "amount": "2990.00",
         "currency": "KZT"
       }
     },
@@ -47,17 +47,17 @@
       }
     },
     "rights": {
-      "label": "Copyright © 2019 - 4Pockets.com"
+      "label": "© Igor Vasiliev"
     },
     "title": {
-      "label": "Neon Audio Editor - 4Pockets.com"
+      "label": "SpaceFields - Igor Vasiliev"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/neon-audio-editor/id1583946986?uo=2"
+          "href": "https://apps.apple.com/kz/app/spacefields/id1596872812?uo=2"
         }
       },
       {
@@ -68,22 +68,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/ec/95/51/ec9551b8-3940-aae1-87e7-d7d059168e55/167794e3-533e-4514-8452-fa9662b5f9ee_Screen_Shot_2021-09-27_at_06.39.06.png/1024x1024bb.png",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/fc/1c/88/fc1c883f-df54-1b59-8f94-2baddb08a3f8/705902d8-27b4-43d6-9441-dfb84c9967a4_iPad_screenshot_1-21__U0028landscape_iPad_Pro_12.9_2732x2048_U0029.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/kz/app/neon-audio-editor/id1583946986?uo=2",
+      "label": "https://apps.apple.com/kz/app/spacefields/id1596872812?uo=2",
       "attributes": {
-        "im:id": "1583946986",
-        "im:bundleId": "FPKT.WaveEditor"
+        "im:id": "1596872812",
+        "im:bundleId": "com.spacefields"
       }
     },
     "im:artist": {
-      "label": "4Pockets.com",
+      "label": "Igor Vasiliev",
       "attributes": {
-        "href": "https://apps.apple.com/kz/developer/4pockets-com/id370131860?uo=2"
+        "href": "https://apps.apple.com/kz/developer/igor-vasiliev/id424401626?uo=2"
       }
     },
     "category": {
@@ -95,9 +95,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-09-16T00:00:00-07:00",
+      "label": "2022-03-08T00:00:00-07:00",
       "attributes": {
-        "label": "September 16, 2021"
+        "label": "March 8, 2022"
       }
     }
   },
@@ -212,6 +212,414 @@
       "total": 100
     },
     "im:name": {
+      "label": "CloudBeats: Cloud Music Player"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/86/38/36/863836d5-9f2d-260b-a0b7-a2ed12bf5037/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/86/38/36/863836d5-9f2d-260b-a0b7-a2ed12bf5037/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/86/38/36/863836d5-9f2d-260b-a0b7-a2ed12bf5037/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "EASIEST WAY TO STREAM & ORGANIZE YOUR MUSIC\nTake control over your music and enhance your music listening experience with CloudBeats – cloud music player.\n\nWhether you need an offline cloud music player listener, or a music cloud player to sync all your music albums and download mp3 songs on multiple devices, CloudBeats is the only app you need. It simply allows you to create your own music streaming service.\n\nAll you audiophiles and die-hard music fans finally have a simple app that will organize and play your vast music collection the way you want it. Anywhere. Anytime.\n\nIt’s time to easily upload, store and access your music on the cloud seamlessly with CloudBeats.\n\n► CLOUD MUSIC PLAYER\n● Works with the popular cloud services for music streaming: Dropbox, Google Drive, OneDrive, OneDrive for Business, Box, pCloud, HiDrive. Personal clouds that support webDAV, including ownCloud and NextCloud. Network-Attached Servers (NAS) by Synology, QNAP, Western Digital (WD) and others that support webDAV protocol. These integrations make our cloud music internet song player one of the most versatile cloud music song organizers.\n\n● Plays audio files in different formats: Our free local music player offline app allows you to play mp3, m4a, wav and lossless FLAC and ALAC audio. Meaning our music cloud player can play almost any song you have on your iPhone. \n\n● Works online and offline: Want to enjoy cloud music with no wifi? Well our no wifi music cloud player allows you that. Simply swap between offline and cloud tabs. Also supports shuffle mode & CarPlay.\n\n► MUSIC MANAGER & ORGANIZER\n◉ Sync music libraries: The cloud music organizer app auto detects all the music on your phone and syncs all your music libraries. All songs are grouped by artist, album, genre.\n\n◉ Create playlists: Want to organize your music and create cloud playlists? Add files and entire folders to playlists, change the order of the tracks in the Playlist section of our free music player.\n\n◉ Organize & download music, audiobooks, podcasts: download and sync any of your music across multiple devices on the cloud with this cloud music organizer. Our intuitive song manager & song organizer will give amazing control and effectively organize your music the way you want it. It also supports audiobooks and podcast file formats so you can listen offline without wifi. \n\n► ALL FEATURES:\n・Supports most cloud services, personal clouds and servers. \n・Works without internet. Download albums, playlists, folders or files onto the device for playback in offline mode\n・Playlist maker.\n・Sync your music library with connected network accounts.\n・Supports mp3, wav and m4a, lossless FLAC & ALAC\n・Advanced buffering technologies to provide smooth gapless playback\n・Repeat all, repeat one and shuffle mode. Shuffle the entire library, a single folder, artist or album.\n・Sleep timer to automatically stop music when the timer ends\n・Playback speed control (tempo) within the 0.5x-3.0x range\n・Play offline–no internet or WiFi needed\n・Add music to your favorite playlist\n・Carplay\n・Siri and Shortcuts\n\n“Sync Multiple Devices” is an optional service to keep your Playlists and My Library database in sync between multiple devices. It can also be used to backup and restore your music data. CloudBeats account is required for this service.\n\nWe offer 1-year auto-renewing subscription for $6.99 per year. The price may vary from country to country. \nIf you choose to purchase “Sync Multiple Devices”, payment will be charged to your iTunes account. You will be charged the same price for renewal within 24-hours prior to the end of the current period. Your subscription automatically renews unless auto-renewal is turned off at least 24 hours prior to the end of the current period. Subscriptions may be managed and auto-renewal may be turned off at any time by going to the user’s Account Settings in the App Store after purchase.\n\nCloudBeats privacy policy and terms of use: https://www.cloudbeatsapp.com/privacy-policy/"
+    },
+    "im:price": {
+      "label": "4,490.00₸",
+      "attributes": {
+        "amount": "4490.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© CloudBeats"
+    },
+    "title": {
+      "label": "CloudBeats: Cloud Music Player - Roman Burda"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/cloudbeats-cloud-music-player/id573192227?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/19/a4/85/19a48544-ad89-707a-003b-53c2f6787292/mzl.yhmmyjum.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/cloudbeats-cloud-music-player/id573192227?uo=2",
+      "attributes": {
+        "im:id": "573192227",
+        "im:bundleId": "com.willenapps.cloudplayer"
+      }
+    },
+    "im:artist": {
+      "label": "Roman Burda",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/roman-burda/id426901819?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-11-04T21:09:59-07:00",
+      "attributes": {
+        "label": "November 4, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 4,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Pano Tuner - Chromatic Tuner"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/fc/69/1c/fc691cc8-a657-3230-1bb7-a602ab500233/mzl.wgskopot.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple3/v4/fc/69/1c/fc691cc8-a657-3230-1bb7-a602ab500233/mzl.wgskopot.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple3/v4/fc/69/1c/fc691cc8-a657-3230-1bb7-a602ab500233/mzl.wgskopot.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "** There is nothing negative to say about this app - appPicker review, 06 Aug 2013 \n\nPano Tuner listens to the sound you make and shows you the pitch. You can tune your instrument accurately by looking at the offset from the pitch that you want to tune to.\n\n== Features ==\n\n* Quick and sensitive response\n Just try this app now and see how quick and sensitive it is to your sound. \n\n* Wide range of pitch sensor\n This app is a chromatic tuner. It follows any pitch your instrument can make. Bring any of your instruments - guitars, upright basses, trumpets and piccolos.\n\n* Customization\n \n - Adjust the concert-A frequency to make your instrument in harmony with your band.\n - Change the sensitivity to tune your instrument more accurately.\n - Use non-standard tunings to make your own harmony, such as Pythagorean, Just intonation, 1/4-comma mean tone and more temperaments. You can add your own temperaments to make your chords more in consonance. \n\n== Notes ==\n\nThis app uses the external microphone on your device."
+    },
+    "im:price": {
+      "label": "999.00₸",
+      "attributes": {
+        "amount": "999.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2009-2013, Jung-gun Lim, All rights reserved"
+    },
+    "title": {
+      "label": "Pano Tuner - Chromatic Tuner - Kaleloft LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/pano-tuner-chromatic-tuner/id348094874?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple2/v4/d2/4a/dc/d24adc7d-b1b7-984f-5446-b6c7246b8e9d/mzl.hmqwiixu.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/pano-tuner-chromatic-tuner/id348094874?uo=2",
+      "attributes": {
+        "im:id": "348094874",
+        "im:bundleId": "com.yourcompany.PanoTuner"
+      }
+    },
+    "im:artist": {
+      "label": "Kaleloft LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/kaleloft-llc/id1450095260?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-01-05T17:03:37-07:00",
+      "attributes": {
+        "label": "January 5, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 5,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Neon Audio Editor"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/0c/c3/f9/0cc3f9f5-10bb-0191-07fd-a0a7a1a5298b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/0c/c3/f9/0cc3f9f5-10bb-0191-07fd-a0a7a1a5298b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/0c/c3/f9/0cc3f9f5-10bb-0191-07fd-a0a7a1a5298b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Neon is a lightweight digital audio editor and recording plugin compatible with any AUv3 host. It supports most major iOS file formats, and allows simple drag and drop between plugins. The editor allows you to import audio from a file or the system clipboard, as well as the ability to record incoming audio.\n            \nAs an editor it supports all the usual functionality you would expect as well as being able to edit samples on a per sample basis at extreme zoom levels.\n\nNeon also contains a number of built in effects that can be applied to the whole file or a selection. Effects can be previewed and tweaked prior to applying an effect.\n\nNeon can also be used as a clip launcher within an AUv3 Host, with the ability to remotely trigger one shot or looped samples. The Warp function can automatically adjust the tempo of a clip to the host tempo without affecting pitch.\n\nNeon also features a slicer which allows you to cut up a sample into multiple slices that can be played back via an incoming MIDI controller.\n\n○ Record directly from other plugins.\n○ Auto Start via trigger level supported.\n○ Set maximum recording lengths in Beats / Seconds for perfect loops.\n○ Drag and Drop Support between apps.\n○ Drag and Drop selections to other apps.\n○ Slicing and warping of audio.\n○ Auto Sampler\n○ AudioShare support.\n○ Built in Effects.\n○ Supports loading of external AUv3 effects (standalone mode).\n○ Export to WAV, M4A, MP3 and FLAC formats.\n○ Warp / Time Stretch functionality for syncing to host.\n○ Host Sync.\n○ Media Bay file manager for organising your clips.\n○ Ability to set short name and colour in AUM.\n○ Configurable MIDI Support for clip launching.\n○ Supports iOS General Clipboard operations \n○ Run multiple instances\n○ LUFS measurement.\n\nNote: Neon imposes a 15min sample length limit on recordings due to it's memory restrictions as an AUv3 plugin."
+    },
+    "im:price": {
+      "label": "3,990.00₸",
+      "attributes": {
+        "amount": "3990.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "Copyright © 2019 - 4Pockets.com"
+    },
+    "title": {
+      "label": "Neon Audio Editor - 4Pockets.com"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/neon-audio-editor/id1583946986?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/ec/95/51/ec9551b8-3940-aae1-87e7-d7d059168e55/167794e3-533e-4514-8452-fa9662b5f9ee_Screen_Shot_2021-09-27_at_06.39.06.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/neon-audio-editor/id1583946986?uo=2",
+      "attributes": {
+        "im:id": "1583946986",
+        "im:bundleId": "FPKT.WaveEditor"
+      }
+    },
+    "im:artist": {
+      "label": "4Pockets.com",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/4pockets-com/id370131860?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-09-16T00:00:00-07:00",
+      "attributes": {
+        "label": "September 16, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 6,
+      "total": 100
+    },
+    "im:name": {
+      "label": "UltraTap Delay"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/60/a5/2e60a502-3497-087e-38b5-5ed93085d4a5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/60/a5/2e60a502-3497-087e-38b5-5ed93085d4a5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/60/a5/2e60a502-3497-087e-38b5-5ed93085d4a5/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "UltraTap is a unique multi-tap effect capable of rhythmic delays, glitchy reverbs, huge pad-like volume swells and extraordinary modulation. It’s the perfect tool for creating drum fills, vocal choruses, swelling guitar chords and other evolving effects — everything from reversed reverbs to a massed church choir singing a Gregorian chant in Notre-Dame Cathedral.\n \nFeatures:\n- Use up to 64 taps to create simple repeats or morph delays into choruses and reverbs.\n- Speed up or slow down the rhythmic spacing between taps using the Spread knob.\n- Use the onboard LFOs and envelopes to chop the sound source into stuttered rhythms.\n- Use the innovative \"Slurm\" control to smear taps together or modulate them to create truly unique reverbs.\n- Control the stereo image of taps to alternate between hard-panned and mono.\n- Over 150 presets designed to inspire; including artist presets by Chris Carter, Colin Newman, Sasha and many more.\n- Innovative Ribbon and Hotswitch allow for changing any combination of parameters simultaneously.\n- Use Mix Lock to scroll through presets while keeping the wet-dry mix constant.\n- Available as an Audio Units AUv3 plug-in, Inter-App Audio, and Standalone App."
+    },
+    "im:price": {
+      "label": "3,990.00₸",
+      "attributes": {
+        "amount": "3990.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Eventide Inc."
+    },
+    "title": {
+      "label": "UltraTap Delay - Eventide"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/ultratap-delay/id1463784516?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/11/40/7c/11407c18-2c3b-d84d-b117-c4a9e8c0fda4/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/ultratap-delay/id1463784516?uo=2",
+      "attributes": {
+        "im:id": "1463784516",
+        "im:bundleId": "com.eventide.UltraTap"
+      }
+    },
+    "im:artist": {
+      "label": "Eventide",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/eventide/id546518026?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-08-17T12:53:16-07:00",
+      "attributes": {
+        "label": "August 17, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 7,
+      "total": 100
+    },
+    "im:name": {
       "label": "TouchOSC"
     },
     "im:image": [
@@ -310,7 +718,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 4,
+      "index": 8,
       "total": 100
     },
     "im:name": {
@@ -412,7 +820,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 5,
+      "index": 9,
       "total": 100
     },
     "im:name": {
@@ -514,7 +922,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 6,
+      "index": 10,
       "total": 100
     },
     "im:name": {
@@ -616,7 +1024,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 7,
+      "index": 11,
       "total": 100
     },
     "im:name": {
@@ -718,7 +1126,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 8,
+      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -820,211 +1228,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 9,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Loopy HD: Looper"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/a5/c2/c4a5c2c2-57f5-1c0f-a59c-a225e596ea0b/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/a5/c2/c4a5c2c2-57f5-1c0f-a59c-a225e596ea0b/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/a5/c2/c4a5c2c2-57f5-1c0f-a59c-a225e596ea0b/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Create music with Loopy HD by layering looped recordings of singing, beatboxing, or playing an instrument with a savvy, sophisticated, tactile looper that totally reinvents the formula. As seen on The Tonight Show Starring Jimmy Fallon.\n\nhttps://loopyapp.com\n\n-- “This is the best loop station on the iPhone” -- Dub FX (dubfx.net) \n-- “I pretty much own every mobile looper out there and Loopy is HANDS DOWN the best. Super simple interface with powerful features.” -- J. Alan Meier \n-- “If you want a recording app that will get out of the way and just let you be creative, you just found it.” -- Dave Merson-Hess, indie film composer\n-- “Loopy 2 is by far the best looper for the iPhone we’ve seen to date” -- iOS Recording\n\nCompatible with the Audiobus app: Record and loop live audio directly from other Audiobus-compatible apps!\n\nWhile other music creation apps tend to be either powerful but difficult to learn, or easy to use but limited in features, Loopy doesn't compromise. Loopy offers a sleek, expressive, instantly understandable interface that beginners can start using effectively straight away. It's fun, right from the start. \n\nMore advanced users, however, will not be disappointed by Loopy's rich feature set, with extra features many other loopers just don't have. Plus, a sophisticated interactive tutorial system lets users discover Loopy's more advanced features at their own pace. \n\nRECORD & LAYER\n\n- Six, nine, or twelve beautifully rendered circular loops, with simple yet powerful controls. \n- Count-in, count-out and record chaining lets you keep your hands free to play an instrument.\n- MIDI control, to control Loopy via foot pedal or other controller.\n- Overdub, to build beautiful, complex soundscapes from many layers. \n- Support for tracks of any multiple or fraction of a beat, for flexible and expressive looping. \n- Sophisticated audio or visual metronome to keep you in time - no matter what time signature you choose. \n- Perfectly synchronized, low latency audio engine. \n- Robust MIDI clock receive and send, and support for Ableton Link.\n\nIMPORT & CONSTRUCT \n\n- Import loops from your computer via iTunes, with support for AIFF, WAV, MP3, M4A, CAF and more. \n- Bring in audio from many other audio apps with integrated audio copy and paste. \n- Imported loops are automatically fit to your beat, no matter what tempo. \n\nMANIPULATE & TWEAK \n\n- Full stereo audio, with pan controls for each track to create custom stereoscapes. \n- Fix up timing by twisting tracks around to line up the beat, or make funky sound effects with dynamic time shifting. \n- Drag a track onto another track to merge tracks, and clear up a space. \n- Live, dynamic tempo adjustment to speed up or slow down your creations, without altering the pitch. \n- MIDI clock sync, to play in time with other MIDI-capable devices or apps.\n\nPERFORM & SHARE \n\n- Record whole performances with in-app session recording facilities. \n- Upload performances or single loops straight to SoundCloud, and post to Twitter or Facebook.\n- Email audio clips.\n- Share audio with many other audio apps with audio copy and paste. \n- Transfer loops or performances to your computer via iTunes. \n\n-----\n\nLoopy is developed by one guy who loves making great apps, and who is dedicated to responsive development and support. Please contact me with questions, bug reports, feature ideas, and other feedback at support@atastypixel.com or https://forum.loopyapp.com. I may be able to fix your issue in less time than it would take to write a negative review!"
-    },
-    "im:price": {
-      "label": "2,490.00₸",
-      "attributes": {
-        "amount": "2490.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 A Tasty Pixel Pty Ltd"
-    },
-    "title": {
-      "label": "Loopy HD: Looper - A Tasty Pixel"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/loopy-hd-looper/id467923185?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/cf/d6/50/cfd65058-3d39-e14c-57b6-dee44c212fe4/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/loopy-hd-looper/id467923185?uo=2",
-      "attributes": {
-        "im:id": "467923185",
-        "im:bundleId": "com.atastypixel.loopy-hd"
-      }
-    },
-    "im:artist": {
-      "label": "A Tasty Pixel",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/a-tasty-pixel/id300257827?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-10-06T00:00:00-07:00",
-      "attributes": {
-        "label": "October 6, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 10,
-      "total": 100
-    },
-    "im:name": {
-      "label": "liveBPM - Beat Detector"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple127/v4/78/84/97/78849705-1885-9d96-949e-0ce95878a70c/mzl.elogfyln.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple127/v4/78/84/97/78849705-1885-9d96-949e-0ce95878a70c/mzl.elogfyln.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/78/84/97/78849705-1885-9d96-949e-0ce95878a70c/mzl.elogfyln.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Sharpen your sense of time! liveBPM is the tempo monitoring tool for drummers, bands and DJs. It detects music and beats via the microphone and continuously displays the current tempo in beats per minute (BPM). It is easy to use and delivers high-quality results while being energy efficient.\n\n\n=== What users said about liveBPM ===\n\n\nJohn Walden, freelance musician and music technology journalist at musicappblog.com:\n\"There are three obvious applications for the app. First, it would make a brilliant practice tool for a drummer, allowing them to monitor just how good they are at keeping a steady tempo without the aid of a click track to guide them. Second, sat beside your kit during a performance, it would allow you to judge just how well you are hitting the ideal tempo for each song in your set. It’s not just drummers that can benefit for liveBPM as the third use is in mapping the tempo – and any tempo changes – in commercial recordings. While this is useful for drummers, it is instructional for almost any musician.\" \n\n\nJonLong:\n\"I used this at my last band practice and wasn't expecting it to work. I couldn't believe how quickly and accurately it started tracking the bpm, even despite the very loud volume of our music.\"\n\n\nPocketDrummer82:\n\"I am a professional drummer and I have been looking for something like this for years! Unless your playing with backing tracks or recording, Playing with a Click is too Mechanical. This app allows the tempo to breathe, and its like a little angel on your shoulder telling you the band is speeding up or slowing down. It is totally worth the money.\"\n\n\nChris Walther:\n\"I have used this about five gigs now and have quit using my previous tempo meter. I used both for a few gigs to test the accuracy. Dead on. Thanks! Every drummer should use this.\"\n\n\nmagrec:\n\"This has been very helpful for recording. thanks!\"\n\n\n\n\n=== Detailed Description ===\n\n\nThis is a tool designed for professional use:\n- Well-tested beat detection engine guarantees trustworthiness\n- Can handle most genres\n- Produces results accurate to within 0.1 BPM under the following conditions:\n-- The tempo is constant or almost constant\n-- Strong impulses are defining the beat (drums, accentuated rhythm instruments like bass/guitar, etc.)\n\n\nFurther features:\n- Tempo curve shows the development of tempo over time \n- Multiple zoom modes to show last 2, 3, 5, 7, 10, 15, 20 or 30 minutes\n- Advanced audio spectrum analysis via FFT\n- More accessible and usually more accurate than BPM counters that function through tapping\n- Low battery drain thanks to high performance code and efficient algorithms\n\n\nUsing it as a musician:\n- Use it as an objective tempo reference like a metronome\n- It actually has several advantages over a metronome:\n-- You are not tied to a click, giving you more flexibility\n-- Helps you use tempo changes to enhance your musical expression\n-- With blind tests, it can massively improve your timing confidence, which is especially important if you are in a tempo leading role (e.g. drummer)\n- Discover how/whether your favorite artists use tempo changes\n- Measure and improve your time-keeping skills\n- Identify slowdowns and speedups while practicing your instrument\n- Always be in control of the tempo during your live gigs and rehearsals\n\n\nControls:\n- Power Button: For freezing the tempo curve and minimizing battery drain\n- Clear Button: Clears the tempo curve\n- Slider: Adjusts the target tempo range (i.e. 80-160 BPM)\n- Zoom Buttons: Switch between zoom modes for the tempo curve. (2-30 minutes)\n\n\nNote: \n- You can check and improve the detection by clapping loud to the beat. Also, results can be improved by plugging in a suitable external microphone.\n- You can support my work by rating it on the App Store. If you have questions and/or suggestions, feel free to contact me via e-mail or facebook."
-    },
-    "im:price": {
-      "label": "1,990.00₸",
-      "attributes": {
-        "amount": "1990.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2012-2017 Daniel Bach"
-    },
-    "title": {
-      "label": "liveBPM - Beat Detector - Daniel Bach"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/livebpm-beat-detector/id554766778?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/9e/6f/af/9e6faf15-7767-341c-288a-c919a467b19c/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/livebpm-beat-detector/id554766778?uo=2",
-      "attributes": {
-        "im:id": "554766778",
-        "im:bundleId": "com.DanielBach.liveBPM"
-      }
-    },
-    "im:artist": {
-      "label": "Daniel Bach",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/daniel-bach/id554766781?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-08-31T06:10:28-07:00",
-      "attributes": {
-        "label": "August 31, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 11,
+      "index": 13,
       "total": 100
     },
     "im:name": {
@@ -1126,7 +1330,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 12,
+      "index": 14,
       "total": 100
     },
     "im:name": {
@@ -1228,7 +1432,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 13,
+      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1330,7 +1534,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 14,
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1432,7 +1636,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 15,
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -1534,7 +1738,109 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 16,
+      "index": 18,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Loopy HD: Looper"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/a5/c2/c4a5c2c2-57f5-1c0f-a59c-a225e596ea0b/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/a5/c2/c4a5c2c2-57f5-1c0f-a59c-a225e596ea0b/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/a5/c2/c4a5c2c2-57f5-1c0f-a59c-a225e596ea0b/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Create music with Loopy HD by layering looped recordings of singing, beatboxing, or playing an instrument with a savvy, sophisticated, tactile looper that totally reinvents the formula. As seen on The Tonight Show Starring Jimmy Fallon.\n\nhttps://loopyapp.com\n\n-- “This is the best loop station on the iPhone” -- Dub FX (dubfx.net) \n-- “I pretty much own every mobile looper out there and Loopy is HANDS DOWN the best. Super simple interface with powerful features.” -- J. Alan Meier \n-- “If you want a recording app that will get out of the way and just let you be creative, you just found it.” -- Dave Merson-Hess, indie film composer\n-- “Loopy 2 is by far the best looper for the iPhone we’ve seen to date” -- iOS Recording\n\nCompatible with the Audiobus app: Record and loop live audio directly from other Audiobus-compatible apps!\n\nWhile other music creation apps tend to be either powerful but difficult to learn, or easy to use but limited in features, Loopy doesn't compromise. Loopy offers a sleek, expressive, instantly understandable interface that beginners can start using effectively straight away. It's fun, right from the start. \n\nMore advanced users, however, will not be disappointed by Loopy's rich feature set, with extra features many other loopers just don't have. Plus, a sophisticated interactive tutorial system lets users discover Loopy's more advanced features at their own pace. \n\nRECORD & LAYER\n\n- Six, nine, or twelve beautifully rendered circular loops, with simple yet powerful controls. \n- Count-in, count-out and record chaining lets you keep your hands free to play an instrument.\n- MIDI control, to control Loopy via foot pedal or other controller.\n- Overdub, to build beautiful, complex soundscapes from many layers. \n- Support for tracks of any multiple or fraction of a beat, for flexible and expressive looping. \n- Sophisticated audio or visual metronome to keep you in time - no matter what time signature you choose. \n- Perfectly synchronized, low latency audio engine. \n- Robust MIDI clock receive and send, and support for Ableton Link.\n\nIMPORT & CONSTRUCT \n\n- Import loops from your computer via iTunes, with support for AIFF, WAV, MP3, M4A, CAF and more. \n- Bring in audio from many other audio apps with integrated audio copy and paste. \n- Imported loops are automatically fit to your beat, no matter what tempo. \n\nMANIPULATE & TWEAK \n\n- Full stereo audio, with pan controls for each track to create custom stereoscapes. \n- Fix up timing by twisting tracks around to line up the beat, or make funky sound effects with dynamic time shifting. \n- Drag a track onto another track to merge tracks, and clear up a space. \n- Live, dynamic tempo adjustment to speed up or slow down your creations, without altering the pitch. \n- MIDI clock sync, to play in time with other MIDI-capable devices or apps.\n\nPERFORM & SHARE \n\n- Record whole performances with in-app session recording facilities. \n- Upload performances or single loops straight to SoundCloud, and post to Twitter or Facebook.\n- Email audio clips.\n- Share audio with many other audio apps with audio copy and paste. \n- Transfer loops or performances to your computer via iTunes. \n\n-----\n\nLoopy is developed by one guy who loves making great apps, and who is dedicated to responsive development and support. Please contact me with questions, bug reports, feature ideas, and other feedback at support@atastypixel.com or https://forum.loopyapp.com. I may be able to fix your issue in less time than it would take to write a negative review!"
+    },
+    "im:price": {
+      "label": "2,490.00₸",
+      "attributes": {
+        "amount": "2490.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 A Tasty Pixel Pty Ltd"
+    },
+    "title": {
+      "label": "Loopy HD: Looper - A Tasty Pixel"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/loopy-hd-looper/id467923185?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/cf/d6/50/cfd65058-3d39-e14c-57b6-dee44c212fe4/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/loopy-hd-looper/id467923185?uo=2",
+      "attributes": {
+        "im:id": "467923185",
+        "im:bundleId": "com.atastypixel.loopy-hd"
+      }
+    },
+    "im:artist": {
+      "label": "A Tasty Pixel",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/a-tasty-pixel/id300257827?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-10-06T00:00:00-07:00",
+      "attributes": {
+        "label": "October 6, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 19,
       "total": 100
     },
     "im:name": {
@@ -1636,7 +1942,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 17,
+      "index": 20,
       "total": 100
     },
     "im:name": {
@@ -1738,7 +2044,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 18,
+      "index": 21,
       "total": 100
     },
     "im:name": {
@@ -1840,7 +2146,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 19,
+      "index": 22,
       "total": 100
     },
     "im:name": {
@@ -1942,7 +2248,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 20,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2044,7 +2350,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 21,
+      "index": 24,
       "total": 100
     },
     "im:name": {
@@ -2146,7 +2452,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 22,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2248,7 +2554,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 23,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2350,7 +2656,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 24,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -2452,7 +2758,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 25,
+      "index": 28,
       "total": 100
     },
     "im:name": {
@@ -2554,7 +2860,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 26,
+      "index": 29,
       "total": 100
     },
     "im:name": {
@@ -2656,7 +2962,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 27,
+      "index": 30,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +3064,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 28,
+      "index": 31,
       "total": 100
     },
     "im:name": {
@@ -2860,7 +3166,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 29,
+      "index": 32,
       "total": 100
     },
     "im:name": {
@@ -2962,109 +3268,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 30,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Koala Sampler"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/87/91/4a/87914a0f-8cf2-3bc8-9707-bf0911502cef/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/87/91/4a/87914a0f-8cf2-3bc8-9707-bf0911502cef/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/87/91/4a/87914a0f-8cf2-3bc8-9707-bf0911502cef/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Koala is the ultimate pocket-sized sampler. Record anything with your phone's mic instantly. Use Koala to create beats with those samples, add effects and create a track!\n\nKoala’s super intuitive interface helps you make a tracks in a flash, there is no brake pedal. You can also resample the output of the app back into the input, through the effects, so the sonic possibilities are endless.\n\nKoala's design focuses totally on making the music making progress instant, keeping you in the flow and keeping it fun, not getting bogged down by pages of parameters and micro-editing.\n\n\"Been putting that $4 koala sampler to good use lately. Undeniably great tool that puts some of these expensive beat boxes to shame. A must cop.\" \n-- flying lotus, twitter\n\n* Record up to 64 different samples with your mic\n* Transform your voice or any other sound with 16 superb built-in fx\n* Load your own samples\n* Choose from one of 250 built-in sounds\n* Resample the output of the app back into a new sample\n* Export loops or entire tracks as professional quality WAV files\n* Direct export to Ableton Live Set\n* Copy/paste or merge sequences just by dragging them\n* Create beats with the high-resolution sequencer\n* Import samples using AudioShare or just open them in Koala\n* Keyboard mode lets you play chromatically or one of 9 scales\n* Quantize, add swing to get the right feel\n* Normal/One-shot/Loop/Reverse playback of samples\n* 6 Choke groups\n* Attack, release and tone adjustable on each sample\n* Add any (or all) of the 8 effects to the entire mix\n* AudioBus 3.0 and Inter-App Audio compatible\n* MIDI controllable - play your samples on a keyboard, map the effects to knobs\n* Jam with others over WiFi with Ableton Link\n* Free copy of Ableton Live Lite included\n* Use AI to separate samples into individual instruments (drums, bass, vocals and other)\n* Set your own background image and choose from a growing list of background visual FX.\n\n8 Built-in Microphone FX:\n* More Bass\n* More Treble\n* Fuzz\n* Robot\n* Reverb\n* Octave up\n* Octave down\n* Synthesizer \n\n\n16 Built-in DJ Mix FX:\n* Bit-crusher\n* Pitch-shift\n* Comb filter\n* Ring modulator\n* Reverb\n* Stutter\n* Gate\n* Resonant High/Low Pass Filters\n* Cutter\n* Reverse\n* Dub\n* Tempo Delay\n* Talkbox\n* VibroFlange\n* Dirty\n* Compressor\n\nFeatures included in SAMURAI In-App Purchase\n* Timestretch (4 modes: Modern, Retro, Beats and Re-pitch) \n* Piano roll editor \n* Auto-chop (auto, equal, and lazy chop)\n* 3 Band EQ\n* Pocket operator sync out"
-    },
-    "im:price": {
-      "label": "2,490.00₸",
-      "attributes": {
-        "amount": "2490.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 elf audio"
-    },
-    "title": {
-      "label": "Koala Sampler - Marek Bereza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/koala-sampler/id1449584007?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/32/78/07/32780742-fe59-bd63-7ee9-2ebfe221b043/453385d6-72f6-4f3c-92c5-bf20c303d55f_iPad_portrait_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/koala-sampler/id1449584007?uo=2",
-      "attributes": {
-        "im:id": "1449584007",
-        "im:bundleId": "com.elf-audio.koala"
-      }
-    },
-    "im:artist": {
-      "label": "Marek Bereza",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/marek-bereza/id329604853?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-02-28T10:02:40-07:00",
-      "attributes": {
-        "label": "February 28, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 31,
+      "index": 33,
       "total": 100
     },
     "im:name": {
@@ -3166,34 +3370,34 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 32,
+      "index": 34,
       "total": 100
     },
     "im:name": {
-      "label": "X Air Controller"
+      "label": "Koala Sampler"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/47/39/b4/4739b4cc-f3be-d6b1-364f-bf48dd1ecd68/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/53x53bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/87/91/4a/87914a0f-8cf2-3bc8-9707-bf0911502cef/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/47/39/b4/4739b4cc-f3be-d6b1-364f-bf48dd1ecd68/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/75x75bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/87/91/4a/87914a0f-8cf2-3bc8-9707-bf0911502cef/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/47/39/b4/4739b4cc-f3be-d6b1-364f-bf48dd1ecd68/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/87/91/4a/87914a0f-8cf2-3bc8-9707-bf0911502cef/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Control your Behringer X Air mixer, including the XR12, XR16, and XR18. Also works with Midas M Air series. Simple and easy to use interface allows control of faders, mutes, solos, input, output, compression, eq, bus sends, channel name/color, and more for each channel. \n\nSome additional features include:\n•Easily find your mixer by using the scan function or you can manually enter the IP address if it is known\n•Sync by sending mixer settings from app to mixer or mixer to app\n•Supports left and right hand mode for iPad\n•Option to hide channels\n•Live update parameters made by other devices connected to the mixer\n\nIf you have a minute and enjoy X Air Controller, please leave a review. It helps a lot and I appreciate hearing your feedback. Thank you!"
+      "label": "Koala is the ultimate pocket-sized sampler. Record anything with your phone's mic instantly. Use Koala to create beats with those samples, add effects and create a track!\n\nKoala’s super intuitive interface helps you make a tracks in a flash, there is no brake pedal. You can also resample the output of the app back into the input, through the effects, so the sonic possibilities are endless.\n\nKoala's design focuses totally on making the music making progress instant, keeping you in the flow and keeping it fun, not getting bogged down by pages of parameters and micro-editing.\n\n\"Been putting that $4 koala sampler to good use lately. Undeniably great tool that puts some of these expensive beat boxes to shame. A must cop.\" \n-- flying lotus, twitter\n\n* Record up to 64 different samples with your mic\n* Transform your voice or any other sound with 16 superb built-in fx\n* Load your own samples\n* Choose from one of 250 built-in sounds\n* Resample the output of the app back into a new sample\n* Export loops or entire tracks as professional quality WAV files\n* Direct export to Ableton Live Set\n* Copy/paste or merge sequences just by dragging them\n* Create beats with the high-resolution sequencer\n* Import samples using AudioShare or just open them in Koala\n* Keyboard mode lets you play chromatically or one of 9 scales\n* Quantize, add swing to get the right feel\n* Normal/One-shot/Loop/Reverse playback of samples\n* 6 Choke groups\n* Attack, release and tone adjustable on each sample\n* Add any (or all) of the 8 effects to the entire mix\n* AudioBus 3.0 and Inter-App Audio compatible\n* MIDI controllable - play your samples on a keyboard, map the effects to knobs\n* Jam with others over WiFi with Ableton Link\n* Free copy of Ableton Live Lite included\n* Use AI to separate samples into individual instruments (drums, bass, vocals and other)\n* Set your own background image and choose from a growing list of background visual FX.\n\n8 Built-in Microphone FX:\n* More Bass\n* More Treble\n* Fuzz\n* Robot\n* Reverb\n* Octave up\n* Octave down\n* Synthesizer \n\n\n16 Built-in DJ Mix FX:\n* Bit-crusher\n* Pitch-shift\n* Comb filter\n* Ring modulator\n* Reverb\n* Stutter\n* Gate\n* Resonant High/Low Pass Filters\n* Cutter\n* Reverse\n* Dub\n* Tempo Delay\n* Talkbox\n* VibroFlange\n* Dirty\n* Compressor\n\nFeatures included in SAMURAI In-App Purchase\n* Timestretch (4 modes: Modern, Retro, Beats and Re-pitch) \n* Piano roll editor \n* Auto-chop (auto, equal, and lazy chop)\n* 3 Band EQ\n* Pocket operator sync out"
     },
     "im:price": {
       "label": "2,490.00₸",
@@ -3209,17 +3413,17 @@
       }
     },
     "rights": {
-      "label": "© Nicholas Arduini"
+      "label": "© 2023 elf audio"
     },
     "title": {
-      "label": "X Air Controller - Nicholas Arduini"
+      "label": "Koala Sampler - Marek Bereza"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/x-air-controller/id1382755469?uo=2"
+          "href": "https://apps.apple.com/kz/app/koala-sampler/id1449584007?uo=2"
         }
       },
       {
@@ -3230,22 +3434,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c1/3e/76/c13e7683-382c-3a73-4c0b-bd3bf3fb0020/pr_source.png/1024x1024bb.png",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/32/78/07/32780742-fe59-bd63-7ee9-2ebfe221b043/453385d6-72f6-4f3c-92c5-bf20c303d55f_iPad_portrait_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/kz/app/x-air-controller/id1382755469?uo=2",
+      "label": "https://apps.apple.com/kz/app/koala-sampler/id1449584007?uo=2",
       "attributes": {
-        "im:id": "1382755469",
-        "im:bundleId": "nicholasarduini.XAir-Controller"
+        "im:id": "1449584007",
+        "im:bundleId": "com.elf-audio.koala"
       }
     },
     "im:artist": {
-      "label": "Nicholas Arduini",
+      "label": "Marek Bereza",
       "attributes": {
-        "href": "https://apps.apple.com/kz/developer/nicholas-arduini/id993068062?uo=2"
+        "href": "https://apps.apple.com/kz/developer/marek-bereza/id329604853?uo=2"
       }
     },
     "category": {
@@ -3257,9 +3461,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2018-05-26T20:28:36-07:00",
+      "label": "2019-02-28T10:02:40-07:00",
       "attributes": {
-        "label": "May 26, 2018"
+        "label": "February 28, 2019"
       }
     }
   },
@@ -3268,7 +3472,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 33,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3370,7 +3574,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 34,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3472,7 +3676,109 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 35,
+      "index": 37,
+      "total": 100
+    },
+    "im:name": {
+      "label": "X Air Controller"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/47/39/b4/4739b4cc-f3be-d6b1-364f-bf48dd1ecd68/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/47/39/b4/4739b4cc-f3be-d6b1-364f-bf48dd1ecd68/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/47/39/b4/4739b4cc-f3be-d6b1-364f-bf48dd1ecd68/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Control your Behringer X Air mixer, including the XR12, XR16, and XR18. Also works with Midas M Air series. Simple and easy to use interface allows control of faders, mutes, solos, input, output, compression, eq, bus sends, channel name/color, and more for each channel. \n\nSome additional features include:\n•Easily find your mixer by using the scan function or you can manually enter the IP address if it is known\n•Sync by sending mixer settings from app to mixer or mixer to app\n•Supports left and right hand mode for iPad\n•Option to hide channels\n•Live update parameters made by other devices connected to the mixer\n\nIf you have a minute and enjoy X Air Controller, please leave a review. It helps a lot and I appreciate hearing your feedback. Thank you!"
+    },
+    "im:price": {
+      "label": "2,490.00₸",
+      "attributes": {
+        "amount": "2490.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Nicholas Arduini"
+    },
+    "title": {
+      "label": "X Air Controller - Nicholas Arduini"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/x-air-controller/id1382755469?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c1/3e/76/c13e7683-382c-3a73-4c0b-bd3bf3fb0020/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/x-air-controller/id1382755469?uo=2",
+      "attributes": {
+        "im:id": "1382755469",
+        "im:bundleId": "nicholasarduini.XAir-Controller"
+      }
+    },
+    "im:artist": {
+      "label": "Nicholas Arduini",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/nicholas-arduini/id993068062?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-05-26T20:28:36-07:00",
+      "attributes": {
+        "label": "May 26, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 38,
       "total": 100
     },
     "im:name": {
@@ -3574,7 +3880,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 36,
+      "index": 39,
       "total": 100
     },
     "im:name": {
@@ -3676,7 +3982,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 37,
+      "index": 40,
       "total": 100
     },
     "im:name": {
@@ -3778,7 +4084,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 38,
+      "index": 41,
       "total": 100
     },
     "im:name": {
@@ -3880,7 +4186,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 39,
+      "index": 42,
       "total": 100
     },
     "im:name": {
@@ -3982,211 +4288,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 40,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Synkd"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/4e/d3/93/4ed39319-7b56-a46f-3896-a215dfb89660/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/4e/d3/93/4ed39319-7b56-a46f-3896-a215dfb89660/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/4e/d3/93/4ed39319-7b56-a46f-3896-a215dfb89660/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Far more than a metronome, SYNKD is a revolutionary educational tool for all musicians. The app combines an easy-to-use graphic-based rhythmic sequencer with a highly advanced metronome. Build and save rhythm chains for practice routines and skill development. Download pre-programmed rhythm chains to maximize your practice time, learn new patterns, and perfect your timing, all from the palm of your hand."
-    },
-    "im:price": {
-      "label": "3,990.00₸",
-      "attributes": {
-        "amount": "3990.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 Flamadiddle Inc."
-    },
-    "title": {
-      "label": "Synkd - Flamadiddle Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/synkd/id370505375?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/a7/c7/66/a7c76610-4a7f-df11-a7d1-9e700bc0be29/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/synkd/id370505375?uo=2",
-      "attributes": {
-        "im:id": "370505375",
-        "im:bundleId": "com.andyshoniker.rhythmtrainer"
-      }
-    },
-    "im:artist": {
-      "label": "Flamadiddle Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/flamadiddle-inc/id370505378?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-06-28T00:00:00-07:00",
-      "attributes": {
-        "label": "June 28, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 41,
-      "total": 100
-    },
-    "im:name": {
-      "label": "XAir Monitor Mixer"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "XAir Monitor Mixer is a personal monitor mixer for select Behringer and Midas digital mixers. It allows each musician on stage to choose exactly what they hear in their monitor without affecting (or being able to affect, even by accident) the band's main mix.\n\nXAir Monitor Mixer supports the Behringer X18, XR18, XR16, XR12, and the Midas MR18 and MR12.\n\nXAir Monitor Mixer deliberately does not include controls that would allow a musician on stage to accidentally mute channels or otherwise alter the main mix.\n\nUsage:\n\n1. Connect to the same WiFi network as the XR18.  In most cases, this should be enough for the app to find your mixer. However, if your sound engineer has changed the default address of the mixer, you'll have to enter that address in the app's connection screen.\n2. Choose which monitor you want to mix. If your sound engineer hasn't named these in a way that makes it obvious which is yours, ask him which is yours.\n3. Mix away. :)\n\nIf you have feedback, suggestions, or bug reports, please visit the forums at xairmonitormixer.tetzfiles.com or send an email to xairmonitormixer@tetzfiles.com.\n\nNote: support for mixers other than XR18 was recently added. If you run into any issues, please let us know. Ensuring proper compatibility with all supported mixers is our top priority."
-    },
-    "im:price": {
-      "label": "1,990.00₸",
-      "attributes": {
-        "amount": "1990.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 Tetzfiles"
-    },
-    "title": {
-      "label": "XAir Monitor Mixer - Eric Tetz"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/xair-monitor-mixer/id1271279395?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/b1/6b/68/b16b68a7-ca5b-791b-29ed-13668c540a97/mzl.mcdflhnd.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/xair-monitor-mixer/id1271279395?uo=2",
-      "attributes": {
-        "im:id": "1271279395",
-        "im:bundleId": "com.tetzfiles.XAirMonitorMixer"
-      }
-    },
-    "im:artist": {
-      "label": "Eric Tetz",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/eric-tetz/id1271279394?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-09-06T20:34:34-07:00",
-      "attributes": {
-        "label": "September 6, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 42,
+      "index": 43,
       "total": 100
     },
     "im:name": {
@@ -4288,7 +4390,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 43,
+      "index": 44,
       "total": 100
     },
     "im:name": {
@@ -4390,7 +4492,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 44,
+      "index": 45,
       "total": 100
     },
     "im:name": {
@@ -4492,7 +4594,109 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 45,
+      "index": 46,
+      "total": 100
+    },
+    "im:name": {
+      "label": "liveBPM - Beat Detector"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple127/v4/78/84/97/78849705-1885-9d96-949e-0ce95878a70c/mzl.elogfyln.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple127/v4/78/84/97/78849705-1885-9d96-949e-0ce95878a70c/mzl.elogfyln.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/78/84/97/78849705-1885-9d96-949e-0ce95878a70c/mzl.elogfyln.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Sharpen your sense of time! liveBPM is the tempo monitoring tool for drummers, bands and DJs. It detects music and beats via the microphone and continuously displays the current tempo in beats per minute (BPM). It is easy to use and delivers high-quality results while being energy efficient.\n\n\n=== What users said about liveBPM ===\n\n\nJohn Walden, freelance musician and music technology journalist at musicappblog.com:\n\"There are three obvious applications for the app. First, it would make a brilliant practice tool for a drummer, allowing them to monitor just how good they are at keeping a steady tempo without the aid of a click track to guide them. Second, sat beside your kit during a performance, it would allow you to judge just how well you are hitting the ideal tempo for each song in your set. It’s not just drummers that can benefit for liveBPM as the third use is in mapping the tempo – and any tempo changes – in commercial recordings. While this is useful for drummers, it is instructional for almost any musician.\" \n\n\nJonLong:\n\"I used this at my last band practice and wasn't expecting it to work. I couldn't believe how quickly and accurately it started tracking the bpm, even despite the very loud volume of our music.\"\n\n\nPocketDrummer82:\n\"I am a professional drummer and I have been looking for something like this for years! Unless your playing with backing tracks or recording, Playing with a Click is too Mechanical. This app allows the tempo to breathe, and its like a little angel on your shoulder telling you the band is speeding up or slowing down. It is totally worth the money.\"\n\n\nChris Walther:\n\"I have used this about five gigs now and have quit using my previous tempo meter. I used both for a few gigs to test the accuracy. Dead on. Thanks! Every drummer should use this.\"\n\n\nmagrec:\n\"This has been very helpful for recording. thanks!\"\n\n\n\n\n=== Detailed Description ===\n\n\nThis is a tool designed for professional use:\n- Well-tested beat detection engine guarantees trustworthiness\n- Can handle most genres\n- Produces results accurate to within 0.1 BPM under the following conditions:\n-- The tempo is constant or almost constant\n-- Strong impulses are defining the beat (drums, accentuated rhythm instruments like bass/guitar, etc.)\n\n\nFurther features:\n- Tempo curve shows the development of tempo over time \n- Multiple zoom modes to show last 2, 3, 5, 7, 10, 15, 20 or 30 minutes\n- Advanced audio spectrum analysis via FFT\n- More accessible and usually more accurate than BPM counters that function through tapping\n- Low battery drain thanks to high performance code and efficient algorithms\n\n\nUsing it as a musician:\n- Use it as an objective tempo reference like a metronome\n- It actually has several advantages over a metronome:\n-- You are not tied to a click, giving you more flexibility\n-- Helps you use tempo changes to enhance your musical expression\n-- With blind tests, it can massively improve your timing confidence, which is especially important if you are in a tempo leading role (e.g. drummer)\n- Discover how/whether your favorite artists use tempo changes\n- Measure and improve your time-keeping skills\n- Identify slowdowns and speedups while practicing your instrument\n- Always be in control of the tempo during your live gigs and rehearsals\n\n\nControls:\n- Power Button: For freezing the tempo curve and minimizing battery drain\n- Clear Button: Clears the tempo curve\n- Slider: Adjusts the target tempo range (i.e. 80-160 BPM)\n- Zoom Buttons: Switch between zoom modes for the tempo curve. (2-30 minutes)\n\n\nNote: \n- You can check and improve the detection by clapping loud to the beat. Also, results can be improved by plugging in a suitable external microphone.\n- You can support my work by rating it on the App Store. If you have questions and/or suggestions, feel free to contact me via e-mail or facebook."
+    },
+    "im:price": {
+      "label": "1,990.00₸",
+      "attributes": {
+        "amount": "1990.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2012-2017 Daniel Bach"
+    },
+    "title": {
+      "label": "liveBPM - Beat Detector - Daniel Bach"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/livebpm-beat-detector/id554766778?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/9e/6f/af/9e6faf15-7767-341c-288a-c919a467b19c/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/livebpm-beat-detector/id554766778?uo=2",
+      "attributes": {
+        "im:id": "554766778",
+        "im:bundleId": "com.DanielBach.liveBPM"
+      }
+    },
+    "im:artist": {
+      "label": "Daniel Bach",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/daniel-bach/id554766781?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-08-31T06:10:28-07:00",
+      "attributes": {
+        "label": "August 31, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 47,
       "total": 100
     },
     "im:name": {
@@ -4594,7 +4798,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 46,
+      "index": 48,
       "total": 100
     },
     "im:name": {
@@ -4696,7 +4900,109 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 47,
+      "index": 49,
+      "total": 100
+    },
+    "im:name": {
+      "label": "XAir Monitor Mixer"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "XAir Monitor Mixer is a personal monitor mixer for select Behringer and Midas digital mixers. It allows each musician on stage to choose exactly what they hear in their monitor without affecting (or being able to affect, even by accident) the band's main mix.\n\nXAir Monitor Mixer supports the Behringer X18, XR18, XR16, XR12, and the Midas MR18 and MR12.\n\nXAir Monitor Mixer deliberately does not include controls that would allow a musician on stage to accidentally mute channels or otherwise alter the main mix.\n\nUsage:\n\n1. Connect to the same WiFi network as the XR18.  In most cases, this should be enough for the app to find your mixer. However, if your sound engineer has changed the default address of the mixer, you'll have to enter that address in the app's connection screen.\n2. Choose which monitor you want to mix. If your sound engineer hasn't named these in a way that makes it obvious which is yours, ask him which is yours.\n3. Mix away. :)\n\nIf you have feedback, suggestions, or bug reports, please visit the forums at xairmonitormixer.tetzfiles.com or send an email to xairmonitormixer@tetzfiles.com.\n\nNote: support for mixers other than XR18 was recently added. If you run into any issues, please let us know. Ensuring proper compatibility with all supported mixers is our top priority."
+    },
+    "im:price": {
+      "label": "1,990.00₸",
+      "attributes": {
+        "amount": "1990.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 Tetzfiles"
+    },
+    "title": {
+      "label": "XAir Monitor Mixer - Eric Tetz"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/xair-monitor-mixer/id1271279395?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/b1/6b/68/b16b68a7-ca5b-791b-29ed-13668c540a97/mzl.mcdflhnd.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/xair-monitor-mixer/id1271279395?uo=2",
+      "attributes": {
+        "im:id": "1271279395",
+        "im:bundleId": "com.tetzfiles.XAirMonitorMixer"
+      }
+    },
+    "im:artist": {
+      "label": "Eric Tetz",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/eric-tetz/id1271279394?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-09-06T20:34:34-07:00",
+      "attributes": {
+        "label": "September 6, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 50,
       "total": 100
     },
     "im:name": {
@@ -4798,7 +5104,109 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 48,
+      "index": 51,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Synkd"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/4e/d3/93/4ed39319-7b56-a46f-3896-a215dfb89660/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/4e/d3/93/4ed39319-7b56-a46f-3896-a215dfb89660/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/4e/d3/93/4ed39319-7b56-a46f-3896-a215dfb89660/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Far more than a metronome, SYNKD is a revolutionary educational tool for all musicians. The app combines an easy-to-use graphic-based rhythmic sequencer with a highly advanced metronome. Build and save rhythm chains for practice routines and skill development. Download pre-programmed rhythm chains to maximize your practice time, learn new patterns, and perfect your timing, all from the palm of your hand."
+    },
+    "im:price": {
+      "label": "3,990.00₸",
+      "attributes": {
+        "amount": "3990.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Flamadiddle Inc."
+    },
+    "title": {
+      "label": "Synkd - Flamadiddle Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/synkd/id370505375?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/a7/c7/66/a7c76610-4a7f-df11-a7d1-9e700bc0be29/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/synkd/id370505375?uo=2",
+      "attributes": {
+        "im:id": "370505375",
+        "im:bundleId": "com.andyshoniker.rhythmtrainer"
+      }
+    },
+    "im:artist": {
+      "label": "Flamadiddle Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/flamadiddle-inc/id370505378?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-06-28T00:00:00-07:00",
+      "attributes": {
+        "label": "June 28, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 52,
       "total": 100
     },
     "im:name": {
@@ -4900,109 +5308,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 49,
-      "total": 100
-    },
-    "im:name": {
-      "label": "KORG Module Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/56/e8/73/56e873e3-53ad-a06d-5156-f0874b40e496/AppIcon-Pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/56/e8/73/56e873e3-53ad-a06d-5156-f0874b40e496/AppIcon-Pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/56/e8/73/56e873e3-53ad-a06d-5156-f0874b40e496/AppIcon-Pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The best sounds, available to everyone. Announcing a new high-quality mobile sound module app for iOS!\n\n• Achieved the #1 position*on the App Store* in the Top Paid Music App category\n*USA, UK, Japan, Germany, France, Italy, Canada and much more!\n\nIdeal for performance and music production, KORG Module is a high-quality sound module app for iOS that contains a professional sound library. With just your iPad/iPhone and a MIDI keyboard such as the new microKEY, you can play studio-quality keyboard and grand piano sounds anywhere. You can also use the sounds of KORG Module for the KORG Gadget music production app. Maintaining its position at the forefront of mobile music apps, KORG now offers you a new style of performance and production with KORG Module for iOS.\n\nFEATURE HIGHLIGHTS\n● Stunningly high-quality piano and a full range of keyboard sound engines\n● Five dedicated sound engines : Acoustic Piano/Electric Piano/Clav/Organ/Multi\n● Ultra-low latency sound engine\n● With just an iPad/iPhone and the new microKEY, you can enjoy great sound anywhere\n● Mobile music production in tandem with KORG Gadget\n● Convenient set list function with a PDF/image score viewer and music player\n● Power-up even more with expansion sound libraries: TRITON Best Selection / Ivory Mobile Grand / PREMIER Vintage Organ\n● Easily record your performances, and share song sketches on SoundCloud\n● Integrating iOS technology that's indispensable for the mobile environment\n\n*** Stunningly high-quality piano and a full range of keyboard sound engines ***\nKORG Module has five dedicated sound engines, providing a number of high-quality sounds that can be played back on your iOS using the \"NATIVE ENGINE”. These engines feature technology that was developed for KORG's historic line of workstations and synthesizers including: Acoustic Piano, Electric Piano, Clav, Organ, and Multi. Each display has carefully selected parameters, making it convenient and easy to adjust the sounds. We’ve also carefully ensured ideal playability and designed the system for ultra-low latency. Once you experience the quality of the sounds being produced from the slim body of your iPad, you'll agree that Module is radically different than anything else currently on the market.\n\n*** With just an iPad/iPhone and the new microKEY, you can enjoy great sound anywhere ***\nKORG Module and the microKEY are the best possible combination for a mobile performance environment. With the new microKEY which supports a damper, or the microKEY Air which provides a wireless connection via Bluetooth MIDI, your iPad can transform into a high-quality sound module. In your room, in a practice studio, or performing on stage,, it's easy to set up and immerse yourself in a superb playing experience wherever you are. Of course you can also use any MIDI keyboard that can connect to your iPad via Apple Lightning - USB camera adapter. The velocity curve function conforms the sound to your playing dynamics, so you'll be able to perform comfortably using any MIDI keyboard. Even if you don't have a MIDI keyboard, you can use the apps on-screen keyboard, phrase function, or MIDI player to play the sounds. The MIDI player can load and play standard MIDI files for your listening enjoyment.\n\n*** Mobile music production in tandem with KORG Gadget ***\nYou can also use the high-quality KORG Module sounds inside KORG Gadget, the mobile music production app. If you have Module and Gadget, the five tools Salzburg, Montreal, Alexandria, Firenze, and Glasgow are added inside, allowing access the same way as Gadget. These five powerful gadgets will add even more variety to your music productions, raising your music to the next level. Whether for performance or for production, both of these apps deliver ultimate sound.\n\nMore info at korg.com"
-    },
-    "im:price": {
-      "label": "19,990.00₸",
-      "attributes": {
-        "amount": "19990.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2014-2022 KORG INC."
-    },
-    "title": {
-      "label": "KORG Module Pro - KORG INC."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/korg-module-pro/id932191687?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/0a/86/a2/0a86a285-0d81-a725-f830-295535ff3f0c/mzl.uuprlevy.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/korg-module-pro/id932191687?uo=2",
-      "attributes": {
-        "im:id": "932191687",
-        "im:bundleId": "jp.co.korg.Module"
-      }
-    },
-    "im:artist": {
-      "label": "KORG INC.",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/korg-inc/id363714046?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-11-27T18:43:13-07:00",
-      "attributes": {
-        "label": "November 27, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 50,
+      "index": 53,
       "total": 100
     },
     "im:name": {
@@ -5104,7 +5410,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 51,
+      "index": 54,
       "total": 100
     },
     "im:name": {
@@ -5206,7 +5512,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 52,
+      "index": 55,
       "total": 100
     },
     "im:name": {
@@ -5308,7 +5614,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 53,
+      "index": 56,
       "total": 100
     },
     "im:name": {
@@ -5410,7 +5716,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 54,
+      "index": 57,
       "total": 100
     },
     "im:name": {
@@ -5512,7 +5818,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 55,
+      "index": 58,
       "total": 100
     },
     "im:name": {
@@ -5614,7 +5920,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 56,
+      "index": 59,
       "total": 100
     },
     "im:name": {
@@ -5716,7 +6022,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 57,
+      "index": 60,
       "total": 100
     },
     "im:name": {
@@ -5818,7 +6124,109 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 58,
+      "index": 61,
+      "total": 100
+    },
+    "im:name": {
+      "label": "KORG Module Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/56/e8/73/56e873e3-53ad-a06d-5156-f0874b40e496/AppIcon-Pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/56/e8/73/56e873e3-53ad-a06d-5156-f0874b40e496/AppIcon-Pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/56/e8/73/56e873e3-53ad-a06d-5156-f0874b40e496/AppIcon-Pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The best sounds, available to everyone. Announcing a new high-quality mobile sound module app for iOS!\n\n• Achieved the #1 position*on the App Store* in the Top Paid Music App category\n*USA, UK, Japan, Germany, France, Italy, Canada and much more!\n\nIdeal for performance and music production, KORG Module is a high-quality sound module app for iOS that contains a professional sound library. With just your iPad/iPhone and a MIDI keyboard such as the new microKEY, you can play studio-quality keyboard and grand piano sounds anywhere. You can also use the sounds of KORG Module for the KORG Gadget music production app. Maintaining its position at the forefront of mobile music apps, KORG now offers you a new style of performance and production with KORG Module for iOS.\n\nFEATURE HIGHLIGHTS\n● Stunningly high-quality piano and a full range of keyboard sound engines\n● Five dedicated sound engines : Acoustic Piano/Electric Piano/Clav/Organ/Multi\n● Ultra-low latency sound engine\n● With just an iPad/iPhone and the new microKEY, you can enjoy great sound anywhere\n● Mobile music production in tandem with KORG Gadget\n● Convenient set list function with a PDF/image score viewer and music player\n● Power-up even more with expansion sound libraries: TRITON Best Selection / Ivory Mobile Grand / PREMIER Vintage Organ\n● Easily record your performances, and share song sketches on SoundCloud\n● Integrating iOS technology that's indispensable for the mobile environment\n\n*** Stunningly high-quality piano and a full range of keyboard sound engines ***\nKORG Module has five dedicated sound engines, providing a number of high-quality sounds that can be played back on your iOS using the \"NATIVE ENGINE”. These engines feature technology that was developed for KORG's historic line of workstations and synthesizers including: Acoustic Piano, Electric Piano, Clav, Organ, and Multi. Each display has carefully selected parameters, making it convenient and easy to adjust the sounds. We’ve also carefully ensured ideal playability and designed the system for ultra-low latency. Once you experience the quality of the sounds being produced from the slim body of your iPad, you'll agree that Module is radically different than anything else currently on the market.\n\n*** With just an iPad/iPhone and the new microKEY, you can enjoy great sound anywhere ***\nKORG Module and the microKEY are the best possible combination for a mobile performance environment. With the new microKEY which supports a damper, or the microKEY Air which provides a wireless connection via Bluetooth MIDI, your iPad can transform into a high-quality sound module. In your room, in a practice studio, or performing on stage,, it's easy to set up and immerse yourself in a superb playing experience wherever you are. Of course you can also use any MIDI keyboard that can connect to your iPad via Apple Lightning - USB camera adapter. The velocity curve function conforms the sound to your playing dynamics, so you'll be able to perform comfortably using any MIDI keyboard. Even if you don't have a MIDI keyboard, you can use the apps on-screen keyboard, phrase function, or MIDI player to play the sounds. The MIDI player can load and play standard MIDI files for your listening enjoyment.\n\n*** Mobile music production in tandem with KORG Gadget ***\nYou can also use the high-quality KORG Module sounds inside KORG Gadget, the mobile music production app. If you have Module and Gadget, the five tools Salzburg, Montreal, Alexandria, Firenze, and Glasgow are added inside, allowing access the same way as Gadget. These five powerful gadgets will add even more variety to your music productions, raising your music to the next level. Whether for performance or for production, both of these apps deliver ultimate sound.\n\nMore info at korg.com"
+    },
+    "im:price": {
+      "label": "19,990.00₸",
+      "attributes": {
+        "amount": "19990.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2014-2022 KORG INC."
+    },
+    "title": {
+      "label": "KORG Module Pro - KORG INC."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/korg-module-pro/id932191687?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/0a/86/a2/0a86a285-0d81-a725-f830-295535ff3f0c/mzl.uuprlevy.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/korg-module-pro/id932191687?uo=2",
+      "attributes": {
+        "im:id": "932191687",
+        "im:bundleId": "jp.co.korg.Module"
+      }
+    },
+    "im:artist": {
+      "label": "KORG INC.",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/korg-inc/id363714046?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-11-27T18:43:13-07:00",
+      "attributes": {
+        "label": "November 27, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 62,
       "total": 100
     },
     "im:name": {
@@ -5920,7 +6328,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 59,
+      "index": 63,
       "total": 100
     },
     "im:name": {
@@ -6022,7 +6430,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 60,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6124,7 +6532,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 61,
+      "index": 65,
       "total": 100
     },
     "im:name": {
@@ -6226,7 +6634,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 62,
+      "index": 66,
       "total": 100
     },
     "im:name": {
@@ -6328,109 +6736,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 63,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Radio Box"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/1f/3e/e4/1f3ee4e1-5a9e-0f54-2e3e-109afe745017/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/1f/3e/e4/1f3ee4e1-5a9e-0f54-2e3e-109afe745017/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/1f/3e/e4/1f3ee4e1-5a9e-0f54-2e3e-109afe745017/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Features:\n\n- Live Station Updates\n- Listen to the best radio stations of All Languages\n- Select Language and Listen\n- Easy Search Radio Stations\n- Multiple Language Radio Stations\n- Share using Facebook, Twitter, SMS, Email\n- Listen in the background\n- Listen radio with Air-Play\n- Support for Apple Watch, Apple TV and Apple CarPlay\n- Online Radio Station Updation"
-    },
-    "im:price": {
-      "label": "199.00₸",
-      "attributes": {
-        "amount": "199.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Finmak Softwares"
-    },
-    "title": {
-      "label": "Radio Box - SRINIVASAN PARAMASIVAM"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/radio-box/id1456650727?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/bf/8a/d8/bf8ad885-ee70-b707-8cbd-cc8de9521e6a/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/radio-box/id1456650727?uo=2",
-      "attributes": {
-        "im:id": "1456650727",
-        "im:bundleId": "com.finmak.Radio"
-      }
-    },
-    "im:artist": {
-      "label": "SRINIVASAN PARAMASIVAM",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/srinivasan-paramasivam/id1451646436?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-03-24T12:45:40-07:00",
-      "attributes": {
-        "label": "March 24, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 64,
+      "index": 67,
       "total": 100
     },
     "im:name": {
@@ -6532,7 +6838,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 65,
+      "index": 68,
       "total": 100
     },
     "im:name": {
@@ -6634,7 +6940,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 66,
+      "index": 69,
       "total": 100
     },
     "im:name": {
@@ -6736,7 +7042,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 67,
+      "index": 70,
       "total": 100
     },
     "im:name": {
@@ -6838,7 +7144,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 68,
+      "index": 71,
       "total": 100
     },
     "im:name": {
@@ -6940,7 +7246,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 69,
+      "index": 72,
       "total": 100
     },
     "im:name": {
@@ -7042,7 +7348,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 70,
+      "index": 73,
       "total": 100
     },
     "im:name": {
@@ -7144,7 +7450,109 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 71,
+      "index": 74,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Radio Box"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/1f/3e/e4/1f3ee4e1-5a9e-0f54-2e3e-109afe745017/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/1f/3e/e4/1f3ee4e1-5a9e-0f54-2e3e-109afe745017/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/1f/3e/e4/1f3ee4e1-5a9e-0f54-2e3e-109afe745017/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Features:\n\n- Live Station Updates\n- Listen to the best radio stations of All Languages\n- Select Language and Listen\n- Easy Search Radio Stations\n- Multiple Language Radio Stations\n- Share using Facebook, Twitter, SMS, Email\n- Listen in the background\n- Listen radio with Air-Play\n- Support for Apple Watch, Apple TV and Apple CarPlay\n- Online Radio Station Updation"
+    },
+    "im:price": {
+      "label": "199.00₸",
+      "attributes": {
+        "amount": "199.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Finmak Softwares"
+    },
+    "title": {
+      "label": "Radio Box - SRINIVASAN PARAMASIVAM"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/radio-box/id1456650727?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/bf/8a/d8/bf8ad885-ee70-b707-8cbd-cc8de9521e6a/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/radio-box/id1456650727?uo=2",
+      "attributes": {
+        "im:id": "1456650727",
+        "im:bundleId": "com.finmak.Radio"
+      }
+    },
+    "im:artist": {
+      "label": "SRINIVASAN PARAMASIVAM",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/srinivasan-paramasivam/id1451646436?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-03-24T12:45:40-07:00",
+      "attributes": {
+        "label": "March 24, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 75,
       "total": 100
     },
     "im:name": {
@@ -7246,7 +7654,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 72,
+      "index": 76,
       "total": 100
     },
     "im:name": {
@@ -7348,7 +7756,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 73,
+      "index": 77,
       "total": 100
     },
     "im:name": {
@@ -7450,211 +7858,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 74,
-      "total": 100
-    },
-    "im:name": {
-      "label": "PlayTally: Apple Music Stats"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/ce/66/4a/ce664aa6-4d4f-0d89-a66a-02f8560532de/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/ce/66/4a/ce664aa6-4d4f-0d89-a66a-02f8560532de/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/ce/66/4a/ce664aa6-4d4f-0d89-a66a-02f8560532de/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "REAL-TIME REPLAY\nWith PlayTally you are no longer limited to yearly Replay recap; choose your own dates and see your top songs for any time period. And PlayTally lists are generated in real-time, so there’s no more waiting for weekly updates. Plus, you can easily mark tracks like white noise and sleep sounds to keep them out of your Trends list.\n\nTRACK YOUR HISTORY\nSync PlayTally data across multiple devices through iCloud. Track additional Apple Music devices by syncing them together with iCloud Music Library. Go back in time to see what you were listening to on a given day, and create playlists from your history.\n\nEARN AWARDS\nEarn badges as your listen more and grow your music collection. It’s like Activity awards for your ears!\n\nSEE YOUR STATS\nEasily browse large libraries by sorting based on your listening habits. Get insights into your music collection with advanced statistics and charts of your listening habits over time. Share your most impressive stats with your friends and followers.\n\nCOMPLETELY AD-FREE.\nWorks with your Apple Music automatically. No extra accounts, signups or subscriptions required.\n\nPRIVACY FIRST\nYour data never leaves your device and/or iCloud storage and can be deleted at any time. PlayTally uses no third party analytics services and is completely ad-free. If you wish, you can also export and backup your data in CSV format.\n\n\nTIPS FOR BEST PERFORMANCE\nPlayTally is fastest and most accurate when it scans the users music library regularly. Creating an automated Shortcut to open PlayTally daily or weekly is a GREAT way to ensure data does not backlog.\n\n\nNOTE: Because PlayTally tracks its own data, it cannot reconstruct playback history from before it was installed."
-    },
-    "im:price": {
-      "label": "999.00₸",
-      "attributes": {
-        "amount": "999.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "2021-2022 © Michael Clay"
-    },
-    "title": {
-      "label": "PlayTally: Apple Music Stats - Mike Clay"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/playtally-apple-music-stats/id1513271356?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/00/c6/b7/00c6b7bc-2c23-6113-96c3-3953a106d80b/1a112c98-e6e4-44f2-a34b-f57e0099e749_BackTrack_PreLaunch_Screenshots-11.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/playtally-apple-music-stats/id1513271356?uo=2",
-      "attributes": {
-        "im:id": "1513271356",
-        "im:bundleId": "com.michaelclay.BackTracks"
-      }
-    },
-    "im:artist": {
-      "label": "Mike Clay",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/mike-clay/id924491990?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-10-08T00:00:00-07:00",
-      "attributes": {
-        "label": "October 8, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 75,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Mid East Drummer"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/27/f2/ff27f2ad-fb18-b5bf-152d-c5dc1081a9ae/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/27/f2/ff27f2ad-fb18-b5bf-152d-c5dc1081a9ae/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/27/f2/ff27f2ad-fb18-b5bf-152d-c5dc1081a9ae/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "A complete Middle Eastern percussion ensemble in your hands including more than 300 Rhythms from Egypt, Morocco, Iran, Persia, Iran, Turkey, Greece... with meticulously treated sounds creating the most realistic percussion world.\n\nMiddle East grooves are the one greatest rhythmic richness, with a large number of different measures. From the common 4 / 4 time to the most interesting and exotic asymmetrical rhythms, like 7/8, 5/8, 15 / 16, 11/ 16 ...\n\nMultilayered sounds with Round Robin samples. Bendir, Darbuka, Riq, Dahola, Davul, Tar, Tarija ...\n\n- The Jam Function improvise like human percussionist. Just set the level of variations and fills and play.\n- Song Mode. Create song structures in seconds.\n- Midi Out / In\n- Midi Sync\n- 4 Effects to combine, including Compressor/Gate, Equalizer, Delay and Reverb.\n- Random generators to get creative ideas instantly.\n- Ableton Link Sync\n- Inter-App Audio\n- Control several parameters with midi Control Change and Program Change.\n\n--- MIDI Control - Notes Mode\nPlay / Stop - Midi Note G2 / Program Change 13\nMidi CC 0: Rhythm\nMidi CC 7: Master Volume\nMidi CC 11: Swing\nMidi CC 32: Bank\nMidi CC 91: Reverb Gain\nSelect Soundset: Program Change (Notes Live Pad Mode)\n\n--- Live Pad Midi Controls:\n* Program Change Mode (default setting)\nPC 0 to PC7 : Select Pad\nPC8: Fill\nPC12: Fill for the next Pad change\nPC10: Fill for every Pad change\nPC11: Fill & Start / End\nPC13: Play\n\n\n* Notes Mode (default setting)\nC3 to G3 : Select Pad\nC2: Fill\nD2: Fill for the next Pad change\nE2: Fill for every Pad change\nA2: Fill & Start / End.\n\n- Song Mode Controls: (Notes Live Pad Mode)\nMidi Note C2: Preview Song\nMidi Note D2: Next Song\n* Double press to edit a part or song\n* Long press to move parts or songs"
-    },
-    "im:price": {
-      "label": "8,990.00₸",
-      "attributes": {
-        "amount": "8990.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© LumBeat 2017"
-    },
-    "title": {
-      "label": "Mid East Drummer - Lumbeat"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/mid-east-drummer/id1326542395?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/e8/42/c8/e842c880-2e21-d715-32b3-f7d30e219c05/01f08946-961f-4577-b54a-b55d5f648f87_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-10-25_at_10.04.35.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/mid-east-drummer/id1326542395?uo=2",
-      "attributes": {
-        "im:id": "1326542395",
-        "im:bundleId": "com.lumbeat.mideastdrummer"
-      }
-    },
-    "im:artist": {
-      "label": "Lumbeat",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/lumbeat/id590278231?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-12-21T13:35:31-07:00",
-      "attributes": {
-        "label": "December 21, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 76,
+      "index": 78,
       "total": 100
     },
     "im:name": {
@@ -7756,7 +7960,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 77,
+      "index": 79,
       "total": 100
     },
     "im:name": {
@@ -7858,7 +8062,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 78,
+      "index": 80,
       "total": 100
     },
     "im:name": {
@@ -7960,7 +8164,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 79,
+      "index": 81,
       "total": 100
     },
     "im:name": {
@@ -8062,7 +8266,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 80,
+      "index": 82,
       "total": 100
     },
     "im:name": {
@@ -8164,7 +8368,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 81,
+      "index": 83,
       "total": 100
     },
     "im:name": {
@@ -8266,7 +8470,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 82,
+      "index": 84,
       "total": 100
     },
     "im:name": {
@@ -8368,39 +8572,39 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 83,
+      "index": 85,
       "total": 100
     },
     "im:name": {
-      "label": "Audio Voice Changer"
+      "label": "PlayTally: Apple Music Stats"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/42/bf/7d/42bf7d6c-56db-ef92-b053-51c6eddcd8e6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/ce/66/4a/ce664aa6-4d4f-0d89-a66a-02f8560532de/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/42/bf/7d/42bf7d6c-56db-ef92-b053-51c6eddcd8e6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/75x75bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/ce/66/4a/ce664aa6-4d4f-0d89-a66a-02f8560532de/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/42/bf/7d/42bf7d6c-56db-ef92-b053-51c6eddcd8e6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/100x100bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/ce/66/4a/ce664aa6-4d4f-0d89-a66a-02f8560532de/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Protect privacy or make voice funnier by changing your Voice.Using the application, your voice could be changed to various forms. For example, you could change your voice to Male, Female, Kid, Robot, Frankenstein, Mouse, Lazy or Speedy. This will also make your or your friend's voice sound funny. If you are posting message on social media, you could protect your privacy as well by changing your voice.\nThe application comes with inbuilt voice recorder. You could record your voice and change it right away inside the application. External voice files could be added as well from Music library or iCloud using the Files application.\n\nBelow sound types are available :\n\n** Male : Change a Female's voice to heavy like a Male's voice. It will sound like a man is speaking.\n** Female : Change a Male's voice to Female's voice. This will change the sound to that of a woman.\n** Kid : Change your voice to a Kid's voice.\n** Robot : Change your voice and make it sound like a Robot is speaking.\n** Lazy : Slow down the voice and make it funnier. This option will slow down the speed of your voice and make it funnier.\n** Frankenstein : Change your voice to heavy like Frankenstein.\n** Rapid : Increase the taking speed and make the voice funny.\n** Mouse : Make your voice squeaky like a mouse.\n\nNote : Each person has different kind of voice.Hence, the converted voices will vary from person to person."
+      "label": "REAL-TIME REPLAY\nWith PlayTally you are no longer limited to yearly Replay recap; choose your own dates and see your top songs for any time period. And PlayTally lists are generated in real-time, so there’s no more waiting for weekly updates. Plus, you can easily mark tracks like white noise and sleep sounds to keep them out of your Trends list.\n\nTRACK YOUR HISTORY\nSync PlayTally data across multiple devices through iCloud. Track additional Apple Music devices by syncing them together with iCloud Music Library. Go back in time to see what you were listening to on a given day, and create playlists from your history.\n\nEARN AWARDS\nEarn badges as your listen more and grow your music collection. It’s like Activity awards for your ears!\n\nSEE YOUR STATS\nEasily browse large libraries by sorting based on your listening habits. Get insights into your music collection with advanced statistics and charts of your listening habits over time. Share your most impressive stats with your friends and followers.\n\nCOMPLETELY AD-FREE.\nWorks with your Apple Music automatically. No extra accounts, signups or subscriptions required.\n\nPRIVACY FIRST\nYour data never leaves your device and/or iCloud storage and can be deleted at any time. PlayTally uses no third party analytics services and is completely ad-free. If you wish, you can also export and backup your data in CSV format.\n\n\nTIPS FOR BEST PERFORMANCE\nPlayTally is fastest and most accurate when it scans the users music library regularly. Creating an automated Shortcut to open PlayTally daily or weekly is a GREAT way to ensure data does not backlog.\n\n\nNOTE: Because PlayTally tracks its own data, it cannot reconstruct playback history from before it was installed."
     },
     "im:price": {
-      "label": "2,490.00₸",
+      "label": "999.00₸",
       "attributes": {
-        "amount": "2490.00",
+        "amount": "999.00",
         "currency": "KZT"
       }
     },
@@ -8411,17 +8615,17 @@
       }
     },
     "rights": {
-      "label": "© Copyright by Sofonica"
+      "label": "2021-2022 © Michael Clay"
     },
     "title": {
-      "label": "Audio Voice Changer - Nikhil Anshuman"
+      "label": "PlayTally: Apple Music Stats - Mike Clay"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/audio-voice-changer/id1460653017?uo=2"
+          "href": "https://apps.apple.com/kz/app/playtally-apple-music-stats/id1513271356?uo=2"
         }
       },
       {
@@ -8432,22 +8636,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/fa/9a/87/fa9a877c-7810-8984-bf24-700328775355/pr_source.jpg/1024x1024bb.jpg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/00/c6/b7/00c6b7bc-2c23-6113-96c3-3953a106d80b/1a112c98-e6e4-44f2-a34b-f57e0099e749_BackTrack_PreLaunch_Screenshots-11.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/kz/app/audio-voice-changer/id1460653017?uo=2",
+      "label": "https://apps.apple.com/kz/app/playtally-apple-music-stats/id1513271356?uo=2",
       "attributes": {
-        "im:id": "1460653017",
-        "im:bundleId": "com.sofonica.audio-voice-changer"
+        "im:id": "1513271356",
+        "im:bundleId": "com.michaelclay.BackTracks"
       }
     },
     "im:artist": {
-      "label": "Nikhil Anshuman",
+      "label": "Mike Clay",
       "attributes": {
-        "href": "https://apps.apple.com/kz/developer/nikhil-anshuman/id1457142582?uo=2"
+        "href": "https://apps.apple.com/kz/developer/mike-clay/id924491990?uo=2"
       }
     },
     "category": {
@@ -8459,9 +8663,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2019-05-07T05:00:00-07:00",
+      "label": "2020-10-08T00:00:00-07:00",
       "attributes": {
-        "label": "May 7, 2019"
+        "label": "October 8, 2020"
       }
     }
   },
@@ -8470,7 +8674,109 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 84,
+      "index": 86,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Mid East Drummer"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/27/f2/ff27f2ad-fb18-b5bf-152d-c5dc1081a9ae/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/27/f2/ff27f2ad-fb18-b5bf-152d-c5dc1081a9ae/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/27/f2/ff27f2ad-fb18-b5bf-152d-c5dc1081a9ae/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "A complete Middle Eastern percussion ensemble in your hands including more than 300 Rhythms from Egypt, Morocco, Iran, Persia, Iran, Turkey, Greece... with meticulously treated sounds creating the most realistic percussion world.\n\nMiddle East grooves are the one greatest rhythmic richness, with a large number of different measures. From the common 4 / 4 time to the most interesting and exotic asymmetrical rhythms, like 7/8, 5/8, 15 / 16, 11/ 16 ...\n\nMultilayered sounds with Round Robin samples. Bendir, Darbuka, Riq, Dahola, Davul, Tar, Tarija ...\n\n- The Jam Function improvise like human percussionist. Just set the level of variations and fills and play.\n- Song Mode. Create song structures in seconds.\n- Midi Out / In\n- Midi Sync\n- 4 Effects to combine, including Compressor/Gate, Equalizer, Delay and Reverb.\n- Random generators to get creative ideas instantly.\n- Ableton Link Sync\n- Inter-App Audio\n- Control several parameters with midi Control Change and Program Change.\n\n--- MIDI Control - Notes Mode\nPlay / Stop - Midi Note G2 / Program Change 13\nMidi CC 0: Rhythm\nMidi CC 7: Master Volume\nMidi CC 11: Swing\nMidi CC 32: Bank\nMidi CC 91: Reverb Gain\nSelect Soundset: Program Change (Notes Live Pad Mode)\n\n--- Live Pad Midi Controls:\n* Program Change Mode (default setting)\nPC 0 to PC7 : Select Pad\nPC8: Fill\nPC12: Fill for the next Pad change\nPC10: Fill for every Pad change\nPC11: Fill & Start / End\nPC13: Play\n\n\n* Notes Mode (default setting)\nC3 to G3 : Select Pad\nC2: Fill\nD2: Fill for the next Pad change\nE2: Fill for every Pad change\nA2: Fill & Start / End.\n\n- Song Mode Controls: (Notes Live Pad Mode)\nMidi Note C2: Preview Song\nMidi Note D2: Next Song\n* Double press to edit a part or song\n* Long press to move parts or songs"
+    },
+    "im:price": {
+      "label": "8,990.00₸",
+      "attributes": {
+        "amount": "8990.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© LumBeat 2017"
+    },
+    "title": {
+      "label": "Mid East Drummer - Lumbeat"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/mid-east-drummer/id1326542395?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/e8/42/c8/e842c880-2e21-d715-32b3-f7d30e219c05/01f08946-961f-4577-b54a-b55d5f648f87_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-10-25_at_10.04.35.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/mid-east-drummer/id1326542395?uo=2",
+      "attributes": {
+        "im:id": "1326542395",
+        "im:bundleId": "com.lumbeat.mideastdrummer"
+      }
+    },
+    "im:artist": {
+      "label": "Lumbeat",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/lumbeat/id590278231?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-12-21T13:35:31-07:00",
+      "attributes": {
+        "label": "December 21, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 87,
       "total": 100
     },
     "im:name": {
@@ -8572,7 +8878,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 85,
+      "index": 88,
       "total": 100
     },
     "im:name": {
@@ -8674,7 +8980,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 86,
+      "index": 89,
       "total": 100
     },
     "im:name": {
@@ -8776,7 +9082,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 87,
+      "index": 90,
       "total": 100
     },
     "im:name": {
@@ -8878,7 +9184,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 88,
+      "index": 91,
       "total": 100
     },
     "im:name": {
@@ -8980,7 +9286,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 89,
+      "index": 92,
       "total": 100
     },
     "im:name": {
@@ -9082,7 +9388,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 90,
+      "index": 93,
       "total": 100
     },
     "im:name": {
@@ -9184,7 +9490,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 91,
+      "index": 94,
       "total": 100
     },
     "im:name": {
@@ -9286,7 +9592,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 92,
+      "index": 95,
       "total": 100
     },
     "im:name": {
@@ -9388,7 +9694,109 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 93,
+      "index": 96,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Audio Voice Changer"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/42/bf/7d/42bf7d6c-56db-ef92-b053-51c6eddcd8e6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/42/bf/7d/42bf7d6c-56db-ef92-b053-51c6eddcd8e6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/42/bf/7d/42bf7d6c-56db-ef92-b053-51c6eddcd8e6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Protect privacy or make voice funnier by changing your Voice.Using the application, your voice could be changed to various forms. For example, you could change your voice to Male, Female, Kid, Robot, Frankenstein, Mouse, Lazy or Speedy. This will also make your or your friend's voice sound funny. If you are posting message on social media, you could protect your privacy as well by changing your voice.\nThe application comes with inbuilt voice recorder. You could record your voice and change it right away inside the application. External voice files could be added as well from Music library or iCloud using the Files application.\n\nBelow sound types are available :\n\n** Male : Change a Female's voice to heavy like a Male's voice. It will sound like a man is speaking.\n** Female : Change a Male's voice to Female's voice. This will change the sound to that of a woman.\n** Kid : Change your voice to a Kid's voice.\n** Robot : Change your voice and make it sound like a Robot is speaking.\n** Lazy : Slow down the voice and make it funnier. This option will slow down the speed of your voice and make it funnier.\n** Frankenstein : Change your voice to heavy like Frankenstein.\n** Rapid : Increase the taking speed and make the voice funny.\n** Mouse : Make your voice squeaky like a mouse.\n\nNote : Each person has different kind of voice.Hence, the converted voices will vary from person to person."
+    },
+    "im:price": {
+      "label": "2,490.00₸",
+      "attributes": {
+        "amount": "2490.00",
+        "currency": "KZT"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Copyright by Sofonica"
+    },
+    "title": {
+      "label": "Audio Voice Changer - Nikhil Anshuman"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kz/app/audio-voice-changer/id1460653017?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/fa/9a/87/fa9a877c-7810-8984-bf24-700328775355/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kz/app/audio-voice-changer/id1460653017?uo=2",
+      "attributes": {
+        "im:id": "1460653017",
+        "im:bundleId": "com.sofonica.audio-voice-changer"
+      }
+    },
+    "im:artist": {
+      "label": "Nikhil Anshuman",
+      "attributes": {
+        "href": "https://apps.apple.com/kz/developer/nikhil-anshuman/id1457142582?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-05-07T05:00:00-07:00",
+      "attributes": {
+        "label": "May 7, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kz",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 97,
       "total": 100
     },
     "im:name": {
@@ -9490,7 +9898,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 94,
+      "index": 98,
       "total": 100
     },
     "im:name": {
@@ -9592,7 +10000,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 95,
+      "index": 99,
       "total": 100
     },
     "im:name": {
@@ -9694,7 +10102,7 @@
       "country_code": "kz",
       "pricing": "paid",
       "genre": "music",
-      "index": 96,
+      "index": 100,
       "total": 100
     },
     "im:name": {
@@ -9788,414 +10196,6 @@
       "label": "2015-12-18T21:36:12-07:00",
       "attributes": {
         "label": "December 18, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 97,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Tunable – Tuner & Metronome"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/93/bd/99/93bd992d-825e-df5d-eedb-550eb17895c5/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/93/bd/99/93bd992d-825e-df5d-eedb-550eb17895c5/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/93/bd/99/93bd992d-825e-df5d-eedb-550eb17895c5/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Join more than a million musicians and improve your playing with Tunable - Music Practice Tools. More than a chromatic tuner, tone & chord generator, metronome, and recorder, Tunable is a music practice coach that can help you play steadily, in tune, and on beat anywhere you go. Jam-packed with features to help with ear training, breath support, rhythm, timing, and dynamics, Tunable is easy to use yet feature-rich. Tunable tracks your playing habits and gives feedback to help you improve. Equipped with a unique “tuning history” display for viewing pitch as you play, an easy to use metronome and a handy audio recorder, Tunable is the perfect toolkit for beginning to professional musicians. Grab Tunable today and use in your next practice session, group rehearsal, band class, or live performance.\n\nWhy are Broadway musicians, students at Juilliard, National Youth Orchestras and beginning instrumentalists using Tunable?\n\nGET FEEDBACK ON HOW YOU PLAY\n• It's like a music instructor in your pocket. Record a practice session and get a practice score with note graphs to help summarize your playing.\n\nLEARN TO PLAY IN TUNE WITH SUSTAINED PITCH HISTORY™\n• Visualize how steadily you play or sing. The straighter the white line, the more consistent the pitch. \n\nIMPROVE YOUR EAR WITH TONE AND CHORD GENERATOR\n• Use the tone and chord generator to play and sustain chords with various tone options. Toggle between different temperaments to hear how they compare. \n\nKEEP TEMPO WITH AN ACCURATE METRONOME\n• See the pulse with a visual metronome. View subdivision and current beat, with a large display and (optional) visual flash. \n\nRECORD YOUR SESSIONS AND SHARE WITH EASE\n• Record practices and performances. Add reverb for a professional sound. Share recordings with family, friends, and teachers.\n\nFEATURES OVERVIEW\n\nTUNER\n• Large, colorful tuning indicator clearly shows when in tune (green fills the screen)\n• Clear, visual tuner with note, octave, cents (+\\-), and frequency (Hz) display\n• Sustained Pitch History™ tuning display to see how you’re sustaining notes over time\n• Especially suited for wind instruments, strings, and vocals with note detection from Tuba to Piccolo\n• Adjustable A=440 reference tone\n• Create your own or change between Equal, Just, Pythagorean, and 15 other tuning temperaments\n\nTONE AND CHORD GENERATOR\n• Chromatic Tone Generator and Full Piano with multiple tone options\n• Play and sustain single notes or chords\n• Continues playing when the screen is locked or in the background\n\nMETRONOME\n• Large number display with optional visual flash to see the downbeat and each subdivision\n• Adjust tempo, beats per measure, and subdivision to fit your needs\n• Accent or mute individual subdivisions\n• Sync metronome to nearby devices so they run at the same tempo and in time (via Ableton Link)\n• Select from over 30 metronome sounds\n• Tempo Tap (tap metronome center to set a tempo)\n• Continues playing when the screen is locked or in the background\n\nRECORD PRACTICE SESSIONS\n• Record and save unlimited recordings\n• Receive a score and individual note graphs per recording\n• Organize recordings into folders\n• Search by name to find past recordings\n• Easily share recordings and practice scores\n• Playback recordings at 0x - 3x speed\n\nAND MORE\n• Transpose notes to any instrument\n• 15 Notations to choose from\n• AppleTV/AirPlay mirroring\n• Dark and light themes\n• Siri Shortcuts access to common tasks\n\nTunable is especially great with voice, wind, and string instruments:\n• Guitar, Ukelele\n• Piccolo, Flute\n• Oboe, English Horn, Bassoon\n• Clarinet\n• Saxophone\n• Trumpet and Cornet\n• French Horn\n• Tenor and Bass Trombone\n• Euphonium and Tuba\n• Violin, Viola, Chello, and Bass\n• Voice\n\nTESTIMONIALS\n• \"The best tuner, metronome, and recorder on iOS and a pitch-perfect bargain for any musician.\" — MacLife\n• \"Tunable shows musicians what pitch-perfect means as they play.\" — Engadget\n• \"Tunable doesn't just tell you how you sound -- it shows you.\" — FastCoDesign"
-    },
-    "im:price": {
-      "label": "3,990.00₸",
-      "attributes": {
-        "amount": "3990.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© AffinityBlue"
-    },
-    "title": {
-      "label": "Tunable – Tuner & Metronome - AffinityBlue"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/tunable-tuner-metronome/id608540795?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/c2/de/52/c2de527a-2d97-16da-f00d-cd8c37715c76/9cf042bf-395c-431f-a64a-c9077ab99a62_1.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/tunable-tuner-metronome/id608540795?uo=2",
-      "attributes": {
-        "im:id": "608540795",
-        "im:bundleId": "com.affinityblue.tunable"
-      }
-    },
-    "im:artist": {
-      "label": "AffinityBlue",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/affinityblue/id428440807?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-03-27T08:11:52-07:00",
-      "attributes": {
-        "label": "March 27, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 98,
-      "total": 100
-    },
-    "im:name": {
-      "label": "CloudBeats: Cloud Music Player"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/86/38/36/863836d5-9f2d-260b-a0b7-a2ed12bf5037/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/86/38/36/863836d5-9f2d-260b-a0b7-a2ed12bf5037/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/86/38/36/863836d5-9f2d-260b-a0b7-a2ed12bf5037/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "EASIEST WAY TO STREAM & ORGANIZE YOUR MUSIC\nTake control over your music and enhance your music listening experience with CloudBeats – cloud music player.\n\nWhether you need an offline cloud music player listener, or a music cloud player to sync all your music albums and download mp3 songs on multiple devices, CloudBeats is the only app you need. It simply allows you to create your own music streaming service.\n\nAll you audiophiles and die-hard music fans finally have a simple app that will organize and play your vast music collection the way you want it. Anywhere. Anytime.\n\nIt’s time to easily upload, store and access your music on the cloud seamlessly with CloudBeats.\n\n► CLOUD MUSIC PLAYER\n● Works with the popular cloud services for music streaming: Dropbox, Google Drive, OneDrive, OneDrive for Business, Box, pCloud, HiDrive. Personal clouds that support webDAV, including ownCloud and NextCloud. Network-Attached Servers (NAS) by Synology, QNAP, Western Digital (WD) and others that support webDAV protocol. These integrations make our cloud music internet song player one of the most versatile cloud music song organizers.\n\n● Plays audio files in different formats: Our free local music player offline app allows you to play mp3, m4a, wav and lossless FLAC and ALAC audio. Meaning our music cloud player can play almost any song you have on your iPhone. \n\n● Works online and offline: Want to enjoy cloud music with no wifi? Well our no wifi music cloud player allows you that. Simply swap between offline and cloud tabs. Also supports shuffle mode & CarPlay.\n\n► MUSIC MANAGER & ORGANIZER\n◉ Sync music libraries: The cloud music organizer app auto detects all the music on your phone and syncs all your music libraries. All songs are grouped by artist, album, genre.\n\n◉ Create playlists: Want to organize your music and create cloud playlists? Add files and entire folders to playlists, change the order of the tracks in the Playlist section of our free music player.\n\n◉ Organize & download music, audiobooks, podcasts: download and sync any of your music across multiple devices on the cloud with this cloud music organizer. Our intuitive song manager & song organizer will give amazing control and effectively organize your music the way you want it. It also supports audiobooks and podcast file formats so you can listen offline without wifi. \n\n► ALL FEATURES:\n・Supports most cloud services, personal clouds and servers. \n・Works without internet. Download albums, playlists, folders or files onto the device for playback in offline mode\n・Playlist maker.\n・Sync your music library with connected network accounts.\n・Supports mp3, wav and m4a, lossless FLAC & ALAC\n・Advanced buffering technologies to provide smooth gapless playback\n・Repeat all, repeat one and shuffle mode. Shuffle the entire library, a single folder, artist or album.\n・Sleep timer to automatically stop music when the timer ends\n・Playback speed control (tempo) within the 0.5x-3.0x range\n・Play offline–no internet or WiFi needed\n・Add music to your favorite playlist\n・Carplay\n・Siri and Shortcuts\n\n“Sync Multiple Devices” is an optional service to keep your Playlists and My Library database in sync between multiple devices. It can also be used to backup and restore your music data. CloudBeats account is required for this service.\n\nWe offer 1-year auto-renewing subscription for $6.99 per year. The price may vary from country to country. \nIf you choose to purchase “Sync Multiple Devices”, payment will be charged to your iTunes account. You will be charged the same price for renewal within 24-hours prior to the end of the current period. Your subscription automatically renews unless auto-renewal is turned off at least 24 hours prior to the end of the current period. Subscriptions may be managed and auto-renewal may be turned off at any time by going to the user’s Account Settings in the App Store after purchase.\n\nCloudBeats privacy policy and terms of use: https://www.cloudbeatsapp.com/privacy-policy/"
-    },
-    "im:price": {
-      "label": "4,490.00₸",
-      "attributes": {
-        "amount": "4490.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© CloudBeats"
-    },
-    "title": {
-      "label": "CloudBeats: Cloud Music Player - Roman Burda"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/cloudbeats-cloud-music-player/id573192227?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/19/a4/85/19a48544-ad89-707a-003b-53c2f6787292/mzl.yhmmyjum.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/cloudbeats-cloud-music-player/id573192227?uo=2",
-      "attributes": {
-        "im:id": "573192227",
-        "im:bundleId": "com.willenapps.cloudplayer"
-      }
-    },
-    "im:artist": {
-      "label": "Roman Burda",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/roman-burda/id426901819?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-11-04T21:09:59-07:00",
-      "attributes": {
-        "label": "November 4, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 99,
-      "total": 100
-    },
-    "im:name": {
-      "label": "iMashup"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/fe/21/00/fe21000d-c15e-a5d9-a2ce-e0e27d7882d3/AppIcon-1x_U007emarketing-85-220-0-5.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/fe/21/00/fe21000d-c15e-a5d9-a2ce-e0e27d7882d3/AppIcon-1x_U007emarketing-85-220-0-5.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/fe/21/00/fe21000d-c15e-a5d9-a2ce-e0e27d7882d3/AppIcon-1x_U007emarketing-85-220-0-5.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Professional-quality remixing app: Create your own mashups and remixes. Experiment with your favorite music, and discover combinations that sound perfect together.\n\nDeveloped by the award-winning Mixed In Key team with 100,000+ fans on Facebook. With iMashup, you can mix any *TWO SONGS* in your music collection to make a perfect mashup.\n\niMashup lets you:\n* Use music from your iPhone or iPad \n* Beatmatch everything together using a pro DJ algorithm \n* Make 100% harmonic mashups with no key clashes\n* Create loops\n* Copy and paste segments of a song\n* Adjust the loudness of melodies, hihats and basslines in your songs \n* Split the song into segments and move them around \n* Sync with iTunes to export high-quality WAV files \n* Save your results to Dropbox, or just email the saved mashup to yourself \n\nWorks on: \n* iPhone 4S and later \n* iPod Touch (latest generation) \n* All iPads except iPad 1. \n\nPlease tell your friends about iMashup!"
-    },
-    "im:price": {
-      "label": "1,990.00₸",
-      "attributes": {
-        "amount": "1990.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "Mixed In Key © 2012-2017"
-    },
-    "title": {
-      "label": "iMashup - Mixed In Key"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/imashup/id503804151?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/cf/a9/51/cfa9512d-c528-be0a-ef2f-d652a7e33282/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/imashup/id503804151?uo=2",
-      "attributes": {
-        "im:id": "503804151",
-        "im:bundleId": "com.mixedinkey.iMashup"
-      }
-    },
-    "im:artist": {
-      "label": "Mixed In Key",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/mixed-in-key/id384300142?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-11-01T00:00:00-07:00",
-      "attributes": {
-        "label": "November 1, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kz",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 100,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Zurna"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/9b/5a/1e/9b5a1ed8-bf07-8c2c-5104-7714a8e1d057/AppIcon-3-1x_U007emarketing-85-220-3.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/9b/5a/1e/9b5a1ed8-bf07-8c2c-5104-7714a8e1d057/AppIcon-3-1x_U007emarketing-85-220-3.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/9b/5a/1e/9b5a1ed8-bf07-8c2c-5104-7714a8e1d057/AppIcon-3-1x_U007emarketing-85-220-3.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Thıs applıcatıon allows you to play the Turkısh  classıcal ınstrument Zurna on your ıphone . \nıt ıs very easy to use and ıs just the same as playıng the classıcal ınstrument ın real lıfe . \nthe sound effects used are taken from a Zurna played lıve and were recorded ın a studıo . \n \nWe hope you have fun usıng thıs ınstrument as ıt ıs very easy and realıstıc. \n\n\nGeleneksel/yerel müziğin önemli çalgılarından biridir. Başlangıçta ağaç kabuğundan yapılan “boru”, daha sonraları bakır ve pirinç levhalar bükülerek de yapılmıştır. Bu çalgı geçmişte, curna, zurr, sarna ya da sorna ve Farsça olarak sernay olarak da anılmıştır. Baş kısmından başlayarak aşağı doğru genişleyen bu boruyu çalabilmek için ağzına, kamıştan yapılmış bir “sipsi” takılır. Üstünde altı, alt yanında ise bir olmak üzere toplam yedi delik bulunur."
-    },
-    "im:price": {
-      "label": "499.00₸",
-      "attributes": {
-        "amount": "499.00",
-        "currency": "KZT"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© softist"
-    },
-    "title": {
-      "label": "Zurna - volkeman"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kz/app/zurna/id471673508?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/38/52/c0/3852c0ba-432f-89ad-ab61-3e73e8ec6708/mzm.oaqkpodz.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kz/app/zurna/id471673508?uo=2",
-      "attributes": {
-        "im:id": "471673508",
-        "im:bundleId": "com.softist.zurna"
-      }
-    },
-    "im:artist": {
-      "label": "volkeman",
-      "attributes": {
-        "href": "https://apps.apple.com/kz/developer/volkeman/id429893721?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/kz/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-10-12T18:47:36-07:00",
-      "attributes": {
-        "label": "October 12, 2011"
       }
     }
   }

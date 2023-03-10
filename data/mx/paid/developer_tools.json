@@ -8,108 +8,6 @@
       "total": 82
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "$75.00",
-      "attributes": {
-        "amount": "75.00",
-        "currency": "MXN"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mx/app/laddertouch/id386737169?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mx/app/laddertouch/id386737169?l=en&uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/mx/developer/motonari-hibi/id386737172?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/mx/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mx",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 2,
-      "total": 82
-    },
-    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -208,7 +106,211 @@
       "country_code": "mx",
       "pricing": "paid",
       "genre": "developer_tools",
+      "index": 2,
+      "total": 82
+    },
+    "im:name": {
+      "label": "ESP32 BLE Terminal"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
+    },
+    "im:price": {
+      "label": "$25.00",
+      "attributes": {
+        "amount": "25.00",
+        "currency": "MXN"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 mightyIT"
+    },
+    "title": {
+      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mx/app/esp32-ble-terminal/id1567601472?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mx/app/esp32-ble-terminal/id1567601472?l=en&uo=2",
+      "attributes": {
+        "im:id": "1567601472",
+        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
+      }
+    },
+    "im:artist": {
+      "label": "Gopi Gadhiya",
+      "attributes": {
+        "href": "https://apps.apple.com/mx/developer/gopi-gadhiya/id1387816354?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/mx/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-06-01T00:00:00-07:00",
+      "attributes": {
+        "label": "June 1, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mx",
+      "pricing": "paid",
+      "genre": "developer_tools",
       "index": 3,
+      "total": 82
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/2b/da/a4/2bdaa46f-0df8-4678-f11b-d782f8827a9f/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "$75.00",
+      "attributes": {
+        "amount": "75.00",
+        "currency": "MXN"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mx/app/laddertouch/id386737169?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mx/app/laddertouch/id386737169?l=en&uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/mx/developer/motonari-hibi/id386737172?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/mx/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mx",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 4,
       "total": 82
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "mx",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 82
     },
     "im:name": {
@@ -404,108 +506,6 @@
       "label": "2019-09-19T00:00:00-07:00",
       "attributes": {
         "label": "September 19, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mx",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
-      "total": 82
-    },
-    "im:name": {
-      "label": "MongoLime - manage databases"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/06/bc/10/06bc108b-b8f5-1158-660a-f87549769d93/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/06/bc/10/06bc108b-b8f5-1158-660a-f87549769d93/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/06/bc/10/06bc108b-b8f5-1158-660a-f87549769d93/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "MongoLime is a modern application created by developers and for developers. We took into account all the details and nuances to make interactions with it and the application itself enjoyable — the best mobile solution for working with MongoDB.\n\nMain features:\n \n- Collection and database management\n- Convenient document editor\n- Aggregate queries\n- Built-in SSH Tunnel\n- SRV URL support\n- SSL support\n- Authentication (SCRAM-SHA-1, MONGODB-CR)\n- Data export (JSON + ZIP)\n- Indexes management\n- Diagnostic information (collections and databases statistics)\n- Support Replica Sets and Sharded Clusters\n- Passcode & Touch ID & Face ID protection\n- Connections Import & Export\n\nSupported MongoDB versions: 2.4 or above (2.4, 2.6, 3.0, 3.2, 3.4, 3.6, 3.7, 4.0, 4.1)\nSupported cloud solutions: MongoDB Atlas, mLab, and others\n\nIf you need any assistance please contact us at support@mobibean.zendesk.com"
-    },
-    "im:price": {
-      "label": "$299.00",
-      "attributes": {
-        "amount": "299.00",
-        "currency": "MXN"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Bushev Yury"
-    },
-    "title": {
-      "label": "MongoLime - manage databases - Mobibean, LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mx/app/mongolime-manage-databases/id1237825358?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/fe/94/80/fe9480c3-d254-069c-ee23-bfc9700e5b2c/mzl.wdqnnlba.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mx/app/mongolime-manage-databases/id1237825358?l=en&uo=2",
-      "attributes": {
-        "im:id": "1237825358",
-        "im:bundleId": "com.mongolime"
-      }
-    },
-    "im:artist": {
-      "label": "Mobibean, LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/mx/developer/mobibean-llc/id1142567045?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/mx/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-08-17T15:49:41-07:00",
-      "attributes": {
-        "label": "August 17, 2017"
       }
     }
   },
@@ -620,23 +620,125 @@
       "total": 82
     },
     "im:name": {
-      "label": "Blink Shell 14: Legacy"
+      "label": "MongoLime - manage databases"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/37/6c/c9/376cc98b-b5af-851d-6721-3aac43e48d0b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/06/bc/10/06bc108b-b8f5-1158-660a-f87549769d93/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/37/6c/c9/376cc98b-b5af-851d-6721-3aac43e48d0b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/06/bc/10/06bc108b-b8f5-1158-660a-f87549769d93/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/37/6c/c9/376cc98b-b5af-851d-6721-3aac43e48d0b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/06/bc/10/06bc108b-b8f5-1158-660a-f87549769d93/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "MongoLime is a modern application created by developers and for developers. We took into account all the details and nuances to make interactions with it and the application itself enjoyable — the best mobile solution for working with MongoDB.\n\nMain features:\n \n- Collection and database management\n- Convenient document editor\n- Aggregate queries\n- Built-in SSH Tunnel\n- SRV URL support\n- SSL support\n- Authentication (SCRAM-SHA-1, MONGODB-CR)\n- Data export (JSON + ZIP)\n- Indexes management\n- Diagnostic information (collections and databases statistics)\n- Support Replica Sets and Sharded Clusters\n- Passcode & Touch ID & Face ID protection\n- Connections Import & Export\n\nSupported MongoDB versions: 2.4 or above (2.4, 2.6, 3.0, 3.2, 3.4, 3.6, 3.7, 4.0, 4.1)\nSupported cloud solutions: MongoDB Atlas, mLab, and others\n\nIf you need any assistance please contact us at support@mobibean.zendesk.com"
+    },
+    "im:price": {
+      "label": "$299.00",
+      "attributes": {
+        "amount": "299.00",
+        "currency": "MXN"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Bushev Yury"
+    },
+    "title": {
+      "label": "MongoLime - manage databases - Mobibean, LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mx/app/mongolime-manage-databases/id1237825358?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/fe/94/80/fe9480c3-d254-069c-ee23-bfc9700e5b2c/mzl.wdqnnlba.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mx/app/mongolime-manage-databases/id1237825358?l=en&uo=2",
+      "attributes": {
+        "im:id": "1237825358",
+        "im:bundleId": "com.mongolime"
+      }
+    },
+    "im:artist": {
+      "label": "Mobibean, LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/mx/developer/mobibean-llc/id1142567045?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/mx/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-08-17T15:49:41-07:00",
+      "attributes": {
+        "label": "August 17, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mx",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 8,
+      "total": 82
+    },
+    "im:name": {
+      "label": "Blink Shell 14: Legacy"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/18/96/ba/1896ba6f-53a9-3489-6b0f-446ffd125300/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/18/96/ba/1896ba6f-53a9-3489-6b0f-446ffd125300/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/18/96/ba/1896ba6f-53a9-3489-6b0f-446ffd125300/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -680,7 +782,7 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ea/d0/05/ead005f7-daa0-24ac-8c96-e33e66fb440f/pr_source.png/1024x1024bb.png",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/a9/9f/b8/a99fb841-7aea-e188-d48b-5b354115fee0/a441a786-261e-4007-b915-cbbf863caa29_2732x2048bb-1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
@@ -710,108 +812,6 @@
       "label": "2016-09-27T14:13:49-07:00",
       "attributes": {
         "label": "September 27, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mx",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 8,
-      "total": 82
-    },
-    "im:name": {
-      "label": "ESP32 BLE Terminal"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
-    },
-    "im:price": {
-      "label": "$25.00",
-      "attributes": {
-        "amount": "25.00",
-        "currency": "MXN"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 mightyIT"
-    },
-    "title": {
-      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mx/app/esp32-ble-terminal/id1567601472?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mx/app/esp32-ble-terminal/id1567601472?l=en&uo=2",
-      "attributes": {
-        "im:id": "1567601472",
-        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
-      }
-    },
-    "im:artist": {
-      "label": "Gopi Gadhiya",
-      "attributes": {
-        "href": "https://apps.apple.com/mx/developer/gopi-gadhiya/id1387816354?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/mx/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-06-01T00:00:00-07:00",
-      "attributes": {
-        "label": "June 1, 2021"
       }
     }
   },
@@ -1232,108 +1232,6 @@
       "total": 82
     },
     "im:name": {
-      "label": "Learn SQL for MySQL"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Will you start learning SQL in MySQL?\nDid you forget the statements many times?\nDo you no longer remember the syntax and the result of an statement?\n\nDeveloped to easily learn SQL Programming for MySQL\n\n. . . . . . . . . . . . . . . . . . . . . \n\nThis App acts as a reference for the SQL language\nLearn DML & DDL statements with description, syntax, notes and examples\n\nFor each statement is presented:\n\nDetailed description of the statement/command purpose\n\nSyntax of the statement with various options\n\nTwo examples executed from a real table (Automobile Table)\n\nProvides:\n. . . . . . . . . . . . . . . . . . . . . \n\n1. GENERAL\n  \n1.1 - Comments\n1.2 - Data Types\n  \n2. (DML) Data Manipulation Language\n  \n2.1 – SELECT\n\n  - Columns, Multi-Column, All Columns\n  - Expressions, Functions, Alias\n  - Limit, Distinct, Order By\n  - Where\n  - Relational, Math & String Operators\n  - Wildcards\n  - Group By, Having, Aggregate Functions\n  - Union (Any & All)\n  - Subqueries\n  - Joins (Inner, Right, Left)\n  - Select Into\n  \n2.2 - INSERT\n\n  - With Columns names\n  - Without Column names\n  - Rules\n  - Insert Into ... Select\n   \n2.3 - DELETE\n\n  - Delete All Rows\n  - Delete ... Where\n  - Rules\n  - Referencial Integrity\n   \n2.4 - UPDATE\n\n  - Update All Rows\n  - Update ... Where\n  - Rules\n\n  \n3. (DDL) DATA DEFINITION LANGUAGE\n  \n3.1 - CREATE\n\n  - Create Database\n  - Create Table\n  - Create Index\n  - Auto-Increment\n  - Constraints (PK, FK, CK, DF, UQ, NN)\n\n3.2 - ALTER\n\n  - Alter Columns\n  - Add Constraints\n  - Drop Constrains\n\n3.3 - DROP\n\n  - Drop Table\n  - Drop Database\n  - Drop Index\n  \n3.4 - TUNCATE \n  \n  - Delete Versus Truncate"
-    },
-    "im:price": {
-      "label": "$49.00",
-      "attributes": {
-        "amount": "49.00",
-        "currency": "MXN"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Paulo Narra 2021"
-    },
-    "title": {
-      "label": "Learn SQL for MySQL - Paulo Narra"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mx/app/learn-sql-for-mysql/id1521671915?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/bc/c9/d8/bcc9d889-f795-5f29-3347-9e54b3703bb2/d40e5728-33c9-411a-b098-4f1eabce0bd7_foto2.jpg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mx/app/learn-sql-for-mysql/id1521671915?l=en&uo=2",
-      "attributes": {
-        "im:id": "1521671915",
-        "im:bundleId": "com.pmbNarra.MySql"
-      }
-    },
-    "im:artist": {
-      "label": "Paulo Narra",
-      "attributes": {
-        "href": "https://apps.apple.com/mx/developer/paulo-narra/id1251717382?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/mx/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-07-02T00:00:00-07:00",
-      "attributes": {
-        "label": "July 2, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mx",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 14,
-      "total": 82
-    },
-    "im:name": {
       "label": "Cookie Editor - For Safari"
     },
     "im:image": [
@@ -1432,7 +1330,7 @@
       "country_code": "mx",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 14,
       "total": 82
     },
     "im:name": {
@@ -1534,7 +1432,7 @@
       "country_code": "mx",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 15,
       "total": 82
     },
     "im:name": {
@@ -1636,7 +1534,7 @@
       "country_code": "mx",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 16,
       "total": 82
     },
     "im:name": {
@@ -1738,7 +1636,7 @@
       "country_code": "mx",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 17,
       "total": 82
     },
     "im:name": {
@@ -1832,6 +1730,108 @@
       "label": "2019-05-21T14:09:54-07:00",
       "attributes": {
         "label": "May 21, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mx",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 18,
+      "total": 82
+    },
+    "im:name": {
+      "label": "Learn SQL for MySQL"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Will you start learning SQL in MySQL?\nDid you forget the statements many times?\nDo you no longer remember the syntax and the result of an statement?\n\nDeveloped to easily learn SQL Programming for MySQL\n\n. . . . . . . . . . . . . . . . . . . . . \n\nThis App acts as a reference for the SQL language\nLearn DML & DDL statements with description, syntax, notes and examples\n\nFor each statement is presented:\n\nDetailed description of the statement/command purpose\n\nSyntax of the statement with various options\n\nTwo examples executed from a real table (Automobile Table)\n\nProvides:\n. . . . . . . . . . . . . . . . . . . . . \n\n1. GENERAL\n  \n1.1 - Comments\n1.2 - Data Types\n  \n2. (DML) Data Manipulation Language\n  \n2.1 – SELECT\n\n  - Columns, Multi-Column, All Columns\n  - Expressions, Functions, Alias\n  - Limit, Distinct, Order By\n  - Where\n  - Relational, Math & String Operators\n  - Wildcards\n  - Group By, Having, Aggregate Functions\n  - Union (Any & All)\n  - Subqueries\n  - Joins (Inner, Right, Left)\n  - Select Into\n  \n2.2 - INSERT\n\n  - With Columns names\n  - Without Column names\n  - Rules\n  - Insert Into ... Select\n   \n2.3 - DELETE\n\n  - Delete All Rows\n  - Delete ... Where\n  - Rules\n  - Referencial Integrity\n   \n2.4 - UPDATE\n\n  - Update All Rows\n  - Update ... Where\n  - Rules\n\n  \n3. (DDL) DATA DEFINITION LANGUAGE\n  \n3.1 - CREATE\n\n  - Create Database\n  - Create Table\n  - Create Index\n  - Auto-Increment\n  - Constraints (PK, FK, CK, DF, UQ, NN)\n\n3.2 - ALTER\n\n  - Alter Columns\n  - Add Constraints\n  - Drop Constrains\n\n3.3 - DROP\n\n  - Drop Table\n  - Drop Database\n  - Drop Index\n  \n3.4 - TUNCATE \n  \n  - Delete Versus Truncate"
+    },
+    "im:price": {
+      "label": "$49.00",
+      "attributes": {
+        "amount": "49.00",
+        "currency": "MXN"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Paulo Narra 2021"
+    },
+    "title": {
+      "label": "Learn SQL for MySQL - Paulo Narra"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mx/app/learn-sql-for-mysql/id1521671915?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/bc/c9/d8/bcc9d889-f795-5f29-3347-9e54b3703bb2/d40e5728-33c9-411a-b098-4f1eabce0bd7_foto2.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mx/app/learn-sql-for-mysql/id1521671915?l=en&uo=2",
+      "attributes": {
+        "im:id": "1521671915",
+        "im:bundleId": "com.pmbNarra.MySql"
+      }
+    },
+    "im:artist": {
+      "label": "Paulo Narra",
+      "attributes": {
+        "href": "https://apps.apple.com/mx/developer/paulo-narra/id1251717382?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/mx/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-07-02T00:00:00-07:00",
+      "attributes": {
+        "label": "July 2, 2020"
       }
     }
   },

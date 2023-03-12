@@ -110,6 +110,210 @@
       "total": 99
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "$6.99",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 3,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Terminal Commands Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "If you use Linux or  MacOs and you need a command line handbook this application maded for you. And you can save your commands to application. If you want share commands to other people on third party softwares.\n\nThis application contains the following commands\n- Search Commands\n- Pacman Commands\n- System Commands\n- Permission Commands\n- Compression Commands\n- FTP Commands\n- GIT Commands\n- ADB Commands\n- Network Commands\n- File Commands\n- Docker Commands\n- APT Commands \n- SSH Commands"
+    },
+    "im:price": {
+      "label": "$1.39",
+      "attributes": {
+        "amount": "1.39",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Havucapps"
+    },
+    "title": {
+      "label": "Terminal Commands Pro - Kasim SAGIR"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/terminal-commands-pro/id1630546383?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/5d/b8/c9/5db8c9a5-46fd-1b93-3c18-d6ff6a933bfd/aa422b8e-932f-4057-9fd6-33e3e7fa0a4d_12.9-inch_Screenshot_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/terminal-commands-pro/id1630546383?uo=2",
+      "attributes": {
+        "im:id": "1630546383",
+        "im:bundleId": "havucapps.terminalkomutlaripro"
+      }
+    },
+    "im:artist": {
+      "label": "Kasim SAGIR",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/kasim-sagir/id1563742521?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-06-25T00:00:00-07:00",
+      "attributes": {
+        "label": "June 25, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 4,
+      "total": 99
+    },
+    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -208,7 +412,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -310,7 +514,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -404,210 +608,6 @@
       "label": "2021-03-18T00:00:00-07:00",
       "attributes": {
         "label": "March 18, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Cookie Editor - For Safari"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "We deliver the first ever Cookie Editor extension available for Safari Web Browser, which helps in\n1: Edit cookies as simple text\n2: Delete cookies,\n3: Import cookies as JSON or simple text.\nfrom any saved website. \nHappy Editing cookies now take rest and have some water."
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Shubham Sharma"
-    },
-    "title": {
-      "label": "Cookie Editor - For Safari - Shubham Sharma"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/cookie-editor-for-safari/id1643498176?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/41/05/71/410571cb-07e4-e295-684a-2ddf12090ced/0e647d22-f494-437f-bebe-84504fb9a9e7_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/cookie-editor-for-safari/id1643498176?uo=2",
-      "attributes": {
-        "im:id": "1643498176",
-        "im:bundleId": "com.clint.Cookie-Editor"
-      }
-    },
-    "im:artist": {
-      "label": "Shubham Sharma",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/shubham-sharma/id1643497398?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-09-12T00:00:00-07:00",
-      "attributes": {
-        "label": "September 12, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 6,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Code App"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/a4/7b/6ea47b0c-a489-0e8b-456e-0d488a8dbca9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/a4/7b/6ea47b0c-a489-0e8b-456e-0d488a8dbca9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/a4/7b/6ea47b0c-a489-0e8b-456e-0d488a8dbca9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "We built Code App to bring desktop-like code editing experience to iPadOS.\n\nSee the project's source code, roadmap, discussion, and documentation on GitHub: github.com/thebaselab/codeapp \n\nFeatures:\nLocal Node.js 16, Python 3.9, PHP 8, C, C++ (Clang 14) runtime\n • Run code written in these languages locally\n • Built-in Matplotlib, Pandas, Numpy\n • Install modules with pip or npm (pure Python / JavaScript modules only, modules like opencv won't install )\n • Install global commands such as typescript and prettier\n\nSFTP / FTP Support\n • Browse and edit files on your remote server\n • Access remote terminal using SSH\n\nServer-side code execution for 40+ languages\n• Requires an active internet connection\n• Inputs can be submitted before runtime\n• Single file only\n\nGit Integration\n • Clone private repositories\n • Commit, push or fetch changes from remote\n • File status indicator\n • Gutter indicator\n • Checkout to branches or tags\n • Compare difference between commits\n • Search for repositories on GitHub\n\nBuilt-in terminal\n • 70+ Linux commands (ls, cd, nslookup etc.)\n • Bash-like user primitives such as piping, history and completion\n\nMonaco Editor - the same editor that powers desktop VS Code\n • Find & replace\n • Mini Map\n • TextMate colour themes: VS Dark+, VS Light+, Solarized (Light & Dark), Xcode Dark, Black Ocean, Monokai Dimmed, Quiet Light\n • Support for Trackpad / Mouse scrolling\n • Rich IntelliSense for TypeScript, JavaScript, CSS, LESS, SCSS, JSON, HTML\n • Multi-cursor\n • And other text editing features available on desktop VS Code\n\n• Dark / Light Mode\n• Markdown file preview \n• Preview your web project with built in web server\n• Files App Integration\n• Multiple Files Searching\n• GB / EUC KR encoding support\n\nSupported languages for local execution:\n- Python 3.9.2\n- JavaScript (Node.js 16.14.2)\n- PHP (8.0.8)\n- C, C++ (Clang 14.0.0)\n\nSupported languages for server-side execution:\nAssembly (NASM 2.14.02)\nBasic (FBC 1.07.1)\nC# (Mono 6.6.0.161)\nCOBOL (GnuCOBOL 2.2)\nCommon Lisp (SBCL 2.0.0)\nD (DMD 2.089.1)\nElixir (1.9.4)\nErlang (OTP 22.2)\nFortran (GFortran 9.2.0)\nGo (1.13.5)\nGroovy (3.0.3)\nHaskell (GHC 8.8.1)\nJava (OpenJDK 13.0.1)\nKotlin (1.3.70)\nLua (5.3.5)\nObjective-C (Clang 7.0.1)\nOCaml (4.09.0)\nOctave (5.1.0)\nPascal (FPC 3.0.4)\nProlog (GNU Prolog 1.4.5)\nR (4.0.0)\nRuby (2.7.0)\nRust (1.40.0)\nScala (2.13.2)\nSwift (5.2.3)\nTypeScript (3.7.4)\nVisual Basic.Net (vbnc 0.0.0.5943)\n\nTwitter: twitter.com/thebaselab\nSupport Email: support@thebaselab.com\nGitHub: github.com/thebaselab/codeapp\nPrivacy Policy: thebaselab.com/privacypolicies\nTerms of Use (EULA): www.apple.com/legal/internet-services/itunes/dev/stdeula/"
-    },
-    "im:price": {
-      "label": "$8.49",
-      "attributes": {
-        "amount": "8.49",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 thebaselab"
-    },
-    "title": {
-      "label": "Code App - thebaselab Ltd"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/code-app/id1512938504?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/dd/5a/20/dd5a202b-7355-7882-3268-193627821cc5/52adfdd6-81de-4c76-8d07-253133221b1f_custom__U2013_8.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/code-app/id1512938504?uo=2",
-      "attributes": {
-        "im:id": "1512938504",
-        "im:bundleId": "thebaselab.VS-Code"
-      }
-    },
-    "im:artist": {
-      "label": "thebaselab Ltd",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/thebaselab-ltd/id1452525755?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-05-28T00:00:00-07:00",
-      "attributes": {
-        "label": "May 28, 2020"
       }
     }
   },
@@ -1436,35 +1436,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "Kuber - Kubernetes Dashboard"
+      "label": "Code App"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/a4/7b/6ea47b0c-a489-0e8b-456e-0d488a8dbca9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/a4/7b/6ea47b0c-a489-0e8b-456e-0d488a8dbca9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/a4/7b/6ea47b0c-a489-0e8b-456e-0d488a8dbca9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Kuber helps you manage Kubernetes clusters easily via your mobile device, making it possible to view the status of clusters and quickly fix issues from the comfort of your couch.\n\nKuber has many features (and there are more to come!):\n1. View the status of almost any resources. e.g. Pods, Deployments, PVs, Jobs, CronJobs, Nodes, Config Maps, Docker containers and so on.\n2. Scale deployments (Replica sets/Replication controllers) to accommodate short-term spikes in traffic.\n3. Inspect logs of any containers in realtime!\n4. Integrate with bash shell to exec commands inside the containers.\n4. Edit labels & Annotations via the lovely interface.\n5. View / Update almost any resources via YAML.\n6. Support managing multiple clusters.\n7. Invoke shell commands inside the container.\n8. View top nodes & pods (requires metrics server).\n9. Supported authentication methods: Certificate, Credentials, Token, AWS IAM Authenticator (EKS), Google Cloud Platform (GCP), and DigitalOcean.\n10. Support Face ID / Touch ID.\n11. Support dark mode.\n\nKuber works with Kubernetes >= 1.9 currently. Please talk to us if you want more features!"
+      "label": "We built Code App to bring desktop-like code editing experience to iPadOS.\n\nSee the project's source code, roadmap, discussion, and documentation on GitHub: github.com/thebaselab/codeapp \n\nFeatures:\nLocal Node.js 16, Python 3.9, PHP 8, C, C++ (Clang 14) runtime\n • Run code written in these languages locally\n • Built-in Matplotlib, Pandas, Numpy\n • Install modules with pip or npm (pure Python / JavaScript modules only, modules like opencv won't install )\n • Install global commands such as typescript and prettier\n\nSFTP / FTP Support\n • Browse and edit files on your remote server\n • Access remote terminal using SSH\n\nServer-side code execution for 40+ languages\n• Requires an active internet connection\n• Inputs can be submitted before runtime\n• Single file only\n\nGit Integration\n • Clone private repositories\n • Commit, push or fetch changes from remote\n • File status indicator\n • Gutter indicator\n • Checkout to branches or tags\n • Compare difference between commits\n • Search for repositories on GitHub\n\nBuilt-in terminal\n • 70+ Linux commands (ls, cd, nslookup etc.)\n • Bash-like user primitives such as piping, history and completion\n\nMonaco Editor - the same editor that powers desktop VS Code\n • Find & replace\n • Mini Map\n • TextMate colour themes: VS Dark+, VS Light+, Solarized (Light & Dark), Xcode Dark, Black Ocean, Monokai Dimmed, Quiet Light\n • Support for Trackpad / Mouse scrolling\n • Rich IntelliSense for TypeScript, JavaScript, CSS, LESS, SCSS, JSON, HTML\n • Multi-cursor\n • And other text editing features available on desktop VS Code\n\n• Dark / Light Mode\n• Markdown file preview \n• Preview your web project with built in web server\n• Files App Integration\n• Multiple Files Searching\n• GB / EUC KR encoding support\n\nSupported languages for local execution:\n- Python 3.9.2\n- JavaScript (Node.js 16.14.2)\n- PHP (8.0.8)\n- C, C++ (Clang 14.0.0)\n\nSupported languages for server-side execution:\nAssembly (NASM 2.14.02)\nBasic (FBC 1.07.1)\nC# (Mono 6.6.0.161)\nCOBOL (GnuCOBOL 2.2)\nCommon Lisp (SBCL 2.0.0)\nD (DMD 2.089.1)\nElixir (1.9.4)\nErlang (OTP 22.2)\nFortran (GFortran 9.2.0)\nGo (1.13.5)\nGroovy (3.0.3)\nHaskell (GHC 8.8.1)\nJava (OpenJDK 13.0.1)\nKotlin (1.3.70)\nLua (5.3.5)\nObjective-C (Clang 7.0.1)\nOCaml (4.09.0)\nOctave (5.1.0)\nPascal (FPC 3.0.4)\nProlog (GNU Prolog 1.4.5)\nR (4.0.0)\nRuby (2.7.0)\nRust (1.40.0)\nScala (2.13.2)\nSwift (5.2.3)\nTypeScript (3.7.4)\nVisual Basic.Net (vbnc 0.0.0.5943)\n\nTwitter: twitter.com/thebaselab\nSupport Email: support@thebaselab.com\nGitHub: github.com/thebaselab/codeapp\nPrivacy Policy: thebaselab.com/privacypolicies\nTerms of Use (EULA): www.apple.com/legal/internet-services/itunes/dev/stdeula/"
     },
     "im:price": {
-      "label": "$13.99",
+      "label": "$8.49",
       "attributes": {
-        "amount": "13.99",
+        "amount": "8.49",
         "currency": "CAD"
       }
     },
@@ -1475,17 +1475,17 @@
       }
     },
     "rights": {
-      "label": "© 2019-2021 Zihua Li"
+      "label": "© 2022 thebaselab"
     },
     "title": {
-      "label": "Kuber - Kubernetes Dashboard - Surge Networks Inc."
+      "label": "Code App - thebaselab Ltd"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/kuber-kubernetes-dashboard/id1461666739?uo=2"
+          "href": "https://apps.apple.com/ca/app/code-app/id1512938504?uo=2"
         }
       },
       {
@@ -1496,22 +1496,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/ad/99/24/ad992443-661b-d232-b2a7-404aa1151212/pr_source.png/1024x1024bb.png",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/dd/5a/20/dd5a202b-7355-7882-3268-193627821cc5/52adfdd6-81de-4c76-8d07-253133221b1f_custom__U2013_8.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/kuber-kubernetes-dashboard/id1461666739?uo=2",
+      "label": "https://apps.apple.com/ca/app/code-app/id1512938504?uo=2",
       "attributes": {
-        "im:id": "1461666739",
-        "im:bundleId": "li.zihua.kuber"
+        "im:id": "1512938504",
+        "im:bundleId": "thebaselab.VS-Code"
       }
     },
     "im:artist": {
-      "label": "Surge Networks Inc.",
+      "label": "thebaselab Ltd",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/surge-networks-inc/id1442620677?uo=2"
+        "href": "https://apps.apple.com/ca/developer/thebaselab-ltd/id1452525755?uo=2"
       }
     },
     "category": {
@@ -1523,9 +1523,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2019-05-03T19:43:56-07:00",
+      "label": "2020-05-28T00:00:00-07:00",
       "attributes": {
-        "label": "May 3, 2019"
+        "label": "May 28, 2020"
       }
     }
   },
@@ -1640,6 +1640,210 @@
       "total": 99
     },
     "im:name": {
+      "label": "Kuber - Kubernetes Dashboard"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Kuber helps you manage Kubernetes clusters easily via your mobile device, making it possible to view the status of clusters and quickly fix issues from the comfort of your couch.\n\nKuber has many features (and there are more to come!):\n1. View the status of almost any resources. e.g. Pods, Deployments, PVs, Jobs, CronJobs, Nodes, Config Maps, Docker containers and so on.\n2. Scale deployments (Replica sets/Replication controllers) to accommodate short-term spikes in traffic.\n3. Inspect logs of any containers in realtime!\n4. Integrate with bash shell to exec commands inside the containers.\n4. Edit labels & Annotations via the lovely interface.\n5. View / Update almost any resources via YAML.\n6. Support managing multiple clusters.\n7. Invoke shell commands inside the container.\n8. View top nodes & pods (requires metrics server).\n9. Supported authentication methods: Certificate, Credentials, Token, AWS IAM Authenticator (EKS), Google Cloud Platform (GCP), and DigitalOcean.\n10. Support Face ID / Touch ID.\n11. Support dark mode.\n\nKuber works with Kubernetes >= 1.9 currently. Please talk to us if you want more features!"
+    },
+    "im:price": {
+      "label": "$13.99",
+      "attributes": {
+        "amount": "13.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019-2021 Zihua Li"
+    },
+    "title": {
+      "label": "Kuber - Kubernetes Dashboard - Surge Networks Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/kuber-kubernetes-dashboard/id1461666739?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/ad/99/24/ad992443-661b-d232-b2a7-404aa1151212/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/kuber-kubernetes-dashboard/id1461666739?uo=2",
+      "attributes": {
+        "im:id": "1461666739",
+        "im:bundleId": "li.zihua.kuber"
+      }
+    },
+    "im:artist": {
+      "label": "Surge Networks Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/surge-networks-inc/id1442620677?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-05-03T19:43:56-07:00",
+      "attributes": {
+        "label": "May 3, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 18,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Cookie Editor - For Safari"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/e6/c5/a4e6c529-5da1-c30f-a4db-678e198bbf4b/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "We deliver the first ever Cookie Editor extension available for Safari Web Browser, which helps in\n1: Edit cookies as simple text\n2: Delete cookies,\n3: Import cookies as JSON or simple text.\nfrom any saved website. \nHappy Editing cookies now take rest and have some water."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Shubham Sharma"
+    },
+    "title": {
+      "label": "Cookie Editor - For Safari - Shubham Sharma"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/cookie-editor-for-safari/id1643498176?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/41/05/71/410571cb-07e4-e295-684a-2ddf12090ced/0e647d22-f494-437f-bebe-84504fb9a9e7_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/cookie-editor-for-safari/id1643498176?uo=2",
+      "attributes": {
+        "im:id": "1643498176",
+        "im:bundleId": "com.clint.Cookie-Editor"
+      }
+    },
+    "im:artist": {
+      "label": "Shubham Sharma",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/shubham-sharma/id1643497398?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-09-12T00:00:00-07:00",
+      "attributes": {
+        "label": "September 12, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 19,
+      "total": 99
+    },
+    "im:name": {
       "label": "Source 3"
     },
     "im:image": [
@@ -1738,7 +1942,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -1832,210 +2036,6 @@
       "label": "2017-07-26T12:09:06-07:00",
       "attributes": {
         "label": "July 26, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 19,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Snippit"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/2c/50/d9/2c50d9a3-4502-d247-a3b9-66ebd76d4da1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/2c/50/d9/2c50d9a3-4502-d247-a3b9-66ebd76d4da1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/2c/50/d9/2c50d9a3-4502-d247-a3b9-66ebd76d4da1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Snippit is a code management app for the cloud. Without iCloud, you can still use Snippit - it just won't be quite so cool.\n\nWith Snippit, you can..\n\n • Create & Edit Snippets in Objective-C, Swift, Python, and dozens more!\n • Edit your code\n • Share Image of your snippet with line numbers, pre-formatted and coloured \n • Drag your snippets to another app to insert them\n • Change between light and dark modes \n • Synchronise your snippets between all your devices for free using iCloud.\n\nAvailable as a separate purchase on macOS, you can purchase Snippit for your computer to take your snippets back to the desktop."
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 Alex Logan"
-    },
-    "title": {
-      "label": "Snippit - Alexander Logan"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/snippit/id1465481124?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/3e/65/14/3e6514e7-3ae1-18a5-6e0e-2482569bae7d/be6b297c-b12d-4100-aa6a-b3e9cfb8cf4b_Main.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/snippit/id1465481124?uo=2",
-      "attributes": {
-        "im:id": "1465481124",
-        "im:bundleId": "uk.co.alexanderlogan.snippit"
-      }
-    },
-    "im:artist": {
-      "label": "Alexander Logan",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/alexander-logan/id1322424210?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-06-02T16:46:40-07:00",
-      "attributes": {
-        "label": "June 2, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 20,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Text Editor - Document Editor"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Looking for powerful editing apps to write your story, files and make corrections whenever needed? Install Text Editor - Document Editor Pro on your iOS device and edit your texts anytime, anywhere easily.\n\nWe have brought you a fantastic and easy text editor app that will allow you to write and record your story, draft writings, search words or letters and replace multiple words at once. You don’t need several file editors to get different jobs done; this texting editor will provide you with everything. Whether you are looking for a free document editor or a font editing app, our words editor or text document editing app will delight you big time.\n\nWhat can you do with Text Editor- Document Editor app?\n\nThis powerful editing app allows you to edit word files anywhere, anytime. While using this file editor to rewrite your texts, you can find a new word and replace your text with it. Our app works as a text changer, so you can change any word instantly right in the app. You can replace multiple words and search for new words in this word editor app. You can also customize editor themes such as a dark mode for the night or light mode for the day. Also, back up your files and documents on the cloud with one click.\n\nSo, if you are searching for a word editor to edit google documents or a text edit app for customizing your notebook word writings, this editing app is always here to help.\n\nTake a look at the key features of the Text Editor- Document Editor Pro app:\n\n• Whether you are looking for editing apps to make corrections to your word docs or to write a story on your iOS device, this text edit app works effectively and efficiently. The simple and easy user interface of this app editor allows you to edit texts quickly and flawlessly. Install the app on your iPhone and start editing texts instantly without going through any complicated settings.\n• In the setting, you can customize the text as per your will. There are hundreds of font sizes available in our markdown app, and you can select the one you require. You can keep auto-correction on so the app can correct if you make a mistake. This docs and notes editor allows you to write and read texts in fullscreen mode.\n• Your recent activities are also saved in the history so you can find previous documents in one tap. If you are looking for an easy, simple yet elegant text editing tool that contains all necessary functions, your search ends with our quick edit app. \n• You can find words or texts and replace them easily in this texteditor app. This text changer allows you to change words anytime you want. Select the word you want to change, find the alternative in the app, and replace it. You can also edit your Json file effortlessly with this quickedit app.\n• This texting editor allows you to customize the theme. You can switch into the dark mode or light mode according to your need.\n• Keep a backup of your edited word doc or google-docs into the cloud, so you never lose them. Find the right tags for your file in the app and upload them directly on iCloud.\n• If you are searching for a document editor free to edit documents like word files or Json, our simple texting-file editor is the right one. In-app purchases are also available if you want to access more unique features.\n\nSo, what are you waiting for? Install Text Editor- Document Editor on your iOS device and start editing texts like a pro."
-    },
-    "im:price": {
-      "label": "$2.79",
-      "attributes": {
-        "amount": "2.79",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 SUPAGARN - PA"
-    },
-    "title": {
-      "label": "Text Editor - Document Editor - Supagarn Pattananuchart"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/text-editor-document-editor/id1565641091?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/20/fd/42/20fd4210-1434-9983-4d0a-22a028322130/77fc5d5a-3d81-4c56-95ed-2d659d310239_IP-1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/text-editor-document-editor/id1565641091?uo=2",
-      "attributes": {
-        "im:id": "1565641091",
-        "im:bundleId": "com.mav.TextEditor"
-      }
-    },
-    "im:artist": {
-      "label": "Supagarn Pattananuchart",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/supagarn-pattananuchart/id1488328374?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-05-12T00:00:00-07:00",
-      "attributes": {
-        "label": "May 12, 2021"
       }
     }
   },
@@ -2456,108 +2456,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "AirTerminal - BLE Terminal"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/e9/d0/88/e9d08816-fead-5ba7-d46f-b290069a75c0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/e9/d0/88/e9d08816-fead-5ba7-d46f-b290069a75c0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/e9/d0/88/e9d08816-fead-5ba7-d46f-b290069a75c0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "AirTerminal is a Bluetooth (BLE) terminal for embedded devices such as Raspberry Pi, BeagleBone, Arduino Yún and more. With AirTerminal, you can easily access the console / shell of your embedded devices without a Internet / SSH connection.\n\n(To use AirTerminal, an additional BLE serial adapter is required.)\n\n\nFeatures:\n- Full feature terminal works with bash, vim, top, tmux and more.\n- Hardware keyboard support.\n- Addition buttons to input ESC, TAB, CTL or cursor keys easily.\n- A \"Fit\" button uses \"stty\" command to adjust terminal size automatically.\n- Support central and peripheral mode.\n- Send or receive files with XMODEM protocol"
-    },
-    "im:price": {
-      "label": "$3.99",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Blanboom"
-    },
-    "title": {
-      "label": "AirTerminal - BLE Terminal - Xiaozhong Ma"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/airterminal-ble-terminal/id1296588408?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/38/3e/04/383e04ee-91eb-feb3-c426-b50ccc1da9fe/mzl.uqmwlptw.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/airterminal-ble-terminal/id1296588408?uo=2",
-      "attributes": {
-        "im:id": "1296588408",
-        "im:bundleId": "org.blanboom.airterm"
-      }
-    },
-    "im:artist": {
-      "label": "Xiaozhong Ma",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/xiaozhong-ma/id1120243545?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-29T16:28:40-07:00",
-      "attributes": {
-        "label": "November 29, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 26,
-      "total": 99
-    },
-    "im:name": {
       "label": "Logger for Shortcuts"
     },
     "im:image": [
@@ -2648,6 +2546,108 @@
       "label": "2022-03-10T00:00:00-07:00",
       "attributes": {
         "label": "March 10, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 26,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Text Editor - Document Editor"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Looking for powerful editing apps to write your story, files and make corrections whenever needed? Install Text Editor - Document Editor Pro on your iOS device and edit your texts anytime, anywhere easily.\n\nWe have brought you a fantastic and easy text editor app that will allow you to write and record your story, draft writings, search words or letters and replace multiple words at once. You don’t need several file editors to get different jobs done; this texting editor will provide you with everything. Whether you are looking for a free document editor or a font editing app, our words editor or text document editing app will delight you big time.\n\nWhat can you do with Text Editor- Document Editor app?\n\nThis powerful editing app allows you to edit word files anywhere, anytime. While using this file editor to rewrite your texts, you can find a new word and replace your text with it. Our app works as a text changer, so you can change any word instantly right in the app. You can replace multiple words and search for new words in this word editor app. You can also customize editor themes such as a dark mode for the night or light mode for the day. Also, back up your files and documents on the cloud with one click.\n\nSo, if you are searching for a word editor to edit google documents or a text edit app for customizing your notebook word writings, this editing app is always here to help.\n\nTake a look at the key features of the Text Editor- Document Editor Pro app:\n\n• Whether you are looking for editing apps to make corrections to your word docs or to write a story on your iOS device, this text edit app works effectively and efficiently. The simple and easy user interface of this app editor allows you to edit texts quickly and flawlessly. Install the app on your iPhone and start editing texts instantly without going through any complicated settings.\n• In the setting, you can customize the text as per your will. There are hundreds of font sizes available in our markdown app, and you can select the one you require. You can keep auto-correction on so the app can correct if you make a mistake. This docs and notes editor allows you to write and read texts in fullscreen mode.\n• Your recent activities are also saved in the history so you can find previous documents in one tap. If you are looking for an easy, simple yet elegant text editing tool that contains all necessary functions, your search ends with our quick edit app. \n• You can find words or texts and replace them easily in this texteditor app. This text changer allows you to change words anytime you want. Select the word you want to change, find the alternative in the app, and replace it. You can also edit your Json file effortlessly with this quickedit app.\n• This texting editor allows you to customize the theme. You can switch into the dark mode or light mode according to your need.\n• Keep a backup of your edited word doc or google-docs into the cloud, so you never lose them. Find the right tags for your file in the app and upload them directly on iCloud.\n• If you are searching for a document editor free to edit documents like word files or Json, our simple texting-file editor is the right one. In-app purchases are also available if you want to access more unique features.\n\nSo, what are you waiting for? Install Text Editor- Document Editor on your iOS device and start editing texts like a pro."
+    },
+    "im:price": {
+      "label": "$2.79",
+      "attributes": {
+        "amount": "2.79",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 SUPAGARN - PA"
+    },
+    "title": {
+      "label": "Text Editor - Document Editor - Supagarn Pattananuchart"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/text-editor-document-editor/id1565641091?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/20/fd/42/20fd4210-1434-9983-4d0a-22a028322130/77fc5d5a-3d81-4c56-95ed-2d659d310239_IP-1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/text-editor-document-editor/id1565641091?uo=2",
+      "attributes": {
+        "im:id": "1565641091",
+        "im:bundleId": "com.mav.TextEditor"
+      }
+    },
+    "im:artist": {
+      "label": "Supagarn Pattananuchart",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/supagarn-pattananuchart/id1488328374?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-05-12T00:00:00-07:00",
+      "attributes": {
+        "label": "May 12, 2021"
       }
     }
   },
@@ -2762,6 +2762,210 @@
       "total": 99
     },
     "im:name": {
+      "label": "Snippit"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/2c/50/d9/2c50d9a3-4502-d247-a3b9-66ebd76d4da1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/2c/50/d9/2c50d9a3-4502-d247-a3b9-66ebd76d4da1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/2c/50/d9/2c50d9a3-4502-d247-a3b9-66ebd76d4da1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Snippit is a code management app for the cloud. Without iCloud, you can still use Snippit - it just won't be quite so cool.\n\nWith Snippit, you can..\n\n • Create & Edit Snippets in Objective-C, Swift, Python, and dozens more!\n • Edit your code\n • Share Image of your snippet with line numbers, pre-formatted and coloured \n • Drag your snippets to another app to insert them\n • Change between light and dark modes \n • Synchronise your snippets between all your devices for free using iCloud.\n\nAvailable as a separate purchase on macOS, you can purchase Snippit for your computer to take your snippets back to the desktop."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Alex Logan"
+    },
+    "title": {
+      "label": "Snippit - Alexander Logan"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/snippit/id1465481124?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/3e/65/14/3e6514e7-3ae1-18a5-6e0e-2482569bae7d/be6b297c-b12d-4100-aa6a-b3e9cfb8cf4b_Main.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/snippit/id1465481124?uo=2",
+      "attributes": {
+        "im:id": "1465481124",
+        "im:bundleId": "uk.co.alexanderlogan.snippit"
+      }
+    },
+    "im:artist": {
+      "label": "Alexander Logan",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/alexander-logan/id1322424210?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-06-02T16:46:40-07:00",
+      "attributes": {
+        "label": "June 2, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 29,
+      "total": 99
+    },
+    "im:name": {
+      "label": "AirTerminal - BLE Terminal"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/e9/d0/88/e9d08816-fead-5ba7-d46f-b290069a75c0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/e9/d0/88/e9d08816-fead-5ba7-d46f-b290069a75c0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/e9/d0/88/e9d08816-fead-5ba7-d46f-b290069a75c0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "AirTerminal is a Bluetooth (BLE) terminal for embedded devices such as Raspberry Pi, BeagleBone, Arduino Yún and more. With AirTerminal, you can easily access the console / shell of your embedded devices without a Internet / SSH connection.\n\n(To use AirTerminal, an additional BLE serial adapter is required.)\n\n\nFeatures:\n- Full feature terminal works with bash, vim, top, tmux and more.\n- Hardware keyboard support.\n- Addition buttons to input ESC, TAB, CTL or cursor keys easily.\n- A \"Fit\" button uses \"stty\" command to adjust terminal size automatically.\n- Support central and peripheral mode.\n- Send or receive files with XMODEM protocol"
+    },
+    "im:price": {
+      "label": "$3.99",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Blanboom"
+    },
+    "title": {
+      "label": "AirTerminal - BLE Terminal - Xiaozhong Ma"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/airterminal-ble-terminal/id1296588408?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/38/3e/04/383e04ee-91eb-feb3-c426-b50ccc1da9fe/mzl.uqmwlptw.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/airterminal-ble-terminal/id1296588408?uo=2",
+      "attributes": {
+        "im:id": "1296588408",
+        "im:bundleId": "org.blanboom.airterm"
+      }
+    },
+    "im:artist": {
+      "label": "Xiaozhong Ma",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/xiaozhong-ma/id1120243545?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-11-29T16:28:40-07:00",
+      "attributes": {
+        "label": "November 29, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 30,
+      "total": 99
+    },
+    "im:name": {
       "label": "Programming Notebook PRO"
     },
     "im:image": [
@@ -2860,7 +3064,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -2962,7 +3166,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3064,109 +3268,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "$6.99",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 32,
+      "index": 33,
       "total": 99
     },
     "im:name": {
@@ -3268,7 +3370,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 34,
       "total": 99
     },
     "im:name": {
@@ -3370,7 +3472,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3472,7 +3574,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3566,108 +3668,6 @@
       "label": "2017-11-07T11:32:31-07:00",
       "attributes": {
         "label": "November 7, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 36,
-      "total": 99
-    },
-    "im:name": {
-      "label": "RGB Color Maker"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/01/be/7d01be8c-737b-d013-552b-194f8f5356b4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/01/be/7d01be8c-737b-d013-552b-194f8f5356b4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/01/be/7d01be8c-737b-d013-552b-194f8f5356b4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This app simply lets you create RGB or Hex color values! After finding the perfect color for you, just tap the copy button and paste it wherever you want."
-    },
-    "im:price": {
-      "label": "$1.39",
-      "attributes": {
-        "amount": "1.39",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 CodeBroadcaster"
-    },
-    "title": {
-      "label": "RGB Color Maker - Omid Rostami"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/rgb-color-maker/id1620097631?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/d8/14/ac/d814ac2e-b30b-dc0d-d58f-bad94de2d839/66227f1d-de45-452b-bca6-e5b5a687c285_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/rgb-color-maker/id1620097631?uo=2",
-      "attributes": {
-        "im:id": "1620097631",
-        "im:bundleId": "com.codebroadcaster.RGBColorMaker"
-      }
-    },
-    "im:artist": {
-      "label": "Omid Rostami",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/omid-rostami/id1619425684?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-05-03T00:00:00-07:00",
-      "attributes": {
-        "label": "May 3, 2022"
       }
     }
   },
@@ -4190,30 +4190,30 @@
       "total": 99
     },
     "im:name": {
-      "label": "Terminal Commands Pro"
+      "label": "RGB Color Maker"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/01/be/7d01be8c-737b-d013-552b-194f8f5356b4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/01/be/7d01be8c-737b-d013-552b-194f8f5356b4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/9e/a9/fc/9ea9fc70-3727-5260-4c08-3c38658de18d/AppIconPro-1x_U007emarketing-0-8-0-P3-85-220.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/01/be/7d01be8c-737b-d013-552b-194f8f5356b4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "If you use Linux or  MacOs and you need a command line handbook this application maded for you. And you can save your commands to application. If you want share commands to other people on third party softwares.\n\nThis application contains the following commands\n- Search Commands\n- Pacman Commands\n- System Commands\n- Permission Commands\n- Compression Commands\n- FTP Commands\n- GIT Commands\n- ADB Commands\n- Network Commands\n- File Commands\n- Docker Commands\n- APT Commands \n- SSH Commands"
+      "label": "This app simply lets you create RGB or Hex color values! After finding the perfect color for you, just tap the copy button and paste it wherever you want."
     },
     "im:price": {
       "label": "$1.39",
@@ -4229,17 +4229,17 @@
       }
     },
     "rights": {
-      "label": "© 2021 Havucapps"
+      "label": "© 2022 CodeBroadcaster"
     },
     "title": {
-      "label": "Terminal Commands Pro - Kasim SAGIR"
+      "label": "RGB Color Maker - Omid Rostami"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/terminal-commands-pro/id1630546383?uo=2"
+          "href": "https://apps.apple.com/ca/app/rgb-color-maker/id1620097631?uo=2"
         }
       },
       {
@@ -4250,22 +4250,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/5d/b8/c9/5db8c9a5-46fd-1b93-3c18-d6ff6a933bfd/aa422b8e-932f-4057-9fd6-33e3e7fa0a4d_12.9-inch_Screenshot_1.png/1024x1024bb.png",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/d8/14/ac/d814ac2e-b30b-dc0d-d58f-bad94de2d839/66227f1d-de45-452b-bca6-e5b5a687c285_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/terminal-commands-pro/id1630546383?uo=2",
+      "label": "https://apps.apple.com/ca/app/rgb-color-maker/id1620097631?uo=2",
       "attributes": {
-        "im:id": "1630546383",
-        "im:bundleId": "havucapps.terminalkomutlaripro"
+        "im:id": "1620097631",
+        "im:bundleId": "com.codebroadcaster.RGBColorMaker"
       }
     },
     "im:artist": {
-      "label": "Kasim SAGIR",
+      "label": "Omid Rostami",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/kasim-sagir/id1563742521?uo=2"
+        "href": "https://apps.apple.com/ca/developer/omid-rostami/id1619425684?uo=2"
       }
     },
     "category": {
@@ -4277,9 +4277,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2022-06-25T00:00:00-07:00",
+      "label": "2022-05-03T00:00:00-07:00",
       "attributes": {
-        "label": "June 25, 2022"
+        "label": "May 3, 2022"
       }
     }
   },
@@ -5006,108 +5006,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "MermaidEditor"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/68/85/59/688559bc-b0f7-8d28-4063-c8a8135a320c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/68/85/59/688559bc-b0f7-8d28-4063-c8a8135a320c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/68/85/59/688559bc-b0f7-8d28-4063-c8a8135a320c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "MermaidEditor is a diagram and chart editor, powered by mermaid-js. And MermaidEditor supports iPhone, iPad and Mac, with one app you can edit diagram everywhere on any device.\n\nMermaidEditor supports mermaid-js syntax highlighting and code completion, so it can help writing diagram and chart clearly, easily and quickly.\n\nYou can also easily export charts as PNG images or SVG files from the editor, or share image to other people with system actions.\n\n√ All Platforms\n\n- Both Mobile and Desktop platforms supported, you can edit diagram documents on iPhone, iPad or Mac\n- Document browser based app, easily edit files on device and sync document between devices\n- Multiple windows ready, it makes the editor more powerful on iPadOS\n- Keyboard shortcuts ready on iPadOS with keyboard connected\n\n√ Powerful Editor\n\n- Syntax Highlighting for mermaid-js grammar\n- Auto Completion in editor helps typing keywords quickly\n- Code Snippets likes parallel block in sequence diagram makes life easier\n- Instant Parsing Error indicator for locating syntax error\n\n√ Instant Preview\n\n- Auto Generated Preview when typing in editor\n- Zoom and Pan to move preview for checking diagram's detail\n- With Scroll wheel it can be easily zoom diagram on macOS\n\n√ Integrated Extensions\n\n- Thumbnail support, every .mmd file will has its own thumbnail when saving file\n- QuickLook Preview extension helps you preview mermaid document in Files app on iPhone or iPad and Finder on macOS\n\n√ Sharing\n\n- Save diagram document as its source with .mmd extension\n- Export diagram to PNG image or SVG file with one click\n\nFor mermaid-js grammar, please visit https://mermaid-js.github.io/mermaid/ for documentation."
-    },
-    "im:price": {
-      "label": "$5.49",
-      "attributes": {
-        "amount": "5.49",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© TickPlant.com"
-    },
-    "title": {
-      "label": "MermaidEditor - Jiwei Xu"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/mermaideditor/id1581312955?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/03/b4/51/03b451e3-895f-480a-aa13-09d610c55840/df693d58-6980-4405-adee-4620f5d31aa0_iPad__U622a_U56fe-1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/mermaideditor/id1581312955?uo=2",
-      "attributes": {
-        "im:id": "1581312955",
-        "im:bundleId": "com.tickplant.MermaidEditor"
-      }
-    },
-    "im:artist": {
-      "label": "Jiwei Xu",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/jiwei-xu/id391905315?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-08-15T00:00:00-07:00",
-      "attributes": {
-        "label": "August 15, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 51,
-      "total": 99
-    },
-    "im:name": {
       "label": "Globe Topper"
     },
     "im:image": [
@@ -5206,7 +5104,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 52,
+      "index": 51,
       "total": 99
     },
     "im:name": {
@@ -5308,7 +5206,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 53,
+      "index": 52,
       "total": 99
     },
     "im:name": {
@@ -5410,7 +5308,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 54,
+      "index": 53,
       "total": 99
     },
     "im:name": {
@@ -5504,6 +5402,108 @@
       "label": "2020-06-07T00:00:00-07:00",
       "attributes": {
         "label": "June 7, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 54,
+      "total": 99
+    },
+    "im:name": {
+      "label": "MermaidEditor"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/68/85/59/688559bc-b0f7-8d28-4063-c8a8135a320c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/68/85/59/688559bc-b0f7-8d28-4063-c8a8135a320c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/68/85/59/688559bc-b0f7-8d28-4063-c8a8135a320c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "MermaidEditor is a diagram and chart editor, powered by mermaid-js. And MermaidEditor supports iPhone, iPad and Mac, with one app you can edit diagram everywhere on any device.\n\nMermaidEditor supports mermaid-js syntax highlighting and code completion, so it can help writing diagram and chart clearly, easily and quickly.\n\nYou can also easily export charts as PNG images or SVG files from the editor, or share image to other people with system actions.\n\n√ All Platforms\n\n- Both Mobile and Desktop platforms supported, you can edit diagram documents on iPhone, iPad or Mac\n- Document browser based app, easily edit files on device and sync document between devices\n- Multiple windows ready, it makes the editor more powerful on iPadOS\n- Keyboard shortcuts ready on iPadOS with keyboard connected\n\n√ Powerful Editor\n\n- Syntax Highlighting for mermaid-js grammar\n- Auto Completion in editor helps typing keywords quickly\n- Code Snippets likes parallel block in sequence diagram makes life easier\n- Instant Parsing Error indicator for locating syntax error\n\n√ Instant Preview\n\n- Auto Generated Preview when typing in editor\n- Zoom and Pan to move preview for checking diagram's detail\n- With Scroll wheel it can be easily zoom diagram on macOS\n\n√ Integrated Extensions\n\n- Thumbnail support, every .mmd file will has its own thumbnail when saving file\n- QuickLook Preview extension helps you preview mermaid document in Files app on iPhone or iPad and Finder on macOS\n\n√ Sharing\n\n- Save diagram document as its source with .mmd extension\n- Export diagram to PNG image or SVG file with one click\n\nFor mermaid-js grammar, please visit https://mermaid-js.github.io/mermaid/ for documentation."
+    },
+    "im:price": {
+      "label": "$5.49",
+      "attributes": {
+        "amount": "5.49",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© TickPlant.com"
+    },
+    "title": {
+      "label": "MermaidEditor - Jiwei Xu"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/mermaideditor/id1581312955?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/03/b4/51/03b451e3-895f-480a-aa13-09d610c55840/df693d58-6980-4405-adee-4620f5d31aa0_iPad__U622a_U56fe-1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/mermaideditor/id1581312955?uo=2",
+      "attributes": {
+        "im:id": "1581312955",
+        "im:bundleId": "com.tickplant.MermaidEditor"
+      }
+    },
+    "im:artist": {
+      "label": "Jiwei Xu",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/jiwei-xu/id391905315?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-08-15T00:00:00-07:00",
+      "attributes": {
+        "label": "August 15, 2021"
       }
     }
   },

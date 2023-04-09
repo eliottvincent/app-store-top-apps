@@ -110,108 +110,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "¥480",
-      "attributes": {
-        "amount": "480",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-08-25T09:56:35-07:00",
-      "attributes": {
-        "label": "August 25, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
-      "total": 99
-    },
-    "im:name": {
       "label": "Source 3"
     },
     "im:image": [
@@ -310,109 +208,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
-      "total": 99
-    },
-    "im:name": {
-      "label": "JINS MEME Logger"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/e8/41/6f/e8416f96-dc53-6923-cef6-eb7885e3e02b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e8/41/6f/e8416f96-dc53-6923-cef6-eb7885e3e02b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e8/41/6f/e8416f96-dc53-6923-cef6-eb7885e3e02b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "ーーー\nメガネで生体情報を取得できるロガーアプリ\nJINS MEME Loggerは、JINS MEMEで計測された様々なデータを表示し保存することができるアプリです。このアプリは現在販売中のJINS MEMEにのみ対応しております。\nアプリの使い方\n—————————————————————————————————————\n1. JINS MEMEとスマートフォンを接続\n・タブバーの「接続」をタップ\n・アプリ画面下「検索」ボタンをタップしてアドバタイズされているJINS MEMEを検索\n・見つかったJINS MEMEのIDをタップすれば接続完了\n—————————————————————————————————————\n2. 「ロガー」ページで計測データを確認してデータ保存\n・タブバーの「ロガー」ページには接続されているJINS MEMEで計測されたデータがリアルタイムに表示されます\n・画面下の「記録」ボタンをタップでデータの記録を開始します。「記録終了」ボタンをタップすれば記録を終了しデータを保存します\n・記録されたデータはCSVファイルでスマートフォン内に保存されます\n—————————————————————————————————————\n3. 目の動き、体の動きをグラフで確認\n・タブバー中央の「グラフ」ページでは、接続されているJINS MEMEで計測されたデータをグラフでリアルタイム表示します\n—————————————————————————————————————\n4. CSVファイルの取り出し\n内部ストレージ→Download以下にファイル種毎にフォルダが切られ保存されています。他のファイラーアプリで開いてください。\n—————————————————————————————————————\n5. データの連携\n・Google Driveにデータを自動連携することができます。\n・WebSocketクライアントを追加することで、JINS MEMEのデータをリアルタイムに外部出力することができます。\n—————————————————————————————————————\nJINS MEMEに関する情報はこちら\nhttps://jinsmeme.com/"
-    },
-    "im:price": {
-      "label": "¥160",
-      "attributes": {
-        "amount": "160",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2018 JINS Inc."
-    },
-    "title": {
-      "label": "JINS MEME Logger - JINS Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/jins-meme-logger/id1537937129?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/3a/ef/67/3aef67f5-cbd4-7ed5-72b4-5036bfa2e771/d4dd5275-2b0f-4549-8ba6-3847ff15af91_logger01.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/jins-meme-logger/id1537937129?l=en&uo=2",
-      "attributes": {
-        "im:id": "1537937129",
-        "im:bundleId": "com.jins-meme.logger"
-      }
-    },
-    "im:artist": {
-      "label": "JINS Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/jins-inc/id510584835?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-25T00:00:00-07:00",
-      "attributes": {
-        "label": "January 25, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -506,6 +302,210 @@
       "label": "2012-03-01T16:33:04-07:00",
       "attributes": {
         "label": "March 1, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 4,
+      "total": 99
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "¥480",
+      "attributes": {
+        "amount": "480",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-08-25T09:56:35-07:00",
+      "attributes": {
+        "label": "August 25, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 5,
+      "total": 99
+    },
+    "im:name": {
+      "label": "JINS MEME Logger"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/e8/41/6f/e8416f96-dc53-6923-cef6-eb7885e3e02b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e8/41/6f/e8416f96-dc53-6923-cef6-eb7885e3e02b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/e8/41/6f/e8416f96-dc53-6923-cef6-eb7885e3e02b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "ーーー\nメガネで生体情報を取得できるロガーアプリ\nJINS MEME Loggerは、JINS MEMEで計測された様々なデータを表示し保存することができるアプリです。このアプリは現在販売中のJINS MEMEにのみ対応しております。\nアプリの使い方\n—————————————————————————————————————\n1. JINS MEMEとスマートフォンを接続\n・タブバーの「接続」をタップ\n・アプリ画面下「検索」ボタンをタップしてアドバタイズされているJINS MEMEを検索\n・見つかったJINS MEMEのIDをタップすれば接続完了\n—————————————————————————————————————\n2. 「ロガー」ページで計測データを確認してデータ保存\n・タブバーの「ロガー」ページには接続されているJINS MEMEで計測されたデータがリアルタイムに表示されます\n・画面下の「記録」ボタンをタップでデータの記録を開始します。「記録終了」ボタンをタップすれば記録を終了しデータを保存します\n・記録されたデータはCSVファイルでスマートフォン内に保存されます\n—————————————————————————————————————\n3. 目の動き、体の動きをグラフで確認\n・タブバー中央の「グラフ」ページでは、接続されているJINS MEMEで計測されたデータをグラフでリアルタイム表示します\n—————————————————————————————————————\n4. CSVファイルの取り出し\n内部ストレージ→Download以下にファイル種毎にフォルダが切られ保存されています。他のファイラーアプリで開いてください。\n—————————————————————————————————————\n5. データの連携\n・Google Driveにデータを自動連携することができます。\n・WebSocketクライアントを追加することで、JINS MEMEのデータをリアルタイムに外部出力することができます。\n—————————————————————————————————————\nJINS MEMEに関する情報はこちら\nhttps://jinsmeme.com/"
+    },
+    "im:price": {
+      "label": "¥160",
+      "attributes": {
+        "amount": "160",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2018 JINS Inc."
+    },
+    "title": {
+      "label": "JINS MEME Logger - JINS Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/jins-meme-logger/id1537937129?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/3a/ef/67/3aef67f5-cbd4-7ed5-72b4-5036bfa2e771/d4dd5275-2b0f-4549-8ba6-3847ff15af91_logger01.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/jins-meme-logger/id1537937129?l=en&uo=2",
+      "attributes": {
+        "im:id": "1537937129",
+        "im:bundleId": "com.jins-meme.logger"
+      }
+    },
+    "im:artist": {
+      "label": "JINS Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/jins-inc/id510584835?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-25T00:00:00-07:00",
+      "attributes": {
+        "label": "January 25, 2021"
       }
     }
   },
@@ -1028,108 +1028,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Hexer — Hex File Viewer"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive or your desktop. Or you can just share any file to it.\n\nBytes are highlighted in different colors: Printable characters are cyan, spaces blue, null bytes grey, control characters pink and so on. The colors appear across the binary, hexadecimal, and ascii column — or can just be turned off completely.\n\n▶ Many advanced options\n• Many popular themes from text editors and terminals\n• Line numbers (offsets)\n• Overscroll\n• Complete control over the formatting of what you copy or share\n• Column counts in powers of two (8 bytes, 16, 32, ...) or in any number that fits\n• Interpret bytes as ASCII, ISO Latin 1 or EBCDIC\n• The UI is navigable by keyboard and there are keyboard shortcuts to toggle almost everything\n• Further features for you to discover\n\n▶ Search\n• Search for content in the hexadecimal, ASCII or binary column\n• Preview results with context and jump to and highlight them in the document\n• Filter results with Regular Expression and based on case sensitivity\n• Jump between results with arrow keys\n\n▶ Analysis\n• Get information about the selection or the entire document\n• Decode to integers\n• See byte frequencies\n• See detected file signatures (magic numbers)\n• Read metadata like creation date and Unix permissions\n\n▶ The App is made by a real person out of love\nWhen you buy the app (no hidden in app purchases) the money goes straight to me to support development. If you have any questions or feature requests you can just write me an email and let me know. I will continue development with many more planned features like editing.\n\n▶ The App is friendly\nThere are no in app purchases, ads, tracking, nor is there any data collected. You buy it once and then use it. Nothing more. Nothing less."
-    },
-    "im:price": {
-      "label": "¥650",
-      "attributes": {
-        "amount": "650",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Hans Schülein"
-    },
-    "title": {
-      "label": "Hexer — Hex File Viewer - Hans Schulein"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/01/21/c2/0121c269-851f-dfb4-c75a-f78390e4fd5d/ffdc3ba6-bddd-443b-8f9d-2c29abeb249a_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-0_Main_framed.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2",
-      "attributes": {
-        "im:id": "1468880337",
-        "im:bundleId": "com.hans.Hexer"
-      }
-    },
-    "im:artist": {
-      "label": "Hans Schulein",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/hans-schulein/id1247291041?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-10-01T00:00:00-07:00",
-      "attributes": {
-        "label": "October 1, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 12,
-      "total": 99
-    },
-    "im:name": {
       "label": "Node-PAD"
     },
     "im:image": [
@@ -1220,6 +1118,108 @@
       "label": "2020-10-14T00:00:00-07:00",
       "attributes": {
         "label": "October 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 12,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Hexer — Hex File Viewer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive or your desktop. Or you can just share any file to it.\n\nBytes are highlighted in different colors: Printable characters are cyan, spaces blue, null bytes grey, control characters pink and so on. The colors appear across the binary, hexadecimal, and ascii column — or can just be turned off completely.\n\n▶ Many advanced options\n• Many popular themes from text editors and terminals\n• Line numbers (offsets)\n• Overscroll\n• Complete control over the formatting of what you copy or share\n• Column counts in powers of two (8 bytes, 16, 32, ...) or in any number that fits\n• Interpret bytes as ASCII, ISO Latin 1 or EBCDIC\n• The UI is navigable by keyboard and there are keyboard shortcuts to toggle almost everything\n• Further features for you to discover\n\n▶ Search\n• Search for content in the hexadecimal, ASCII or binary column\n• Preview results with context and jump to and highlight them in the document\n• Filter results with Regular Expression and based on case sensitivity\n• Jump between results with arrow keys\n\n▶ Analysis\n• Get information about the selection or the entire document\n• Decode to integers\n• See byte frequencies\n• See detected file signatures (magic numbers)\n• Read metadata like creation date and Unix permissions\n\n▶ The App is made by a real person out of love\nWhen you buy the app (no hidden in app purchases) the money goes straight to me to support development. If you have any questions or feature requests you can just write me an email and let me know. I will continue development with many more planned features like editing.\n\n▶ The App is friendly\nThere are no in app purchases, ads, tracking, nor is there any data collected. You buy it once and then use it. Nothing more. Nothing less."
+    },
+    "im:price": {
+      "label": "¥650",
+      "attributes": {
+        "amount": "650",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Hans Schülein"
+    },
+    "title": {
+      "label": "Hexer — Hex File Viewer - Hans Schulein"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/01/21/c2/0121c269-851f-dfb4-c75a-f78390e4fd5d/ffdc3ba6-bddd-443b-8f9d-2c29abeb249a_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-0_Main_framed.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2",
+      "attributes": {
+        "im:id": "1468880337",
+        "im:bundleId": "com.hans.Hexer"
+      }
+    },
+    "im:artist": {
+      "label": "Hans Schulein",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/hans-schulein/id1247291041?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-10-01T00:00:00-07:00",
+      "attributes": {
+        "label": "October 1, 2019"
       }
     }
   },
@@ -3604,9 +3604,9 @@
       "label": "The Ultimate Code Wrapper gives you the ability to access all your Code-Server, OpenVSCode Server, gitpod, github.dev, vscode.dev*, github codespaces, github1s, jupyter notebooks, jetbrains projector and stackblitz online instances in one place \"with tweeks\". That means you can use all defined and global shortcuts without the limitation of a browser. \nUCoW also adds a custom Keybar, including an innovative new \"cursor control stick\" to the virtual keyboard.\n\nShort features overview: \n• Access to all keyboard shortcuts (physical keyboard required)\n• Extra Key-bar with many onscreen shortcuts \n(including a virtual stick to move the cursor without a trackpad/mouse)\n• Best possible performance on iPad devices\n• Quick switch between multiple code-server instances \n• Optimized Trackpad support\n• Multi instance and window support \n• Editor scale/zoom support\n\n••• ! ••• This app requires a self hosted code-server instance \nor an account at one of the supported services ••• ! •••\n\nSupported Services:\n• Code-Server (self-hosted) \nYou can download code-server at: https://github.com/cdr/code-server\n• NEW! OpenVSCode Server (self-hosted)\nDownload it at: https://github.com/gitpod-io/openvscode-server\n• NEW! Support for VSCode and Jupyter Notebook Add-On in Home Assistant (www.home-assistant.io)\n• NEW! Join a live share (VSCode Extension) on https://VSCode.dev via URL or Liveshare id\n\n• Gitpod (gitpod.io)\n• Github Codespaces (github.com/features/codespaces)\n• Github1s (github1s.com)\n• Stackblitz (stackblitz.com)\n• VSCode.dev* (github.dev)\n• Jetbrains Projector  (jetbrains.com/projector)\n• Jupyter Notebooks (jupyter.org)\n• more services will follow soon\n\n\n* IMPORTANT! for VSCode.dev (VS Code Server & Liveshare) there is an new separate App available on the AppStore. \nPlease check out: \"VSCoW - Code Wrapper\" for this case. \n\n\n••• ! ••• An internet connection is required to work\n\n\n••• ! ••• An external keyboard is recommended to use the app since selection with the touch cursor is not supported in VSCode at this moment.\n\nThis is a wrapper app only and is not affiliated with or endorsed by Microsoft Corporation."
     },
     "im:price": {
-      "label": "¥650",
+      "label": "¥400",
       "attributes": {
-        "amount": "650",
+        "amount": "400",
         "currency": "JPY"
       }
     },
@@ -3884,108 +3884,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "C Code Develop"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/88/05/82/880582d7-6467-5fa0-edb2-d4aa7a1a540f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/88/05/82/880582d7-6467-5fa0-edb2-d4aa7a1a540f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/88/05/82/880582d7-6467-5fa0-edb2-d4aa7a1a540f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "-- Support code auto completion and automatic code formatting;\n-- Support debugger (breakpoints);\n-- Run Offline & Support File IO & Support interaction & Support multi-processing;\n-- Support Project References;\n\nA tiny C language development environment, support project management and header file reference, support code executing.\n\nFor Coding enthusiasts and Computer-Science students, some Data-Structure projects are included.\n\nYou can use the tiny environment provided to run your project locally, or you can export the project to your computer to compile and run the project. The tiny environment includes a small C standard library that supports commonly used header files and most standard C99 library functions, and C Code Develop provides a easy access header file ccd.h, also some C++ features like argument reference, iostream(cin and cout) are supported. For safety reasons, inline assembly and some other unsafe syntax are not supported.\n\n*1. Editor Support auto completion, auto format, long-press to document and other efficient features.\n*2. Terminal (stdin and stdout) is fully supported, and also you can open *.txt file in project use fopen(), because of the app now only support view and edit text file, you can't open file without .txt suffix or other suffix, or use binary (b) as open mode is not currently supported."
-    },
-    "im:price": {
-      "label": "¥160",
-      "attributes": {
-        "amount": "160",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "©2020 Xing Cheng"
-    },
-    "title": {
-      "label": "C Code Develop - 铖 邢"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0c/f1/c2/0cf1c26c-8ba2-ed92-b06d-f92ebda1a301/81c37035-57fb-4307-98e0-6bda3d77cd88_1._U65ad_U70b9_U8c03_U8bd5-en-129.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2",
-      "attributes": {
-        "im:id": "1503486606",
-        "im:bundleId": "org.forgetive.ccmp"
-      }
-    },
-    "im:artist": {
-      "label": "铖 邢",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/%E9%93%96-%E9%82%A2/id1497880786?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-06T00:00:00-07:00",
-      "attributes": {
-        "label": "January 6, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 40,
-      "total": 99
-    },
-    "im:name": {
       "label": "Text Editor - Document Editor"
     },
     "im:image": [
@@ -4084,7 +3982,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 41,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -4178,6 +4076,108 @@
       "label": "2020-05-06T00:00:00-07:00",
       "attributes": {
         "label": "May 6, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 41,
+      "total": 99
+    },
+    "im:name": {
+      "label": "C Code Develop"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/88/05/82/880582d7-6467-5fa0-edb2-d4aa7a1a540f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/88/05/82/880582d7-6467-5fa0-edb2-d4aa7a1a540f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/88/05/82/880582d7-6467-5fa0-edb2-d4aa7a1a540f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "-- Support code auto completion and automatic code formatting;\n-- Support debugger (breakpoints);\n-- Run Offline & Support File IO & Support interaction & Support multi-processing;\n-- Support Project References;\n\nA tiny C language development environment, support project management and header file reference, support code executing.\n\nFor Coding enthusiasts and Computer-Science students, some Data-Structure projects are included.\n\nYou can use the tiny environment provided to run your project locally, or you can export the project to your computer to compile and run the project. The tiny environment includes a small C standard library that supports commonly used header files and most standard C99 library functions, and C Code Develop provides a easy access header file ccd.h, also some C++ features like argument reference, iostream(cin and cout) are supported. For safety reasons, inline assembly and some other unsafe syntax are not supported.\n\n*1. Editor Support auto completion, auto format, long-press to document and other efficient features.\n*2. Terminal (stdin and stdout) is fully supported, and also you can open *.txt file in project use fopen(), because of the app now only support view and edit text file, you can't open file without .txt suffix or other suffix, or use binary (b) as open mode is not currently supported."
+    },
+    "im:price": {
+      "label": "¥160",
+      "attributes": {
+        "amount": "160",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "©2020 Xing Cheng"
+    },
+    "title": {
+      "label": "C Code Develop - 铖 邢"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0c/f1/c2/0cf1c26c-8ba2-ed92-b06d-f92ebda1a301/81c37035-57fb-4307-98e0-6bda3d77cd88_1._U65ad_U70b9_U8c03_U8bd5-en-129.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2",
+      "attributes": {
+        "im:id": "1503486606",
+        "im:bundleId": "org.forgetive.ccmp"
+      }
+    },
+    "im:artist": {
+      "label": "铖 邢",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/%E9%93%96-%E9%82%A2/id1497880786?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-06T00:00:00-07:00",
+      "attributes": {
+        "label": "January 6, 2021"
       }
     }
   },
@@ -5309,108 +5309,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "SmartController3"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/e4/ed/b9/e4edb9e0-ea43-2650-a4bb-286d0ff59b26/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/e4/ed/b9/e4edb9e0-ea43-2650-a4bb-286d0ff59b26/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/e4/ed/b9/e4edb9e0-ea43-2650-a4bb-286d0ff59b26/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "コントローラを使って、ROS対応ロボットを簡単に操作できます。また、カスタムラベルをROS launchファイル経由で設定することで、効率的な作業が可能になります。ROSノードとの接続は自動で行われるため、面倒な設定は必要ありません。このアプリは、ロボット開発者に最適です。ロボットの開発やテストに必要な機能を備えており、よりスムーズな作業が実現できます。\nこのアプリを使用するにはROS2 Humble / Foxy環境に次のリポジトリにあるROSパッケージをインストールする必要があります。 https://github.com/hakoroboken/smart_controller_gateway\n\nこのアプリはOSSで開発しており次のURLからコードにアクセスできます。 \nhttps://github.com/TakanoTaiga/SmartController3\n\n上記のリポジトリではいつでもPRやIssueを受け付けております。"
-    },
-    "im:price": {
-      "label": "¥300",
-      "attributes": {
-        "amount": "300",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Taiga Takano"
-    },
-    "title": {
-      "label": "SmartController3 - takano yukiji"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/smartcontroller3/id6443526443?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/59/9b/ec/599bec3b-62ff-5433-8a18-fb6c02b0e7cf/3385c928-475b-4935-8464-38306df561ab_out3.001.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/smartcontroller3/id6443526443?l=en&uo=2",
-      "attributes": {
-        "im:id": "6443526443",
-        "im:bundleId": "com.sc3.connectROS"
-      }
-    },
-    "im:artist": {
-      "label": "takano yukiji",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/takano-yukiji/id1577277437?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-03-24T00:00:00-07:00",
-      "attributes": {
-        "label": "March 24, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 54,
-      "total": 99
-    },
-    "im:name": {
       "label": "Golang Recipes Pro"
     },
     "im:image": [
@@ -5509,7 +5407,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 55,
+      "index": 54,
       "total": 99
     },
     "im:name": {
@@ -5611,7 +5509,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 56,
+      "index": 55,
       "total": 99
     },
     "im:name": {
@@ -5713,7 +5611,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 57,
+      "index": 56,
       "total": 99
     },
     "im:name": {
@@ -5815,7 +5713,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 58,
+      "index": 57,
       "total": 99
     },
     "im:name": {
@@ -5917,7 +5815,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 59,
+      "index": 58,
       "total": 99
     },
     "im:name": {
@@ -6019,7 +5917,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 60,
+      "index": 59,
       "total": 99
     },
     "im:name": {
@@ -6121,7 +6019,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 61,
+      "index": 60,
       "total": 99
     },
     "im:name": {
@@ -6223,7 +6121,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 62,
+      "index": 61,
       "total": 99
     },
     "im:name": {
@@ -6325,7 +6223,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 63,
+      "index": 62,
       "total": 99
     },
     "im:name": {
@@ -6427,7 +6325,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 64,
+      "index": 63,
       "total": 99
     },
     "im:name": {
@@ -6529,7 +6427,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 65,
+      "index": 64,
       "total": 99
     },
     "im:name": {
@@ -6631,7 +6529,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 66,
+      "index": 65,
       "total": 99
     },
     "im:name": {
@@ -6733,7 +6631,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 67,
+      "index": 66,
       "total": 99
     },
     "im:name": {
@@ -6835,7 +6733,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 68,
+      "index": 67,
       "total": 99
     },
     "im:name": {
@@ -6937,7 +6835,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 69,
+      "index": 68,
       "total": 99
     },
     "im:name": {
@@ -7039,7 +6937,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 70,
+      "index": 69,
       "total": 99
     },
     "im:name": {
@@ -7141,7 +7039,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 71,
+      "index": 70,
       "total": 99
     },
     "im:name": {
@@ -7243,7 +7141,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 72,
+      "index": 71,
       "total": 99
     },
     "im:name": {
@@ -7345,7 +7243,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 73,
+      "index": 72,
       "total": 99
     },
     "im:name": {
@@ -7447,7 +7345,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 74,
+      "index": 73,
       "total": 99
     },
     "im:name": {
@@ -7549,7 +7447,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 75,
+      "index": 74,
       "total": 99
     },
     "im:name": {
@@ -7651,7 +7549,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 76,
+      "index": 75,
       "total": 99
     },
     "im:name": {
@@ -7753,7 +7651,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 77,
+      "index": 76,
       "total": 99
     },
     "im:name": {
@@ -7855,7 +7753,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 78,
+      "index": 77,
       "total": 99
     },
     "im:name": {
@@ -7957,7 +7855,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 79,
+      "index": 78,
       "total": 99
     },
     "im:name": {
@@ -8059,7 +7957,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 80,
+      "index": 79,
       "total": 99
     },
     "im:name": {
@@ -8161,7 +8059,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 81,
+      "index": 80,
       "total": 99
     },
     "im:name": {
@@ -8263,7 +8161,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 82,
+      "index": 81,
       "total": 99
     },
     "im:name": {
@@ -8365,7 +8263,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 83,
+      "index": 82,
       "total": 99
     },
     "im:name": {
@@ -8467,7 +8365,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 84,
+      "index": 83,
       "total": 99
     },
     "im:name": {
@@ -8569,7 +8467,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 85,
+      "index": 84,
       "total": 99
     },
     "im:name": {
@@ -8671,7 +8569,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 86,
+      "index": 85,
       "total": 99
     },
     "im:name": {
@@ -8773,7 +8671,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 87,
+      "index": 86,
       "total": 99
     },
     "im:name": {
@@ -8875,7 +8773,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 88,
+      "index": 87,
       "total": 99
     },
     "im:name": {
@@ -8977,7 +8875,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 89,
+      "index": 88,
       "total": 99
     },
     "im:name": {
@@ -9079,7 +8977,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 90,
+      "index": 89,
       "total": 99
     },
     "im:name": {
@@ -9181,7 +9079,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 91,
+      "index": 90,
       "total": 99
     },
     "im:name": {
@@ -9283,7 +9181,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 92,
+      "index": 91,
       "total": 99
     },
     "im:name": {
@@ -9385,7 +9283,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 93,
+      "index": 92,
       "total": 99
     },
     "im:name": {
@@ -9487,7 +9385,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 94,
+      "index": 93,
       "total": 99
     },
     "im:name": {
@@ -9589,7 +9487,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 95,
+      "index": 94,
       "total": 99
     },
     "im:name": {
@@ -9691,7 +9589,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 96,
+      "index": 95,
       "total": 99
     },
     "im:name": {
@@ -9793,7 +9691,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 97,
+      "index": 96,
       "total": 99
     },
     "im:name": {
@@ -9892,7 +9790,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 98,
+      "index": 97,
       "total": 99
     },
     "im:name": {
@@ -9994,7 +9892,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 99,
+      "index": 98,
       "total": 99
     },
     "im:name": {
@@ -10088,6 +9986,108 @@
       "label": "2020-05-03T00:00:00-07:00",
       "attributes": {
         "label": "May 3, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 99,
+      "total": 99
+    },
+    "im:name": {
+      "label": "介绍图工厂-应用上架截图美化助手"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3b/fe/65/3bfe6564-5437-8461-1567-591d70e63695/AppIcon-0-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/3b/fe/65/3bfe6564-5437-8461-1567-591d70e63695/AppIcon-0-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3b/fe/65/3bfe6564-5437-8461-1567-591d70e63695/AppIcon-0-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "【介绍图工厂】是一款专业、有格调的带壳截图工具，支持多设备，多样式。\n\n新增背景模糊，唯美小清新图片生成更便捷。\n新增iphone14pro max机型\n所见即所得，专业的应用截图美化，为您的APP推广添加催化剂。\n\n更多精美模板将持续更新，请保持持续关注~\n\n问题反馈，投稿建议欢迎联系：\n微博：木头人赵乐乐\n邮箱：weilezhao@gmail.com"
+    },
+    "im:price": {
+      "label": "¥160",
+      "attributes": {
+        "amount": "160",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "©介绍图工厂"
+    },
+    "title": {
+      "label": "介绍图工厂-应用上架截图美化助手 - Weile Zhao"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/%E4%BB%8B%E7%BB%8D%E5%9B%BE%E5%B7%A5%E5%8E%82-%E5%BA%94%E7%94%A8%E4%B8%8A%E6%9E%B6%E6%88%AA%E5%9B%BE%E7%BE%8E%E5%8C%96%E5%8A%A9%E6%89%8B/id1465349379?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/e9/f9/bd/e9f9bde2-9114-2296-66b8-8717dafa89c8/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/%E4%BB%8B%E7%BB%8D%E5%9B%BE%E5%B7%A5%E5%8E%82-%E5%BA%94%E7%94%A8%E4%B8%8A%E6%9E%B6%E6%88%AA%E5%9B%BE%E7%BE%8E%E5%8C%96%E5%8A%A9%E6%89%8B/id1465349379?l=en&uo=2",
+      "attributes": {
+        "im:id": "1465349379",
+        "im:bundleId": "cn.osant.IntroductionPageFactory"
+      }
+    },
+    "im:artist": {
+      "label": "Weile Zhao",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/weile-zhao/id1465349378?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-06-01T01:06:51-07:00",
+      "attributes": {
+        "label": "June 1, 2019"
       }
     }
   }

@@ -416,108 +416,6 @@
       "total": 96
     },
     "im:name": {
-      "label": "WilhelmSK"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/e3/09/05/e3090508-8001-5b5a-7e7c-2369b45245e2/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/e3/09/05/e3090508-8001-5b5a-7e7c-2369b45245e2/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/e3/09/05/e3090508-8001-5b5a-7e7c-2369b45245e2/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "WilhelmSK is a highly customizable display, monitoring and control dashboard for your boat.\n\nWilhelmSK can connect to a Signal K server like the Signal K Node Server or a Signal K gateway like the iKommunicate.\n\nIt can also connect directly to some devices:  \n  º NMEA 0183 over TCP or UDP. (from for example, Digital Yacht's Smart WLN10)\n  º Any modern Navico (Lowrance, Simnet or B&G) GoFree MFDs\n  º NMEA 2000 via Yacht Device's YDWG-02\n  º Victron Venus GX or CCGX\n  º Victron VRM\n  º Chetco SeaSmart Devices\n  º Chetco HelmSmart\n\nRayMarine Auto Pilot Support (via node-server or the YDWG only)\n  º View or change current mode (Standby, Auto, Wind, Track)\n  º View current target heading or Wind direction\n  º Change target heading or Wind direction\n  º Acknowledge \"Turn To Waypoint'\n\nActive Captain:\n  º You can view Active Captain Points of Interest and review or comment on them.\n  º Go to Settings->Appearance to show Active Captain Points of Interest on the maps.\n\nAlarms and Notifications\n  º View list of current current alarms\n  º Acknowledge RayMarine \"Turn To Waypoint' *\n  º Push notification support *\n  º Setup server side alarms *\n  º Set an anchor alarm with the push of a button *\n\nNavionics Maps\n  If you already have the Navionics Boating application with an active subscription, you can now use the same Navionics charts in WilhelmSK. Ensure you are a registered user with Navionics and have a Username and Password. If you have not registered, go to the Navionics Boating App’s Main Menu, click on the top “Me” option and then click Login. In WilhelmSK click the login button on the bottom right of the map and enter your Navionics login information.\n\nFeatures:\n  - Raymarine MFD: display and interact with a RayMarine MFD (discovered via Bonjour)\n  - Fusion stereo (control zone volumes, source input, play, pause etc.)\n  - Create a gauge for any value available via SignalK\n  - Sophisticated anchor alarm (requires node server and signalk-anchoralarm-plugin)\n  - Customize gauge display using SignalK meta.zones\n  - Customize gauge range, min/max, etc.\n  - Save custom gauges to node server or the cloud for use on other devices\n  - Wind Angle gauges can optionaly be rotated so that they always point ot the bow of the boat, regaurless of device positioning\n  - Place gauges by long pressing on a gauge and choosing a differnt one\n  - Make a gauge full screen by double tapping\n  - Multiple layout support. Create a differnt layout for Steaming, Sailing, Home Monitoring, etc.\n  - Customize the nuber of pages and their layout\n  - Manuall connection configuration synced accross devices via iCloud\n  - Automatic connection selection based on current ip (usefull when Bonjour is not available and you have multiple boats)\n  - Two themes, dark and light\n  - Animated gauge needles\n  - iPad Slideover and Split View support (Your gauge configuration can be customized for these views)\n  - Connections can be configured to be refreshed manually or at a specific time interval \n  - Design your own custom gauge templates\n  - Share your custom templates via Air Drop, eMail, Text, etc.\n  - Edit ApplyTV or other device layouts and templates remotely using your iPhone or iPad\n  - Most gauges can be configured to be digital or analog\n  - Enter the SignalK path and title for any gauge to show data not supported by default\n  - Displays AIS targets in the Map views\n  - Configure node server plugins inside of the app\n  - IP and RTSP camera display\n  \n\n* Some advanced features require signalk-server-node and special plugins installed. Setup Instructions at https://github.com/sbender9/wilhelmsk-node-server-setup"
-    },
-    "im:price": {
-      "label": "23,99 €",
-      "attributes": {
-        "amount": "23.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Scott Bender. All Rights Reserved"
-    },
-    "title": {
-      "label": "WilhelmSK - Scott Bender"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/wilhelmsk/id1150499484?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/b8/9f/e5/b89fe573-d39c-0a47-1914-6835148d1609/mzl.eicvzfve.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/wilhelmsk/id1150499484?uo=2",
-      "attributes": {
-        "im:id": "1150499484",
-        "im:bundleId": "com.scottbender.Wilhelm"
-      }
-    },
-    "im:artist": {
-      "label": "Scott Bender",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/scott-bender/id1150499483?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6010",
-        "term": "Navigation",
-        "scheme": "https://apps.apple.com/si/genre/ios-navigation/id6010?uo=2",
-        "label": "Navigation"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-10-03T20:03:52-07:00",
-      "attributes": {
-        "label": "October 3, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "navigation",
-      "index": 6,
-      "total": 96
-    },
-    "im:name": {
       "label": "Ski Tracks"
     },
     "im:image": [
@@ -616,7 +514,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 7,
+      "index": 6,
       "total": 96
     },
     "im:name": {
@@ -718,7 +616,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 8,
+      "index": 7,
       "total": 96
     },
     "im:name": {
@@ -820,7 +718,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 9,
+      "index": 8,
       "total": 96
     },
     "im:name": {
@@ -922,7 +820,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 10,
+      "index": 9,
       "total": 96
     },
     "im:name": {
@@ -1024,7 +922,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 11,
+      "index": 10,
       "total": 96
     },
     "im:name": {
@@ -1126,7 +1024,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 12,
+      "index": 11,
       "total": 96
     },
     "im:name": {
@@ -1228,7 +1126,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 13,
+      "index": 12,
       "total": 96
     },
     "im:name": {
@@ -1330,7 +1228,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 14,
+      "index": 13,
       "total": 96
     },
     "im:name": {
@@ -1432,7 +1330,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 15,
+      "index": 14,
       "total": 96
     },
     "im:name": {
@@ -1534,7 +1432,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 16,
+      "index": 15,
       "total": 96
     },
     "im:name": {
@@ -1636,7 +1534,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 17,
+      "index": 16,
       "total": 96
     },
     "im:name": {
@@ -1738,7 +1636,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 18,
+      "index": 17,
       "total": 96
     },
     "im:name": {
@@ -1840,7 +1738,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 19,
+      "index": 18,
       "total": 96
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 20,
+      "index": 19,
       "total": 96
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 21,
+      "index": 20,
       "total": 96
     },
     "im:name": {
@@ -2146,7 +2044,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 22,
+      "index": 21,
       "total": 96
     },
     "im:name": {
@@ -2248,7 +2146,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 23,
+      "index": 22,
       "total": 96
     },
     "im:name": {
@@ -2350,7 +2248,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 24,
+      "index": 23,
       "total": 96
     },
     "im:name": {
@@ -2452,7 +2350,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 25,
+      "index": 24,
       "total": 96
     },
     "im:name": {
@@ -2554,7 +2452,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 26,
+      "index": 25,
       "total": 96
     },
     "im:name": {
@@ -2656,7 +2554,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 27,
+      "index": 26,
       "total": 96
     },
     "im:name": {
@@ -2750,6 +2648,108 @@
       "label": "2012-11-26T00:00:00-07:00",
       "attributes": {
         "label": "November 26, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "navigation",
+      "index": 27,
+      "total": 96
+    },
+    "im:name": {
+      "label": "Marine Rules & Signals"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/16/2f/a0/162fa0eb-6026-1724-fa81-49605d68a25f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/16/2f/a0/162fa0eb-6026-1724-fa81-49605d68a25f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/16/2f/a0/162fa0eb-6026-1724-fa81-49605d68a25f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The reference guide to rules and signals at sea. Part of a series of Marine Navigation apps, Rules & Signals is a useful tool for sailors, fishermen, surfers and people involved in sea water sports. The Imray Marine Navigation reference products are intended for quick reference and learning.\n\nBeautifully illustrated with diagrams and short, clear text. Remind yourself quickly about a rule or light, or learn at home, traveling or in the winter while planning your trips.\n\nINCLUDES\nRULES OF THE ROAD:\n- Steering and sailing rules.\n- Lights and shapes: day and night time marking of boats.\n- Sound signals in restricted visibility. Actual sounds.\n- Distress signals.\n- Full Colregs text.\n\nSIGNALS & COMMUNICATION:\n- Buoys: worldwide buoyage systems A & B and animated harbour approaches.\n- Buoy lights, animated.\n- Sample harbour charts from around the world, with animated lights.\n- Flags: flag translator, phonetic alphabet, morse code  and message builder.\n- Dual flag messages.\n- Racing flags.\n- Semaphore flags.\n- Radio calls including Mayday/PanPan and radio channels.\n- Life saving communication including air rescue: Solas V.\n- Communication with air rescue.\n\nLEARNING SYSTEM:\n- Learning cards for all content, by section or for all Rules together.\n\nContent can be scrolled, viewed individually or in sequence. Large images (charts and at a glance images) can be zoomed and panned.\n\nBased on the International Regulations for Preventing Collisions and Sea, 1972, with amendments in force from November 1995,  SOLAS Chapter V Regulation 29 and the general guidelines for buoys and signals.\n\nLANGUAGES\nEnglish, French, German, Italian, Spanish, Japanese\n\nABOUT US\nImray are a leading chart and marine book publishers, based in England and with a catalogue of charts that covers Europe, the Mediterranean and the Caribbean. Imray's pilot books cover the whole world in extensive detail.\n\nIn partnership with Imray, software developers and sailors.\n\nFollow us on Twitter - http://twitter.com/imray_charts\nFacebook - imraynautical\n\nLook out for other applications in the Marine Navigation Series from Imray:\n\nTIDES PLANNER - tide predictions any date\nMARINE CHARTS - Europe Atlantic, Mediterranean, Caribbean, Australia\nBOAT INSTRUMENTS & AIS (requires WiFI NMEA bridge)\nCHART SYMBOLS"
+    },
+    "im:price": {
+      "label": "6,99 €",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Imray, Laurie, Norie & Wilson Ltd 2017"
+    },
+    "title": {
+      "label": "Marine Rules & Signals - Imray"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/marine-rules-signals/id315649961?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/34/83/19/34831953-c0b2-bc02-712a-16a9c4e65592/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/marine-rules-signals/id315649961?uo=2",
+      "attributes": {
+        "im:id": "315649961",
+        "im:bundleId": "com.imraymobile.rules"
+      }
+    },
+    "im:artist": {
+      "label": "Imray",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/imray/id315649964?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6010",
+        "term": "Navigation",
+        "scheme": "https://apps.apple.com/si/genre/ios-navigation/id6010?uo=2",
+        "label": "Navigation"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-05-14T23:08:50-07:00",
+      "attributes": {
+        "label": "May 14, 2009"
       }
     }
   },
@@ -2864,108 +2864,6 @@
       "total": 96
     },
     "im:name": {
-      "label": "Marine Rules & Signals"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/16/2f/a0/162fa0eb-6026-1724-fa81-49605d68a25f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/16/2f/a0/162fa0eb-6026-1724-fa81-49605d68a25f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/16/2f/a0/162fa0eb-6026-1724-fa81-49605d68a25f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The reference guide to rules and signals at sea. Part of a series of Marine Navigation apps, Rules & Signals is a useful tool for sailors, fishermen, surfers and people involved in sea water sports. The Imray Marine Navigation reference products are intended for quick reference and learning.\n\nBeautifully illustrated with diagrams and short, clear text. Remind yourself quickly about a rule or light, or learn at home, traveling or in the winter while planning your trips.\n\nINCLUDES\nRULES OF THE ROAD:\n- Steering and sailing rules.\n- Lights and shapes: day and night time marking of boats.\n- Sound signals in restricted visibility. Actual sounds.\n- Distress signals.\n- Full Colregs text.\n\nSIGNALS & COMMUNICATION:\n- Buoys: worldwide buoyage systems A & B and animated harbour approaches.\n- Buoy lights, animated.\n- Sample harbour charts from around the world, with animated lights.\n- Flags: flag translator, phonetic alphabet, morse code  and message builder.\n- Dual flag messages.\n- Racing flags.\n- Semaphore flags.\n- Radio calls including Mayday/PanPan and radio channels.\n- Life saving communication including air rescue: Solas V.\n- Communication with air rescue.\n\nLEARNING SYSTEM:\n- Learning cards for all content, by section or for all Rules together.\n\nContent can be scrolled, viewed individually or in sequence. Large images (charts and at a glance images) can be zoomed and panned.\n\nBased on the International Regulations for Preventing Collisions and Sea, 1972, with amendments in force from November 1995,  SOLAS Chapter V Regulation 29 and the general guidelines for buoys and signals.\n\nLANGUAGES\nEnglish, French, German, Italian, Spanish, Japanese\n\nABOUT US\nImray are a leading chart and marine book publishers, based in England and with a catalogue of charts that covers Europe, the Mediterranean and the Caribbean. Imray's pilot books cover the whole world in extensive detail.\n\nIn partnership with Imray, software developers and sailors.\n\nFollow us on Twitter - http://twitter.com/imray_charts\nFacebook - imraynautical\n\nLook out for other applications in the Marine Navigation Series from Imray:\n\nTIDES PLANNER - tide predictions any date\nMARINE CHARTS - Europe Atlantic, Mediterranean, Caribbean, Australia\nBOAT INSTRUMENTS & AIS (requires WiFI NMEA bridge)\nCHART SYMBOLS"
-    },
-    "im:price": {
-      "label": "6,99 €",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Imray, Laurie, Norie & Wilson Ltd 2017"
-    },
-    "title": {
-      "label": "Marine Rules & Signals - Imray"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/marine-rules-signals/id315649961?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/34/83/19/34831953-c0b2-bc02-712a-16a9c4e65592/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/marine-rules-signals/id315649961?uo=2",
-      "attributes": {
-        "im:id": "315649961",
-        "im:bundleId": "com.imraymobile.rules"
-      }
-    },
-    "im:artist": {
-      "label": "Imray",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/imray/id315649964?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6010",
-        "term": "Navigation",
-        "scheme": "https://apps.apple.com/si/genre/ios-navigation/id6010?uo=2",
-        "label": "Navigation"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2009-05-14T23:08:50-07:00",
-      "attributes": {
-        "label": "May 14, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "navigation",
-      "index": 30,
-      "total": 96
-    },
-    "im:name": {
       "label": "Localscope - Find places and people around you"
     },
     "im:image": [
@@ -3064,7 +2962,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 31,
+      "index": 30,
       "total": 96
     },
     "im:name": {
@@ -3166,7 +3064,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 32,
+      "index": 31,
       "total": 96
     },
     "im:name": {
@@ -3268,7 +3166,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 33,
+      "index": 32,
       "total": 96
     },
     "im:name": {
@@ -3370,7 +3268,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 34,
+      "index": 33,
       "total": 96
     },
     "im:name": {
@@ -3472,7 +3370,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 35,
+      "index": 34,
       "total": 96
     },
     "im:name": {
@@ -3574,7 +3472,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 36,
+      "index": 35,
       "total": 96
     },
     "im:name": {
@@ -3676,109 +3574,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 37,
-      "total": 96
-    },
-    "im:name": {
-      "label": "E6B Aviation Calculator"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/9c/33/66/9c33660f-4781-5d99-bebb-c5e228ccb744/AppIcon-1x_U007emarketing-85-220-0-6.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/9c/33/66/9c33660f-4781-5d99-bebb-c5e228ccb744/AppIcon-1x_U007emarketing-85-220-0-6.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9c/33/66/9c33660f-4781-5d99-bebb-c5e228ccb744/AppIcon-1x_U007emarketing-85-220-0-6.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Congratulations, you have found one of the finest E6B aviation flight calculators available for the Apple iPad, iPhone, and iPod touch.\n\nWith more than 75 aviation calculations, unit conversions and aviation weather reports, we are sure you will find myE6B beneficial in helping to solve the planning and navigating problems associated with flying.\n\nIn addition to a comprehensive set of flight planning calculations, myE6B includes convenient access to global METAR, TAF, AIR/SIGMET and PIREP reports, and a handy search utility for finding unknown ICAO weather station codes.\n\n\nCALCULATIONS\n————————————————\nQuickly perform more than 75 aviation related calculations, including many that typically require pilots to download separate apps, such as fuel calculations and converters. myE6B accommodates every pilot's calculation and flight-planning needs in a convenient package for your iPhone, iPad or iPod touch.\n\n • Time, speed & distance calculations \n • Advanced fuel calculations \n • Wind calculations \n • Altitude calculations\n • Add & subtract time\n • GPS coordinate converter\n\n\nAVIATION WEATHER\n————————————————\nmyE6B offers in-app access to pilot weather reports, so pilots don't have to leave the app to check the latest conditions. Search by ICAO code or browse a database of worldwide reporting stations. \n\n • METARs\n • TAFs\n • AIRMET\n • SIGMET\n • PIREPs\n • Cloud base\n • MOTNE / SNOWTAM decoder\n • ICAO Code database\n\n\nUNIT CONVERSIONS\n————————————————\nmyE6B includes more than 65 conversions and features in-calc unit converters for all metric and U.S. units, so pilots can quickly adjust results to the preferred unit of measurement. \n\n • Temperature \n • Distance \n • Speed \n • Pressure\n • Weight/mass \n • Latitude & longitude \n • Fuel and more\n\n\nmyE6B is built and maintained by pilots for pilots and includes the real​ calculations, not \"rule of thumb\" estimates like others.  \n\nTry myE6B today, you will not be disappointed, as it is tried, tested, and proven by thousands of professional pilots across the globe every day.\n\nVisit our website for more details: http://myE6B.com"
-    },
-    "im:price": {
-      "label": "10,99 €",
-      "attributes": {
-        "amount": "10.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Aviation Mobile Apps, LLC."
-    },
-    "title": {
-      "label": "E6B Aviation Calculator - Aviation Mobile Apps, LLC."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/e6b-aviation-calculator/id286046305?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/0d/d7/42/0dd742e2-e28a-b5e9-21ba-29e4f1ced973/mzl.xxzlaaet.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/e6b-aviation-calculator/id286046305?uo=2",
-      "attributes": {
-        "im:id": "286046305",
-        "im:bundleId": "com.yourcompany.myE6B"
-      }
-    },
-    "im:artist": {
-      "label": "Aviation Mobile Apps, LLC.",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/aviation-mobile-apps-llc/id286046308?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6010",
-        "term": "Navigation",
-        "scheme": "https://apps.apple.com/si/genre/ios-navigation/id6010?uo=2",
-        "label": "Navigation"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-02-05T00:00:00-07:00",
-      "attributes": {
-        "label": "February 5, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "navigation",
-      "index": 38,
+      "index": 36,
       "total": 96
     },
     "im:name": {
@@ -3880,7 +3676,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 39,
+      "index": 37,
+      "total": 96
+    },
+    "im:name": {
+      "label": "WilhelmSK"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/e3/09/05/e3090508-8001-5b5a-7e7c-2369b45245e2/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/e3/09/05/e3090508-8001-5b5a-7e7c-2369b45245e2/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/e3/09/05/e3090508-8001-5b5a-7e7c-2369b45245e2/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "WilhelmSK is a highly customizable display, monitoring and control dashboard for your boat.\n\nWilhelmSK can connect to a Signal K server like the Signal K Node Server or a Signal K gateway like the iKommunicate.\n\nIt can also connect directly to some devices:  \n  º NMEA 0183 over TCP or UDP. (from for example, Digital Yacht's Smart WLN10)\n  º Any modern Navico (Lowrance, Simnet or B&G) GoFree MFDs\n  º NMEA 2000 via Yacht Device's YDWG-02\n  º Victron Venus GX or CCGX\n  º Victron VRM\n  º Chetco SeaSmart Devices\n  º Chetco HelmSmart\n\nRayMarine Auto Pilot Support (via node-server or the YDWG only)\n  º View or change current mode (Standby, Auto, Wind, Track)\n  º View current target heading or Wind direction\n  º Change target heading or Wind direction\n  º Acknowledge \"Turn To Waypoint'\n\nActive Captain:\n  º You can view Active Captain Points of Interest and review or comment on them.\n  º Go to Settings->Appearance to show Active Captain Points of Interest on the maps.\n\nAlarms and Notifications\n  º View list of current current alarms\n  º Acknowledge RayMarine \"Turn To Waypoint' *\n  º Push notification support *\n  º Setup server side alarms *\n  º Set an anchor alarm with the push of a button *\n\nNavionics Maps\n  If you already have the Navionics Boating application with an active subscription, you can now use the same Navionics charts in WilhelmSK. Ensure you are a registered user with Navionics and have a Username and Password. If you have not registered, go to the Navionics Boating App’s Main Menu, click on the top “Me” option and then click Login. In WilhelmSK click the login button on the bottom right of the map and enter your Navionics login information.\n\nFeatures:\n  - Raymarine MFD: display and interact with a RayMarine MFD (discovered via Bonjour)\n  - Fusion stereo (control zone volumes, source input, play, pause etc.)\n  - Create a gauge for any value available via SignalK\n  - Sophisticated anchor alarm (requires node server and signalk-anchoralarm-plugin)\n  - Customize gauge display using SignalK meta.zones\n  - Customize gauge range, min/max, etc.\n  - Save custom gauges to node server or the cloud for use on other devices\n  - Wind Angle gauges can optionaly be rotated so that they always point ot the bow of the boat, regaurless of device positioning\n  - Place gauges by long pressing on a gauge and choosing a differnt one\n  - Make a gauge full screen by double tapping\n  - Multiple layout support. Create a differnt layout for Steaming, Sailing, Home Monitoring, etc.\n  - Customize the nuber of pages and their layout\n  - Manuall connection configuration synced accross devices via iCloud\n  - Automatic connection selection based on current ip (usefull when Bonjour is not available and you have multiple boats)\n  - Two themes, dark and light\n  - Animated gauge needles\n  - iPad Slideover and Split View support (Your gauge configuration can be customized for these views)\n  - Connections can be configured to be refreshed manually or at a specific time interval \n  - Design your own custom gauge templates\n  - Share your custom templates via Air Drop, eMail, Text, etc.\n  - Edit ApplyTV or other device layouts and templates remotely using your iPhone or iPad\n  - Most gauges can be configured to be digital or analog\n  - Enter the SignalK path and title for any gauge to show data not supported by default\n  - Displays AIS targets in the Map views\n  - Configure node server plugins inside of the app\n  - IP and RTSP camera display\n  \n\n* Some advanced features require signalk-server-node and special plugins installed. Setup Instructions at https://github.com/sbender9/wilhelmsk-node-server-setup"
+    },
+    "im:price": {
+      "label": "23,99 €",
+      "attributes": {
+        "amount": "23.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Scott Bender. All Rights Reserved"
+    },
+    "title": {
+      "label": "WilhelmSK - Scott Bender"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/wilhelmsk/id1150499484?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/b8/9f/e5/b89fe573-d39c-0a47-1914-6835148d1609/mzl.eicvzfve.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/wilhelmsk/id1150499484?uo=2",
+      "attributes": {
+        "im:id": "1150499484",
+        "im:bundleId": "com.scottbender.Wilhelm"
+      }
+    },
+    "im:artist": {
+      "label": "Scott Bender",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/scott-bender/id1150499483?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6010",
+        "term": "Navigation",
+        "scheme": "https://apps.apple.com/si/genre/ios-navigation/id6010?uo=2",
+        "label": "Navigation"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-10-03T20:03:52-07:00",
+      "attributes": {
+        "label": "October 3, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "navigation",
+      "index": 38,
       "total": 96
     },
     "im:name": {
@@ -3982,7 +3880,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 40,
+      "index": 39,
       "total": 96
     },
     "im:name": {
@@ -4076,6 +3974,108 @@
       "label": "2011-06-22T13:19:06-07:00",
       "attributes": {
         "label": "June 22, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "navigation",
+      "index": 40,
+      "total": 96
+    },
+    "im:name": {
+      "label": "E6B Aviation Calculator"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/9c/33/66/9c33660f-4781-5d99-bebb-c5e228ccb744/AppIcon-1x_U007emarketing-85-220-0-6.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/9c/33/66/9c33660f-4781-5d99-bebb-c5e228ccb744/AppIcon-1x_U007emarketing-85-220-0-6.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/9c/33/66/9c33660f-4781-5d99-bebb-c5e228ccb744/AppIcon-1x_U007emarketing-85-220-0-6.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Congratulations, you have found one of the finest E6B aviation flight calculators available for the Apple iPad, iPhone, and iPod touch.\n\nWith more than 75 aviation calculations, unit conversions and aviation weather reports, we are sure you will find myE6B beneficial in helping to solve the planning and navigating problems associated with flying.\n\nIn addition to a comprehensive set of flight planning calculations, myE6B includes convenient access to global METAR, TAF, AIR/SIGMET and PIREP reports, and a handy search utility for finding unknown ICAO weather station codes.\n\n\nCALCULATIONS\n————————————————\nQuickly perform more than 75 aviation related calculations, including many that typically require pilots to download separate apps, such as fuel calculations and converters. myE6B accommodates every pilot's calculation and flight-planning needs in a convenient package for your iPhone, iPad or iPod touch.\n\n • Time, speed & distance calculations \n • Advanced fuel calculations \n • Wind calculations \n • Altitude calculations\n • Add & subtract time\n • GPS coordinate converter\n\n\nAVIATION WEATHER\n————————————————\nmyE6B offers in-app access to pilot weather reports, so pilots don't have to leave the app to check the latest conditions. Search by ICAO code or browse a database of worldwide reporting stations. \n\n • METARs\n • TAFs\n • AIRMET\n • SIGMET\n • PIREPs\n • Cloud base\n • MOTNE / SNOWTAM decoder\n • ICAO Code database\n\n\nUNIT CONVERSIONS\n————————————————\nmyE6B includes more than 65 conversions and features in-calc unit converters for all metric and U.S. units, so pilots can quickly adjust results to the preferred unit of measurement. \n\n • Temperature \n • Distance \n • Speed \n • Pressure\n • Weight/mass \n • Latitude & longitude \n • Fuel and more\n\n\nmyE6B is built and maintained by pilots for pilots and includes the real​ calculations, not \"rule of thumb\" estimates like others.  \n\nTry myE6B today, you will not be disappointed, as it is tried, tested, and proven by thousands of professional pilots across the globe every day.\n\nVisit our website for more details: http://myE6B.com"
+    },
+    "im:price": {
+      "label": "10,99 €",
+      "attributes": {
+        "amount": "10.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Aviation Mobile Apps, LLC."
+    },
+    "title": {
+      "label": "E6B Aviation Calculator - Aviation Mobile Apps, LLC."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/e6b-aviation-calculator/id286046305?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/0d/d7/42/0dd742e2-e28a-b5e9-21ba-29e4f1ced973/mzl.xxzlaaet.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/e6b-aviation-calculator/id286046305?uo=2",
+      "attributes": {
+        "im:id": "286046305",
+        "im:bundleId": "com.yourcompany.myE6B"
+      }
+    },
+    "im:artist": {
+      "label": "Aviation Mobile Apps, LLC.",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/aviation-mobile-apps-llc/id286046308?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6010",
+        "term": "Navigation",
+        "scheme": "https://apps.apple.com/si/genre/ios-navigation/id6010?uo=2",
+        "label": "Navigation"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-02-05T00:00:00-07:00",
+      "attributes": {
+        "label": "February 5, 2019"
       }
     }
   },
@@ -4802,108 +4802,6 @@
       "total": 96
     },
     "im:name": {
-      "label": "Moon Seeker"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/6f/aa/d1/6faad1cd-73cf-073b-35c8-49c19ca568f9/AppIcon-1x_U007emarketing-0-10-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/6f/aa/d1/6faad1cd-73cf-073b-35c8-49c19ca568f9/AppIcon-1x_U007emarketing-0-10-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/6f/aa/d1/6faad1cd-73cf-073b-35c8-49c19ca568f9/AppIcon-1x_U007emarketing-0-10-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Provides a list of LUNAR PHASES, a CALENDAR view, a FLAT VIEW COMPASS, a MAP VIEW and an AUGMENTED REALITY CAMERA 3-D VIEW showing the lunar path and its hour intervals.\n\n* Ideal for photographers and anyone involved in outdoor nighttime activities. \n* Great for planning optimal light conditions.\n\nNote - if you are interested in daytime light conditions, please look at the \"Sun Seeker\" app, which provides related functionality for the sun.\n\nMain Features\n* Uses GPS and magnetometer to find the correct lunar position and path for your current location, or for any location on earth\n* Flat compass view showing current lunar position, diurnal lunar angle and elevation (separated into above and bow horizon segments)\n* 3D augmented reality camera overlay view showing the moon's current position, its path with hour points marked\n* Map view showing lunar light direction and elevation at all hours, for any location, scrollable for any date and time\n* Ability to choose any date and view lunar path for that day\n\nNotes\n* The compass accuracy depends on having an undistorted magnetic field around your device. If you use it close to metallic objects or electrical equipment, directional accuracy may be impaired."
-    },
-    "im:price": {
-      "label": "4,99 €",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Ajnaware Pty Ltd"
-    },
-    "title": {
-      "label": "Moon Seeker - ozPDA"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/moon-seeker/id375612556?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/c5/14/41/c51441bd-ea9f-d47b-7ebe-a5bd64b9e7d2/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/moon-seeker/id375612556?uo=2",
-      "attributes": {
-        "im:id": "375612556",
-        "im:bundleId": "com.ajnaware.MoonSeeker"
-      }
-    },
-    "im:artist": {
-      "label": "ozPDA",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/ozpda/id295147488?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6010",
-        "term": "Navigation",
-        "scheme": "https://apps.apple.com/si/genre/ios-navigation/id6010?uo=2",
-        "label": "Navigation"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-06-09T08:39:36-07:00",
-      "attributes": {
-        "label": "June 9, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "navigation",
-      "index": 49,
-      "total": 96
-    },
-    "im:name": {
       "label": "Croatia GPS Nautical Chart Pro"
     },
     "im:image": [
@@ -5002,7 +4900,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "navigation",
-      "index": 50,
+      "index": 49,
       "total": 96
     },
     "im:name": {
@@ -5096,6 +4994,108 @@
       "label": "2011-01-18T12:13:44-07:00",
       "attributes": {
         "label": "January 18, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "navigation",
+      "index": 50,
+      "total": 96
+    },
+    "im:name": {
+      "label": "Moon Seeker"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/6f/aa/d1/6faad1cd-73cf-073b-35c8-49c19ca568f9/AppIcon-1x_U007emarketing-0-10-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/6f/aa/d1/6faad1cd-73cf-073b-35c8-49c19ca568f9/AppIcon-1x_U007emarketing-0-10-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/6f/aa/d1/6faad1cd-73cf-073b-35c8-49c19ca568f9/AppIcon-1x_U007emarketing-0-10-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Provides a list of LUNAR PHASES, a CALENDAR view, a FLAT VIEW COMPASS, a MAP VIEW and an AUGMENTED REALITY CAMERA 3-D VIEW showing the lunar path and its hour intervals.\n\n* Ideal for photographers and anyone involved in outdoor nighttime activities. \n* Great for planning optimal light conditions.\n\nNote - if you are interested in daytime light conditions, please look at the \"Sun Seeker\" app, which provides related functionality for the sun.\n\nMain Features\n* Uses GPS and magnetometer to find the correct lunar position and path for your current location, or for any location on earth\n* Flat compass view showing current lunar position, diurnal lunar angle and elevation (separated into above and bow horizon segments)\n* 3D augmented reality camera overlay view showing the moon's current position, its path with hour points marked\n* Map view showing lunar light direction and elevation at all hours, for any location, scrollable for any date and time\n* Ability to choose any date and view lunar path for that day\n\nNotes\n* The compass accuracy depends on having an undistorted magnetic field around your device. If you use it close to metallic objects or electrical equipment, directional accuracy may be impaired."
+    },
+    "im:price": {
+      "label": "4,99 €",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Ajnaware Pty Ltd"
+    },
+    "title": {
+      "label": "Moon Seeker - ozPDA"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/moon-seeker/id375612556?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/c5/14/41/c51441bd-ea9f-d47b-7ebe-a5bd64b9e7d2/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/moon-seeker/id375612556?uo=2",
+      "attributes": {
+        "im:id": "375612556",
+        "im:bundleId": "com.ajnaware.MoonSeeker"
+      }
+    },
+    "im:artist": {
+      "label": "ozPDA",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/ozpda/id295147488?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6010",
+        "term": "Navigation",
+        "scheme": "https://apps.apple.com/si/genre/ios-navigation/id6010?uo=2",
+        "label": "Navigation"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-06-09T08:39:36-07:00",
+      "attributes": {
+        "label": "June 9, 2010"
       }
     }
   },
@@ -7866,19 +7866,19 @@
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/1b/87/dc/1b87dce3-9a81-e5e5-82b7-7b1fc6887a68/AppIcon-Pro-1x_U007emarketing-0-9-0-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/2a/30/b82a3087-ba48-a116-08c3-8dfd9a9e1cba/AppIcon-Pro-1x_U007emarketing-0-9-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1b/87/dc/1b87dce3-9a81-e5e5-82b7-7b1fc6887a68/AppIcon-Pro-1x_U007emarketing-0-9-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/2a/30/b82a3087-ba48-a116-08c3-8dfd9a9e1cba/AppIcon-Pro-1x_U007emarketing-0-9-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1b/87/dc/1b87dce3-9a81-e5e5-82b7-7b1fc6887a68/AppIcon-Pro-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/2a/30/b82a3087-ba48-a116-08c3-8dfd9a9e1cba/AppIcon-Pro-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }

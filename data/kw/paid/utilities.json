@@ -8,6 +8,108 @@
       "total": 100
     },
     "im:name": {
+      "label": "SSTP Connect"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "SSTP Connect is a VPN client that supports these protocols:\n- SSTP (MS-SSTP)\n- SoftEther VPN\n\nThis is only a VPN client. No VPN service is included. You need to specify the server you are connecting to.\n\n• Native\nOnly iOS native libraries are used in the core function, including the TLS stack. No OpenSSL.\nConnections are saved natively so that you can start a connection from the system settings.\n\n• Simple\nVPN clients ought to be small and simple. No ads, analytics or other 3rd-party SDK are included.\n\n• Privacy\nNo data is collected from you. Connection log only exists in the memory and is never saved to the device.\n\n• Complete\nSupport all password and certificate-based authentications available in Windows 11.\nSupport authenticating by password and certificate at the same time with TEAP (EAP chaining).\nProtocol details below.\n\n• Security\nPasswords and certificates are stored in the iOS keychain. SSTP Connect never saves them locally for convenience.\n\n• IPv6 Ready\nSupport both IPv6 connections and stateless IPv6 configuration in the VPN tunnels. (DHCPv6 not supported)\n\n• More than TCP\nSupport NAT traversal (NAT-T) and UDP acceleration just like the official SoftEther client. (Requiring iOS 12+)\n\n• Easy Import and Export\nNot only from SSTP Connect, reading connection settings from SoftEther Client Manager is also a piece of cake.\n\n• Routing\nAccept static routes pushed from the server or add your own entries.\n\nSSTP Authentication Methods\n- PEAP*\n- EAP-TTLS*\n- TEAP* (EAP chaining)\n- EAP-TLS*\n- EAP-MSCHAPv2\n- MSCHAPv2\n- CHAP\n- PAP\n* Requires iOS 12+\n\nSoftEther Authentication Methods\n- Password\n- RADIUS / NT Domain Password\n- Certificate\n- Anonymous\n\nSupported Server Platforms\n• Microsoft Windows Server 2008 and later\n• Microsoft Azure P2S VPN\n• MikroTik RouterOS*\n• SoftEther VPN Server\n• VPN Azure\n\n* Servers configured without certificates are not supported.\n\nSSTP Connect is a third-party implementation based on Microsoft Open Specifications and SoftEther VPN source code. We do not have any affiliation with either Microsoft Corporation or SoftEther Corporation."
+    },
+    "im:price": {
+      "label": "$2.99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Domosekai Limited"
+    },
+    "title": {
+      "label": "SSTP Connect - Domosekai Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/sstp-connect/id1543667909?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/00/45/77/004577c3-9021-e0d6-1a80-f70e6a1c2794/36c3eba6-6805-46ca-bd40-e827dbaf3200_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-03-01_at_21.50.06__U00281_U0029.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/sstp-connect/id1543667909?uo=2",
+      "attributes": {
+        "im:id": "1543667909",
+        "im:bundleId": "com.domosekai.vpnclient"
+      }
+    },
+    "im:artist": {
+      "label": "Domosekai Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/domosekai-limited/id1488582967?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-19T00:00:00-07:00",
+      "attributes": {
+        "label": "January 19, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 2,
+      "total": 100
+    },
+    "im:name": {
       "label": "shift calendar pro"
     },
     "im:image": [
@@ -106,1027 +208,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 2,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Shadowrocket"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/50/ad/c550ad28-d7bb-209c-05a6-849296bfddc5/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/50/ad/c550ad28-d7bb-209c-05a6-849296bfddc5/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/50/ad/c550ad28-d7bb-209c-05a6-849296bfddc5/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
-    },
-    "im:price": {
-      "label": "$2.99",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Li Guangming"
-    },
-    "title": {
-      "label": "Shadowrocket - Shadow Launch Technology Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/shadowrocket/id932747118?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/shadowrocket/id932747118?uo=2",
-      "attributes": {
-        "im:id": "932747118",
-        "im:bundleId": "com.liguangming.Shadowrocket"
-      }
-    },
-    "im:artist": {
-      "label": "Shadow Launch Technology Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/shadow-launch-technology-limited/id687237009?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-04-13T19:09:18-07:00",
-      "attributes": {
-        "label": "April 13, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
       "index": 3,
-      "total": 100
-    },
-    "im:name": {
-      "label": "النفس الزكية برو - PureSelfPro"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/c0/2e/4ac02e50-9ea5-78cd-70d8-1703355f76f6/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/c0/2e/4ac02e50-9ea5-78cd-70d8-1703355f76f6/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/c0/2e/4ac02e50-9ea5-78cd-70d8-1703355f76f6/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "بسم الله الرحمن الرحيم\nاللهم صل على محمد وآل محمد وعجل فرجهم والعن أعدائهم\n----------------\nمميزات النسخة برو:\n١ـ يوجد تنبيه للمناسبات\n٢ـ ارسال المناسبة كإيميل أو اس ام اس  او نسخها وارسالها عن طريق برنامج آخر\n٣ـ امكانية اضافة مناسبات دورية سنوية خاصة بالهجري أو الميلادي\n٤ـ عداد لقضاء الصلوات\n٥ـ حساب الخمس\n٦- عداد للركعات\n٧- عداد للتسبيح\n٨- تحميل صوتيات الادعية\n٩- أحاديث الكافي\n١٠- نبذة عن المعصومين صلوات الله عليهم والمناسبات\n١١- خانة المفضلة لاضافة المفضلة من اعمال الشهور\nوغيره من المميزات\n----------------\nهذه نسخة متقدمة تحوي بعض الامتيازات التي لن تتوفر في النسخة العادية الا بعض الامور العبادية وحسب الضرورة \n----------------\nولكن العبادات والتحديثات الضرورية جدا ستتواجد على النسختين أي يمكن اعتبار النسخة هذه كدعم بسيط لنا لمن يقدر عملنا"
-    },
-    "im:price": {
-      "label": "$9.99",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© PureSelf 2010"
-    },
-    "title": {
-      "label": "النفس الزكية برو - PureSelfPro - AlMahdi A.T.F"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D8%A7%D9%84%D8%B2%D9%83%D9%8A%D8%A9-%D8%A8%D8%B1%D9%88-pureselfpro/id432883320?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/fc/4e/65/fc4e65a8-160c-31b9-bfdd-dc01681fab65/mzl.ouildszq.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D8%A7%D9%84%D8%B2%D9%83%D9%8A%D8%A9-%D8%A8%D8%B1%D9%88-pureselfpro/id432883320?uo=2",
-      "attributes": {
-        "im:id": "432883320",
-        "im:bundleId": "com.almahdi.ShiaPrayAndOccasionPro"
-      }
-    },
-    "im:artist": {
-      "label": "AlMahdi A.T.F",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/almahdi-a-t-f/id409021282?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-04-23T19:02:57-07:00",
-      "attributes": {
-        "label": "April 23, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 4,
-      "total": 100
-    },
-    "im:name": {
-      "label": "iPray: Adhan · Prayer · Qibla"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/f1/fd/a6/f1fda643-013d-90f1-4866-17263ca056d0/App_Icon_With_Watch-0-1x_U007emarketing-0-3-0-0-GLES2_U002c0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/f1/fd/a6/f1fda643-013d-90f1-4866-17263ca056d0/App_Icon_With_Watch-0-1x_U007emarketing-0-3-0-0-GLES2_U002c0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/f1/fd/a6/f1fda643-013d-90f1-4866-17263ca056d0/App_Icon_With_Watch-0-1x_U007emarketing-0-3-0-0-GLES2_U002c0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "iPray follows a zero-configuration policy, which means that it works for everyone out of the box, without ever needing to configure anything. It's the ultimate tool to get accurate prayer timings (اوقات صلاة) no matter where you are in the world, along with accurate Qibla direction. \n\n* Enjoy NO Subscription. NO Ads. NO Privacy invasion.\n\n* Let iPray automatically detect your location or pick your own custom location if you prefer to not use GPS\n\n* Offline Prayer times wherever you are in the world. No network connection, sign-up or login required\n\n* For the frequent traveller, iPray can optionally, automatically update itself in the background without ever needing to launch the app\n\n* No settings required out of the box. iPray is completely automatic as it detects your location, appropriate prayer calculation method, timezone and much more\n\n* Sound and Vibration Alerts. Get automatic reminders for individual prayers. Supports various azan alerts as well as vibration only alerts\n\n* Pre-Prayer alerts. Get reminded of the next prayer 30 minutes in advance to help you prepare\n\n* Displays prayer times for: Fajr, *Ishraaq, Dhuhr, Asr, Maghrib, Isha and Qiyam-ul-lail (Last 1/3rd of the night; Tahajjud Prayer)\n\n* Landscape Prayer Timetable. Turn your device landscape to see upcoming prayer times for the week / month / year. Best way to observe Ramadan monthly prayer times\n\n* Apple Watch app, as well as support for various watch-face complications. Please note: not all complications are the same. The \"InfoGraph\" watch face, for example, are limited (by watchOS) to show static information such as the next or current prayer time only. If you prefer to see a countdown, please try a different watch face such as Utility or Modular.\n\n* Today Widget, which can be configured to display a countdown to the next prayer or the actual prayer time\n\n* Quick Overview\n\n* Highly customizable\n\n* Tap on the time column to display time left to next prayer\n\n* Qebla direction that's accurate and reliable for selected cities or using your current GPS position. Supports Magnetic Compass detection on supported devices with a fully immersed interface offering you the current Qibla direction, Sun position in the sky as well as the Moon position and phase\n\n* Moon Phases and its current state\n\n* Islamic Events with the freedom of moving between Hijri years\n\n* Multiple Hijri and Prayer Time Calculation method adjustments\n\n* Several selectable Adhans for individual prayers\n\n* Offers more than what meets the eye plus a very unique user experience\n\n________________________________\nNOTES:\n\n* Ishraq prayer does NOT mean Sunrise. Ishraq prayer is 10 to 12 minutes after sunrise. There is a misconception where Islamic websites and people use the word \"Ishraq\" and then give timings for actual Sunrise. Praying at sunrise is forbidden and must be performed after at least 10 minutes of sunrise. iPray for this reason adds 10 minutes to sunrise and labels it correctly as \"Ishraaq\".\n\n* Prayer Alerts will ONLY alert you with an initial Takbir. The full azan (and its length) is NOT supported by the iOS alert mechanism as there is a maximum limit of 30 seconds of audio playback."
-    },
-    "im:price": {
-      "label": "$1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2008 - 2022 Beehive Innovations"
-    },
-    "title": {
-      "label": "iPray: Adhan · Prayer · Qibla - Beehive Innovations Services"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/ipray-adhan-prayer-qibla/id288054534?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/cf/0f/62/cf0f629f-e816-5184-bd62-e08f9544e231/mzl.vntufnpf.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/ipray-adhan-prayer-qibla/id288054534?uo=2",
-      "attributes": {
-        "im:id": "288054534",
-        "im:bundleId": "com.guidedways.iPrayPro"
-      }
-    },
-    "im:artist": {
-      "label": "Beehive Innovations Services",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/beehive-innovations-services/id285944186?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-02-02T00:00:00-07:00",
-      "attributes": {
-        "label": "February 2, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 5,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Clock Wave"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/83/c4/56/83c4563c-921f-2b51-424b-cfa3210cc6d7/AppIcon-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/83/c4/56/83c4563c-921f-2b51-424b-cfa3210cc6d7/AppIcon-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/83/c4/56/83c4563c-921f-2b51-424b-cfa3210cc6d7/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Clock Wave allows you calibrate radio controlled watch or clock anytime and anywhere. Just click \"Transmit\" button, set your watch or clock to manual receive time signal, and place it nearby your iPhone/iPad's speaker, it will be calibrated in a few minutes.\n\nClock Wave features:\n- Covers 5 major longwave time signal stations all over the world.\n  * USA: WWVB\n  * Japan: JJY\n  * China: BPC\n  * UK: MSF\n  * DE: DCF77\n- Automatically transmit the accurate time.\n\n* If your radio controlled watch/clock doesn't support station BPC, select station JJY manually to use in China.\n* If your radio controlled watch/clock doesn't support station MSF, select station DCF77 manually to use in UK.\n* If your radio controlled watch/clock support only a specified timezone or station, (e.g. Using a radio controlled clock support only JJY station in Australia.), select the watch/clock timezone manually in app settings."
-    },
-    "im:price": {
-      "label": "$1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Zhen Ren"
-    },
-    "title": {
-      "label": "Clock Wave - Zhen REN"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/clock-wave/id1073576068?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/12/eb/6e/12eb6e8c-a033-2ba1-0fd3-74bacfbe2a14/98764da1-93f6-4582-9182-15daa0487674_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-01WelcomScreen.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/clock-wave/id1073576068?uo=2",
-      "attributes": {
-        "im:id": "1073576068",
-        "im:bundleId": "com.rzapps.Timecoder"
-      }
-    },
-    "im:artist": {
-      "label": "Zhen REN",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/zhen-ren/id1073576067?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-01-21T17:29:38-07:00",
-      "attributes": {
-        "label": "January 21, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 6,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Necrophonic"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/8f/7c/3d/8f7c3dcc-e440-badb-045f-77b772d1c15c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/8f/7c/3d/8f7c3dcc-e440-badb-045f-77b772d1c15c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/8f/7c/3d/8f7c3dcc-e440-badb-045f-77b772d1c15c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Necrophonic is an ITC app used for spirit communication and EVP research.\n\n8 Sounds Banks:\n\nThe audio has been mastered in a way to bring out various sound properties . \nUsing Pro Tools I was able to enhance high, mid, and low range frequencies. I also applied \nother filters to create unique sound characteristics to help layer the audio and create an \nenvironment suitable for spirit communication.\n\nThe audio itself is made up of phonemes, \npartial words, reverse audio, foreign languages, and other parts of speech that can help \nspirits communicate. Besides some basic phonetic sounds such as na, no, da, do, di, ma, may, etc.\nthere are no real words of phrases contained in the banks.\n\nThese sounds banks play in a similar\nway to that of my other app \"Spiritus Ghost Box\" but instead of 4 sound banks Necrophonic has\n8 active sound banks.\n\nWhite Noise Sound Bank:\n\nThis app also has an optional 9th sound bank called \"White noise\". \nThis bank can be used alone or with the other 8 giving you a total of 9 sound banks. This \naudio is taken for the internal sounds of the famous DR60 recorder that is known as the \n\"Holy Grail\" of EVP recorders. This is not a White Noise Generator, this is a normal sound bank like the others but this one contains white noise from the DR60.\n\nAudio Effects:\n\nThis app does contain Echo and Reverb audio effects. These have been proven \nto be the best effects to apply to ITC sessions. The echo can create audio that can be \nmanipulated within the echo itself. Echo can also help in live, real time communication by \nrepeating the audio and allowing you to better hear whats coming through. Reverb can be \napplied to the audio to create a spacious sound environment that will enhance audio manipulation."
-    },
-    "im:price": {
-      "label": "$9.99",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Chris Rogers"
-    },
-    "title": {
-      "label": "Necrophonic - chris rogers"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/necrophonic/id1396698319?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ca/43/06/ca430683-f88c-253f-cfdd-697859e9970d/61254190-e910-4ab1-8436-4956a872dae2_2732x2048-screenshot__U002810_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/necrophonic/id1396698319?uo=2",
-      "attributes": {
-        "im:id": "1396698319",
-        "im:bundleId": "com.ChillSeekers.Necrophonic"
-      }
-    },
-    "im:artist": {
-      "label": "chris rogers",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/chris-rogers/id1119043156?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-07-24T22:43:03-07:00",
-      "attributes": {
-        "label": "July 24, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 7,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Borralos: Private Web Browser"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/15/08/d0/1508d05f-8947-e108-97f3-76504e2e97bc/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/08/d0/1508d05f-8947-e108-97f3-76504e2e97bc/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/15/08/d0/1508d05f-8947-e108-97f3-76504e2e97bc/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Advanced and fully featured web browser for iPhone, iPad & Mac. Built with the latest technologies to handle almost anything.\n\nIf you'd like to know whether this app has a specific feature, you can contact the app developer before purchasing it, using the following email address: bloquealos@icloud.com\n\nThis tool does not have recurring payments (monthly, weekly or yearly subscriptions). Family Sharing and Universal Purchase are available for this app, across all supported Apple devices.\n\nThis is a web browser with the following set of features:\n\n• Private mode is always enabled (no browsing data is stored)\n• Ad blocker (the level of protection is customizable)\n• Comment sections blocker\n• Social network buttons blocker\n• Porn websites blocker\n• Email newsletters subscriptions blocker\n• Tool to detect advanced web tracking techniques\n• Automatic full-screen mode for videos\n• HTTP to HTTPS auto-upgrade feature\n• Summary of trackers found on a website\n• Tool to detect whether a page is malicious or trustworthy\n• Smart search feature\n• Multiple built in private search engines and the option to add any website as the homepage\n• Keyboard shortcuts (for Mac & iPad)\n• Quick actions when you shake your device (for iPhone)\n• Option to lock the app using Touch ID or Face ID\n\nThe following content will not be blocked:\n\n• Websites paywalls\n• Age verification on porn websites\n\nAds on the following websites will not be blocked:\n\n• The Instagram website\n• The Facebook website\n• The TikTok website\n• The Netflix website\n• The Hulu website\n• The Paramount website\n• The HBO website\n• The Disney website\n• The Crunchyroll website\n• The Twitch website \n• The Amazon website\n• The following Chinese search engines: Baidu, Sogou, 360\n• The following Korean websites: feedclick.net, ygosu.com, ondemandkorea.com, algumon.com, namu.wiki"
-    },
-    "im:price": {
-      "label": "$1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Lucas Exequiel Di Tomase"
-    },
-    "title": {
-      "label": "Borralos: Private Web Browser - Lucas Exequiel Di Tomase"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/borralos-private-web-browser/id1546108718?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/f5/25/25/f52525dc-e8dd-6ae9-7ab5-6ee39441571a/01189d73-ba1e-46a1-a349-ac5e82b3ab49_ipad.001.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/borralos-private-web-browser/id1546108718?uo=2",
-      "attributes": {
-        "im:id": "1546108718",
-        "im:bundleId": "com.lucasditomase.privadoApp"
-      }
-    },
-    "im:artist": {
-      "label": "Lucas Exequiel Di Tomase",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/lucas-exequiel-di-tomase/id1456307400?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-05-14T00:00:00-07:00",
-      "attributes": {
-        "label": "May 14, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 8,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Cat Training Clicker"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/17/bd/ad/17bdada4-1def-5dd6-7705-6a78822c3a71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/17/bd/ad/17bdada4-1def-5dd6-7705-6a78822c3a71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/17/bd/ad/17bdada4-1def-5dd6-7705-6a78822c3a71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Cat Training Clicker is an effective training tool for cats!\n\nThere are 4 different colored paw buttons with 4 distinct clicker sounds. \n\n- Clicker\n- Finger Snap\n- Tongue Click\n- Pen Click\n\nUnlike your voice, the sound of the clicker is a clear and consistent form of communication. The distinct click sound trains your cat to a desired behavior.\n\n-Tips for Clicker Training-\n\n1. Establish a connection between the sound of the clicker and a treat.\n2. Wait for your cat to make right moves then click the clicker and immediately reward your cat.\n3. Always reward with a treat after clicking.\n4. Multiple clicks can be confusing.\n5. Don’t use the clicker to just get your cat’s attention."
-    },
-    "im:price": {
-      "label": "$1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Minky Studio"
-    },
-    "title": {
-      "label": "Cat Training Clicker - Minkyung Chung"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/cat-training-clicker/id1483875344?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/2d/ba/a0/2dbaa0cc-326c-9eb6-7f8b-c6f3d9696913/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/cat-training-clicker/id1483875344?uo=2",
-      "attributes": {
-        "im:id": "1483875344",
-        "im:bundleId": "com.minkystudio.Cat-Clicker"
-      }
-    },
-    "im:artist": {
-      "label": "Minkyung Chung",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/minkyung-chung/id1122387440?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-10-18T00:00:00-07:00",
-      "attributes": {
-        "label": "October 18, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 9,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Dark Sky Meter"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/cf/e1/0bcfe140-34cc-4e26-0f37-c7056bc9a58d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/cf/e1/0bcfe140-34cc-4e26-0f37-c7056bc9a58d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/cf/e1/0bcfe140-34cc-4e26-0f37-c7056bc9a58d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The Dark Sky Meter app measures the sky brightness using the camera and shares it (optionally) with scientists around the globe."
-    },
-    "im:price": {
-      "label": "$1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© DDQ Pocket Science 2023"
-    },
-    "title": {
-      "label": "Dark Sky Meter - DDQ"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/dark-sky-meter/id602989060?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/2d/a7/ec/2da7ec37-26fe-14d8-b75f-2704de3b95ed/mzl.hadxhxqh.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/dark-sky-meter/id602989060?uo=2",
-      "attributes": {
-        "im:id": "602989060",
-        "im:bundleId": "nl.ddq.darksky"
-      }
-    },
-    "im:artist": {
-      "label": "DDQ",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/ddq/id418328467?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-04-18T15:56:48-07:00",
-      "attributes": {
-        "label": "April 18, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 10,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Blue Hound"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/46/2f/ef/462fef7e-9f02-af6f-d16e-43b164f509c7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/46/2f/ef/462fef7e-9f02-af6f-d16e-43b164f509c7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/46/2f/ef/462fef7e-9f02-af6f-d16e-43b164f509c7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The essential Bluetooth app for scanning and locating your smart devices from Apple, FitBit, Garmin, and many other companies.\nScan and identify nearby devices. Locate devices by signal strength, heat map or direction finder.\n\nYou can now find Fitbit and other Bluetooth devices that are paired with your iPhone. If the Bluetooth device is paired with another iPhone, turn off Bluetooth on that iPhone.\n\nBlue Hound is always scanning for Bluetooth devices. When a device is detected, Blue Hound identifies it by name, maker and model when possible. It does this using a large database of smart recognizers that are updated automatically. Devices you find are uploaded to the cloud to help you search for them later.\n\nBlue Hound works great with Bluetooth tags. If you attach one to your keys, you can locate them within 100 feet or more even outdoors in high grass. Attach one to your drone and you will be able to find it if it lands unexpectedly.\n\nScanning for Bluetooth devices can be a fun outdoor activity. Take Blue Hound out for a walk. Enable Power Saver Mode for Blue Hound in Settings and put your iPhone in your pocket upside down. The screen will go dark and the app will enter power saver mode. If you wish, Blue Hound can even bark to alert you when a new device is found.\n\nBlue Hound has features not found in any other Bluetooth scanner or finder:\n\n• Real time Bluetooth scanner with signal strength and description\n• Sort the scanner list by age, distance or name\n• Filter the scanner list for matching text\n• List both active and inactive devices\n• Power saver option and audio alerts for scanning while walking\n• Search the cloud for devices you have found in the past\n• Search for past devices using an interactive map\n• Smart device identification using cloud updated recognizers\n• Display detailed information about a devices including is maker and model\n• Search Google for more information about the device\n• Get directions to the last known location of the device\n• Locate a device indoors using a signal strength meter\n• Locate a device outdoors using a heat map and signal graph\n• Outdoor direction finder saves time when searching\n• Display the directions on the map to triangulate the location"
-    },
-    "im:price": {
-      "label": "$1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "Copyright © 2016-2021 Mark Granger"
-    },
-    "title": {
-      "label": "Blue Hound - GrangerFX"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/blue-hound/id1067368392?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/60/3a/a0/603aa05b-64be-7eff-b86a-37b82dcd7022/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/blue-hound/id1067368392?uo=2",
-      "attributes": {
-        "im:id": "1067368392",
-        "im:bundleId": "com.grangerfx.BeaconFinder"
-      }
-    },
-    "im:artist": {
-      "label": "GrangerFX",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/grangerfx/id363698835?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-01-30T14:51:31-07:00",
-      "attributes": {
-        "label": "January 30, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 11,
-      "total": 100
-    },
-    "im:name": {
-      "label": "صحيح البخاري و مسلم"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/6e/5d/ef/6e5def58-0670-015b-8120-d5ff2dad65fa/AppIcon_BM-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/6e/5d/ef/6e5def58-0670-015b-8120-d5ff2dad65fa/AppIcon_BM-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/6e/5d/ef/6e5def58-0670-015b-8120-d5ff2dad65fa/AppIcon_BM-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "الآن تستطيع أن تحمل هدي رسول الله صلى الله عليه و سلم أينما كنت..\n\nمئات الصفحات من أحاديث رسول الله و سننه بين يديك في برنامج سهل و بسيط يحتوي على:\n\n١- مختصر صحيح البخاري : و هو مقسم ل ١٠٠  كتاب بها أكثر من ٧٠٠٠ حديث و روايه صحيحة عن رسول الله صلى الله عليه و سلم\n\n٢ - مختصر صحيح مسلم: و هو مقسم ل ٥٦ كتاب بها أكثر من ٣٠٠٠  حديث و روايه صحيحة عن رسول الله صلى الله عليه و سلم\n\n٣- إمكانية البحث النصي الشامل في الصحيحين بكل سهولة، مع إظهار نص البحث \nبخلفية ملونة لسهولة إيجادها\n\n٤- إمكاينة حفظ الأبواب المفضلة للوصول إليها بسرعة و سهولة لاحقا.\n\nجميع الأحاديث و الروايات مذكور بها الإسناد الكامل من الرواة و الصحابة الأجلاء عليهم رضوان الله.\n\nيمكنك أيضا إرسال الأحاديث بالبريد الإلكتروني أو مشاركتها بتطبيقات التواصل الإجتماعي مع الأهل و الأصدقاء بمجرد الضغط على زر.\n\nنصوص الأحاديث و الشرح مكتوبة بخط واضح مع تلوين للآيات و الأحاديث، و إمكانية تغيير حجم الخط حسب الرغبة.\n\nالبرنامج متوافق مع جميع أجهزة أيفون ، و متوافق أيضا مع أجهزة الأيباد.\n\nهذا البرنامج لا غنى عنه لأي مسلم مهتم بتعاليم دينه و هدي الرسول الكريم عليه أفضل الصلاة و السلام"
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 - 5 Stars Apps"
-    },
-    "title": {
-      "label": "صحيح البخاري و مسلم - Tamer Abdel-Baset"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/%D8%B5%D8%AD%D9%8A%D8%AD-%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A-%D9%88-%D9%85%D8%B3%D9%84%D9%85/id414559023?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/06/53/00/06530052-8b0e-33cf-9bae-e4142af23cd0/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/%D8%B5%D8%AD%D9%8A%D8%AD-%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A-%D9%88-%D9%85%D8%B3%D9%84%D9%85/id414559023?uo=2",
-      "attributes": {
-        "im:id": "414559023",
-        "im:bundleId": "com.tamerbaset.Hadeeth"
-      }
-    },
-    "im:artist": {
-      "label": "Tamer Abdel-Baset",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/tamer-abdel-baset/id375954576?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-01-17T19:43:19-07:00",
-      "attributes": {
-        "label": "January 17, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -1228,39 +310,39 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 13,
+      "index": 4,
       "total": 100
     },
     "im:name": {
-      "label": "Super Backup : Export / Import"
+      "label": "SDR-Control Mobile"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/0e/38/0f/0e380fbc-4b26-1869-0cef-93a16246df5b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/36/bf/7a/36bf7ac9-dbf0-5fbf-3d1e-3c0755d51029/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/0e/38/0f/0e380fbc-4b26-1869-0cef-93a16246df5b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/36/bf/7a/36bf7ac9-dbf0-5fbf-3d1e-3c0755d51029/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/0e/38/0f/0e380fbc-4b26-1869-0cef-93a16246df5b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/36/bf/7a/36bf7ac9-dbf0-5fbf-3d1e-3c0755d51029/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Backup all your iPhone or iPad contacts in 1 tap and export them!\nFastest way to restore contacts from PC or Mac!\n\nImportant Features :\n1. Export by mailing the backed up contacts file to yourself!\n2. Export contacts file to any other app on your device!\n3. Export all contacts directly to your PC / Mac over Wifi, no software needed!\n4. Restore any contacts directly from PC / Mac\n5. Restore contacts via mail !\n\nGet the ultimate contacts backup app now !\n\nFor support, please contact : support@dropouts.in and we will get back to you within 24 hours."
+      "label": "Software Defined Radio Client for Icom Transceivers and your iPhone\n\nSDR-Control Mobile is a full featured iPhone App to operate your Icom Transceiver at home or from around the world without additional Hard- or Software.\n\nImportant: This App requires one of the following Icom Transceivers: IC-705, IC-7610, IC-9700 or the IC-R8600 Receiver\n\nFACTS AND FEATURES:\n\n■ Compatible to iOS 15 and newer\n\n■ Compatible with any iPhone\n\n■ Complete operation of your Icom Transceiver in all modes\n\n■ Use the App local or to remote access of your Transceiver from any place without additional Hard- or Software\n\n■ Logbook with auto logging, ADIF Im-/Export\n\n■ UDP Log submission when using external logging software\n\n■ Integrated full featured FT8 / FT4 Tool\n\n■ Integrated CW Decoder\n\n■ Integrated CW Keyer\n\n■ DX-Cluster integration\n\n■ Call sign lookup integrated\n\n■ Displays Calls on Map with heading and distance information\n\n■ And much more...\n\nWHAT YOU NEED:\n\n- An Icom IC-705, IC-7610 or IC-9700 Transceiver or IC-R8600 Receiver\n\n- The Transceiver needs to be connected to your Network (WiFi or LAN)\n\n- No USB cable needed or supported\n\n- An iPhone that runs at least iOS 15\n\nFind out more here: https://ham-radio-apps.com\n\nRead the Manual: http://go-to.me/sdrcontrol-mobile-manual"
     },
     "im:price": {
-      "label": "$0.99",
+      "label": "$36.99",
       "attributes": {
-        "amount": "0.99",
+        "amount": "36.99",
         "currency": "USD"
       }
     },
@@ -1271,17 +353,17 @@
       }
     },
     "rights": {
-      "label": "© 2019 Dropouts Technologies LLP"
+      "label": "© Marcus Roskosch - Creating-Your-App"
     },
     "title": {
-      "label": "Super Backup : Export / Import - Dropouts Technologies LLP"
+      "label": "SDR-Control Mobile - Marcus Roskosch"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/super-backup-export-import/id1052684097?uo=2"
+          "href": "https://apps.apple.com/kw/app/sdr-control-mobile/id1673327509?uo=2"
         }
       },
       {
@@ -1292,22 +374,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4f/94/33/4f943307-bb53-e385-1173-a129cf760033/pr_source.jpg/1024x1024bb.jpg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/06/56/17/065617bc-8f2f-30bf-1881-201296b37f16/6470796c-8402-47d0-afbe-dfe01c702602_Screenshot-55-1.jpg/480x480bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/kw/app/super-backup-export-import/id1052684097?uo=2",
+      "label": "https://apps.apple.com/kw/app/sdr-control-mobile/id1673327509?uo=2",
       "attributes": {
-        "im:id": "1052684097",
-        "im:bundleId": "com.dropouts.SuperBackup"
+        "im:id": "1673327509",
+        "im:bundleId": "de.roskosch.SDRControliOSMobile"
       }
     },
     "im:artist": {
-      "label": "Dropouts Technologies LLP",
+      "label": "Marcus Roskosch",
       "attributes": {
-        "href": "https://apps.apple.com/kw/developer/dropouts-technologies-llp/id575481782?uo=2"
+        "href": "https://apps.apple.com/kw/developer/marcus-roskosch/id334053438?uo=2"
       }
     },
     "category": {
@@ -1319,9 +401,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2015-11-07T07:55:59-07:00",
+      "label": "2023-02-23T00:00:00-07:00",
       "attributes": {
-        "label": "November 7, 2015"
+        "label": "February 23, 2023"
       }
     }
   },
@@ -1330,34 +412,238 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 14,
+      "index": 5,
       "total": 100
     },
     "im:name": {
-      "label": "Find Bluetooth: device tracker"
+      "label": "Shadowrocket"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/03/00/4b/03004b1c-6e1e-7d93-433d-e29cd03730fe/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/50/ad/c550ad28-d7bb-209c-05a6-849296bfddc5/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/03/00/4b/03004b1c-6e1e-7d93-433d-e29cd03730fe/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/50/ad/c550ad28-d7bb-209c-05a6-849296bfddc5/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/03/00/4b/03004b1c-6e1e-7d93-433d-e29cd03730fe/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/50/ad/c550ad28-d7bb-209c-05a6-849296bfddc5/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "App Launching Sale. Was $4.99, now 100% Off, Only Today.\n\nBLEFinder is the coolest app for you to find your lost bluetooth devices, like fitness band&tracker, digital watch and etc.\n\nInstructions:\n1. Open the main page to see a list of bluetooth devices that are near you.\n2. You can sort the device list by signal strength or name\n3. Find the name[shown in blue text] of the device that you're interested in.\n4. Click on your device to open a search mode.\n5. Follow the dash board and instructions to walk around and find your device!"
+      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
+    },
+    "im:price": {
+      "label": "$2.99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Li Guangming"
+    },
+    "title": {
+      "label": "Shadowrocket - Shadow Launch Technology Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/shadowrocket/id932747118?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/shadowrocket/id932747118?uo=2",
+      "attributes": {
+        "im:id": "932747118",
+        "im:bundleId": "com.liguangming.Shadowrocket"
+      }
+    },
+    "im:artist": {
+      "label": "Shadow Launch Technology Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/shadow-launch-technology-limited/id687237009?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-04-13T19:09:18-07:00",
+      "attributes": {
+        "label": "April 13, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 6,
+      "total": 100
+    },
+    "im:name": {
+      "label": "النفس الزكية برو - PureSelfPro"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/c0/2e/4ac02e50-9ea5-78cd-70d8-1703355f76f6/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/c0/2e/4ac02e50-9ea5-78cd-70d8-1703355f76f6/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/c0/2e/4ac02e50-9ea5-78cd-70d8-1703355f76f6/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "بسم الله الرحمن الرحيم\nاللهم صل على محمد وآل محمد وعجل فرجهم والعن أعدائهم\n----------------\nمميزات النسخة برو:\n١ـ يوجد تنبيه للمناسبات\n٢ـ ارسال المناسبة كإيميل أو اس ام اس  او نسخها وارسالها عن طريق برنامج آخر\n٣ـ امكانية اضافة مناسبات دورية سنوية خاصة بالهجري أو الميلادي\n٤ـ عداد لقضاء الصلوات\n٥ـ حساب الخمس\n٦- عداد للركعات\n٧- عداد للتسبيح\n٨- تحميل صوتيات الادعية\n٩- أحاديث الكافي\n١٠- نبذة عن المعصومين صلوات الله عليهم والمناسبات\n١١- خانة المفضلة لاضافة المفضلة من اعمال الشهور\nوغيره من المميزات\n----------------\nهذه نسخة متقدمة تحوي بعض الامتيازات التي لن تتوفر في النسخة العادية الا بعض الامور العبادية وحسب الضرورة \n----------------\nولكن العبادات والتحديثات الضرورية جدا ستتواجد على النسختين أي يمكن اعتبار النسخة هذه كدعم بسيط لنا لمن يقدر عملنا"
+    },
+    "im:price": {
+      "label": "$9.99",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© PureSelf 2010"
+    },
+    "title": {
+      "label": "النفس الزكية برو - PureSelfPro - AlMahdi A.T.F"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D8%A7%D9%84%D8%B2%D9%83%D9%8A%D8%A9-%D8%A8%D8%B1%D9%88-pureselfpro/id432883320?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/fc/4e/65/fc4e65a8-160c-31b9-bfdd-dc01681fab65/mzl.ouildszq.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D8%A7%D9%84%D8%B2%D9%83%D9%8A%D8%A9-%D8%A8%D8%B1%D9%88-pureselfpro/id432883320?uo=2",
+      "attributes": {
+        "im:id": "432883320",
+        "im:bundleId": "com.almahdi.ShiaPrayAndOccasionPro"
+      }
+    },
+    "im:artist": {
+      "label": "AlMahdi A.T.F",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/almahdi-a-t-f/id409021282?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-04-23T19:02:57-07:00",
+      "attributes": {
+        "label": "April 23, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 7,
+      "total": 100
+    },
+    "im:name": {
+      "label": "iPray: Adhan · Prayer · Qibla"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/f1/fd/a6/f1fda643-013d-90f1-4866-17263ca056d0/App_Icon_With_Watch-0-1x_U007emarketing-0-3-0-0-GLES2_U002c0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/f1/fd/a6/f1fda643-013d-90f1-4866-17263ca056d0/App_Icon_With_Watch-0-1x_U007emarketing-0-3-0-0-GLES2_U002c0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/f1/fd/a6/f1fda643-013d-90f1-4866-17263ca056d0/App_Icon_With_Watch-0-1x_U007emarketing-0-3-0-0-GLES2_U002c0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "iPray follows a zero-configuration policy, which means that it works for everyone out of the box, without ever needing to configure anything. It's the ultimate tool to get accurate prayer timings (اوقات صلاة) no matter where you are in the world, along with accurate Qibla direction. \n\n* Enjoy NO Subscription. NO Ads. NO Privacy invasion.\n\n* Let iPray automatically detect your location or pick your own custom location if you prefer to not use GPS\n\n* Offline Prayer times wherever you are in the world. No network connection, sign-up or login required\n\n* For the frequent traveller, iPray can optionally, automatically update itself in the background without ever needing to launch the app\n\n* No settings required out of the box. iPray is completely automatic as it detects your location, appropriate prayer calculation method, timezone and much more\n\n* Sound and Vibration Alerts. Get automatic reminders for individual prayers. Supports various azan alerts as well as vibration only alerts\n\n* Pre-Prayer alerts. Get reminded of the next prayer 30 minutes in advance to help you prepare\n\n* Displays prayer times for: Fajr, *Ishraaq, Dhuhr, Asr, Maghrib, Isha and Qiyam-ul-lail (Last 1/3rd of the night; Tahajjud Prayer)\n\n* Landscape Prayer Timetable. Turn your device landscape to see upcoming prayer times for the week / month / year. Best way to observe Ramadan monthly prayer times\n\n* Apple Watch app, as well as support for various watch-face complications. Please note: not all complications are the same. The \"InfoGraph\" watch face, for example, are limited (by watchOS) to show static information such as the next or current prayer time only. If you prefer to see a countdown, please try a different watch face such as Utility or Modular.\n\n* Today Widget, which can be configured to display a countdown to the next prayer or the actual prayer time\n\n* Quick Overview\n\n* Highly customizable\n\n* Tap on the time column to display time left to next prayer\n\n* Qebla direction that's accurate and reliable for selected cities or using your current GPS position. Supports Magnetic Compass detection on supported devices with a fully immersed interface offering you the current Qibla direction, Sun position in the sky as well as the Moon position and phase\n\n* Moon Phases and its current state\n\n* Islamic Events with the freedom of moving between Hijri years\n\n* Multiple Hijri and Prayer Time Calculation method adjustments\n\n* Several selectable Adhans for individual prayers\n\n* Offers more than what meets the eye plus a very unique user experience\n\n________________________________\nNOTES:\n\n* Ishraq prayer does NOT mean Sunrise. Ishraq prayer is 10 to 12 minutes after sunrise. There is a misconception where Islamic websites and people use the word \"Ishraq\" and then give timings for actual Sunrise. Praying at sunrise is forbidden and must be performed after at least 10 minutes of sunrise. iPray for this reason adds 10 minutes to sunrise and labels it correctly as \"Ishraaq\".\n\n* Prayer Alerts will ONLY alert you with an initial Takbir. The full azan (and its length) is NOT supported by the iOS alert mechanism as there is a maximum limit of 30 seconds of audio playback."
     },
     "im:price": {
       "label": "$1.99",
@@ -1373,17 +659,17 @@
       }
     },
     "rights": {
-      "label": "© 2017 Jianhui Zhu."
+      "label": "© 2008 - 2022 Beehive Innovations"
     },
     "title": {
-      "label": "Find Bluetooth: device tracker - Jianhui Zhu"
+      "label": "iPray: Adhan · Prayer · Qibla - Beehive Innovations Services"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/find-bluetooth-device-tracker/id1244008139?uo=2"
+          "href": "https://apps.apple.com/kw/app/ipray-adhan-prayer-qibla/id288054534?uo=2"
         }
       },
       {
@@ -1394,22 +680,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/67/dc/7d/67dc7d20-1e12-0905-c9ad-4ac3167ec19c/mzl.dpzsylea.png/1024x1024bb.png",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/cf/0f/62/cf0f629f-e816-5184-bd62-e08f9544e231/mzl.vntufnpf.png/480x480bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/kw/app/find-bluetooth-device-tracker/id1244008139?uo=2",
+      "label": "https://apps.apple.com/kw/app/ipray-adhan-prayer-qibla/id288054534?uo=2",
       "attributes": {
-        "im:id": "1244008139",
-        "im:bundleId": "Scott.BLEFinder"
+        "im:id": "288054534",
+        "im:bundleId": "com.guidedways.iPrayPro"
       }
     },
     "im:artist": {
-      "label": "Jianhui Zhu",
+      "label": "Beehive Innovations Services",
       "attributes": {
-        "href": "https://apps.apple.com/kw/developer/jianhui-zhu/id1037626265?uo=2"
+        "href": "https://apps.apple.com/kw/developer/beehive-innovations-services/id285944186?uo=2"
       }
     },
     "category": {
@@ -1421,9 +707,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2017-06-27T12:07:27-07:00",
+      "label": "2019-02-02T00:00:00-07:00",
       "attributes": {
-        "label": "June 27, 2017"
+        "label": "February 2, 2019"
       }
     }
   },
@@ -1432,39 +718,39 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 15,
+      "index": 8,
       "total": 100
     },
     "im:name": {
-      "label": "Bluetooth Finder"
+      "label": "Clock Wave"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/2e/49/90/2e4990bc-9a28-c73c-becd-8f669510cb62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-85-220.png/53x53bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/83/c4/56/83c4563c-921f-2b51-424b-cfa3210cc6d7/AppIcon-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/2e/49/90/2e4990bc-9a28-c73c-becd-8f669510cb62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/83/c4/56/83c4563c-921f-2b51-424b-cfa3210cc6d7/AppIcon-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/2e/49/90/2e4990bc-9a28-c73c-becd-8f669510cb62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-85-220.png/100x100bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/83/c4/56/83c4563c-921f-2b51-424b-cfa3210cc6d7/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Bluetooth Finder helps you find your missing Bluetooth devices. \n\nIf you misplace your device, this app will let you use your iPad/iPhone that is paired to your device to help find it. Simply install this app, open it, and the app will guide you to your missing device. Bluetooth Finder will help you locate your missing device by trying to look and connect wirelessly to your device's wireless signature.\n\nYour missing device may sleep soon after you have misplaced them, so download the app and start searching immediately to ensure you will be able to find your missing bluetooth device. Please check the limitations of the app at the bottom of description to see if you qualify.\n\nFEATURES\n\n• Find any of your missing Bluetooth devices\n\n• Set by step process to guide you to find them\n\n• Location approximation and triangulation\n\n• A really slick user interface \n\n\nSupported languages: English\n\n\nREQUIREMENTS \n• Bluetooth Finder requires iOS 8 or later.\n• Bluetooth Finder will only work on an iPad that is paired to your device.\n• Bluetooth Connectivity is also needed.\n• Bluetooth Finder for iPad is needed to find your Pencil.\n\nLIMITATIONS OF APP\n• Bluetooth Finder may not work if you have disabled/re-enabled bluetooth after losing your Pencil.\n• Bluetooth Finder will may not work if you have restarted your iPad after losing your device.\n• Bluetooth Finder will not work if you have lost it over a large distance (e.g. lost in train, but trying to find it at home). \n• Bluetooth Finder works best if you have lost in the last few minutes."
+      "label": "Clock Wave allows you calibrate radio controlled watch or clock anytime and anywhere. Just click \"Transmit\" button, set your watch or clock to manual receive time signal, and place it nearby your iPhone/iPad's speaker, it will be calibrated in a few minutes.\n\nClock Wave features:\n- Covers 5 major longwave time signal stations all over the world.\n  * USA: WWVB\n  * Japan: JJY\n  * China: BPC\n  * UK: MSF\n  * DE: DCF77\n- Automatically transmit the accurate time.\n\n* If your radio controlled watch/clock doesn't support station BPC, select station JJY manually to use in China.\n* If your radio controlled watch/clock doesn't support station MSF, select station DCF77 manually to use in UK.\n* If your radio controlled watch/clock support only a specified timezone or station, (e.g. Using a radio controlled clock support only JJY station in Australia.), select the watch/clock timezone manually in app settings."
     },
     "im:price": {
-      "label": "$4.99",
+      "label": "$1.99",
       "attributes": {
-        "amount": "4.99",
+        "amount": "1.99",
         "currency": "USD"
       }
     },
@@ -1475,17 +761,17 @@
       }
     },
     "rights": {
-      "label": "© 2020 Deucks Pty Ltd"
+      "label": "© Zhen Ren"
     },
     "title": {
-      "label": "Bluetooth Finder - Deucks Pty Ltd"
+      "label": "Clock Wave - Zhen REN"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/bluetooth-finder/id1259319285?uo=2"
+          "href": "https://apps.apple.com/kw/app/clock-wave/id1073576068?uo=2"
         }
       },
       {
@@ -1496,22 +782,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/32/9e/16/329e16d6-4b28-edb9-03a8-0bbc262636da/mzl.vgrivgjf.png/1024x1024bb.png",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/12/eb/6e/12eb6e8c-a033-2ba1-0fd3-74bacfbe2a14/98764da1-93f6-4582-9182-15daa0487674_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-01WelcomScreen.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/kw/app/bluetooth-finder/id1259319285?uo=2",
+      "label": "https://apps.apple.com/kw/app/clock-wave/id1073576068?uo=2",
       "attributes": {
-        "im:id": "1259319285",
-        "im:bundleId": "com.deucks.ble-finder-ipad"
+        "im:id": "1073576068",
+        "im:bundleId": "com.rzapps.Timecoder"
       }
     },
     "im:artist": {
-      "label": "Deucks Pty Ltd",
+      "label": "Zhen REN",
       "attributes": {
-        "href": "https://apps.apple.com/kw/developer/deucks-pty-ltd/id1071070140?uo=2"
+        "href": "https://apps.apple.com/kw/developer/zhen-ren/id1073576067?uo=2"
       }
     },
     "category": {
@@ -1523,9 +809,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2017-07-21T13:41:40-07:00",
+      "label": "2016-01-21T17:29:38-07:00",
       "attributes": {
-        "label": "July 21, 2017"
+        "label": "January 21, 2016"
       }
     }
   },
@@ -1534,7 +820,415 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 9,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Necrophonic"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/8f/7c/3d/8f7c3dcc-e440-badb-045f-77b772d1c15c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/8f/7c/3d/8f7c3dcc-e440-badb-045f-77b772d1c15c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/8f/7c/3d/8f7c3dcc-e440-badb-045f-77b772d1c15c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Necrophonic is an ITC app used for spirit communication and EVP research.\n\n8 Sounds Banks:\n\nThe audio has been mastered in a way to bring out various sound properties . \nUsing Pro Tools I was able to enhance high, mid, and low range frequencies. I also applied \nother filters to create unique sound characteristics to help layer the audio and create an \nenvironment suitable for spirit communication.\n\nThe audio itself is made up of phonemes, \npartial words, reverse audio, foreign languages, and other parts of speech that can help \nspirits communicate. Besides some basic phonetic sounds such as na, no, da, do, di, ma, may, etc.\nthere are no real words of phrases contained in the banks.\n\nThese sounds banks play in a similar\nway to that of my other app \"Spiritus Ghost Box\" but instead of 4 sound banks Necrophonic has\n8 active sound banks.\n\nWhite Noise Sound Bank:\n\nThis app also has an optional 9th sound bank called \"White noise\". \nThis bank can be used alone or with the other 8 giving you a total of 9 sound banks. This \naudio is taken for the internal sounds of the famous DR60 recorder that is known as the \n\"Holy Grail\" of EVP recorders. This is not a White Noise Generator, this is a normal sound bank like the others but this one contains white noise from the DR60.\n\nAudio Effects:\n\nThis app does contain Echo and Reverb audio effects. These have been proven \nto be the best effects to apply to ITC sessions. The echo can create audio that can be \nmanipulated within the echo itself. Echo can also help in live, real time communication by \nrepeating the audio and allowing you to better hear whats coming through. Reverb can be \napplied to the audio to create a spacious sound environment that will enhance audio manipulation."
+    },
+    "im:price": {
+      "label": "$9.99",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Chris Rogers"
+    },
+    "title": {
+      "label": "Necrophonic - chris rogers"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/necrophonic/id1396698319?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ca/43/06/ca430683-f88c-253f-cfdd-697859e9970d/61254190-e910-4ab1-8436-4956a872dae2_2732x2048-screenshot__U002810_U0029.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/necrophonic/id1396698319?uo=2",
+      "attributes": {
+        "im:id": "1396698319",
+        "im:bundleId": "com.ChillSeekers.Necrophonic"
+      }
+    },
+    "im:artist": {
+      "label": "chris rogers",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/chris-rogers/id1119043156?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-07-24T22:43:03-07:00",
+      "attributes": {
+        "label": "July 24, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 10,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Borralos: Private Web Browser"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/15/08/d0/1508d05f-8947-e108-97f3-76504e2e97bc/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/08/d0/1508d05f-8947-e108-97f3-76504e2e97bc/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/15/08/d0/1508d05f-8947-e108-97f3-76504e2e97bc/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Advanced and fully featured web browser for iPhone, iPad & Mac. Built with the latest technologies to handle almost anything.\n\nIf you'd like to know whether this app has a specific feature, you can contact the app developer before purchasing it, using the following email address: bloquealos@icloud.com\n\nThis tool does not have recurring payments (monthly, weekly or yearly subscriptions). Family Sharing and Universal Purchase are available for this app, across all supported Apple devices.\n\nThis is a web browser with the following set of features:\n\n• Private mode is always enabled (no browsing data is stored)\n• Ad blocker (the level of protection is customizable)\n• Comment sections blocker\n• Social network buttons blocker\n• Porn websites blocker\n• Email newsletters subscriptions blocker\n• Tool to detect advanced web tracking techniques\n• Automatic full-screen mode for videos\n• HTTP to HTTPS auto-upgrade feature\n• Summary of trackers found on a website\n• Tool to detect whether a page is malicious or trustworthy\n• Smart search feature\n• Multiple built in private search engines and the option to add any website as the homepage\n• Keyboard shortcuts (for Mac & iPad)\n• Quick actions when you shake your device (for iPhone)\n• Option to lock the app using Touch ID or Face ID\n\nThe following content will not be blocked:\n\n• Websites paywalls\n• Age verification on porn websites\n\nAds on the following websites will not be blocked:\n\n• The Instagram website\n• The Facebook website\n• The TikTok website\n• The Netflix website\n• The Hulu website\n• The Paramount website\n• The HBO website\n• The Disney website\n• The Crunchyroll website\n• The Twitch website \n• The Amazon website\n• The following Chinese search engines: Baidu, Sogou, 360\n• The following Korean websites: feedclick.net, ygosu.com, ondemandkorea.com, algumon.com, namu.wiki"
+    },
+    "im:price": {
+      "label": "$1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Lucas Exequiel Di Tomase"
+    },
+    "title": {
+      "label": "Borralos: Private Web Browser - Lucas Exequiel Di Tomase"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/borralos-private-web-browser/id1546108718?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/f5/25/25/f52525dc-e8dd-6ae9-7ab5-6ee39441571a/01189d73-ba1e-46a1-a349-ac5e82b3ab49_ipad.001.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/borralos-private-web-browser/id1546108718?uo=2",
+      "attributes": {
+        "im:id": "1546108718",
+        "im:bundleId": "com.lucasditomase.privadoApp"
+      }
+    },
+    "im:artist": {
+      "label": "Lucas Exequiel Di Tomase",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/lucas-exequiel-di-tomase/id1456307400?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-05-14T00:00:00-07:00",
+      "attributes": {
+        "label": "May 14, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 11,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Cat Training Clicker"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/17/bd/ad/17bdada4-1def-5dd6-7705-6a78822c3a71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/17/bd/ad/17bdada4-1def-5dd6-7705-6a78822c3a71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/17/bd/ad/17bdada4-1def-5dd6-7705-6a78822c3a71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Cat Training Clicker is an effective training tool for cats!\n\nThere are 4 different colored paw buttons with 4 distinct clicker sounds. \n\n- Clicker\n- Finger Snap\n- Tongue Click\n- Pen Click\n\nUnlike your voice, the sound of the clicker is a clear and consistent form of communication. The distinct click sound trains your cat to a desired behavior.\n\n-Tips for Clicker Training-\n\n1. Establish a connection between the sound of the clicker and a treat.\n2. Wait for your cat to make right moves then click the clicker and immediately reward your cat.\n3. Always reward with a treat after clicking.\n4. Multiple clicks can be confusing.\n5. Don’t use the clicker to just get your cat’s attention."
+    },
+    "im:price": {
+      "label": "$1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Minky Studio"
+    },
+    "title": {
+      "label": "Cat Training Clicker - Minkyung Chung"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/cat-training-clicker/id1483875344?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/2d/ba/a0/2dbaa0cc-326c-9eb6-7f8b-c6f3d9696913/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/cat-training-clicker/id1483875344?uo=2",
+      "attributes": {
+        "im:id": "1483875344",
+        "im:bundleId": "com.minkystudio.Cat-Clicker"
+      }
+    },
+    "im:artist": {
+      "label": "Minkyung Chung",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/minkyung-chung/id1122387440?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-10-18T00:00:00-07:00",
+      "attributes": {
+        "label": "October 18, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 12,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Dark Sky Meter"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/cf/e1/0bcfe140-34cc-4e26-0f37-c7056bc9a58d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/cf/e1/0bcfe140-34cc-4e26-0f37-c7056bc9a58d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/cf/e1/0bcfe140-34cc-4e26-0f37-c7056bc9a58d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The Dark Sky Meter app measures the sky brightness using the camera and shares it (optionally) with scientists around the globe."
+    },
+    "im:price": {
+      "label": "$1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© DDQ Pocket Science 2023"
+    },
+    "title": {
+      "label": "Dark Sky Meter - DDQ"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/dark-sky-meter/id602989060?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/2d/a7/ec/2da7ec37-26fe-14d8-b75f-2704de3b95ed/mzl.hadxhxqh.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/dark-sky-meter/id602989060?uo=2",
+      "attributes": {
+        "im:id": "602989060",
+        "im:bundleId": "nl.ddq.darksky"
+      }
+    },
+    "im:artist": {
+      "label": "DDQ",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/ddq/id418328467?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-04-18T15:56:48-07:00",
+      "attributes": {
+        "label": "April 18, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 13,
       "total": 100
     },
     "im:name": {
@@ -1636,7 +1330,109 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 14,
+      "total": 100
+    },
+    "im:name": {
+      "label": "صحيح البخاري و مسلم"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/6e/5d/ef/6e5def58-0670-015b-8120-d5ff2dad65fa/AppIcon_BM-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/6e/5d/ef/6e5def58-0670-015b-8120-d5ff2dad65fa/AppIcon_BM-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/6e/5d/ef/6e5def58-0670-015b-8120-d5ff2dad65fa/AppIcon_BM-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "الآن تستطيع أن تحمل هدي رسول الله صلى الله عليه و سلم أينما كنت..\n\nمئات الصفحات من أحاديث رسول الله و سننه بين يديك في برنامج سهل و بسيط يحتوي على:\n\n١- مختصر صحيح البخاري : و هو مقسم ل ١٠٠  كتاب بها أكثر من ٧٠٠٠ حديث و روايه صحيحة عن رسول الله صلى الله عليه و سلم\n\n٢ - مختصر صحيح مسلم: و هو مقسم ل ٥٦ كتاب بها أكثر من ٣٠٠٠  حديث و روايه صحيحة عن رسول الله صلى الله عليه و سلم\n\n٣- إمكانية البحث النصي الشامل في الصحيحين بكل سهولة، مع إظهار نص البحث \nبخلفية ملونة لسهولة إيجادها\n\n٤- إمكاينة حفظ الأبواب المفضلة للوصول إليها بسرعة و سهولة لاحقا.\n\nجميع الأحاديث و الروايات مذكور بها الإسناد الكامل من الرواة و الصحابة الأجلاء عليهم رضوان الله.\n\nيمكنك أيضا إرسال الأحاديث بالبريد الإلكتروني أو مشاركتها بتطبيقات التواصل الإجتماعي مع الأهل و الأصدقاء بمجرد الضغط على زر.\n\nنصوص الأحاديث و الشرح مكتوبة بخط واضح مع تلوين للآيات و الأحاديث، و إمكانية تغيير حجم الخط حسب الرغبة.\n\nالبرنامج متوافق مع جميع أجهزة أيفون ، و متوافق أيضا مع أجهزة الأيباد.\n\nهذا البرنامج لا غنى عنه لأي مسلم مهتم بتعاليم دينه و هدي الرسول الكريم عليه أفضل الصلاة و السلام"
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 - 5 Stars Apps"
+    },
+    "title": {
+      "label": "صحيح البخاري و مسلم - Tamer Abdel-Baset"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/%D8%B5%D8%AD%D9%8A%D8%AD-%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A-%D9%88-%D9%85%D8%B3%D9%84%D9%85/id414559023?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/06/53/00/06530052-8b0e-33cf-9bae-e4142af23cd0/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/%D8%B5%D8%AD%D9%8A%D8%AD-%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A-%D9%88-%D9%85%D8%B3%D9%84%D9%85/id414559023?uo=2",
+      "attributes": {
+        "im:id": "414559023",
+        "im:bundleId": "com.tamerbaset.Hadeeth"
+      }
+    },
+    "im:artist": {
+      "label": "Tamer Abdel-Baset",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/tamer-abdel-baset/id375954576?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-01-17T19:43:19-07:00",
+      "attributes": {
+        "label": "January 17, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1738,7 +1534,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1840,7 +1636,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -1942,7 +1738,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 20,
+      "index": 18,
       "total": 100
     },
     "im:name": {
@@ -2044,7 +1840,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
+      "index": 19,
       "total": 100
     },
     "im:name": {
@@ -2146,7 +1942,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
+      "index": 20,
       "total": 100
     },
     "im:name": {
@@ -2248,7 +2044,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
+      "index": 21,
       "total": 100
     },
     "im:name": {
@@ -2350,7 +2146,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
+      "index": 22,
       "total": 100
     },
     "im:name": {
@@ -2452,7 +2248,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2554,7 +2350,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
+      "index": 24,
       "total": 100
     },
     "im:name": {
@@ -2656,7 +2452,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +2554,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2860,7 +2656,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 29,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -2962,7 +2758,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 30,
+      "index": 28,
       "total": 100
     },
     "im:name": {
@@ -3064,7 +2860,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 31,
+      "index": 29,
       "total": 100
     },
     "im:name": {
@@ -3166,7 +2962,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 32,
+      "index": 30,
       "total": 100
     },
     "im:name": {
@@ -3268,7 +3064,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 33,
+      "index": 31,
       "total": 100
     },
     "im:name": {
@@ -3370,7 +3166,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 34,
+      "index": 32,
       "total": 100
     },
     "im:name": {
@@ -3472,7 +3268,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 35,
+      "index": 33,
       "total": 100
     },
     "im:name": {
@@ -3574,7 +3370,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 36,
+      "index": 34,
       "total": 100
     },
     "im:name": {
@@ -3676,7 +3472,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 37,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3778,7 +3574,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 38,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3880,7 +3676,109 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 39,
+      "index": 37,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Blue Hound"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/46/2f/ef/462fef7e-9f02-af6f-d16e-43b164f509c7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/46/2f/ef/462fef7e-9f02-af6f-d16e-43b164f509c7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/46/2f/ef/462fef7e-9f02-af6f-d16e-43b164f509c7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The essential Bluetooth app for scanning and locating your smart devices from Apple, FitBit, Garmin, and many other companies.\nScan and identify nearby devices. Locate devices by signal strength, heat map or direction finder.\n\nYou can now find Fitbit and other Bluetooth devices that are paired with your iPhone. If the Bluetooth device is paired with another iPhone, turn off Bluetooth on that iPhone.\n\nBlue Hound is always scanning for Bluetooth devices. When a device is detected, Blue Hound identifies it by name, maker and model when possible. It does this using a large database of smart recognizers that are updated automatically. Devices you find are uploaded to the cloud to help you search for them later.\n\nBlue Hound works great with Bluetooth tags. If you attach one to your keys, you can locate them within 100 feet or more even outdoors in high grass. Attach one to your drone and you will be able to find it if it lands unexpectedly.\n\nScanning for Bluetooth devices can be a fun outdoor activity. Take Blue Hound out for a walk. Enable Power Saver Mode for Blue Hound in Settings and put your iPhone in your pocket upside down. The screen will go dark and the app will enter power saver mode. If you wish, Blue Hound can even bark to alert you when a new device is found.\n\nBlue Hound has features not found in any other Bluetooth scanner or finder:\n\n• Real time Bluetooth scanner with signal strength and description\n• Sort the scanner list by age, distance or name\n• Filter the scanner list for matching text\n• List both active and inactive devices\n• Power saver option and audio alerts for scanning while walking\n• Search the cloud for devices you have found in the past\n• Search for past devices using an interactive map\n• Smart device identification using cloud updated recognizers\n• Display detailed information about a devices including is maker and model\n• Search Google for more information about the device\n• Get directions to the last known location of the device\n• Locate a device indoors using a signal strength meter\n• Locate a device outdoors using a heat map and signal graph\n• Outdoor direction finder saves time when searching\n• Display the directions on the map to triangulate the location"
+    },
+    "im:price": {
+      "label": "$1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "Copyright © 2016-2021 Mark Granger"
+    },
+    "title": {
+      "label": "Blue Hound - GrangerFX"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/blue-hound/id1067368392?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/60/3a/a0/603aa05b-64be-7eff-b86a-37b82dcd7022/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/blue-hound/id1067368392?uo=2",
+      "attributes": {
+        "im:id": "1067368392",
+        "im:bundleId": "com.grangerfx.BeaconFinder"
+      }
+    },
+    "im:artist": {
+      "label": "GrangerFX",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/grangerfx/id363698835?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-01-30T14:51:31-07:00",
+      "attributes": {
+        "label": "January 30, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 38,
       "total": 100
     },
     "im:name": {
@@ -3982,7 +3880,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 40,
+      "index": 39,
       "total": 100
     },
     "im:name": {
@@ -4084,7 +3982,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 41,
+      "index": 40,
       "total": 100
     },
     "im:name": {
@@ -4186,7 +4084,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 42,
+      "index": 41,
       "total": 100
     },
     "im:name": {
@@ -4288,7 +4186,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
+      "index": 42,
       "total": 100
     },
     "im:name": {
@@ -4390,7 +4288,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 44,
+      "index": 43,
       "total": 100
     },
     "im:name": {
@@ -4492,7 +4390,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
+      "index": 44,
       "total": 100
     },
     "im:name": {
@@ -4594,7 +4492,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 46,
+      "index": 45,
       "total": 100
     },
     "im:name": {
@@ -4696,7 +4594,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 47,
+      "index": 46,
       "total": 100
     },
     "im:name": {
@@ -4798,7 +4696,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 48,
+      "index": 47,
       "total": 100
     },
     "im:name": {
@@ -4900,7 +4798,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 49,
+      "index": 48,
       "total": 100
     },
     "im:name": {
@@ -5002,7 +4900,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 50,
+      "index": 49,
       "total": 100
     },
     "im:name": {
@@ -5104,7 +5002,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 51,
+      "index": 50,
       "total": 100
     },
     "im:name": {
@@ -5198,6 +5096,108 @@
       "label": "2010-10-20T17:50:47-07:00",
       "attributes": {
         "label": "October 20, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 51,
+      "total": 100
+    },
+    "im:name": {
+      "label": "IP Cam Viewer Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/59/19/d2591951-1064-b2e1-201f-4bb56f73bb3d/AppIcon-1x_U007emarketing-0-6-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/59/19/d2591951-1064-b2e1-201f-4bb56f73bb3d/AppIcon-1x_U007emarketing-0-6-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/59/19/d2591951-1064-b2e1-201f-4bb56f73bb3d/AppIcon-1x_U007emarketing-0-6-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Remotely view, control and record your IP camera, webcam, DVR and NVR using your iOS device.\n\nWritten by Robert Chou\n\nUse as a baby monitor with 2-way audio support for Foscam / clone, Axis, Panasonic, Trendnet and many more cameras.\n\nRecord Mode turns any spare iOS device into a tiny solid state, battery backed, network video recorder to record your cameras 24x7 with search, playback, export capabilities, in-app motion detection, and motion email notification. \n\nSupports:\n- RTSP, ONVIF, H.265, H.264, MPEG4\n- Pinch to zoom (digital zoom)\n- optical pan tilt zoom and preset recall\n- SSL and custom functions per camera model\n- 1 way and 2 way audio for many cameras\n- grouping of cameras\n- auto sequence mode (auto rotates cameras and groups)\n- Record Mode for 24x7 recording\n- import/export and email sharing of cameras\n- in-app motion detection\n- motion email notification\n\nOver 1600+ devices supported, some brands include:\n3SVision\n3xLogic\n7Links\nA-Link\nA.V. Sistemi\nAbelCam\nABUS\nACESEE\nAcromedia\nACTi\nActive Vision\nAData\nAfreey\nAgileMesh\nAirlink\nAirLive\nAirship\nAlien\nAlinking\nAllnet\nAmcrest\nAmovision\nAnnke\nApex\nApexis\nAposonic\nAppro\nArcVision\nArecont\nArgus Surveillance\narlotto\nArm Electronics\nAsante\nASIP\nAsoni\nAstak\nAvermedia\nAvigilon\nAVIOSYS\nAVS\nAVTECH\nAxis\nBasler\nBensoftware\nBewan\nBeward\nBlue Iris\nBluecherry\nBlueJay\nBluePix\nBosch\nBrickcom\nBVUSA\nCanon\nCCTVFACTORY\nCCTVHotDeals\nCelius\nCisco\nClas Ohlson\nClinton Electronics\nCohu\nCompro\nComtrend\nConceptronic\nCOP\nCPCAM\nDahua\nDali\nDBPOWER\nDedicated Micros\nDefender\nDefeway\nDericam\nDigicom\nDigimerge\nDigital Watchdog\nDigitus\nDigiVue\nDigix\nDiVis\nDLink\nDoorBird\nDropcam\nDtt\nDVRUSA\nDynaColor\nEasyN\nEasySE\nEdimax\nElmo\nElro\nEminent\nEncore\neneo\nEscam\nEtrovision\nEverfocus\neVigilo\nEvoCam\nExacqVision\nExelon\nEYEMAX\nEyeSpy247\nFalcon\nFitivision\nFlexWatch\nFLIR\nFloureon\nFoodTec Solutions\nFoscam\nFUHO\nFulix\nGadspot\nGE\nGembird\nGenius\nGeovision\nGigamedia\nGlobeTeck\nGOING\nGoPro\nGoscam\nGrandSec\nGrandstream\nGrandtec\nGrundig\nGTEC\nGVDigital\nHawking Tech\nHeden\nHeeToo\nHeiTel\nHesavision\nHikvision\nhiQview\nHiSilicon\nHistream\nHISUNG\nHoneywell\nHooToo\nHunt Electronics\nI-View\nICam\nICAMView\nICanTek\niCatch\nICRealtime\nIcy Box\nIDS Security\nIGuard\nImogen\nimotion\nInscape Data\nINSTAR\nInsteon\nIntegra\nIntellinet\nInterlogix\nINVID\nIPCC\nIPS\nIPUX\nIQinVision\niSpy\niTech Digital\nITX\niVigilo\nJetview\nJVC\nKGuard\nKMW\nKodicom\nLevelOne\nLG\nLinksys\nLoftek\nLogilink\nLogitech\nLorex\nLTS\nLumenera\nLupus\nLuxriot\nMaginon\nMammoth Technologies\nMarmitek\nMaxSecure\nMayGion\nMerit LILIN\nMessoa\nMicroDigital\nMicronet\nMicroseven\nMilesight\nMilestone\nMitsu Vision\nMobotix\nMonacor\nMonoPrice\nmotionEye\nMotorola\nNadatel\nNeoVista\nNest\nnetatmo\nNetcam Studio\nNetgear\nNetMedia\nNight Owl\nNOVUS\nNuSpectra\nNUUO\nNuvico\nOnSSI\nONVIF\nOpenEye\nOptica\nOpticam\nOptiview\nOptivision\nOvisLink\nPanasonic\nPelco\nPinetron\nPixord\nPlanet\nPlanex\nPlustek\nPolaroid\nPower Telecomm\nPROCCTV\nProTalk\nProvideo\nPTZOptics\nPY Software\nQ-See\nQNAP\nQVIS\nRapidOS\nRaspberry\nRaySharp\nRayvision\nRemote Eyes\nReolink\nRifatron\nRobox\nRosewill\nSamsung\nSanyo\nSavitmicro\nSecom\nSecubest\nSecurity Labs\nSecuritySpy\nSensormatic\nSercomm\nSeteye\nSharx\nShixin\nSiemens\nSitecom\nSmart Witness\nSmartEye\nSmartIndustry\nSnooperscope\nSolwise\nSony\nSparkLan\nSpeco Tech\nSpy Cameras\nSricam\nStarDot\nSumas\nSumpple\nSunba\nSunell\nSunEyes\nSuperCircuits\nSurveon\nSVAT\nSwann\nSynology\nTalon\nTalos\nTechVision\nTecVoz\nTELCA\nTelefonica\nTeleste\nTelView\nTenvis\nTibetsystem\nTimhillone\nTomTech\nTopica\nToshiba\nTP-Link\nTrek\nTRENDnet\nTriVision\nTrue-H\nTVT Digital\nUbiquiti\nUNIMO\nUnitek\nUniview\nUniVision\nUSAG\nUstream\nUTC\nVantage\nVeo/Vidi\nVideo Insight\nVideoIQ\nVideoswitch\nVidi\nVigilant\nVilar/Vipcam\nVisionGS\nVisionhitech\nVISIONxIP\nVisorTech\nVisualint\nVitek\nVivotek\nVonnic\nVstarcam\nWanscam\nWansview\nWatchNET\nWavestore\nWebcamXP\nWodsee\nWowWee\nX10\nXTS\nY-Cam\ny3k\nYawcam\nYoics\nYoko Tech\nZavio\nZiLink\nZmodo\nZoneminder\nZonet\nZoneway\nZosi\nZyXEL"
+    },
+    "im:price": {
+      "label": "$4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 hit-mob.com"
+    },
+    "title": {
+      "label": "IP Cam Viewer Pro - NibblesnBits"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/ip-cam-viewer-pro/id402656416?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/b8/9e/72/b89e72b0-18e7-6e6d-f1ee-2e80b2566753/mzl.loiteenv.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/ip-cam-viewer-pro/id402656416?uo=2",
+      "attributes": {
+        "im:id": "402656416",
+        "im:bundleId": "com.nibblesnbits.ipcamviewer"
+      }
+    },
+    "im:artist": {
+      "label": "NibblesnBits",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/nibblesnbits/id386263851?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-11-26T12:34:46-07:00",
+      "attributes": {
+        "label": "November 26, 2010"
       }
     }
   },
@@ -5312,108 +5312,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "IP Cam Viewer Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/59/19/d2591951-1064-b2e1-201f-4bb56f73bb3d/AppIcon-1x_U007emarketing-0-6-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/59/19/d2591951-1064-b2e1-201f-4bb56f73bb3d/AppIcon-1x_U007emarketing-0-6-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/59/19/d2591951-1064-b2e1-201f-4bb56f73bb3d/AppIcon-1x_U007emarketing-0-6-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Remotely view, control and record your IP camera, webcam, DVR and NVR using your iOS device.\n\nWritten by Robert Chou\n\nUse as a baby monitor with 2-way audio support for Foscam / clone, Axis, Panasonic, Trendnet and many more cameras.\n\nRecord Mode turns any spare iOS device into a tiny solid state, battery backed, network video recorder to record your cameras 24x7 with search, playback, export capabilities, in-app motion detection, and motion email notification. \n\nSupports:\n- RTSP, ONVIF, H.265, H.264, MPEG4\n- Pinch to zoom (digital zoom)\n- optical pan tilt zoom and preset recall\n- SSL and custom functions per camera model\n- 1 way and 2 way audio for many cameras\n- grouping of cameras\n- auto sequence mode (auto rotates cameras and groups)\n- Record Mode for 24x7 recording\n- import/export and email sharing of cameras\n- in-app motion detection\n- motion email notification\n\nOver 1600+ devices supported, some brands include:\n3SVision\n3xLogic\n7Links\nA-Link\nA.V. Sistemi\nAbelCam\nABUS\nACESEE\nAcromedia\nACTi\nActive Vision\nAData\nAfreey\nAgileMesh\nAirlink\nAirLive\nAirship\nAlien\nAlinking\nAllnet\nAmcrest\nAmovision\nAnnke\nApex\nApexis\nAposonic\nAppro\nArcVision\nArecont\nArgus Surveillance\narlotto\nArm Electronics\nAsante\nASIP\nAsoni\nAstak\nAvermedia\nAvigilon\nAVIOSYS\nAVS\nAVTECH\nAxis\nBasler\nBensoftware\nBewan\nBeward\nBlue Iris\nBluecherry\nBlueJay\nBluePix\nBosch\nBrickcom\nBVUSA\nCanon\nCCTVFACTORY\nCCTVHotDeals\nCelius\nCisco\nClas Ohlson\nClinton Electronics\nCohu\nCompro\nComtrend\nConceptronic\nCOP\nCPCAM\nDahua\nDali\nDBPOWER\nDedicated Micros\nDefender\nDefeway\nDericam\nDigicom\nDigimerge\nDigital Watchdog\nDigitus\nDigiVue\nDigix\nDiVis\nDLink\nDoorBird\nDropcam\nDtt\nDVRUSA\nDynaColor\nEasyN\nEasySE\nEdimax\nElmo\nElro\nEminent\nEncore\neneo\nEscam\nEtrovision\nEverfocus\neVigilo\nEvoCam\nExacqVision\nExelon\nEYEMAX\nEyeSpy247\nFalcon\nFitivision\nFlexWatch\nFLIR\nFloureon\nFoodTec Solutions\nFoscam\nFUHO\nFulix\nGadspot\nGE\nGembird\nGenius\nGeovision\nGigamedia\nGlobeTeck\nGOING\nGoPro\nGoscam\nGrandSec\nGrandstream\nGrandtec\nGrundig\nGTEC\nGVDigital\nHawking Tech\nHeden\nHeeToo\nHeiTel\nHesavision\nHikvision\nhiQview\nHiSilicon\nHistream\nHISUNG\nHoneywell\nHooToo\nHunt Electronics\nI-View\nICam\nICAMView\nICanTek\niCatch\nICRealtime\nIcy Box\nIDS Security\nIGuard\nImogen\nimotion\nInscape Data\nINSTAR\nInsteon\nIntegra\nIntellinet\nInterlogix\nINVID\nIPCC\nIPS\nIPUX\nIQinVision\niSpy\niTech Digital\nITX\niVigilo\nJetview\nJVC\nKGuard\nKMW\nKodicom\nLevelOne\nLG\nLinksys\nLoftek\nLogilink\nLogitech\nLorex\nLTS\nLumenera\nLupus\nLuxriot\nMaginon\nMammoth Technologies\nMarmitek\nMaxSecure\nMayGion\nMerit LILIN\nMessoa\nMicroDigital\nMicronet\nMicroseven\nMilesight\nMilestone\nMitsu Vision\nMobotix\nMonacor\nMonoPrice\nmotionEye\nMotorola\nNadatel\nNeoVista\nNest\nnetatmo\nNetcam Studio\nNetgear\nNetMedia\nNight Owl\nNOVUS\nNuSpectra\nNUUO\nNuvico\nOnSSI\nONVIF\nOpenEye\nOptica\nOpticam\nOptiview\nOptivision\nOvisLink\nPanasonic\nPelco\nPinetron\nPixord\nPlanet\nPlanex\nPlustek\nPolaroid\nPower Telecomm\nPROCCTV\nProTalk\nProvideo\nPTZOptics\nPY Software\nQ-See\nQNAP\nQVIS\nRapidOS\nRaspberry\nRaySharp\nRayvision\nRemote Eyes\nReolink\nRifatron\nRobox\nRosewill\nSamsung\nSanyo\nSavitmicro\nSecom\nSecubest\nSecurity Labs\nSecuritySpy\nSensormatic\nSercomm\nSeteye\nSharx\nShixin\nSiemens\nSitecom\nSmart Witness\nSmartEye\nSmartIndustry\nSnooperscope\nSolwise\nSony\nSparkLan\nSpeco Tech\nSpy Cameras\nSricam\nStarDot\nSumas\nSumpple\nSunba\nSunell\nSunEyes\nSuperCircuits\nSurveon\nSVAT\nSwann\nSynology\nTalon\nTalos\nTechVision\nTecVoz\nTELCA\nTelefonica\nTeleste\nTelView\nTenvis\nTibetsystem\nTimhillone\nTomTech\nTopica\nToshiba\nTP-Link\nTrek\nTRENDnet\nTriVision\nTrue-H\nTVT Digital\nUbiquiti\nUNIMO\nUnitek\nUniview\nUniVision\nUSAG\nUstream\nUTC\nVantage\nVeo/Vidi\nVideo Insight\nVideoIQ\nVideoswitch\nVidi\nVigilant\nVilar/Vipcam\nVisionGS\nVisionhitech\nVISIONxIP\nVisorTech\nVisualint\nVitek\nVivotek\nVonnic\nVstarcam\nWanscam\nWansview\nWatchNET\nWavestore\nWebcamXP\nWodsee\nWowWee\nX10\nXTS\nY-Cam\ny3k\nYawcam\nYoics\nYoko Tech\nZavio\nZiLink\nZmodo\nZoneminder\nZonet\nZoneway\nZosi\nZyXEL"
-    },
-    "im:price": {
-      "label": "$4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 hit-mob.com"
-    },
-    "title": {
-      "label": "IP Cam Viewer Pro - NibblesnBits"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/ip-cam-viewer-pro/id402656416?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/b8/9e/72/b89e72b0-18e7-6e6d-f1ee-2e80b2566753/mzl.loiteenv.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/ip-cam-viewer-pro/id402656416?uo=2",
-      "attributes": {
-        "im:id": "402656416",
-        "im:bundleId": "com.nibblesnbits.ipcamviewer"
-      }
-    },
-    "im:artist": {
-      "label": "NibblesnBits",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/nibblesnbits/id386263851?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-11-26T12:34:46-07:00",
-      "attributes": {
-        "label": "November 26, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 54,
-      "total": 100
-    },
-    "im:name": {
       "label": "Total files pro"
     },
     "im:image": [
@@ -5512,7 +5410,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 55,
+      "index": 54,
       "total": 100
     },
     "im:name": {
@@ -5614,7 +5512,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 56,
+      "index": 55,
       "total": 100
     },
     "im:name": {
@@ -5716,7 +5614,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 57,
+      "index": 56,
       "total": 100
     },
     "im:name": {
@@ -5818,7 +5716,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 58,
+      "index": 57,
       "total": 100
     },
     "im:name": {
@@ -5920,7 +5818,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 59,
+      "index": 58,
       "total": 100
     },
     "im:name": {
@@ -6022,7 +5920,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 60,
+      "index": 59,
       "total": 100
     },
     "im:name": {
@@ -6124,7 +6022,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 61,
+      "index": 60,
       "total": 100
     },
     "im:name": {
@@ -6226,7 +6124,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 62,
+      "index": 61,
       "total": 100
     },
     "im:name": {
@@ -6328,7 +6226,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 63,
+      "index": 62,
       "total": 100
     },
     "im:name": {
@@ -6430,7 +6328,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 64,
+      "index": 63,
       "total": 100
     },
     "im:name": {
@@ -6532,7 +6430,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 65,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6626,6 +6524,108 @@
       "label": "2013-01-04T11:27:41-07:00",
       "attributes": {
         "label": "January 4, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 65,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Scany"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/a8/97/ab/a897abcb-103b-49af-f8b7-7e8d1015d7fc/AppIcon-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a8/97/ab/a897abcb-103b-49af-f8b7-7e8d1015d7fc/AppIcon-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/a8/97/ab/a897abcb-103b-49af-f8b7-7e8d1015d7fc/AppIcon-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Scany is the Swiss army knife of apps for home, office, corporate LAN and Wi-Fi hotspot owners, network administrators, security specialists, developers and everyone who needs to diagnose and resolve network issues and easily do everyday network tasks.\n\nScany finds computers and devices connected to a LAN or Wi-Fi shows their names, addresses and manufacturers, and includes a wide set of network analysis tools, specially crafted to transcend existing analogs, including ping, trace, WHOIS, DNS lookup, port scanner and many more.\n\nBuilt from the ground up for mobile by an experienced network administrator, Scany outmatches other apps in many respects.\n\nWI-FI LAN & INTERNET SCANNER\n· Wi-Fi/LAN and custom/Internet network ranges scanning\n· detection of all network devices + hidden\n· IP addresses, vendor names, IP countries info and more\n· Bonjour, mDNS, Mac OS X and iOS network names\n· NetBIOS, Samba, LLNMR and Windows PC network names\n· UPnP and SSDP/DLNA device network names\n· Unicode and international network names support\n· device models detection (on OS X and iOS)\n· shared printers detection (on OS X)\n· \"online\", \"firewalled\" and other host states detection\n· superfast smart algorithms optimized for huge networks\n\nINSTANT LAN/WI-FI BROWSER/LOOKUP\n· instant detection of all network names on LAN/Wi-Fi\n· no need for a full deep network scan for a quick LAN overview\n· instant IP lookup by a LAN hostname (or vice versa)\n· type in (non-DNS) LAN hostname in almost all built-in tools\n· works with all supported Mac, PC and device names\n\nPING & TRACEROUTE\n· real-time network path traceroute monitor and ping\n· network path bottlenecks and packet loss visualization\n· IPs, hostnames and info for each hop\n· reverse hostnames, AS numbers and countries info\n· multi-node and multi-path hops detection\n\nPORT SCANNER\n· superfast detection of predefined and custom ports\n· open, filtered/firewalled and closed TCP/UDP ports detection\n· detection of extra services/ports with protocol level probes\n\nDEEP WHOIS LOOKUP AND TRACE\n· WHOIS of any IP, domain or AS number\n· IPv4 and IPv6 WHOIS support\n· all top level domains (TLD) support\n· support for all internationalized domain names (IDN)\n· support for WHOIS trace across a chain of WHOIS servers\n· custom servers usage (type \"-h host\" in query)\n· custom ports usage (type \"-p port\" in query)\n\nDNS DIG, LOOKUP AND TRACE\n· support for A, AAAA, ANY, CNAME, PTR, NS, MX, SOA, SRV records\n· support for \"-t type\" option or just add record type into query\n· support for \"+trace\" and \"+all\" options typed in query/hostname field\n· support for custom DNS server and port via \"-h host\" and \"-p port\" options\n· support for DNS queries to local multicast IP addresses (automatically)\n\nWAKE ON LAN, WI-FI OR OVER INTERNET\n· wake on LAN/Wi-Fi or cellular/Internet\n· detection of router external IP for pre-saved/pre-scanned hosts\n\nNETWORK INFORMATION\n· Wi-Fi IP address and network mask info, SSID, BSSID\n· cellular and VPN IP addresses and network masks\n· external router IP address detection\n· default gateway/router IP address detection\n· DNS servers detection\n\nEXTENSIVE EXPORT, IMPORT AND HISTORY\n· copy and email all data and history\n· export and import separate hosts, entire or all groups\n· export separate lists of Bonjour, PC, UPnP/SSDP or a list of all hostnames\n· export a list of free IP addresses\n· export a list of busy IP addresses\n· export text and .SCANY files via email as attachments\n· open .SCANY files from email in Scany or Net Status\n· export as text, .TXT and/or .CSV files via email\n· choose data fields to export\n\nMORE\n· regular updates and careful support\n· universal binary for all devices\n· demo videos on our site: http://j.mp/scany_vids"
+    },
+    "im:price": {
+      "label": "$5.99",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Pavel Ahafonau"
+    },
+    "title": {
+      "label": "Scany - Pavel Ahafonau"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/scany/id328077901?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/2f/78/52/2f785224-60c4-9325-ae4b-2fd645ff93f5/01870b99-3d00-4964-9321-26e32c987a42_iPad_Pro__U002810.5-inch_U0029-01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/scany/id328077901?uo=2",
+      "attributes": {
+        "im:id": "328077901",
+        "im:bundleId": "com.paully.netscan"
+      }
+    },
+    "im:artist": {
+      "label": "Pavel Ahafonau",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/pavel-ahafonau/id319585607?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-08-31T17:28:03-07:00",
+      "attributes": {
+        "label": "August 31, 2009"
       }
     }
   },
@@ -6740,35 +6740,35 @@
       "total": 100
     },
     "im:name": {
-      "label": "Scany"
+      "label": "WiFi Master Pro - WiFi.com"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/a8/97/ab/a897abcb-103b-49af-f8b7-7e8d1015d7fc/AppIcon-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/cf/9f/9f/cf9f9faf-2519-99a9-f150-0800a438f3e9/AppIcon-Apollo-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a8/97/ab/a897abcb-103b-49af-f8b7-7e8d1015d7fc/AppIcon-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/cf/9f/9f/cf9f9faf-2519-99a9-f150-0800a438f3e9/AppIcon-Apollo-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/a8/97/ab/a897abcb-103b-49af-f8b7-7e8d1015d7fc/AppIcon-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/cf/9f/9f/cf9f9faf-2519-99a9-f150-0800a438f3e9/AppIcon-Apollo-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Scany is the Swiss army knife of apps for home, office, corporate LAN and Wi-Fi hotspot owners, network administrators, security specialists, developers and everyone who needs to diagnose and resolve network issues and easily do everyday network tasks.\n\nScany finds computers and devices connected to a LAN or Wi-Fi shows their names, addresses and manufacturers, and includes a wide set of network analysis tools, specially crafted to transcend existing analogs, including ping, trace, WHOIS, DNS lookup, port scanner and many more.\n\nBuilt from the ground up for mobile by an experienced network administrator, Scany outmatches other apps in many respects.\n\nWI-FI LAN & INTERNET SCANNER\n· Wi-Fi/LAN and custom/Internet network ranges scanning\n· detection of all network devices + hidden\n· IP addresses, vendor names, IP countries info and more\n· Bonjour, mDNS, Mac OS X and iOS network names\n· NetBIOS, Samba, LLNMR and Windows PC network names\n· UPnP and SSDP/DLNA device network names\n· Unicode and international network names support\n· device models detection (on OS X and iOS)\n· shared printers detection (on OS X)\n· \"online\", \"firewalled\" and other host states detection\n· superfast smart algorithms optimized for huge networks\n\nINSTANT LAN/WI-FI BROWSER/LOOKUP\n· instant detection of all network names on LAN/Wi-Fi\n· no need for a full deep network scan for a quick LAN overview\n· instant IP lookup by a LAN hostname (or vice versa)\n· type in (non-DNS) LAN hostname in almost all built-in tools\n· works with all supported Mac, PC and device names\n\nPING & TRACEROUTE\n· real-time network path traceroute monitor and ping\n· network path bottlenecks and packet loss visualization\n· IPs, hostnames and info for each hop\n· reverse hostnames, AS numbers and countries info\n· multi-node and multi-path hops detection\n\nPORT SCANNER\n· superfast detection of predefined and custom ports\n· open, filtered/firewalled and closed TCP/UDP ports detection\n· detection of extra services/ports with protocol level probes\n\nDEEP WHOIS LOOKUP AND TRACE\n· WHOIS of any IP, domain or AS number\n· IPv4 and IPv6 WHOIS support\n· all top level domains (TLD) support\n· support for all internationalized domain names (IDN)\n· support for WHOIS trace across a chain of WHOIS servers\n· custom servers usage (type \"-h host\" in query)\n· custom ports usage (type \"-p port\" in query)\n\nDNS DIG, LOOKUP AND TRACE\n· support for A, AAAA, ANY, CNAME, PTR, NS, MX, SOA, SRV records\n· support for \"-t type\" option or just add record type into query\n· support for \"+trace\" and \"+all\" options typed in query/hostname field\n· support for custom DNS server and port via \"-h host\" and \"-p port\" options\n· support for DNS queries to local multicast IP addresses (automatically)\n\nWAKE ON LAN, WI-FI OR OVER INTERNET\n· wake on LAN/Wi-Fi or cellular/Internet\n· detection of router external IP for pre-saved/pre-scanned hosts\n\nNETWORK INFORMATION\n· Wi-Fi IP address and network mask info, SSID, BSSID\n· cellular and VPN IP addresses and network masks\n· external router IP address detection\n· default gateway/router IP address detection\n· DNS servers detection\n\nEXTENSIVE EXPORT, IMPORT AND HISTORY\n· copy and email all data and history\n· export and import separate hosts, entire or all groups\n· export separate lists of Bonjour, PC, UPnP/SSDP or a list of all hostnames\n· export a list of free IP addresses\n· export a list of busy IP addresses\n· export text and .SCANY files via email as attachments\n· open .SCANY files from email in Scany or Net Status\n· export as text, .TXT and/or .CSV files via email\n· choose data fields to export\n\nMORE\n· regular updates and careful support\n· universal binary for all devices\n· demo videos on our site: http://j.mp/scany_vids"
+      "label": "WiFi Master is your trusted essential iPhone app to connect shared WiFi nearby through the concept of Sharing Economy.\n\nWith WiFi Master, you can enjoy:\n\n- GLOBAL WIFI ACCESS: Internet WiFi connection worldwide of shared WiFi across 223 countries and regions.\n- EASY AND FAST CONNECTION: Explore the Internet at your fingertips; just tap to search and connect WiFi nearby.\n- SAFE AND SECURED SHARING: All shared passwords are not revealed, and are protected by 128-bits encryption for sharer’s privacy and security.\n- TRENDING VIDEO ON-THE-GO: Discover the latest video buzz daily!\n\nHow to use:\n\n- In your Settings, select Wi-Fi, wait for 3-5 secs for WiFi list to load, and tap on hotspots with our icon “ √ WiFi Master”  to connect!\n\nWith our growing community of over 900 MILLION users, we aim to build a trusted platform for everybody to enjoy the Internet. So, come join the world’s largest WiFi sharing community, and get connected today! If you can’t find a shared hotspot yet, don’t worry, give the community some time to grow. We are handling close to 4 BILLION connections daily and the number is growing rapidly. There will be more and more shared WiFi to help you get connected online and surf the Internet easily!\n\nDisclaimer: WiFi Master is not a hacking tool. It does not assist in unlocking passwords of WiFi hotspots that are not shared by the hotspot owners. Hacking is illegal.\n\nRate us to show us your love! It means a lot to keep us going!\n\nHave a question? Wanna leave a feedback or suggestion?\nSure, we’d love to hear them— tell us here, email us at help@wifi.com, or say hello on our Facebook Page at facebook.com/wifimasterkey :)\n\nSpread the word, and keep sharing WiFi! #wifimasterkey\n\nWiFi Master - by wifi.com"
     },
     "im:price": {
-      "label": "$5.99",
+      "label": "$0.99",
       "attributes": {
-        "amount": "5.99",
+        "amount": "0.99",
         "currency": "USD"
       }
     },
@@ -6779,17 +6779,17 @@
       }
     },
     "rights": {
-      "label": "© Pavel Ahafonau"
+      "label": "© LinkSure Network Holding Pte. Limited"
     },
     "title": {
-      "label": "Scany - Pavel Ahafonau"
+      "label": "WiFi Master Pro - WiFi.com - LinkSure Network Holding Pte. Limited"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/scany/id328077901?uo=2"
+          "href": "https://apps.apple.com/kw/app/wifi-master-pro-wifi-com/id1160167263?uo=2"
         }
       },
       {
@@ -6800,22 +6800,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/2f/78/52/2f785224-60c4-9325-ae4b-2fd645ff93f5/01870b99-3d00-4964-9321-26e32c987a42_iPad_Pro__U002810.5-inch_U0029-01.png/1024x1024bb.png",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/3e/9d/ad/3e9dad81-cf6a-7beb-5c34-f4de24d7d723/mzl.izfmjreh.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/kw/app/scany/id328077901?uo=2",
+      "label": "https://apps.apple.com/kw/app/wifi-master-pro-wifi-com/id1160167263?uo=2",
       "attributes": {
-        "im:id": "328077901",
-        "im:bundleId": "com.paully.netscan"
+        "im:id": "1160167263",
+        "im:bundleId": "com.linksure.lsfreewifi"
       }
     },
     "im:artist": {
-      "label": "Pavel Ahafonau",
+      "label": "LinkSure Network Holding Pte. Limited",
       "attributes": {
-        "href": "https://apps.apple.com/kw/developer/pavel-ahafonau/id319585607?uo=2"
+        "href": "https://apps.apple.com/kw/developer/linksure-network-holding-pte-limited/id1139083148?uo=2"
       }
     },
     "category": {
@@ -6827,9 +6827,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2009-08-31T17:28:03-07:00",
+      "label": "2017-04-01T01:07:59-07:00",
       "attributes": {
-        "label": "August 31, 2009"
+        "label": "April 1, 2017"
       }
     }
   },
@@ -6839,108 +6839,6 @@
       "pricing": "paid",
       "genre": "utilities",
       "index": 68,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Red Onion - Darknet Browser"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Red Onion is a unique browser that lets you access the Internet privately and anonymously.  \n\nFeatures:\n- Internet access tunneled over the Tor network\n- Websites do not see your real IP address\n- Auto clean up of cookies on exit\n- Multiple tabs, Bookmarks & History\n- Supports Do Not Track\n- Start screen with the most frequent visited history entry's\n- Real-time search in your browsing history, bookmarks and tabs\n- Search engine integration in the Address bar\n- Share URL's via Twitter, Mail, Google+"
-    },
-    "im:price": {
-      "label": "$1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Gplex"
-    },
-    "title": {
-      "label": "Red Onion - Darknet Browser - Omar Mody"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/red-onion-darknet-browser/id829739720?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/89/6ea189bc-81c1-ff2c-ff95-28b0eec0114e/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/red-onion-darknet-browser/id829739720?uo=2",
-      "attributes": {
-        "im:id": "829739720",
-        "im:bundleId": "com.gplexdb.azulbrowse"
-      }
-    },
-    "im:artist": {
-      "label": "Omar Mody",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/omar-mody/id297279263?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-03-07T15:56:45-07:00",
-      "attributes": {
-        "label": "March 7, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 69,
       "total": 100
     },
     "im:name": {
@@ -7042,39 +6940,39 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 70,
+      "index": 69,
       "total": 100
     },
     "im:name": {
-      "label": "WiFi Master Pro - WiFi.com"
+      "label": "Red Onion - Darknet Browser"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/cf/9f/9f/cf9f9faf-2519-99a9-f150-0800a438f3e9/AppIcon-Apollo-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/cf/9f/9f/cf9f9faf-2519-99a9-f150-0800a438f3e9/AppIcon-Apollo-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/cf/9f/9f/cf9f9faf-2519-99a9-f150-0800a438f3e9/AppIcon-Apollo-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "WiFi Master is your trusted essential iPhone app to connect shared WiFi nearby through the concept of Sharing Economy.\n\nWith WiFi Master, you can enjoy:\n\n- GLOBAL WIFI ACCESS: Internet WiFi connection worldwide of shared WiFi across 223 countries and regions.\n- EASY AND FAST CONNECTION: Explore the Internet at your fingertips; just tap to search and connect WiFi nearby.\n- SAFE AND SECURED SHARING: All shared passwords are not revealed, and are protected by 128-bits encryption for sharer’s privacy and security.\n- TRENDING VIDEO ON-THE-GO: Discover the latest video buzz daily!\n\nHow to use:\n\n- In your Settings, select Wi-Fi, wait for 3-5 secs for WiFi list to load, and tap on hotspots with our icon “ √ WiFi Master”  to connect!\n\nWith our growing community of over 900 MILLION users, we aim to build a trusted platform for everybody to enjoy the Internet. So, come join the world’s largest WiFi sharing community, and get connected today! If you can’t find a shared hotspot yet, don’t worry, give the community some time to grow. We are handling close to 4 BILLION connections daily and the number is growing rapidly. There will be more and more shared WiFi to help you get connected online and surf the Internet easily!\n\nDisclaimer: WiFi Master is not a hacking tool. It does not assist in unlocking passwords of WiFi hotspots that are not shared by the hotspot owners. Hacking is illegal.\n\nRate us to show us your love! It means a lot to keep us going!\n\nHave a question? Wanna leave a feedback or suggestion?\nSure, we’d love to hear them— tell us here, email us at help@wifi.com, or say hello on our Facebook Page at facebook.com/wifimasterkey :)\n\nSpread the word, and keep sharing WiFi! #wifimasterkey\n\nWiFi Master - by wifi.com"
+      "label": "Red Onion is a unique browser that lets you access the Internet privately and anonymously.  \n\nFeatures:\n- Internet access tunneled over the Tor network\n- Websites do not see your real IP address\n- Auto clean up of cookies on exit\n- Multiple tabs, Bookmarks & History\n- Supports Do Not Track\n- Start screen with the most frequent visited history entry's\n- Real-time search in your browsing history, bookmarks and tabs\n- Search engine integration in the Address bar\n- Share URL's via Twitter, Mail, Google+"
     },
     "im:price": {
-      "label": "$0.99",
+      "label": "$1.99",
       "attributes": {
-        "amount": "0.99",
+        "amount": "1.99",
         "currency": "USD"
       }
     },
@@ -7085,17 +6983,17 @@
       }
     },
     "rights": {
-      "label": "© LinkSure Network Holding Pte. Limited"
+      "label": "© Gplex"
     },
     "title": {
-      "label": "WiFi Master Pro - WiFi.com - LinkSure Network Holding Pte. Limited"
+      "label": "Red Onion - Darknet Browser - Omar Mody"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/wifi-master-pro-wifi-com/id1160167263?uo=2"
+          "href": "https://apps.apple.com/kw/app/red-onion-darknet-browser/id829739720?uo=2"
         }
       },
       {
@@ -7106,22 +7004,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/3e/9d/ad/3e9dad81-cf6a-7beb-5c34-f4de24d7d723/mzl.izfmjreh.png/1024x1024bb.png",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/89/6ea189bc-81c1-ff2c-ff95-28b0eec0114e/pr_source.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/kw/app/wifi-master-pro-wifi-com/id1160167263?uo=2",
+      "label": "https://apps.apple.com/kw/app/red-onion-darknet-browser/id829739720?uo=2",
       "attributes": {
-        "im:id": "1160167263",
-        "im:bundleId": "com.linksure.lsfreewifi"
+        "im:id": "829739720",
+        "im:bundleId": "com.gplexdb.azulbrowse"
       }
     },
     "im:artist": {
-      "label": "LinkSure Network Holding Pte. Limited",
+      "label": "Omar Mody",
       "attributes": {
-        "href": "https://apps.apple.com/kw/developer/linksure-network-holding-pte-limited/id1139083148?uo=2"
+        "href": "https://apps.apple.com/kw/developer/omar-mody/id297279263?uo=2"
       }
     },
     "category": {
@@ -7133,9 +7031,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2017-04-01T01:07:59-07:00",
+      "label": "2014-03-07T15:56:45-07:00",
       "attributes": {
-        "label": "April 1, 2017"
+        "label": "March 7, 2014"
       }
     }
   },
@@ -7144,7 +7042,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 71,
+      "index": 70,
       "total": 100
     },
     "im:name": {
@@ -7246,7 +7144,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 72,
+      "index": 71,
       "total": 100
     },
     "im:name": {
@@ -7348,7 +7246,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 73,
+      "index": 72,
       "total": 100
     },
     "im:name": {
@@ -7450,7 +7348,7 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 74,
+      "index": 73,
       "total": 100
     },
     "im:name": {
@@ -7544,6 +7442,108 @@
       "label": "2015-02-22T12:36:39-07:00",
       "attributes": {
         "label": "February 22, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 74,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Super Backup : Export / Import"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/0e/38/0f/0e380fbc-4b26-1869-0cef-93a16246df5b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/0e/38/0f/0e380fbc-4b26-1869-0cef-93a16246df5b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/0e/38/0f/0e380fbc-4b26-1869-0cef-93a16246df5b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Backup all your iPhone or iPad contacts in 1 tap and export them!\nFastest way to restore contacts from PC or Mac!\n\nImportant Features :\n1. Export by mailing the backed up contacts file to yourself!\n2. Export contacts file to any other app on your device!\n3. Export all contacts directly to your PC / Mac over Wifi, no software needed!\n4. Restore any contacts directly from PC / Mac\n5. Restore contacts via mail !\n\nGet the ultimate contacts backup app now !\n\nFor support, please contact : support@dropouts.in and we will get back to you within 24 hours."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 Dropouts Technologies LLP"
+    },
+    "title": {
+      "label": "Super Backup : Export / Import - Dropouts Technologies LLP"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/super-backup-export-import/id1052684097?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4f/94/33/4f943307-bb53-e385-1173-a129cf760033/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/super-backup-export-import/id1052684097?uo=2",
+      "attributes": {
+        "im:id": "1052684097",
+        "im:bundleId": "com.dropouts.SuperBackup"
+      }
+    },
+    "im:artist": {
+      "label": "Dropouts Technologies LLP",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/dropouts-technologies-llp/id575481782?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-11-07T07:55:59-07:00",
+      "attributes": {
+        "label": "November 7, 2015"
       }
     }
   },
@@ -9596,108 +9596,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "AdGuard Pro — adblock&privacy"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/af/81/f0af81af-6bfc-33bc-9b3e-3429de8119fd/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/af/81/f0af81af-6bfc-33bc-9b3e-3429de8119fd/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/af/81/f0af81af-6bfc-33bc-9b3e-3429de8119fd/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "AdGuard is an ultra-efficient ad blocker for Safari. It will not only remove annoying ads but also secure your privacy with advanced tracking protection. AdGuard for iOS is an open source app, it’s totally transparent and safe to use.\n\nKEY FEATURES:\n\n- Safari ad blocking. Removes all kinds of ads in Safari. Say goodbye to annoying banners, pop-ups and video ads. Whitelist your favorite websites or use manual blocking tool to hide any element on the page.\n\n- Privacy protection. The web is full of trackers that literally watch your every click. AdGuard offers a selection of filters aimed directly at trackers and web analytics that will ensure your private data stays that way.\n\n- Speed acceleration. Safari browser runs up to 4x faster. AdGuard removes tons of rubbish and you can freely surf the web!\n\n- Reduced traffic consumption and increased battery life. Banners and ads sometimes add up to half the size of the page. By blocking them, you’re saving your battery life and Wi-Fi/mobile traffic.\n\n- More than 50 popular subscriptions (EasyList, EasyPrivacy, etc.) plus AdGuard's own powerful ad filters, including language-specific filters. Together they don't leave ads a chance.\n\nADGUARD PRO FEATURES\n\nAdGuard Pro includes the following features:\n\n- Custom filters. Add your own filters by URL even if they are not on the default list.\n\n- DNS privacy. Blocking regular online trackers is not enough if you want to assure 100% protection of your online privacy. Choose any of the user-favorite DNS providers or configure a custom DNS server.\n\n- Security filters. Protect yourself from dangerous websites riddled with cryptojacking or fraud.\n\n* Privacy policy: https://adguard.com/privacy.html\n* Terms of Use: https://adguard.com/eula.html\n\nABOUT ADGUARD\n\nAdGuard is a leading company in developing ad blocking software for multiple platforms. For more than ten years AdGuard has been helping millions of users enjoy safe, clean, and fast internet.\n\nFollow us at @AdGuard on Twitter, facebook.com/AdGuardEn/ on FB or send us a message at support@adguard.com."
-    },
-    "im:price": {
-      "label": "$9.99",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Adguard Software Ltd"
-    },
-    "title": {
-      "label": "AdGuard Pro — adblock&privacy - Adguard Software Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/adguard-pro-adblock-privacy/id1126386264?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/a2/98/53/a2985309-fa0b-91ec-cf61-577357e8cafa/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/adguard-pro-adblock-privacy/id1126386264?uo=2",
-      "attributes": {
-        "im:id": "1126386264",
-        "im:bundleId": "com.adguard.AdguardPro"
-      }
-    },
-    "im:artist": {
-      "label": "Adguard Software Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/adguard-software-limited/id1440147258?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-09-30T02:10:39-07:00",
-      "attributes": {
-        "label": "September 30, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 96,
-      "total": 100
-    },
-    "im:name": {
       "label": "Search Track Mobile Number UL"
     },
     "im:image": [
@@ -9788,6 +9686,108 @@
       "label": "2015-02-25T08:22:25-07:00",
       "attributes": {
         "label": "February 25, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 96,
+      "total": 100
+    },
+    "im:name": {
+      "label": "AdGuard Pro — adblock&privacy"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/af/81/f0af81af-6bfc-33bc-9b3e-3429de8119fd/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/af/81/f0af81af-6bfc-33bc-9b3e-3429de8119fd/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/af/81/f0af81af-6bfc-33bc-9b3e-3429de8119fd/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "AdGuard is an ultra-efficient ad blocker for Safari. It will not only remove annoying ads but also secure your privacy with advanced tracking protection. AdGuard for iOS is an open source app, it’s totally transparent and safe to use.\n\nKEY FEATURES:\n\n- Safari ad blocking. Removes all kinds of ads in Safari. Say goodbye to annoying banners, pop-ups and video ads. Whitelist your favorite websites or use manual blocking tool to hide any element on the page.\n\n- Privacy protection. The web is full of trackers that literally watch your every click. AdGuard offers a selection of filters aimed directly at trackers and web analytics that will ensure your private data stays that way.\n\n- Speed acceleration. Safari browser runs up to 4x faster. AdGuard removes tons of rubbish and you can freely surf the web!\n\n- Reduced traffic consumption and increased battery life. Banners and ads sometimes add up to half the size of the page. By blocking them, you’re saving your battery life and Wi-Fi/mobile traffic.\n\n- More than 50 popular subscriptions (EasyList, EasyPrivacy, etc.) plus AdGuard's own powerful ad filters, including language-specific filters. Together they don't leave ads a chance.\n\nADGUARD PRO FEATURES\n\nAdGuard Pro includes the following features:\n\n- Custom filters. Add your own filters by URL even if they are not on the default list.\n\n- DNS privacy. Blocking regular online trackers is not enough if you want to assure 100% protection of your online privacy. Choose any of the user-favorite DNS providers or configure a custom DNS server.\n\n- Security filters. Protect yourself from dangerous websites riddled with cryptojacking or fraud.\n\n* Privacy policy: https://adguard.com/privacy.html\n* Terms of Use: https://adguard.com/eula.html\n\nABOUT ADGUARD\n\nAdGuard is a leading company in developing ad blocking software for multiple platforms. For more than ten years AdGuard has been helping millions of users enjoy safe, clean, and fast internet.\n\nFollow us at @AdGuard on Twitter, facebook.com/AdGuardEn/ on FB or send us a message at support@adguard.com."
+    },
+    "im:price": {
+      "label": "$9.99",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Adguard Software Ltd"
+    },
+    "title": {
+      "label": "AdGuard Pro — adblock&privacy - Adguard Software Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/adguard-pro-adblock-privacy/id1126386264?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/a2/98/53/a2985309-fa0b-91ec-cf61-577357e8cafa/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/adguard-pro-adblock-privacy/id1126386264?uo=2",
+      "attributes": {
+        "im:id": "1126386264",
+        "im:bundleId": "com.adguard.AdguardPro"
+      }
+    },
+    "im:artist": {
+      "label": "Adguard Software Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/adguard-software-limited/id1440147258?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/kw/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-09-30T02:10:39-07:00",
+      "attributes": {
+        "label": "September 30, 2016"
       }
     }
   },

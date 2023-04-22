@@ -824,108 +824,6 @@
       "total": 96
     },
     "im:name": {
-      "label": "My Lisp"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
-    },
-    "im:price": {
-      "label": "55,00 kr",
-      "attributes": {
-        "amount": "55.00",
-        "currency": "SEK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2008-2023 Laurent Rodier."
-    },
-    "title": {
-      "label": "My Lisp - Laurent Rodier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/se/app/my-lisp/id1245341806?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/9a/4c/d89a4c12-786c-ada7-aaa0-ee87c26362ff/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/se/app/my-lisp/id1245341806?l=en&uo=2",
-      "attributes": {
-        "im:id": "1245341806",
-        "im:bundleId": "net.lsrodier.MyLisp"
-      }
-    },
-    "im:artist": {
-      "label": "Laurent Rodier",
-      "attributes": {
-        "href": "https://apps.apple.com/se/developer/laurent-rodier/id697920086?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-07T11:32:31-07:00",
-      "attributes": {
-        "label": "November 7, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "se",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 10,
-      "total": 96
-    },
-    "im:name": {
       "label": "Node-PAD"
     },
     "im:image": [
@@ -1024,7 +922,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 10,
       "total": 96
     },
     "im:name": {
@@ -1118,6 +1016,108 @@
       "label": "2019-05-03T19:43:56-07:00",
       "attributes": {
         "label": "May 3, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "se",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 11,
+      "total": 96
+    },
+    "im:name": {
+      "label": "My Lisp"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
+    },
+    "im:price": {
+      "label": "55,00 kr",
+      "attributes": {
+        "amount": "55.00",
+        "currency": "SEK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2008-2023 Laurent Rodier."
+    },
+    "title": {
+      "label": "My Lisp - Laurent Rodier"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/se/app/my-lisp/id1245341806?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/9a/4c/d89a4c12-786c-ada7-aaa0-ee87c26362ff/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/se/app/my-lisp/id1245341806?l=en&uo=2",
+      "attributes": {
+        "im:id": "1245341806",
+        "im:bundleId": "net.lsrodier.MyLisp"
+      }
+    },
+    "im:artist": {
+      "label": "Laurent Rodier",
+      "attributes": {
+        "href": "https://apps.apple.com/se/developer/laurent-rodier/id697920086?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-11-07T11:32:31-07:00",
+      "attributes": {
+        "label": "November 7, 2017"
       }
     }
   },
@@ -1334,108 +1334,6 @@
       "total": 96
     },
     "im:name": {
-      "label": "Logger for Shortcuts"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/d3/2e/cad32e15-18df-932c-8320-1a0e8736b0c9/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/d3/2e/cad32e15-18df-932c-8320-1a0e8736b0c9/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/d3/2e/cad32e15-18df-932c-8320-1a0e8736b0c9/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Logger is the first developer console designed for Shortcuts.\n\nBuilding complex shortcuts is now easier than ever! Use the Logger's shortcut actions to write messages to the console. See them posted in realtime as your shortcut runs - no more Quick Look actions required.\n\nUse the powerful filtering tools to drill down into the output. Filter by category, device, date, contents, search or tags.\n\nAll your messages are synced securely between your devices using iCloud and you can even export your logs to plain text or markdown."
-    },
-    "im:price": {
-      "label": "65,00 kr",
-      "attributes": {
-        "amount": "65.00",
-        "currency": "SEK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Alex Hay"
-    },
-    "title": {
-      "label": "Logger for Shortcuts - Alexander Hay"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/se/app/logger-for-shortcuts/id1611554653?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/65/7a/91/657a91fd-edd4-601a-7d86-a747121b9b05/0386aabc-1867-49f9-b8f1-2f94277827a5_iOS_ipad_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/se/app/logger-for-shortcuts/id1611554653?l=en&uo=2",
-      "attributes": {
-        "im:id": "1611554653",
-        "im:bundleId": "com.alexhay.Console"
-      }
-    },
-    "im:artist": {
-      "label": "Alexander Hay",
-      "attributes": {
-        "href": "https://apps.apple.com/se/developer/alexander-hay/id1476205976?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-03-10T00:00:00-07:00",
-      "attributes": {
-        "label": "March 10, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "se",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 15,
-      "total": 96
-    },
-    "im:name": {
       "label": "MongoLime - manage databases"
     },
     "im:image": [
@@ -1534,7 +1432,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 15,
       "total": 96
     },
     "im:name": {
@@ -1636,7 +1534,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 16,
       "total": 96
     },
     "im:name": {
@@ -1738,39 +1636,39 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 17,
       "total": 96
     },
     "im:name": {
-      "label": "Kodika - No Code App Builder"
+      "label": "Logger for Shortcuts"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/45/ec/80/45ec8020-9680-7cbb-7589-ade9c10ac0fc/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/d3/2e/cad32e15-18df-932c-8320-1a0e8736b0c9/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/45/ec/80/45ec8020-9680-7cbb-7589-ade9c10ac0fc/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/d3/2e/cad32e15-18df-932c-8320-1a0e8736b0c9/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/45/ec/80/45ec8020-9680-7cbb-7589-ade9c10ac0fc/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/d3/2e/cad32e15-18df-932c-8320-1a0e8736b0c9/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Create unique, native mobile applications without any coding skills, only with drag and drop!\nDesign custom screens, give them life by connecting code blocks, link your REST API and later live test your apps in the Kodika app, without the need for other external tools.\n \n \n• Responsive Design Editor\n- Drag and Drop any native iOS design component.\n- Customize everything using Inspectors. No coding skills required.\n- Instantly preview your changes.\n- Use Pins and Advanced Constraints to create Responsive designs for every iPhone Device.\n \n• Kodika Server\nKodika Server is the optimal solution to manage all your backend requirements on Kodika Platform.\n- Email User Authentication, Auto-Scalable Database, Daily Backup, Images Storage\n- Store your Users and Data without the hustle of setting and maintaining your own server.\n- Create a dedicated server for your app in 2 minutes.\n \n• In-App Purchases - Payments Integration\nIntegrate In-App Purchases in your applications without code.\n- Subscriptions and one-off products are supported.\n- Easy to use design elements to show price or to purchase a product.\n \n• Import Screens from Zeplin.io\n- Import entire screens using our Zeplin Extension\n- Transform Groups to Buttons, TextFields, and other Design Elements.\n \n• Code Blocks\n- Combine easy to use code blocks to create your apps.\n- Search between hundreds of code blocks using Kodika's unique blocks search.\n- Connect your design elements and code blocks with just a tap.\n- Integrate with 100+ plugins, like HealthKit, Contacts, CSV, QR Scanner and more...\n \n• REST API\n- Import your REST API Endpoints and use them with just a block.\n- Support any request type (GET, POST, PUT, DELETE, PATCH) and parameter type (query, path, body, header).\n- Autogenerate Data Models from the responses and visually connect them to your designs.\n \n• API Datasource\n- Make the connection of API Requests with your design easier than ever.\n- Bind your parameters and responses with your elements.\n \n• Connect Design and Data with just a Tap\n- Use our intuitive editor that helps you connect your Design with your Data and API, with just a tap.\n- Connect your Data models to the Design components.\n \n• Custom Fonts\n- Search and download Google Fonts.\n- Import your font files.\n \n• Push Notifications\n- Setup and then send your push notifications to your application’s users, all from your iPad.\n- Test your message by sending it to your test devices.\n \n• Import images and icons from:\n- Files.app (Local, Google Drive, iCloud, Dropbox).\n- Your iPad's Image Library.\n \n• Lists and Grid Reusable Cells - Components\n- Design your components once and reuse them to create dynamic Lists and Grids.\n- Support dynamic sizes.\n- Connect your components with your Data Models.\n \n• Navigate between screens\n- Easily link your screens using any native iOS animation.\n- Create Navigation Segues and Tab Bars with our simple editors.\n \n• Live Preview on any device\n- Preview your apps in Kodika's simulator or use Kodika's iPhone app to run your apps directly to your phone.\n \n• Font and Color Styleguides\n- Easy to use color-picker to find the best colors for your apps.\n- Favorite your colors to create your projects' styleguide and reuse them everywhere.\n- Favorite your font styles to create your projects' typefaces.\n \nLearn how to code without a line of code with Kodika.io!\nFor your first steps, check out https://help.kodika.io\nEmail us on team@kodika.io\n \nPrivacy policy at https://kodika.io/privacy-policy\nTerms of use at https://kodika.io/terms-and-conditions"
+      "label": "Logger is the first developer console designed for Shortcuts.\n\nBuilding complex shortcuts is now easier than ever! Use the Logger's shortcut actions to write messages to the console. See them posted in realtime as your shortcut runs - no more Quick Look actions required.\n\nUse the powerful filtering tools to drill down into the output. Filter by category, device, date, contents, search or tags.\n\nAll your messages are synced securely between your devices using iCloud and you can even export your logs to plain text or markdown."
     },
     "im:price": {
-      "label": "129,00 kr",
+      "label": "65,00 kr",
       "attributes": {
-        "amount": "129.00",
+        "amount": "65.00",
         "currency": "SEK"
       }
     },
@@ -1781,17 +1679,17 @@
       }
     },
     "rights": {
-      "label": "© Kodika.io Software Limited 2019"
+      "label": "© 2022 Alex Hay"
     },
     "title": {
-      "label": "Kodika - No Code App Builder - Kodika.io Software Limited"
+      "label": "Logger for Shortcuts - Alexander Hay"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/se/app/kodika-no-code-app-builder/id1433898888?l=en&uo=2"
+          "href": "https://apps.apple.com/se/app/logger-for-shortcuts/id1611554653?l=en&uo=2"
         }
       },
       {
@@ -1802,22 +1700,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/d3/a7/3e/d3a73efe-23d3-bd54-e6b6-126936254773/f0b1b568-ca50-4f93-982d-c58bb7f4d807_ipadold-01.jpg/1024x1024bb.jpg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/65/7a/91/657a91fd-edd4-601a-7d86-a747121b9b05/0386aabc-1867-49f9-b8f1-2f94277827a5_iOS_ipad_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/se/app/kodika-no-code-app-builder/id1433898888?l=en&uo=2",
+      "label": "https://apps.apple.com/se/app/logger-for-shortcuts/id1611554653?l=en&uo=2",
       "attributes": {
-        "im:id": "1433898888",
-        "im:bundleId": "io.kodika.kodika"
+        "im:id": "1611554653",
+        "im:bundleId": "com.alexhay.Console"
       }
     },
     "im:artist": {
-      "label": "Kodika.io Software Limited",
+      "label": "Alexander Hay",
       "attributes": {
-        "href": "https://apps.apple.com/se/developer/kodika-io-software-limited/id1433898887?l=en&uo=2"
+        "href": "https://apps.apple.com/se/developer/alexander-hay/id1476205976?l=en&uo=2"
       }
     },
     "category": {
@@ -1829,9 +1727,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2019-07-22T00:00:00-07:00",
+      "label": "2022-03-10T00:00:00-07:00",
       "attributes": {
-        "label": "July 22, 2019"
+        "label": "March 10, 2022"
       }
     }
   },
@@ -1840,7 +1738,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 96
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 19,
       "total": 96
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 20,
       "total": 96
     },
     "im:name": {
@@ -2138,6 +2036,108 @@
       "label": "2019-09-19T00:00:00-07:00",
       "attributes": {
         "label": "September 19, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "se",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 21,
+      "total": 96
+    },
+    "im:name": {
+      "label": "Kodika - No Code App Builder"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/45/ec/80/45ec8020-9680-7cbb-7589-ade9c10ac0fc/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/45/ec/80/45ec8020-9680-7cbb-7589-ade9c10ac0fc/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/45/ec/80/45ec8020-9680-7cbb-7589-ade9c10ac0fc/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Create unique, native mobile applications without any coding skills, only with drag and drop!\nDesign custom screens, give them life by connecting code blocks, link your REST API and later live test your apps in the Kodika app, without the need for other external tools.\n \n \n• Responsive Design Editor\n- Drag and Drop any native iOS design component.\n- Customize everything using Inspectors. No coding skills required.\n- Instantly preview your changes.\n- Use Pins and Advanced Constraints to create Responsive designs for every iPhone Device.\n \n• Kodika Server\nKodika Server is the optimal solution to manage all your backend requirements on Kodika Platform.\n- Email User Authentication, Auto-Scalable Database, Daily Backup, Images Storage\n- Store your Users and Data without the hustle of setting and maintaining your own server.\n- Create a dedicated server for your app in 2 minutes.\n \n• In-App Purchases - Payments Integration\nIntegrate In-App Purchases in your applications without code.\n- Subscriptions and one-off products are supported.\n- Easy to use design elements to show price or to purchase a product.\n \n• Import Screens from Zeplin.io\n- Import entire screens using our Zeplin Extension\n- Transform Groups to Buttons, TextFields, and other Design Elements.\n \n• Code Blocks\n- Combine easy to use code blocks to create your apps.\n- Search between hundreds of code blocks using Kodika's unique blocks search.\n- Connect your design elements and code blocks with just a tap.\n- Integrate with 100+ plugins, like HealthKit, Contacts, CSV, QR Scanner and more...\n \n• REST API\n- Import your REST API Endpoints and use them with just a block.\n- Support any request type (GET, POST, PUT, DELETE, PATCH) and parameter type (query, path, body, header).\n- Autogenerate Data Models from the responses and visually connect them to your designs.\n \n• API Datasource\n- Make the connection of API Requests with your design easier than ever.\n- Bind your parameters and responses with your elements.\n \n• Connect Design and Data with just a Tap\n- Use our intuitive editor that helps you connect your Design with your Data and API, with just a tap.\n- Connect your Data models to the Design components.\n \n• Custom Fonts\n- Search and download Google Fonts.\n- Import your font files.\n \n• Push Notifications\n- Setup and then send your push notifications to your application’s users, all from your iPad.\n- Test your message by sending it to your test devices.\n \n• Import images and icons from:\n- Files.app (Local, Google Drive, iCloud, Dropbox).\n- Your iPad's Image Library.\n \n• Lists and Grid Reusable Cells - Components\n- Design your components once and reuse them to create dynamic Lists and Grids.\n- Support dynamic sizes.\n- Connect your components with your Data Models.\n \n• Navigate between screens\n- Easily link your screens using any native iOS animation.\n- Create Navigation Segues and Tab Bars with our simple editors.\n \n• Live Preview on any device\n- Preview your apps in Kodika's simulator or use Kodika's iPhone app to run your apps directly to your phone.\n \n• Font and Color Styleguides\n- Easy to use color-picker to find the best colors for your apps.\n- Favorite your colors to create your projects' styleguide and reuse them everywhere.\n- Favorite your font styles to create your projects' typefaces.\n \nLearn how to code without a line of code with Kodika.io!\nFor your first steps, check out https://help.kodika.io\nEmail us on team@kodika.io\n \nPrivacy policy at https://kodika.io/privacy-policy\nTerms of use at https://kodika.io/terms-and-conditions"
+    },
+    "im:price": {
+      "label": "129,00 kr",
+      "attributes": {
+        "amount": "129.00",
+        "currency": "SEK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Kodika.io Software Limited 2019"
+    },
+    "title": {
+      "label": "Kodika - No Code App Builder - Kodika.io Software Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/se/app/kodika-no-code-app-builder/id1433898888?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/d3/a7/3e/d3a73efe-23d3-bd54-e6b6-126936254773/f0b1b568-ca50-4f93-982d-c58bb7f4d807_ipadold-01.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/se/app/kodika-no-code-app-builder/id1433898888?l=en&uo=2",
+      "attributes": {
+        "im:id": "1433898888",
+        "im:bundleId": "io.kodika.kodika"
+      }
+    },
+    "im:artist": {
+      "label": "Kodika.io Software Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/se/developer/kodika-io-software-limited/id1433898887?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-07-22T00:00:00-07:00",
+      "attributes": {
+        "label": "July 22, 2019"
       }
     }
   },

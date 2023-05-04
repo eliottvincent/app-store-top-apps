@@ -8,35 +8,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "Docker Management"
+      "label": "Adaptivity (A)"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/60/8a/b5/608ab548-2899-1cc6-4511-582440ee30a7/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/60/8a/b5/608ab548-2899-1cc6-4511-582440ee30a7/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/60/8a/b5/608ab548-2899-1cc6-4511-582440ee30a7/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+      "label": "Adaptivity is an invaluable tool for developers and designers. Use it to visualize how Size Classes and margins for layout, readable content and the safe area look on real devices and how they change with respect to orientation, iPad multitasking and Dynamic Type size changes. A comprehensive System Images browser shows the different SF Symbols data sets across iOS versions with availability, localization and name change information. There are also views for visualizing Dynamic Type styles, System Colors, System Fonts and System Materials.\n\nTESTIMONIALS\n• “Adaptivity is not just highly recommended – it’s essential” — Paul Hudson, Hacking With Swift article “8 essential apps for iOS developers”, 30th March 2020.\n• “It's a very, very good tool as a reference for both developers and designers” — Gui Rambo, Stacktrace podcast episode #77, 1st April 2020.\n• “I'm not trying to spend your money, but to me this is a no-brainer” — Sean Allen YouTube video “Indie Dev Apps”, 12th April 2020.\n\nMAIN FEATURES\n• Visualize sizes for full view, layout margins, readable content guide and safe area layout guide.\n• Sizes displayed in points or pixels.\n• Regular or large navigation bar titles.\n• Toggle status bar and navigation bar/toolbar/tab bar visibility.\n• Activity View Controller support for sharing a snapshot image of each view.\n• iPad multitasking and multiple window support (see note).\n• Dark appearance support (requires iOS/iPadOS 13 or later).\n• Setting to force right-to-left layout.\n• Keyboard shortcuts.\n• Keyboard navigation (requires iPadOS 15 or later).\n• Handoff actions from Adaptivity (A), (B) or (C) on one device to Adaptivity (A) on another.\n• External display support.\n\nOTHER VIEWS\n• Popover, Form/Page Sheet, Full Screen and Automatic modal presentations.\n• Customise Sheet Presentations on iOS/iPadOS 15 or later.\n• Tab Bar Controller.\n• Table View Controller.\n• Classic style Split View Controller.\n• Double and triple column style Split View Controllers (requires iOS/iPadOS 14 or later).\n• Keyboard Dodging and Custom Keyboard.\n• Dynamic Type styles for the current Content Size Category.\n• Explore Pointer Interactions (requires iPadOS 13.4 or later and a trackpad or mouse).\n• Explore System Colors.\n• Explore System Fonts.\n• Explore System Images (requires iOS/iPadOS 13 or later). Choose which SF Symbols data set to view, configure rendering modes and much more.\n• Explore System Materials (requires iOS/iPadOS 13 or later).\n\nEXTENSION TARGETS\n• Siri shortcut with custom response UI (requires iOS 12 or later).\n• Pre- and post-iOS 14 style Widgets to show layout.\n• iOS 14 style Widgets to show random System Images.\n• iOS 14 style Widgets to show Dynamic Type text styles.\n• iOS 16 lock screen Widgets to show layout.\n• iOS 16 lock screen Widgets to show random System Images.\n• Notification Content Extension.\n• Watch App (requires watchOS 4 or later).\n• iMessage App.\n\n\nNote: Adaptivity (A) supports multiple windows on iPadOS 13 or later. On earlier iOS versions, Adaptivity (B) must also be downloaded to run Adaptivity twice using Split View or Slide Over iPad multitasking.\n\nAdaptivity (A) is a universal purchase and includes a Mac Catalyst version of the app. Buying one allows the other to be downloaded at no extra cost using the same Apple ID.\n\nAdaptivity (C) has the same reduced features as Adaptivity (B) but only supports iPhone. Use it to visualize how an iPhone‑only app appears on iPad.\n\nFor more information see https://hacknicity.com/adaptivity"
     },
     "im:price": {
-      "label": "$6.99",
+      "label": "$10.99",
       "attributes": {
-        "amount": "6.99",
+        "amount": "10.99",
         "currency": "CAD"
       }
     },
@@ -47,17 +47,17 @@
       }
     },
     "rights": {
-      "label": "© nevishs"
+      "label": "© 2015-2023 Hacknicity"
     },
     "title": {
-      "label": "Docker Management - Nevis Shkenza"
+      "label": "Adaptivity (A) - Geoff Hackworth"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
+          "href": "https://apps.apple.com/ca/app/adaptivity-a/id1054670022?uo=2"
         }
       },
       {
@@ -68,22 +68,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d3/ef/51/d3ef510d-1de6-3ac4-0a1b-2cb2b2a25574/8540f5ea-865f-47c7-814b-348da21dac3e_Adaptivity_WebAppStoreScreenshot1A_Popover_U002bSystemColors-1112h@2x_U007eipad.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
+      "label": "https://apps.apple.com/ca/app/adaptivity-a/id1054670022?uo=2",
       "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
+        "im:id": "1054670022",
+        "im:bundleId": "com.hacknicity.adaptivity.a"
       }
     },
     "im:artist": {
-      "label": "Nevis Shkenza",
+      "label": "Geoff Hackworth",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
+        "href": "https://apps.apple.com/ca/developer/geoff-hackworth/id463855590?uo=2"
       }
     },
     "category": {
@@ -95,9 +95,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
+      "label": "2015-11-16T16:22:40-07:00",
       "attributes": {
-        "label": "August 14, 2020"
+        "label": "November 16, 2015"
       }
     }
   },
@@ -110,35 +110,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "Cookie Editor For Safari"
+      "label": "Zeitgeist"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "With our app, you can confidently examine and edit your cookies as you please. Cookie Editor equips you with the essential tools to edit the cookies on the current tab of your iOS, iPadOS, and MacOS devices, giving you complete control over your browsing experience.\n\nOur Cookie Editor provides you with the ability to thoroughly examine and edit the cookies of the current website in various ways. Not only can you create a new cookie manually, but you can also import text in JSON or Netscape format to make the process even easier. In addition, exporting cookies is made easy with the available options in JSON and Netscape format. If you're searching for a specific cookie, you can easily find it using the intuitive search function. And if you're looking to clear your cookies, you can do so with just one click, providing an efficient way to manage your cookies. Overall, managing cookies with our Cookie Editor is not only simple and straightforward, but also provides a wealth of options to ensure complete control over your online experience.\n\nTo edit your cookies, simply download the app and get started! We are confident that you will find the app easy to use and that it will meet all of your needs.\n\nPrivacy Policy: https://www.zamalabs.com/cookie-editor-privacy-policy\nTerms & Conditions: https://www.zamalabs.com/cookie-editor-terms-and-conditions\nCheck out our other apps by visiting: https://www.zamalabs.com/\nIf you want to reach us, feel free to send an email to scipio@zamalabs.com!"
+      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
     },
     "im:price": {
-      "label": "$0.99",
+      "label": "$2.79",
       "attributes": {
-        "amount": "0.99",
+        "amount": "2.79",
         "currency": "CAD"
       }
     },
@@ -149,17 +149,17 @@
       }
     },
     "rights": {
-      "label": "© 2023 Zamalabs"
+      "label": "© Daniel Eden"
     },
     "title": {
-      "label": "Cookie Editor For Safari - Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi"
+      "label": "Zeitgeist - Dan Eden"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/cookie-editor-for-safari/id6446626905?uo=2"
+          "href": "https://apps.apple.com/ca/app/zeitgeist/id1526052028?uo=2"
         }
       },
       {
@@ -170,22 +170,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0d/c1/34/0dc13421-ceb3-0061-4b2f-6768bfc2263f/2d57df9a-7206-4442-ba2c-2b527e2335b6_12.9_1.png/1024x1024bb.png",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5f/93/a4/5f93a413-d500-82f9-6ce5-027b9fb610a5/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/cookie-editor-for-safari/id6446626905?uo=2",
+      "label": "https://apps.apple.com/ca/app/zeitgeist/id1526052028?uo=2",
       "attributes": {
-        "im:id": "6446626905",
-        "im:bundleId": "com.zamalabs.CookieEditorExtension"
+        "im:id": "1526052028",
+        "im:bundleId": "me.daneden.Zeitgeist"
       }
     },
     "im:artist": {
-      "label": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
+      "label": "Dan Eden",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/zamalabs-yaz%C4%B1l%C4%B1m-ve-bilgi-teknolojileri-limited-%C5%9Firketi/id1637867851?uo=2"
+        "href": "https://apps.apple.com/ca/developer/dan-eden/id508167369?uo=2"
       }
     },
     "category": {
@@ -197,9 +197,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2023-04-05T00:00:00-07:00",
+      "label": "2020-12-02T00:00:00-07:00",
       "attributes": {
-        "label": "April 5, 2023"
+        "label": "December 2, 2020"
       }
     }
   },
@@ -314,6 +314,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/3a/74/81/3a7481ee-4e64-32ad-b0f5-efe89cc29a84/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simple connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "$6.99",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e8/e9/c9/e8e9c989-7ba2-9498-61f7-198809723feb/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 5,
+      "total": 99
+    },
+    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -412,7 +514,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -616,7 +718,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -718,7 +820,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -820,7 +922,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -922,39 +1024,39 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 11,
       "total": 99
     },
     "im:name": {
-      "label": "Adaptivity (A)"
+      "label": "Cookie Editor For Safari"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/60/8a/b5/608ab548-2899-1cc6-4511-582440ee30a7/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/60/8a/b5/608ab548-2899-1cc6-4511-582440ee30a7/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/60/8a/b5/608ab548-2899-1cc6-4511-582440ee30a7/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Adaptivity is an invaluable tool for developers and designers. Use it to visualize how Size Classes and margins for layout, readable content and the safe area look on real devices and how they change with respect to orientation, iPad multitasking and Dynamic Type size changes. A comprehensive System Images browser shows the different SF Symbols data sets across iOS versions with availability, localization and name change information. There are also views for visualizing Dynamic Type styles, System Colors, System Fonts and System Materials.\n\nTESTIMONIALS\n• “Adaptivity is not just highly recommended – it’s essential” — Paul Hudson, Hacking With Swift article “8 essential apps for iOS developers”, 30th March 2020.\n• “It's a very, very good tool as a reference for both developers and designers” — Gui Rambo, Stacktrace podcast episode #77, 1st April 2020.\n• “I'm not trying to spend your money, but to me this is a no-brainer” — Sean Allen YouTube video “Indie Dev Apps”, 12th April 2020.\n\nMAIN FEATURES\n• Visualize sizes for full view, layout margins, readable content guide and safe area layout guide.\n• Sizes displayed in points or pixels.\n• Regular or large navigation bar titles.\n• Toggle status bar and navigation bar/toolbar/tab bar visibility.\n• Activity View Controller support for sharing a snapshot image of each view.\n• iPad multitasking and multiple window support (see note).\n• Dark appearance support (requires iOS/iPadOS 13 or later).\n• Setting to force right-to-left layout.\n• Keyboard shortcuts.\n• Keyboard navigation (requires iPadOS 15 or later).\n• Handoff actions from Adaptivity (A), (B) or (C) on one device to Adaptivity (A) on another.\n• External display support.\n\nOTHER VIEWS\n• Popover, Form/Page Sheet, Full Screen and Automatic modal presentations.\n• Customise Sheet Presentations on iOS/iPadOS 15 or later.\n• Tab Bar Controller.\n• Table View Controller.\n• Classic style Split View Controller.\n• Double and triple column style Split View Controllers (requires iOS/iPadOS 14 or later).\n• Keyboard Dodging and Custom Keyboard.\n• Dynamic Type styles for the current Content Size Category.\n• Explore Pointer Interactions (requires iPadOS 13.4 or later and a trackpad or mouse).\n• Explore System Colors.\n• Explore System Fonts.\n• Explore System Images (requires iOS/iPadOS 13 or later). Choose which SF Symbols data set to view, configure rendering modes and much more.\n• Explore System Materials (requires iOS/iPadOS 13 or later).\n\nEXTENSION TARGETS\n• Siri shortcut with custom response UI (requires iOS 12 or later).\n• Pre- and post-iOS 14 style Widgets to show layout.\n• iOS 14 style Widgets to show random System Images.\n• iOS 14 style Widgets to show Dynamic Type text styles.\n• iOS 16 lock screen Widgets to show layout.\n• iOS 16 lock screen Widgets to show random System Images.\n• Notification Content Extension.\n• Watch App (requires watchOS 4 or later).\n• iMessage App.\n\n\nNote: Adaptivity (A) supports multiple windows on iPadOS 13 or later. On earlier iOS versions, Adaptivity (B) must also be downloaded to run Adaptivity twice using Split View or Slide Over iPad multitasking.\n\nAdaptivity (A) is a universal purchase and includes a Mac Catalyst version of the app. Buying one allows the other to be downloaded at no extra cost using the same Apple ID.\n\nAdaptivity (C) has the same reduced features as Adaptivity (B) but only supports iPhone. Use it to visualize how an iPhone‑only app appears on iPad.\n\nFor more information see https://hacknicity.com/adaptivity"
+      "label": "With our app, you can confidently examine and edit your cookies as you please. Cookie Editor equips you with the essential tools to edit the cookies on the current tab of your iOS, iPadOS, and MacOS devices, giving you complete control over your browsing experience.\n\nOur Cookie Editor provides you with the ability to thoroughly examine and edit the cookies of the current website in various ways. Not only can you create a new cookie manually, but you can also import text in JSON or Netscape format to make the process even easier. In addition, exporting cookies is made easy with the available options in JSON and Netscape format. If you're searching for a specific cookie, you can easily find it using the intuitive search function. And if you're looking to clear your cookies, you can do so with just one click, providing an efficient way to manage your cookies. Overall, managing cookies with our Cookie Editor is not only simple and straightforward, but also provides a wealth of options to ensure complete control over your online experience.\n\nTo edit your cookies, simply download the app and get started! We are confident that you will find the app easy to use and that it will meet all of your needs.\n\nPrivacy Policy: https://www.zamalabs.com/cookie-editor-privacy-policy\nTerms & Conditions: https://www.zamalabs.com/cookie-editor-terms-and-conditions\nCheck out our other apps by visiting: https://www.zamalabs.com/\nIf you want to reach us, feel free to send an email to scipio@zamalabs.com!"
     },
     "im:price": {
-      "label": "$10.99",
+      "label": "$0.99",
       "attributes": {
-        "amount": "10.99",
+        "amount": "0.99",
         "currency": "CAD"
       }
     },
@@ -965,17 +1067,17 @@
       }
     },
     "rights": {
-      "label": "© 2015-2023 Hacknicity"
+      "label": "© 2023 Zamalabs"
     },
     "title": {
-      "label": "Adaptivity (A) - Geoff Hackworth"
+      "label": "Cookie Editor For Safari - Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/adaptivity-a/id1054670022?uo=2"
+          "href": "https://apps.apple.com/ca/app/cookie-editor-for-safari/id6446626905?uo=2"
         }
       },
       {
@@ -986,22 +1088,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d3/ef/51/d3ef510d-1de6-3ac4-0a1b-2cb2b2a25574/8540f5ea-865f-47c7-814b-348da21dac3e_Adaptivity_WebAppStoreScreenshot1A_Popover_U002bSystemColors-1112h@2x_U007eipad.png/1024x1024bb.png",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0d/c1/34/0dc13421-ceb3-0061-4b2f-6768bfc2263f/2d57df9a-7206-4442-ba2c-2b527e2335b6_12.9_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/adaptivity-a/id1054670022?uo=2",
+      "label": "https://apps.apple.com/ca/app/cookie-editor-for-safari/id6446626905?uo=2",
       "attributes": {
-        "im:id": "1054670022",
-        "im:bundleId": "com.hacknicity.adaptivity.a"
+        "im:id": "6446626905",
+        "im:bundleId": "com.zamalabs.CookieEditorExtension"
       }
     },
     "im:artist": {
-      "label": "Geoff Hackworth",
+      "label": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/geoff-hackworth/id463855590?uo=2"
+        "href": "https://apps.apple.com/ca/developer/zamalabs-yaz%C4%B1l%C4%B1m-ve-bilgi-teknolojileri-limited-%C5%9Firketi/id1637867851?uo=2"
       }
     },
     "category": {
@@ -1013,9 +1115,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2015-11-16T16:22:40-07:00",
+      "label": "2023-04-05T00:00:00-07:00",
       "attributes": {
-        "label": "November 16, 2015"
+        "label": "April 5, 2023"
       }
     }
   },
@@ -1024,7 +1126,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1032,19 +1134,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/78/d9/9c78d92c-4e0e-9f3c-1beb-66cc1333be03/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/f3/94/29/f3942917-0946-121a-ed29-d5205cd0b479/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/78/d9/9c78d92c-4e0e-9f3c-1beb-66cc1333be03/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/f3/94/29/f3942917-0946-121a-ed29-d5205cd0b479/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/78/d9/9c78d92c-4e0e-9f3c-1beb-66cc1333be03/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/f3/94/29/f3942917-0946-121a-ed29-d5205cd0b479/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -1126,7 +1228,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1228,7 +1330,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1330,7 +1432,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1432,7 +1534,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1534,7 +1636,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1636,7 +1738,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1730,108 +1832,6 @@
       "label": "2019-05-03T19:43:56-07:00",
       "attributes": {
         "label": "May 3, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 18,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Hexer — Hex File Viewer"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive or your desktop. Or you can just share any file to it.\n\nBytes are highlighted in different colors: Printable characters are cyan, spaces blue, null bytes grey, control characters pink and so on. The colors appear across the binary, hexadecimal, and ascii column — or can just be turned off completely.\n\n▶ Many advanced options\n• Many popular themes from text editors and terminals\n• Line numbers (offsets)\n• Overscroll\n• Complete control over the formatting of what you copy or share\n• Column counts in powers of two (8 bytes, 16, 32, ...) or in any number that fits\n• Interpret bytes as ASCII, ISO Latin 1 or EBCDIC\n• The UI is navigable by keyboard and there are keyboard shortcuts to toggle almost everything\n• Further features for you to discover\n\n▶ Search\n• Search for content in the hexadecimal, ASCII or binary column\n• Preview results with context and jump to and highlight them in the document\n• Filter results with Regular Expression and based on case sensitivity\n• Jump between results with arrow keys\n\n▶ Analysis\n• Get information about the selection or the entire document\n• Decode to integers\n• See byte frequencies\n• See detected file signatures (magic numbers)\n• Read metadata like creation date and Unix permissions\n\n▶ The App is made by a real person out of love\nWhen you buy the app (no hidden in app purchases) the money goes straight to me to support development. If you have any questions or feature requests you can just write me an email and let me know. I will continue development with many more planned features like editing.\n\n▶ The App is friendly\nThere are no in app purchases, ads, tracking, nor is there any data collected. You buy it once and then use it. Nothing more. Nothing less."
-    },
-    "im:price": {
-      "label": "$5.49",
-      "attributes": {
-        "amount": "5.49",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Hans Schülein"
-    },
-    "title": {
-      "label": "Hexer — Hex File Viewer - Hans Schulein"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/hexer-hex-file-viewer/id1468880337?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/01/21/c2/0121c269-851f-dfb4-c75a-f78390e4fd5d/ffdc3ba6-bddd-443b-8f9d-2c29abeb249a_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-0_Main_framed.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/hexer-hex-file-viewer/id1468880337?uo=2",
-      "attributes": {
-        "im:id": "1468880337",
-        "im:bundleId": "com.hans.Hexer"
-      }
-    },
-    "im:artist": {
-      "label": "Hans Schulein",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/hans-schulein/id1247291041?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-10-01T00:00:00-07:00",
-      "attributes": {
-        "label": "October 1, 2019"
       }
     }
   },
@@ -2048,6 +2048,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Hexer — Hex File Viewer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive or your desktop. Or you can just share any file to it.\n\nBytes are highlighted in different colors: Printable characters are cyan, spaces blue, null bytes grey, control characters pink and so on. The colors appear across the binary, hexadecimal, and ascii column — or can just be turned off completely.\n\n▶ Many advanced options\n• Many popular themes from text editors and terminals\n• Line numbers (offsets)\n• Overscroll\n• Complete control over the formatting of what you copy or share\n• Column counts in powers of two (8 bytes, 16, 32, ...) or in any number that fits\n• Interpret bytes as ASCII, ISO Latin 1 or EBCDIC\n• The UI is navigable by keyboard and there are keyboard shortcuts to toggle almost everything\n• Further features for you to discover\n\n▶ Search\n• Search for content in the hexadecimal, ASCII or binary column\n• Preview results with context and jump to and highlight them in the document\n• Filter results with Regular Expression and based on case sensitivity\n• Jump between results with arrow keys\n\n▶ Analysis\n• Get information about the selection or the entire document\n• Decode to integers\n• See byte frequencies\n• See detected file signatures (magic numbers)\n• Read metadata like creation date and Unix permissions\n\n▶ The App is made by a real person out of love\nWhen you buy the app (no hidden in app purchases) the money goes straight to me to support development. If you have any questions or feature requests you can just write me an email and let me know. I will continue development with many more planned features like editing.\n\n▶ The App is friendly\nThere are no in app purchases, ads, tracking, nor is there any data collected. You buy it once and then use it. Nothing more. Nothing less."
+    },
+    "im:price": {
+      "label": "$5.49",
+      "attributes": {
+        "amount": "5.49",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Hans Schülein"
+    },
+    "title": {
+      "label": "Hexer — Hex File Viewer - Hans Schulein"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/hexer-hex-file-viewer/id1468880337?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/01/21/c2/0121c269-851f-dfb4-c75a-f78390e4fd5d/ffdc3ba6-bddd-443b-8f9d-2c29abeb249a_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-0_Main_framed.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/hexer-hex-file-viewer/id1468880337?uo=2",
+      "attributes": {
+        "im:id": "1468880337",
+        "im:bundleId": "com.hans.Hexer"
+      }
+    },
+    "im:artist": {
+      "label": "Hans Schulein",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/hans-schulein/id1247291041?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-10-01T00:00:00-07:00",
+      "attributes": {
+        "label": "October 1, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 22,
+      "total": 99
+    },
+    "im:name": {
       "label": "Source Code Reader"
     },
     "im:image": [
@@ -2146,7 +2248,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2248,7 +2350,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 24,
       "total": 99
     },
     "im:name": {
@@ -2350,7 +2452,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2452,7 +2554,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 26,
       "total": 99
     },
     "im:name": {
@@ -2554,7 +2656,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2648,108 +2750,6 @@
       "label": "2020-10-14T00:00:00-07:00",
       "attributes": {
         "label": "October 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 27,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Arduino Bluetooth: Omni-Remote"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/dd/cf/d6ddcf33-e8c2-54c3-1c62-3f3e3acfdaf9/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/dd/cf/d6ddcf33-e8c2-54c3-1c62-3f3e3acfdaf9/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/dd/cf/d6ddcf33-e8c2-54c3-1c62-3f3e3acfdaf9/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "There's nothing you can't do with a good Arduino Bluetooth connection!\nConnect to and control your Arduino project with this easy-to-use Bluetooth Serial Monitor + Controller\nSend/Recieve Data\nCommand your Drones to take off\nTell your Smart Lights to Dance\nAsk your Robot to bring you a drink\n\nA very easy-to-use GUI\nAutomatically searches for Bluetooth Devices and Bluetooth-enabled Arduino boards or boards with a bluetooth module attached\nSend data as String format to your boards with whatever you programmed your Arduino to recognize and Receive data back in the Serial Monitor below\n\nNew features continually added, newest feature is the customizable D-Pad\nYou can set what Data string it sends when Pressed/Released (you can also leave onRelease() blank to send null)\n\nSuggestions on next features to add are welcome. Currently in line are voice control and accelerometer control. If you have an idea leave it below or contact us."
-    },
-    "im:price": {
-      "label": "$3.99",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Bad Assassin Games 2022"
-    },
-    "title": {
-      "label": "Arduino Bluetooth: Omni-Remote - Bad Assassin Games"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/arduino-bluetooth-omni-remote/id1111181830?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/40/d5/5f/40d55f76-d0a6-720d-78d0-86eb3f60651f/9f6454d1-08fa-4e29-acfb-4f34b382c6d9_DDFBAA35-78B7-406A-B2C0-1C89D421E11F.jpeg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/arduino-bluetooth-omni-remote/id1111181830?uo=2",
-      "attributes": {
-        "im:id": "1111181830",
-        "im:bundleId": "com.vacantbuzzard.game89"
-      }
-    },
-    "im:artist": {
-      "label": "Bad Assassin Games",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/bad-assassin-games/id556279629?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2022"
       }
     }
   },
@@ -3272,6 +3272,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Arduino Bluetooth: Omni-Remote"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/dd/cf/d6ddcf33-e8c2-54c3-1c62-3f3e3acfdaf9/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/dd/cf/d6ddcf33-e8c2-54c3-1c62-3f3e3acfdaf9/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/d6/dd/cf/d6ddcf33-e8c2-54c3-1c62-3f3e3acfdaf9/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "There's nothing you can't do with a good Arduino Bluetooth connection!\nConnect to and control your Arduino project with this easy-to-use Bluetooth Serial Monitor + Controller\nSend/Recieve Data\nCommand your Drones to take off\nTell your Smart Lights to Dance\nAsk your Robot to bring you a drink\n\nA very easy-to-use GUI\nAutomatically searches for Bluetooth Devices and Bluetooth-enabled Arduino boards or boards with a bluetooth module attached\nSend data as String format to your boards with whatever you programmed your Arduino to recognize and Receive data back in the Serial Monitor below\n\nNew features continually added, newest feature is the customizable D-Pad\nYou can set what Data string it sends when Pressed/Released (you can also leave onRelease() blank to send null)\n\nSuggestions on next features to add are welcome. Currently in line are voice control and accelerometer control. If you have an idea leave it below or contact us."
+    },
+    "im:price": {
+      "label": "$3.99",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Bad Assassin Games 2022"
+    },
+    "title": {
+      "label": "Arduino Bluetooth: Omni-Remote - Bad Assassin Games"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/arduino-bluetooth-omni-remote/id1111181830?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/40/d5/5f/40d55f76-d0a6-720d-78d0-86eb3f60651f/9f6454d1-08fa-4e29-acfb-4f34b382c6d9_DDFBAA35-78B7-406A-B2C0-1C89D421E11F.jpeg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/arduino-bluetooth-omni-remote/id1111181830?uo=2",
+      "attributes": {
+        "im:id": "1111181830",
+        "im:bundleId": "com.vacantbuzzard.game89"
+      }
+    },
+    "im:artist": {
+      "label": "Bad Assassin Games",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/bad-assassin-games/id556279629?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 34,
+      "total": 99
+    },
+    "im:name": {
       "label": "My Lisp"
     },
     "im:image": [
@@ -3370,7 +3472,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3472,7 +3574,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3574,7 +3676,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3668,108 +3770,6 @@
       "label": "2021-01-14T00:00:00-07:00",
       "attributes": {
         "label": "January 14, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 37,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Zeitgeist"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/0e/5e/2a/0e5e2a0d-12ca-4910-85d5-2855308fd406/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
-    },
-    "im:price": {
-      "label": "$2.79",
-      "attributes": {
-        "amount": "2.79",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Daniel Eden"
-    },
-    "title": {
-      "label": "Zeitgeist - Dan Eden"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/zeitgeist/id1526052028?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5f/93/a4/5f93a413-d500-82f9-6ce5-027b9fb610a5/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/zeitgeist/id1526052028?uo=2",
-      "attributes": {
-        "im:id": "1526052028",
-        "im:bundleId": "me.daneden.Zeitgeist"
-      }
-    },
-    "im:artist": {
-      "label": "Dan Eden",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/dan-eden/id508167369?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-02T00:00:00-07:00",
-      "attributes": {
-        "label": "December 2, 2020"
       }
     }
   },
@@ -4802,108 +4802,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Color Pro Picker"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/df/42/0a/df420a13-b143-8bdb-88d8-85235a91ef8e/AppIcon-0-1x_U007emarketing-0-7-0-0-GLES2_U002c0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/df/42/0a/df420a13-b143-8bdb-88d8-85235a91ef8e/AppIcon-0-1x_U007emarketing-0-7-0-0-GLES2_U002c0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/df/42/0a/df420a13-b143-8bdb-88d8-85235a91ef8e/AppIcon-0-1x_U007emarketing-0-7-0-0-GLES2_U002c0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Color Pro is the best way to find and display colors and it's completely free.\n\nEffortlessly pan and zoom a photo to pinpoint specific colors.\n\nTweak or create from scratch using high-precision values up to 16-bits per channel (the max displayable on an iPhone or iPad).\n\nSwipe the screenshots. If you need it, you’ll know.\n\nFeatures:\n• Human color names\n• Eyedropper Tool – Pick a color from an Image or the Camera\n• Digital or Ink – RGB + CMYK modes\n• Bits Per Channel – 8/10/16 Bits, Percentages, or Floating-Point Values\n• Display P3 Support\n• URL Scheme (colorpro:///#ffffff)\n\nColor Pro proudly does not collect user data nor does it use any \"privacy-preserving\" analytics. Your data is yours."
-    },
-    "im:price": {
-      "label": "$5.49",
-      "attributes": {
-        "amount": "5.49",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2017 Nicolas Cook Leon"
-    },
-    "title": {
-      "label": "Color Pro Picker - Nicolas Cook Leon"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/color-pro-picker/id1207928528?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/98/0b/37/980b37e9-fb3f-e76a-d558-ec80639103ee/tns.uwtkrqyn.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/color-pro-picker/id1207928528?uo=2",
-      "attributes": {
-        "im:id": "1207928528",
-        "im:bundleId": "Website.Alotof.Color"
-      }
-    },
-    "im:artist": {
-      "label": "Nicolas Cook Leon",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/nicolas-cook-leon/id1139916419?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-02-28T09:45:57-07:00",
-      "attributes": {
-        "label": "February 28, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 49,
-      "total": 99
-    },
-    "im:name": {
       "label": "Cookie Editor - For Safari"
     },
     "im:image": [
@@ -5002,7 +4900,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 50,
+      "index": 49,
       "total": 99
     },
     "im:name": {
@@ -5104,7 +5002,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 51,
+      "index": 50,
       "total": 99
     },
     "im:name": {
@@ -5206,7 +5104,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 52,
+      "index": 51,
       "total": 99
     },
     "im:name": {
@@ -5308,7 +5206,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 53,
+      "index": 52,
       "total": 99
     },
     "im:name": {
@@ -5410,7 +5308,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 54,
+      "index": 53,
       "total": 99
     },
     "im:name": {
@@ -5504,6 +5402,108 @@
       "label": "2020-06-07T00:00:00-07:00",
       "attributes": {
         "label": "June 7, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 54,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Color Pro Picker"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/df/42/0a/df420a13-b143-8bdb-88d8-85235a91ef8e/AppIcon-0-1x_U007emarketing-0-7-0-0-GLES2_U002c0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/df/42/0a/df420a13-b143-8bdb-88d8-85235a91ef8e/AppIcon-0-1x_U007emarketing-0-7-0-0-GLES2_U002c0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/df/42/0a/df420a13-b143-8bdb-88d8-85235a91ef8e/AppIcon-0-1x_U007emarketing-0-7-0-0-GLES2_U002c0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Color Pro is the best way to find and display colors and it's completely free.\n\nEffortlessly pan and zoom a photo to pinpoint specific colors.\n\nTweak or create from scratch using high-precision values up to 16-bits per channel (the max displayable on an iPhone or iPad).\n\nSwipe the screenshots. If you need it, you’ll know.\n\nFeatures:\n• Human color names\n• Eyedropper Tool – Pick a color from an Image or the Camera\n• Digital or Ink – RGB + CMYK modes\n• Bits Per Channel – 8/10/16 Bits, Percentages, or Floating-Point Values\n• Display P3 Support\n• URL Scheme (colorpro:///#ffffff)\n\nColor Pro proudly does not collect user data nor does it use any \"privacy-preserving\" analytics. Your data is yours."
+    },
+    "im:price": {
+      "label": "$5.49",
+      "attributes": {
+        "amount": "5.49",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2017 Nicolas Cook Leon"
+    },
+    "title": {
+      "label": "Color Pro Picker - Nicolas Cook Leon"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/color-pro-picker/id1207928528?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/98/0b/37/980b37e9-fb3f-e76a-d558-ec80639103ee/tns.uwtkrqyn.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/color-pro-picker/id1207928528?uo=2",
+      "attributes": {
+        "im:id": "1207928528",
+        "im:bundleId": "Website.Alotof.Color"
+      }
+    },
+    "im:artist": {
+      "label": "Nicolas Cook Leon",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/nicolas-cook-leon/id1139916419?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-02-28T09:45:57-07:00",
+      "attributes": {
+        "label": "February 28, 2017"
       }
     }
   },

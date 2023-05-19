@@ -8,35 +8,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "iVMControl VMware® vCenter&ESX"
+      "label": "SENZEY Smart"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/9c/e7/bc/9ce7bc80-4410-3ea4-e46a-a5e27f18a957/AppIcon-0-0-1x_U007emarketing-0-0-0-6-85-220.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f0/07/ce/f007ce6e-1543-6322-1f2e-b4d523dc9939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/9c/e7/bc/9ce7bc80-4410-3ea4-e46a-a5e27f18a957/AppIcon-0-0-1x_U007emarketing-0-0-0-6-85-220.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/f0/07/ce/f007ce6e-1543-6322-1f2e-b4d523dc9939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/9c/e7/bc/9ce7bc80-4410-3ea4-e46a-a5e27f18a957/AppIcon-0-0-1x_U007emarketing-0-0-0-6-85-220.png/100x100bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/f0/07/ce/f007ce6e-1543-6322-1f2e-b4d523dc9939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Supports vSphere 6.7\n\nConnect to your Vmware® vCenter or to your ESX(i) server and take control of your Virtual Machines on the go!\n\nThe ideal application for Data Center Administrators who want to have a life outside of work too! :) It does not replace your vSphere® Client, but it comes really close to it.\n\niVMControl allows you to connect remotely and securely to your Virtualization Hypervisors and monitor the activity on the hosts and on the VMs.\nCapabilities:\n-check alarms, events and task status\n-status for every host and VM\n-Power operations on VMs and Hosts\n-Performance graphs (CPU/memory/NIC/HDD)\n-make/restore/manage snapshots of VMs.\n-Grouping of Hosts into datacenters \n-Grouping of VMs into host systems \n-Multiple vCenter/ESXi connections \n-VMotion support\n-screenshots for VMs\n\nAs in-app purchase we offer the following additional capability:\n- VM console via VNC (this is a one time purchase, it doesn't matter how many virtual machines you have, it's still the price of one in-app).\n\nFor a video demo check:\nhttps://www.youtube.com/playlist?list=PLSOFq_BUa05SqIP6Zu3jKiTxD4BoS4-72\nhttp://www.facebook.com/pages/IVMControl/175381199162251\n\nConsole support for ESX/vCenter:\n\nPlease note that regardless of the connection point (ESX(i)/vCenter), the console connects *directly* to the ESX host where the VM you want to monitor resides. This implies you need to make sure that your ESX hosts have IP addresses that are *routable*, otherwise you will not be able to access the VNC console. IPs in the form 10.x.x.x or 192.168.x.x are *not* routable, if your ESX has one of these, you will not be able to access the console through vCenter. Even if the IPs are routable, you need to make sure that the port configured (in the range 5900-5909) is allowed through your firewall for each ESX device you want to connect to.\n\nIn case of a stand-alone ESX(i), a private IP can be used, but the port(s) needs to be forwarded in a similar manner (E.g. if your ESX has IP address 192.168.1.100 and your Internet-facing IP address is say 1.2.3.4, you need to make sure both the SSL port (443) and the VNC ports used (5900-5909) are being forwarded to the *same* IP address - 1.2.3.4:443 -> 192.168.1.100:443 and 1.2.3.4:(5900-5909) -> 192.168.1.100:(5900-5909).\n\nFurthermore, please make note of the fact that only the 8-character password is encrypted with the standard VNC client. All VNC client traffic is sent unencrypted across the network. If security is a concern in your organization, you need to be aware of this. You can disable your VNC terminal once you are done with the Console session (use Configure Console and disable VNC altogether).\n\nVMWare Tools needs to be installed on each and every VM that is monitored through iVMControl's console connection. Check the Vmware knowledge base on other requirements:\n\nhttp://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1246\nMake sure you enable gdbserver through the FW, e.g.\nhttps://www.unixarena.com/2014/02/configuring-vmware-esxi-virtual-machine-console-vnc.html/\n\nUsage:\n- Single click, pan and zoom are standard as any iPhone application\n- Tap with two fingers for right click\n- Ctrl-Alt-Del button sends a Ctrl-Alt-Del sequence to the VM\n- Keyboard button will raise/lower the keyboard.\n\n** NOTE ** VMware decided to offer read-only access to the management APIs for the *FREE* version of ESXi. This applies to all management applications, and is enforced by VMware. What this means for iVMControl is that if you have a FREE ESXi, you will be able to use only the 'read-only' (monitoring) functions of iVMControl."
+      "label": "The official app for SENZEY - Master your business\nCustomer management, Project management, Inventory and Financial documents\n\nRead More\n\nGet all your clients info and their activities\nAdd new contacts, activities and followups\nCheck your todo list for today\nGet you tasks for today or the following week\nCheck open issues\nReport your working time\nIssue price offers, work orders, invoices, receipts and send them by email to your clients\nand more...\n\nNote: This app requires an account on SENZEY. Signup up at http://senzey.com"
     },
     "im:price": {
-      "label": "₪34.90",
+      "label": "₪2.90",
       "attributes": {
-        "amount": "34.90",
+        "amount": "2.90",
         "currency": "ILS"
       }
     },
@@ -47,17 +47,17 @@
       }
     },
     "rights": {
-      "label": "© 2020 Project Eureka"
+      "label": "© Senzey Smart"
     },
     "title": {
-      "label": "iVMControl VMware® vCenter&ESX - Project Eureka LLC"
+      "label": "SENZEY Smart - Jiska van der Linden"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/il/app/ivmcontrol-vmware-vcenter-esx/id404263941?uo=2"
+          "href": "https://apps.apple.com/il/app/senzey-smart/id1057451716?uo=2"
         }
       },
       {
@@ -68,22 +68,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/1e/9f/80/1e9f8008-c926-3c8d-9e91-503070b93e52/pr_source.png/1024x1024bb.png",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/57/70/5f/57705fd6-9a92-100f-5477-eb26d5a24325/mzl.chzmdwpl.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/il/app/ivmcontrol-vmware-vcenter-esx/id404263941?uo=2",
+      "label": "https://apps.apple.com/il/app/senzey-smart/id1057451716?uo=2",
       "attributes": {
-        "im:id": "404263941",
-        "im:bundleId": "org.projecteureka.ivmcontrol"
+        "im:id": "1057451716",
+        "im:bundleId": "com.senzeysmart.senzeysmart"
       }
     },
     "im:artist": {
-      "label": "Project Eureka LLC",
+      "label": "Jiska van der Linden",
       "attributes": {
-        "href": "https://apps.apple.com/il/developer/project-eureka-llc/id351249581?uo=2"
+        "href": "https://apps.apple.com/il/developer/jiska-van-der-linden/id1050928584?uo=2"
       }
     },
     "category": {
@@ -95,9 +95,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2010-12-01T11:14:29-07:00",
+      "label": "2016-01-08T14:16:58-07:00",
       "attributes": {
-        "label": "December 1, 2010"
+        "label": "January 8, 2016"
       }
     }
   },
@@ -212,6 +212,312 @@
       "total": 99
     },
     "im:name": {
+      "label": "FAX from iPhone - Send Fax App"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/64/b3/86/64b38638-df4e-3aaa-2cab-e442f927224b/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/64/b3/86/64b38638-df4e-3aaa-2cab-e442f927224b/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/64/b3/86/64b38638-df4e-3aaa-2cab-e442f927224b/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Fax from iPhone lets you turn your iPhone or iPad into a powerful fax machine! Scan any document with advanced integrated document scanner app and fax them anywhere in the world in just a few taps at a very attractive price! You can scan and fax contracts, receipts, any kinds of documents, paper notes, schedules, timetables – anything you might need in your day to day life using this efax app. \n \nYour scans can be stored as multi-page files, which can be exported as PDF or JPEG later. You can create a document by selecting images from Camera Roll or creating a scan using the built-in mobile doc scanner. \n \nBuilt-in advanced scanning algorithms allow image enhancement, shadow and noise removing, automatic perspective correction and more. With all its features, this app is sure to become an indispensable efax tool.\n \nJunk your huge fax machine and start using Fax from iPhone!\n \nMain features:\n– iOS 14 full support\n– Advanced fax machine\n– Integrated document scanner app\n– Image processing with enhancement and color correction, noise removing and more\n– Create new documents with images from Camera Roll and fax them over\n– Scan documents using Camera\n– Send faxes in 90+ countries\n– No fax machine or dedicated phone line needed\n \nIn order to send faxes, you need to buy credits using an in-app purchase.\n\nInformation about the auto-renewal of subscription:\n– Free trial period is provided\n– Payment will be charged to iTunes Account at confirmation of purchase\n– Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period\n– Account will be charged for renewal within 24-hours prior to the end of the current period. The cost depends on the selected plan\n– Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase\n– Any unused portion of the free trial will be forfeited when the user purchases a subscription\n\nThe following subscription plans are available (price may vary depending on location):\n• 12 months subscription with 3-days trial version – 50.99 US$\n• 3 months subscription with 3-days trial version – 31.99 US$\n• 1 week subscription with 3-days trial version – 3.99 US$\n\nBy using Fax from iPhone, you are agreeing to our Privacy Policy and Terms of Use:\nhttp://bpmob.com/fax/privacy/\nhttp://bpmob.com/fax/terms/"
+    },
+    "im:price": {
+      "label": "₪14.90",
+      "attributes": {
+        "amount": "14.90",
+        "currency": "ILS"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© BP Mobile, LLC"
+    },
+    "title": {
+      "label": "FAX from iPhone - Send Fax App - BPMobile"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/il/app/fax-from-iphone-send-fax-app/id1135811739?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/dc/6c/2e/dc6c2e2d-d067-7cbd-5a85-53ade6a447b0/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/il/app/fax-from-iphone-send-fax-app/id1135811739?uo=2",
+      "attributes": {
+        "im:id": "1135811739",
+        "im:bundleId": "ifax.pr"
+      }
+    },
+    "im:artist": {
+      "label": "BPMobile",
+      "attributes": {
+        "href": "https://apps.apple.com/il/developer/bpmobile/id1085442365?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-09-01T18:59:02-07:00",
+      "attributes": {
+        "label": "September 1, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "il",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 4,
+      "total": 99
+    },
+    "im:name": {
+      "label": "iRecorder Pro Audio Recorder"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/8a/2a/6e8a2a40-642f-d0a3-da16-afdab1456662/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/8a/2a/6e8a2a40-642f-d0a3-da16-afdab1456662/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/8a/2a/6e8a2a40-642f-d0a3-da16-afdab1456662/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "iRecorder Pro is a quick and easy to use audio recorder for iPhone and iPad, with Wi-Fi transfer to any computer. Customers LOVE iRecorder, you will TOO!\n\nSIMPLY THE BEST:\niRecorder is designed to be quick and easy use, and simple to understand. Great for on-the-go capture of your thoughts, ideas, notes-to-self, lectures, concerts, music, you name it! Record for hours, or just seconds.\n\n* HIGH-QUALITY RECORDINGS\n* FAST LOAD TIME\n*  EASY TO USE \n* EVERYTHING ONE TAP AWAY\n* USERS LOVE THIS APP, YOU WILL TOO!\n\nMORE GREAT FEATURES: \n* Wi-Fi Sync to transfer recordings to any computer on the same Wi-Fi network\n* iTunes file sharing \n* Share recordings using iOS share extensions\n* SmartSplit to easily send large recordings in multiple parts\n* Record in the background\n* Adjust playback speed \n* pause and resume during recording\n* no limit to recording length \n* rename and re-arrange recordings quickly\n* rotates upside down for easy microphone use\n* Use microphones, headsets etc.\n* VoiceOver optimized, VoiceOver on during recording\n\nSIMPLE BY DESIGN: \nWhen it comes to mobile applications, sometimes less is more. We kept iRecorder simple and un-cumbersome, leaving a great user experience.\n\nPRO QUALITY:\nOur recording quality is second to none. We deliver pro-quality recordings, and a high-quality​ user interface you would expect on iPhone. \n\nGREAT CUSTOMER SERVICE: \nOur customers praise us for great customer service. We take it to heart. If you have an issue we are here to help you.\n\nACCESSIBILITY PROMISE:\nWe are dedicated to making the best &  most accessible recording app for iOS. iRecorder is optimized for VoiceOver users!\n\niRecorder is a trademark of SimpleTouch software, all rights reserved."
+    },
+    "im:price": {
+      "label": "₪14.90",
+      "attributes": {
+        "amount": "14.90",
+        "currency": "ILS"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© SIMPLETOUCH LLC 2008 - 2018"
+    },
+    "title": {
+      "label": "iRecorder Pro Audio Recorder - SIMPLETOUCH LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/il/app/irecorder-pro-audio-recorder/id285750155?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/3f/ba/9e/3fba9e3b-df9e-7b1e-fa50-157907112bda/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/il/app/irecorder-pro-audio-recorder/id285750155?uo=2",
+      "attributes": {
+        "im:id": "285750155",
+        "im:bundleId": "com.simpletouch.Recorder"
+      }
+    },
+    "im:artist": {
+      "label": "SIMPLETOUCH LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/il/developer/simpletouch-llc/id285750159?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-02-12T00:00:00-07:00",
+      "attributes": {
+        "label": "February 12, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "il",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 5,
+      "total": 99
+    },
+    "im:name": {
+      "label": "iVMControl VMware® vCenter&ESX"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/9c/e7/bc/9ce7bc80-4410-3ea4-e46a-a5e27f18a957/AppIcon-0-0-1x_U007emarketing-0-0-0-6-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/9c/e7/bc/9ce7bc80-4410-3ea4-e46a-a5e27f18a957/AppIcon-0-0-1x_U007emarketing-0-0-0-6-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/9c/e7/bc/9ce7bc80-4410-3ea4-e46a-a5e27f18a957/AppIcon-0-0-1x_U007emarketing-0-0-0-6-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Supports vSphere 6.7\n\nConnect to your Vmware® vCenter or to your ESX(i) server and take control of your Virtual Machines on the go!\n\nThe ideal application for Data Center Administrators who want to have a life outside of work too! :) It does not replace your vSphere® Client, but it comes really close to it.\n\niVMControl allows you to connect remotely and securely to your Virtualization Hypervisors and monitor the activity on the hosts and on the VMs.\nCapabilities:\n-check alarms, events and task status\n-status for every host and VM\n-Power operations on VMs and Hosts\n-Performance graphs (CPU/memory/NIC/HDD)\n-make/restore/manage snapshots of VMs.\n-Grouping of Hosts into datacenters \n-Grouping of VMs into host systems \n-Multiple vCenter/ESXi connections \n-VMotion support\n-screenshots for VMs\n\nAs in-app purchase we offer the following additional capability:\n- VM console via VNC (this is a one time purchase, it doesn't matter how many virtual machines you have, it's still the price of one in-app).\n\nFor a video demo check:\nhttps://www.youtube.com/playlist?list=PLSOFq_BUa05SqIP6Zu3jKiTxD4BoS4-72\nhttp://www.facebook.com/pages/IVMControl/175381199162251\n\nConsole support for ESX/vCenter:\n\nPlease note that regardless of the connection point (ESX(i)/vCenter), the console connects *directly* to the ESX host where the VM you want to monitor resides. This implies you need to make sure that your ESX hosts have IP addresses that are *routable*, otherwise you will not be able to access the VNC console. IPs in the form 10.x.x.x or 192.168.x.x are *not* routable, if your ESX has one of these, you will not be able to access the console through vCenter. Even if the IPs are routable, you need to make sure that the port configured (in the range 5900-5909) is allowed through your firewall for each ESX device you want to connect to.\n\nIn case of a stand-alone ESX(i), a private IP can be used, but the port(s) needs to be forwarded in a similar manner (E.g. if your ESX has IP address 192.168.1.100 and your Internet-facing IP address is say 1.2.3.4, you need to make sure both the SSL port (443) and the VNC ports used (5900-5909) are being forwarded to the *same* IP address - 1.2.3.4:443 -> 192.168.1.100:443 and 1.2.3.4:(5900-5909) -> 192.168.1.100:(5900-5909).\n\nFurthermore, please make note of the fact that only the 8-character password is encrypted with the standard VNC client. All VNC client traffic is sent unencrypted across the network. If security is a concern in your organization, you need to be aware of this. You can disable your VNC terminal once you are done with the Console session (use Configure Console and disable VNC altogether).\n\nVMWare Tools needs to be installed on each and every VM that is monitored through iVMControl's console connection. Check the Vmware knowledge base on other requirements:\n\nhttp://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1246\nMake sure you enable gdbserver through the FW, e.g.\nhttps://www.unixarena.com/2014/02/configuring-vmware-esxi-virtual-machine-console-vnc.html/\n\nUsage:\n- Single click, pan and zoom are standard as any iPhone application\n- Tap with two fingers for right click\n- Ctrl-Alt-Del button sends a Ctrl-Alt-Del sequence to the VM\n- Keyboard button will raise/lower the keyboard.\n\n** NOTE ** VMware decided to offer read-only access to the management APIs for the *FREE* version of ESXi. This applies to all management applications, and is enforced by VMware. What this means for iVMControl is that if you have a FREE ESXi, you will be able to use only the 'read-only' (monitoring) functions of iVMControl."
+    },
+    "im:price": {
+      "label": "₪34.90",
+      "attributes": {
+        "amount": "34.90",
+        "currency": "ILS"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Project Eureka"
+    },
+    "title": {
+      "label": "iVMControl VMware® vCenter&ESX - Project Eureka LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/il/app/ivmcontrol-vmware-vcenter-esx/id404263941?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/1e/9f/80/1e9f8008-c926-3c8d-9e91-503070b93e52/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/il/app/ivmcontrol-vmware-vcenter-esx/id404263941?uo=2",
+      "attributes": {
+        "im:id": "404263941",
+        "im:bundleId": "org.projecteureka.ivmcontrol"
+      }
+    },
+    "im:artist": {
+      "label": "Project Eureka LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/il/developer/project-eureka-llc/id351249581?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-12-01T11:14:29-07:00",
+      "attributes": {
+        "label": "December 1, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "il",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 6,
+      "total": 99
+    },
+    "im:name": {
       "label": "TurboScan™ Pro: PDF scanner"
     },
     "im:image": [
@@ -310,7 +616,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 4,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -412,7 +718,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 5,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -514,7 +820,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 6,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -616,7 +922,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 7,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -718,7 +1024,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 8,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -820,7 +1126,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 9,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -922,7 +1228,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 10,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +1330,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 11,
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1126,7 +1432,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 12,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1228,7 +1534,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 13,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1330,7 +1636,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 14,
+      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1432,7 +1738,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 15,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1534,7 +1840,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 16,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -1636,7 +1942,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 17,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +2044,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 18,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -1840,7 +2146,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 19,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +2248,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 20,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2044,109 +2350,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 21,
-      "total": 99
-    },
-    "im:name": {
-      "label": "FAX from iPhone - Send Fax App"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/64/b3/86/64b38638-df4e-3aaa-2cab-e442f927224b/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/64/b3/86/64b38638-df4e-3aaa-2cab-e442f927224b/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/64/b3/86/64b38638-df4e-3aaa-2cab-e442f927224b/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Fax from iPhone lets you turn your iPhone or iPad into a powerful fax machine! Scan any document with advanced integrated document scanner app and fax them anywhere in the world in just a few taps at a very attractive price! You can scan and fax contracts, receipts, any kinds of documents, paper notes, schedules, timetables – anything you might need in your day to day life using this efax app. \n \nYour scans can be stored as multi-page files, which can be exported as PDF or JPEG later. You can create a document by selecting images from Camera Roll or creating a scan using the built-in mobile doc scanner. \n \nBuilt-in advanced scanning algorithms allow image enhancement, shadow and noise removing, automatic perspective correction and more. With all its features, this app is sure to become an indispensable efax tool.\n \nJunk your huge fax machine and start using Fax from iPhone!\n \nMain features:\n– iOS 14 full support\n– Advanced fax machine\n– Integrated document scanner app\n– Image processing with enhancement and color correction, noise removing and more\n– Create new documents with images from Camera Roll and fax them over\n– Scan documents using Camera\n– Send faxes in 90+ countries\n– No fax machine or dedicated phone line needed\n \nIn order to send faxes, you need to buy credits using an in-app purchase.\n\nInformation about the auto-renewal of subscription:\n– Free trial period is provided\n– Payment will be charged to iTunes Account at confirmation of purchase\n– Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period\n– Account will be charged for renewal within 24-hours prior to the end of the current period. The cost depends on the selected plan\n– Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase\n– Any unused portion of the free trial will be forfeited when the user purchases a subscription\n\nThe following subscription plans are available (price may vary depending on location):\n• 12 months subscription with 3-days trial version – 50.99 US$\n• 3 months subscription with 3-days trial version – 31.99 US$\n• 1 week subscription with 3-days trial version – 3.99 US$\n\nBy using Fax from iPhone, you are agreeing to our Privacy Policy and Terms of Use:\nhttp://bpmob.com/fax/privacy/\nhttp://bpmob.com/fax/terms/"
-    },
-    "im:price": {
-      "label": "₪14.90",
-      "attributes": {
-        "amount": "14.90",
-        "currency": "ILS"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© BP Mobile, LLC"
-    },
-    "title": {
-      "label": "FAX from iPhone - Send Fax App - BPMobile"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/il/app/fax-from-iphone-send-fax-app/id1135811739?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/dc/6c/2e/dc6c2e2d-d067-7cbd-5a85-53ade6a447b0/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/il/app/fax-from-iphone-send-fax-app/id1135811739?uo=2",
-      "attributes": {
-        "im:id": "1135811739",
-        "im:bundleId": "ifax.pr"
-      }
-    },
-    "im:artist": {
-      "label": "BPMobile",
-      "attributes": {
-        "href": "https://apps.apple.com/il/developer/bpmobile/id1085442365?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-09-01T18:59:02-07:00",
-      "attributes": {
-        "label": "September 1, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "il",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 22,
+      "index": 24,
       "total": 99
     },
     "im:name": {
@@ -2248,7 +2452,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 23,
+      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2350,7 +2554,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 24,
+      "index": 26,
       "total": 99
     },
     "im:name": {
@@ -2452,7 +2656,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 25,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2554,7 +2758,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 26,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2656,7 +2860,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 27,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -2758,7 +2962,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 28,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -2860,7 +3064,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 29,
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -2962,109 +3166,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 30,
-      "total": 99
-    },
-    "im:name": {
-      "label": "SENZEY Smart"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f0/07/ce/f007ce6e-1543-6322-1f2e-b4d523dc9939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/f0/07/ce/f007ce6e-1543-6322-1f2e-b4d523dc9939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/f0/07/ce/f007ce6e-1543-6322-1f2e-b4d523dc9939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The official app for SENZEY - Master your business\nCustomer management, Project management, Inventory and Financial documents\n\nRead More\n\nGet all your clients info and their activities\nAdd new contacts, activities and followups\nCheck your todo list for today\nGet you tasks for today or the following week\nCheck open issues\nReport your working time\nIssue price offers, work orders, invoices, receipts and send them by email to your clients\nand more...\n\nNote: This app requires an account on SENZEY. Signup up at http://senzey.com"
-    },
-    "im:price": {
-      "label": "₪2.90",
-      "attributes": {
-        "amount": "2.90",
-        "currency": "ILS"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Senzey Smart"
-    },
-    "title": {
-      "label": "SENZEY Smart - Jiska van der Linden"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/il/app/senzey-smart/id1057451716?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/57/70/5f/57705fd6-9a92-100f-5477-eb26d5a24325/mzl.chzmdwpl.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/il/app/senzey-smart/id1057451716?uo=2",
-      "attributes": {
-        "im:id": "1057451716",
-        "im:bundleId": "com.senzeysmart.senzeysmart"
-      }
-    },
-    "im:artist": {
-      "label": "Jiska van der Linden",
-      "attributes": {
-        "href": "https://apps.apple.com/il/developer/jiska-van-der-linden/id1050928584?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-01-08T14:16:58-07:00",
-      "attributes": {
-        "label": "January 8, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "il",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 31,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3166,7 +3268,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 32,
+      "index": 33,
       "total": 99
     },
     "im:name": {
@@ -3260,108 +3362,6 @@
       "label": "2010-04-01T11:37:48-07:00",
       "attributes": {
         "label": "April 1, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "il",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 33,
-      "total": 99
-    },
-    "im:name": {
-      "label": "FTPManager Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/f1/65/08/f1650877-2a1b-2e96-8107-803656c02353/FTPManagerAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/f1/65/08/f1650877-2a1b-2e96-8107-803656c02353/FTPManagerAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f1/65/08/f1650877-2a1b-2e96-8107-803656c02353/FTPManagerAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "FTPManager Pro is a fully featured FTP client that allows you to access files on FTP servers. Directly access and manage remote files, edit text files. Stream videos and music to your iPhone/iPad. Transfer files between iPhone/iPad and FTP server. \n\nFEATURES:\n* Access FTP, FTPS (FTP over TLS) server.\n* Access SFTP (SSH) server\n* Access Dropbox\n\n* Copy, move, rename and delete files.\n* Edit text files\n* Stream music and videos from FTP server to iPhone/iPad.\n* Sort and search files\n* In-App FTP Server\n* Dark Mode\n* Multiple windows on iPad\n\n* File Transfer:\nCopy files among servers, cloud storages, iPhone and iPad. \nCopy photos between iOS photo library and servers. \nBackup photos from iOS photo library to servers.\nSync files between iPhone/iPad and servers.\nTransfer files by drag and drop.\nNearby file transfer: Directly transfer files between two nearby iOS devices without Wi-Fi or LTE connection.\n\n* Code Editor:\nSyntax highlight (HTML, PHP, JavaScript, CSS etc)\nFull text search\nKeyboard extension\nThemes (Default, Midnight, Dawn etc) \n\n* Supported File Formats:\nText: TXT, PHP, HTML, JS, CSS ect.\nDocument: PDF, WORD, EXCEL, PPT, PAGES, NUMBERS, KEYNOTE, EPUB\nPhoto: JPG, PNG, GIF, CR2, NEF, ARW, DNG etc. \nMusic: MP3, AAC, AIFF, WAV, FLAC, APE etc.\nVideo: MOV, MP4\n\nFollow us on twitter: @SkyjosApps"
-    },
-    "im:price": {
-      "label": "₪9.90",
-      "attributes": {
-        "amount": "9.90",
-        "currency": "ILS"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Skyjos Ltd."
-    },
-    "title": {
-      "label": "FTPManager Pro - Skyjos Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/il/app/ftpmanager-pro/id522627917?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/d3/27/71/d3277185-2f36-5ebf-587b-1361ce1ab041/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/il/app/ftpmanager-pro/id522627917?uo=2",
-      "attributes": {
-        "im:id": "522627917",
-        "im:bundleId": "com.skyjos.ftpmanager"
-      }
-    },
-    "im:artist": {
-      "label": "Skyjos Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/il/developer/skyjos-co-ltd/id499470116?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-05-03T08:30:36-07:00",
-      "attributes": {
-        "label": "May 3, 2012"
       }
     }
   },
@@ -3476,6 +3476,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "FTPManager Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/f1/65/08/f1650877-2a1b-2e96-8107-803656c02353/FTPManagerAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/f1/65/08/f1650877-2a1b-2e96-8107-803656c02353/FTPManagerAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f1/65/08/f1650877-2a1b-2e96-8107-803656c02353/FTPManagerAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "FTPManager Pro is a fully featured FTP client that allows you to access files on FTP servers. Directly access and manage remote files, edit text files. Stream videos and music to your iPhone/iPad. Transfer files between iPhone/iPad and FTP server. \n\nFEATURES:\n* Access FTP, FTPS (FTP over TLS) server.\n* Access SFTP (SSH) server\n* Access Dropbox\n\n* Copy, move, rename and delete files.\n* Edit text files\n* Stream music and videos from FTP server to iPhone/iPad.\n* Sort and search files\n* In-App FTP Server\n* Dark Mode\n* Multiple windows on iPad\n\n* File Transfer:\nCopy files among servers, cloud storages, iPhone and iPad. \nCopy photos between iOS photo library and servers. \nBackup photos from iOS photo library to servers.\nSync files between iPhone/iPad and servers.\nTransfer files by drag and drop.\nNearby file transfer: Directly transfer files between two nearby iOS devices without Wi-Fi or LTE connection.\n\n* Code Editor:\nSyntax highlight (HTML, PHP, JavaScript, CSS etc)\nFull text search\nKeyboard extension\nThemes (Default, Midnight, Dawn etc) \n\n* Supported File Formats:\nText: TXT, PHP, HTML, JS, CSS ect.\nDocument: PDF, WORD, EXCEL, PPT, PAGES, NUMBERS, KEYNOTE, EPUB\nPhoto: JPG, PNG, GIF, CR2, NEF, ARW, DNG etc. \nMusic: MP3, AAC, AIFF, WAV, FLAC, APE etc.\nVideo: MOV, MP4\n\nFollow us on twitter: @SkyjosApps"
+    },
+    "im:price": {
+      "label": "₪9.90",
+      "attributes": {
+        "amount": "9.90",
+        "currency": "ILS"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Skyjos Ltd."
+    },
+    "title": {
+      "label": "FTPManager Pro - Skyjos Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/il/app/ftpmanager-pro/id522627917?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/d3/27/71/d3277185-2f36-5ebf-587b-1361ce1ab041/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/il/app/ftpmanager-pro/id522627917?uo=2",
+      "attributes": {
+        "im:id": "522627917",
+        "im:bundleId": "com.skyjos.ftpmanager"
+      }
+    },
+    "im:artist": {
+      "label": "Skyjos Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/il/developer/skyjos-co-ltd/id499470116?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-05-03T08:30:36-07:00",
+      "attributes": {
+        "label": "May 3, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "il",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 36,
+      "total": 99
+    },
+    "im:name": {
       "label": "VesselFinder Pro"
     },
     "im:image": [
@@ -3574,7 +3676,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 36,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3676,7 +3778,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 37,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3778,7 +3880,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 38,
+      "index": 39,
       "total": 99
     },
     "im:name": {
@@ -3872,108 +3974,6 @@
       "label": "2010-03-05T16:59:15-07:00",
       "attributes": {
         "label": "March 5, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "il",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 39,
-      "total": 99
-    },
-    "im:name": {
-      "label": "iRecorder Pro Audio Recorder"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/8a/2a/6e8a2a40-642f-d0a3-da16-afdab1456662/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/8a/2a/6e8a2a40-642f-d0a3-da16-afdab1456662/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/6e/8a/2a/6e8a2a40-642f-d0a3-da16-afdab1456662/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "iRecorder Pro is a quick and easy to use audio recorder for iPhone and iPad, with Wi-Fi transfer to any computer. Customers LOVE iRecorder, you will TOO!\n\nSIMPLY THE BEST:\niRecorder is designed to be quick and easy use, and simple to understand. Great for on-the-go capture of your thoughts, ideas, notes-to-self, lectures, concerts, music, you name it! Record for hours, or just seconds.\n\n* HIGH-QUALITY RECORDINGS\n* FAST LOAD TIME\n*  EASY TO USE \n* EVERYTHING ONE TAP AWAY\n* USERS LOVE THIS APP, YOU WILL TOO!\n\nMORE GREAT FEATURES: \n* Wi-Fi Sync to transfer recordings to any computer on the same Wi-Fi network\n* iTunes file sharing \n* Share recordings using iOS share extensions\n* SmartSplit to easily send large recordings in multiple parts\n* Record in the background\n* Adjust playback speed \n* pause and resume during recording\n* no limit to recording length \n* rename and re-arrange recordings quickly\n* rotates upside down for easy microphone use\n* Use microphones, headsets etc.\n* VoiceOver optimized, VoiceOver on during recording\n\nSIMPLE BY DESIGN: \nWhen it comes to mobile applications, sometimes less is more. We kept iRecorder simple and un-cumbersome, leaving a great user experience.\n\nPRO QUALITY:\nOur recording quality is second to none. We deliver pro-quality recordings, and a high-quality​ user interface you would expect on iPhone. \n\nGREAT CUSTOMER SERVICE: \nOur customers praise us for great customer service. We take it to heart. If you have an issue we are here to help you.\n\nACCESSIBILITY PROMISE:\nWe are dedicated to making the best &  most accessible recording app for iOS. iRecorder is optimized for VoiceOver users!\n\niRecorder is a trademark of SimpleTouch software, all rights reserved."
-    },
-    "im:price": {
-      "label": "₪14.90",
-      "attributes": {
-        "amount": "14.90",
-        "currency": "ILS"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© SIMPLETOUCH LLC 2008 - 2018"
-    },
-    "title": {
-      "label": "iRecorder Pro Audio Recorder - SIMPLETOUCH LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/il/app/irecorder-pro-audio-recorder/id285750155?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/3f/ba/9e/3fba9e3b-df9e-7b1e-fa50-157907112bda/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/il/app/irecorder-pro-audio-recorder/id285750155?uo=2",
-      "attributes": {
-        "im:id": "285750155",
-        "im:bundleId": "com.simpletouch.Recorder"
-      }
-    },
-    "im:artist": {
-      "label": "SIMPLETOUCH LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/il/developer/simpletouch-llc/id285750159?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-02-12T00:00:00-07:00",
-      "attributes": {
-        "label": "February 12, 2019"
       }
     }
   },
@@ -7046,108 +7046,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Remotix VNC, RDP & NEAR"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/7b/f0/81/7bf081cb-8c34-bae0-f82a-a7645a151d85/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/7b/f0/81/7bf081cb-8c34-bae0-f82a-a7645a151d85/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/7b/f0/81/7bf081cb-8c34-bae0-f82a-a7645a151d85/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Here is what Remotix users say:\n“This is one of the very few Remote Desktop apps in the past decade that I haven’t wanted my money and my investment of time back on.”\nBrockGS\n\nGeneral Features \n• NEAR - low-latency, adaptive, H.264-based remote desktop protocol\n• File Transfer: transfer your documents between remote machines\n• Apple Screen Sharing, VNC and RDP, including RD Gateway\n• Connect from anywhere\n• Syncs computers and credentials across all devices\n• Automatic clipboard synchronization\n• Secure SSH connections with both password and public key auth\n• Discovers all nearby machines using network scanners\n• Wake-On-LAN\n• Master password, Face ID & Touch ID protection\n• Designed for iPhone, iPad and iPad Pro\n• Take and share the screenshots of the remote machine\n\nControl Interface\n• Full set of multi-touch gestures to pan, zoom, drag, right click & scroll\n• Point-and-click or touchpad-mode remote desktop control\n• Hardware and bluetooth keyboard support, including F keys, cursor and modifiers\n• Bluetooth mouse support\n• Complete international character input\n• Extended keyboard to access copy/paste, function and navigation keys\n• 3D Touch for right click\n\nIf you are connecting to Mac or PC with NEAR:\n• Hardware accelerated H.264 based remote desktop experience;\n• Three quality modes, including “smooth” - for video & games.\n• Automatically adapts to changing network conditions;\n• Clipboard synchronization;\n• Remote sound transfer;\n• Login using system credentials or personal access code;\n• Curtain mode & remote screen locking (Mac only).\n\nIf you are connecting to a Mac with Screen Sharing: \n• Five quality modes, including adaptive for average and slow Internet connections \n• Multi-display configuration selection, combined or each display individually\n• VNC password and Mac OS X authentication methods\n• Greatly improves interaction speed with server-side picture scaling,\n• Multi-language keyboard input using \"Keyboard through Clipboard\" mode \n• Remote screen locking\n• Access to hidden dock or menu\n\nIf you are connecting to Windows over RDP:\n• RD Gateway & load-balancing configurations\n• On-the-fly resolution and scale change\n• Sound playback & recording\n• Real time network speed adaptation for the best performance over 3G or LAN\n• Secure NLA authentication\n• RDP over SSH\n\nIf you are connecting to Windows or Linux over VNC:\n• Tested and works well with UltraVNC, TightVNC, RealVNC, VMWare, TigerVNC, x11vnc and other servers \n• UltraVNC Windows Logon authentication\n• TLS encryption and VeNCrypt authentication (ProxMox)\n• x11vnc -ncache mode support"
-    },
-    "im:price": {
-      "label": "₪49.90",
-      "attributes": {
-        "amount": "49.90",
-        "currency": "ILS"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Nulana"
-    },
-    "title": {
-      "label": "Remotix VNC, RDP & NEAR - Nulana LTD"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/il/app/remotix-vnc-rdp-near/id407498378?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/11/1c/c9/111cc9d9-7050-205b-463d-3fe405449738/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/il/app/remotix-vnc-rdp-near/id407498378?uo=2",
-      "attributes": {
-        "im:id": "407498378",
-        "im:bundleId": "com.nulana.remotixios"
-      }
-    },
-    "im:artist": {
-      "label": "Nulana LTD",
-      "attributes": {
-        "href": "https://apps.apple.com/il/developer/nulana-ltd/id339495421?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-09-09T16:04:44-07:00",
-      "attributes": {
-        "label": "September 9, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "il",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 71,
-      "total": 99
-    },
-    "im:name": {
       "label": "msg Lense"
     },
     "im:image": [
@@ -7246,7 +7144,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 72,
+      "index": 71,
       "total": 99
     },
     "im:name": {
@@ -7348,7 +7246,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 73,
+      "index": 72,
       "total": 99
     },
     "im:name": {
@@ -7450,7 +7348,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 74,
+      "index": 73,
       "total": 99
     },
     "im:name": {
@@ -7552,7 +7450,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 75,
+      "index": 74,
       "total": 99
     },
     "im:name": {
@@ -7646,6 +7544,108 @@
       "label": "2019-02-12T00:00:00-07:00",
       "attributes": {
         "label": "February 12, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "il",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 75,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Remotix VNC, RDP & NEAR"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/7b/f0/81/7bf081cb-8c34-bae0-f82a-a7645a151d85/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/7b/f0/81/7bf081cb-8c34-bae0-f82a-a7645a151d85/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/7b/f0/81/7bf081cb-8c34-bae0-f82a-a7645a151d85/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Here is what Remotix users say:\n“This is one of the very few Remote Desktop apps in the past decade that I haven’t wanted my money and my investment of time back on.”\nBrockGS\n\nGeneral Features \n• NEAR - low-latency, adaptive, H.264-based remote desktop protocol\n• File Transfer: transfer your documents between remote machines\n• Apple Screen Sharing, VNC and RDP, including RD Gateway\n• Connect from anywhere\n• Syncs computers and credentials across all devices\n• Automatic clipboard synchronization\n• Secure SSH connections with both password and public key auth\n• Discovers all nearby machines using network scanners\n• Wake-On-LAN\n• Master password, Face ID & Touch ID protection\n• Designed for iPhone, iPad and iPad Pro\n• Take and share the screenshots of the remote machine\n\nControl Interface\n• Full set of multi-touch gestures to pan, zoom, drag, right click & scroll\n• Point-and-click or touchpad-mode remote desktop control\n• Hardware and bluetooth keyboard support, including F keys, cursor and modifiers\n• Bluetooth mouse support\n• Complete international character input\n• Extended keyboard to access copy/paste, function and navigation keys\n• 3D Touch for right click\n\nIf you are connecting to Mac or PC with NEAR:\n• Hardware accelerated H.264 based remote desktop experience;\n• Three quality modes, including “smooth” - for video & games.\n• Automatically adapts to changing network conditions;\n• Clipboard synchronization;\n• Remote sound transfer;\n• Login using system credentials or personal access code;\n• Curtain mode & remote screen locking (Mac only).\n\nIf you are connecting to a Mac with Screen Sharing: \n• Five quality modes, including adaptive for average and slow Internet connections \n• Multi-display configuration selection, combined or each display individually\n• VNC password and Mac OS X authentication methods\n• Greatly improves interaction speed with server-side picture scaling,\n• Multi-language keyboard input using \"Keyboard through Clipboard\" mode \n• Remote screen locking\n• Access to hidden dock or menu\n\nIf you are connecting to Windows over RDP:\n• RD Gateway & load-balancing configurations\n• On-the-fly resolution and scale change\n• Sound playback & recording\n• Real time network speed adaptation for the best performance over 3G or LAN\n• Secure NLA authentication\n• RDP over SSH\n\nIf you are connecting to Windows or Linux over VNC:\n• Tested and works well with UltraVNC, TightVNC, RealVNC, VMWare, TigerVNC, x11vnc and other servers \n• UltraVNC Windows Logon authentication\n• TLS encryption and VeNCrypt authentication (ProxMox)\n• x11vnc -ncache mode support"
+    },
+    "im:price": {
+      "label": "₪49.90",
+      "attributes": {
+        "amount": "49.90",
+        "currency": "ILS"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Nulana"
+    },
+    "title": {
+      "label": "Remotix VNC, RDP & NEAR - Nulana LTD"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/il/app/remotix-vnc-rdp-near/id407498378?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/11/1c/c9/111cc9d9-7050-205b-463d-3fe405449738/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/il/app/remotix-vnc-rdp-near/id407498378?uo=2",
+      "attributes": {
+        "im:id": "407498378",
+        "im:bundleId": "com.nulana.remotixios"
+      }
+    },
+    "im:artist": {
+      "label": "Nulana LTD",
+      "attributes": {
+        "href": "https://apps.apple.com/il/developer/nulana-ltd/id339495421?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-09-09T16:04:44-07:00",
+      "attributes": {
+        "label": "September 9, 2011"
       }
     }
   },
@@ -8372,108 +8372,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "SpeechTok Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/98/22/8b/98228b4d-ab9e-7204-bdf1-d6ebeb6483a7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/98/22/8b/98228b4d-ab9e-7204-bdf1-d6ebeb6483a7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/98/22/8b/98228b4d-ab9e-7204-bdf1-d6ebeb6483a7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "+ Use your iPhone & iPad microphone to transcribe news, speeches, podcasts, talks, meetings!\n\n+  Convert voice to text with Live Speech Transcriber even without internet!\n\n+ Classify the most frequent words with AI Analysis!"
-    },
-    "im:price": {
-      "label": "₪2.90",
-      "attributes": {
-        "amount": "2.90",
-        "currency": "ILS"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© SpeechTok Pro 2023"
-    },
-    "title": {
-      "label": "SpeechTok Pro - Miguel Angel Cano"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/il/app/speechtok-pro/id1569962784?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/97/8a/89/978a8919-10bc-b6ff-8da8-08378e158b8c/abccc3d8-48da-413a-b41d-56f222eae75d_P5__U2013_23.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/il/app/speechtok-pro/id1569962784?uo=2",
-      "attributes": {
-        "im:id": "1569962784",
-        "im:bundleId": "com.luxcluster.SpeechTokPro"
-      }
-    },
-    "im:artist": {
-      "label": "Miguel Angel Cano",
-      "attributes": {
-        "href": "https://apps.apple.com/il/developer/miguel-angel-cano/id1660093272?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-06-01T00:00:00-07:00",
-      "attributes": {
-        "label": "June 1, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "il",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 84,
-      "total": 99
-    },
-    "im:name": {
       "label": "Say&Go Voice Notes and Inbox"
     },
     "im:image": [
@@ -8572,7 +8470,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 85,
+      "index": 84,
       "total": 99
     },
     "im:name": {
@@ -8666,6 +8564,108 @@
       "label": "2011-10-18T13:16:21-07:00",
       "attributes": {
         "label": "October 18, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "il",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 85,
+      "total": 99
+    },
+    "im:name": {
+      "label": "SpeechTok Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/98/22/8b/98228b4d-ab9e-7204-bdf1-d6ebeb6483a7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/98/22/8b/98228b4d-ab9e-7204-bdf1-d6ebeb6483a7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/98/22/8b/98228b4d-ab9e-7204-bdf1-d6ebeb6483a7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "+ Use your iPhone & iPad microphone to transcribe news, speeches, podcasts, talks, meetings!\n\n+  Convert voice to text with Live Speech Transcriber even without internet!\n\n+ Classify the most frequent words with AI Analysis!"
+    },
+    "im:price": {
+      "label": "₪2.90",
+      "attributes": {
+        "amount": "2.90",
+        "currency": "ILS"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© SpeechTok Pro 2023"
+    },
+    "title": {
+      "label": "SpeechTok Pro - Miguel Angel Cano"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/il/app/speechtok-pro/id1569962784?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/97/8a/89/978a8919-10bc-b6ff-8da8-08378e158b8c/abccc3d8-48da-413a-b41d-56f222eae75d_P5__U2013_23.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/il/app/speechtok-pro/id1569962784?uo=2",
+      "attributes": {
+        "im:id": "1569962784",
+        "im:bundleId": "com.luxcluster.SpeechTokPro"
+      }
+    },
+    "im:artist": {
+      "label": "Miguel Angel Cano",
+      "attributes": {
+        "href": "https://apps.apple.com/il/developer/miguel-angel-cano/id1660093272?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-06-01T00:00:00-07:00",
+      "attributes": {
+        "label": "June 1, 2021"
       }
     }
   },
@@ -9086,108 +9086,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "AWRI Winemaking Calculators"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/f5/6d/f6f56daa-ec70-cdde-bb12-59fe217212ab/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/f5/6d/f6f56daa-ec70-cdde-bb12-59fe217212ab/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/f5/6d/f6f56daa-ec70-cdde-bb12-59fe217212ab/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "AWRI Winemaking Calculator is an essential application for all enologists and winemakers containing all the main calculations you will need to make red, white and fortified wine.\nAWRI Winemaking Calculator contains tools for:\n\n·         Acid addition and removal\n\n·         SO2 addition and reduction\n\n·         Wine additions – DAP, Copper, Oxygen,\n\n·         Wine fining  - Tannin, PVPP, Isinglass, Gelatine, Carbon, Bentonite, Potassium bitartrate (KHT)\n\n·         Heat and cold stabilisation\n\n·         Wine fortification and sweetening\n\n·         Wine label and export requirements – Methanol level, standard drinks calculator\n\n·         Conversions/mass, volume and concentration equivalents, acidity conversions"
-    },
-    "im:price": {
-      "label": "₪19.90",
-      "attributes": {
-        "amount": "19.90",
-        "currency": "ILS"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 AWRI"
-    },
-    "title": {
-      "label": "AWRI Winemaking Calculators - The Australian Wine Research Institute"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/il/app/awri-winemaking-calculators/id670156890?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/9f/d2/10/9fd2100d-12df-4380-d5a2-43bf39c67ed4/d46dadae-df10-4752-abfe-b7f9f353d3af_simulator_screenshot_CCC269D5-8B0D-4F50-A223-6EC2093A76A9.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/il/app/awri-winemaking-calculators/id670156890?uo=2",
-      "attributes": {
-        "im:id": "670156890",
-        "im:bundleId": "au.com.awri.AWRI-Calc"
-      }
-    },
-    "im:artist": {
-      "label": "The Australian Wine Research Institute",
-      "attributes": {
-        "href": "https://apps.apple.com/il/developer/the-australian-wine-research-institute/id574345797?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-07-14T09:20:47-07:00",
-      "attributes": {
-        "label": "July 14, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "il",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 91,
-      "total": 99
-    },
-    "im:name": {
       "label": "ASeePro+"
     },
     "im:image": [
@@ -9286,7 +9184,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 92,
+      "index": 91,
       "total": 99
     },
     "im:name": {
@@ -9388,7 +9286,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 93,
+      "index": 92,
       "total": 99
     },
     "im:name": {
@@ -9490,39 +9388,39 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 94,
+      "index": 93,
       "total": 99
     },
     "im:name": {
-      "label": "Superimpose Video - Combine Movies & Photos"
+      "label": "AWRI Winemaking Calculators"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple91/v4/9a/c9/90/9ac99097-7daa-913b-733d-36c6cffedf0e/pr_source.jpg/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/f5/6d/f6f56daa-ec70-cdde-bb12-59fe217212ab/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple91/v4/9a/c9/90/9ac99097-7daa-913b-733d-36c6cffedf0e/pr_source.jpg/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/f5/6d/f6f56daa-ec70-cdde-bb12-59fe217212ab/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple91/v4/9a/c9/90/9ac99097-7daa-913b-733d-36c6cffedf0e/pr_source.jpg/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/f5/6d/f6f56daa-ec70-cdde-bb12-59fe217212ab/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "This app helps to superimpose a video on another video or combine a video and an image seamlessly. It's the first video superimpose app in the world:)\n \n Blend/mix/overlay/cut/copy/paste one video on top of another could be done with just few taps.\n \n ## Quick Instructions ##\n - Load a foreground video.\n - Load a background video or background image.\n - Crop out wanted part of the foreground video with built in tool.\n - Move, Scale, Resize the foreground to place it on the right location on the background video or background image.\n - Adjust position in video timeline if required.\n - Great job. Share Instagram, Facebook, Twitter, Mail, Other Apps now."
+      "label": "AWRI Winemaking Calculator is an essential application for all enologists and winemakers containing all the main calculations you will need to make red, white and fortified wine.\nAWRI Winemaking Calculator contains tools for:\n\n·         Acid addition and removal\n\n·         SO2 addition and reduction\n\n·         Wine additions – DAP, Copper, Oxygen,\n\n·         Wine fining  - Tannin, PVPP, Isinglass, Gelatine, Carbon, Bentonite, Potassium bitartrate (KHT)\n\n·         Heat and cold stabilisation\n\n·         Wine fortification and sweetening\n\n·         Wine label and export requirements – Methanol level, standard drinks calculator\n\n·         Conversions/mass, volume and concentration equivalents, acidity conversions"
     },
     "im:price": {
-      "label": "₪2.90",
+      "label": "₪19.90",
       "attributes": {
-        "amount": "2.90",
+        "amount": "19.90",
         "currency": "ILS"
       }
     },
@@ -9533,17 +9431,17 @@
       }
     },
     "rights": {
-      "label": "© 2016 @ Icestudio"
+      "label": "© 2021 AWRI"
     },
     "title": {
-      "label": "Superimpose Video - Combine Movies & Photos - LI XUAN NIU"
+      "label": "AWRI Winemaking Calculators - The Australian Wine Research Institute"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/il/app/superimpose-video-combine-movies-photos/id1185298870?uo=2"
+          "href": "https://apps.apple.com/il/app/awri-winemaking-calculators/id670156890?uo=2"
         }
       },
       {
@@ -9554,22 +9452,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/97/5f/f7/975ff76d-20a6-9b28-a756-8ede7dfee4e9/pr_source.jpg/1024x1024bb.jpg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/9f/d2/10/9fd2100d-12df-4380-d5a2-43bf39c67ed4/d46dadae-df10-4752-abfe-b7f9f353d3af_simulator_screenshot_CCC269D5-8B0D-4F50-A223-6EC2093A76A9.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/il/app/superimpose-video-combine-movies-photos/id1185298870?uo=2",
+      "label": "https://apps.apple.com/il/app/awri-winemaking-calculators/id670156890?uo=2",
       "attributes": {
-        "im:id": "1185298870",
-        "im:bundleId": "com.icepine.mergevideopro"
+        "im:id": "670156890",
+        "im:bundleId": "au.com.awri.AWRI-Calc"
       }
     },
     "im:artist": {
-      "label": "LI XUAN NIU",
+      "label": "The Australian Wine Research Institute",
       "attributes": {
-        "href": "https://apps.apple.com/il/developer/li-xuan-niu/id944644382?uo=2"
+        "href": "https://apps.apple.com/il/developer/the-australian-wine-research-institute/id574345797?uo=2"
       }
     },
     "category": {
@@ -9581,9 +9479,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2016-12-15T11:08:57-07:00",
+      "label": "2013-07-14T09:20:47-07:00",
       "attributes": {
-        "label": "December 15, 2016"
+        "label": "July 14, 2013"
       }
     }
   },
@@ -9592,7 +9490,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 95,
+      "index": 94,
       "total": 99
     },
     "im:name": {
@@ -9694,7 +9592,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 96,
+      "index": 95,
       "total": 99
     },
     "im:name": {
@@ -9796,7 +9694,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 97,
+      "index": 96,
       "total": 99
     },
     "im:name": {
@@ -9898,7 +9796,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 98,
+      "index": 97,
       "total": 99
     },
     "im:name": {
@@ -10000,7 +9898,7 @@
       "country_code": "il",
       "pricing": "paid",
       "genre": "business",
-      "index": 99,
+      "index": 98,
       "total": 99
     },
     "im:name": {
@@ -10094,6 +9992,108 @@
       "label": "2013-11-11T20:30:34-07:00",
       "attributes": {
         "label": "November 11, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "il",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 99,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Time Master + Billing"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c1/ca/5e/c1ca5e6e-b694-e2c3-99d2-9e19c63fa5e7/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/c1/ca/5e/c1ca5e6e-b694-e2c3-99d2-9e19c63fa5e7/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/c1/ca/5e/c1ca5e6e-b694-e2c3-99d2-9e19c63fa5e7/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The best, most powerful, comprehensive, easy to use time keeping app on the Apple Store is now even better.\n\nOur biggest fans are consultants, attorneys and contractors. Time Master is used by individuals working independently, to attorneys from some of the biggest law firms in the USA. If you need to keep track of time and expenses, you can’t find a better app than Time Master. We at On-Core are IT professionals, so we have firsthand experience with billing and keeping track of time. We know from personal experience what is needed and have made this app so flexible, it works for virtually anyone in any industry in which time needs to be kept.\n\nFeatures:\n- Track time by start, stop and/or by duration\n- Sessions option can track \"punch-in & out\" for a single time entry\n- Single or multiple running timers\n- Timers keep running even if you are not running the app\n- Time Entries are by Client and can be sub-categorized by Project and Tasks\n- Powerful billing rates that can be defined in the following priority: Global, by Client, by Project, by Task or Custom per entry\n- Powerful Time Rounding: by hour, minutes and/or seconds\n- Multiple Filters to sort and view only what you need to see\n- Define the day of the week that your work week starts\n- Track Expenses - from Mileage to Meals to Burning CD's and anything else you want to define\n- Display Reports right on your device that you can view and export via email in HTML and/or CSV format. By Client or Timesheet\n- Copy Client information from your Contacts list\n- Dual taxes for countries such as Canada\n- Import IIF files\n- Full Backup & Restore capabilities\n- and so much more!\n\nOPTIONAL MODULES (one-time additional fee required as an \"In App Purchase\"):\n- Invoicing: If you want to do billing directly from your iPhone or iPod Touch then look no further. The most powerful invoicing module built directly into Time Master. Professional PDF invoices can be emailed to the client, including your own logo.\n- Quickbooks Export: Easily export your Time Entries with a QB IIF file. Win QB 2007 Pro or greater. Mac QB 2010+ with our TimeBridge app (fee applies). See site before purchase.\n- Synchronization: Wirelessly synchronize two or more devices. If you have an iPad and an iPhone and want to keep the data synchronized between the two devices, this is for you!\n\nTime Master can track both time and expenses. You can track time using start and stop times, duration, and/or timers. All time entries are tracked for a single day, so time entries cannot be greater than 24 hours. It will allow you to time across days, for example if you start a job at 8 p.m. and finish at 2 a.m., it will have a duration of 6 hours.\n\nExpenses can be setup for recurring fixed cost items, such as burning a CD, reimbursement of hardware items, or fluid things such as toll expenses, automobile mileage, etc.\n\nQuick reporting can be done on the iPhone / iPod Touch with the Reports function. The report can be emailed in an HTML and/or CSV format.\n\nAdding new Clients, Projects, Tasks and Expenditures is super easy.  You can create them on the fly without having to navigate to a separate maintenance screen. To edit them you can tap on Setup, do you edit and then return to where you left off in Time Entries or Expenses. By selecting a Project or Task first will automatically fill in the Client field for quick entry.\n\nWe’ve made everything as seamless as possible, as you would expect from a top class iOS application. Please click on the \"On-Core website\" link below to download the documentation on your computer."
+    },
+    "im:price": {
+      "label": "₪34.90",
+      "attributes": {
+        "amount": "34.90",
+        "currency": "ILS"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2009-2018 On-Core Software LLC"
+    },
+    "title": {
+      "label": "Time Master + Billing - On-Core Software LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/il/app/time-master-billing/id310289408?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/03/f7/89/03f789d4-0155-26c4-3874-ab9d73dcacff/mzl.dpttnnxj.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/il/app/time-master-billing/id310289408?uo=2",
+      "attributes": {
+        "im:id": "310289408",
+        "im:bundleId": "com.oncore.TimeMaster"
+      }
+    },
+    "im:artist": {
+      "label": "On-Core Software LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/il/developer/on-core-software-llc/id283621364?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/il/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-04-10T12:10:59-07:00",
+      "attributes": {
+        "label": "April 10, 2009"
       }
     }
   }

@@ -8,6 +8,108 @@
       "total": 100
     },
     "im:name": {
+      "label": "Binarhythmic Rhythm Generator"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/3c/22/2e3c220b-a36e-502b-b609-7c0a334c459e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/3c/22/2e3c220b-a36e-502b-b609-7c0a334c459e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/3c/22/2e3c220b-a36e-502b-b609-7c0a334c459e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Binarhythmic is a MIDI sequencer that would generate rhythmic outputs based on the binary numbers. \n\nThe sequencer has a counter, increasing on each sequencer cycle. The binary form of this number, something like \"010110011\". \nEach 0 or 1 is a \"Bit\", and each bit is a MIDI output. If a bit is 1 then the gate is open for that bit, and if it's 0 then the gate is closed for that bit. \n\nYou can use the Multiplier parameter for controlling the sequencer counter. \nThe rate parameter controls the sequencer speed. \n\nEach bit has a note, velocity, gate length, trigger type and logic operation. \nYou can also vary the velocity and gate length. With the lower amounts of variety, you can humanise the sounds like Hi-Hats. \nYou can assign different MIDI channels to the bits and control different synths.\n\nThe gate type is a very important parameter for the rhythm generation.\nOn each sequencer cycle, if the gate is open for a bit;\n- Rest mode doesn't send the MIDI.\n- Single mode sends the MIDI once for the first sequencer cycle when the gate is opened.\n- Multiple mode sends the MIDI on each sequencer cycle while the gate is opened.\n- Hold mode sends the MIDI when the gate is opened and sustains it until the gate is closed\n\nLogic is one of the most powerful features of Binarhythmic. You can create endless rhythmic possibilities by using the logic operations.\nYou can modulate the bits by applying logic operations on them with the other bits.\n- AND(&) operation opens the gate if the bit's gate is open AND the other bit's gate is open.\n- OR(+) operation opens the gate if the bit's gate is open OR the other bit's gate is open.\n- XOR(^) operation opens the gate if the other bit's gate is NOT open.\n\n\nBinarhythmic app runs as standalone app as well as AUv3 MIDI Plugin. You can create AU presets and use AU parameters of the AUv3 plugin. You can control or even automate every AU parameter of Binarhythmic. \n\nYou can modulate the multiplier parameter with PatternBud.\nYou can also control the key and scale with BrainBud.\n\nBinarhythmic is a MIDI app and does not produce any sound on its own. You need to route its MIDI output to an audio app. \nFor using the AUv3 plugin, you need an AUv3 host app such as AUM, Cubasis, Nanostudio, Loopy Pro etc."
+    },
+    "im:price": {
+      "label": "6,99 €",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Cem Olcay"
+    },
+    "title": {
+      "label": "Binarhythmic Rhythm Generator - Cem Olcay"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/binarhythmic-rhythm-generator/id6447797078?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b5/00/93/b50093fc-d470-b90e-0a68-c14269a23ccc/562caddf-5bb2-4cde-86ee-36beb1979737_IMG_0249.PNG/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/binarhythmic-rhythm-generator/id6447797078?uo=2",
+      "attributes": {
+        "im:id": "6447797078",
+        "im:bundleId": "com.cemolcay.Binarhythmic"
+      }
+    },
+    "im:artist": {
+      "label": "Cem Olcay",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/cem-olcay/id523633853?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-05-10T00:00:00-07:00",
+      "attributes": {
+        "label": "May 10, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 2,
+      "total": 100
+    },
+    "im:name": {
       "label": "iReal Pro"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 2,
+      "index": 3,
       "total": 100
     },
     "im:name": {
@@ -208,313 +310,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 3,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Chord!"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/61/8a/30/618a304d-4021-120e-7230-88400daac618/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/61/8a/30/618a304d-4021-120e-7230-88400daac618/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/61/8a/30/618a304d-4021-120e-7230-88400daac618/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Chord! is a chord and scale reference that works with any fretted instrument like guitar, basses, ukulele, banjos,… It computes and analyses all the possible fingerings for chords, scales, and arpeggios.\n\nWith Chord!, you can also write a song by simply dragging and dropping chords, transpose it in any key, compute the fingerings with any tuning and generate a beautiful print-ready PDF, etc.\n\nYou can also import your existing songs in text format (please note that the app does not ship with songs). You can also link audio tracks from your music library and play them at the same time while adjusting their pitch and/or speed.\n\nYou don't even have to know music theory to use it: behind its brute force, the app knows how to handle by itself some subtleties of music to give meaningful results.\n\nIf you don't have to be an advanced player to use the app, you can however take a look under the hood and tweak the parameters if you like! Whatever is your level or your instrument, Chord! will adapt and give you the most precise answer.\n\nYou can search for any chord, split (like D/F#), or not. If you're a beginner, you can choose the chord from a list, but you can also use the intelligent keyboard to enter the chord as it is written. If this keyboard is a great way to enter chords, it is also very useful to discover and understand how the chords are formed. You can also enter some notes on a neck to find which chords it can be. You can hear how each fingering sounds. Chord arpeggios are also supported, as well as drop voicings (drop 2, drop3, etc.).\n\nThe app also ships with the biggest list of named scales (and you can create your own scales). It analyses and presents them with nice interactive views (scale, score, and keyboard). Of course, it can also lay down these scales on a neck (with sound) and compute their fingerings. Like for chords, you can even search for a scale from its fingering!\n\nEach scale can be harmonized (decomposed into chords). You can also enter a sequence of chords to find which scale you can use to improvise onto.\n\nYou can use one of the hundred tunings that ship with the app, or you can add your own ones, for any instrument, with or without a capo, even with broken strings if you want!\n\nThe app uses custom and unique algorithms to generate charts, easily input complex harmonic structures, extract chords from fingerings, determine finger positions, compute keys of scales, generate chords from scales and find scales that go well with some chords.\n\nFor example, Chord! is the right tool in these situations:\n• You want to have your songbook available at any time, in your pocket;\n• You're a beginner and you want to know how to play easily a D/F# chord;\n• One gave you a ukulele and you want to know how to tune it and how to play the G Hawaiian scale;\n• You want to know on what scale you can improvise for some chord sequence (and the answer can be different than the Pentatonic minor!);\n• You want to print your song and share it with your band.\n• You want to experiment with this nice open tuning, moreover with a bottleneck;\n• Your little sister can't make bar chords and you want to show her how she can do without bars, with three (little) fingers only;\n• You want to impress your little sister by showing her how you can play the same chords with two bars!\n• You want to understand how this fingering for C13 is actually a fingering for C13;\n• You broke a string and want to know how to play some chords without;\n• You want to know how Django managed to play with two and a half fingers.\n\nThe app fully supports left-handed instruments.\n\nMain functions of the app:\n- Write, transpose, fingerize, print, and share songs;\n- Search chord fingerings (or chord charts);\n- Search chords from fingerings;\n- Search scale fingerings;\n- Search scales from fingerings;\n- Search chords from scale;\n- Search scales from chords."
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2013 Thomas Grapperon"
-    },
-    "title": {
-      "label": "Chord! - Thomas Grapperon"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/chord/id606691230?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/79/7a/25/797a25fc-835a-d9c1-1259-92c47e063885/ec043dac-f6f5-40dc-a69b-95db7c0ea192_iPad105_7.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/chord/id606691230?uo=2",
-      "attributes": {
-        "im:id": "606691230",
-        "im:bundleId": "com.RabugenTom.Chord"
-      }
-    },
-    "im:artist": {
-      "label": "Thomas Grapperon",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/thomas-grapperon/id606691233?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-03-14T00:00:00-07:00",
-      "attributes": {
-        "label": "March 14, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
       "index": 4,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Symphony – Music Notation"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/76/88/db/7688db56-2974-c055-0a48-eb50f4b8705a/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/76/88/db/7688db56-2974-c055-0a48-eb50f4b8705a/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/76/88/db/7688db56-2974-c055-0a48-eb50f4b8705a/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Symphony is the premiere notation app and notepad for professional musicians, composers, and students alike, allowing to you create anything from piano sheet music to large orchestrations directly on your iPhone.\n\nThe Pencil tool allows you to tap anywhere on the canvas to quickly add notes and chords with the multi-staff & multi-voice editor. Powerful editing features like vertical drag to transpose and On-Screen piano lets you compose even more quickly. \n\nSwitch to the other Select tool to highlight one or more notes to modify duration, transpose, erase, cut, or paste multiple tracks & bars anywhere you want.\n\nTo hear your performance, choose from 100+ acoustic instruments available for live, low-latency, multi-track playback. Import an existing Symphony/SP project or a MIDI/XML file to bring your music collection to life, with an interactive score display & interface optimized for the small screen.\n\nTo send your work to a different editor or to a sheet music viewer, Symphony can print your score with AirPrint, share it as a PDF attachment, or as a MIDI, MusicXML, or audio file to DropBox and iCloud Drive.\n\nMore Features:\n\n• Write notes using direct touch, an on-screen instrument, a MIDI input device, or even a QWERTY keyboard\n• Notate beautifully formatted chord charts & lead sheets using the Chord Symbol and Lyric tools.\n• Import MusicXML, MIDI, MXL, or Symphony files\n• Export as a PDF, MusicXML, MIDI, AAC, or Symphony file\n• Print the score from your iPad with AirPrint\n• Edit grace notes and percussion/drum set notation\n• Intuitive score and document navigation \n• Up to 15 instruments, 45 staves, 4 voices/layers per score\n• Record MIDI to notation in real-time using a click track\n• Backup & sync scores with iCloud\n• Edit tablature and standard music notation\n• Large selection of articulations & dynamics in the Expressions menu\n• Copy/Paste function can select multiple measures & staves, and cut single or multiple voices/layers\n• Unlimited undo and redo\n• Customizable stem directions & note beaming\n• Transposing instruments & concert pitch options\n• Change tempo or clef at any point in the score\n• Stream audio or share your screen wirelessly with AirPlay\n• Advanced document management support\n• Customizable part groupings for SATB and instrument families\n• Customizable chord symbol, lyric, and annotation font\n• Loop playback between a region selection\n• Auto-save\n\n\nFor more info, please visit:\n\n• Product overview: http://symphonypro.net/iphone\n• Ask support questions by visiting forums.symphonypro.net\n• Like us on Facebook at facebook.com/symphonyapp\n\n**************************************************\n• Symphony iPhone is now a paid app before download:\n– Free Edition users who have never upgraded can now enable Symphony: Full Edition by rating or reviewing the app"
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Xenon Labs, LLC"
-    },
-    "title": {
-      "label": "Symphony – Music Notation - Xenon Labs, LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/symphony-music-notation/id951251308?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/f8/34/fc/f834fce2-ae99-963f-011c-1f9fee6cee2a/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/symphony-music-notation/id951251308?uo=2",
-      "attributes": {
-        "im:id": "951251308",
-        "im:bundleId": "com.xeapps.symphony-iphone"
-      }
-    },
-    "im:artist": {
-      "label": "Xenon Labs, LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/xenon-labs-llc/id327764518?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-01-08T00:45:25-07:00",
-      "attributes": {
-        "label": "January 8, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 5,
-      "total": 100
-    },
-    "im:name": {
-      "label": "MolliLooper"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c7/a0/e6/c7a0e6f9-5a18-469d-f338-b4ac01f0eaee/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/c7/a0/e6/c7a0e6f9-5a18-469d-f338-b4ac01f0eaee/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/c7/a0/e6/c7a0e6f9-5a18-469d-f338-b4ac01f0eaee/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Molli Looper is a realtime stereo effect for looping and filtering. \nIntended mainly as a live performance tool, no preparation is needed to trigger loop recording - input is constantly recorded in the background to be triggered whenever it is needed.  \nLoop timing is synced to host clock, and can be adjusted from multi-bar loops right down to 16th note drills.  \nThe looped or unlooped audio is then passed though a lowpass -> neutral -> highpass resonant filter, based on a 4 pole ladder design for lush analogue style sound.  \nYou can use Molli Looper either as iOS Standalone app or as AUv3 plugin.\n\n\nFEATURES:\n\n- Combination of looper and stutter/freeze\n- Continuous recording: instant recording/looping\n- Runs in sync with host clock\n- Jumps to meaningful places in the recording: \"Snap to grid\"\n- Grid: 1/16, 1/8, 1/4, 1/2, 1, 2, 4, 8, 16, 32 beats\n- Ability to scroll through the recording\n- Lowpass/highpass resonant filter\n- Long Tap XY keeps filter position\n- Limiter/booster effect\n- Tap on Molli Looper icon for basic information"
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Mollilabs"
-    },
-    "title": {
-      "label": "MolliLooper - Oliver Greschke (DE)"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/mollilooper/id1622063262?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/d7/44/89/d7448951-8fdb-390a-23c4-41ca1392b30d/8e7e8835-5637-4b2d-b4e4-43b558a17766_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2023-05-06_at_20.10.23.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/mollilooper/id1622063262?uo=2",
-      "attributes": {
-        "im:id": "1622063262",
-        "im:bundleId": "com.MolliLabs.MolliLooper"
-      }
-    },
-    "im:artist": {
-      "label": "Oliver Greschke (DE)",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/oliver-greschke-de/id505848000?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-05-14T00:00:00-07:00",
-      "attributes": {
-        "label": "May 14, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 6,
       "total": 100
     },
     "im:name": {
@@ -616,7 +412,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 7,
+      "index": 5,
       "total": 100
     },
     "im:name": {
@@ -718,7 +514,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 8,
+      "index": 6,
       "total": 100
     },
     "im:name": {
@@ -820,7 +616,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 9,
+      "index": 7,
       "total": 100
     },
     "im:name": {
@@ -922,7 +718,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 10,
+      "index": 8,
       "total": 100
     },
     "im:name": {
@@ -1024,7 +820,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 11,
+      "index": 9,
       "total": 100
     },
     "im:name": {
@@ -1126,7 +922,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 12,
+      "index": 10,
       "total": 100
     },
     "im:name": {
@@ -1228,7 +1024,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 13,
+      "index": 11,
       "total": 100
     },
     "im:name": {
@@ -1330,7 +1126,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 14,
+      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -1432,7 +1228,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 15,
+      "index": 13,
       "total": 100
     },
     "im:name": {
@@ -1534,7 +1330,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 16,
+      "index": 14,
       "total": 100
     },
     "im:name": {
@@ -1636,7 +1432,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 17,
+      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1738,7 +1534,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 18,
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1840,109 +1636,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 19,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Ableton Note"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/45/6c/14/456c1485-ee71-8abc-d45b-087992f22b1b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/45/6c/14/456c1485-ee71-8abc-d45b-087992f22b1b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/45/6c/14/456c1485-ee71-8abc-d45b-087992f22b1b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Note is a place to form ideas, experiment with sounds and find direction. Get your ideas out or play until inspiration hits using a selection of Ableton Live’s drum kits, synths and melodic instruments. Or create your own sound palette by recording the sounds around you into Note’s sampler instruments using your phone’s microphone. \n\nIf you want to take your ideas further, use Ableton Cloud to send your projects to Live (version 11.2.5 or later) without leaving the app. Open your project from Live’s browser, then keep working – you can edit all your MIDI notes, and all your samples and sounds from Note are exactly the same.\n\n\nBegin with a beat: \n• Choose from 56 Drum Sampler kits\n• Tap out a beat using the 16-pad grid\n• Quantize your beat to fix any loose timing\n• Nudge notes to correct mistakes\n• Add more layers of rhythm\n• Create beat repetitions with Note Repeat\n• Change parameters to shape your sound\n• Experiment with effects \n\nStart with a melody:\n• Choose from 261 synth sounds and 36 Melodic Sampler instruments\n• Play your melody or chord progression with either the 25-pad grid or the piano roll\n• Set a key and scale to get instantly harmonic results, or leave your options open\n• Overdub more layers of harmony\n• Change parameters to shape your sound\n• Add effects to experiment with sound design\n\nSample your environment:\n• Create your own kits by recording percussive sounds into Note’s Drum Sampler \n• Record tonal sounds to create your own Melodic Sampler instruments\n• Manipulate your samples by cutting, filtering or repitching them\n• Shape or transform your sounds with effects\n\nCapture improvisations:\n• Play something, then tap the Capture button to keep it\n• Play at the tempo that feels comfortable and Note will detect it\n• Note will recognize the length of the phrase\n• A loop is created automatically\n• Quantize it, add to it, or change the sound\n\nCreate variations:\n• Note features a grid-based Session View layout\n• Double your loops to create variation within clips\n• Duplicate your clips and create different versions of your ideas\n• Create eight tracks with up to eight clips on eight scenes\n• Try different layer combinations and song structures \n• Export your work in Session View as an audio file to listen and share"
-    },
-    "im:price": {
-      "label": "6,99 €",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© (c) Ableton AG 2022"
-    },
-    "title": {
-      "label": "Ableton Note - Ableton AG"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/ableton-note/id1633243177?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/95/8a/59/958a595d-8177-4e07-0cab-e054d4f70e71/e2c3a242-b1c5-4785-a337-0f9c0e3202ef_iPad_Pro_12.9__-_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/ableton-note/id1633243177?uo=2",
-      "attributes": {
-        "im:id": "1633243177",
-        "im:bundleId": "com.ableton.note"
-      }
-    },
-    "im:artist": {
-      "label": "Ableton AG",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/ableton-ag/id1228664884?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-10-18T00:00:00-07:00",
-      "attributes": {
-        "label": "October 18, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 20,
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -2044,7 +1738,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 21,
+      "index": 18,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Ableton Note"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/45/6c/14/456c1485-ee71-8abc-d45b-087992f22b1b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/45/6c/14/456c1485-ee71-8abc-d45b-087992f22b1b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/45/6c/14/456c1485-ee71-8abc-d45b-087992f22b1b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Note is a place to form ideas, experiment with sounds and find direction. Get your ideas out or play until inspiration hits using a selection of Ableton Live’s drum kits, synths and melodic instruments. Or create your own sound palette by recording the sounds around you into Note’s sampler instruments using your phone’s microphone. \n\nIf you want to take your ideas further, use Ableton Cloud to send your projects to Live (version 11.2.5 or later) without leaving the app. Open your project from Live’s browser, then keep working – you can edit all your MIDI notes, and all your samples and sounds from Note are exactly the same.\n\n\nBegin with a beat: \n• Choose from 56 Drum Sampler kits\n• Tap out a beat using the 16-pad grid\n• Quantize your beat to fix any loose timing\n• Nudge notes to correct mistakes\n• Add more layers of rhythm\n• Create beat repetitions with Note Repeat\n• Change parameters to shape your sound\n• Experiment with effects \n\nStart with a melody:\n• Choose from 261 synth sounds and 36 Melodic Sampler instruments\n• Play your melody or chord progression with either the 25-pad grid or the piano roll\n• Set a key and scale to get instantly harmonic results, or leave your options open\n• Overdub more layers of harmony\n• Change parameters to shape your sound\n• Add effects to experiment with sound design\n\nSample your environment:\n• Create your own kits by recording percussive sounds into Note’s Drum Sampler \n• Record tonal sounds to create your own Melodic Sampler instruments\n• Manipulate your samples by cutting, filtering or repitching them\n• Shape or transform your sounds with effects\n\nCapture improvisations:\n• Play something, then tap the Capture button to keep it\n• Play at the tempo that feels comfortable and Note will detect it\n• Note will recognize the length of the phrase\n• A loop is created automatically\n• Quantize it, add to it, or change the sound\n\nCreate variations:\n• Note features a grid-based Session View layout\n• Double your loops to create variation within clips\n• Duplicate your clips and create different versions of your ideas\n• Create eight tracks with up to eight clips on eight scenes\n• Try different layer combinations and song structures \n• Export your work in Session View as an audio file to listen and share"
+    },
+    "im:price": {
+      "label": "6,99 €",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© (c) Ableton AG 2022"
+    },
+    "title": {
+      "label": "Ableton Note - Ableton AG"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/ableton-note/id1633243177?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/95/8a/59/958a595d-8177-4e07-0cab-e054d4f70e71/e2c3a242-b1c5-4785-a337-0f9c0e3202ef_iPad_Pro_12.9__-_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/ableton-note/id1633243177?uo=2",
+      "attributes": {
+        "im:id": "1633243177",
+        "im:bundleId": "com.ableton.note"
+      }
+    },
+    "im:artist": {
+      "label": "Ableton AG",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/ableton-ag/id1228664884?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-18T00:00:00-07:00",
+      "attributes": {
+        "label": "October 18, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 19,
       "total": 100
     },
     "im:name": {
@@ -2146,7 +1942,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 22,
+      "index": 20,
       "total": 100
     },
     "im:name": {
@@ -2248,7 +2044,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 23,
+      "index": 21,
       "total": 100
     },
     "im:name": {
@@ -2350,7 +2146,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 24,
+      "index": 22,
       "total": 100
     },
     "im:name": {
@@ -2452,109 +2248,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 25,
-      "total": 100
-    },
-    "im:name": {
-      "label": "VirtualDJ Remote"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/df/7b/3b/df7b3b5e-0785-d85f-66e6-44a396d33d71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/df/7b/3b/df7b3b5e-0785-d85f-66e6-44a396d33d71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/df/7b/3b/df7b3b5e-0785-d85f-66e6-44a396d33d71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Mix with VirtualDJ directly from your iPhone or iPad !\n\nWhether you want to use your iPad as a virtual scratch turntable, or just want to step away from the booth for a moment but still continue to monitor the mix from your iPhone, or even want to mix the whole gig wirelessly from your iPad while the computer plugged to your sound system delivers the beats, the VirtualDJ Remote application gives you full freedom to operate VirtualDJ over a WIFI connection.\n\nIMPORTANT NOTICE: this application needs to connect to the software VirtualDJ running on a Mac or PC computer. The VirtualDJ software is available for FREE on www.virtualdj.com\n\n\nSIMPLE WIRELESS SETUP:\nVirtualDJ Remote and VirtualDJ Software connect over a simple Wifi connection.\nIf you are already using a wifi network, the connection will be done automatically, using Bonjour.\nOtherwise, you can easily create an ad-hoc wifi network, and enter the device IP address in the VirtualDJ software for immediate connection.\n\nEASY AUDIO CONFIGURATION:\nThe audio is being played by the computer, so you just need to plug your audio system to your computer, no need to carry audio wires to your iPhone/iPad.\n\nSUPPORT THE FULL POWER OF VIRTUALDJ:\nVirtualDJ is the most used DJ software, with more than 100,000,000 users, and has been used reliably by professional DJs all over the world for the past 10 years.\nIt features almost everything a DJ can need, from beat mixing, effects, song suggestions, samplers, video mixing, etc.\n\nMAXIMUM VERSATILITY:\nThe interface and functionalities of the VirtualDJ Remote can be completely tailored to your exact needs, by using new Skins.\nThe Skin format is compatible with the popular VirtualDJ’s skin SDK, and thousands of users are working on creating skins to fit every needs. You can download their creations, or easily create one by yourself.\nAnything is possible, from a full-featured sampler pad, an effect table, a turntable emulator, a complete controller, or whatever else your imagination and need will come up with.\n\nYOU CAN DO MORE:\n- Mix music videos and plug your computer to a projector to get the video out\n- Broadcast your mix live on Internet radios\n- Record your sessions on your computer\n- Get personalized advices on what to play next with MusicGroups\n- Mix with 3, 4, 6, or how many decks you want simultaneously (up to 99)"
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 Atomix Productions"
-    },
-    "title": {
-      "label": "VirtualDJ Remote - Atomix Productions America Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/virtualdj-remote/id407160120?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/70/93/58/709358ec-320d-8d7a-a217-3d8c1fb9c772/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/virtualdj-remote/id407160120?uo=2",
-      "attributes": {
-        "im:id": "407160120",
-        "im:bundleId": "com.atomixproductions.VirtualDJRemote"
-      }
-    },
-    "im:artist": {
-      "label": "Atomix Productions America Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/atomix-productions-america-inc/id938290526?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-12-15T20:48:14-07:00",
-      "attributes": {
-        "label": "December 15, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 26,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2656,7 +2350,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 27,
+      "index": 24,
+      "total": 100
+    },
+    "im:name": {
+      "label": "VirtualDJ Remote"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/df/7b/3b/df7b3b5e-0785-d85f-66e6-44a396d33d71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/df/7b/3b/df7b3b5e-0785-d85f-66e6-44a396d33d71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/df/7b/3b/df7b3b5e-0785-d85f-66e6-44a396d33d71/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Mix with VirtualDJ directly from your iPhone or iPad !\n\nWhether you want to use your iPad as a virtual scratch turntable, or just want to step away from the booth for a moment but still continue to monitor the mix from your iPhone, or even want to mix the whole gig wirelessly from your iPad while the computer plugged to your sound system delivers the beats, the VirtualDJ Remote application gives you full freedom to operate VirtualDJ over a WIFI connection.\n\nIMPORTANT NOTICE: this application needs to connect to the software VirtualDJ running on a Mac or PC computer. The VirtualDJ software is available for FREE on www.virtualdj.com\n\n\nSIMPLE WIRELESS SETUP:\nVirtualDJ Remote and VirtualDJ Software connect over a simple Wifi connection.\nIf you are already using a wifi network, the connection will be done automatically, using Bonjour.\nOtherwise, you can easily create an ad-hoc wifi network, and enter the device IP address in the VirtualDJ software for immediate connection.\n\nEASY AUDIO CONFIGURATION:\nThe audio is being played by the computer, so you just need to plug your audio system to your computer, no need to carry audio wires to your iPhone/iPad.\n\nSUPPORT THE FULL POWER OF VIRTUALDJ:\nVirtualDJ is the most used DJ software, with more than 100,000,000 users, and has been used reliably by professional DJs all over the world for the past 10 years.\nIt features almost everything a DJ can need, from beat mixing, effects, song suggestions, samplers, video mixing, etc.\n\nMAXIMUM VERSATILITY:\nThe interface and functionalities of the VirtualDJ Remote can be completely tailored to your exact needs, by using new Skins.\nThe Skin format is compatible with the popular VirtualDJ’s skin SDK, and thousands of users are working on creating skins to fit every needs. You can download their creations, or easily create one by yourself.\nAnything is possible, from a full-featured sampler pad, an effect table, a turntable emulator, a complete controller, or whatever else your imagination and need will come up with.\n\nYOU CAN DO MORE:\n- Mix music videos and plug your computer to a projector to get the video out\n- Broadcast your mix live on Internet radios\n- Record your sessions on your computer\n- Get personalized advices on what to play next with MusicGroups\n- Mix with 3, 4, 6, or how many decks you want simultaneously (up to 99)"
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 Atomix Productions"
+    },
+    "title": {
+      "label": "VirtualDJ Remote - Atomix Productions America Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/virtualdj-remote/id407160120?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/70/93/58/709358ec-320d-8d7a-a217-3d8c1fb9c772/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/virtualdj-remote/id407160120?uo=2",
+      "attributes": {
+        "im:id": "407160120",
+        "im:bundleId": "com.atomixproductions.VirtualDJRemote"
+      }
+    },
+    "im:artist": {
+      "label": "Atomix Productions America Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/atomix-productions-america-inc/id938290526?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-12-15T20:48:14-07:00",
+      "attributes": {
+        "label": "December 15, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +2554,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 28,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2860,7 +2656,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 29,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -2962,7 +2758,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 30,
+      "index": 28,
       "total": 100
     },
     "im:name": {
@@ -3064,7 +2860,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 31,
+      "index": 29,
       "total": 100
     },
     "im:name": {
@@ -3166,7 +2962,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 32,
+      "index": 30,
       "total": 100
     },
     "im:name": {
@@ -3268,7 +3064,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 33,
+      "index": 31,
       "total": 100
     },
     "im:name": {
@@ -3370,7 +3166,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 34,
+      "index": 32,
       "total": 100
     },
     "im:name": {
@@ -3472,7 +3268,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 35,
+      "index": 33,
       "total": 100
     },
     "im:name": {
@@ -3574,7 +3370,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 36,
+      "index": 34,
       "total": 100
     },
     "im:name": {
@@ -3676,7 +3472,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 37,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3778,7 +3574,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 38,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3880,7 +3676,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 39,
+      "index": 37,
       "total": 100
     },
     "im:name": {
@@ -3982,7 +3778,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 40,
+      "index": 38,
       "total": 100
     },
     "im:name": {
@@ -4076,6 +3872,210 @@
       "label": "2009-10-23T00:00:00-07:00",
       "attributes": {
         "label": "October 23, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 39,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Chord!"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/61/8a/30/618a304d-4021-120e-7230-88400daac618/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/61/8a/30/618a304d-4021-120e-7230-88400daac618/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/61/8a/30/618a304d-4021-120e-7230-88400daac618/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Chord! is a chord and scale reference that works with any fretted instrument like guitar, basses, ukulele, banjos,… It computes and analyses all the possible fingerings for chords, scales, and arpeggios.\n\nWith Chord!, you can also write a song by simply dragging and dropping chords, transpose it in any key, compute the fingerings with any tuning and generate a beautiful print-ready PDF, etc.\n\nYou can also import your existing songs in text format (please note that the app does not ship with songs). You can also link audio tracks from your music library and play them at the same time while adjusting their pitch and/or speed.\n\nYou don't even have to know music theory to use it: behind its brute force, the app knows how to handle by itself some subtleties of music to give meaningful results.\n\nIf you don't have to be an advanced player to use the app, you can however take a look under the hood and tweak the parameters if you like! Whatever is your level or your instrument, Chord! will adapt and give you the most precise answer.\n\nYou can search for any chord, split (like D/F#), or not. If you're a beginner, you can choose the chord from a list, but you can also use the intelligent keyboard to enter the chord as it is written. If this keyboard is a great way to enter chords, it is also very useful to discover and understand how the chords are formed. You can also enter some notes on a neck to find which chords it can be. You can hear how each fingering sounds. Chord arpeggios are also supported, as well as drop voicings (drop 2, drop3, etc.).\n\nThe app also ships with the biggest list of named scales (and you can create your own scales). It analyses and presents them with nice interactive views (scale, score, and keyboard). Of course, it can also lay down these scales on a neck (with sound) and compute their fingerings. Like for chords, you can even search for a scale from its fingering!\n\nEach scale can be harmonized (decomposed into chords). You can also enter a sequence of chords to find which scale you can use to improvise onto.\n\nYou can use one of the hundred tunings that ship with the app, or you can add your own ones, for any instrument, with or without a capo, even with broken strings if you want!\n\nThe app uses custom and unique algorithms to generate charts, easily input complex harmonic structures, extract chords from fingerings, determine finger positions, compute keys of scales, generate chords from scales and find scales that go well with some chords.\n\nFor example, Chord! is the right tool in these situations:\n• You want to have your songbook available at any time, in your pocket;\n• You're a beginner and you want to know how to play easily a D/F# chord;\n• One gave you a ukulele and you want to know how to tune it and how to play the G Hawaiian scale;\n• You want to know on what scale you can improvise for some chord sequence (and the answer can be different than the Pentatonic minor!);\n• You want to print your song and share it with your band.\n• You want to experiment with this nice open tuning, moreover with a bottleneck;\n• Your little sister can't make bar chords and you want to show her how she can do without bars, with three (little) fingers only;\n• You want to impress your little sister by showing her how you can play the same chords with two bars!\n• You want to understand how this fingering for C13 is actually a fingering for C13;\n• You broke a string and want to know how to play some chords without;\n• You want to know how Django managed to play with two and a half fingers.\n\nThe app fully supports left-handed instruments.\n\nMain functions of the app:\n- Write, transpose, fingerize, print, and share songs;\n- Search chord fingerings (or chord charts);\n- Search chords from fingerings;\n- Search scale fingerings;\n- Search scales from fingerings;\n- Search chords from scale;\n- Search scales from chords."
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2013 Thomas Grapperon"
+    },
+    "title": {
+      "label": "Chord! - Thomas Grapperon"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/chord/id606691230?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/79/7a/25/797a25fc-835a-d9c1-1259-92c47e063885/ec043dac-f6f5-40dc-a69b-95db7c0ea192_iPad105_7.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/chord/id606691230?uo=2",
+      "attributes": {
+        "im:id": "606691230",
+        "im:bundleId": "com.RabugenTom.Chord"
+      }
+    },
+    "im:artist": {
+      "label": "Thomas Grapperon",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/thomas-grapperon/id606691233?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-03-14T00:00:00-07:00",
+      "attributes": {
+        "label": "March 14, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 40,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Guitar Chords"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/19/55/5e/19555e82-3c7c-3dad-5be9-2fc90da662ee/mzl.aqnjppfh.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/19/55/5e/19555e82-3c7c-3dad-5be9-2fc90da662ee/mzl.aqnjppfh.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/19/55/5e/19555e82-3c7c-3dad-5be9-2fc90da662ee/mzl.aqnjppfh.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Quickly and easily learn to play chords with Guitar Chords for iOS.  With playback, left handed support and a packed library, Guitar Chords is a great chord reference tool for both beginners and more advanced musicians.\n\nThe easy to use interface makes for easy chord finding. Simply select a key and a chord type, and the chord position will display. Simple as that!\n\nCycle through multiple chord positions along the guitar neck and hear how they sound.  Guitar Chords also lets you save chords to a clipboard so you can have multiple chords easily available when learning a new song!\n\nFeatures\n• Many different chord types with multiple positions along the guitar neck\n• Play each chord and hear what they sound like\n• Left and right handed layouts\n• Acoustic guitar sound samples\n• Chord Clipboard so you can reference multiple chords\n• Color customization options\n\nTroubleshooting\n• If you can't hear sounds, please make sure that your device's ringer switch (on the side of it) is turned on & the volume is up"
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© rubbleDEV 2017"
+    },
+    "title": {
+      "label": "Guitar Chords - Brent Chionh"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/guitar-chords/id294168446?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/a9/60/ca/a960caa9-a723-de1e-9359-376b34ae6335/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/guitar-chords/id294168446?uo=2",
+      "attributes": {
+        "im:id": "294168446",
+        "im:bundleId": "com.yourcompany.GuitarChords"
+      }
+    },
+    "im:artist": {
+      "label": "Brent Chionh",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/brent-chionh/id287630679?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2008-10-20T17:01:19-07:00",
+      "attributes": {
+        "label": "October 20, 2008"
       }
     }
   },
@@ -4190,210 +4190,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Guitar Chords"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/19/55/5e/19555e82-3c7c-3dad-5be9-2fc90da662ee/mzl.aqnjppfh.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/19/55/5e/19555e82-3c7c-3dad-5be9-2fc90da662ee/mzl.aqnjppfh.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/19/55/5e/19555e82-3c7c-3dad-5be9-2fc90da662ee/mzl.aqnjppfh.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Quickly and easily learn to play chords with Guitar Chords for iOS.  With playback, left handed support and a packed library, Guitar Chords is a great chord reference tool for both beginners and more advanced musicians.\n\nThe easy to use interface makes for easy chord finding. Simply select a key and a chord type, and the chord position will display. Simple as that!\n\nCycle through multiple chord positions along the guitar neck and hear how they sound.  Guitar Chords also lets you save chords to a clipboard so you can have multiple chords easily available when learning a new song!\n\nFeatures\n• Many different chord types with multiple positions along the guitar neck\n• Play each chord and hear what they sound like\n• Left and right handed layouts\n• Acoustic guitar sound samples\n• Chord Clipboard so you can reference multiple chords\n• Color customization options\n\nTroubleshooting\n• If you can't hear sounds, please make sure that your device's ringer switch (on the side of it) is turned on & the volume is up"
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© rubbleDEV 2017"
-    },
-    "title": {
-      "label": "Guitar Chords - Brent Chionh"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/guitar-chords/id294168446?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/a9/60/ca/a960caa9-a723-de1e-9359-376b34ae6335/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/guitar-chords/id294168446?uo=2",
-      "attributes": {
-        "im:id": "294168446",
-        "im:bundleId": "com.yourcompany.GuitarChords"
-      }
-    },
-    "im:artist": {
-      "label": "Brent Chionh",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/brent-chionh/id287630679?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2008-10-20T17:01:19-07:00",
-      "attributes": {
-        "label": "October 20, 2008"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 43,
-      "total": 100
-    },
-    "im:name": {
-      "label": "XAir Monitor Mixer"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "XAir Monitor Mixer is a personal monitor mixer for select Behringer and Midas digital mixers. It allows each musician on stage to choose exactly what they hear in their monitor without affecting (or being able to affect, even by accident) the band's main mix.\n\nXAir Monitor Mixer supports the Behringer X18, XR18, XR16, XR12, and the Midas MR18 and MR12.\n\nXAir Monitor Mixer deliberately does not include controls that would allow a musician on stage to accidentally mute channels or otherwise alter the main mix.\n\nUsage:\n\n1. Connect to the same WiFi network as the XR18.  In most cases, this should be enough for the app to find your mixer. However, if your sound engineer has changed the default address of the mixer, you'll have to enter that address in the app's connection screen.\n2. Choose which monitor you want to mix. If your sound engineer hasn't named these in a way that makes it obvious which is yours, ask him which is yours.\n3. Mix away. :)\n\nIf you have feedback, suggestions, or bug reports, please visit the forums at xairmonitormixer.tetzfiles.com or send an email to xairmonitormixer@tetzfiles.com.\n\nNote: support for mixers other than XR18 was recently added. If you run into any issues, please let us know. Ensuring proper compatibility with all supported mixers is our top priority."
-    },
-    "im:price": {
-      "label": "3,99 €",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 Tetzfiles"
-    },
-    "title": {
-      "label": "XAir Monitor Mixer - Eric Tetz"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/xair-monitor-mixer/id1271279395?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/b1/6b/68/b16b68a7-ca5b-791b-29ed-13668c540a97/mzl.mcdflhnd.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/xair-monitor-mixer/id1271279395?uo=2",
-      "attributes": {
-        "im:id": "1271279395",
-        "im:bundleId": "com.tetzfiles.XAirMonitorMixer"
-      }
-    },
-    "im:artist": {
-      "label": "Eric Tetz",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/eric-tetz/id1271279394?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-09-06T20:34:34-07:00",
-      "attributes": {
-        "label": "September 6, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 44,
-      "total": 100
-    },
-    "im:name": {
       "label": "iStroboSoft"
     },
     "im:image": [
@@ -4492,7 +4288,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 45,
+      "index": 43,
       "total": 100
     },
     "im:name": {
@@ -4594,7 +4390,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 46,
+      "index": 44,
       "total": 100
     },
     "im:name": {
@@ -4696,7 +4492,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 47,
+      "index": 45,
+      "total": 100
+    },
+    "im:name": {
+      "label": "XAir Monitor Mixer"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/27/58/17/2758177f-4ff2-2b09-95d5-159363d63016/AppIcon-1-0-1x_U007emarketing-0-85-220-7.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "XAir Monitor Mixer is a personal monitor mixer for select Behringer and Midas digital mixers. It allows each musician on stage to choose exactly what they hear in their monitor without affecting (or being able to affect, even by accident) the band's main mix.\n\nXAir Monitor Mixer supports the Behringer X18, XR18, XR16, XR12, and the Midas MR18 and MR12.\n\nXAir Monitor Mixer deliberately does not include controls that would allow a musician on stage to accidentally mute channels or otherwise alter the main mix.\n\nUsage:\n\n1. Connect to the same WiFi network as the XR18.  In most cases, this should be enough for the app to find your mixer. However, if your sound engineer has changed the default address of the mixer, you'll have to enter that address in the app's connection screen.\n2. Choose which monitor you want to mix. If your sound engineer hasn't named these in a way that makes it obvious which is yours, ask him which is yours.\n3. Mix away. :)\n\nIf you have feedback, suggestions, or bug reports, please visit the forums at xairmonitormixer.tetzfiles.com or send an email to xairmonitormixer@tetzfiles.com.\n\nNote: support for mixers other than XR18 was recently added. If you run into any issues, please let us know. Ensuring proper compatibility with all supported mixers is our top priority."
+    },
+    "im:price": {
+      "label": "3,99 €",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 Tetzfiles"
+    },
+    "title": {
+      "label": "XAir Monitor Mixer - Eric Tetz"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/xair-monitor-mixer/id1271279395?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/b1/6b/68/b16b68a7-ca5b-791b-29ed-13668c540a97/mzl.mcdflhnd.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/xair-monitor-mixer/id1271279395?uo=2",
+      "attributes": {
+        "im:id": "1271279395",
+        "im:bundleId": "com.tetzfiles.XAirMonitorMixer"
+      }
+    },
+    "im:artist": {
+      "label": "Eric Tetz",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/eric-tetz/id1271279394?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-09-06T20:34:34-07:00",
+      "attributes": {
+        "label": "September 6, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 46,
       "total": 100
     },
     "im:name": {
@@ -4798,7 +4696,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 48,
+      "index": 47,
       "total": 100
     },
     "im:name": {
@@ -4900,7 +4798,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 49,
+      "index": 48,
       "total": 100
     },
     "im:name": {
@@ -5002,7 +4900,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 50,
+      "index": 49,
       "total": 100
     },
     "im:name": {
@@ -5104,7 +5002,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 51,
+      "index": 50,
       "total": 100
     },
     "im:name": {
@@ -5206,7 +5104,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 52,
+      "index": 51,
       "total": 100
     },
     "im:name": {
@@ -5308,109 +5206,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 53,
-      "total": 100
-    },
-    "im:name": {
-      "label": "KORG iKaossilator"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/73/3a/c5/733ac588-ec14-9dbd-810a-dbc8c67a3590/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/73/3a/c5/733ac588-ec14-9dbd-810a-dbc8c67a3590/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/73/3a/c5/733ac588-ec14-9dbd-810a-dbc8c67a3590/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The inspiringly creative Kaossilator comes to iPhone!\n\nKorg has revolutionized the musical instrument world with their dynamic line of Kaoss products, using an intuitive X-Y pad to provide expressive musical control. The palm-sized KAOSSILATOR synthesizer placed modern music-making in the hands of thousands of musicians and non-musicians alike. Now that same excitement has been captured in the iKaossilator app for iPhone!\n\n[Highlights]\n● Play sounds by simply stroking, tapping, or rubbing the screen with your finger\n● Bold Visual Effects move along with your performance and add excitement\n● 150 diverse built-in sounds cover any style of dance music\n● Scale/Key settings allow anyone to perform with musical precision\n● Easily create tracks with the loop sequencer using up to five parts\n● Control loops in real time for DJ-Style live performances\n● Audio Export records and saves your performance, just as you heard it\n● SoundCloud allows users to share and remix loops with other users worldwide\n● WIST capability allows wireless sync-start with other music apps\n● AudioCopy/AudioPaste Support\n● Audio Loop Import\n● Seamless operation in tandem with the Kaossilator 2\n\n■ Perform Using A Single Finger\niKaossilator uses the unique X-Y interface made famous by Korg’s entire Kaoss Line, including the original hand-held KAOSSILATOR. Create melodies and phrases simply by stroking, tapping, or rubbing the touch screen with your finger; no musical knowledge is required.\n\n■ Bright, Colorful Visual Effects\niKaossilator is also focused on its graphic design, which shows up beautifully on the iPhone's high-quality display. The visual effects on the iPhone's display move along with your performance and add excitement. These bold, colorful graphics provide an exciting performance experience.\n\n■ 150 Diverse Sounds Covering Many Musical Styles\nUse the 150 built-in sounds to perform and produce a broad range of dance music styles including hip-hop, house, techno, dubstep, nu-disco, and electro. Enjoy the synth leads and synth bass sounds you expect from a synthesizer. The drum sounds let you play and manipulate various patterns simply by moving your finger.\n\n■ Loop Sequencer\nThe built-in loop sequencer lets you layer up to five musical parts. To create a track, simply assign a loop such as synth, bass, chords, sound effects, or drums to each part. Fifty loops created by professional musicians are built-in to help you get started quickly. In addition to its track-making capabilities, this loop sequencer is also a great feature for live performance. The Mix Play feature makes it easy to enjoy live remixing; you can switch seamlessly to another loop or extract a specific part from another loop while the playback continues.\n\n■ Audio Export\nYou can record your performance in real time, or export a completed loop as an audio file. By sending your creations to a Mac or PC via iTunes, you can share them with your friends or use them in a full-fledged music production. You can also upload them directly to SoundCloud.\n\n■ Share Loops on SoundCloud\nn online audio platform that's very popular among musical creators. The loops you create can be uploaded directly to SoundCloud from within the app. If you attach the loop data, it will be shared to other users' loop lists. Users worldwide will be exposed to new loops they've never heard, and can combine them with their own loops to create remixes. It's a new way of enjoying music by and unleashing your iKaossilator’s potential throughout the world.\n∗ When using SoundCloud, you must observe SoundCloud Ltd.'s terms of use, such as the prohibition on uploading songs whose copyright is the property of a third party.\n\nFollow us!\n● Facebook : http://www.facebook.com/korg.iapps \n● Twitter : http://www.twitter.com/korg_iapps"
-    },
-    "im:price": {
-      "label": "22,99 €",
-      "attributes": {
-        "amount": "22.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2011-2019 KORG INC."
-    },
-    "title": {
-      "label": "KORG iKaossilator - KORG INC."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/korg-ikaossilator/id452559831?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/04/d6/7f/04d67f0d-0dc1-ef28-b5ef-fb0e40d9a719/mzl.rdqftrbg.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/korg-ikaossilator/id452559831?uo=2",
-      "attributes": {
-        "im:id": "452559831",
-        "im:bundleId": "jp.co.korg.ikaossilator"
-      }
-    },
-    "im:artist": {
-      "label": "KORG INC.",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/korg-inc/id363714046?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-10-14T00:00:00-07:00",
-      "attributes": {
-        "label": "October 14, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 54,
+      "index": 52,
       "total": 100
     },
     "im:name": {
@@ -5512,7 +5308,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 55,
+      "index": 53,
       "total": 100
     },
     "im:name": {
@@ -5614,7 +5410,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 56,
+      "index": 54,
+      "total": 100
+    },
+    "im:name": {
+      "label": "KORG iKaossilator"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/73/3a/c5/733ac588-ec14-9dbd-810a-dbc8c67a3590/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/73/3a/c5/733ac588-ec14-9dbd-810a-dbc8c67a3590/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/73/3a/c5/733ac588-ec14-9dbd-810a-dbc8c67a3590/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The inspiringly creative Kaossilator comes to iPhone!\n\nKorg has revolutionized the musical instrument world with their dynamic line of Kaoss products, using an intuitive X-Y pad to provide expressive musical control. The palm-sized KAOSSILATOR synthesizer placed modern music-making in the hands of thousands of musicians and non-musicians alike. Now that same excitement has been captured in the iKaossilator app for iPhone!\n\n[Highlights]\n● Play sounds by simply stroking, tapping, or rubbing the screen with your finger\n● Bold Visual Effects move along with your performance and add excitement\n● 150 diverse built-in sounds cover any style of dance music\n● Scale/Key settings allow anyone to perform with musical precision\n● Easily create tracks with the loop sequencer using up to five parts\n● Control loops in real time for DJ-Style live performances\n● Audio Export records and saves your performance, just as you heard it\n● SoundCloud allows users to share and remix loops with other users worldwide\n● WIST capability allows wireless sync-start with other music apps\n● AudioCopy/AudioPaste Support\n● Audio Loop Import\n● Seamless operation in tandem with the Kaossilator 2\n\n■ Perform Using A Single Finger\niKaossilator uses the unique X-Y interface made famous by Korg’s entire Kaoss Line, including the original hand-held KAOSSILATOR. Create melodies and phrases simply by stroking, tapping, or rubbing the touch screen with your finger; no musical knowledge is required.\n\n■ Bright, Colorful Visual Effects\niKaossilator is also focused on its graphic design, which shows up beautifully on the iPhone's high-quality display. The visual effects on the iPhone's display move along with your performance and add excitement. These bold, colorful graphics provide an exciting performance experience.\n\n■ 150 Diverse Sounds Covering Many Musical Styles\nUse the 150 built-in sounds to perform and produce a broad range of dance music styles including hip-hop, house, techno, dubstep, nu-disco, and electro. Enjoy the synth leads and synth bass sounds you expect from a synthesizer. The drum sounds let you play and manipulate various patterns simply by moving your finger.\n\n■ Loop Sequencer\nThe built-in loop sequencer lets you layer up to five musical parts. To create a track, simply assign a loop such as synth, bass, chords, sound effects, or drums to each part. Fifty loops created by professional musicians are built-in to help you get started quickly. In addition to its track-making capabilities, this loop sequencer is also a great feature for live performance. The Mix Play feature makes it easy to enjoy live remixing; you can switch seamlessly to another loop or extract a specific part from another loop while the playback continues.\n\n■ Audio Export\nYou can record your performance in real time, or export a completed loop as an audio file. By sending your creations to a Mac or PC via iTunes, you can share them with your friends or use them in a full-fledged music production. You can also upload them directly to SoundCloud.\n\n■ Share Loops on SoundCloud\nn online audio platform that's very popular among musical creators. The loops you create can be uploaded directly to SoundCloud from within the app. If you attach the loop data, it will be shared to other users' loop lists. Users worldwide will be exposed to new loops they've never heard, and can combine them with their own loops to create remixes. It's a new way of enjoying music by and unleashing your iKaossilator’s potential throughout the world.\n∗ When using SoundCloud, you must observe SoundCloud Ltd.'s terms of use, such as the prohibition on uploading songs whose copyright is the property of a third party.\n\nFollow us!\n● Facebook : http://www.facebook.com/korg.iapps \n● Twitter : http://www.twitter.com/korg_iapps"
+    },
+    "im:price": {
+      "label": "22,99 €",
+      "attributes": {
+        "amount": "22.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2011-2019 KORG INC."
+    },
+    "title": {
+      "label": "KORG iKaossilator - KORG INC."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/korg-ikaossilator/id452559831?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/04/d6/7f/04d67f0d-0dc1-ef28-b5ef-fb0e40d9a719/mzl.rdqftrbg.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/korg-ikaossilator/id452559831?uo=2",
+      "attributes": {
+        "im:id": "452559831",
+        "im:bundleId": "jp.co.korg.ikaossilator"
+      }
+    },
+    "im:artist": {
+      "label": "KORG INC.",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/korg-inc/id363714046?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-10-14T00:00:00-07:00",
+      "attributes": {
+        "label": "October 14, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 55,
       "total": 100
     },
     "im:name": {
@@ -5716,211 +5614,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 57,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Radio - Receiver"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/b1/34/ffb134af-5d65-ea88-c890-128ea02214f9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/b1/34/ffb134af-5d65-ea88-c890-128ea02214f9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/b1/34/ffb134af-5d65-ea88-c890-128ea02214f9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Receiver is an Internet radio with over 40,000 radio stations, more than 25,000 podcasts, and a radio alarm clock.\n\nFeatures include:\n\n+ More than 40,000 radio stations\n+ More than 25,000 podcasts\n+ Add your own streams\n+ Search by genre, region, language, sound quality, popularity, etc.\n+ List of channels with high audio quality\n+ Sync favorites with your other devices\n\n+ Siri shortcuts\n+ HomePod support\n+ CarPlay support\n+ Apple Watch app\n+ Airplay and Chromecast support\n+ Dark Mode\n\n+ iMessage app to recommend a station\n+ Widget with your favourite stations\n\n+ Alarm clock (radio, music, sound) with any number of alarms\n+ Sleep Timer\n+ Snooze function\n\n+ Beautiful analog clock in landscape format\n+ Choose your individual look from 5 different colors\n+ Show song cover art (if available)\n\n+  Focused on supporting accessibility features such as \"Voice Over\" for the visually impaired\n\nWith Receiver you are always informed about the latest news from a wide variety of sources: sports, Bundesliga live, reports, radio plays, news, music, podcasts, reports, travel, weather and much more. Listen to stations like BBC, NPR, ESPN, Bestnetradio, KCRW, Radio Paradise and many more."
-    },
-    "im:price": {
-      "label": "3,99 €",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2009-2023 MAMP GmbH"
-    },
-    "title": {
-      "label": "Radio - Receiver - appsolute GmbH"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/radio-receiver/id311658127?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/88/fd/e4/88fde401-f8bc-bc4b-67e9-6b8e63cc7b92/mzl.lsnttrpf.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/radio-receiver/id311658127?uo=2",
-      "attributes": {
-        "im:id": "311658127",
-        "im:bundleId": "de.appsolute.vtuner"
-      }
-    },
-    "im:artist": {
-      "label": "appsolute GmbH",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/appsolute-gmbh/id284444551?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2009-04-16T14:50:03-07:00",
-      "attributes": {
-        "label": "April 16, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 58,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Salsa Rhythm"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/36/25/53/36255304-0a74-4cda-2c82-d959232806f5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/36/25/53/36255304-0a74-4cda-2c82-d959232806f5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/36/25/53/36255304-0a74-4cda-2c82-d959232806f5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Master salsa timing and musicianship with this interactive app, where YOU are the band leader! For dancers, musicians, and instructors!\n\nTop Features:\n* Practice your dance timing at a tempo of YOUR choice!\n* Combine instruments to your liking and choose their patterns!\n* Use as a metronome and practice your groove with an ensemble!\n* As an instructor, hold your dance classes anywhere!\n\nInstruments: Clave, Piano, Congas, Timbales, Bongos, Bass, Maracas, Guiro, Cowbell and an Instructor\n\nAlso included:\n* 20 different piano patterns, 20 bass patterns, >29 percussion patterns including Tumbao, Guaguancó, Cáscara, Rumba, Caballo, Danzón and more \n* Automatic key change setting for practicing in all keys!\n* Instructor voice counting the beats of your choosing\n* Control the tempo (BPM), musical key and the individual volume of each instrument\n\nApp Store reviews are very helpful. If you think Salsa Rhythm is great, would you mind taking a minute to write a review, or update an old one? It's greatly appreciated.\n\nIf you have any problems or questions you can email us through the support page in the app (or directly at hey@districtonemobile.com), thanks!"
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2014, District One Mobile, LLC"
-    },
-    "title": {
-      "label": "Salsa Rhythm - District One Mobile, LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/salsa-rhythm/id379868541?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/ba/2e/a1/ba2ea17a-a426-1ff6-8c55-c5d121751276/mzl.ishifefs.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/salsa-rhythm/id379868541?uo=2",
-      "attributes": {
-        "im:id": "379868541",
-        "im:bundleId": "com.salsa4fun.Salsa-Rhythm"
-      }
-    },
-    "im:artist": {
-      "label": "District One Mobile, LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/district-one-mobile-llc/id812513884?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-07-06T13:52:15-07:00",
-      "attributes": {
-        "label": "July 6, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 59,
+      "index": 56,
       "total": 100
     },
     "im:name": {
@@ -6022,7 +5716,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 60,
+      "index": 57,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Salsa Rhythm"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/36/25/53/36255304-0a74-4cda-2c82-d959232806f5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/36/25/53/36255304-0a74-4cda-2c82-d959232806f5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/36/25/53/36255304-0a74-4cda-2c82-d959232806f5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Master salsa timing and musicianship with this interactive app, where YOU are the band leader! For dancers, musicians, and instructors!\n\nTop Features:\n* Practice your dance timing at a tempo of YOUR choice!\n* Combine instruments to your liking and choose their patterns!\n* Use as a metronome and practice your groove with an ensemble!\n* As an instructor, hold your dance classes anywhere!\n\nInstruments: Clave, Piano, Congas, Timbales, Bongos, Bass, Maracas, Guiro, Cowbell and an Instructor\n\nAlso included:\n* 20 different piano patterns, 20 bass patterns, >29 percussion patterns including Tumbao, Guaguancó, Cáscara, Rumba, Caballo, Danzón and more \n* Automatic key change setting for practicing in all keys!\n* Instructor voice counting the beats of your choosing\n* Control the tempo (BPM), musical key and the individual volume of each instrument\n\nApp Store reviews are very helpful. If you think Salsa Rhythm is great, would you mind taking a minute to write a review, or update an old one? It's greatly appreciated.\n\nIf you have any problems or questions you can email us through the support page in the app (or directly at hey@districtonemobile.com), thanks!"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2014, District One Mobile, LLC"
+    },
+    "title": {
+      "label": "Salsa Rhythm - District One Mobile, LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/salsa-rhythm/id379868541?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/ba/2e/a1/ba2ea17a-a426-1ff6-8c55-c5d121751276/mzl.ishifefs.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/salsa-rhythm/id379868541?uo=2",
+      "attributes": {
+        "im:id": "379868541",
+        "im:bundleId": "com.salsa4fun.Salsa-Rhythm"
+      }
+    },
+    "im:artist": {
+      "label": "District One Mobile, LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/district-one-mobile-llc/id812513884?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-07-06T13:52:15-07:00",
+      "attributes": {
+        "label": "July 6, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 58,
       "total": 100
     },
     "im:name": {
@@ -6124,39 +5920,39 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 61,
+      "index": 59,
       "total": 100
     },
     "im:name": {
-      "label": "HD Music Parametric Equalizer"
+      "label": "Symphony – Music Notation"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/c5/85/ee/c585eee0-d04f-b60b-2875-0173ed96d0c8/AppIcon-0-1x_U007emarketing-0-85-220-8.png/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/76/88/db/7688db56-2974-c055-0a48-eb50f4b8705a/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/c5/85/ee/c585eee0-d04f-b60b-2875-0173ed96d0c8/AppIcon-0-1x_U007emarketing-0-85-220-8.png/75x75bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/76/88/db/7688db56-2974-c055-0a48-eb50f4b8705a/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/c5/85/ee/c585eee0-d04f-b60b-2875-0173ed96d0c8/AppIcon-0-1x_U007emarketing-0-85-220-8.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/76/88/db/7688db56-2974-c055-0a48-eb50f4b8705a/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "• 100 dB EQ Range with 10 Programmable EQ Frequency Points and Song Level Adjustment for each song.\n\n• Turn Earbud into a quality Headset with Simple Twist to Enjoy far Richer Range of Sound impossible to hear with any Regular Music Player. \n\n• Dramatically Enrich EarPhones and HeadPhone Listening Experience.\n\n• Equalizer is used for both Left and Right Channels. For Individual Left or Right Channel Equalizer, please consider sister app - Full HD Parametric Equalizer.\n\n• Comprehensive Playlist Creation & Management Functions and fast Audio Scrubbing. \n\n• Parametric Equalizer offers Precise Setting of 10 EQ points' parameters: Frequency and Level.\n\n• Frequency is anywhere within full Audio Range ([0 Hz,22050 Hz]).\n\n• Level is anywhere within a large dynamic range of 100 dB (-50dB,+50dB).\n\n• Unlimitedly Create and Manage Custom EQ Preset in a snap.\n\n• Factory EQ Presets provides Common EQ Configurations and Ease of Creating Custom EQ.  \n\n• Songs are easily grouped into a playlist in any order. The app supports unlimited playlists. In each playlist, EQ settings and Input Preamp Volume of each song are auto saved thus same song in any playlist can have different EQ Effects customized to offer variation in listening mood. \n\n• Advanced Audio Processing Engine delivers Best Dynamic Range EQ effects at Any Frequency. \n\n\nFEATURES: \n\n» Simple and Intuitive User Interface Controls. \n\n» Equalizer & Input Preamp Settings is common for Left and Right channel. \n\n» Equalizer & Input Preamp are Auto Saved for Each Individual Song in Each Playlist. \n\n» Unlimited Playlists (Add/Delete/Rename/Duplicate). \n\n» Equalizer Bypass mode offers easy Comparison of Equalizer Effects. \n\n» Any Equalizer Settings can be saved to a Preset List, applied to Songs in Playlist or used as Default Equalizer for new song. \n\n» Song Lyrics are Auto Imported from iTunes Lyrics. \n\n» Editable Notes to Customize Lyrics & Song Info. \n\n» Full-Function HiFi Music Player with Normal/Repeat/Loop/Shuffle Modes. \n\n» Display Song Title, Artist and Album Artwork. \n\n» Import & Play iTunes Playlist(s). \n\n» Playlist Sorting, Indexing and Fast Song Searching. \n\n» Fast Scrubbable Music Progress Bar. \n\n» Music Level Meter. \n\n» AirPlay and Remote Control. \n\n» Smooth Continuous Background Running in Concert with Interruption of Voice Phone Call or Other Apps."
+      "label": "Symphony is the premiere notation app and notepad for professional musicians, composers, and students alike, allowing to you create anything from piano sheet music to large orchestrations directly on your iPhone.\n\nThe Pencil tool allows you to tap anywhere on the canvas to quickly add notes and chords with the multi-staff & multi-voice editor. Powerful editing features like vertical drag to transpose and On-Screen piano lets you compose even more quickly. \n\nSwitch to the other Select tool to highlight one or more notes to modify duration, transpose, erase, cut, or paste multiple tracks & bars anywhere you want.\n\nTo hear your performance, choose from 100+ acoustic instruments available for live, low-latency, multi-track playback. Import an existing Symphony/SP project or a MIDI/XML file to bring your music collection to life, with an interactive score display & interface optimized for the small screen.\n\nTo send your work to a different editor or to a sheet music viewer, Symphony can print your score with AirPrint, share it as a PDF attachment, or as a MIDI, MusicXML, or audio file to DropBox and iCloud Drive.\n\nMore Features:\n\n• Write notes using direct touch, an on-screen instrument, a MIDI input device, or even a QWERTY keyboard\n• Notate beautifully formatted chord charts & lead sheets using the Chord Symbol and Lyric tools.\n• Import MusicXML, MIDI, MXL, or Symphony files\n• Export as a PDF, MusicXML, MIDI, AAC, or Symphony file\n• Print the score from your iPad with AirPrint\n• Edit grace notes and percussion/drum set notation\n• Intuitive score and document navigation \n• Up to 15 instruments, 45 staves, 4 voices/layers per score\n• Record MIDI to notation in real-time using a click track\n• Backup & sync scores with iCloud\n• Edit tablature and standard music notation\n• Large selection of articulations & dynamics in the Expressions menu\n• Copy/Paste function can select multiple measures & staves, and cut single or multiple voices/layers\n• Unlimited undo and redo\n• Customizable stem directions & note beaming\n• Transposing instruments & concert pitch options\n• Change tempo or clef at any point in the score\n• Stream audio or share your screen wirelessly with AirPlay\n• Advanced document management support\n• Customizable part groupings for SATB and instrument families\n• Customizable chord symbol, lyric, and annotation font\n• Loop playback between a region selection\n• Auto-save\n\n\nFor more info, please visit:\n\n• Product overview: http://symphonypro.net/iphone\n• Ask support questions by visiting forums.symphonypro.net\n• Like us on Facebook at facebook.com/symphonyapp\n\n**************************************************\n• Symphony iPhone is now a paid app before download:\n– Free Edition users who have never upgraded can now enable Symphony: Full Edition by rating or reviewing the app"
     },
     "im:price": {
-      "label": "1,99 €",
+      "label": "5,99 €",
       "attributes": {
-        "amount": "1.99",
+        "amount": "5.99",
         "currency": "EUR"
       }
     },
@@ -6167,17 +5963,17 @@
       }
     },
     "rights": {
-      "label": "© 2013 AuralWare,LLC"
+      "label": "© Xenon Labs, LLC"
     },
     "title": {
-      "label": "HD Music Parametric Equalizer - AuralWare, LLC"
+      "label": "Symphony – Music Notation - Xenon Labs, LLC"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/si/app/hd-music-parametric-equalizer/id686192884?uo=2"
+          "href": "https://apps.apple.com/si/app/symphony-music-notation/id951251308?uo=2"
         }
       },
       {
@@ -6188,22 +5984,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/85/6a/9e/856a9e6a-b4e8-0018-8d26-25b83b948c6d/pr_source.jpg/1024x1024bb.jpg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/f8/34/fc/f834fce2-ae99-963f-011c-1f9fee6cee2a/pr_source.png/480x480bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/si/app/hd-music-parametric-equalizer/id686192884?uo=2",
+      "label": "https://apps.apple.com/si/app/symphony-music-notation/id951251308?uo=2",
       "attributes": {
-        "im:id": "686192884",
-        "im:bundleId": "EPMLITEIOS2013"
+        "im:id": "951251308",
+        "im:bundleId": "com.xeapps.symphony-iphone"
       }
     },
     "im:artist": {
-      "label": "AuralWare, LLC",
+      "label": "Xenon Labs, LLC",
       "attributes": {
-        "href": "https://apps.apple.com/si/developer/auralware-llc/id583747156?uo=2"
+        "href": "https://apps.apple.com/si/developer/xenon-labs-llc/id327764518?uo=2"
       }
     },
     "category": {
@@ -6215,9 +6011,213 @@
       }
     },
     "im:releaseDate": {
-      "label": "2013-08-20T14:31:48-07:00",
+      "label": "2015-01-08T00:45:25-07:00",
       "attributes": {
-        "label": "August 20, 2013"
+        "label": "January 8, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 60,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Radio - Receiver"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/b1/34/ffb134af-5d65-ea88-c890-128ea02214f9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/b1/34/ffb134af-5d65-ea88-c890-128ea02214f9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/b1/34/ffb134af-5d65-ea88-c890-128ea02214f9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Receiver is an Internet radio with over 40,000 radio stations, more than 25,000 podcasts, and a radio alarm clock.\n\nFeatures include:\n\n+ More than 40,000 radio stations\n+ More than 25,000 podcasts\n+ Add your own streams\n+ Search by genre, region, language, sound quality, popularity, etc.\n+ List of channels with high audio quality\n+ Sync favorites with your other devices\n\n+ Siri shortcuts\n+ HomePod support\n+ CarPlay support\n+ Apple Watch app\n+ Airplay and Chromecast support\n+ Dark Mode\n\n+ iMessage app to recommend a station\n+ Widget with your favourite stations\n\n+ Alarm clock (radio, music, sound) with any number of alarms\n+ Sleep Timer\n+ Snooze function\n\n+ Beautiful analog clock in landscape format\n+ Choose your individual look from 5 different colors\n+ Show song cover art (if available)\n\n+  Focused on supporting accessibility features such as \"Voice Over\" for the visually impaired\n\nWith Receiver you are always informed about the latest news from a wide variety of sources: sports, Bundesliga live, reports, radio plays, news, music, podcasts, reports, travel, weather and much more. Listen to stations like BBC, NPR, ESPN, Bestnetradio, KCRW, Radio Paradise and many more."
+    },
+    "im:price": {
+      "label": "3,99 €",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2009-2023 MAMP GmbH"
+    },
+    "title": {
+      "label": "Radio - Receiver - appsolute GmbH"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/radio-receiver/id311658127?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/88/fd/e4/88fde401-f8bc-bc4b-67e9-6b8e63cc7b92/mzl.lsnttrpf.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/radio-receiver/id311658127?uo=2",
+      "attributes": {
+        "im:id": "311658127",
+        "im:bundleId": "de.appsolute.vtuner"
+      }
+    },
+    "im:artist": {
+      "label": "appsolute GmbH",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/appsolute-gmbh/id284444551?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-04-16T14:50:03-07:00",
+      "attributes": {
+        "label": "April 16, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 61,
+      "total": 100
+    },
+    "im:name": {
+      "label": "MolliLooper"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c7/a0/e6/c7a0e6f9-5a18-469d-f338-b4ac01f0eaee/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/c7/a0/e6/c7a0e6f9-5a18-469d-f338-b4ac01f0eaee/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/c7/a0/e6/c7a0e6f9-5a18-469d-f338-b4ac01f0eaee/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Molli Looper is a realtime stereo effect for looping and filtering. \nIntended mainly as a live performance tool, no preparation is needed to trigger loop recording - input is constantly recorded in the background to be triggered whenever it is needed.  \nLoop timing is synced to host clock, and can be adjusted from multi-bar loops right down to 16th note drills.  \nThe looped or unlooped audio is then passed though a lowpass -> neutral -> highpass resonant filter, based on a 4 pole ladder design for lush analogue style sound.  \nYou can use Molli Looper either as iOS Standalone app or as AUv3 plugin.\n\n\nFEATURES:\n\n- Combination of looper and stutter/freeze\n- Continuous recording: instant recording/looping\n- Runs in sync with host clock\n- Jumps to meaningful places in the recording: \"Snap to grid\"\n- Grid: 1/16, 1/8, 1/4, 1/2, 1, 2, 4, 8, 16, 32 beats\n- Ability to scroll through the recording\n- Lowpass/highpass resonant filter\n- Long Tap XY keeps filter position\n- Limiter/booster effect\n- Tap on Molli Looper icon for basic information"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Mollilabs"
+    },
+    "title": {
+      "label": "MolliLooper - Oliver Greschke (DE)"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/mollilooper/id1622063262?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/d7/44/89/d7448951-8fdb-390a-23c4-41ca1392b30d/8e7e8835-5637-4b2d-b4e4-43b558a17766_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2023-05-06_at_20.10.23.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/mollilooper/id1622063262?uo=2",
+      "attributes": {
+        "im:id": "1622063262",
+        "im:bundleId": "com.MolliLabs.MolliLooper"
+      }
+    },
+    "im:artist": {
+      "label": "Oliver Greschke (DE)",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/oliver-greschke-de/id505848000?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-05-14T00:00:00-07:00",
+      "attributes": {
+        "label": "May 14, 2023"
       }
     }
   },
@@ -6638,108 +6638,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "drum tuner EZ"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/05/42/a0/0542a008-6a70-b902-2695-eaceb78ac1d4/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/05/42/a0/0542a008-6a70-b902-2695-eaceb78ac1d4/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/05/42/a0/0542a008-6a70-b902-2695-eaceb78ac1d4/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "drum tuner EZ turns your phone into a drum tuner that empowers you to quickly clear your drumheads!\n\nThis drum tuning tool simplifies your drummer life.\ndrum tuner EZ comes cheaper than most drum keys and is as simple as hit & tune!\n\n\n‣‣ How to use drum tuner EZ?\n\n1) Tension your heads until you get a nice tone & feel. \n2) Hit near a lug to detect a lug pitch. Press SET to use that lug pitch as your tuning target to match the other lugs of the drumhead to.\n3) Fine-tune all lugs by matching them with your tuning target to clear the drumhead. Done!\n\nTIPS\nA) Explore different head tensions. Tune for tone & feel that suits your needs!\nThere's no need to use the app at this stage... \nFirst, find your 'tone & feel' in all creative freedom.\nTweak the tension of the drumheads, and listen carefully to note how your drum's 'tone & feel' change when you explore different drumhead tensions.\n\nOnce you find a 'tone & feel' to your liking (=in the context of your musical needs), grab the app and fine-tune your drum heads to 'clear' them at their spots!\n\nB) Balance your entire drum kit sound!\nTo get a coherent-sounding drum kit, tune all drums of your drum kit so that they have a sweet-sounding tonal spacing (=in the context of your musical needs).\n\n\n‣‣ SPECIFICATIONS\n\nPitch resolution: 1 Hz-step.\nPitch detection range: from 30 Hz to 450 Hz.\nA4 Pitch calibration from 430 to 450 Hz.\nMic sensitivity: adjustment 1-4.\nAccent color: adjustment slider.\nLug tuner: 'lug view' for 4, 5, 6, 8, 10 lugs.\nScale tuner: 'basic view' +/- 15 Hz difference indication for fine-tuning.\nTone display: 'Hz,' or 'Note with offset in Cents + Hz.'\nSnare \"reso\" switch: turn 'on' to fine-tune snare drum resonant heads up to 450 Hz.\nSupported operating systems: iOS 11-15+.\nSupported devices: optimized iPhone 6 & up. (iPad & iPod supported from 3rd generation & up.)\n\n\n\n‣‣ SUPPORT\nFor info, questions, suggestions, or bug reports, mail to 'sos@drumtuner-ez.com'. Thanks in advance!\n\n‣‣ FAQ\nhttps://drumtuner-ez.com/about_how-to-use-drum-tuner-ez"
-    },
-    "im:price": {
-      "label": "3,99 €",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 EXALTD CO., LTD."
-    },
-    "title": {
-      "label": "drum tuner EZ - EXALTD CO., Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/drum-tuner-ez/id1357604930?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/66/e5/d7/66e5d728-54c7-825e-1461-34a5d372375a/69b02b9d-2ab9-4a78-b071-820e025aa9ab_Apple_iPhone_8_Plus_Screenshot_0.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/drum-tuner-ez/id1357604930?uo=2",
-      "attributes": {
-        "im:id": "1357604930",
-        "im:bundleId": "com.exaltd.DrumTunerEZ"
-      }
-    },
-    "im:artist": {
-      "label": "EXALTD CO., Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/exaltd-co-limited/id1554472750?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-03-17T12:57:04-07:00",
-      "attributes": {
-        "label": "March 17, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 67,
-      "total": 100
-    },
-    "im:name": {
       "label": "AudioShare"
     },
     "im:image": [
@@ -6838,7 +6736,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 68,
+      "index": 67,
       "total": 100
     },
     "im:name": {
@@ -6940,7 +6838,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 69,
+      "index": 68,
       "total": 100
     },
     "im:name": {
@@ -7042,39 +6940,39 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 70,
+      "index": 69,
       "total": 100
     },
     "im:name": {
-      "label": "PercussionTutor"
+      "label": "HD Music Parametric Equalizer"
     },
     "im:image": [
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/51/98/bc5198f5-055e-7080-ab72-e96999822156/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-85-220.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/6e/3a/6a/6e3a6ad5-c6b6-1ddc-4fa4-2b628236410e/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/51/98/bc5198f5-055e-7080-ab72-e96999822156/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-85-220.png/75x75bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/6e/3a/6a/6e3a6ad5-c6b6-1ddc-4fa4-2b628236410e/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/51/98/bc5198f5-055e-7080-ab72-e96999822156/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-85-220.png/100x100bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/6e/3a/6a/6e3a6ad5-c6b6-1ddc-4fa4-2b628236410e/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "MODERN DRUMMER MAGAZINE (October 2015 issue):\n“This is a must-have for anyone wanting an encyclopedia of world percussion rhythms at their fingertips.”\n\nPercussionTutor is an educational app for dedicated world percussion enthusiasts. The app and its free companion book feature a unique library of world rhythms and instruments played by leading percussionists and drummers. A time stretching feature and a metronome give the users the option to practice at their own pace.\n\nNO IN-APP PURCHASES! Make sure to buy the app now and get all the future content for free. We will release updates on a regular basis adding new rhythms and videos.\n\nDamian Erskine (bassist, educator, writer for NoTreble.com):\n“PercussionTutor is truly fantastic and a blast to play along with”. (full review on NoTreble.com)\n\nLincoln Goines (electric and acoustic bassist) writes: “This app is an engaging and informative way to check out the original funk. A great tool for musicians, dancers, and all lovers of rhythm”.\n\nPercussive Arts Society: “The interactive application is very thorough [...]. Navigation is simple and the layout is logical and easy to grasp.” \n\nPercussionTutor will allow you to approach South American, Caribbean and West African music in a different way. This app offers you more than a simple play-along. It includes standard notation, videos and specific claves. We also took the outmost care to capture the natural feeling of all those drumming traditions. \n\nFor the batá rhythms we even developed a random playback engine that will simulate an actual batá performance.\n\nThis app puts you in a live playing situation - just like you learned your mother language. You will sound more natural and more alive and you will awaken to new rhythmic possibilities. It's also a great tool for other musicians, dancers and performers who want to immerse themselves into centuries-old traditional languages.\n\n\nFEATURES:\n\n- Over 80 rhythms (some rhythms include a basic and a more advanced version)\n- Rhythms from Cuba, Brazil, Puerto Rico, Peru, West Africa, ...   \n- ALL drums can be turned on and off individually\n- audio time-stretching feature\n- 59 videos\n- over 50 percussion instruments\n- Sheets of all the rhythms included in the app and in the free book\n- A description of all the rhythms\n- MORE RHYTMS COMING: we are working on a lot more content to be released on a regular basis!\n\n\nFEATURED MUSICIANS: \n\n* Louis Bauzo, performed with Tito Puente, Dizzy Gillespie, Paul Simon \n* Greg Askew, performed with Tito Puente\n* Luiz Ebert\n* Jérôme Goldschmidt, performed with Tito Puente, M. Santamaria & Chico O’Farrill\n* Marcos Napa, performed with Perú N. \n* M. Monaco, performed with Al Di Meola\n* Oswald Simmonds\n* Reynaldo Alcantara \n* Richard Byrd, performed with Babatunde Olatunji\n* Rudy Walker, performed with Pharaoh Saunders, Randy Weston \n* Victor Rendón, performed with M. Santamaria, Xavier Cugat Orchestra\n\n\nFEATURED RHYTHMS:\n\n**Cuba - Popular Music**\n- Afro\n- Bolero\n- Cha Cha Cha\n- Mozambique\n- Pachanga\n- Pilon\n- Salsa 1, 2, 3, 4\n- Songo 1, 2 & 3\n- Timba\n\n**Cuba - Folk Music** \n- Abakua Havana\n- Afra\n- Agüeito\n- Azogano Part 1, 2\n- Columbia Part 1\n- Conga\n- Guaguanco\n- Guiro\n- Iyesa\n- Makuta\n- Mozambique\n- Palo\n- Yambu\n- Yuca\n\n**Cuba - Batá Drums**\n- Lalubanche\n- Latopa\n- Ogun\n- Auguere (part 1)\n- Auguere (part 2)\n- Imbaloke\n- Babaluaye (part 1)\n- Babaluaye (part 2)\n- Kuru Kurubete\n- Ewe Masiboroñu\n- Borotitilawa\n- Dada\n- Oggue\n- Agayu Part 1,2,3 & 4\n- Oferere\n- Ibejis\n- Akete Obba\n- Odudua\n- Iya Mase\n- Yacota\n- Ñongo\n- Chachalokafun\n- Iyesa\n- Echu\n- Olokun\n\n**Spain - Flamenco**\n- Bulerías \n- Soleá por Bulerías\n- Tangos\n\n**Brazil**\n- Baião\n- Bossa Nova\n- Samba Batucada\n- Samba Enredo\n- Samba Pagode\n- Samba Reggae\n- Xaxado\n\n**Dominican Republic**\n- Jaleo\n- Merengue\n- Pambiche\n\n**Puerto Rico**\n- Xica\n- Holandes & Holandes fast version\n- Plena\n\n**Peru**\n- Festejo\n- Zamacueca\n- Vals Peruano\n- Lando\n- Afro\n\n**West Africa**\n- Fanga\n- Saa\n- Lamban\n- Sounou"
+      "label": "• 100 dB EQ Range with 10 Programmable EQ Frequency Points and Song Level Adjustment for each song.\n\n• Turn Earbud into a quality Headset with Simple Twist to Enjoy far Richer Range of Sound impossible to hear with any Regular Music Player. \n\n• Dramatically Enrich EarPhones and HeadPhone Listening Experience.\n\n• Equalizer is used for both Left and Right Channels. For Individual Left or Right Channel Equalizer, please consider sister app - Full HD Parametric Equalizer.\n\n• Comprehensive Playlist Creation & Management Functions and fast Audio Scrubbing. \n\n• Parametric Equalizer offers Precise Setting of 10 EQ points' parameters: Frequency and Level.\n\n• Frequency is anywhere within full Audio Range ([0 Hz,22050 Hz]).\n\n• Level is anywhere within a large dynamic range of 100 dB (-50dB,+50dB).\n\n• Unlimitedly Create and Manage Custom EQ Preset in a snap.\n\n• Factory EQ Presets provides Common EQ Configurations and Ease of Creating Custom EQ.  \n\n• Songs are easily grouped into a playlist in any order. The app supports unlimited playlists. In each playlist, EQ settings and Input Preamp Volume of each song are auto saved thus same song in any playlist can have different EQ Effects customized to offer variation in listening mood. \n\n• Advanced Audio Processing Engine delivers Best Dynamic Range EQ effects at Any Frequency. \n\n\nFEATURES: \n\n» Simple and Intuitive User Interface Controls. \n\n» Equalizer & Input Preamp Settings is common for Left and Right channel. \n\n» Equalizer & Input Preamp are Auto Saved for Each Individual Song in Each Playlist. \n\n» Unlimited Playlists (Add/Delete/Rename/Duplicate). \n\n» Equalizer Bypass mode offers easy Comparison of Equalizer Effects. \n\n» Any Equalizer Settings can be saved to a Preset List, applied to Songs in Playlist or used as Default Equalizer for new song. \n\n» Song Lyrics are Auto Imported from iTunes Lyrics. \n\n» Editable Notes to Customize Lyrics & Song Info. \n\n» Full-Function HiFi Music Player with Normal/Repeat/Loop/Shuffle Modes. \n\n» Display Song Title, Artist and Album Artwork. \n\n» Import & Play iTunes Playlist(s). \n\n» Playlist Sorting, Indexing and Fast Song Searching. \n\n» Fast Scrubbable Music Progress Bar. \n\n» Music Level Meter. \n\n» AirPlay and Remote Control. \n\n» Smooth Continuous Background Running in Concert with Interruption of Voice Phone Call or Other Apps."
     },
     "im:price": {
-      "label": "9,99 €",
+      "label": "1,99 €",
       "attributes": {
-        "amount": "9.99",
+        "amount": "1.99",
         "currency": "EUR"
       }
     },
@@ -7085,17 +6983,17 @@
       }
     },
     "rights": {
-      "label": "© PercussionTutor"
+      "label": "© 2013 AuralWare,LLC"
     },
     "title": {
-      "label": "PercussionTutor - FunkyDrumTutor"
+      "label": "HD Music Parametric Equalizer - AuralWare, LLC"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/si/app/percussiontutor/id518086179?uo=2"
+          "href": "https://apps.apple.com/si/app/hd-music-parametric-equalizer/id686192884?uo=2"
         }
       },
       {
@@ -7106,22 +7004,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/3c/4c/a0/3c4ca02a-ae1d-e752-b4fc-c8bb7d5f0db1/pr_source.png/1024x1024bb.png",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/85/6a/9e/856a9e6a-b4e8-0018-8d26-25b83b948c6d/pr_source.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/si/app/percussiontutor/id518086179?uo=2",
+      "label": "https://apps.apple.com/si/app/hd-music-parametric-equalizer/id686192884?uo=2",
       "attributes": {
-        "im:id": "518086179",
-        "im:bundleId": "com.funkydrumtutor.FunkyDrumTutor"
+        "im:id": "686192884",
+        "im:bundleId": "EPMLITEIOS2013"
       }
     },
     "im:artist": {
-      "label": "FunkyDrumTutor",
+      "label": "AuralWare, LLC",
       "attributes": {
-        "href": "https://apps.apple.com/si/developer/funkydrumtutor/id518086182?uo=2"
+        "href": "https://apps.apple.com/si/developer/auralware-llc/id583747156?uo=2"
       }
     },
     "category": {
@@ -7133,9 +7031,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2012-04-20T00:00:00-07:00",
+      "label": "2023-05-19T12:00:47-07:00",
       "attributes": {
-        "label": "April 20, 2012"
+        "label": "May 19, 2023"
       }
     }
   },
@@ -7144,7 +7042,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 71,
+      "index": 70,
       "total": 100
     },
     "im:name": {
@@ -7246,7 +7144,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 72,
+      "index": 71,
       "total": 100
     },
     "im:name": {
@@ -7348,7 +7246,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 73,
+      "index": 72,
       "total": 100
     },
     "im:name": {
@@ -7450,39 +7348,39 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 74,
+      "index": 73,
       "total": 100
     },
     "im:name": {
-      "label": "Pitch Analyzer"
+      "label": "PercussionTutor"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/ac/40/d8/ac40d84c-c0ad-e3df-73e1-75aa8491b580/AppIcon-1x_U007emarketing-85-220-6.png/53x53bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/51/98/bc5198f5-055e-7080-ab72-e96999822156/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/ac/40/d8/ac40d84c-c0ad-e3df-73e1-75aa8491b580/AppIcon-1x_U007emarketing-85-220-6.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/51/98/bc5198f5-055e-7080-ab72-e96999822156/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/ac/40/d8/ac40d84c-c0ad-e3df-73e1-75aa8491b580/AppIcon-1x_U007emarketing-85-220-6.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/51/98/bc5198f5-055e-7080-ab72-e96999822156/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Pitch Analyzer is a tool for analysing sound's absolute pitch. It detects any sounds input from mic,and analyse the sound's frequency, note name, MIDI number,and cent tolerance...  \nIt can help singers or music students to exercise perfect pitch, and help tuners or performers tuning their instrument.\n\n\nAnalysis items－\n\n-Frequency\n-Amplitude\n-Cent tolerance\n-Note name\n-Note's MIDI number\n-Note position in staff\n-Note position in piano keyboard"
+      "label": "MODERN DRUMMER MAGAZINE (October 2015 issue):\n“This is a must-have for anyone wanting an encyclopedia of world percussion rhythms at their fingertips.”\n\nPercussionTutor is an educational app for dedicated world percussion enthusiasts. The app and its free companion book feature a unique library of world rhythms and instruments played by leading percussionists and drummers. A time stretching feature and a metronome give the users the option to practice at their own pace.\n\nNO IN-APP PURCHASES! Make sure to buy the app now and get all the future content for free. We will release updates on a regular basis adding new rhythms and videos.\n\nDamian Erskine (bassist, educator, writer for NoTreble.com):\n“PercussionTutor is truly fantastic and a blast to play along with”. (full review on NoTreble.com)\n\nLincoln Goines (electric and acoustic bassist) writes: “This app is an engaging and informative way to check out the original funk. A great tool for musicians, dancers, and all lovers of rhythm”.\n\nPercussive Arts Society: “The interactive application is very thorough [...]. Navigation is simple and the layout is logical and easy to grasp.” \n\nPercussionTutor will allow you to approach South American, Caribbean and West African music in a different way. This app offers you more than a simple play-along. It includes standard notation, videos and specific claves. We also took the outmost care to capture the natural feeling of all those drumming traditions. \n\nFor the batá rhythms we even developed a random playback engine that will simulate an actual batá performance.\n\nThis app puts you in a live playing situation - just like you learned your mother language. You will sound more natural and more alive and you will awaken to new rhythmic possibilities. It's also a great tool for other musicians, dancers and performers who want to immerse themselves into centuries-old traditional languages.\n\n\nFEATURES:\n\n- Over 80 rhythms (some rhythms include a basic and a more advanced version)\n- Rhythms from Cuba, Brazil, Puerto Rico, Peru, West Africa, ...   \n- ALL drums can be turned on and off individually\n- audio time-stretching feature\n- 59 videos\n- over 50 percussion instruments\n- Sheets of all the rhythms included in the app and in the free book\n- A description of all the rhythms\n- MORE RHYTMS COMING: we are working on a lot more content to be released on a regular basis!\n\n\nFEATURED MUSICIANS: \n\n* Louis Bauzo, performed with Tito Puente, Dizzy Gillespie, Paul Simon \n* Greg Askew, performed with Tito Puente\n* Luiz Ebert\n* Jérôme Goldschmidt, performed with Tito Puente, M. Santamaria & Chico O’Farrill\n* Marcos Napa, performed with Perú N. \n* M. Monaco, performed with Al Di Meola\n* Oswald Simmonds\n* Reynaldo Alcantara \n* Richard Byrd, performed with Babatunde Olatunji\n* Rudy Walker, performed with Pharaoh Saunders, Randy Weston \n* Victor Rendón, performed with M. Santamaria, Xavier Cugat Orchestra\n\n\nFEATURED RHYTHMS:\n\n**Cuba - Popular Music**\n- Afro\n- Bolero\n- Cha Cha Cha\n- Mozambique\n- Pachanga\n- Pilon\n- Salsa 1, 2, 3, 4\n- Songo 1, 2 & 3\n- Timba\n\n**Cuba - Folk Music** \n- Abakua Havana\n- Afra\n- Agüeito\n- Azogano Part 1, 2\n- Columbia Part 1\n- Conga\n- Guaguanco\n- Guiro\n- Iyesa\n- Makuta\n- Mozambique\n- Palo\n- Yambu\n- Yuca\n\n**Cuba - Batá Drums**\n- Lalubanche\n- Latopa\n- Ogun\n- Auguere (part 1)\n- Auguere (part 2)\n- Imbaloke\n- Babaluaye (part 1)\n- Babaluaye (part 2)\n- Kuru Kurubete\n- Ewe Masiboroñu\n- Borotitilawa\n- Dada\n- Oggue\n- Agayu Part 1,2,3 & 4\n- Oferere\n- Ibejis\n- Akete Obba\n- Odudua\n- Iya Mase\n- Yacota\n- Ñongo\n- Chachalokafun\n- Iyesa\n- Echu\n- Olokun\n\n**Spain - Flamenco**\n- Bulerías \n- Soleá por Bulerías\n- Tangos\n\n**Brazil**\n- Baião\n- Bossa Nova\n- Samba Batucada\n- Samba Enredo\n- Samba Pagode\n- Samba Reggae\n- Xaxado\n\n**Dominican Republic**\n- Jaleo\n- Merengue\n- Pambiche\n\n**Puerto Rico**\n- Xica\n- Holandes & Holandes fast version\n- Plena\n\n**Peru**\n- Festejo\n- Zamacueca\n- Vals Peruano\n- Lando\n- Afro\n\n**West Africa**\n- Fanga\n- Saa\n- Lamban\n- Sounou"
     },
     "im:price": {
-      "label": "1,99 €",
+      "label": "9,99 €",
       "attributes": {
-        "amount": "1.99",
+        "amount": "9.99",
         "currency": "EUR"
       }
     },
@@ -7493,17 +7391,17 @@
       }
     },
     "rights": {
-      "label": "© Supertintin"
+      "label": "© PercussionTutor"
     },
     "title": {
-      "label": "Pitch Analyzer - Supertintin Co., Ltd"
+      "label": "PercussionTutor - FunkyDrumTutor"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/si/app/pitch-analyzer/id571243369?uo=2"
+          "href": "https://apps.apple.com/si/app/percussiontutor/id518086179?uo=2"
         }
       },
       {
@@ -7514,22 +7412,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/88/87/8d/88878dc2-7603-fde0-ed10-203d2e63790a/mzl.gcmqwbko.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/3c/4c/a0/3c4ca02a-ae1d-e752-b4fc-c8bb7d5f0db1/pr_source.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/si/app/pitch-analyzer/id571243369?uo=2",
+      "label": "https://apps.apple.com/si/app/percussiontutor/id518086179?uo=2",
       "attributes": {
-        "im:id": "571243369",
-        "im:bundleId": "com.supertintin.pitchanalyzer"
+        "im:id": "518086179",
+        "im:bundleId": "com.funkydrumtutor.FunkyDrumTutor"
       }
     },
     "im:artist": {
-      "label": "Supertintin Co., Ltd",
+      "label": "FunkyDrumTutor",
       "attributes": {
-        "href": "https://apps.apple.com/si/developer/supertintin-co-ltd/id345365970?uo=2"
+        "href": "https://apps.apple.com/si/developer/funkydrumtutor/id518086182?uo=2"
       }
     },
     "category": {
@@ -7541,9 +7439,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2012-11-01T18:14:26-07:00",
+      "label": "2012-04-20T00:00:00-07:00",
       "attributes": {
-        "label": "November 1, 2012"
+        "label": "April 20, 2012"
       }
     }
   },
@@ -7552,7 +7450,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 75,
+      "index": 74,
       "total": 100
     },
     "im:name": {
@@ -7654,7 +7552,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 76,
+      "index": 75,
       "total": 100
     },
     "im:name": {
@@ -7756,7 +7654,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 77,
+      "index": 76,
       "total": 100
     },
     "im:name": {
@@ -7858,7 +7756,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 78,
+      "index": 77,
       "total": 100
     },
     "im:name": {
@@ -7960,7 +7858,211 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
+      "index": 78,
+      "total": 100
+    },
+    "im:name": {
+      "label": "drum tuner EZ"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/05/42/a0/0542a008-6a70-b902-2695-eaceb78ac1d4/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/05/42/a0/0542a008-6a70-b902-2695-eaceb78ac1d4/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/05/42/a0/0542a008-6a70-b902-2695-eaceb78ac1d4/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "drum tuner EZ turns your phone into a drum tuner that empowers you to quickly clear your drumheads!\n\nThis drum tuning tool simplifies your drummer life.\ndrum tuner EZ comes cheaper than most drum keys and is as simple as hit & tune!\n\n\n‣‣ How to use drum tuner EZ?\n\n1) Tension your heads until you get a nice tone & feel. \n2) Hit near a lug to detect a lug pitch. Press SET to use that lug pitch as your tuning target to match the other lugs of the drumhead to.\n3) Fine-tune all lugs by matching them with your tuning target to clear the drumhead. Done!\n\nTIPS\nA) Explore different head tensions. Tune for tone & feel that suits your needs!\nThere's no need to use the app at this stage... \nFirst, find your 'tone & feel' in all creative freedom.\nTweak the tension of the drumheads, and listen carefully to note how your drum's 'tone & feel' change when you explore different drumhead tensions.\n\nOnce you find a 'tone & feel' to your liking (=in the context of your musical needs), grab the app and fine-tune your drum heads to 'clear' them at their spots!\n\nB) Balance your entire drum kit sound!\nTo get a coherent-sounding drum kit, tune all drums of your drum kit so that they have a sweet-sounding tonal spacing (=in the context of your musical needs).\n\n\n‣‣ SPECIFICATIONS\n\nPitch resolution: 1 Hz-step.\nPitch detection range: from 30 Hz to 450 Hz.\nA4 Pitch calibration from 430 to 450 Hz.\nMic sensitivity: adjustment 1-4.\nAccent color: adjustment slider.\nLug tuner: 'lug view' for 4, 5, 6, 8, 10 lugs.\nScale tuner: 'basic view' +/- 15 Hz difference indication for fine-tuning.\nTone display: 'Hz,' or 'Note with offset in Cents + Hz.'\nSnare \"reso\" switch: turn 'on' to fine-tune snare drum resonant heads up to 450 Hz.\nSupported operating systems: iOS 11-15+.\nSupported devices: optimized iPhone 6 & up. (iPad & iPod supported from 3rd generation & up.)\n\n\n\n‣‣ SUPPORT\nFor info, questions, suggestions, or bug reports, mail to 'sos@drumtuner-ez.com'. Thanks in advance!\n\n‣‣ FAQ\nhttps://drumtuner-ez.com/about_how-to-use-drum-tuner-ez"
+    },
+    "im:price": {
+      "label": "3,99 €",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 EXALTD CO., LTD."
+    },
+    "title": {
+      "label": "drum tuner EZ - EXALTD CO., Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/drum-tuner-ez/id1357604930?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/66/e5/d7/66e5d728-54c7-825e-1461-34a5d372375a/69b02b9d-2ab9-4a78-b071-820e025aa9ab_Apple_iPhone_8_Plus_Screenshot_0.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/drum-tuner-ez/id1357604930?uo=2",
+      "attributes": {
+        "im:id": "1357604930",
+        "im:bundleId": "com.exaltd.DrumTunerEZ"
+      }
+    },
+    "im:artist": {
+      "label": "EXALTD CO., Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/exaltd-co-limited/id1554472750?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-03-17T12:57:04-07:00",
+      "attributes": {
+        "label": "March 17, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
       "index": 79,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Pitch Analyzer"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/ac/40/d8/ac40d84c-c0ad-e3df-73e1-75aa8491b580/AppIcon-1x_U007emarketing-85-220-6.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/ac/40/d8/ac40d84c-c0ad-e3df-73e1-75aa8491b580/AppIcon-1x_U007emarketing-85-220-6.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/ac/40/d8/ac40d84c-c0ad-e3df-73e1-75aa8491b580/AppIcon-1x_U007emarketing-85-220-6.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Pitch Analyzer is a tool for analysing sound's absolute pitch. It detects any sounds input from mic,and analyse the sound's frequency, note name, MIDI number,and cent tolerance...  \nIt can help singers or music students to exercise perfect pitch, and help tuners or performers tuning their instrument.\n\n\nAnalysis items－\n\n-Frequency\n-Amplitude\n-Cent tolerance\n-Note name\n-Note's MIDI number\n-Note position in staff\n-Note position in piano keyboard"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Supertintin"
+    },
+    "title": {
+      "label": "Pitch Analyzer - Supertintin Co., Ltd"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/pitch-analyzer/id571243369?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/88/87/8d/88878dc2-7603-fde0-ed10-203d2e63790a/mzl.gcmqwbko.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/pitch-analyzer/id571243369?uo=2",
+      "attributes": {
+        "im:id": "571243369",
+        "im:bundleId": "com.supertintin.pitchanalyzer"
+      }
+    },
+    "im:artist": {
+      "label": "Supertintin Co., Ltd",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/supertintin-co-ltd/id345365970?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-11-01T18:14:26-07:00",
+      "attributes": {
+        "label": "November 1, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 80,
       "total": 100
     },
     "im:name": {
@@ -8054,108 +8156,6 @@
       "label": "2012-10-20T16:22:59-07:00",
       "attributes": {
         "label": "October 20, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 80,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Hooktheory I"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/ac/c2/5b/acc25bc1-9145-6812-2be9-b738396428a9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/ac/c2/5b/acc25bc1-9145-6812-2be9-b738396428a9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ac/c2/5b/acc25bc1-9145-6812-2be9-b738396428a9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Embark on a musical journey! Follow the Hooktheory Book Series in a smart, fun, skill-building journey. Learn how to craft melodies and chord progressions like professional musicians, and discover an intuitive and deep understanding of how music works. Validated by over 30,000 hobby and pro musicians like you, the Hooktheory Book Series is the best-selling how-to series for musicians around the world for a reason.\n\nHooktheory I isn’t like other music theory books.\n\nHooktheory teaches with an easy-to-understand music format that emphasizes chord and melody function. Rich audiovisual animations play along as you learn. We dissect popular songs and show you how the pros do it.  Immediately practice concepts and tactics with our companion musical sketchpad, Hookpad.  There is nothing else like it!\n\nFun to read. Easy to understand. Full of practical knowledge.\n\nLearn from 41 interactive exercises and 88 audiovisual examples from artists like The Beatles, Journey, Taylor Swift, Beyoncé, Adele, Coldplay, Billy Joel, Lady Gaga, Elton John, Maroon 5, and more!\n\nIn Hooktheory I, you’ll learn the following skills:\n\n• Composing music based on a scale.\n• Understanding the six basic chords that underlie all great chord progressions.\n• Writing chord progressions based on function (understanding which chords go together and which ones don’t)\n• Making melodies “chord aware” - learn why certain melodies sound good with a chord progression and why others don't\n• Controlling the natural tension and release in melodies over a chord progression\n\nBenefits:\n\n• Simple piano roll notation (sheet music knowledge not required)\n• Every concept + technique demonstrated through an actual song\n• 88 audiovisual examples from artists like The Beatles, Journey, and Taylor Swift\n• Reinforce learning at every step with 41 exercises\n• Designed to be used with Hookpad Music Making Software. Hookpad lets you practice every concept and tactic you learn in the books immediately\n\nTo sum it up, Hooktheory I will teach you the essential basic techniques for crafting effective and compelling chord progressions and melodies.   \n\nReading Hooktheory I doesn’t require any previous music knowledge or the ability to read sheet music. On average, it takes about five hours to read so it isn't a huge time commitment. Dedicate only a few hours to reading this book and gain a lifetime of skills that will give your music that professional edge."
-    },
-    "im:price": {
-      "label": "17,99 €",
-      "attributes": {
-        "amount": "17.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Hooktheory LLC"
-    },
-    "title": {
-      "label": "Hooktheory I - Hooktheory LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/hooktheory-i/id862112892?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/31/69/8c/31698cdc-c3a2-dedb-f1c4-7be667a929d5/mzl.iwkaokqd.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/hooktheory-i/id862112892?uo=2",
-      "attributes": {
-        "im:id": "862112892",
-        "im:bundleId": "com.hooktheory.hooktheory-one"
-      }
-    },
-    "im:artist": {
-      "label": "Hooktheory LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/hooktheory-llc/id862112895?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-04-25T13:04:36-07:00",
-      "attributes": {
-        "label": "April 25, 2014"
       }
     }
   },

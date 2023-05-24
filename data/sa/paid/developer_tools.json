@@ -107,414 +107,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "SAR 12.99",
-      "attributes": {
-        "amount": "12.99",
-        "currency": "SAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/sa/app/laddertouch/id386737169?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/sa/app/laddertouch/id386737169?uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/sa/developer/motonari-hibi/id386737172?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "sa",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Flutter Cheats"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Become an expert in Flutter and Dart! \n\nWith 20+ cheat sheets and growing, you get everything you need to help you in your Flutter development. Every cheat sheet contains multiple code examples and detailed explanations. Including a simple overview, if that's what you prefer. All at your fingertips and completely available offline.\n\nYou will learn basic, intermediate, and advanced techniques in Flutter and Dart. Does that sound like a lot of Flutter content? It is and it's still growing!\n\nLearn about: \n- Data Types\n- Variables\n- Lists\n- Functions\n- Loops\n- Widgets\n- Classes\n- Layouts\n- Routing\n- Stateless / Stateful widgets\n- ... lots, lots more"
-    },
-    "im:price": {
-      "label": "SAR 4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "SAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Christopher Kreymborg"
-    },
-    "title": {
-      "label": "Flutter Cheats - Christopher Kreymborg"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/sa/app/flutter-cheats/id1547935361?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/d7/34/2c/d7342ccd-694a-c970-0230-2cb17ff9e7fd/a1200ef1-cc7c-467d-a27d-f038cd097f58_ios_5_5_01.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/sa/app/flutter-cheats/id1547935361?uo=2",
-      "attributes": {
-        "im:id": "1547935361",
-        "im:bundleId": "net.chriskreymborg.fcheats"
-      }
-    },
-    "im:artist": {
-      "label": "Christopher Kreymborg",
-      "attributes": {
-        "href": "https://apps.apple.com/sa/developer/christopher-kreymborg/id1450315531?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-14T00:00:00-07:00",
-      "attributes": {
-        "label": "January 14, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "sa",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 4,
-      "total": 99
-    },
-    "im:name": {
-      "label": "iHTTP Tracker -Network monitor"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "HTTP packet capturing tool, LAN devices can connect and capture packets, monitor network requests, analyze data.\n\nIt will create a VPN configuration. After the service is enabled, all HTTP traffic will be forwarded to the proxy through the local proxy to realize the network debugging function.\n\n#Support blacklist and whitelist\n#Support split screen browsing\n#Common file resolution, source path can be copied\n#View request information, request headers, and packets\n#View response status codes, response headers, and packets\n#Format highlighting of common files\n#More flexible data filtering\n#Support computers and other devices to access packet capturing records through browser\n#Support rewriting rule sharing, importing and exporting\n#CA certificate download, supporting HTTPS decryption\n#Support IOS 11+"
-    },
-    "im:price": {
-      "label": "SAR 17.99",
-      "attributes": {
-        "amount": "17.99",
-        "currency": "SAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Phoenix Lab Technology Co., Ltd."
-    },
-    "title": {
-      "label": "iHTTP Tracker -Network monitor - Phoenix Lab Technology Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/sa/app/ihttp-tracker-network-monitor/id1463315864?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9c/86/30/9c8630b3-f3fd-8b77-9a58-1ce77e5c19c2/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/sa/app/ihttp-tracker-network-monitor/id1463315864?uo=2",
-      "attributes": {
-        "im:id": "1463315864",
-        "im:bundleId": "com.cyp.httpCatcher"
-      }
-    },
-    "im:artist": {
-      "label": "Phoenix Lab Technology Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/sa/developer/phoenix-lab-technology-co-ltd/id1441899762?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-05-21T14:09:54-07:00",
-      "attributes": {
-        "label": "May 21, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "sa",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Http Traffic pro - sniffer"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Compared with the ordinary version, the professional version is updated frequently, and there is no advertisement in the professional version, so the experience is better\n\nFeatures:\n\n- Support packet capturin, data statistics and summary,\n- Support Wi Fi-LAN packet capturing,\n- Support packet analysis in app and web browser,\n- Support search and file type filtering to quickly find target data,\n- Support HTTP / HTTPS body parsing, preview and analysis support,Including videos, pictures, texts, etc\n- Data can be replicated,\n- HTTP body size is unlimited,\n- It supports computers and other devices to access packet capturing records through browsers,\n- HTTP traffic certificate download, support HTTPS,\n- Local notification reminder function,\n- The packet capturing data is output in reverse order. The top of the packet capturing list is the latest data,\n- Grab the historical data file for reference"
-    },
-    "im:price": {
-      "label": "SAR 9.99",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "SAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 william.zhao"
-    },
-    "title": {
-      "label": "Http Traffic pro - sniffer - Lan Zhao"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/sa/app/http-traffic-pro-sniffer/id1490043916?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/a4/55/95/a4559550-8482-6e17-1c33-2efebabe8094/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/sa/app/http-traffic-pro-sniffer/id1490043916?uo=2",
-      "attributes": {
-        "im:id": "1490043916",
-        "im:bundleId": "com.william.httpTraffic.International"
-      }
-    },
-    "im:artist": {
-      "label": "Lan Zhao",
-      "attributes": {
-        "href": "https://apps.apple.com/sa/developer/lan-zhao/id1352261434?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-12-03T00:00:00-07:00",
-      "attributes": {
-        "label": "December 3, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "sa",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 6,
-      "total": 99
-    },
-    "im:name": {
       "label": "Lighthouse Score"
     },
     "im:image": [
@@ -613,7 +205,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -715,7 +307,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -817,106 +409,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
-      "total": 99
-    },
-    "im:name": {
-      "label": "JSON to XML Converter"
-    },
-    "im:price": {
-      "label": "SAR 4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "SAR"
-      }
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Simple JSON to XML converter app that lets you input JSON as plain text or load the JSON from url or local files"
-    },
-    "im:artist": {
-      "label": "Mohammed Aadhil",
-      "attributes": {
-        "href": "https://apps.apple.com/sa/developer/mohammed-aadhil/id1526081218?uo=2"
-      }
-    },
-    "title": {
-      "label": "JSON to XML Converter - Mohammed Aadhil"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/sa/app/json-to-xml-converter/id1545730388?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/03/a4/41/03a441f5-7555-873d-4d3f-24e1c71d37bd/6b50e6ee-0ad4-4fa9-a2ec-7c4cea03d104_2021-01-25_19.21.47.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/sa/app/json-to-xml-converter/id1545730388?uo=2",
-      "attributes": {
-        "im:id": "1545730388",
-        "im:bundleId": "com.fosspoint.jsontoxml"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-21T00:00:00-07:00",
-      "attributes": {
-        "label": "December 21, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "sa",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 10,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -1018,7 +511,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -1120,7 +613,106 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 7,
+      "total": 99
+    },
+    "im:name": {
+      "label": "JSON to XML Converter"
+    },
+    "im:price": {
+      "label": "SAR 4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "SAR"
+      }
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Simple JSON to XML converter app that lets you input JSON as plain text or load the JSON from url or local files"
+    },
+    "im:artist": {
+      "label": "Mohammed Aadhil",
+      "attributes": {
+        "href": "https://apps.apple.com/sa/developer/mohammed-aadhil/id1526081218?uo=2"
+      }
+    },
+    "title": {
+      "label": "JSON to XML Converter - Mohammed Aadhil"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/sa/app/json-to-xml-converter/id1545730388?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/03/a4/41/03a441f5-7555-873d-4d3f-24e1c71d37bd/6b50e6ee-0ad4-4fa9-a2ec-7c4cea03d104_2021-01-25_19.21.47.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/sa/app/json-to-xml-converter/id1545730388?uo=2",
+      "attributes": {
+        "im:id": "1545730388",
+        "im:bundleId": "com.fosspoint.jsontoxml"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-12-21T00:00:00-07:00",
+      "attributes": {
+        "label": "December 21, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "sa",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -1222,7 +814,109 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 9,
+      "total": 99
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "SAR 12.99",
+      "attributes": {
+        "amount": "12.99",
+        "currency": "SAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/sa/app/laddertouch/id386737169?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/sa/app/laddertouch/id386737169?uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/sa/developer/motonari-hibi/id386737172?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "sa",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -1324,7 +1018,109 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 11,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Flutter Cheats"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/31/8d/c8/318dc8b7-f8e9-1c71-a5d1-da437c2db8ec/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Become an expert in Flutter and Dart! \n\nWith 20+ cheat sheets and growing, you get everything you need to help you in your Flutter development. Every cheat sheet contains multiple code examples and detailed explanations. Including a simple overview, if that's what you prefer. All at your fingertips and completely available offline.\n\nYou will learn basic, intermediate, and advanced techniques in Flutter and Dart. Does that sound like a lot of Flutter content? It is and it's still growing!\n\nLearn about: \n- Data Types\n- Variables\n- Lists\n- Functions\n- Loops\n- Widgets\n- Classes\n- Layouts\n- Routing\n- Stateless / Stateful widgets\n- ... lots, lots more"
+    },
+    "im:price": {
+      "label": "SAR 4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "SAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Christopher Kreymborg"
+    },
+    "title": {
+      "label": "Flutter Cheats - Christopher Kreymborg"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/sa/app/flutter-cheats/id1547935361?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/d7/34/2c/d7342ccd-694a-c970-0230-2cb17ff9e7fd/a1200ef1-cc7c-467d-a27d-f038cd097f58_ios_5_5_01.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/sa/app/flutter-cheats/id1547935361?uo=2",
+      "attributes": {
+        "im:id": "1547935361",
+        "im:bundleId": "net.chriskreymborg.fcheats"
+      }
+    },
+    "im:artist": {
+      "label": "Christopher Kreymborg",
+      "attributes": {
+        "href": "https://apps.apple.com/sa/developer/christopher-kreymborg/id1450315531?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-14T00:00:00-07:00",
+      "attributes": {
+        "label": "January 14, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "sa",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1426,7 +1222,109 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 13,
+      "total": 99
+    },
+    "im:name": {
+      "label": "iHTTP Tracker -Network monitor"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/42/61/b7/4261b77d-7821-7944-d289-b01fc03c8c2b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "HTTP packet capturing tool, LAN devices can connect and capture packets, monitor network requests, analyze data.\n\nIt will create a VPN configuration. After the service is enabled, all HTTP traffic will be forwarded to the proxy through the local proxy to realize the network debugging function.\n\n#Support blacklist and whitelist\n#Support split screen browsing\n#Common file resolution, source path can be copied\n#View request information, request headers, and packets\n#View response status codes, response headers, and packets\n#Format highlighting of common files\n#More flexible data filtering\n#Support computers and other devices to access packet capturing records through browser\n#Support rewriting rule sharing, importing and exporting\n#CA certificate download, supporting HTTPS decryption\n#Support IOS 11+"
+    },
+    "im:price": {
+      "label": "SAR 17.99",
+      "attributes": {
+        "amount": "17.99",
+        "currency": "SAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Phoenix Lab Technology Co., Ltd."
+    },
+    "title": {
+      "label": "iHTTP Tracker -Network monitor - Phoenix Lab Technology Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/sa/app/ihttp-tracker-network-monitor/id1463315864?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9c/86/30/9c8630b3-f3fd-8b77-9a58-1ce77e5c19c2/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/sa/app/ihttp-tracker-network-monitor/id1463315864?uo=2",
+      "attributes": {
+        "im:id": "1463315864",
+        "im:bundleId": "com.cyp.httpCatcher"
+      }
+    },
+    "im:artist": {
+      "label": "Phoenix Lab Technology Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/sa/developer/phoenix-lab-technology-co-ltd/id1441899762?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-05-21T14:09:54-07:00",
+      "attributes": {
+        "label": "May 21, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "sa",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1528,7 +1426,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1627,7 +1525,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1729,7 +1627,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1831,7 +1729,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1925,6 +1823,108 @@
       "label": "2017-11-20T11:47:31-07:00",
       "attributes": {
         "label": "November 20, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "sa",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 19,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Http Traffic pro - sniffer"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Compared with the ordinary version, the professional version is updated frequently, and there is no advertisement in the professional version, so the experience is better\n\nFeatures:\n\n- Support packet capturin, data statistics and summary,\n- Support Wi Fi-LAN packet capturing,\n- Support packet analysis in app and web browser,\n- Support search and file type filtering to quickly find target data,\n- Support HTTP / HTTPS body parsing, preview and analysis support,Including videos, pictures, texts, etc\n- Data can be replicated,\n- HTTP body size is unlimited,\n- It supports computers and other devices to access packet capturing records through browsers,\n- HTTP traffic certificate download, support HTTPS,\n- Local notification reminder function,\n- The packet capturing data is output in reverse order. The top of the packet capturing list is the latest data,\n- Grab the historical data file for reference"
+    },
+    "im:price": {
+      "label": "SAR 9.99",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "SAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 william.zhao"
+    },
+    "title": {
+      "label": "Http Traffic pro - sniffer - Lan Zhao"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/sa/app/http-traffic-pro-sniffer/id1490043916?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/a4/55/95/a4559550-8482-6e17-1c33-2efebabe8094/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/sa/app/http-traffic-pro-sniffer/id1490043916?uo=2",
+      "attributes": {
+        "im:id": "1490043916",
+        "im:bundleId": "com.william.httpTraffic.International"
+      }
+    },
+    "im:artist": {
+      "label": "Lan Zhao",
+      "attributes": {
+        "href": "https://apps.apple.com/sa/developer/lan-zhao/id1352261434?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-12-03T00:00:00-07:00",
+      "attributes": {
+        "label": "December 3, 2019"
       }
     }
   },
@@ -2447,108 +2447,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Wireshark Helper - Decrypt TLS"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nRequires: two softwares on your desktop:\n\nWireshark: https://www.wireshark.org\nWireshark Helper: https://www.txthinking.com\n\n- Redirect all mobile TCP&UDP to your desktop Wireshark\n- SSL/TLS-capable intercepting\n- HTTP, HTTPS, SMTP, IMAP, DNS, FTP, POP3, SSH, Telnel, IRC, *ANY* custom protocol…"
-    },
-    "im:price": {
-      "label": "SAR 39.99",
-      "attributes": {
-        "amount": "39.99",
-        "currency": "SAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© TxThinking, Inc."
-    },
-    "title": {
-      "label": "Wireshark Helper - Decrypt TLS - TxThinking, Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/sa/app/wireshark-helper-decrypt-tls/id1534485108?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/3f/b1/61/3fb1611d-5746-6c18-cd01-2de6aa953ab0/ff24f463-0d31-47fd-a39e-a16261a741e1_2.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/sa/app/wireshark-helper-decrypt-tls/id1534485108?uo=2",
-      "attributes": {
-        "im:id": "1534485108",
-        "im:bundleId": "com.txthinking.wireshark"
-      }
-    },
-    "im:artist": {
-      "label": "TxThinking, Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/sa/developer/txthinking-inc/id1634589596?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-11-06T00:00:00-07:00",
-      "attributes": {
-        "label": "November 6, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "sa",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 26,
-      "total": 99
-    },
-    "im:name": {
       "label": "Mockup Screenshot"
     },
     "im:image": [
@@ -2639,6 +2537,108 @@
       "label": "2022-10-14T00:00:00-07:00",
       "attributes": {
         "label": "October 14, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "sa",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 26,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Wireshark Helper - Decrypt TLS"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nRequires: two softwares on your desktop:\n\nWireshark: https://www.wireshark.org\nWireshark Helper: https://www.txthinking.com\n\n- Redirect all mobile TCP&UDP to your desktop Wireshark\n- SSL/TLS-capable intercepting\n- HTTP, HTTPS, SMTP, IMAP, DNS, FTP, POP3, SSH, Telnel, IRC, *ANY* custom protocol…"
+    },
+    "im:price": {
+      "label": "SAR 39.99",
+      "attributes": {
+        "amount": "39.99",
+        "currency": "SAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© TxThinking, Inc."
+    },
+    "title": {
+      "label": "Wireshark Helper - Decrypt TLS - TxThinking, Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/sa/app/wireshark-helper-decrypt-tls/id1534485108?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/3f/b1/61/3fb1611d-5746-6c18-cd01-2de6aa953ab0/ff24f463-0d31-47fd-a39e-a16261a741e1_2.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/sa/app/wireshark-helper-decrypt-tls/id1534485108?uo=2",
+      "attributes": {
+        "im:id": "1534485108",
+        "im:bundleId": "com.txthinking.wireshark"
+      }
+    },
+    "im:artist": {
+      "label": "TxThinking, Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/sa/developer/txthinking-inc/id1634589596?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-11-06T00:00:00-07:00",
+      "attributes": {
+        "label": "November 6, 2020"
       }
     }
   },
@@ -3059,108 +3059,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Globe Topper"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/9b/8f/07/9b8f076b-629b-85e5-0789-d3b216a789ec/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/9b/8f/07/9b8f076b-629b-85e5-0789-d3b216a789ec/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/9b/8f/07/9b8f076b-629b-85e5-0789-d3b216a789ec/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Need to watch top charts & reviews from other countries? Select your app and your countries to check if you're reached top 200 somewhere across the globe! \n\nGlobe Topper uses official Apple APIs & RSS feeds.\nBoth your favorite apps & countries are saved locally and synced with iCloud."
-    },
-    "im:price": {
-      "label": "SAR 19.99",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "SAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 App Craft Studio"
-    },
-    "title": {
-      "label": "Globe Topper - Trevor Kamhunga"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/sa/app/globe-topper/id1549855475?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/a9/6c/6d/a96c6d51-a544-cec9-c80b-ac0d7b6083bc/tns.yhpygnpk.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/sa/app/globe-topper/id1549855475?uo=2",
-      "attributes": {
-        "im:id": "1549855475",
-        "im:bundleId": "com.appcraftstudio.globetopper"
-      }
-    },
-    "im:artist": {
-      "label": "Trevor Kamhunga",
-      "attributes": {
-        "href": "https://apps.apple.com/sa/developer/trevor-kamhunga/id1444171188?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-23T00:00:00-07:00",
-      "attributes": {
-        "label": "January 23, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "sa",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 32,
-      "total": 99
-    },
-    "im:name": {
       "label": "Terminal Emulator"
     },
     "im:price": {
@@ -3256,7 +3154,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3358,27 +3256,27 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 33,
       "total": 99
     },
     "im:name": {
-      "label": "UDevice"
+      "label": "UDevice - Dev Assistant"
     },
     "im:image": [
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/7e/87/a0/7e87a07e-20da-5dfa-a2a4-40ad719414c9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/74/f4/2d/74f42d4e-2e8a-4777-0f20-7b8117dc8e46/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/7e/87/a0/7e87a07e-20da-5dfa-a2a4-40ad719414c9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/74/f4/2d/74f42d4e-2e8a-4777-0f20-7b8117dc8e46/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/7e/87/a0/7e87a07e-20da-5dfa-a2a4-40ad719414c9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/74/f4/2d/74f42d4e-2e8a-4777-0f20-7b8117dc8e46/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -3404,14 +3302,14 @@
       "label": "© ChenZhiPeng"
     },
     "title": {
-      "label": "UDevice - Gansu Zhenxian Network Technology Co., Ltd."
+      "label": "UDevice - Dev Assistant - Gansu Zhenxian Network Technology Co., Ltd."
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/sa/app/udevice/id1608053878?uo=2"
+          "href": "https://apps.apple.com/sa/app/udevice-dev-assistant/id1608053878?uo=2"
         }
       },
       {
@@ -3428,7 +3326,7 @@
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/sa/app/udevice/id1608053878?uo=2",
+      "label": "https://apps.apple.com/sa/app/udevice-dev-assistant/id1608053878?uo=2",
       "attributes": {
         "im:id": "1608053878",
         "im:bundleId": "com.korschen.UDevice"
@@ -3460,7 +3358,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 34,
       "total": 99
     },
     "im:name": {
@@ -3562,7 +3460,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3664,7 +3562,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 37,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3766,7 +3664,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 38,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3868,7 +3766,7 @@
       "country_code": "sa",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 39,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3962,6 +3860,108 @@
       "label": "2014-10-08T10:20:13-07:00",
       "attributes": {
         "label": "October 8, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "sa",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 39,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Globe Topper"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/9b/8f/07/9b8f076b-629b-85e5-0789-d3b216a789ec/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/9b/8f/07/9b8f076b-629b-85e5-0789-d3b216a789ec/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/9b/8f/07/9b8f076b-629b-85e5-0789-d3b216a789ec/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Need to watch top charts & reviews from other countries? Select your app and your countries to check if you're reached top 200 somewhere across the globe! \n\nGlobe Topper uses official Apple APIs & RSS feeds.\nBoth your favorite apps & countries are saved locally and synced with iCloud."
+    },
+    "im:price": {
+      "label": "SAR 19.99",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "SAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 App Craft Studio"
+    },
+    "title": {
+      "label": "Globe Topper - Trevor Kamhunga"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/sa/app/globe-topper/id1549855475?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/a9/6c/6d/a96c6d51-a544-cec9-c80b-ac0d7b6083bc/tns.yhpygnpk.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/sa/app/globe-topper/id1549855475?uo=2",
+      "attributes": {
+        "im:id": "1549855475",
+        "im:bundleId": "com.appcraftstudio.globetopper"
+      }
+    },
+    "im:artist": {
+      "label": "Trevor Kamhunga",
+      "attributes": {
+        "href": "https://apps.apple.com/sa/developer/trevor-kamhunga/id1444171188?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/sa/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-23T00:00:00-07:00",
+      "attributes": {
+        "label": "January 23, 2021"
       }
     }
   },
@@ -6324,19 +6324,19 @@
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/6f/dd/54/6fdd5456-66f7-f27c-7d64-889767c89d38/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/65/39/ef/6539ef76-9a42-5915-9a15-97765664db42/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6f/dd/54/6fdd5456-66f7-f27c-7d64-889767c89d38/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/39/ef/6539ef76-9a42-5915-9a15-97765664db42/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/6f/dd/54/6fdd5456-66f7-f27c-7d64-889767c89d38/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/65/39/ef/6539ef76-9a42-5915-9a15-97765664db42/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }

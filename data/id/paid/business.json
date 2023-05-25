@@ -212,6 +212,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "pic2shop PRO - DIY Barcode"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/5d/b5/01/5db50177-984d-78bb-5ad8-17e88a51f805/AppIcon-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/5d/b5/01/5db50177-984d-78bb-5ad8-17e88a51f805/AppIcon-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/5d/b5/01/5db50177-984d-78bb-5ad8-17e88a51f805/AppIcon-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Display your own web site in the embedded browser and configure the barcode scanner to send it the scanned codes.\n\nOr use pic2shop PRO as an external scanner from another app.\n\nOr copy the barcode to the clipboard for use anywhere.\n\nThe embedded web browser supports HTML5, CSS, cookies, javascript, https, etc.  You can easily and inexpensively build a rich barcode scanning app for your own use.  For example, give your employees access to a product information or an asset tracking app on their iPhone, over the internet or your intranet.\n\nEAN and UPC barcodes can be read even on devices without autofocus.\n\n\nTHIS IS NOT A SHOPPING APP.  WE DO NOT PROVIDE THE HOSTING SERVICE NOR THE WEB APPLICATION.  YOUR ARE RESPONSIBLE FOR DEVELOPING THE WEB APPLICATION AND HOSTING IT ON YOUR OWN SERVER.\n\n= SUPPORTED BARCODE SYMBOLOGIES =\n\nEAN-13, ISBN\nEAN+2, EAN+5\nEAN-8\nUPC-A\nUPC-E\nGS1 DataBar Omnidirectional (& Stacked)\nGS1 DataBar Expanded (& Stacked)\nGS1 DataBar Limited\nCode 39\nCode 128\nCode 93\nInterleaved 2 of 5 (ITF)\nStandard 2 of 5 (Code 25)\nCodabar (NW-7, USD-4)\nTelepen\nQR\nDataMatrix\n\n= CONFIGURATION =\n\nThere are seven in-app configuration parameters, and one general setting:\n\n1. Home Page URL: the url of the web page displayed when the app launches (optional).\n\n2. Barcode Lookup URL: the url fetched when a barcode is scanned.  The string CODE is replaced by the barcode content, and the string FORMAT is replaced by the symbology of the decoded barcode.  That is how the barcode information is transmitted to your web app, and how the response is displayed to the user.\n\n3. Send GPS coordinates: add a \"&gps=latitude,longitude\" to the lookup URL.\n\n4. Formats: select which formats the scanner needs to look for.  We recommend turning off the formats that are not needed for speed.\n\nPlease note that you can include as many other parameters as you like in either URL, they will be passed as is to your server.  For example, you could give to each user a URL with a different \"&userid=NNN\" parameter to automatically identify them with the web application. \n\nA quick way to configure pic2shop PRO is to send a link to each user (by email or on a web page).  When they click the link after they have installed pic2shop PRO, the three parameters will be set automatically.  The link has the form:\n\np2spro://configure?lookup={lookupURL}&home={homeURL}&formats=EAN13,EAN8,UPCE,ITF,CODE39,CODE128,CODABAR,QR&gps={YES|NO}&settings={YES|NO}\n\nwhere any special character in {lookupURL} and {homeURL} is replaced by its % encoding.  For example, to make pic2shop PRO lookup the UPC database:\n\np2spro://configure?lookup=http%3A//www.upcdatabase.com/item/CODE\n\n5. Auto Orientation: scan Code39, Code128, ITF and Codabar in landscape (as they can be wider than UPCs)\n6. High Resolution: use high resolution scanning (for large barcodes)\n7. Copy to clipboard\n\nIn addition, one can switch off the in-app configuration in the general iOS settings list to help lock down the config.\n\n= PIC2SHOP PRO AS EXTERNAL SCANNER =\n\nPic2shop PRO, can be launched by another app or by a web page to scan a barcode, then pass the result back to the calling app or web page.  A popular use is to import barcodes into the Filemaker Go application.\n\nThe syntax of the custom URL is the following:\n\np2spro://scan?formats=EAN13,EAN8,UPCE,ITF,CODE39,CODE128,CODABAR,QR&callback={callbackURL}\n\nThe callback URL should be percent-encoded and contain the strings CODE and FORMAT, which will be replaced by the barcode content (or 'CANCELLED') and symbology, respectively.\n\n= START SCANNER FROM IN-APP BROWSER =\n\nThe barcode scanner can also be started from the embedded browser with link to a \"p2spro://scan\" URL like described above, which overrides the lookup URL and barcode formats for a single scan. Javascript callbacks are supported.\n\n= NOTES =\n\nFor security reasons, HTTPS will not work with self-signed certificates."
+    },
+    "im:price": {
+      "label": "Rp 799ribu",
+      "attributes": {
+        "amount": "799000",
+        "currency": "IDR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2010-2021 Vision Smarts"
+    },
+    "title": {
+      "label": "pic2shop PRO - DIY Barcode - Vision Smarts"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/id/app/pic2shop-pro-diy-barcode/id382585125?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/44/3f/7a/443f7a8a-62a4-36a6-2373-098dd54a4046/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/id/app/pic2shop-pro-diy-barcode/id382585125?uo=2",
+      "attributes": {
+        "im:id": "382585125",
+        "im:bundleId": "com.visionsmarts.pic2shoppro"
+      }
+    },
+    "im:artist": {
+      "label": "Vision Smarts",
+      "attributes": {
+        "href": "https://apps.apple.com/id/developer/vision-smarts/id308740643?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/id/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-08-02T14:02:23-07:00",
+      "attributes": {
+        "label": "August 2, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "id",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 4,
+      "total": 99
+    },
+    "im:name": {
       "label": "EagleEyes-plus"
     },
     "im:image": [
@@ -310,7 +412,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -412,7 +514,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 5,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 6,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -608,108 +710,6 @@
       "label": "2012-05-03T08:30:36-07:00",
       "attributes": {
         "label": "May 3, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "id",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 7,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Voice Recorder HD"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/d7/ae/f6d7ae12-e378-fd75-8604-6fec3ff30067/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/d7/ae/f6d7ae12-e378-fd75-8604-6fec3ff30067/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/d7/ae/f6d7ae12-e378-fd75-8604-6fec3ff30067/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "It is a full featured best voice recorder application with stunning interface for business, audio professional, sound engineer, journalist, lecturer, school/college student and anyone else who needs to manage voice memos. \n\n\"One of the most highly regarded voice recorder apps is Voice Recorder HD by eFusion.\" - The New York Times\n\nKey Features: \n・ High quality audio recording\n・ Unlimited recording time (Tested up to 21 hours) \n・ Background recording (You can open other app while recording) \n・ Bluetooth recording\n・ Ability to configure audio quality (Low:8KHz, Medium:22.05KHz, Heigh:44.1KHz)\n・ Supports any OS(Mac,Windows,Linux, etc) to playback.\n・ Share voice memo by email (Up to 10MB size)\n・ iCloud sync (iOS 5 and above). \n・ Dropbox upload sharing.\n・ AirDrop sharing between two iOS devices.\n・ Restart recording after interrupt by incoming Phone Call.\n・ Transfer audio files to computer(PC/Mac) using USB (iTunes require) \n・ Record in mono and stereo (tested with Tascam iM2)\n・ Supports external mic to record long distance sound(Tested with iRig Mic). This feature is ideal for sound engineer, vocalist and journalist. \n・ Quick and simple to use \n・ Universal binary (iPad and iPhone version in a single application). \n・ Accessibility support for people with disabilities\n\nExtra Features (In App Purchase)\n・ Audio Trimming\n・ Advance PLAYBACK CONTROLS: Fast, Slow, Rewind, Forward playback buttons\n・ M4A CONVERTER: Compress large HQ Audio File(.WAV) into M4A with minimum quality loss.\n・ AUDIO BOOST: Very first time Voice Recorder HD is introducing \"Audio Boost\" feature to App Store. It is the feature to reduce noise and boost intelligibility of speakers who are very distant from the microphone or speaking very softly. \n\nYou will love to open this gorgeous app every time."
-    },
-    "im:price": {
-      "label": "Rp 69ribu",
-      "attributes": {
-        "amount": "69000",
-        "currency": "IDR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© eFUSION Co., Ltd."
-    },
-    "title": {
-      "label": "Voice Recorder HD - eFUSION Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/id/app/voice-recorder-hd/id373045717?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/43/e4/e5/43e4e5e5-2d45-fc1f-3f65-07264e1e0ab3/07791cf7-cb3a-4e75-8c23-372e066aad62_ipad_1_en.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/id/app/voice-recorder-hd/id373045717?uo=2",
-      "attributes": {
-        "im:id": "373045717",
-        "im:bundleId": "efusion.jp.VoiceRecorderHD"
-      }
-    },
-    "im:artist": {
-      "label": "eFUSION Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/id/developer/efusion-co-ltd/id332202458?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/id/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-05-27T19:17:08-07:00",
-      "attributes": {
-        "label": "May 27, 2010"
       }
     }
   },
@@ -2555,6 +2555,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Voice Recorder HD"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/d7/ae/f6d7ae12-e378-fd75-8604-6fec3ff30067/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/d7/ae/f6d7ae12-e378-fd75-8604-6fec3ff30067/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/f6/d7/ae/f6d7ae12-e378-fd75-8604-6fec3ff30067/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "It is a full featured best voice recorder application with stunning interface for business, audio professional, sound engineer, journalist, lecturer, school/college student and anyone else who needs to manage voice memos. \n\n\"One of the most highly regarded voice recorder apps is Voice Recorder HD by eFusion.\" - The New York Times\n\nKey Features: \n・ High quality audio recording\n・ Unlimited recording time (Tested up to 21 hours) \n・ Background recording (You can open other app while recording) \n・ Bluetooth recording\n・ Ability to configure audio quality (Low:8KHz, Medium:22.05KHz, Heigh:44.1KHz)\n・ Supports any OS(Mac,Windows,Linux, etc) to playback.\n・ Share voice memo by email (Up to 10MB size)\n・ iCloud sync (iOS 5 and above). \n・ Dropbox upload sharing.\n・ AirDrop sharing between two iOS devices.\n・ Restart recording after interrupt by incoming Phone Call.\n・ Transfer audio files to computer(PC/Mac) using USB (iTunes require) \n・ Record in mono and stereo (tested with Tascam iM2)\n・ Supports external mic to record long distance sound(Tested with iRig Mic). This feature is ideal for sound engineer, vocalist and journalist. \n・ Quick and simple to use \n・ Universal binary (iPad and iPhone version in a single application). \n・ Accessibility support for people with disabilities\n\nExtra Features (In App Purchase)\n・ Audio Trimming\n・ Advance PLAYBACK CONTROLS: Fast, Slow, Rewind, Forward playback buttons\n・ M4A CONVERTER: Compress large HQ Audio File(.WAV) into M4A with minimum quality loss.\n・ AUDIO BOOST: Very first time Voice Recorder HD is introducing \"Audio Boost\" feature to App Store. It is the feature to reduce noise and boost intelligibility of speakers who are very distant from the microphone or speaking very softly. \n\nYou will love to open this gorgeous app every time."
+    },
+    "im:price": {
+      "label": "Rp 69ribu",
+      "attributes": {
+        "amount": "69000",
+        "currency": "IDR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© eFUSION Co., Ltd."
+    },
+    "title": {
+      "label": "Voice Recorder HD - eFUSION Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/id/app/voice-recorder-hd/id373045717?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/43/e4/e5/43e4e5e5-2d45-fc1f-3f65-07264e1e0ab3/07791cf7-cb3a-4e75-8c23-372e066aad62_ipad_1_en.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/id/app/voice-recorder-hd/id373045717?uo=2",
+      "attributes": {
+        "im:id": "373045717",
+        "im:bundleId": "efusion.jp.VoiceRecorderHD"
+      }
+    },
+    "im:artist": {
+      "label": "eFUSION Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/id/developer/efusion-co-ltd/id332202458?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/id/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-05-27T19:17:08-07:00",
+      "attributes": {
+        "label": "May 27, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "id",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 27,
+      "total": 99
+    },
+    "im:name": {
       "label": "MEyeProV5"
     },
     "im:image": [
@@ -2653,7 +2755,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 27,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2755,7 +2857,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 28,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -2857,7 +2959,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 29,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -2959,7 +3061,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 30,
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -3061,7 +3163,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 31,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3163,7 +3265,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 32,
+      "index": 33,
       "total": 99
     },
     "im:name": {
@@ -3265,7 +3367,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 33,
+      "index": 34,
       "total": 99
     },
     "im:name": {
@@ -3367,7 +3469,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 34,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3469,7 +3571,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 35,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3571,7 +3673,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 36,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3673,7 +3775,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 37,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3775,7 +3877,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 38,
+      "index": 39,
       "total": 99
     },
     "im:name": {
@@ -3877,7 +3979,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 39,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -3979,7 +4081,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 40,
+      "index": 41,
       "total": 99
     },
     "im:name": {
@@ -4081,7 +4183,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 41,
+      "index": 42,
       "total": 99
     },
     "im:name": {
@@ -4183,7 +4285,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 42,
+      "index": 43,
       "total": 99
     },
     "im:name": {
@@ -4285,7 +4387,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 43,
+      "index": 44,
       "total": 99
     },
     "im:name": {
@@ -4387,7 +4489,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 44,
+      "index": 45,
       "total": 99
     },
     "im:name": {
@@ -4489,7 +4591,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 45,
+      "index": 46,
       "total": 99
     },
     "im:name": {
@@ -4591,7 +4693,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 46,
+      "index": 47,
       "total": 99
     },
     "im:name": {
@@ -4693,7 +4795,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 47,
+      "index": 48,
       "total": 99
     },
     "im:name": {
@@ -4795,7 +4897,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 48,
+      "index": 49,
       "total": 99
     },
     "im:name": {
@@ -4897,7 +4999,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 49,
+      "index": 50,
       "total": 99
     },
     "im:name": {
@@ -4999,7 +5101,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 50,
+      "index": 51,
       "total": 99
     },
     "im:name": {
@@ -5101,7 +5203,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 51,
+      "index": 52,
       "total": 99
     },
     "im:name": {
@@ -5203,7 +5305,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 52,
+      "index": 53,
       "total": 99
     },
     "im:name": {
@@ -5305,7 +5407,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 53,
+      "index": 54,
       "total": 99
     },
     "im:name": {
@@ -5407,7 +5509,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 54,
+      "index": 55,
       "total": 99
     },
     "im:name": {
@@ -5509,7 +5611,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 55,
+      "index": 56,
       "total": 99
     },
     "im:name": {
@@ -5603,108 +5705,6 @@
       "label": "2009-03-26T18:46:26-07:00",
       "attributes": {
         "label": "March 26, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "id",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 56,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Doltrans"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/5d/5d/74/5d5d7429-91dc-33d1-872e-53588dda32a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/5d/5d/74/5d5d7429-91dc-33d1-872e-53588dda32a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/5d/5d/74/5d5d7429-91dc-33d1-872e-53588dda32a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Doltrans is a real-time voice translation software that supports translations in more than \r\n100 languages. The translation accuracy rate is as high as 99%. The millisecond-level \r\nresponse and real voice make the experience smooth and natural. It is a must-have \r\nartifact for international business trips!\n\n\r\nThe main functions of the product:\r\nVoice translation - real-time voice recognition and translation into the target language;\r\nText translation - translate the input text content into the target language;\r\nVoice playback - support voice playback translation results, and adjust the playback \r\nspeed;\r\nReal pronunciation - switch between male and female voices at will;\r\nMore functions will be gradually supported in the future, please support us~\r\nIf you like Dolphin Translation or have any other comments, please take a moment to write \r\ndown your comments, or send an email to doltrans2021@gmail.com, this will help us \r\ncontinue to improve our products and provide you with a better experience!\n\n\r\nAutomatic renewal:\r\nDoltrans is a paid service, so you need to subscribe to get started. The 1-week \r\nsubscription plan costs US$2.99, and the 1-year subscription plan costs US$42.99.\r\nPayment will be deducted from your Apple ID account when confirming the purchase.\r\nSubscriptions are automatically renewed unless automatic renewal is turned off at least 24 \r\nhours before the end of the current billing period.\r\nYour account will be charged for renewal within 24 hours before the end of the subscription \r\nyou selected.\r\nYou can manage your subscription and turn off automatic renewal by entering \"App Store \r\nAccount Settings\".\r\nYou are welcome to read the Doltrans Terms of Service (https://doltrans.com/\r\ntermsofservice.html) and Privacy Policy (https://doltrans.com/privacypolicy.html)."
-    },
-    "im:price": {
-      "label": "Rp 3ribu",
-      "attributes": {
-        "amount": "3000",
-        "currency": "IDR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Copyrights 20212 Doltrans Inc."
-    },
-    "title": {
-      "label": "Doltrans - 婷婷 梁"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/id/app/doltrans/id1585102939?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/4a/98/5c/4a985cc3-9721-cca4-24a3-2d60820cf204/463d598e-9525-4f69-a94a-0183fb7cb708_X_en_1.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/id/app/doltrans/id1585102939?uo=2",
-      "attributes": {
-        "im:id": "1585102939",
-        "im:bundleId": "com.doltrans.doltrans"
-      }
-    },
-    "im:artist": {
-      "label": "婷婷 梁",
-      "attributes": {
-        "href": "https://apps.apple.com/id/developer/%E5%A9%B7%E5%A9%B7-%E6%A2%81/id1585090814?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/id/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-09-13T00:00:00-07:00",
-      "attributes": {
-        "label": "September 13, 2021"
       }
     }
   },
@@ -6333,19 +6333,19 @@
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/80/b1/42/80b14273-e5cb-85e4-1165-629c3a5d298a/AppIcon-DocScanPro-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/d0/12/42/d01242ba-2638-6558-a61a-93ed6e060136/AppIcon-DocScanPro-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/80/b1/42/80b14273-e5cb-85e4-1165-629c3a5d298a/AppIcon-DocScanPro-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d0/12/42/d01242ba-2638-6558-a61a-93ed6e060136/AppIcon-DocScanPro-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/80/b1/42/80b14273-e5cb-85e4-1165-629c3a5d298a/AppIcon-DocScanPro-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/d0/12/42/d01242ba-2638-6558-a61a-93ed6e060136/AppIcon-DocScanPro-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -6428,6 +6428,108 @@
       "pricing": "paid",
       "genre": "business",
       "index": 64,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Doltrans"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/5d/5d/74/5d5d7429-91dc-33d1-872e-53588dda32a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/5d/5d/74/5d5d7429-91dc-33d1-872e-53588dda32a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/5d/5d/74/5d5d7429-91dc-33d1-872e-53588dda32a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Doltrans is a real-time voice translation software that supports translations in more than \r\n100 languages. The translation accuracy rate is as high as 99%. The millisecond-level \r\nresponse and real voice make the experience smooth and natural. It is a must-have \r\nartifact for international business trips!\n\n\r\nThe main functions of the product:\r\nVoice translation - real-time voice recognition and translation into the target language;\r\nText translation - translate the input text content into the target language;\r\nVoice playback - support voice playback translation results, and adjust the playback \r\nspeed;\r\nReal pronunciation - switch between male and female voices at will;\r\nMore functions will be gradually supported in the future, please support us~\r\nIf you like Dolphin Translation or have any other comments, please take a moment to write \r\ndown your comments, or send an email to doltrans2021@gmail.com, this will help us \r\ncontinue to improve our products and provide you with a better experience!\n\n\r\nAutomatic renewal:\r\nDoltrans is a paid service, so you need to subscribe to get started. The 1-week \r\nsubscription plan costs US$2.99, and the 1-year subscription plan costs US$42.99.\r\nPayment will be deducted from your Apple ID account when confirming the purchase.\r\nSubscriptions are automatically renewed unless automatic renewal is turned off at least 24 \r\nhours before the end of the current billing period.\r\nYour account will be charged for renewal within 24 hours before the end of the subscription \r\nyou selected.\r\nYou can manage your subscription and turn off automatic renewal by entering \"App Store \r\nAccount Settings\".\r\nYou are welcome to read the Doltrans Terms of Service (https://doltrans.com/\r\ntermsofservice.html) and Privacy Policy (https://doltrans.com/privacypolicy.html)."
+    },
+    "im:price": {
+      "label": "Rp 3ribu",
+      "attributes": {
+        "amount": "3000",
+        "currency": "IDR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Copyrights 20212 Doltrans Inc."
+    },
+    "title": {
+      "label": "Doltrans - 婷婷 梁"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/id/app/doltrans/id1585102939?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/4a/98/5c/4a985cc3-9721-cca4-24a3-2d60820cf204/463d598e-9525-4f69-a94a-0183fb7cb708_X_en_1.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/id/app/doltrans/id1585102939?uo=2",
+      "attributes": {
+        "im:id": "1585102939",
+        "im:bundleId": "com.doltrans.doltrans"
+      }
+    },
+    "im:artist": {
+      "label": "婷婷 梁",
+      "attributes": {
+        "href": "https://apps.apple.com/id/developer/%E5%A9%B7%E5%A9%B7-%E6%A2%81/id1585090814?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/id/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-09-13T00:00:00-07:00",
+      "attributes": {
+        "label": "September 13, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "id",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 65,
       "total": 99
     },
     "im:name": {
@@ -6529,7 +6631,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 65,
+      "index": 66,
       "total": 99
     },
     "im:name": {
@@ -6631,7 +6733,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 66,
+      "index": 67,
       "total": 99
     },
     "im:name": {
@@ -6733,7 +6835,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 67,
+      "index": 68,
       "total": 99
     },
     "im:name": {
@@ -6835,7 +6937,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 68,
+      "index": 69,
       "total": 99
     },
     "im:name": {
@@ -6937,7 +7039,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 69,
+      "index": 70,
       "total": 99
     },
     "im:name": {
@@ -7039,7 +7141,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 70,
+      "index": 71,
       "total": 99
     },
     "im:name": {
@@ -7141,7 +7243,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 71,
+      "index": 72,
       "total": 99
     },
     "im:name": {
@@ -7243,7 +7345,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 72,
+      "index": 73,
       "total": 99
     },
     "im:name": {
@@ -7337,108 +7439,6 @@
       "label": "2014-01-08T12:41:44-07:00",
       "attributes": {
         "label": "January 8, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "id",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 73,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Gamma Ray Calculator"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/70/9b/59/709b59bf-937f-a661-3510-aa638e012f95/AppIcon-1x_U007emarketing-5-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/70/9b/59/709b59bf-937f-a661-3510-aa638e012f95/AppIcon-1x_U007emarketing-5-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/70/9b/59/709b59bf-937f-a661-3510-aa638e012f95/AppIcon-1x_U007emarketing-5-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Save time with this exposure calculator for Iridium-192, Selinium-75 and Cobalt-60 sources.\r\nNo more need to calculate the formula or use of the \"old-school plastic calculator\"\r\nSimply fill in the thickness, activity(in Curies) and source-film-distance and you get the correct exposure time.\r\n\r\nR factor for different densities and film types."
-    },
-    "im:price": {
-      "label": "Rp 49ribu",
-      "attributes": {
-        "amount": "49000",
-        "currency": "IDR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© klwinkel.com"
-    },
-    "title": {
-      "label": "Gamma Ray Calculator - Gerrit kleyn Winkel"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/id/app/gamma-ray-calculator/id867478383?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/51/99/e8/5199e8c4-624a-0c97-90de-ee3beb84d629/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/id/app/gamma-ray-calculator/id867478383?uo=2",
-      "attributes": {
-        "im:id": "867478383",
-        "im:bundleId": "klwinkel.com.GammaCalc"
-      }
-    },
-    "im:artist": {
-      "label": "Gerrit kleyn Winkel",
-      "attributes": {
-        "href": "https://apps.apple.com/id/developer/gerrit-kleyn-winkel/id797512757?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/id/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-05-05T13:36:51-07:00",
-      "attributes": {
-        "label": "May 5, 2014"
       }
     }
   },
@@ -8369,6 +8369,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Gamma Ray Calculator"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/70/9b/59/709b59bf-937f-a661-3510-aa638e012f95/AppIcon-1x_U007emarketing-5-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/70/9b/59/709b59bf-937f-a661-3510-aa638e012f95/AppIcon-1x_U007emarketing-5-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/70/9b/59/709b59bf-937f-a661-3510-aa638e012f95/AppIcon-1x_U007emarketing-5-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Save time with this exposure calculator for Iridium-192, Selinium-75 and Cobalt-60 sources.\r\nNo more need to calculate the formula or use of the \"old-school plastic calculator\"\r\nSimply fill in the thickness, activity(in Curies) and source-film-distance and you get the correct exposure time.\r\n\r\nR factor for different densities and film types."
+    },
+    "im:price": {
+      "label": "Rp 49ribu",
+      "attributes": {
+        "amount": "49000",
+        "currency": "IDR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© klwinkel.com"
+    },
+    "title": {
+      "label": "Gamma Ray Calculator - Gerrit kleyn Winkel"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/id/app/gamma-ray-calculator/id867478383?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/51/99/e8/5199e8c4-624a-0c97-90de-ee3beb84d629/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/id/app/gamma-ray-calculator/id867478383?uo=2",
+      "attributes": {
+        "im:id": "867478383",
+        "im:bundleId": "klwinkel.com.GammaCalc"
+      }
+    },
+    "im:artist": {
+      "label": "Gerrit kleyn Winkel",
+      "attributes": {
+        "href": "https://apps.apple.com/id/developer/gerrit-kleyn-winkel/id797512757?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6000",
+        "term": "Business",
+        "scheme": "https://apps.apple.com/id/genre/ios-business/id6000?uo=2",
+        "label": "Business"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-05-05T13:36:51-07:00",
+      "attributes": {
+        "label": "May 5, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "id",
+      "pricing": "paid",
+      "genre": "business",
+      "index": 84,
+      "total": 99
+    },
+    "im:name": {
       "label": "PriceList"
     },
     "im:image": [
@@ -8467,7 +8569,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 84,
+      "index": 85,
       "total": 99
     },
     "im:name": {
@@ -8569,7 +8671,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 85,
+      "index": 86,
       "total": 99
     },
     "im:name": {
@@ -8671,7 +8773,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 86,
+      "index": 87,
       "total": 99
     },
     "im:name": {
@@ -8773,7 +8875,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 87,
+      "index": 88,
       "total": 99
     },
     "im:name": {
@@ -8875,7 +8977,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 88,
+      "index": 89,
       "total": 99
     },
     "im:name": {
@@ -8977,7 +9079,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 89,
+      "index": 90,
       "total": 99
     },
     "im:name": {
@@ -9079,7 +9181,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 90,
+      "index": 91,
       "total": 99
     },
     "im:name": {
@@ -9181,7 +9283,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 91,
+      "index": 92,
       "total": 99
     },
     "im:name": {
@@ -9283,7 +9385,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 92,
+      "index": 93,
       "total": 99
     },
     "im:name": {
@@ -9385,7 +9487,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 93,
+      "index": 94,
       "total": 99
     },
     "im:name": {
@@ -9487,7 +9589,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 94,
+      "index": 95,
       "total": 99
     },
     "im:name": {
@@ -9589,7 +9691,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 95,
+      "index": 96,
       "total": 99
     },
     "im:name": {
@@ -9691,7 +9793,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 96,
+      "index": 97,
       "total": 99
     },
     "im:name": {
@@ -9793,7 +9895,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 97,
+      "index": 98,
       "total": 99
     },
     "im:name": {
@@ -9895,7 +9997,7 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "business",
-      "index": 98,
+      "index": 99,
       "total": 99
     },
     "im:name": {
@@ -9989,108 +10091,6 @@
       "label": "2009-10-05T21:48:34-07:00",
       "attributes": {
         "label": "October 5, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "id",
-      "pricing": "paid",
-      "genre": "business",
-      "index": 99,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Combine and Join PDF"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/95/c2/7d/95c27de8-e526-b5d7-bd17-c1e588d63a37/AppIcon-2-1x_U007emarketing-0-6-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/95/c2/7d/95c27de8-e526-b5d7-bd17-c1e588d63a37/AppIcon-2-1x_U007emarketing-0-6-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/95/c2/7d/95c27de8-e526-b5d7-bd17-c1e588d63a37/AppIcon-2-1x_U007emarketing-0-6-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "\"Combine and Join PDF\" providing you an easy way to join PDF files easily on your iPhone/iPad. A universal app that support all apple iOS devices;\n\nIt is very simple, fast and reliable , handy and user friendly tool to merge PDF files very quickly in a minute.\n\n\"Combine and Join PDF\" does not require any special skills to use.\n\nMerge PDF files together into one, You can merge any different PDF files together.\n\nUser can send merged PDF document as email attachments;\n\nUser can read merged PDF document without Using Any other App.\n\nMerged PDF document Can be printed via Air print\n\nUser can send merged PDF document to iBook, PDF Reader, GoodReader and other apps(\"Open In..\" integration ) .\n\nShare merged PDF document via USB file transfer(iTunes file sharing);\n\nDropbox support also available.\n\n\nStep to Import Files:\n1- Import Via iTunes File Sharing:\nConnect your iPhone/iPad to itunes(locate in your PC or mac), then click the application inside your phone through itunes and you can see our \"Combine and Join PDF\" in the file share box, then you can add PDF file to our \"Combine and Join PDF\" and sync, then you can read the PDF file from your iPhone ,iPod and iPad Easily.\n\n2- Import From Email: \nUser Can import PDF document Via \"Open In\" Feature."
-    },
-    "im:price": {
-      "label": "Rp 29ribu",
-      "attributes": {
-        "amount": "29000",
-        "currency": "IDR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Abdul Rahim Khurram"
-    },
-    "title": {
-      "label": "Combine and Join PDF - Abdul Rahim Khurram"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/id/app/combine-and-join-pdf/id922487088?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/54/bc/0d/54bc0d52-491e-cb6b-1010-141bb4a34e28/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/id/app/combine-and-join-pdf/id922487088?uo=2",
-      "attributes": {
-        "im:id": "922487088",
-        "im:bundleId": "JoinPDF"
-      }
-    },
-    "im:artist": {
-      "label": "Abdul Rahim Khurram",
-      "attributes": {
-        "href": "https://apps.apple.com/id/developer/abdul-rahim-khurram/id737344044?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6000",
-        "term": "Business",
-        "scheme": "https://apps.apple.com/id/genre/ios-business/id6000?uo=2",
-        "label": "Business"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-11-25T06:11:45-07:00",
-      "attributes": {
-        "label": "November 25, 2014"
       }
     }
   }

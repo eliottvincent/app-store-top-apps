@@ -8,6 +8,618 @@
       "total": 100
     },
     "im:name": {
+      "label": "WebBLE"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/07/f8/bf/07f8bf46-f41c-0f4a-c0c8-ebab42d4f71c/AppIcon-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/07/f8/bf/07f8bf46-f41c-0f4a-c0c8-ebab42d4f71c/AppIcon-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/07/f8/bf/07f8bf46-f41c-0f4a-c0c8-ebab42d4f71c/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Very simple web browser that supports an initial subset of  the web bluetooth javascript APIs, with bookmarks and console log viewing support.\n\n*** New in 1.5 / 1.6 ***\n\n- allows webpages to request the camera and microphone for video calls etc.\n- double tap the refresh button to do a hard reload\n- improved UI\n\n*** Overview ***\n\nUsing this app you can navigate to a site written in javascript that can interact with your bluetooth (low energy) devices. This allows you to write your applications for use with devices such as puck.js in a language you are more familiar with (i.e. javascript) and be able to use it from your iOS device.\n\nUse the built-in console viewer to debug issues when running your site on WebBLE.\n\nSecurity is important for bluetooth device access, and so only sites that use https are supported, and it is not possible to connect to a bluetooth device without permission being granted by the user.\n\nInitially the following key APIs are supported:\n\n- bluetooth.requestDevice()\n\n- BluetoothDevice.gatt\n- BluetoothDevice.addEventListener('gattserverdisconnected', cb)\n\n- BluetoothRemoteGATTServer.connect()\n- BluetoothRemoteGATTServer.disconnect()\n- BluetoothRemoteGATTServer.getPrimaryService()\n\n- BluetoothRemoteGATTService.getCharacteristic()\n\n- BluetoothRemoteGATTCharacteristic.writeValue()\n- BluetoothRemoteGATTCharacteristic.readValue()\n- BluetoothRemoteGATTCharacteristic.startNotifications()\n- BluetoothRemoteGATTCharacteristic.stopNotifications()\n- BluetoothRemoteGATTCharacteristic.addEventListener(\"characteristicvaluechanged\", cb)"
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© greenparksoftware.co.uk"
+    },
+    "title": {
+      "label": "WebBLE - GreenParkSoftware"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/webble/id1193531073?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c2/3b/44/c23b440a-4b30-52f1-609f-c27e57adcad6/mzl.clswthur.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/webble/id1193531073?l=en&uo=2",
+      "attributes": {
+        "im:id": "1193531073",
+        "im:bundleId": "co.uk.greenparksoftware.webble"
+      }
+    },
+    "im:artist": {
+      "label": "GreenParkSoftware",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/greenparksoftware/id449062540?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-01-12T02:09:40-07:00",
+      "attributes": {
+        "label": "January 12, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 2,
+      "total": 100
+    },
+    "im:name": {
+      "label": "VisualRuler 2.0"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ba/3d/49/ba3d497e-1712-591f-665e-1978f7ebf164/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ba/3d/49/ba3d497e-1712-591f-665e-1978f7ebf164/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/ba/3d/49/ba3d497e-1712-591f-665e-1978f7ebf164/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "VisualRuler helps with measuring sizes of objects based on a reference card sized object (travel card, credit card, library card etc.) using computer vision techniques. \n\nHOW TO USE:\n1) Take a picture of a reference card with an object to be measured.\n2) Let the VisualRuler detect the reference card.\n3) Adjust by moving corners of the reference rectangle to fit the reference card.\n4) Add lines or rectangles fitting the measured object.\n5) Save the picture of your measurements.\n\nPRIVACY:\nVisualRuler does not track any user activities or do not store pictures you took. What happens on your phone stays in your phone."
+    },
+    "im:price": {
+      "label": "USD 0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Altaibayar Tseveenbayar 2023"
+    },
+    "title": {
+      "label": "VisualRuler 2.0 - altaibayar tseveenbayar"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/visualruler-2-0/id1116399255?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/43/4e/b6/434eb6d8-3009-2bde-d630-1cd4907d9577/4d6fd8e6-ef1b-4c9c-8b78-a486569b382e_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-01_framed.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/visualruler-2-0/id1116399255?l=en&uo=2",
+      "attributes": {
+        "im:id": "1116399255",
+        "im:bundleId": "me.bayar.VisualRuler"
+      }
+    },
+    "im:artist": {
+      "label": "altaibayar tseveenbayar",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/altaibayar-tseveenbayar/id1116399254?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-07-29T09:08:29-07:00",
+      "attributes": {
+        "label": "July 29, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 3,
+      "total": 100
+    },
+    "im:name": {
+      "label": "ResistorVision"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/ba/8e/45/ba8e457c-a6ce-619e-ae0f-af1dbc6253e7/AppIcon-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/ba/8e/45/ba8e457c-a6ce-619e-ae0f-af1dbc6253e7/AppIcon-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/ba/8e/45/ba8e457c-a6ce-619e-ae0f-af1dbc6253e7/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "ResistorVision instantly tells you the value of any standard beige 4-band resistor you point your iPhone’s camera at.\n\nUnlike other resistor calculators, ResistorVision offers touch-free operation. Just place a beige 4-band resistor on a white background, with the tolerance band (usually gold or silver) on the right. Then point your iPhone’s camera at the resistor and the value is instantly shown at the top of the screen.\n\nNote: Does not currently work with resistors with a blue body or resistors below 10 ohms.\n\nResistors can be purchased at any electronics supply store."
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2014-2020 Jera Design LLC"
+    },
+    "title": {
+      "label": "ResistorVision - Jera Design LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/resistorvision/id839853035?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/a7/67/27/a767279b-a53f-0483-64ca-62e2dfad78c9/pr_source.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/resistorvision/id839853035?l=en&uo=2",
+      "attributes": {
+        "im:id": "839853035",
+        "im:bundleId": "com.jera.ResistorVision"
+      }
+    },
+    "im:artist": {
+      "label": "Jera Design LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/jera-design-llc/id284959569?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-05-15T17:10:54-07:00",
+      "attributes": {
+        "label": "May 15, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 4,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Unofficial vMix Tally"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/43/cd/09/43cd099e-c4eb-e747-202c-8d1f8b2dd451/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/43/cd/09/43cd099e-c4eb-e747-202c-8d1f8b2dd451/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/43/cd/09/43cd099e-c4eb-e747-202c-8d1f8b2dd451/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is a simple app to turn your mobile device into a tally light for vMix. Optionally, you can use the camera flash as a talent tally indicator.\n\nNote, this is an unofficial app and is not affiliated with the vMix company."
+    },
+    "im:price": {
+      "label": "USD 0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Jeff Mikels"
+    },
+    "title": {
+      "label": "Unofficial vMix Tally - Jeffrey Mikels"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/unofficial-vmix-tally/id1503193760?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/00/26/0f/00260fcd-3fc3-05f9-e6c7-4e412857f06f/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/unofficial-vmix-tally/id1503193760?l=en&uo=2",
+      "attributes": {
+        "im:id": "1503193760",
+        "im:bundleId": "org.jeffmikels.vmix-tally"
+      }
+    },
+    "im:artist": {
+      "label": "Jeffrey Mikels",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/jeffrey-mikels/id939335307?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-15T00:00:00-07:00",
+      "attributes": {
+        "label": "August 15, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 5,
+      "total": 100
+    },
+    "im:name": {
+      "label": "AMagScope - ELF-EMF Detector"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/f6/15/c4f6156f-5109-814c-43ee-8644244e6ff1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/f6/15/c4f6156f-5109-814c-43ee-8644244e6ff1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/c4/f6/15/c4f6156f-5109-814c-43ee-8644244e6ff1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Concerned about magnetic fields in your home? Detect and measure them with this easy to read app scientifically designed for your device! This is an easy to use app to detect and measure 50Hz/60Hz alternating magnetic fields that could be present in your home generated by things like microwaves, hairdryers, electric space heaters, video game consoles, AC/DC power adapters and overhead power lines.\n\nWHAT MAKES THIS APP DIFFERENT? Static or constant magnetic fields like the Earth's magnetic field are less of a health concern than alternating magnetic fields. This app was designed to detect and measure alternating magnetic fields most commonly found in living spaces. These magnetic fields can be generated by electrical devices running on your home mains AC electricity. These alternating magnetic fields have a frequency of 50 or 60 Hz depending on your country.\n\nStudies of the health impacts of alternating magnetic fields as publicized by the International Agency for Research on Cancer (IARC), the World Health Organization (WHO), and by the International Commission on Non-Ionizing Radiation Protection (ICNIRP) has raised the awareness of alternating magnetic fields and generated interest in measurements of them in public and living spaces.\n\nThe alternating magnetic fields you may encounter in your home can vary tremendously in strength depending on the device and your distance from it. This app measures the 50 or 60 Hz component of any alternating magnetic field with your device if equipped with a magnetometer. The detection and measurement of alternating magnetic fields is achieved by analyzing functuations in the magnetic field measured by the magnetometer in your device. Normally the magnetometer is used for measuring constant magnetic fields, for example in a compass application. In the presence of a sufficiently strong 50/60 Hz alternating magnetic field the magnetometer measurements fluctuates with time. These fluctuations can be detected and measured by a Fast Fourier Transform analysis. This proven scientific method is able to achieve a sensitivity down to about 0.1 micro-Tesla, much smaller than the Earth's magnetic field of about 40-60 micro-Tesla!\n\nThe calibration of several different devices running this app was cross checked with a separate sensor that was tested using NIST traceable methods and instruments. The accuracy of these devices was found to be as good as 20%, however because the location of the magnetometer in each device is not known precisely the measurement you obtain may have a larger uncertainty like 50%.\n\nThe main use for this app is to detect and measure 50/60 Hz alternating magnetic fields in public and living spaces. However this app is not a substitute for a professional magnetic field measuring device, and is for private or entertainment purposes only.\n\nThis app does not work on an iPod or any device that does not have a magnetometer that is normally used for a compass application. The Watch App works on a Series 5+ and SE. Magnetometers in different devices operating under different conditions can produce poor quality input to this app, affecting the measurement accuracy.\n\nPlease respect your device warranty, including operating it within Apple’s published guidelines. \n\nApple, the Apple logo, iPod, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc."
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© HOOYSUM LLC"
+    },
+    "title": {
+      "label": "AMagScope - ELF-EMF Detector - HOOYSUM LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/amagscope-elf-emf-detector/id1561490139?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/2c/52/d6/2c52d628-a8b1-954f-a74e-8a4fbd571659/e8b6790c-170b-4673-bc78-3752a34f0edb_Home_ceramric_PadPro2g.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/amagscope-elf-emf-detector/id1561490139?l=en&uo=2",
+      "attributes": {
+        "im:id": "1561490139",
+        "im:bundleId": "com.hooysum.AMagScope"
+      }
+    },
+    "im:artist": {
+      "label": "HOOYSUM LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/hooysum-llc/id658369572?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-04-20T00:00:00-07:00",
+      "attributes": {
+        "label": "April 20, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 6,
+      "total": 100
+    },
+    "im:name": {
+      "label": "EASA FTL Calc"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/53/c3/a8/53c3a822-61f4-492a-48c9-345a2ea66424/AppIcon-0-1x_U007emarketing-0-5-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/53/c3/a8/53c3a822-61f4-492a-48c9-345a2ea66424/AppIcon-0-1x_U007emarketing-0-5-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/53/c3/a8/53c3a822-61f4-492a-48c9-345a2ea66424/AppIcon-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "EASA OPS rules for Flight Time Limitations (FTL) are valid since 18.02.2016.\n\nEASA FTL Calc helps you to calculate\n- cockpit and cabin limits\n- actual and maximum flight duty periods (FDP)\n- latest on-block times\n- duty periods (DP)\n- actual and minimum rest times\n- state of acclimatization\n- commanders discretion\n- disruptive schedules\n- required local nights at your home base\n- extended recovery rest periods\n- cumulative duties for 7/14/28 days\n\nIt considers\n- standby and airport standby\n- extension of cabin FDP due to earlier reporting time\n- delayed reporting\n- in-flight rest for cockpit and cabin (different rules)\n- split duty\n- extension\n- positioning\n- time zone differences\n- company minimum rest times\n- your home base\n- \"back to back\" operation\n\nYou don't have to know time zones\n- simply select an airport from the database\n- time zone is determined by airport and date\n- select only reporting airport of first duty day\n- and the resting airport per duty day\n- next reporting airport will be your last resting airport\n- your home base will be known (preferences) \n\nIt's not a flight log\n- you don't have to enter every single block time\n- no management of block times and their cumulative limits\n- however imported flights can be shown for information\n\nCabin and cockpit limits\n- may have different reporting times\n- in-flight rest is different\n- are calculated independently\n\nRotations\n- are stored automatically \n- are shown in an own table\n- with FDPs and rest times overview\n- for cockpit and cabin\n- on iPad in a split view\n\nXML Import\n- Rosters of BA only\n\nRoster Buster Import\n- direct import\n- calendar import\n\nDirect App Import\n- MyRoster for crew by Lumabyte\n- RosterworX\n- NASImport\n\nCalendar Import"
+    },
+    "im:price": {
+      "label": "USD 4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Ralf Keber"
+    },
+    "title": {
+      "label": "EASA FTL Calc - Ralf Keber"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/easa-ftl-calc/id1055758700?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/18/3b/61/183b6144-c563-9376-d584-070094fe9201/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/easa-ftl-calc/id1055758700?l=en&uo=2",
+      "attributes": {
+        "im:id": "1055758700",
+        "im:bundleId": "de.irk23.EASA-FTL-Calc"
+      }
+    },
+    "im:artist": {
+      "label": "Ralf Keber",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/ralf-keber/id370422475?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-01-09T07:06:03-07:00",
+      "attributes": {
+        "label": "January 9, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 7,
+      "total": 100
+    },
+    "im:name": {
       "label": "Wake N Shake Alarm Clock"
     },
     "im:image": [
@@ -106,7 +718,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 2,
+      "index": 8,
       "total": 100
     },
     "im:name": {
@@ -208,7 +820,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 3,
+      "index": 9,
       "total": 100
     },
     "im:name": {
@@ -310,7 +922,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 4,
+      "index": 10,
       "total": 100
     },
     "im:name": {
@@ -412,7 +1024,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 5,
+      "index": 11,
       "total": 100
     },
     "im:name": {
@@ -514,7 +1126,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 6,
+      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -616,7 +1228,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 7,
+      "index": 13,
       "total": 100
     },
     "im:name": {
@@ -718,721 +1330,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 8,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Shadowrocket"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/0a/71/67/0a7167ae-0b1c-62ad-d09f-126522cd18be/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/0a/71/67/0a7167ae-0b1c-62ad-d09f-126522cd18be/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/0a/71/67/0a7167ae-0b1c-62ad-d09f-126522cd18be/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
-    },
-    "im:price": {
-      "label": "USD 2.99",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Li Guangming"
-    },
-    "title": {
-      "label": "Shadowrocket - Shadow Launch Technology Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/shadowrocket/id932747118?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/shadowrocket/id932747118?l=en&uo=2",
-      "attributes": {
-        "im:id": "932747118",
-        "im:bundleId": "com.liguangming.Shadowrocket"
-      }
-    },
-    "im:artist": {
-      "label": "Shadow Launch Technology Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/shadow-launch-technology-limited/id687237009?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-04-13T19:09:18-07:00",
-      "attributes": {
-        "label": "April 13, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 9,
-      "total": 100
-    },
-    "im:name": {
-      "label": "pwSafe 2 - Password Safe"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/35/1d/97/351d9791-c1ed-c70b-9c41-a78bd465d5d8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/35/1d/97/351d9791-c1ed-c70b-9c41-a78bd465d5d8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/35/1d/97/351d9791-c1ed-c70b-9c41-a78bd465d5d8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "pwSafe 2 offers Dark Mode, Touch ID, Face ID, Safari and apps autofill, iPhone landscape mode, adaptive text, a new design and much more on top of pwSafe 1.\n\nEasy, secure and full featured password management across devices and computers. pwSafe uses iCloud or Dropbox to keep your password databases backed-up and synced between your  iOS devices and computers. It is compatible with open source Password Safe. No in-app purchases are needed for unlimited usage, including iCloud sync (see below).\n\nNow available for the Mac with iCloud Sync - https://app77.com/getPwSafeMac\n\nThis application is not related to any application developed and/or marketed by PSafe Tecnologia S/A, including PSafe Total.\n\n== What people are saying about pwSafe:\n\n***** \"Brilliant! - Passwords in sync at last!\" -- Daddio1946 from Australia\n***** \"Great integration and support - PasswordSafe is great and this app makes it even better! Easy to setup and use. Their support for big fixes is great and the turn around time is short.\" -- Joeartz from the USA\n***** \"Very good, better than it's rivals, does what it's supposed to do AND the copy-feature is EX-CELLENT!\" -- WaiWera from New Zealand\n***** \"I highly recommend this app for anyone who has a large number of usernames or hard-to-remember passwords.\" -- razor11401 from Canada\n***** \"Excellent tool for multiplatform password storage - Excellent tool that enhances my online security by creating complex and long passwords without the inconvenience of retyping them time and time again.\" -- AmberTiara from Neaderland\n\n== List of features:\n\n- TouchID unlocks\n- Safari and apps autofill (extension)\n- Smart Pasteboard: tilt your device face down to switch between username and password when using other apps\n- Can open safes from any cloud service with an iOS 8 Storage Provider Extension\n- Print a hardcopy of your data\n- New iPad with Retina display & iPhone 5 support \n- iCloud sync, realtime and bi-directional\n- Dropbox sync**, fully automatic and bi-directional\n- Password generation\n- Master password\n- Universal binary - iPad, iPhone and iPod Touch optimized\n- Compatible with the famous open source Password Safe desktop app\n- Search all fields\n- Organize entries in groups\n- Single tap password copy to clipboard\n- Single tap password copy to clipboard and open website\n- Clear password from clipboard after one minute\n- Multiple fields (title, username, password, URL, email and notes)\n- Full unicode support\n- iTunes file sharing\n- Receives safes as e-mail attachments (please name your safes with a .psafe3 extension)\n- Opens safes from Dropbox (free without sync, paid otherwise)\n- Export to PDF (encrypted, of course)\n- Password history (per safe and per entry settings)\n- Named password policies\n- Fully compatible with Password Safe version 3.31 file format\n- Multiple safes\n- Unlimited passwords\n- Unlimited password groups\n\n** Syncing via Dropbox is an In-App purchase.\n\nInstead of trusting on a single developer security knowledge, pwSafe borrows all its encryption code directly from the famous Password Safe open source password manager (http://passwordsafe.sourceforge.net/). \n\nPassword Safe has been originally created by security guru Bruce Schneier and nowadays is maintained by Rony Shapiro. Since it has been around as an open source project for more than a decade now, it has been extensively reviewed by many experts."
-    },
-    "im:price": {
-      "label": "USD 2.99",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 App77"
-    },
-    "title": {
-      "label": "pwSafe 2 - Password Safe - App77, LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/pwsafe-2-password-safe/id938922963?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9d/dd/45/9ddd45f0-2f00-07f1-201f-e557df5315cc/mzm.rdzphpru.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/pwsafe-2-password-safe/id938922963?l=en&uo=2",
-      "attributes": {
-        "im:id": "938922963",
-        "im:bundleId": "com.app77.ios.pwsafe2"
-      }
-    },
-    "im:artist": {
-      "label": "App77, LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/app77-llc/id440783115?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-11-28T10:11:08-07:00",
-      "attributes": {
-        "label": "November 28, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 10,
-      "total": 100
-    },
-    "im:name": {
-      "label": "SatFinder"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/00/f2/ae/00f2aed7-a443-a044-189d-2e6bdd890c63/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/00/f2/ae/00f2aed7-a443-a044-189d-2e6bdd890c63/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/00/f2/ae/00f2aed7-a443-a044-189d-2e6bdd890c63/AppIcon-1x_U007emarketing-0-7-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "With SatFinder you can adjust your satellite antenna in a few seconds and with 4 simple steps:\n\nSTEP 1 - CHOOSE YOUR ANTENNA\nChoose one of the four different antenna designs: \n - Offset antennas (the most common, is slightly oval, the LNB is not in the center).\n - Special design (e.g. Oblong shaped Offset antenna, Multifeed antenna)  \n - Parabolic antenna (LNB is located in the center of the reflector, usually larger than 100cm)\n - Flat or planar antenna (small, camping antennas)\n\nIf you have an offset antenna, enter the height and width of the antenna. If your antenna has a special shape, enter the offset angle and the size of the satellite antenna. You can find the offset angle in the manual of your satellite antenna. For parabolic antennas it is sufficient to enter the antenna diameter. With a flat antenna you do not have to set anything. If you know the exact antenna name, check if your antenna is already in the database.\n\nTip: Press the wizard button to measure the size of the satellite antenna using the iPhone camera and LiDAR scanner. \n\nSTEP 2 - CHOOSE YOUR SATELLITE\nTo quickly and easily select a suitable satellite, simply press the \"AUTO\" button. The SatFinder will now automatically search for satellites that are in your reception area and that offer TV or radio stations in your language (the language setting of your iPhone will be selected). The stars (1-10) shown in the table result from the number of radio and TV channels offered and the reception strength at your location.  \n\nIf you want to receive a special satellite, switch off \"AUTO\": Now you can simply scroll through the table and select the satellite. Faster is the search function - just enter the name of the satellite, the channel or the orbit position. You can also reduce the number of table entries by hiding satellites that are not available at your location or do not broadcast in your language. With the button \"Channel Info\" you can check which channels the selected satellite is currently broadcasting - including all channel parameters for your satellite receiver.  \n\nSTEP 3 - CHECK OBSTACLES\nFor a smooth satellite reception, there must not be any obstacles between the satellite and your satellite antenna. You can check this with the \"View\" function. Simply aim at the satellite and watch the signs (GREEN - no obstacle, RED - caution, free view may not be given).\n\nTip: Press the button for the assistant to activate the voice output.\n\nSTEP 4 - ADJUST ANTENNA\nIn the menu item \"Align\" different graphics appear depending on the selected antenna type. If you use an offset antenna, you have to adjust the azimuth and elevation separately. With planar or parabolic antennas the adjustment of the angles is done together. Before you press the \"Start\" button, a video clip shows how to position your iPhone at the antenna. \n\nTip: Press the button for the assistant to activate the voice output.\n\nSTEP 5 - FINE TUNING \nIf necessary, you can optimize the reception of your satellite system. The SatFinder provides you with the function \"FineTuning\". To use this function, you need a second iOS device. One device serves as a camera; the second device as a monitor. Simply place an iPhone in front of your reception screen and observe changes in picture quality while slightly rotating or tilting your satellite antenna. With the FineTuning feature, you'll have visual contact with your TV even when you're out of sight. \n\nTHAT'S IT. YOU SHOULD NOW BE ABLE TO ENJOY INTERFERENCE-FREE SATELLITE RECEPTION... \nNote: Satellite antenna tuning is only available on iOS devices with LiDAR sensor (e.g. iPhone 12 Pro)."
-    },
-    "im:price": {
-      "label": "USD 5.99",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "©2022 RA Software"
-    },
-    "title": {
-      "label": "SatFinder - Ralf Andrae"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/satfinder/id397993104?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/6b/e4/89/6be489a7-a416-2e45-f649-d316773a5ca0/350e329f-d11e-42c1-9e64-96cc85092250_1.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/satfinder/id397993104?l=en&uo=2",
-      "attributes": {
-        "im:id": "397993104",
-        "im:bundleId": "AYM8AR77H3.com.domainname.SatFinder"
-      }
-    },
-    "im:artist": {
-      "label": "Ralf Andrae",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/ralf-andrae/id305338261?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-20T17:50:47-07:00",
-      "attributes": {
-        "label": "October 20, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 11,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Dark Mode for Safari"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/99/ea/b3/99eab3ce-2806-ec3a-59d8-1ca8655d1276/AppIcon-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/99/ea/b3/99eab3ce-2806-ec3a-59d8-1ca8655d1276/AppIcon-1x_U007emarketing-0-8-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/99/ea/b3/99eab3ce-2806-ec3a-59d8-1ca8655d1276/AppIcon-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Dark Mode makes your Safari browser more comfortable, enjoyable and cool by changing the colour scheme to make web pages easier to read. Works especially well for people working during the night, in low light environments or when you want to match your browser with the new iOS dark mode look.\n\nHOW TO USE IT\n• Once you activate the extension all websites will display a darker theme. You can start the extension manually, you can schedule it or turn it on automatically (when iOS dark mode is active)\n• Just press the toolbar button and you can change to a softer theme, an e-ink (paper) theme or cover the page with a translucent curtain\n• You can apply dark mode for some sites only and deactivate the theme for any site\n\nFEATURES\n• Apply a cool dark theme on any website\n• Perfect every time you want to read a long article, research a big page or make a presentation\n• A simple and powerful Safari extension (action), easy to activate and use\n• Choose between 5 themes: Dark, Mono Dark, Soft Dark, Dark Curtain and Paper (E-Ink)\n• Multiple ways to activate the extension: manually, schedule it for your preferred reading hours or when iOS dark mode is on\n• You can ignore any site or you can apply Dark Mode for some websites only\n\nSUPPORT\nWe read your support emails every day, day by day.\nWrite with confidence any question, feedback or complaint and you will receive an answer in a very short period of time."
-    },
-    "im:price": {
-      "label": "USD 1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Denk Alexandru"
-    },
-    "title": {
-      "label": "Dark Mode for Safari - Denk Alexandru"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/dark-mode-for-safari/id1457327380?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/e8/b3/c9/e8b3c9ca-aacd-7cb5-813a-1afcfaea5952/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/dark-mode-for-safari/id1457327380?l=en&uo=2",
-      "attributes": {
-        "im:id": "1457327380",
-        "im:bundleId": "alexandrudenk.Dark-Mode-for-iOS-Safari"
-      }
-    },
-    "im:artist": {
-      "label": "Denk Alexandru",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/denk-alexandru/id551756299?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-03-24T08:59:42-07:00",
-      "attributes": {
-        "label": "March 24, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 12,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Bullet Flight M"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/f2/cf/12/f2cf12c2-9e9d-a40a-759a-a2786b2a769a/mzl.xvxqypon.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple111/v4/f2/cf/12/f2cf12c2-9e9d-a40a-759a-a2786b2a769a/mzl.xvxqypon.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/f2/cf/12/f2cf12c2-9e9d-a40a-759a-a2786b2a769a/mzl.xvxqypon.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Note: This is the highest level of Bullet Flight (level M, Military). Also see BulletFlt L1 and BulletFlt L2 for lower-cost alternatives.\n\nKnight's Armament BulletFlight is a military-grade ballistic computer that provides quick solutions in the field. BulletFlight does not output information in table format but rather dynamically gives you the solution you need now to make that shot. Current weather conditions including temperature, pressure, humidity, wind speed, and  wind direction can be input, as well as angles to the target as measured by the built-in accelerometer. The app then provides highly detailed solutions out to 3000 meters. Your weapon profile includes your scope MOA/mRad per click, and hence when you provide a range to the target, the app will simply show how many clicks you need to change the scope by for that range and wind speed.\n\nIncludes over 1400 projectiles including carefully-measured G7 BC database for VLD bullets. BulletFlight's G7 data is courtesy of Bryan Litz and I recommend his book: http://www.appliedballisticsllc.com/index_files/Book.htm\n\nUp to five ballistic coefficients with corresponding velocity thresholds may be used for each profile to enhance accuracy, or use a single G1, G7, or G8 value.\n\nSeveral built-in profiles for the Army's M110 and M110C semi-automatic precision rifle, the Army's new XM2010 sniper rifle, the 14.5 inch SR16 rifle, The 50 BMG M107, .308 M40A3, .308 M24, and the 6.5mm KAC PDW allow you to get started quickly. You may alter these profiles, or add new ones.\n\nThis app was in combat use by military snipers in Iraq and Afghanistan. \n\nFeatures:\nBuilt-in profiles for common military rifles, but easily add more custom profiles.\nAccurate bullet database with most major brands.\n3000 meters range (2000 using simple screen).\nFast and accurate ballistic computation using G1, G7, or G8 ballistic coefficients.\nEasy to use interface yet powerful and full featured. All relevant data on screen all at once.\nUser interface designed to minimize chance of input errors.\n\"Simple Screen\" with distance wheel, but also \"Full\" screen where any exact range may be used.\nOutput in inches, cm, MOA, Mils, and scope clicks.\nOption for Metric units. In most cases imperial and metric are visible at the same time.\nDirect input for scopes with either MOA or mRad metric input (such as Schmidt & Bender).\nCalculates 360 degree wind drift using either degree of O'Clock format input.\nWind speed may be specified in either miles-per-hour or meters-per-second.\nAdvanced atmospheric model.\nUses GPS to locate nearest weather station and then automatically gets weather data and altitude for ballistic computation.\nSight-in weather may be logged and stored for automatic normalization to standard conditions. So you may sight in at any temperature or altitude and later be accurate at any other temperature or altitude.\nBuilt-in accelerometer will detect angle for improved accuracy.\nComputes actual BCs from collected data. Some users will do this for each log of ammo before a mission.\nBuilt-in mil-dot range calculator.\nCalculates bullet twist / stability with a highly-accurate formula.\nComputes bullet spin drift.\nBuilt-in help screen."
-    },
-    "im:price": {
-      "label": "USD 29.99",
-      "attributes": {
-        "amount": "29.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2008-2017 Runaway Technology, Inc."
-    },
-    "title": {
-      "label": "Bullet Flight M - Runaway Technology, Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/bullet-flight-m/id300903039?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple111/v4/38/1e/39/381e3941-299a-2f6d-7eb8-6444b639423f/mzl.xkebjmwc.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/bullet-flight-m/id300903039?l=en&uo=2",
-      "attributes": {
-        "im:id": "300903039",
-        "im:bundleId": "com.silencertalk.bulletflight"
-      }
-    },
-    "im:artist": {
-      "label": "Runaway Technology, Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/runaway-technology-inc/id300903042?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2009-01-12T19:10:07-07:00",
-      "attributes": {
-        "label": "January 12, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 13,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Selector - Finger Chooser"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/98/c1/a3/98c1a3a8-6a55-e255-9363-015ecccb3c39/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/98/c1/a3/98c1a3a8-6a55-e255-9363-015ecccb3c39/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/98/c1/a3/98c1a3a8-6a55-e255-9363-015ecccb3c39/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Need to select between a bunch of people or split them into groups? Selector will decide for you! Have everyone hold a finger on the device until the selection is made.\nUse it to make decisions like who has to take out the garbage, where to eat lunch or who does the dishes.\n\nIt has 3 modes: Fingers, Groups, Mixed\n\n   • Finger: Selects a given number of fingers (e.g. 1 finger, 2 fingers)\n   • Groups: Splits the fingers into a given number of groups (e.g. 1 group, 2 groups)\n   • Mixed: Chooses a number of fingers and splits them into the selected number of groups (e.g. 4 fingers and split them into 2 groups)\n\nUp to 11 fingers supported on iPad.\nUp to 5 fingers supported on iPhone."
-    },
-    "im:price": {
-      "label": "USD 1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Andrei Ardelean"
-    },
-    "title": {
-      "label": "Selector - Finger Chooser - Andrei Augustin Ardelean"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/selector-finger-chooser/id1023479299?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/5e/40/34/5e40345b-af46-8c6d-624f-7411cb402298/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/selector-finger-chooser/id1023479299?l=en&uo=2",
-      "attributes": {
-        "im:id": "1023479299",
-        "im:bundleId": "com.andreiardelean.selector"
-      }
-    },
-    "im:artist": {
-      "label": "Andrei Augustin Ardelean",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/andrei-augustin-ardelean/id868802485?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-08-07T17:45:32-07:00",
-      "attributes": {
-        "label": "August 7, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
       "index": 14,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Color Picker - Pick & Design"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/55/72/81/5572811c-7da3-863a-9357-3c5304d2a1e0/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/55/72/81/5572811c-7da3-863a-9357-3c5304d2a1e0/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/55/72/81/5572811c-7da3-863a-9357-3c5304d2a1e0/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "- supports camera shooting and photo albums\n- calculate the average color of the whole picture\n- generate schemes from a picture\n- effectively extract the color of a pixel in the image\n- Multiple schemes of a single color\n- Convert colors to HEX, RGB, HSL, HSB/HSV, CMY, CMYK, LAB, XYZ, Yxy, LCH, LUV. Almost all color spaces.\n- Save colors and all kinds of schemes.\n- download the color to your phone"
-    },
-    "im:price": {
-      "label": "USD 0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Yiyu Qian"
-    },
-    "title": {
-      "label": "Color Picker - Pick & Design - Yiyu Qian"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/color-picker-pick-design/id1456248929?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/86/d8/66/86d86653-9e98-45e0-ec7f-38e337a9fd11/tns.wncqazkf.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/color-picker-pick-design/id1456248929?l=en&uo=2",
-      "attributes": {
-        "im:id": "1456248929",
-        "im:bundleId": "com.free.colorpicker"
-      }
-    },
-    "im:artist": {
-      "label": "Yiyu Qian",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/yiyu-qian/id1451177769?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-03-21T19:11:27-07:00",
-      "attributes": {
-        "label": "March 21, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1534,7 +1432,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1636,7 +1534,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1738,7 +1636,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -1840,7 +1738,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
+      "index": 18,
       "total": 100
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 20,
+      "index": 19,
       "total": 100
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
+      "index": 20,
       "total": 100
     },
     "im:name": {
@@ -2146,7 +2044,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
+      "index": 21,
       "total": 100
     },
     "im:name": {
@@ -2248,7 +2146,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
+      "index": 22,
       "total": 100
     },
     "im:name": {
@@ -2350,7 +2248,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2452,7 +2350,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
+      "index": 24,
       "total": 100
     },
     "im:name": {
@@ -2554,7 +2452,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2656,7 +2554,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +2656,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -2852,6 +2750,108 @@
       "label": "2013-08-07T00:00:00-07:00",
       "attributes": {
         "label": "August 7, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 28,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Shadowrocket"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/0a/71/67/0a7167ae-0b1c-62ad-d09f-126522cd18be/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/0a/71/67/0a7167ae-0b1c-62ad-d09f-126522cd18be/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/0a/71/67/0a7167ae-0b1c-62ad-d09f-126522cd18be/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
+    },
+    "im:price": {
+      "label": "USD 2.99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Li Guangming"
+    },
+    "title": {
+      "label": "Shadowrocket - Shadow Launch Technology Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/shadowrocket/id932747118?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/shadowrocket/id932747118?l=en&uo=2",
+      "attributes": {
+        "im:id": "932747118",
+        "im:bundleId": "com.liguangming.Shadowrocket"
+      }
+    },
+    "im:artist": {
+      "label": "Shadow Launch Technology Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/shadow-launch-technology-limited/id687237009?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-04-13T19:09:18-07:00",
+      "attributes": {
+        "label": "April 13, 2015"
       }
     }
   },
@@ -8576,108 +8576,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Rise Alarm Clock"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Rise is a simple alarm clock with a lot of smart features. With its refreshing and clever way to set time, Rise is one of the easiest alarm clocks you'll ever use.\n\nAPPLE - App Of The Week, Featured Utility.\nRead the great reviews in Mashable, Fast Company, Lifehacker, TUAW, Business Insider, The Loop, App Advice and many more.\n\nTIME TO ENJOY SETTING YOUR ALARM CLOCK\nReach out and touch the screen. Every element is meant to be interactive. Left handed? Yes, Rise loves you, too.\n\nPull it up or down and watch the sky change as you pick a wake up time. Turn the alarm on by pulling the screen left or right.\n\nOr, simply shake your device to quickly set an alarm for a short nap or to use as a timer.\n\nWAKING UP IS A BEAUTIFUL THING\nWake up to the sound of the woods, ease into the day with a custom Rise melody, or your favorite song from iTunes. \n\nTap to snooze and be a little late, or pull the screen to turn off the alarm and be on time. Hey, it's your life.\n\nFrom the lock screen: Shake to snooze or turn off the alarm.\n\nMULTIPLE ALARMS HAVE NEVER BEEN THIS EASY (With in-app purchase)\nEasily create repeating alarms for any time with custom labels for each alarm. Toggle all your alarms on or off from one screen. Rise will always show the next alarm when you open the app. \n\nA BETTER ALARM NEEDS A BETTER CLOCK\nLarge clock in either portrait or landscape (for docked devices) with clock background options: Night or Skyscape. Swipe to change the clock background and dim the screen by sliding up or down. \n\nLET RISE HELP YOU FALL (ASLEEP)\nUse SleepTunes to make a playlist from your iTunes collection to help you fall asleep. Set a timer for your playlist so it doesn't run all night.\n\nNOTES\n- Rise is made for iOS 9+ compatible devices.\n- Rise works with \"Do Not Disturb\" and the silence switch as long as it's in the foreground and / or auto-locked when using those two features.\n\nRISE IS LOCALIZED FOR THE FOLLOWING LANGUAGES\n- Afrikaans\n- Chinese ( Simplified )\n- Chinese ( Traditional )\n- Dutch\n- English\n- German\n- Finnish\n- French\n- Malay\n- Norwegian\n- Hebrew\n- Hungarian\n- Italian\n- Japanese\n- Korean\n- Polish\n- Portuguese\n- Romanian\n- Russian\n- Spanish\n\nWE LOVE TO HELP\nWe pride ourselves on offering great support. If you have an issue or feature request, please contact us on Twitter (@simplebots) or through our site www.simplebots.co"
-    },
-    "im:price": {
-      "label": "USD 1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2012-2016 Simplebots, www.simplebots.co"
-    },
-    "title": {
-      "label": "Rise Alarm Clock - Kellen Styler"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/rise-alarm-clock/id577221529?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/45/20/c2/4520c2ca-9c40-ec68-8ff5-933aa922e26d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/rise-alarm-clock/id577221529?l=en&uo=2",
-      "attributes": {
-        "im:id": "577221529",
-        "im:bundleId": "com.kellenstyler.rise"
-      }
-    },
-    "im:artist": {
-      "label": "Kellen Styler",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/kellen-styler/id442165163?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-12-20T00:00:00-07:00",
-      "attributes": {
-        "label": "December 20, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 86,
-      "total": 100
-    },
-    "im:name": {
       "label": "PCalc"
     },
     "im:image": [
@@ -8776,7 +8674,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 87,
+      "index": 86,
       "total": 100
     },
     "im:name": {
@@ -8878,7 +8776,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 88,
+      "index": 87,
       "total": 100
     },
     "im:name": {
@@ -8972,6 +8870,108 @@
       "label": "2012-10-04T13:12:12-07:00",
       "attributes": {
         "label": "October 4, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 88,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Rise Alarm Clock"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Rise is a simple alarm clock with a lot of smart features. With its refreshing and clever way to set time, Rise is one of the easiest alarm clocks you'll ever use.\n\nAPPLE - App Of The Week, Featured Utility.\nRead the great reviews in Mashable, Fast Company, Lifehacker, TUAW, Business Insider, The Loop, App Advice and many more.\n\nTIME TO ENJOY SETTING YOUR ALARM CLOCK\nReach out and touch the screen. Every element is meant to be interactive. Left handed? Yes, Rise loves you, too.\n\nPull it up or down and watch the sky change as you pick a wake up time. Turn the alarm on by pulling the screen left or right.\n\nOr, simply shake your device to quickly set an alarm for a short nap or to use as a timer.\n\nWAKING UP IS A BEAUTIFUL THING\nWake up to the sound of the woods, ease into the day with a custom Rise melody, or your favorite song from iTunes. \n\nTap to snooze and be a little late, or pull the screen to turn off the alarm and be on time. Hey, it's your life.\n\nFrom the lock screen: Shake to snooze or turn off the alarm.\n\nMULTIPLE ALARMS HAVE NEVER BEEN THIS EASY (With in-app purchase)\nEasily create repeating alarms for any time with custom labels for each alarm. Toggle all your alarms on or off from one screen. Rise will always show the next alarm when you open the app. \n\nA BETTER ALARM NEEDS A BETTER CLOCK\nLarge clock in either portrait or landscape (for docked devices) with clock background options: Night or Skyscape. Swipe to change the clock background and dim the screen by sliding up or down. \n\nLET RISE HELP YOU FALL (ASLEEP)\nUse SleepTunes to make a playlist from your iTunes collection to help you fall asleep. Set a timer for your playlist so it doesn't run all night.\n\nNOTES\n- Rise is made for iOS 9+ compatible devices.\n- Rise works with \"Do Not Disturb\" and the silence switch as long as it's in the foreground and / or auto-locked when using those two features.\n\nRISE IS LOCALIZED FOR THE FOLLOWING LANGUAGES\n- Afrikaans\n- Chinese ( Simplified )\n- Chinese ( Traditional )\n- Dutch\n- English\n- German\n- Finnish\n- French\n- Malay\n- Norwegian\n- Hebrew\n- Hungarian\n- Italian\n- Japanese\n- Korean\n- Polish\n- Portuguese\n- Romanian\n- Russian\n- Spanish\n\nWE LOVE TO HELP\nWe pride ourselves on offering great support. If you have an issue or feature request, please contact us on Twitter (@simplebots) or through our site www.simplebots.co"
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2012-2016 Simplebots, www.simplebots.co"
+    },
+    "title": {
+      "label": "Rise Alarm Clock - Kellen Styler"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/rise-alarm-clock/id577221529?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/45/20/c2/4520c2ca-9c40-ec68-8ff5-933aa922e26d/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/rise-alarm-clock/id577221529?l=en&uo=2",
+      "attributes": {
+        "im:id": "577221529",
+        "im:bundleId": "com.kellenstyler.rise"
+      }
+    },
+    "im:artist": {
+      "label": "Kellen Styler",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/kellen-styler/id442165163?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-12-20T00:00:00-07:00",
+      "attributes": {
+        "label": "December 20, 2012"
       }
     }
   },

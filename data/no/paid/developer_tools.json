@@ -8,6 +8,108 @@
       "total": 88
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "59,00 kr",
+      "attributes": {
+        "amount": "59.00",
+        "currency": "NOK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/no/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/no/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/no/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "no",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 88
+    },
+    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
+      "index": 3,
       "total": 88
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 88
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 88
     },
     "im:name": {
@@ -412,7 +514,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 6,
       "total": 88
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 7,
       "total": 88
     },
     "im:name": {
@@ -616,7 +718,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 88
     },
     "im:name": {
@@ -710,108 +812,6 @@
       "label": "2017-06-06T20:59:38-07:00",
       "attributes": {
         "label": "June 6, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "no",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 8,
-      "total": 88
-    },
-    "im:name": {
-      "label": "Source 3"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Source is an app plus a Safari extension that makes it easy to do one key web developer task: view the HTML source of any web page, with beautiful and customisable syntax highlighting.\n\nJust browse the web in Safari as you normally would, and if you want to view the source for your current page just tap the Action icon and choose Source.\n\nThe following steps show you how to get extensions to enhance your browsing experience in Safari on ‌iOS 15‌.\n\nSettings app → Safari → Extensions → toggle on the app or settings."
-    },
-    "im:price": {
-      "label": "9,00 kr",
-      "attributes": {
-        "amount": "9.00",
-        "currency": "NOK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© ytzong"
-    },
-    "title": {
-      "label": "Source 3 - com.ytzong"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/no/app/source-3/id921385542?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7f/92/f3/7f92f3e1-9543-6a7a-45e3-ece4cd8011b5/efc98fb8-d655-4f35-ae9d-af3ad5312168_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-12-07_at_17.40.43.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/no/app/source-3/id921385542?uo=2",
-      "attributes": {
-        "im:id": "921385542",
-        "im:bundleId": "com.ytzong.ViewSource"
-      }
-    },
-    "im:artist": {
-      "label": "com.ytzong",
-      "attributes": {
-        "href": "https://apps.apple.com/no/developer/com-ytzong/id473955712?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-10-08T10:20:13-07:00",
-      "attributes": {
-        "label": "October 8, 2014"
       }
     }
   },
@@ -926,30 +926,30 @@
       "total": 88
     },
     "im:name": {
-      "label": "ESP32 BLE Terminal"
+      "label": "Source 3"
     },
     "im:image": [
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
+      "label": "Source is an app plus a Safari extension that makes it easy to do one key web developer task: view the HTML source of any web page, with beautiful and customisable syntax highlighting.\n\nJust browse the web in Safari as you normally would, and if you want to view the source for your current page just tap the Action icon and choose Source.\n\nThe following steps show you how to get extensions to enhance your browsing experience in Safari on ‌iOS 15‌.\n\nSettings app → Safari → Extensions → toggle on the app or settings."
     },
     "im:price": {
       "label": "9,00 kr",
@@ -965,17 +965,17 @@
       }
     },
     "rights": {
-      "label": "© 2021 mightyIT"
+      "label": "© ytzong"
     },
     "title": {
-      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
+      "label": "Source 3 - com.ytzong"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/no/app/esp32-ble-terminal/id1567601472?uo=2"
+          "href": "https://apps.apple.com/no/app/source-3/id921385542?uo=2"
         }
       },
       {
@@ -986,22 +986,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7f/92/f3/7f92f3e1-9543-6a7a-45e3-ece4cd8011b5/efc98fb8-d655-4f35-ae9d-af3ad5312168_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-12-07_at_17.40.43.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/no/app/esp32-ble-terminal/id1567601472?uo=2",
+      "label": "https://apps.apple.com/no/app/source-3/id921385542?uo=2",
       "attributes": {
-        "im:id": "1567601472",
-        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
+        "im:id": "921385542",
+        "im:bundleId": "com.ytzong.ViewSource"
       }
     },
     "im:artist": {
-      "label": "Gopi Gadhiya",
+      "label": "com.ytzong",
       "attributes": {
-        "href": "https://apps.apple.com/no/developer/gopi-gadhiya/id1387816354?uo=2"
+        "href": "https://apps.apple.com/no/developer/com-ytzong/id473955712?uo=2"
       }
     },
     "category": {
@@ -1013,9 +1013,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-06-01T00:00:00-07:00",
+      "label": "2014-10-08T10:20:13-07:00",
       "attributes": {
-        "label": "June 1, 2021"
+        "label": "October 8, 2014"
       }
     }
   },
@@ -1130,108 +1130,6 @@
       "total": 88
     },
     "im:name": {
-      "label": "UWeb.io Website Builder"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/da/96/33/da96334e-a5fb-4980-d0a1-e30879c50f1e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/da/96/33/da96334e-a5fb-4980-d0a1-e30879c50f1e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/da/96/33/da96334e-a5fb-4980-d0a1-e30879c50f1e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Exclusively available on the iOS & Mac App Stores.\n\nIntroducing the next generation website builder – UWeb.io™ is a professional web design tool, built with RetinaHD templates and real-time web publishing to unlimited free domains.\n\nUWeb.io™ Website Builder is unique in the sense that you pay for the app once and receive limitless access to creating unlimited websites, domain names, templates, themes and much, much more.\n\nCreate your website in minutes using one of our Retina-responsive™ templates, and then access it in real-time using one of our custom uweb.io domain names – free with every site.\n\nTo help get you started, UWeb.io™ comes with our signature RetinaHD Templates Library that provides a vast, unlimited selection of website designs to choose from – optimized for any device or screen size. Constantly updated to match industry-standard, each template is built using the latest in HTML5, CSS3 and JS frameworks.\n\nFEATURES\n• Create a website and get a free domain\n• Choose from a vast library of templates to get you started\n• Design your website by utilizing the power of the Grid\n• Move, resize and modify objects on the live page in real-time\n• Edit objects, such as text, directly on the page\n• Drag and drop new elements to the page from the builder menu\n• Create and publish entire HD websites within minutes\n• Use instant publishing to see your changes reflect on your live domain\n• Use themes to customize each high-def template\n• Customize objects with the Inspector Tool (eg. apply Google font to text)\n• Add your own pictures and video to the Media Library\n• Integrated FontAwesome icons library into the builder\n• 100s of Google fonts, as well as custom font support\n• Code editor with syntax highlighting for advanced users\n• And much, much more...\n\nUWeb.io™ – known for its drag and drop simplicity, yet powerful under-the-hood functionality – allows for an easy website building experience, but in a fraction of the time of a standard website builder. Build your pixel-perfect website with one of our Retina-responsive™ designs and have it published to the web for free in minutes!\n\nTEMPLATES\n• Retina-responsive™ designs with RetinaHD support\n• Optimized for any device or screen size\n• Parallax, fade in-out and many more animation FX\n• Built on the Bootstrap 3 & 4 Frameworks\n\nOur professionally designed templates and themes will make starting from scratch a non-existent process. Then customize your theme by editing directly on the page or by dragging and dropping new elements to your site from the side menu.\n\nDRAG & DROP ELEMENTS\n• Built ready for the Grid\n• Logo and navigation bars\n• Titles, headers and body text\n• Responsive and parallax cover photos\n• Image objects and interactive galleries\n• HTML5 video players (local, YouTube, Vimeo, etc.)\n• Icons by FontAwesome\n• Pricing and feature tables\n• User login, signup and management\n• Customizable buttons and progress bars\n• Contact and support forms\n• Lists, panels and grouped boxes\n• Custom code objects for embedded content\n• Google's material design\n\nAnd that's just the tip of the iceberg.\n\nAre you new to web development? Not a problem! Building a website is now easy as selecting one of our many predesigned templates, apply your favored theme and use the page builder to fill in your content with the drag and drop elements provided.\n\nAre you more of an experienced web developer? UWeb.io™ can help you design professional websites for your clients in a fraction of the time with our live source code editor. See your HTML, CSS and JS changes reflect instantly on the page.\n\nFree with every site, UWeb.io™ allows you to publish each of your websites to a custom uweb.io domain name in real-time. Enable the Live Publishing feature in your builder's settings and watch as your changes are reflected instantly to your live domain.\n\nStart building today. It'll only take a few minutes to get your first site up and running!"
-    },
-    "im:price": {
-      "label": "99,00 kr",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "NOK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 UWeb.io"
-    },
-    "title": {
-      "label": "UWeb.io Website Builder - Justin Bush"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/no/app/uweb-io-website-builder/id1257464541?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/8b/9e/e2/8b9ee2b2-1104-4229-1e67-b969c8f99aee/f9516225-d21c-426f-947d-660cac8933bb_Pad_A__U2013_1.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/no/app/uweb-io-website-builder/id1257464541?uo=2",
-      "attributes": {
-        "im:id": "1257464541",
-        "im:bundleId": "io.uweb.macos"
-      }
-    },
-    "im:artist": {
-      "label": "Justin Bush",
-      "attributes": {
-        "href": "https://apps.apple.com/no/developer/justin-bush/id490452369?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-11-13T20:42:46-07:00",
-      "attributes": {
-        "label": "November 13, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "no",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 13,
-      "total": 88
-    },
-    "im:name": {
       "label": "Adaptivity (A)"
     },
     "im:image": [
@@ -1330,7 +1228,211 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
+      "index": 13,
+      "total": 88
+    },
+    "im:name": {
+      "label": "ESP32 BLE Terminal"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
+    },
+    "im:price": {
+      "label": "9,00 kr",
+      "attributes": {
+        "amount": "9.00",
+        "currency": "NOK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 mightyIT"
+    },
+    "title": {
+      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/no/app/esp32-ble-terminal/id1567601472?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/no/app/esp32-ble-terminal/id1567601472?uo=2",
+      "attributes": {
+        "im:id": "1567601472",
+        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
+      }
+    },
+    "im:artist": {
+      "label": "Gopi Gadhiya",
+      "attributes": {
+        "href": "https://apps.apple.com/no/developer/gopi-gadhiya/id1387816354?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-06-01T00:00:00-07:00",
+      "attributes": {
+        "label": "June 1, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "no",
+      "pricing": "paid",
+      "genre": "developer_tools",
       "index": 14,
+      "total": 88
+    },
+    "im:name": {
+      "label": "UWeb.io Website Builder"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/da/96/33/da96334e-a5fb-4980-d0a1-e30879c50f1e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/da/96/33/da96334e-a5fb-4980-d0a1-e30879c50f1e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/da/96/33/da96334e-a5fb-4980-d0a1-e30879c50f1e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Exclusively available on the iOS & Mac App Stores.\n\nIntroducing the next generation website builder – UWeb.io™ is a professional web design tool, built with RetinaHD templates and real-time web publishing to unlimited free domains.\n\nUWeb.io™ Website Builder is unique in the sense that you pay for the app once and receive limitless access to creating unlimited websites, domain names, templates, themes and much, much more.\n\nCreate your website in minutes using one of our Retina-responsive™ templates, and then access it in real-time using one of our custom uweb.io domain names – free with every site.\n\nTo help get you started, UWeb.io™ comes with our signature RetinaHD Templates Library that provides a vast, unlimited selection of website designs to choose from – optimized for any device or screen size. Constantly updated to match industry-standard, each template is built using the latest in HTML5, CSS3 and JS frameworks.\n\nFEATURES\n• Create a website and get a free domain\n• Choose from a vast library of templates to get you started\n• Design your website by utilizing the power of the Grid\n• Move, resize and modify objects on the live page in real-time\n• Edit objects, such as text, directly on the page\n• Drag and drop new elements to the page from the builder menu\n• Create and publish entire HD websites within minutes\n• Use instant publishing to see your changes reflect on your live domain\n• Use themes to customize each high-def template\n• Customize objects with the Inspector Tool (eg. apply Google font to text)\n• Add your own pictures and video to the Media Library\n• Integrated FontAwesome icons library into the builder\n• 100s of Google fonts, as well as custom font support\n• Code editor with syntax highlighting for advanced users\n• And much, much more...\n\nUWeb.io™ – known for its drag and drop simplicity, yet powerful under-the-hood functionality – allows for an easy website building experience, but in a fraction of the time of a standard website builder. Build your pixel-perfect website with one of our Retina-responsive™ designs and have it published to the web for free in minutes!\n\nTEMPLATES\n• Retina-responsive™ designs with RetinaHD support\n• Optimized for any device or screen size\n• Parallax, fade in-out and many more animation FX\n• Built on the Bootstrap 3 & 4 Frameworks\n\nOur professionally designed templates and themes will make starting from scratch a non-existent process. Then customize your theme by editing directly on the page or by dragging and dropping new elements to your site from the side menu.\n\nDRAG & DROP ELEMENTS\n• Built ready for the Grid\n• Logo and navigation bars\n• Titles, headers and body text\n• Responsive and parallax cover photos\n• Image objects and interactive galleries\n• HTML5 video players (local, YouTube, Vimeo, etc.)\n• Icons by FontAwesome\n• Pricing and feature tables\n• User login, signup and management\n• Customizable buttons and progress bars\n• Contact and support forms\n• Lists, panels and grouped boxes\n• Custom code objects for embedded content\n• Google's material design\n\nAnd that's just the tip of the iceberg.\n\nAre you new to web development? Not a problem! Building a website is now easy as selecting one of our many predesigned templates, apply your favored theme and use the page builder to fill in your content with the drag and drop elements provided.\n\nAre you more of an experienced web developer? UWeb.io™ can help you design professional websites for your clients in a fraction of the time with our live source code editor. See your HTML, CSS and JS changes reflect instantly on the page.\n\nFree with every site, UWeb.io™ allows you to publish each of your websites to a custom uweb.io domain name in real-time. Enable the Live Publishing feature in your builder's settings and watch as your changes are reflected instantly to your live domain.\n\nStart building today. It'll only take a few minutes to get your first site up and running!"
+    },
+    "im:price": {
+      "label": "99,00 kr",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "NOK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 UWeb.io"
+    },
+    "title": {
+      "label": "UWeb.io Website Builder - Justin Bush"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/no/app/uweb-io-website-builder/id1257464541?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/8b/9e/e2/8b9ee2b2-1104-4229-1e67-b969c8f99aee/f9516225-d21c-426f-947d-660cac8933bb_Pad_A__U2013_1.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/no/app/uweb-io-website-builder/id1257464541?uo=2",
+      "attributes": {
+        "im:id": "1257464541",
+        "im:bundleId": "io.uweb.macos"
+      }
+    },
+    "im:artist": {
+      "label": "Justin Bush",
+      "attributes": {
+        "href": "https://apps.apple.com/no/developer/justin-bush/id490452369?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-11-13T20:42:46-07:00",
+      "attributes": {
+        "label": "November 13, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "no",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 15,
       "total": 88
     },
     "im:name": {
@@ -1432,7 +1534,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 16,
       "total": 88
     },
     "im:name": {
@@ -1534,7 +1636,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 17,
       "total": 88
     },
     "im:name": {
@@ -1628,108 +1730,6 @@
       "label": "2020-05-28T00:00:00-07:00",
       "attributes": {
         "label": "May 28, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "no",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 17,
-      "total": 88
-    },
-    "im:name": {
-      "label": "UDevice - Dev Assistant"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/24/c4/d224c457-6cb0-01eb-4c5c-519e3c4617b7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/24/c4/d224c457-6cb0-01eb-4c5c-519e3c4617b7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/24/c4/d224c457-6cb0-01eb-4c5c-519e3c4617b7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Http(s) Capture/Rewrite, ssh, Cookie editing, Ping, File manager, DNS parsing, traceroute, port scanning, GPT AI, log analysis etc.\nProvide all kinds of dev/testing tools.\nDevice  Fingerprint, CPU, system, network, memory, display, browser, etc.\nDiscover and reveal the real and real-time data information of the equipment.\nApplied to development, testing, reverse analysis, investigation and evidence collection and daily equipment management."
-    },
-    "im:price": {
-      "label": "29,00 kr",
-      "attributes": {
-        "amount": "29.00",
-        "currency": "NOK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© ChenZhiPeng"
-    },
-    "title": {
-      "label": "UDevice - Dev Assistant - Gansu Zhenxian Network Technology Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/no/app/udevice-dev-assistant/id1608053878?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/6a/8b/f4/6a8bf435-e63a-d6e7-fb81-8535675db40a/db22fcec-acfa-4c8a-9982-0ef729c999b0_IMG_0169.PNG/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/no/app/udevice-dev-assistant/id1608053878?uo=2",
-      "attributes": {
-        "im:id": "1608053878",
-        "im:bundleId": "com.korschen.UDevice"
-      }
-    },
-    "im:artist": {
-      "label": "Gansu Zhenxian Network Technology Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/no/developer/gansu-zhenxian-network-technology-co-ltd/id1616881226?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-02-02T00:00:00-07:00",
-      "attributes": {
-        "label": "February 2, 2022"
       }
     }
   },
@@ -1844,6 +1844,108 @@
       "total": 88
     },
     "im:name": {
+      "label": "UDevice - Dev Assistant"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/24/c4/d224c457-6cb0-01eb-4c5c-519e3c4617b7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/24/c4/d224c457-6cb0-01eb-4c5c-519e3c4617b7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/24/c4/d224c457-6cb0-01eb-4c5c-519e3c4617b7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Http(s) Capture/Rewrite, ssh, Cookie editing, Ping, File manager, DNS parsing, traceroute, port scanning, GPT AI, log analysis etc.\nProvide all kinds of dev/testing tools.\nDevice  Fingerprint, CPU, system, network, memory, display, browser, etc.\nDiscover and reveal the real and real-time data information of the equipment.\nApplied to development, testing, reverse analysis, investigation and evidence collection and daily equipment management."
+    },
+    "im:price": {
+      "label": "29,00 kr",
+      "attributes": {
+        "amount": "29.00",
+        "currency": "NOK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© ChenZhiPeng"
+    },
+    "title": {
+      "label": "UDevice - Dev Assistant - Gansu Zhenxian Network Technology Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/no/app/udevice-dev-assistant/id1608053878?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/6a/8b/f4/6a8bf435-e63a-d6e7-fb81-8535675db40a/db22fcec-acfa-4c8a-9982-0ef729c999b0_IMG_0169.PNG/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/no/app/udevice-dev-assistant/id1608053878?uo=2",
+      "attributes": {
+        "im:id": "1608053878",
+        "im:bundleId": "com.korschen.UDevice"
+      }
+    },
+    "im:artist": {
+      "label": "Gansu Zhenxian Network Technology Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/no/developer/gansu-zhenxian-network-technology-co-ltd/id1616881226?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-02-02T00:00:00-07:00",
+      "attributes": {
+        "label": "February 2, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "no",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 20,
+      "total": 88
+    },
+    "im:name": {
       "label": "Kuber - Kubernetes Dashboard"
     },
     "im:image": [
@@ -1942,7 +2044,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 21,
       "total": 88
     },
     "im:name": {
@@ -2044,7 +2146,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 88
     },
     "im:name": {
@@ -2146,7 +2248,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 88
     },
     "im:name": {
@@ -2248,7 +2350,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 24,
       "total": 88
     },
     "im:name": {
@@ -2350,7 +2452,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 25,
       "total": 88
     },
     "im:name": {
@@ -2452,7 +2554,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 26,
       "total": 88
     },
     "im:name": {
@@ -2554,7 +2656,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 88
     },
     "im:name": {
@@ -2648,108 +2750,6 @@
       "label": "2013-02-12T14:25:47-07:00",
       "attributes": {
         "label": "February 12, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "no",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 27,
-      "total": 88
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "59,00 kr",
-      "attributes": {
-        "amount": "59.00",
-        "currency": "NOK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/no/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/no/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/no/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
       }
     }
   },
@@ -5842,9 +5842,9 @@
       "label": "MongoGrip is a fully featured MongoDB Client that offers exploring MongoDB databases, managing documents and collection details, advanced queries and more.\n\nMongoGrip features:\n- Replica Sets (with mongodb+srv support)\n- Multiple authentications methods (SCRAM-SHA-1, MONGODB-CR)\n- Document editor\n- TLS support with certificates files\n- Profile exporting\n- Collection and documents export\n- Indexes management\n- Biometrical authentication\n- Dark mode\n- MongoDB Atlas connections"
     },
     "im:price": {
-      "label": "199,00 kr",
+      "label": "99,00 kr",
       "attributes": {
-        "amount": "199.00",
+        "amount": "99.00",
         "currency": "NOK"
       }
     },
@@ -7347,19 +7347,19 @@
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/f0/5f/6cf05f14-11e2-699f-35bf-91532daf9285/AppIcon-0-1x_U007epad-0-85-220.png/53x53bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/14/64/83/146483eb-a6de-7059-67ad-6c119242c1ac/AppIcon-0-1x_U007epad-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/f0/5f/6cf05f14-11e2-699f-35bf-91532daf9285/AppIcon-0-1x_U007epad-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/14/64/83/146483eb-a6de-7059-67ad-6c119242c1ac/AppIcon-0-1x_U007epad-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/f0/5f/6cf05f14-11e2-699f-35bf-91532daf9285/AppIcon-0-1x_U007epad-0-85-220.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/14/64/83/146483eb-a6de-7059-67ad-6c119242c1ac/AppIcon-0-1x_U007epad-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }

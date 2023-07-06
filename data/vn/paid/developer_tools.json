@@ -8,6 +8,108 @@
       "total": 79
     },
     "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "79.000đ",
+      "attributes": {
+        "amount": "79000",
+        "currency": "VND"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/vn/app/laddertouch/id386737169?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/vn/app/laddertouch/id386737169?uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/vn/developer/motonari-hibi/id386737172?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/vn/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "vn",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 79
+    },
+    "im:name": {
       "label": "Code App"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
+      "index": 3,
       "total": 79
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 79
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 79
     },
     "im:name": {
@@ -404,108 +506,6 @@
       "label": "2016-03-12T01:33:30-07:00",
       "attributes": {
         "label": "March 12, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "vn",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
-      "total": 79
-    },
-    "im:name": {
-      "label": "MongoGrip"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "MongoGrip is a fully featured MongoDB Client that offers exploring MongoDB databases, managing documents and collection details, advanced queries and more.\n\nMongoGrip features:\n- Replica Sets (with mongodb+srv support)\n- Multiple authentications methods (SCRAM-SHA-1, MONGODB-CR)\n- Document editor\n- TLS support with certificates files\n- Profile exporting\n- Collection and documents export\n- Indexes management\n- Biometrical authentication\n- Dark mode\n- MongoDB Atlas connections"
-    },
-    "im:price": {
-      "label": "199.000đ",
-      "attributes": {
-        "amount": "199000",
-        "currency": "VND"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Mateusz Woźniak"
-    },
-    "title": {
-      "label": "MongoGrip - Mateusz Wozniak"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/vn/app/mongogrip/id1633074744?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e3/e0/b7/e3e0b784-9a90-b6c3-1828-e1676e953565/fffb01b7-ea1a-4f6e-a9ee-12c23c7f052e_ios_screenshot_9_small_tablet.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/vn/app/mongogrip/id1633074744?uo=2",
-      "attributes": {
-        "im:id": "1633074744",
-        "im:bundleId": "pl.enteam.mgrip"
-      }
-    },
-    "im:artist": {
-      "label": "Mateusz Wozniak",
-      "attributes": {
-        "href": "https://apps.apple.com/vn/developer/mateusz-wozniak/id1555491214?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/vn/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-10-20T00:00:00-07:00",
-      "attributes": {
-        "label": "October 20, 2022"
       }
     }
   },
@@ -620,6 +620,108 @@
       "total": 79
     },
     "im:name": {
+      "label": "MongoGrip"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "MongoGrip is a fully featured MongoDB Client that offers exploring MongoDB databases, managing documents and collection details, advanced queries and more.\n\nMongoGrip features:\n- Replica Sets (with mongodb+srv support)\n- Multiple authentications methods (SCRAM-SHA-1, MONGODB-CR)\n- Document editor\n- TLS support with certificates files\n- Profile exporting\n- Collection and documents export\n- Indexes management\n- Biometrical authentication\n- Dark mode\n- MongoDB Atlas connections"
+    },
+    "im:price": {
+      "label": "199.000đ",
+      "attributes": {
+        "amount": "199000",
+        "currency": "VND"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Mateusz Woźniak"
+    },
+    "title": {
+      "label": "MongoGrip - Mateusz Wozniak"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/vn/app/mongogrip/id1633074744?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e3/e0/b7/e3e0b784-9a90-b6c3-1828-e1676e953565/fffb01b7-ea1a-4f6e-a9ee-12c23c7f052e_ios_screenshot_9_small_tablet.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/vn/app/mongogrip/id1633074744?uo=2",
+      "attributes": {
+        "im:id": "1633074744",
+        "im:bundleId": "pl.enteam.mgrip"
+      }
+    },
+    "im:artist": {
+      "label": "Mateusz Wozniak",
+      "attributes": {
+        "href": "https://apps.apple.com/vn/developer/mateusz-wozniak/id1555491214?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/vn/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-20T00:00:00-07:00",
+      "attributes": {
+        "label": "October 20, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "vn",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 8,
+      "total": 79
+    },
+    "im:name": {
       "label": "Inspect Browser"
     },
     "im:image": [
@@ -718,7 +820,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 9,
       "total": 79
     },
     "im:name": {
@@ -820,7 +922,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 79
     },
     "im:name": {
@@ -922,7 +1024,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 11,
       "total": 79
     },
     "im:name": {
@@ -1016,108 +1118,6 @@
       "label": "2021-08-23T00:00:00-07:00",
       "attributes": {
         "label": "August 23, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "vn",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 11,
-      "total": 79
-    },
-    "im:name": {
-      "label": "View The Source Code of a Site"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/b1/a2/1d/b1a21db6-8619-a57c-5af5-059e7895b968/AppIcon-1x_U007emarketing-3-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b1/a2/1d/b1a21db6-8619-a57c-5af5-059e7895b968/AppIcon-1x_U007emarketing-3-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/b1/a2/1d/b1a21db6-8619-a57c-5af5-059e7895b968/AppIcon-1x_U007emarketing-3-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Source is an app plus a Safari extension that makes it easy to view the source code of a site directly on your iPhone or iPad. You can do this in the app or directly in Safari with the built-in Safari extension.\n\nif you want to view the source for your current page just tap Show Source Code in extension menu."
-    },
-    "im:price": {
-      "label": "49.000đ",
-      "attributes": {
-        "amount": "49000",
-        "currency": "VND"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Yevhen Tretiakov"
-    },
-    "title": {
-      "label": "View The Source Code of a Site - Yevhen Tretiakov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/vn/app/view-the-source-code-of-a-site/id1637312489?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/72/02/00/7202000a-1e03-ecc8-5f82-efc745d7cbdc/e27676e4-4340-450f-8a6a-ea94e51d75ba_iPad_3d_Gen.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/vn/app/view-the-source-code-of-a-site/id1637312489?uo=2",
-      "attributes": {
-        "im:id": "1637312489",
-        "im:bundleId": "me.swifter.sourcecode"
-      }
-    },
-    "im:artist": {
-      "label": "Yevhen Tretiakov",
-      "attributes": {
-        "href": "https://apps.apple.com/vn/developer/yevhen-tretiakov/id1592732760?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/vn/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-09-11T00:00:00-07:00",
-      "attributes": {
-        "label": "September 11, 2022"
       }
     }
   },
@@ -1436,6 +1436,108 @@
       "total": 79
     },
     "im:name": {
+      "label": "View The Source Code of a Site"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/b1/a2/1d/b1a21db6-8619-a57c-5af5-059e7895b968/AppIcon-1x_U007emarketing-3-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b1/a2/1d/b1a21db6-8619-a57c-5af5-059e7895b968/AppIcon-1x_U007emarketing-3-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/b1/a2/1d/b1a21db6-8619-a57c-5af5-059e7895b968/AppIcon-1x_U007emarketing-3-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Source is an app plus a Safari extension that makes it easy to view the source code of a site directly on your iPhone or iPad. You can do this in the app or directly in Safari with the built-in Safari extension.\n\nif you want to view the source for your current page just tap Show Source Code in extension menu."
+    },
+    "im:price": {
+      "label": "49.000đ",
+      "attributes": {
+        "amount": "49000",
+        "currency": "VND"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Yevhen Tretiakov"
+    },
+    "title": {
+      "label": "View The Source Code of a Site - Yevhen Tretiakov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/vn/app/view-the-source-code-of-a-site/id1637312489?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/72/02/00/7202000a-1e03-ecc8-5f82-efc745d7cbdc/e27676e4-4340-450f-8a6a-ea94e51d75ba_iPad_3d_Gen.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/vn/app/view-the-source-code-of-a-site/id1637312489?uo=2",
+      "attributes": {
+        "im:id": "1637312489",
+        "im:bundleId": "me.swifter.sourcecode"
+      }
+    },
+    "im:artist": {
+      "label": "Yevhen Tretiakov",
+      "attributes": {
+        "href": "https://apps.apple.com/vn/developer/yevhen-tretiakov/id1592732760?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/vn/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-09-11T00:00:00-07:00",
+      "attributes": {
+        "label": "September 11, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "vn",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 16,
+      "total": 79
+    },
+    "im:name": {
       "label": "Blink Shell 14: Legacy"
     },
     "im:image": [
@@ -1534,7 +1636,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 17,
       "total": 79
     },
     "im:name": {
@@ -1636,7 +1738,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 79
     },
     "im:name": {
@@ -1738,7 +1840,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 19,
       "total": 79
     },
     "im:name": {
@@ -1840,7 +1942,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 20,
       "total": 79
     },
     "im:name": {
@@ -1942,7 +2044,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 21,
       "total": 79
     },
     "im:name": {
@@ -2044,7 +2146,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 79
     },
     "im:name": {
@@ -2146,7 +2248,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 79
     },
     "im:name": {
@@ -2248,7 +2350,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 24,
       "total": 79
     },
     "im:name": {
@@ -2350,7 +2452,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 25,
       "total": 79
     },
     "im:name": {
@@ -2452,7 +2554,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 26,
       "total": 79
     },
     "im:name": {
@@ -2554,7 +2656,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 79
     },
     "im:name": {
@@ -2656,7 +2758,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 28,
       "total": 79
     },
     "im:name": {
@@ -2758,7 +2860,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 29,
       "total": 79
     },
     "im:name": {
@@ -2860,7 +2962,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 30,
       "total": 79
     },
     "im:name": {
@@ -2962,7 +3064,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 31,
       "total": 79
     },
     "im:name": {
@@ -3064,7 +3166,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
+      "index": 32,
       "total": 79
     },
     "im:name": {
@@ -3166,7 +3268,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 32,
+      "index": 33,
       "total": 79
     },
     "im:name": {
@@ -3268,7 +3370,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 34,
       "total": 79
     },
     "im:name": {
@@ -3370,7 +3472,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 35,
       "total": 79
     },
     "im:name": {
@@ -3472,7 +3574,7 @@
       "country_code": "vn",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 79
     },
     "im:name": {
@@ -3566,108 +3668,6 @@
       "label": "2017-01-12T00:38:29-07:00",
       "attributes": {
         "label": "January 12, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "vn",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 36,
-      "total": 79
-    },
-    "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "79.000đ",
-      "attributes": {
-        "amount": "79000",
-        "currency": "VND"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/vn/app/laddertouch/id386737169?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/vn/app/laddertouch/id386737169?uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/vn/developer/motonari-hibi/id386737172?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/vn/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
       }
     }
   },

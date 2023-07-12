@@ -824,108 +824,6 @@
       "total": 95
     },
     "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/es/app/docker-management/id1527656144?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/es/app/docker-management/id1527656144?l=en&uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/es/developer/nevis-shkenza/id1268450891?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/es/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "es",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 10,
-      "total": 95
-    },
-    "im:name": {
       "label": "Source 3"
     },
     "im:image": [
@@ -1024,7 +922,7 @@
       "country_code": "es",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 10,
       "total": 95
     },
     "im:name": {
@@ -1118,6 +1016,108 @@
       "label": "2013-02-12T14:25:47-07:00",
       "attributes": {
         "label": "February 12, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "es",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 11,
+      "total": 95
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/es/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/es/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/es/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/es/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
       }
     }
   },
@@ -1640,108 +1640,6 @@
       "total": 95
     },
     "im:name": {
-      "label": "Juno Connect: Jupyter Client"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/78/d4/78/78d478ee-9669-1a93-b4d7-36dab633d414/AppIcon-0-1x_U007emarketing-0-9-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/78/d4/78/78d478ee-9669-1a93-b4d7-36dab633d414/AppIcon-0-1x_U007emarketing-0-9-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/78/d4/78/78d478ee-9669-1a93-b4d7-36dab633d414/AppIcon-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Juno Connect is a client app for Jupyter, a cloud-based computational environment. Juno Connect lets you leverage the computing power of a remote Jupyter server right from your iPhone or iPad.\n\nWith Juno Connect you can:\n\n• Connect to cloud-computing services, such as CoCalc, Binder, SageMaker, Gradient or NAAS\n• Add and configure your own remote Jupyter servers\n• Leverage SSH tunneling with local port forwarding for secure connections\n• Take full advantage of your keyboard and trackpad in our full-featured code editor\n• Utilise full multitasking capabilities on iPad\n\nWhen you run code in Juno Connect, the actual computing is happening on a remote Jupyter server, giving you access to virtually unlimited computational resources from your iPhone or iPad. You can either connect to your own Jupyter server — directly via HTTP/HTTPS, or by establishing an SSH tunnel with local port forwarding — or use cloud computing services, such as CoCalc, Binder, SageMaker, Gradient or NAAS. And if you would rather execute code on device instead, check out our other app Juno, it lets you work with Jupyter notebooks autonomously on your iPhone or iPad.\n\nJuno Connect offers a full-featured notebook and code editor, providing a complete development environment on your iPad or iPhone. it supports Dark Mode and Dynamic Type, offers extended on-screen keyboard and works beautifully with all hardware keyboards and trackpads. Juno Connect lets you reach your Jupyter server easily and securely with SSH tunnel using local port forwarding. You can launch Juno Connect in Split-screen mode alongside other apps on iPad — run notebooks with documentation, terminal, or other code editor in front of you.\n\nWHAT IS JUPYTER?\n\nJupyter is an interactive cloud-based computational environment, where you can combine code execution, rich text, mathematics, plots and rich media. It works with Jupyter notebooks, a computational document format that allows storing live code, markdown text, plots, images and equations in LaTeX — all wrapped into a single notebook file.\n\nNotebook documents keep record of all inputs and outputs of the interactive programming session, and the rich output generated by running R, Python or Julia scripts (including HTML, images, video, and plots) is embedded into the Jupyter notebook document. They are especially convenient if you are coding in Python for data analysis, machine learning, or computational science in general.\n\nA notebook consists of a sequence of cells, each representing either a narrative text in a form of markdown text or HTML, or a coding script with a text or media output. This makes notebooks both human-readable documents with the analysis description and the results (figures, tables, etc), as well as executable scripts for data analysis or plain programming. You can use Jupyter notebook as a document with optional executable code in it, or simply as a programming playground for data manipulation and experiments.\n\nJupyter supports countless programming languages, including Python, R, Julia, and Scala. Jupyter lets you leverage big data tools, such as Apache Spark, from Python, R, and Scala — or explore that same data with pandas, scikit-learn, ggplot2, PyTorch and TensorFlow. And, of course, Juno Connect lets you use whichever language kernels and libraries are installed on your Jupyter server right on your iPhone or iPad."
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Rational Matter Ltd"
-    },
-    "title": {
-      "label": "Juno Connect: Jupyter Client - Rational Matter"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/es/app/juno-connect-jupyter-client/id1315744137?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/30/ef/73/30ef7378-44ac-c266-5abe-40e2365dbcde/29e058bc-5368-494c-b94d-ad3ada52b7fd_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/es/app/juno-connect-jupyter-client/id1315744137?l=en&uo=2",
-      "attributes": {
-        "im:id": "1315744137",
-        "im:bundleId": "com.rationalmatter.juno"
-      }
-    },
-    "im:artist": {
-      "label": "Rational Matter",
-      "attributes": {
-        "href": "https://apps.apple.com/es/developer/rational-matter/id1315744136?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/es/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-01-23T20:31:52-07:00",
-      "attributes": {
-        "label": "January 23, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "es",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 18,
-      "total": 95
-    },
-    "im:name": {
       "label": "Code App"
     },
     "im:image": [
@@ -1840,39 +1738,39 @@
       "country_code": "es",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 95
     },
     "im:name": {
-      "label": "DashTabs: Firebase, AdMob …"
+      "label": "Juno Connect: Jupyter Client"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/59/f0/24/59f02446-49c0-ff07-f48d-8462cb499697/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/78/d4/78/78d478ee-9669-1a93-b4d7-36dab633d414/AppIcon-0-1x_U007emarketing-0-9-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/59/f0/24/59f02446-49c0-ff07-f48d-8462cb499697/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/78/d4/78/78d478ee-9669-1a93-b4d7-36dab633d414/AppIcon-0-1x_U007emarketing-0-9-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/59/f0/24/59f02446-49c0-ff07-f48d-8462cb499697/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/78/d4/78/78d478ee-9669-1a93-b4d7-36dab633d414/AppIcon-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "DashTabs provides easy access to development consoles such Firebase, AdMob, RevenueCat and App Store Connect, etc. You can monitor your analytics, watch your app’s monetization performance and even manage app builds and metadata right from your iPhone. These sites are usually not very mobile friendly, but we’ve made them easier to use by zooming out by default and also providing easy zoom customization per site.\n\nFeature Summary:\n\n• Easy access to the Firebase, AdMob, RevenueCat and App Store Connect, Google Analytics, Play Console, App Annie etc. with dedicated tabs.\n• Zoom out to view the websites like on a desktop computer. The app remembers your favorite zoom per website.\n• Customizable tab selection and ordering.\n• The ability to auto-refresh a tab at a configurable interval."
+      "label": "Juno Connect is a client app for Jupyter, a cloud-based computational environment. Juno Connect lets you leverage the computing power of a remote Jupyter server right from your iPhone or iPad.\n\nWith Juno Connect you can:\n\n• Connect to cloud-computing services, such as CoCalc, Binder, SageMaker, Gradient or NAAS\n• Add and configure your own remote Jupyter servers\n• Leverage SSH tunneling with local port forwarding for secure connections\n• Take full advantage of your keyboard and trackpad in our full-featured code editor\n• Utilise full multitasking capabilities on iPad\n\nWhen you run code in Juno Connect, the actual computing is happening on a remote Jupyter server, giving you access to virtually unlimited computational resources from your iPhone or iPad. You can either connect to your own Jupyter server — directly via HTTP/HTTPS, or by establishing an SSH tunnel with local port forwarding — or use cloud computing services, such as CoCalc, Binder, SageMaker, Gradient or NAAS. And if you would rather execute code on device instead, check out our other app Juno, it lets you work with Jupyter notebooks autonomously on your iPhone or iPad.\n\nJuno Connect offers a full-featured notebook and code editor, providing a complete development environment on your iPad or iPhone. it supports Dark Mode and Dynamic Type, offers extended on-screen keyboard and works beautifully with all hardware keyboards and trackpads. Juno Connect lets you reach your Jupyter server easily and securely with SSH tunnel using local port forwarding. You can launch Juno Connect in Split-screen mode alongside other apps on iPad — run notebooks with documentation, terminal, or other code editor in front of you.\n\nWHAT IS JUPYTER?\n\nJupyter is an interactive cloud-based computational environment, where you can combine code execution, rich text, mathematics, plots and rich media. It works with Jupyter notebooks, a computational document format that allows storing live code, markdown text, plots, images and equations in LaTeX — all wrapped into a single notebook file.\n\nNotebook documents keep record of all inputs and outputs of the interactive programming session, and the rich output generated by running R, Python or Julia scripts (including HTML, images, video, and plots) is embedded into the Jupyter notebook document. They are especially convenient if you are coding in Python for data analysis, machine learning, or computational science in general.\n\nA notebook consists of a sequence of cells, each representing either a narrative text in a form of markdown text or HTML, or a coding script with a text or media output. This makes notebooks both human-readable documents with the analysis description and the results (figures, tables, etc), as well as executable scripts for data analysis or plain programming. You can use Jupyter notebook as a document with optional executable code in it, or simply as a programming playground for data manipulation and experiments.\n\nJupyter supports countless programming languages, including Python, R, Julia, and Scala. Jupyter lets you leverage big data tools, such as Apache Spark, from Python, R, and Scala — or explore that same data with pandas, scikit-learn, ggplot2, PyTorch and TensorFlow. And, of course, Juno Connect lets you use whichever language kernels and libraries are installed on your Jupyter server right on your iPhone or iPad."
     },
     "im:price": {
-      "label": "1,99 €",
+      "label": "9,99 €",
       "attributes": {
-        "amount": "1.99",
+        "amount": "9.99",
         "currency": "EUR"
       }
     },
@@ -1883,17 +1781,17 @@
       }
     },
     "rights": {
-      "label": "© 2022 Actowise LLC"
+      "label": "© 2022 Rational Matter Ltd"
     },
     "title": {
-      "label": "DashTabs: Firebase, AdMob … - Actowise LLC"
+      "label": "Juno Connect: Jupyter Client - Rational Matter"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/es/app/dashtabs-firebase-admob/id1586466815?l=en&uo=2"
+          "href": "https://apps.apple.com/es/app/juno-connect-jupyter-client/id1315744137?l=en&uo=2"
         }
       },
       {
@@ -1904,22 +1802,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/a3/d4/fba3d40d-29f3-f232-c4d8-ec35b6503875/tns.jenyrsgr.png/1024x1024bb.png",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/30/ef/73/30ef7378-44ac-c266-5abe-40e2365dbcde/29e058bc-5368-494c-b94d-ad3ada52b7fd_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/es/app/dashtabs-firebase-admob/id1586466815?l=en&uo=2",
+      "label": "https://apps.apple.com/es/app/juno-connect-jupyter-client/id1315744137?l=en&uo=2",
       "attributes": {
-        "im:id": "1586466815",
-        "im:bundleId": "com.actowise.devtools"
+        "im:id": "1315744137",
+        "im:bundleId": "com.rationalmatter.juno"
       }
     },
     "im:artist": {
-      "label": "Actowise LLC",
+      "label": "Rational Matter",
       "attributes": {
-        "href": "https://apps.apple.com/es/developer/actowise-llc/id1563247119?l=en&uo=2"
+        "href": "https://apps.apple.com/es/developer/rational-matter/id1315744136?l=en&uo=2"
       }
     },
     "category": {
@@ -1931,9 +1829,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-09-19T00:00:00-07:00",
+      "label": "2018-01-23T20:31:52-07:00",
       "attributes": {
-        "label": "September 19, 2021"
+        "label": "January 23, 2018"
       }
     }
   },
@@ -1942,7 +1840,7 @@
       "country_code": "es",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 19,
       "total": 95
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "es",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 20,
       "total": 95
     },
     "im:name": {
@@ -2146,7 +2044,7 @@
       "country_code": "es",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 21,
       "total": 95
     },
     "im:name": {
@@ -2248,7 +2146,7 @@
       "country_code": "es",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 22,
       "total": 95
     },
     "im:name": {
@@ -2342,6 +2240,108 @@
       "label": "2020-12-02T00:00:00-07:00",
       "attributes": {
         "label": "December 2, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "es",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 23,
+      "total": 95
+    },
+    "im:name": {
+      "label": "DashTabs: Firebase, AdMob …"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/59/f0/24/59f02446-49c0-ff07-f48d-8462cb499697/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/59/f0/24/59f02446-49c0-ff07-f48d-8462cb499697/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/59/f0/24/59f02446-49c0-ff07-f48d-8462cb499697/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "DashTabs provides easy access to development consoles such Firebase, AdMob, RevenueCat and App Store Connect, etc. You can monitor your analytics, watch your app’s monetization performance and even manage app builds and metadata right from your iPhone. These sites are usually not very mobile friendly, but we’ve made them easier to use by zooming out by default and also providing easy zoom customization per site.\n\nFeature Summary:\n\n• Easy access to the Firebase, AdMob, RevenueCat and App Store Connect, Google Analytics, Play Console, App Annie etc. with dedicated tabs.\n• Zoom out to view the websites like on a desktop computer. The app remembers your favorite zoom per website.\n• Customizable tab selection and ordering.\n• The ability to auto-refresh a tab at a configurable interval."
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Actowise LLC"
+    },
+    "title": {
+      "label": "DashTabs: Firebase, AdMob … - Actowise LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/es/app/dashtabs-firebase-admob/id1586466815?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/a3/d4/fba3d40d-29f3-f232-c4d8-ec35b6503875/tns.jenyrsgr.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/es/app/dashtabs-firebase-admob/id1586466815?l=en&uo=2",
+      "attributes": {
+        "im:id": "1586466815",
+        "im:bundleId": "com.actowise.devtools"
+      }
+    },
+    "im:artist": {
+      "label": "Actowise LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/es/developer/actowise-llc/id1563247119?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/es/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-09-19T00:00:00-07:00",
+      "attributes": {
+        "label": "September 19, 2021"
       }
     }
   },

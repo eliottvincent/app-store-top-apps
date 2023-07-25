@@ -8,6 +8,108 @@
       "total": 98
     },
     "im:name": {
+      "label": "WebBLE"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/07/f8/bf/07f8bf46-f41c-0f4a-c0c8-ebab42d4f71c/AppIcon-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/07/f8/bf/07f8bf46-f41c-0f4a-c0c8-ebab42d4f71c/AppIcon-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/07/f8/bf/07f8bf46-f41c-0f4a-c0c8-ebab42d4f71c/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Very simple web browser that supports an initial subset of  the web bluetooth javascript APIs, with bookmarks and console log viewing support.\n\n*** New in 1.5 / 1.6 ***\n\n- allows webpages to request the camera and microphone for video calls etc.\n- double tap the refresh button to do a hard reload\n- improved UI\n\n*** Overview ***\n\nUsing this app you can navigate to a site written in javascript that can interact with your bluetooth (low energy) devices. This allows you to write your applications for use with devices such as puck.js in a language you are more familiar with (i.e. javascript) and be able to use it from your iOS device.\n\nUse the built-in console viewer to debug issues when running your site on WebBLE.\n\nSecurity is important for bluetooth device access, and so only sites that use https are supported, and it is not possible to connect to a bluetooth device without permission being granted by the user.\n\nInitially the following key APIs are supported:\n\n- bluetooth.requestDevice()\n\n- BluetoothDevice.gatt\n- BluetoothDevice.addEventListener('gattserverdisconnected', cb)\n\n- BluetoothRemoteGATTServer.connect()\n- BluetoothRemoteGATTServer.disconnect()\n- BluetoothRemoteGATTServer.getPrimaryService()\n\n- BluetoothRemoteGATTService.getCharacteristic()\n\n- BluetoothRemoteGATTCharacteristic.writeValue()\n- BluetoothRemoteGATTCharacteristic.readValue()\n- BluetoothRemoteGATTCharacteristic.startNotifications()\n- BluetoothRemoteGATTCharacteristic.stopNotifications()\n- BluetoothRemoteGATTCharacteristic.addEventListener(\"characteristicvaluechanged\", cb)"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© greenparksoftware.co.uk"
+    },
+    "title": {
+      "label": "WebBLE - GreenParkSoftware"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/webble/id1193531073?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c2/3b/44/c23b440a-4b30-52f1-609f-c27e57adcad6/mzl.clswthur.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/webble/id1193531073?uo=2",
+      "attributes": {
+        "im:id": "1193531073",
+        "im:bundleId": "co.uk.greenparksoftware.webble"
+      }
+    },
+    "im:artist": {
+      "label": "GreenParkSoftware",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/greenparksoftware/id449062540?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-01-12T02:09:40-07:00",
+      "attributes": {
+        "label": "January 12, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 2,
+      "total": 98
+    },
+    "im:name": {
       "label": "Clear Spaces"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 2,
+      "index": 3,
       "total": 98
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 3,
+      "index": 4,
       "total": 98
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 4,
+      "index": 5,
       "total": 98
     },
     "im:name": {
@@ -404,108 +506,6 @@
       "label": "2013-01-05T11:50:15-07:00",
       "attributes": {
         "label": "January 5, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 5,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Anti-theft security alarm"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/23/0f/1f/230f1f37-0ced-acc2-4106-8404d0cc0f1f/AppIcon-0-1x_U007emarketing-0-85-220-0-7.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/23/0f/1f/230f1f37-0ced-acc2-4106-8404d0cc0f1f/AppIcon-0-1x_U007emarketing-0-85-220-0-7.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/23/0f/1f/230f1f37-0ced-acc2-4106-8404d0cc0f1f/AppIcon-0-1x_U007emarketing-0-85-220-0-7.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Want to practice an outdoor sport  or work out in the gym? Almost all the times you have to leave your iPhone aside, which makes it appealing to thieves. Download the app and protect yourself. \n\nIf a person tries to steal it, the app will turn on a loud alarm signal that will notify you and the people nearby. \nSimply place your iPhone/iPad somewhere and activate the security system. \nThe app works extremely well to make sure your device and private data stay safe. It uses the internal sensors to detect motion and will notify you immediately.\n\nIt is available only on the App Store."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2018 Georgi Zlatinov"
-    },
-    "title": {
-      "label": "Anti-theft security alarm - Georgi Zlatinov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/anti-theft-security-alarm/id1350923042?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/80/b3/6a/80b36a8f-46cd-41ea-1e23-0a6993789a2f/mzl.rplmvnwu.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/anti-theft-security-alarm/id1350923042?uo=2",
-      "attributes": {
-        "im:id": "1350923042",
-        "im:bundleId": "com.max1mus.Anti-theft-System"
-      }
-    },
-    "im:artist": {
-      "label": "Georgi Zlatinov",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/georgi-zlatinov/id923406673?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-02-21T13:24:07-07:00",
-      "attributes": {
-        "label": "February 21, 2018"
       }
     }
   },
@@ -722,312 +722,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "Slovenski Vrhovi 3D"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/0f/21/ec0f21a5-6492-a5b6-f3c1-84436d48d7c9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/0f/21/ec0f21a5-6492-a5b6-f3c1-84436d48d7c9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/0f/21/ec0f21a5-6492-a5b6-f3c1-84436d48d7c9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Aplikacija na podlagi trenutne lokacije predvidi kateri vrhovi hribov in gora so vidni v okolici in jih v realnem času prikaže na zaslonu v 3D reliefu. Deluje na katerikoli lokaciji v Sloveniji, tudi brez spletne povezave.\nOmogoča tudi simulacijo pregleda vrhov na poljubni lokaciji v Sloveniji preko izbire na zemljevidu."
-    },
-    "im:price": {
-      "label": "3,99 €",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 - Miha Strel"
-    },
-    "title": {
-      "label": "Slovenski Vrhovi 3D - Miha S"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/slovenski-vrhovi-3d/id1566713501?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/98/dc/c4/98dcc48f-bef3-7132-8f6e-9efaa89dc162/5c6b9a88-c3eb-4a20-adbe-384771db5c9a_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-05-08_at_13.17.38.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/slovenski-vrhovi-3d/id1566713501?uo=2",
-      "attributes": {
-        "im:id": "1566713501",
-        "im:bundleId": "si.mihastrel.SloVrhovi3D"
-      }
-    },
-    "im:artist": {
-      "label": "Miha S",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/miha-s/id1307110589?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-07-21T00:00:00-07:00",
-      "attributes": {
-        "label": "July 21, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 9,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Euro Coins Album"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/fe/be/b1/febeb1de-ac54-8abb-c826-bc2cea232186/Minimal_red-1x_U007emarketing-0-10-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/fe/be/b1/febeb1de-ac54-8abb-c826-bc2cea232186/Minimal_red-1x_U007emarketing-0-10-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/fe/be/b1/febeb1de-ac54-8abb-c826-bc2cea232186/Minimal_red-1x_U007emarketing-0-10-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Euro Coins Album is a great and genial application which allows you to have your private Euro coins collection always with you.\nWith the \"Commemoratives\" section you can see, select and archive every single commemorative coin issued from 2004 to now.\nIn the \"Divisional\" section you can archive by Country and by Year your entire divisional euro coin collection.\n\nWhen you select a coin, commemorative or divisional, you can read its description, its effigy, its coinage and more other like its specs (weight, diameter,thickness, material)*.\n\nYou can choose through six different conditions of the coins before archive it, so you will have the possibility of adding every single coin you own with its quantities and its conditions.\n\nHere's a list of the six conditions included in Euro Coins Album:\n-BU: for uncirculated coins\n-BE: for PROOF coins\n-Circulated: for circulated coins and collected \n-Coincard: for coins within their Coincard \n-Official: for coins in their official package\n-N/P envelope\n\nYou can also see the mintage of a coin in details with its official packages it comes with. \n\nEuro Coins Album provides the possibility of archiving each coin by its mint mark, for example:\n-A/D/F/G/J for German coins\n-E/F/S for Greek coins in 2002\nAnd others...\n\nWith the last update there is now a quick view of collected coins sorted by condition in each page (commemoratives, divisionals)\n\nIn the \"Collection's Details\" section it's shown a complete summary of your collection. Here you can see the quantity of coins owned by its category (1 Cent-2 Euro) and in total too, so you will know the effective value of your collection.\n\nYou can search through your coins with the \"Find\" function making everything faster.\nWith OTA updates you will receive updates directly to the app having new released coins almost instantly.\n\nCustomise the graphic as you prefer simply going in the Settings section.\nEuro Coins Album is the best solution for each numismatic coin collector who always wants to know which coins he owns and which he is missing.\n\nEuro Coins Album supports now the Dropbox integration for backing up your collection.  \n\n*specifics of the coin as the title and the description of the coins are written in Italian.  \nTranslations will come in the next updates.\n\nOFICIAL MINT ISSUES SUBSCRIPTION:\nWith the update 7.5 of the app, it now allows you to collect every folder/box/official package distributed from the mints. Through this, the app will automatically keep trace of the coins they contain and will mark them as owned.\nThis mode is not obligatory and is designed for who uses to collect folders in addition to circulated coins or coins from rolls.\n\n• The duration of the subscription is 1 month, 6 months or 1 year, depending what plan is chosen.\n• Payment will be charged to iTunes Account at confirmation of purchase.\n• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period.\n• Account will be charged for renewal within 24-hours prior to the end of the current period.\n• Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase.\n• Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable.\n• Privacy policy: www.eurocoinsalbum.com\n• Terms of use: www.eurocoinsalbum.com/privacy"
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Spalenza Simone"
-    },
-    "title": {
-      "label": "Euro Coins Album - Simone Spalenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/euro-coins-album/id687740467?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/aa/e0/7d/aae07dd9-f321-c667-9f22-2fc31ebaa7c5/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/euro-coins-album/id687740467?uo=2",
-      "attributes": {
-        "im:id": "687740467",
-        "im:bundleId": "Spalenza-Simone.EuroCoins-Album"
-      }
-    },
-    "im:artist": {
-      "label": "Simone Spalenza",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/simone-spalenza/id469614181?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-08-30T10:12:00-07:00",
-      "attributes": {
-        "label": "August 30, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 10,
-      "total": 98
-    },
-    "im:name": {
-      "label": "AirMeasure - AR Tape & Ruler"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/f6/8d/c0/f68dc047-c099-dd3d-7ce4-6a933cd79110/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f6/8d/c0/f68dc047-c099-dd3d-7ce4-6a933cd79110/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f6/8d/c0/f68dc047-c099-dd3d-7ce4-6a933cd79110/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "AirMeasure™ is The Ultimate Augmented Reality Measuring ToolKit with over 15+ unique modes to create the most accurate measurements possible. ( Formerly named 'AR Measure' )\n\nLoaded with features, the app includes tools that let you measure anything from small items, to room dimensions, to faraway buildings & structures - even people too! We’ve bundled additional tools to help with your measuring-related tasks, such as: laser levels that can be added to any wall or surface; brushes for drawing or marking things in 3D space; and a catalog filled with virtual furniture you can preview in a room.\n\nIMPORTANT: You must have an ARKit enabled device to have access to all the available tools. (i.e. 6S or better)\n\nJust some of the many amazing features: \n\n- Tape Measure with three different modes: Air, Surface & Points\n- Multiple Measurements \n- Choose between metric (meters/cm ) or imperial/standard ( inches/feet ) units \n- Floor Plan - Trace the outline of a room\n- Draw a 3D Cube - Figure out if something will fit by Drawing & Resizing 3D Cubes\n- Find Someone’s Height - Use the Person's Height tool\n- Furniture - preview furniture in your space. Choose from a catalog.\n- Sports Fields - Mark the outline of a sports field using a stencil to guide you.\n- AirBrush - Draw or annotate things in 3D space.\n- Trajectory - Trace a path of where you’ve been.\n- Laser Level - Provides a reference when hanging a picture. \n- Laser Distance - Get the distance to a point.\n- Height Tool - Measure the height of anything.\n- Triangulation - Refine measurements by capturing them from second perspective.\n- Metal Detector / stud finder \n- Angle measurement tool\n- Traditional Bubble Level \n- On-Screen Ruler for measuring small items\n- History - Capture your measurements to review later or share with a friend ;)\n- Projects - Store groups of measurements together for easy retrieval \n\nAirMeasure is the tape measure that’s always in your pocket. Great for contractors and builders, home improvement, plumbers, DIY enthusiasts, gardening, remodeling, interior designers, teachers, and much more."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Laan Labs 2020"
-    },
-    "title": {
-      "label": "AirMeasure - AR Tape & Ruler - Laan Labs"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/airmeasure-ar-tape-ruler/id1251282152?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/aa/24/d8/aa24d85f-49a4-88db-250a-4e2c72bb9833/mzl.ioarpgvj.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/airmeasure-ar-tape-ruler/id1251282152?uo=2",
-      "attributes": {
-        "im:id": "1251282152",
-        "im:bundleId": "com.laan.labs.ARMeasure"
-      }
-    },
-    "im:artist": {
-      "label": "Laan Labs",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/laan-labs/id310916919?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-09-19T14:23:38-07:00",
-      "attributes": {
-        "label": "September 19, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 11,
-      "total": 98
-    },
-    "im:name": {
       "label": "Mobile Mouse Remote"
     },
     "im:image": [
@@ -1126,7 +820,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 12,
+      "index": 9,
       "total": 98
     },
     "im:name": {
@@ -1228,7 +922,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 13,
+      "index": 10,
       "total": 98
     },
     "im:name": {
@@ -1330,7 +1024,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 14,
+      "index": 11,
       "total": 98
     },
     "im:name": {
@@ -1432,7 +1126,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 15,
+      "index": 12,
       "total": 98
     },
     "im:name": {
@@ -1534,7 +1228,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 13,
       "total": 98
     },
     "im:name": {
@@ -1636,7 +1330,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 14,
       "total": 98
     },
     "im:name": {
@@ -1738,7 +1432,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 15,
       "total": 98
     },
     "im:name": {
@@ -1840,7 +1534,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
+      "index": 16,
       "total": 98
     },
     "im:name": {
@@ -1942,7 +1636,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 20,
+      "index": 17,
       "total": 98
     },
     "im:name": {
@@ -2044,7 +1738,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
+      "index": 18,
       "total": 98
     },
     "im:name": {
@@ -2146,7 +1840,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
+      "index": 19,
       "total": 98
     },
     "im:name": {
@@ -2248,7 +1942,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
+      "index": 20,
       "total": 98
     },
     "im:name": {
@@ -2350,7 +2044,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
+      "index": 21,
       "total": 98
     },
     "im:name": {
@@ -2452,7 +2146,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
+      "index": 22,
       "total": 98
     },
     "im:name": {
@@ -2554,7 +2248,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
+      "index": 23,
       "total": 98
     },
     "im:name": {
@@ -2656,7 +2350,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
+      "index": 24,
       "total": 98
     },
     "im:name": {
@@ -2758,7 +2452,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
+      "index": 25,
       "total": 98
     },
     "im:name": {
@@ -2860,7 +2554,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 29,
+      "index": 26,
       "total": 98
     },
     "im:name": {
@@ -2962,7 +2656,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 30,
+      "index": 27,
       "total": 98
     },
     "im:name": {
@@ -3064,109 +2758,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 31,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Shadowrocket"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/ac/e1/6dace1fe-cee9-8362-fbc0-555355caa623/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/ac/e1/6dace1fe-cee9-8362-fbc0-555355caa623/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/ac/e1/6dace1fe-cee9-8362-fbc0-555355caa623/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Li Guangming"
-    },
-    "title": {
-      "label": "Shadowrocket - Shadow Launch Technology Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/shadowrocket/id932747118?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/shadowrocket/id932747118?uo=2",
-      "attributes": {
-        "im:id": "932747118",
-        "im:bundleId": "com.liguangming.Shadowrocket"
-      }
-    },
-    "im:artist": {
-      "label": "Shadow Launch Technology Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/shadow-launch-technology-limited/id687237009?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-04-13T19:09:18-07:00",
-      "attributes": {
-        "label": "April 13, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 32,
+      "index": 28,
       "total": 98
     },
     "im:name": {
@@ -3268,39 +2860,39 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 33,
+      "index": 29,
       "total": 98
     },
     "im:name": {
-      "label": "Blue Iris"
+      "label": "Shadowrocket"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/ac/e1/6dace1fe-cee9-8362-fbc0-555355caa623/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/ac/e1/6dace1fe-cee9-8362-fbc0-555355caa623/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/ac/e1/6dace1fe-cee9-8362-fbc0-555355caa623/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "This app is a CLIENT for the Blue Iris Windows PC software.  In order to make use of this app, you must have Blue Iris version 5 installed and running on a Windows PC or VM.  Instructions for connecting this app to the PC software are found in the Remote Access chapter of its Help file.\n\nThis app provides a single point of contact to your home camera network.  There is no need to insecurely open individual cameras to the Internet.  This app connects using a secure and session-based protocol--no passwords are transmitted in plain text.\n\nRemote access does require router configuration or NGROK, which you can test without the app by using Safari.  You should see your Blue Iris login page.\n\nKey features include:\n\n- Manage multiple Blue Iris installations\n- Geofencing: set status, send alerts, and more in response to device location *\n- Control the shield icon, schedule and profile selection\n- Receive iOS push notification alerts when a Blue Iris camera is triggered or there is a critical status message\n- Fast H.264 streaming\n- Control PTZ, IR and more for any camera that’s also controllable at the Blue Iris PC\n- Listen to and talk to any camera that’s also supported at the Blue Iris PC\n- Navigate cameras by tapping and swiping\n- Review recordings as stored on the Blue Iris PC, up to 64x speed\n- Download recorded video from the Blue Iris PC to the iOS device\n- Selectively delete recordings from the Blue Iris PC\n- Broadcast live video from the iOS device directly into a Blue Iris PC camera window\n- Remote control DIO output signals on compatible devices\n- Baby monitor functionality: continue to listen to audio with app closed or device in standby **\n\n* Note that continued use of GPS running in the background can dramatically decrease battery life.\n** Note that continued use of audio streaming running in the background can dramatically decrease battery life."
+      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
     },
     "im:price": {
-      "label": "9,99 €",
+      "label": "2,99 €",
       "attributes": {
-        "amount": "9.99",
+        "amount": "2.99",
         "currency": "EUR"
       }
     },
@@ -3311,17 +2903,17 @@
       }
     },
     "rights": {
-      "label": "© 2021 Perspective Software, All Rights Reserved"
+      "label": "© 2023 Li Guangming"
     },
     "title": {
-      "label": "Blue Iris - Ken Pletzer"
+      "label": "Shadowrocket - Shadow Launch Technology Limited"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/si/app/blue-iris/id585350145?uo=2"
+          "href": "https://apps.apple.com/si/app/shadowrocket/id932747118?uo=2"
         }
       },
       {
@@ -3332,22 +2924,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/cb/31/54/cb3154ee-6da7-2fad-bf96-4c13a473f1b5/3bec67c3-7252-465d-b5e7-1372b7e0dfa0_Screenshot_2020-09-08_at_11.42.13_AM.png/1024x1024bb.png",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/si/app/blue-iris/id585350145?uo=2",
+      "label": "https://apps.apple.com/si/app/shadowrocket/id932747118?uo=2",
       "attributes": {
-        "im:id": "585350145",
-        "im:bundleId": "com.perspective.Blue-Iris"
+        "im:id": "932747118",
+        "im:bundleId": "com.liguangming.Shadowrocket"
       }
     },
     "im:artist": {
-      "label": "Ken Pletzer",
+      "label": "Shadow Launch Technology Limited",
       "attributes": {
-        "href": "https://apps.apple.com/si/developer/ken-pletzer/id585350148?uo=2"
+        "href": "https://apps.apple.com/si/developer/shadow-launch-technology-limited/id687237009?uo=2"
       }
     },
     "category": {
@@ -3359,9 +2951,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2012-12-15T15:15:50-07:00",
+      "label": "2015-04-13T19:09:18-07:00",
       "attributes": {
-        "label": "December 15, 2012"
+        "label": "April 13, 2015"
       }
     }
   },
@@ -3370,7 +2962,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 34,
+      "index": 30,
       "total": 98
     },
     "im:name": {
@@ -3472,7 +3064,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 35,
+      "index": 31,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Blue Iris"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This app is a CLIENT for the Blue Iris Windows PC software.  In order to make use of this app, you must have Blue Iris version 5 installed and running on a Windows PC or VM.  Instructions for connecting this app to the PC software are found in the Remote Access chapter of its Help file.\n\nThis app provides a single point of contact to your home camera network.  There is no need to insecurely open individual cameras to the Internet.  This app connects using a secure and session-based protocol--no passwords are transmitted in plain text.\n\nRemote access does require router configuration or NGROK, which you can test without the app by using Safari.  You should see your Blue Iris login page.\n\nKey features include:\n\n- Manage multiple Blue Iris installations\n- Geofencing: set status, send alerts, and more in response to device location *\n- Control the shield icon, schedule and profile selection\n- Receive iOS push notification alerts when a Blue Iris camera is triggered or there is a critical status message\n- Fast H.264 streaming\n- Control PTZ, IR and more for any camera that’s also controllable at the Blue Iris PC\n- Listen to and talk to any camera that’s also supported at the Blue Iris PC\n- Navigate cameras by tapping and swiping\n- Review recordings as stored on the Blue Iris PC, up to 64x speed\n- Download recorded video from the Blue Iris PC to the iOS device\n- Selectively delete recordings from the Blue Iris PC\n- Broadcast live video from the iOS device directly into a Blue Iris PC camera window\n- Remote control DIO output signals on compatible devices\n- Baby monitor functionality: continue to listen to audio with app closed or device in standby **\n\n* Note that continued use of GPS running in the background can dramatically decrease battery life.\n** Note that continued use of audio streaming running in the background can dramatically decrease battery life."
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Perspective Software, All Rights Reserved"
+    },
+    "title": {
+      "label": "Blue Iris - Ken Pletzer"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/blue-iris/id585350145?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/cb/31/54/cb3154ee-6da7-2fad-bf96-4c13a473f1b5/3bec67c3-7252-465d-b5e7-1372b7e0dfa0_Screenshot_2020-09-08_at_11.42.13_AM.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/blue-iris/id585350145?uo=2",
+      "attributes": {
+        "im:id": "585350145",
+        "im:bundleId": "com.perspective.Blue-Iris"
+      }
+    },
+    "im:artist": {
+      "label": "Ken Pletzer",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/ken-pletzer/id585350148?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-12-15T15:15:50-07:00",
+      "attributes": {
+        "label": "December 15, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 32,
       "total": 98
     },
     "im:name": {
@@ -3574,7 +3268,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 36,
+      "index": 33,
       "total": 98
     },
     "im:name": {
@@ -3676,7 +3370,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 37,
+      "index": 34,
       "total": 98
     },
     "im:name": {
@@ -3778,7 +3472,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 38,
+      "index": 35,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Slovenski Vrhovi 3D"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/0f/21/ec0f21a5-6492-a5b6-f3c1-84436d48d7c9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/0f/21/ec0f21a5-6492-a5b6-f3c1-84436d48d7c9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/0f/21/ec0f21a5-6492-a5b6-f3c1-84436d48d7c9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Aplikacija na podlagi trenutne lokacije predvidi kateri vrhovi hribov in gora so vidni v okolici in jih v realnem času prikaže na zaslonu v 3D reliefu. Deluje na katerikoli lokaciji v Sloveniji, tudi brez spletne povezave.\nOmogoča tudi simulacijo pregleda vrhov na poljubni lokaciji v Sloveniji preko izbire na zemljevidu."
+    },
+    "im:price": {
+      "label": "3,99 €",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 - Miha Strel"
+    },
+    "title": {
+      "label": "Slovenski Vrhovi 3D - Miha S"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/slovenski-vrhovi-3d/id1566713501?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/98/dc/c4/98dcc48f-bef3-7132-8f6e-9efaa89dc162/5c6b9a88-c3eb-4a20-adbe-384771db5c9a_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-05-08_at_13.17.38.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/slovenski-vrhovi-3d/id1566713501?uo=2",
+      "attributes": {
+        "im:id": "1566713501",
+        "im:bundleId": "si.mihastrel.SloVrhovi3D"
+      }
+    },
+    "im:artist": {
+      "label": "Miha S",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/miha-s/id1307110589?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-07-21T00:00:00-07:00",
+      "attributes": {
+        "label": "July 21, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 36,
       "total": 98
     },
     "im:name": {
@@ -3880,7 +3676,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 39,
+      "index": 37,
       "total": 98
     },
     "im:name": {
@@ -3982,7 +3778,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 40,
+      "index": 38,
       "total": 98
     },
     "im:name": {
@@ -4084,7 +3880,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 41,
+      "index": 39,
       "total": 98
     },
     "im:name": {
@@ -4186,7 +3982,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 42,
+      "index": 40,
       "total": 98
     },
     "im:name": {
@@ -4288,7 +4084,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
+      "index": 41,
       "total": 98
     },
     "im:name": {
@@ -4390,7 +4186,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 44,
+      "index": 42,
       "total": 98
     },
     "im:name": {
@@ -4492,7 +4288,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
+      "index": 43,
       "total": 98
     },
     "im:name": {
@@ -4594,7 +4390,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 46,
+      "index": 44,
       "total": 98
     },
     "im:name": {
@@ -4696,39 +4492,39 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 47,
+      "index": 45,
       "total": 98
     },
     "im:name": {
-      "label": "Vinegar - Tube Cleaner"
+      "label": "Euro Coins Album"
     },
     "im:image": [
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/47/dd/a447ddba-ef11-3d10-4af6-084f9fa593df/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/fe/be/b1/febeb1de-ac54-8abb-c826-bc2cea232186/Minimal_red-1x_U007emarketing-0-10-0-85-220.jpeg/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/47/dd/a447ddba-ef11-3d10-4af6-084f9fa593df/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/fe/be/b1/febeb1de-ac54-8abb-c826-bc2cea232186/Minimal_red-1x_U007emarketing-0-10-0-85-220.jpeg/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/47/dd/a447ddba-ef11-3d10-4af6-084f9fa593df/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/fe/be/b1/febeb1de-ac54-8abb-c826-bc2cea232186/Minimal_red-1x_U007emarketing-0-10-0-85-220.jpeg/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Vinegar is a Safari extension that replaces the YouTube player with a minimal HTML video tag.\n\nIt removes ads, restores picture-in-picture, and keeps videos playing in the background.\n\nNote: The \"can read and alter webpages\" text in the permission section is just unfortunate wording. Vinegar needs access to the web page to find the YouTube player and replace it. It's not doing anything creepy!\n\n(By the way, check out Vinegar's companion app, Baking Soda. It's basically a less powerful version of Vinegar, but it works on all websites other than YouTube.)"
+      "label": "Euro Coins Album is a great and genial application which allows you to have your private Euro coins collection always with you.\nWith the \"Commemoratives\" section you can see, select and archive every single commemorative coin issued from 2004 to now.\nIn the \"Divisional\" section you can archive by Country and by Year your entire divisional euro coin collection.\n\nWhen you select a coin, commemorative or divisional, you can read its description, its effigy, its coinage and more other like its specs (weight, diameter,thickness, material)*.\n\nYou can choose through six different conditions of the coins before archive it, so you will have the possibility of adding every single coin you own with its quantities and its conditions.\n\nHere's a list of the six conditions included in Euro Coins Album:\n-BU: for uncirculated coins\n-BE: for PROOF coins\n-Circulated: for circulated coins and collected \n-Coincard: for coins within their Coincard \n-Official: for coins in their official package\n-N/P envelope\n\nYou can also see the mintage of a coin in details with its official packages it comes with. \n\nEuro Coins Album provides the possibility of archiving each coin by its mint mark, for example:\n-A/D/F/G/J for German coins\n-E/F/S for Greek coins in 2002\nAnd others...\n\nWith the last update there is now a quick view of collected coins sorted by condition in each page (commemoratives, divisionals)\n\nIn the \"Collection's Details\" section it's shown a complete summary of your collection. Here you can see the quantity of coins owned by its category (1 Cent-2 Euro) and in total too, so you will know the effective value of your collection.\n\nYou can search through your coins with the \"Find\" function making everything faster.\nWith OTA updates you will receive updates directly to the app having new released coins almost instantly.\n\nCustomise the graphic as you prefer simply going in the Settings section.\nEuro Coins Album is the best solution for each numismatic coin collector who always wants to know which coins he owns and which he is missing.\n\nEuro Coins Album supports now the Dropbox integration for backing up your collection.  \n\n*specifics of the coin as the title and the description of the coins are written in Italian.  \nTranslations will come in the next updates.\n\nOFICIAL MINT ISSUES SUBSCRIPTION:\nWith the update 7.5 of the app, it now allows you to collect every folder/box/official package distributed from the mints. Through this, the app will automatically keep trace of the coins they contain and will mark them as owned.\nThis mode is not obligatory and is designed for who uses to collect folders in addition to circulated coins or coins from rolls.\n\n• The duration of the subscription is 1 month, 6 months or 1 year, depending what plan is chosen.\n• Payment will be charged to iTunes Account at confirmation of purchase.\n• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period.\n• Account will be charged for renewal within 24-hours prior to the end of the current period.\n• Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase.\n• Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable.\n• Privacy policy: www.eurocoinsalbum.com\n• Terms of use: www.eurocoinsalbum.com/privacy"
     },
     "im:price": {
-      "label": "1,99 €",
+      "label": "2,99 €",
       "attributes": {
-        "amount": "1.99",
+        "amount": "2.99",
         "currency": "EUR"
       }
     },
@@ -4739,17 +4535,17 @@
       }
     },
     "rights": {
-      "label": "© 2021-2022 And a Dinosaur"
+      "label": "© 2023 Spalenza Simone"
     },
     "title": {
-      "label": "Vinegar - Tube Cleaner - And a Dinosaur"
+      "label": "Euro Coins Album - Simone Spalenza"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/si/app/vinegar-tube-cleaner/id1591303229?uo=2"
+          "href": "https://apps.apple.com/si/app/euro-coins-album/id687740467?uo=2"
         }
       },
       {
@@ -4760,22 +4556,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/80/80/6b/80806bc3-c689-0fd3-f175-287a2f6f1f43/081c4099-53b0-4d30-9873-13da5c862337_1.png/1024x1024bb.png",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/aa/e0/7d/aae07dd9-f321-c667-9f22-2fc31ebaa7c5/pr_source.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/si/app/vinegar-tube-cleaner/id1591303229?uo=2",
+      "label": "https://apps.apple.com/si/app/euro-coins-album/id687740467?uo=2",
       "attributes": {
-        "im:id": "1591303229",
-        "im:bundleId": "com.andadinosaur.Vinegar"
+        "im:id": "687740467",
+        "im:bundleId": "Spalenza-Simone.EuroCoins-Album"
       }
     },
     "im:artist": {
-      "label": "And a Dinosaur",
+      "label": "Simone Spalenza",
       "attributes": {
-        "href": "https://apps.apple.com/si/developer/and-a-dinosaur/id475577301?uo=2"
+        "href": "https://apps.apple.com/si/developer/simone-spalenza/id469614181?uo=2"
       }
     },
     "category": {
@@ -4787,9 +4583,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-11-06T00:00:00-07:00",
+      "label": "2013-08-30T10:12:00-07:00",
       "attributes": {
-        "label": "November 6, 2021"
+        "label": "August 30, 2013"
       }
     }
   },
@@ -4798,7 +4594,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 48,
+      "index": 46,
       "total": 98
     },
     "im:name": {
@@ -4900,7 +4696,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 49,
+      "index": 47,
       "total": 98
     },
     "im:name": {
@@ -5002,7 +4798,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 50,
+      "index": 48,
       "total": 98
     },
     "im:name": {
@@ -5104,7 +4900,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 51,
+      "index": 49,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Vinegar - Tube Cleaner"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/47/dd/a447ddba-ef11-3d10-4af6-084f9fa593df/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/47/dd/a447ddba-ef11-3d10-4af6-084f9fa593df/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/a4/47/dd/a447ddba-ef11-3d10-4af6-084f9fa593df/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Vinegar is a Safari extension that replaces the YouTube player with a minimal HTML video tag.\n\nIt removes ads, restores picture-in-picture, and keeps videos playing in the background.\n\nNote: The \"can read and alter webpages\" text in the permission section is just unfortunate wording. Vinegar needs access to the web page to find the YouTube player and replace it. It's not doing anything creepy!\n\n(By the way, check out Vinegar's companion app, Baking Soda. It's basically a less powerful version of Vinegar, but it works on all websites other than YouTube.)"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021-2022 And a Dinosaur"
+    },
+    "title": {
+      "label": "Vinegar - Tube Cleaner - And a Dinosaur"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/vinegar-tube-cleaner/id1591303229?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/80/80/6b/80806bc3-c689-0fd3-f175-287a2f6f1f43/081c4099-53b0-4d30-9873-13da5c862337_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/vinegar-tube-cleaner/id1591303229?uo=2",
+      "attributes": {
+        "im:id": "1591303229",
+        "im:bundleId": "com.andadinosaur.Vinegar"
+      }
+    },
+    "im:artist": {
+      "label": "And a Dinosaur",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/and-a-dinosaur/id475577301?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-11-06T00:00:00-07:00",
+      "attributes": {
+        "label": "November 6, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 50,
       "total": 98
     },
     "im:name": {
@@ -5198,6 +5096,108 @@
       "label": "2009-08-31T17:28:03-07:00",
       "attributes": {
         "label": "August 31, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 51,
+      "total": 98
+    },
+    "im:name": {
+      "label": "AirMeasure - AR Tape & Ruler"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/f6/8d/c0/f68dc047-c099-dd3d-7ce4-6a933cd79110/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f6/8d/c0/f68dc047-c099-dd3d-7ce4-6a933cd79110/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f6/8d/c0/f68dc047-c099-dd3d-7ce4-6a933cd79110/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "AirMeasure™ is The Ultimate Augmented Reality Measuring ToolKit with over 15+ unique modes to create the most accurate measurements possible. ( Formerly named 'AR Measure' )\n\nLoaded with features, the app includes tools that let you measure anything from small items, to room dimensions, to faraway buildings & structures - even people too! We’ve bundled additional tools to help with your measuring-related tasks, such as: laser levels that can be added to any wall or surface; brushes for drawing or marking things in 3D space; and a catalog filled with virtual furniture you can preview in a room.\n\nIMPORTANT: You must have an ARKit enabled device to have access to all the available tools. (i.e. 6S or better)\n\nJust some of the many amazing features: \n\n- Tape Measure with three different modes: Air, Surface & Points\n- Multiple Measurements \n- Choose between metric (meters/cm ) or imperial/standard ( inches/feet ) units \n- Floor Plan - Trace the outline of a room\n- Draw a 3D Cube - Figure out if something will fit by Drawing & Resizing 3D Cubes\n- Find Someone’s Height - Use the Person's Height tool\n- Furniture - preview furniture in your space. Choose from a catalog.\n- Sports Fields - Mark the outline of a sports field using a stencil to guide you.\n- AirBrush - Draw or annotate things in 3D space.\n- Trajectory - Trace a path of where you’ve been.\n- Laser Level - Provides a reference when hanging a picture. \n- Laser Distance - Get the distance to a point.\n- Height Tool - Measure the height of anything.\n- Triangulation - Refine measurements by capturing them from second perspective.\n- Metal Detector / stud finder \n- Angle measurement tool\n- Traditional Bubble Level \n- On-Screen Ruler for measuring small items\n- History - Capture your measurements to review later or share with a friend ;)\n- Projects - Store groups of measurements together for easy retrieval \n\nAirMeasure is the tape measure that’s always in your pocket. Great for contractors and builders, home improvement, plumbers, DIY enthusiasts, gardening, remodeling, interior designers, teachers, and much more."
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Laan Labs 2020"
+    },
+    "title": {
+      "label": "AirMeasure - AR Tape & Ruler - Laan Labs"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/airmeasure-ar-tape-ruler/id1251282152?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/aa/24/d8/aa24d85f-49a4-88db-250a-4e2c72bb9833/mzl.ioarpgvj.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/airmeasure-ar-tape-ruler/id1251282152?uo=2",
+      "attributes": {
+        "im:id": "1251282152",
+        "im:bundleId": "com.laan.labs.ARMeasure"
+      }
+    },
+    "im:artist": {
+      "label": "Laan Labs",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/laan-labs/id310916919?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-09-19T14:23:38-07:00",
+      "attributes": {
+        "label": "September 19, 2017"
       }
     }
   },
@@ -6230,105 +6230,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "Goblin Tools"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is an app version of the free website goblin.tools, a collection of small, simple, single-task tools, mostly designed to help neurodivergent people with tasks they find overwhelming or difficult.\n\n\r\n\r\nTools include\r\n- A Magic Todo list that automatically breaks down tasks into steps\r\n- The Formalizer that transforms your language to be more formal, sociable, concise, or many other options\r\n- The Judge that helps with interpreting tone\r\n- The Estimator that can guess at a timeframe for an activity\r\n- The Compiler to take entire braindumps and turn them into actionable tasks\r\n- The Chef, who turns a description of what ingredients and tools you have in your kitchen into a real recipe\n\n\r\n\r\nAnd many more to come!\n\n\r\n\r\nThe website is free and publicly available. Purchases of this app go first towards keeping the site free and ad-free, before supporting the author."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Skyhook Belgium"
-    },
-    "title": {
-      "label": "Goblin Tools - Skyhook"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/goblin-tools/id6449003064?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/32/69/bb/3269bb6c-ab3a-0fac-f930-e524d11dd894/e3a0ae36-a06a-4355-876f-674a7e29cd5c_goblin.tools___U00282_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/goblin-tools/id6449003064?uo=2",
-      "attributes": {
-        "im:id": "6449003064",
-        "im:bundleId": "com.goblintools"
-      }
-    },
-    "im:artist": {
-      "label": "Skyhook"
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-05-31T00:00:00-07:00",
-      "attributes": {
-        "label": "May 31, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 63,
-      "total": 98
-    },
-    "im:name": {
       "label": "CARROT Alarm - Talking Alarm Clock"
     },
     "im:image": [
@@ -6427,7 +6328,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 64,
+      "index": 63,
       "total": 98
     },
     "im:name": {
@@ -6529,7 +6430,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 65,
+      "index": 64,
       "total": 98
     },
     "im:name": {
@@ -6631,7 +6532,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 66,
+      "index": 65,
       "total": 98
     },
     "im:name": {
@@ -6733,7 +6634,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 67,
+      "index": 66,
       "total": 98
     },
     "im:name": {
@@ -6835,7 +6736,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 68,
+      "index": 67,
       "total": 98
     },
     "im:name": {
@@ -6937,7 +6838,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 69,
+      "index": 68,
       "total": 98
     },
     "im:name": {
@@ -7039,7 +6940,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 70,
+      "index": 69,
       "total": 98
     },
     "im:name": {
@@ -7141,7 +7042,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 71,
+      "index": 70,
       "total": 98
     },
     "im:name": {
@@ -7243,7 +7144,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 72,
+      "index": 71,
       "total": 98
     },
     "im:name": {
@@ -7345,109 +7246,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 73,
-      "total": 98
-    },
-    "im:name": {
-      "label": "DontSpy 2 - detector"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO IN-APP PURCHASES, NO ADVERTISING!\n\nAfter 5 years on the Store and hundreds of thousands of downloading all over the world, Dontspy renews with a 2.0 version!\n\nNow reading data is very simple, following the instructions of the gauge, the bars showing the signal intensity and the line showing the variation of the magnetic field during the search. Never before so easy and accurate! \n\nAre you going to check your room, your workplace or, are you simply curious to try one of the most astonishing  uses of your iPhone? This is the app you need!\n\nThere is no magic: every speaker, microphone, cellphone, spy bug, hidden camera has in itself a magnetic field: iPhones are equipped with a magnetometer (used by the compass), dontspy can read the data captured by the magnetometer and it report the presence of the magnetic field emitted by spy bugs, cellphones, microphones, metal object, other devices that emit magnetic field, and report it. The reading as to be made close to the object you are searching for.\n\nTransform your iPhone in a magnetic field detector, metal detector or electronic devices detector such as smartphones, spy bugs, microphones and so on! \n\nNote that the app can't distinguish metal object from smartphone, spy bugs from other electronic device, so you will read \"found\" also in case of the presence of a metal object, so you have to perform the search away from metal objects to have a good result. \n \nConsider that the magnetometer on iPhones is on the upper right, and on iPads in the back top centre.\n\nThis app read the magnetic field and show it in a simple to use interface."
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Ivan Colasanti"
-    },
-    "title": {
-      "label": "DontSpy 2 - detector - ivan colasanti"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/dontspy-2-detector/id959086373?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/7b/33/48/7b334816-9f2b-2edb-f4c3-308ae4ffe65a/mzl.rezyrrls.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/dontspy-2-detector/id959086373?uo=2",
-      "attributes": {
-        "im:id": "959086373",
-        "im:bundleId": "8K2NU5962N"
-      }
-    },
-    "im:artist": {
-      "label": "ivan colasanti",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/ivan-colasanti/id853172077?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-02-17T06:47:34-07:00",
-      "attributes": {
-        "label": "February 17, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 74,
+      "index": 72,
       "total": 98
     },
     "im:name": {
@@ -7549,39 +7348,39 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 75,
+      "index": 73,
       "total": 98
     },
     "im:name": {
-      "label": "Geofency • Time Tracking"
+      "label": "Goblin Tools"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/85/ed/7a/85ed7ab1-fb39-fa9f-ba6f-3ef05aefe387/AppIcon-0-1x_U007emarketing-0-0-0-4-0-85-220.png/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/85/ed/7a/85ed7ab1-fb39-fa9f-ba6f-3ef05aefe387/AppIcon-0-1x_U007emarketing-0-0-0-4-0-85-220.png/75x75bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/85/ed/7a/85ed7ab1-fb39-fa9f-ba6f-3ef05aefe387/AppIcon-0-1x_U007emarketing-0-0-0-4-0-85-220.png/100x100bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "GEOFENCY enables fully automatic location-based time recording on iPhone, iPad, Mac & Apple Watch, where manual check-in and check-out becomes an absurdity of the past. Arrival and departure times are automatically recorded as soon as you enter or leave an interesting place – it works like magic! Of course all very energy efficient, thanks to the latest Geofencing & iBeacon technologies! With the integrated webhook feature you can even trigger your home automation system as you arrive or leave (e.g. switch on the lights when coming home)!\n\nIdeal for automatic monitoring of working hours, client visits, lunch breaks or the stays on your favorite places! GEOFENCY offers the easiest and most effective way to MONITOR your DURATION OF STAYS on interesting places. Unpleasant manual time recording was yesterday!\n\n• Are you tired of having to write down working hours again and again?\n• Fed up leaving the office absently, missed to check the clock?\n• Can't you remember when you came or left your favorite places?\n\nLet the iPhone take over this nerve-racking time monitoring for you!\n\nWith GEOFENCY this is now possible in a smart and clever new way! Simply mark your points of interest on a map and leave the rest to Geofency!\n\nGEOFENCY automatically tracks the times when you enter or leave your points of interest. Simply carry your iPhone in your pocket or bag with you. You will automatically receive extensive statistics and graphics over time!\n\nAutomatic Location-based Time Tracking – The (GEO)FANCY way!\n\nFEATURES\n• Automatic location-based time tracking - 24/7 time recording for your points of interest!\n• Graphical visualization of your dwell times (by simply rotating your device to landscape) - with zoom!\n• Rich statistics: Single-, Day-, Week- & Month-Summaries.\n• Map-View: Manage your points of interest directly on a beautiful fullscreen map view.\n• Add new locations in seconds – With just one tap!\n• Runs completely in the background while trying to maintain good battery life!\n• Automatic recognition when you enter or leave a place or region.\n• Tags: To group places into tags.\n• Webhook feature: Lets you control your home automation system to e.g. switch on lights as you arrive!\n• Journaling feature: Automatic recognition of frequent visited places – to know exactly when you've been where and how long!\n• Calendar-Export: Export events automatically into your calendar (iCloud, CalDAV & Exchange) – view your data comfortable even from Mac or PC!\n• Today Widget: See the most interesting details right from the Notification Center with one swipe and be more productive!\n• Apple Watch App!\n• Export feature: Send time recordings via e.g. email in an Excel-friendly format!\n• Export time data and use it directly in Excel, Numbers or Harvest!\n\nBENEFITS\nSimple to use daily timesaver! You don't have to fiddle around with time recordings on yourself. Free your mind and just don't bother about manual time tracking anymore!\n\nPRIVACY\n100% Private: Only YOU can see your data. We will never collect or share any information about you. We respect and care about the privacy of our users!\n\nREQUIREMENTS\nFor the best and most accurate monitoring results, Wi-Fi, carrier and location services should always be enabled for Geofency. iBeacon monitoring requires at least Bluetooth 4.\n\nBATTERY USE\nContinued use of GPS in the background can significantly reduce battery life. Geofency was designed to use GPS very sparingly and never in the background. The app relies mostly on cell tower + Wi-Fi locations. This has been carefully chosen to get the best battery life.\n\nWHAT PEOPLE SAY\n• \"I had no idea that my iPhone could do such things!\"\n• \"Beautiful, polished and elegant designed. Extremely simple to use.\"\n• \"Perhaps the most overall effective app available.\"\n\nFind out more on our landing page: www.geofency.com\nSample-Scripts for easy webhook integration: www.geofency.com/geo.zip"
+      "label": "This is an app version of the free website goblin.tools, a collection of small, simple, single-task tools, mostly designed to help neurodivergent people with tasks they find overwhelming or difficult.\n\n\r\n\r\nTools include\r\n- A Magic Todo list that automatically breaks down tasks into steps\r\n- The Formalizer that transforms your language to be more formal, sociable, concise, or many other options\r\n- The Judge that helps with interpreting tone\r\n- The Estimator that can guess at a timeframe for an activity\r\n- The Compiler to take entire braindumps and turn them into actionable tasks\r\n- The Chef, who turns a description of what ingredients and tools you have in your kitchen into a real recipe\n\n\r\n\r\nAnd many more to come!\n\n\r\n\r\nThe website is free and publicly available. Purchases of this app go first towards keeping the site free and ad-free, before supporting the author."
     },
     "im:price": {
-      "label": "5,99 €",
+      "label": "0,99 €",
       "attributes": {
-        "amount": "5.99",
+        "amount": "0.99",
         "currency": "EUR"
       }
     },
@@ -7592,17 +7391,17 @@
       }
     },
     "rights": {
-      "label": "© 2013-2023 Tion"
+      "label": "© 2023 Skyhook Belgium"
     },
     "title": {
-      "label": "Geofency • Time Tracking - Karl Heinz Herbel"
+      "label": "Goblin Tools - Skyhook"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/si/app/geofency-time-tracking/id615538630?uo=2"
+          "href": "https://apps.apple.com/si/app/goblin-tools/id6449003064?uo=2"
         }
       },
       {
@@ -7613,23 +7412,20 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/ea/11/86/ea11861a-e6f1-d135-6d4e-e6787ea54262/tns.mlirodva.png/1024x1024bb.png",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/32/69/bb/3269bb6c-ab3a-0fac-f930-e524d11dd894/e3a0ae36-a06a-4355-876f-674a7e29cd5c_goblin.tools___U00282_U0029.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/si/app/geofency-time-tracking/id615538630?uo=2",
+      "label": "https://apps.apple.com/si/app/goblin-tools/id6449003064?uo=2",
       "attributes": {
-        "im:id": "615538630",
-        "im:bundleId": "com.hhmp.geofency"
+        "im:id": "6449003064",
+        "im:bundleId": "com.goblintools"
       }
     },
     "im:artist": {
-      "label": "Karl Heinz Herbel",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/karl-heinz-herbel/id891641490?uo=2"
-      }
+      "label": "Skyhook"
     },
     "category": {
       "attributes": {
@@ -7640,9 +7436,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2013-03-23T16:36:20-07:00",
+      "label": "2023-05-31T00:00:00-07:00",
       "attributes": {
-        "label": "March 23, 2013"
+        "label": "May 31, 2023"
       }
     }
   },
@@ -7651,7 +7447,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 76,
+      "index": 74,
       "total": 98
     },
     "im:name": {
@@ -7753,7 +7549,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 77,
+      "index": 75,
       "total": 98
     },
     "im:name": {
@@ -7855,7 +7651,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 78,
+      "index": 76,
       "total": 98
     },
     "im:name": {
@@ -7949,6 +7745,210 @@
       "label": "2011-02-23T20:38:51-07:00",
       "attributes": {
         "label": "February 23, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 77,
+      "total": 98
+    },
+    "im:name": {
+      "label": "DontSpy 2 - detector"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO IN-APP PURCHASES, NO ADVERTISING!\n\nAfter 5 years on the Store and hundreds of thousands of downloading all over the world, Dontspy renews with a 2.0 version!\n\nNow reading data is very simple, following the instructions of the gauge, the bars showing the signal intensity and the line showing the variation of the magnetic field during the search. Never before so easy and accurate! \n\nAre you going to check your room, your workplace or, are you simply curious to try one of the most astonishing  uses of your iPhone? This is the app you need!\n\nThere is no magic: every speaker, microphone, cellphone, spy bug, hidden camera has in itself a magnetic field: iPhones are equipped with a magnetometer (used by the compass), dontspy can read the data captured by the magnetometer and it report the presence of the magnetic field emitted by spy bugs, cellphones, microphones, metal object, other devices that emit magnetic field, and report it. The reading as to be made close to the object you are searching for.\n\nTransform your iPhone in a magnetic field detector, metal detector or electronic devices detector such as smartphones, spy bugs, microphones and so on! \n\nNote that the app can't distinguish metal object from smartphone, spy bugs from other electronic device, so you will read \"found\" also in case of the presence of a metal object, so you have to perform the search away from metal objects to have a good result. \n \nConsider that the magnetometer on iPhones is on the upper right, and on iPads in the back top centre.\n\nThis app read the magnetic field and show it in a simple to use interface."
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Ivan Colasanti"
+    },
+    "title": {
+      "label": "DontSpy 2 - detector - ivan colasanti"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/dontspy-2-detector/id959086373?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/7b/33/48/7b334816-9f2b-2edb-f4c3-308ae4ffe65a/mzl.rezyrrls.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/dontspy-2-detector/id959086373?uo=2",
+      "attributes": {
+        "im:id": "959086373",
+        "im:bundleId": "8K2NU5962N"
+      }
+    },
+    "im:artist": {
+      "label": "ivan colasanti",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/ivan-colasanti/id853172077?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-02-17T06:47:34-07:00",
+      "attributes": {
+        "label": "February 17, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 78,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Geofency • Time Tracking"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/85/ed/7a/85ed7ab1-fb39-fa9f-ba6f-3ef05aefe387/AppIcon-0-1x_U007emarketing-0-0-0-4-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/85/ed/7a/85ed7ab1-fb39-fa9f-ba6f-3ef05aefe387/AppIcon-0-1x_U007emarketing-0-0-0-4-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/85/ed/7a/85ed7ab1-fb39-fa9f-ba6f-3ef05aefe387/AppIcon-0-1x_U007emarketing-0-0-0-4-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "GEOFENCY enables fully automatic location-based time recording on iPhone, iPad, Mac & Apple Watch, where manual check-in and check-out becomes an absurdity of the past. Arrival and departure times are automatically recorded as soon as you enter or leave an interesting place – it works like magic! Of course all very energy efficient, thanks to the latest Geofencing & iBeacon technologies! With the integrated webhook feature you can even trigger your home automation system as you arrive or leave (e.g. switch on the lights when coming home)!\n\nIdeal for automatic monitoring of working hours, client visits, lunch breaks or the stays on your favorite places! GEOFENCY offers the easiest and most effective way to MONITOR your DURATION OF STAYS on interesting places. Unpleasant manual time recording was yesterday!\n\n• Are you tired of having to write down working hours again and again?\n• Fed up leaving the office absently, missed to check the clock?\n• Can't you remember when you came or left your favorite places?\n\nLet the iPhone take over this nerve-racking time monitoring for you!\n\nWith GEOFENCY this is now possible in a smart and clever new way! Simply mark your points of interest on a map and leave the rest to Geofency!\n\nGEOFENCY automatically tracks the times when you enter or leave your points of interest. Simply carry your iPhone in your pocket or bag with you. You will automatically receive extensive statistics and graphics over time!\n\nAutomatic Location-based Time Tracking – The (GEO)FANCY way!\n\nFEATURES\n• Automatic location-based time tracking - 24/7 time recording for your points of interest!\n• Graphical visualization of your dwell times (by simply rotating your device to landscape) - with zoom!\n• Rich statistics: Single-, Day-, Week- & Month-Summaries.\n• Map-View: Manage your points of interest directly on a beautiful fullscreen map view.\n• Add new locations in seconds – With just one tap!\n• Runs completely in the background while trying to maintain good battery life!\n• Automatic recognition when you enter or leave a place or region.\n• Tags: To group places into tags.\n• Webhook feature: Lets you control your home automation system to e.g. switch on lights as you arrive!\n• Journaling feature: Automatic recognition of frequent visited places – to know exactly when you've been where and how long!\n• Calendar-Export: Export events automatically into your calendar (iCloud, CalDAV & Exchange) – view your data comfortable even from Mac or PC!\n• Today Widget: See the most interesting details right from the Notification Center with one swipe and be more productive!\n• Apple Watch App!\n• Export feature: Send time recordings via e.g. email in an Excel-friendly format!\n• Export time data and use it directly in Excel, Numbers or Harvest!\n\nBENEFITS\nSimple to use daily timesaver! You don't have to fiddle around with time recordings on yourself. Free your mind and just don't bother about manual time tracking anymore!\n\nPRIVACY\n100% Private: Only YOU can see your data. We will never collect or share any information about you. We respect and care about the privacy of our users!\n\nREQUIREMENTS\nFor the best and most accurate monitoring results, Wi-Fi, carrier and location services should always be enabled for Geofency. iBeacon monitoring requires at least Bluetooth 4.\n\nBATTERY USE\nContinued use of GPS in the background can significantly reduce battery life. Geofency was designed to use GPS very sparingly and never in the background. The app relies mostly on cell tower + Wi-Fi locations. This has been carefully chosen to get the best battery life.\n\nWHAT PEOPLE SAY\n• \"I had no idea that my iPhone could do such things!\"\n• \"Beautiful, polished and elegant designed. Extremely simple to use.\"\n• \"Perhaps the most overall effective app available.\"\n\nFind out more on our landing page: www.geofency.com\nSample-Scripts for easy webhook integration: www.geofency.com/geo.zip"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2013-2023 Tion"
+    },
+    "title": {
+      "label": "Geofency • Time Tracking - Karl Heinz Herbel"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/geofency-time-tracking/id615538630?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/ea/11/86/ea11861a-e6f1-d135-6d4e-e6787ea54262/tns.mlirodva.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/geofency-time-tracking/id615538630?uo=2",
+      "attributes": {
+        "im:id": "615538630",
+        "im:bundleId": "com.hhmp.geofency"
+      }
+    },
+    "im:artist": {
+      "label": "Karl Heinz Herbel",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/karl-heinz-herbel/id891641490?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-03-23T16:36:20-07:00",
+      "attributes": {
+        "label": "March 23, 2013"
       }
     }
   },
@@ -9287,108 +9287,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "Watch app for Tesla"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ea/40/81/ea4081e4-255e-8ba6-46ab-f5879ff927ed/AppIcon-0-1x_U007epad-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ea/40/81/ea4081e4-255e-8ba6-46ab-f5879ff927ed/AppIcon-0-1x_U007epad-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/ea/40/81/ea4081e4-255e-8ba6-46ab-f5879ff927ed/AppIcon-0-1x_U007epad-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Convenience on the wrist - Watch app for Tesla is the ideal companion in day to day life with your Tesla vehicle. These are just a few of the day to day conveniences this app will help achieve:\n\n - Pair your watch as a proper vehicle key, just like your phone! Works under all conditions, including in underground parking garages or in the middle of a desert!\n\n - Forgot to plug in? Get a notification if vehicle is in a pre-configured location and not plugged in - all done directly on the watch, no external servers required, keeping your privacy!\n\n - Add the graphic corner complication to your watch face and enjoy the convenience of having easy access to state of charge, charging indicator, time remaining if charging, sentry mode active indicator and indicator if any windows, doors or trunks are open. All from one complication, that also will launch the app when tapped. \n\n - During and after charge, a panel will show how much energy was added. Convenient if you schedule your charge during the night - wake up each morning and easily check how much energy was added to the battery. \n\n - If you have multiple vehicles on your account, tap the vehicle name to quickly and easily switch between them. \n\n - You can queue up commands by tapping on buttons, then put your wrist down and the commands will execute in the background when the vehicle is successfully woken up. \n\n - When you tap the unlock vehicle button, the charge port will also unlock if a charging cable is attached. That's convenience right there!\n\n - Want to reduce phantom drain? Background updates can be configured to longer intervals between updates or to only update if car is already awake or can be disabled entirely for absolutely zero impact on phantom drain.\n\n - A warning panel will show up if any doors, windows or trunks are left open. Conveniently, you can tap the panel to close any open windows.\n\n - Need to access the frunk? Just do it from your wrist - no fiddling with your phone. \n\n - Sitting comfy in the couch, but just remembered you have a road-trip in the morning? Set the charge limit to 100% - or any value really - and start charging, right from the convenience of your wrist!\n\n - Leaving the office after a long hot day? Activate the HVAC when you're on your way, and enjoy a nice cool vehicle.\n\n - When charging, tap the time remaining label to switch to show time of expected completion - no more head calculus!\n\n - Need to run a quick errand, but you don't have your phone? Unlock your vehicle from your wrist, then activate remote start and off you go. Just please be mindful that this feature requires internet connectivity on both watch and vehicle - so don't drive into the desert and leave your vehicle, or you'll get stuck there!\n\nA note about security and privacy:\nThis app accepts two types of login. Either Tesla account credentials or a Tesla API token. Your account credentials are never stored in the app, but are used only once to obtain an authentication token and refresh token directly from the Tesla API server. If you would rather supply that token yourself, you can do so instead. It is required to supply a refresh token. Your token will be persisted in the app. Tokens will be revoked if you change your Tesla account password. No network traffic will ever be emitted from this app that goes anywhere other than directly to the Tesla API servers, unless the OPTIONAL cloud processing is enabled, in which case an in-flight encrypted ACCESS token with a lifespan of 8 hours will be transmitted and stored ONLY WHILE COMMAND IS EXECUTING. The source code for this application will at all times be made available to any security researcher for a voluntary security and safety audit. \n\nDisclaimer: \nThis app is not endorsed by Tesla Inc. Use at your own risk. No guarantee of proper function is given. Only you are responsible for any changes to your car caused by using this app.  \n\nMade in Denmark"
-    },
-    "im:price": {
-      "label": "22,99 €",
-      "attributes": {
-        "amount": "22.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Kim Hansen"
-    },
-    "title": {
-      "label": "Watch app for Tesla - Kim Hansen"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/watch-app-for-tesla/id1512108917?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/44/75/8d4475dc-3646-4878-7ab5-b5fdd9f3e7f5/159f0441-7ab0-4a73-b3f6-c24bd09600b2_UITest-iPadPro2ndGeneration-mainscreen_bigbattery.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/watch-app-for-tesla/id1512108917?uo=2",
-      "attributes": {
-        "im:id": "1512108917",
-        "im:bundleId": "dk.kimhansen.WatchForTesla"
-      }
-    },
-    "im:artist": {
-      "label": "Kim Hansen",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/kim-hansen/id1512108916?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-05-13T00:00:00-07:00",
-      "attributes": {
-        "label": "May 13, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 93,
-      "total": 98
-    },
-    "im:name": {
       "label": "µBrowser"
     },
     "im:image": [
@@ -9487,7 +9385,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 94,
+      "index": 93,
       "total": 98
     },
     "im:name": {
@@ -9581,6 +9479,108 @@
       "label": "2015-01-30T20:20:58-07:00",
       "attributes": {
         "label": "January 30, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 94,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Watch app for Tesla"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ea/40/81/ea4081e4-255e-8ba6-46ab-f5879ff927ed/AppIcon-0-1x_U007epad-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ea/40/81/ea4081e4-255e-8ba6-46ab-f5879ff927ed/AppIcon-0-1x_U007epad-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/ea/40/81/ea4081e4-255e-8ba6-46ab-f5879ff927ed/AppIcon-0-1x_U007epad-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Convenience on the wrist - Watch app for Tesla is the ideal companion in day to day life with your Tesla vehicle. These are just a few of the day to day conveniences this app will help achieve:\n\n - Pair your watch as a proper vehicle key, just like your phone! Works under all conditions, including in underground parking garages or in the middle of a desert!\n\n - Forgot to plug in? Get a notification if vehicle is in a pre-configured location and not plugged in - all done directly on the watch, no external servers required, keeping your privacy!\n\n - Add the graphic corner complication to your watch face and enjoy the convenience of having easy access to state of charge, charging indicator, time remaining if charging, sentry mode active indicator and indicator if any windows, doors or trunks are open. All from one complication, that also will launch the app when tapped. \n\n - During and after charge, a panel will show how much energy was added. Convenient if you schedule your charge during the night - wake up each morning and easily check how much energy was added to the battery. \n\n - If you have multiple vehicles on your account, tap the vehicle name to quickly and easily switch between them. \n\n - You can queue up commands by tapping on buttons, then put your wrist down and the commands will execute in the background when the vehicle is successfully woken up. \n\n - When you tap the unlock vehicle button, the charge port will also unlock if a charging cable is attached. That's convenience right there!\n\n - Want to reduce phantom drain? Background updates can be configured to longer intervals between updates or to only update if car is already awake or can be disabled entirely for absolutely zero impact on phantom drain.\n\n - A warning panel will show up if any doors, windows or trunks are left open. Conveniently, you can tap the panel to close any open windows.\n\n - Need to access the frunk? Just do it from your wrist - no fiddling with your phone. \n\n - Sitting comfy in the couch, but just remembered you have a road-trip in the morning? Set the charge limit to 100% - or any value really - and start charging, right from the convenience of your wrist!\n\n - Leaving the office after a long hot day? Activate the HVAC when you're on your way, and enjoy a nice cool vehicle.\n\n - When charging, tap the time remaining label to switch to show time of expected completion - no more head calculus!\n\n - Need to run a quick errand, but you don't have your phone? Unlock your vehicle from your wrist, then activate remote start and off you go. Just please be mindful that this feature requires internet connectivity on both watch and vehicle - so don't drive into the desert and leave your vehicle, or you'll get stuck there!\n\nA note about security and privacy:\nThis app accepts two types of login. Either Tesla account credentials or a Tesla API token. Your account credentials are never stored in the app, but are used only once to obtain an authentication token and refresh token directly from the Tesla API server. If you would rather supply that token yourself, you can do so instead. It is required to supply a refresh token. Your token will be persisted in the app. Tokens will be revoked if you change your Tesla account password. No network traffic will ever be emitted from this app that goes anywhere other than directly to the Tesla API servers, unless the OPTIONAL cloud processing is enabled, in which case an in-flight encrypted ACCESS token with a lifespan of 8 hours will be transmitted and stored ONLY WHILE COMMAND IS EXECUTING. The source code for this application will at all times be made available to any security researcher for a voluntary security and safety audit. \n\nDisclaimer: \nThis app is not endorsed by Tesla Inc. Use at your own risk. No guarantee of proper function is given. Only you are responsible for any changes to your car caused by using this app.  \n\nMade in Denmark"
+    },
+    "im:price": {
+      "label": "22,99 €",
+      "attributes": {
+        "amount": "22.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Kim Hansen"
+    },
+    "title": {
+      "label": "Watch app for Tesla - Kim Hansen"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/watch-app-for-tesla/id1512108917?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/44/75/8d4475dc-3646-4878-7ab5-b5fdd9f3e7f5/159f0441-7ab0-4a73-b3f6-c24bd09600b2_UITest-iPadPro2ndGeneration-mainscreen_bigbattery.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/watch-app-for-tesla/id1512108917?uo=2",
+      "attributes": {
+        "im:id": "1512108917",
+        "im:bundleId": "dk.kimhansen.WatchForTesla"
+      }
+    },
+    "im:artist": {
+      "label": "Kim Hansen",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/kim-hansen/id1512108916?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-05-13T00:00:00-07:00",
+      "attributes": {
+        "label": "May 13, 2020"
       }
     }
   },

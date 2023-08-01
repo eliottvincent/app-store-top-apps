@@ -8,6 +8,210 @@
       "total": 88
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/be/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "be",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 88
+    },
+    "im:name": {
+      "label": "ESP32 BLE Terminal"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 mightyIT"
+    },
+    "title": {
+      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/be/app/esp32-ble-terminal/id1567601472?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/be/app/esp32-ble-terminal/id1567601472?uo=2",
+      "attributes": {
+        "im:id": "1567601472",
+        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
+      }
+    },
+    "im:artist": {
+      "label": "Gopi Gadhiya",
+      "attributes": {
+        "href": "https://apps.apple.com/be/developer/gopi-gadhiya/id1387816354?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-06-01T00:00:00-07:00",
+      "attributes": {
+        "label": "June 1, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "be",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 3,
+      "total": 88
+    },
+    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -106,109 +310,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
-      "total": 88
-    },
-    "im:name": {
-      "label": "Smart NFC"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/38/f8/f6/38f8f60c-fa19-7a05-8de7-0eafdf55b939/AppIcon-0-1x_U007emarketing-0-0-0-5-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/38/f8/f6/38f8f60c-fa19-7a05-8de7-0eafdf55b939/AppIcon-0-1x_U007emarketing-0-0-0-5-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/38/f8/f6/38f8f60c-fa19-7a05-8de7-0eafdf55b939/AppIcon-0-1x_U007emarketing-0-0-0-5-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NFC is supported on iPhone 7 or newer only; iPad and iPod Touch do not have the hardware to interact with NFC tags.\n\n-----\n\nRead, write, interact, and hack your NFC tags on your supporting iPhone!\n\nSmart NFC is one of the first apps to support native NFC writing directly from your device. With numerous custom records to get you started, you'll be writing to most NDEF-formatted NFC tags in no time. Don't have any NDEF-formatted tags? Format them in the Advanced section.\n\nTag-specific features are being added that allow you to edit a tag's memory directly, which opens the doors to all kinds of new features!\n\nTag not scanning? NDEF format new tags from the Advanced section to get them working right!\n\nAn NFC tag is written with a single \"Message\" which contains any number of \"Records.\" These records define text, links, and data to be stored on the tag. Most tags can be scanned by holding the top of your iPhone within a few centimeters. A chip is only limited only by its size. As long as the chip is NDEF-formatted (most are, and other formats will be supported in a later version) and it has enough space, the limits are endless!\n\nFeatures:\n- Read, write, duplicate, erase, and permanently lock NDEF-formatted tags\n- Monitor a tag's max capacity (usually somewhere between 256-1024 Bytes)\n- Read, write, and interact with links (https://, sms://, facetime://, mailto:, etc.)\n- Write a variety of pre-defined Social Media and website records\n- Read and write text records with multiple language localizations\n- Use Background Tag Reading to interact with NFC tags without an app. Write a link to a tag and then tap it to your phone. Voila! (Supported on iPhone XS and newer)\n- Review and rewrite previous messages from your History to another tag\n- Format factory-programmed tags as NDEF tags in-app (Supports most common tags such as Type 2 and Type 5 NFC tags)\n- Read and write directly to a tag's memory\n- Send custom commands directly to a tag\n- And of course, target your users better by using a tag's unique identifier\n\nExtras:\n- Dark Mode\n- Privacy: we collect nothing as you use the app.\n\nSupported Devices:\n- NFC scanning is available on iPhone 7 and newer. iPad and iPod Touch do not have the required hardware.\n- Background Tag Reading is available on iPhone XS and newer. iOS will present a notification for the first valid link stored on a tag.\n\nSupported Tags:\n- Any NDEF-formatted tags\n- MIFARE Ultralight\n- NTAG 213/215/216\n- NXP ICODE® Tags, ISO 15693 Tags, and Type 5 Tags\n\nFuture support for:\n- MIFARE DESFire\n\nLimitations:\n- MIFARE Classic tags are not currently supported by iOS\n\n\nFuture features:\n- Include a tag's ID and/or its read count in a record\n- Password-protect an NFC chip\n- Connect to a Bluetooth device\n\nFeel free to Tweet feature requests to me at @0xA1EC"
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Alec O'Connor"
-    },
-    "title": {
-      "label": "Smart NFC - Alec O'Connor"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/be/app/smart-nfc/id1470146079?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/27/a0/ff/27a0ffea-3126-e576-12f3-1d994b3bf06f/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/be/app/smart-nfc/id1470146079?uo=2",
-      "attributes": {
-        "im:id": "1470146079",
-        "im:bundleId": "com.alecoconnor.SmartNFC"
-      }
-    },
-    "im:artist": {
-      "label": "Alec O'Connor",
-      "attributes": {
-        "href": "https://apps.apple.com/be/developer/alec-oconnor/id1071776026?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-09-19T00:00:00-07:00",
-      "attributes": {
-        "label": "September 19, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "be",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 88
     },
     "im:name": {
@@ -310,7 +412,109 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
+      "total": 88
+    },
+    "im:name": {
+      "label": "Smart NFC"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/38/f8/f6/38f8f60c-fa19-7a05-8de7-0eafdf55b939/AppIcon-0-1x_U007emarketing-0-0-0-5-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/38/f8/f6/38f8f60c-fa19-7a05-8de7-0eafdf55b939/AppIcon-0-1x_U007emarketing-0-0-0-5-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/38/f8/f6/38f8f60c-fa19-7a05-8de7-0eafdf55b939/AppIcon-0-1x_U007emarketing-0-0-0-5-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NFC is supported on iPhone 7 or newer only; iPad and iPod Touch do not have the hardware to interact with NFC tags.\n\n-----\n\nRead, write, interact, and hack your NFC tags on your supporting iPhone!\n\nSmart NFC is one of the first apps to support native NFC writing directly from your device. With numerous custom records to get you started, you'll be writing to most NDEF-formatted NFC tags in no time. Don't have any NDEF-formatted tags? Format them in the Advanced section.\n\nTag-specific features are being added that allow you to edit a tag's memory directly, which opens the doors to all kinds of new features!\n\nTag not scanning? NDEF format new tags from the Advanced section to get them working right!\n\nAn NFC tag is written with a single \"Message\" which contains any number of \"Records.\" These records define text, links, and data to be stored on the tag. Most tags can be scanned by holding the top of your iPhone within a few centimeters. A chip is only limited only by its size. As long as the chip is NDEF-formatted (most are, and other formats will be supported in a later version) and it has enough space, the limits are endless!\n\nFeatures:\n- Read, write, duplicate, erase, and permanently lock NDEF-formatted tags\n- Monitor a tag's max capacity (usually somewhere between 256-1024 Bytes)\n- Read, write, and interact with links (https://, sms://, facetime://, mailto:, etc.)\n- Write a variety of pre-defined Social Media and website records\n- Read and write text records with multiple language localizations\n- Use Background Tag Reading to interact with NFC tags without an app. Write a link to a tag and then tap it to your phone. Voila! (Supported on iPhone XS and newer)\n- Review and rewrite previous messages from your History to another tag\n- Format factory-programmed tags as NDEF tags in-app (Supports most common tags such as Type 2 and Type 5 NFC tags)\n- Read and write directly to a tag's memory\n- Send custom commands directly to a tag\n- And of course, target your users better by using a tag's unique identifier\n\nExtras:\n- Dark Mode\n- Privacy: we collect nothing as you use the app.\n\nSupported Devices:\n- NFC scanning is available on iPhone 7 and newer. iPad and iPod Touch do not have the required hardware.\n- Background Tag Reading is available on iPhone XS and newer. iOS will present a notification for the first valid link stored on a tag.\n\nSupported Tags:\n- Any NDEF-formatted tags\n- MIFARE Ultralight\n- NTAG 213/215/216\n- NXP ICODE® Tags, ISO 15693 Tags, and Type 5 Tags\n\nFuture support for:\n- MIFARE DESFire\n\nLimitations:\n- MIFARE Classic tags are not currently supported by iOS\n\n\nFuture features:\n- Include a tag's ID and/or its read count in a record\n- Password-protect an NFC chip\n- Connect to a Bluetooth device\n\nFeel free to Tweet feature requests to me at @0xA1EC"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Alec O'Connor"
+    },
+    "title": {
+      "label": "Smart NFC - Alec O'Connor"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/be/app/smart-nfc/id1470146079?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/27/a0/ff/27a0ffea-3126-e576-12f3-1d994b3bf06f/pr_source.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/be/app/smart-nfc/id1470146079?uo=2",
+      "attributes": {
+        "im:id": "1470146079",
+        "im:bundleId": "com.alecoconnor.SmartNFC"
+      }
+    },
+    "im:artist": {
+      "label": "Alec O'Connor",
+      "attributes": {
+        "href": "https://apps.apple.com/be/developer/alec-oconnor/id1071776026?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-09-19T00:00:00-07:00",
+      "attributes": {
+        "label": "September 19, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "be",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 6,
       "total": 88
     },
     "im:name": {
@@ -412,7 +616,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 7,
       "total": 88
     },
     "im:name": {
@@ -514,109 +718,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
-      "total": 88
-    },
-    "im:name": {
-      "label": "SMTPTester - Test smtp service"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/63/5f/04/635f0413-ea76-7d4e-f0ed-89dbd0ccd144/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/63/5f/04/635f0413-ea76-7d4e-f0ed-89dbd0ccd144/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/63/5f/04/635f0413-ea76-7d4e-f0ed-89dbd0ccd144/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "SMTPTester is an SMTP service test tool, through which you can fill in the server address, user information, and then send mail, if there is an error, you can log"
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 FengGao"
-    },
-    "title": {
-      "label": "SMTPTester - Test smtp service - 峰 高"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/be/app/smtptester-test-smtp-service/id1633950905?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b5/60/2c/b5602cc2-8302-6d45-435f-dfbe261553c8/0e5fc93c-bc93-4e4f-b1e3-dd50781d9e04_Simulator_Screen_Shot_-_iPad_Pro__U00289.7-inch_U0029_-_2022-07-11_at_21.38.21.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/be/app/smtptester-test-smtp-service/id1633950905?uo=2",
-      "attributes": {
-        "im:id": "1633950905",
-        "im:bundleId": "com.appgao.smtptester"
-      }
-    },
-    "im:artist": {
-      "label": "峰 高",
-      "attributes": {
-        "href": "https://apps.apple.com/be/developer/%E5%B3%B0-%E9%AB%98/id1456326418?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-07-11T00:00:00-07:00",
-      "attributes": {
-        "label": "July 11, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "be",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 88
     },
     "im:name": {
@@ -710,108 +812,6 @@
       "label": "2019-09-26T00:00:00-07:00",
       "attributes": {
         "label": "September 26, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "be",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 8,
-      "total": 88
-    },
-    "im:name": {
-      "label": "Image to Base64 Plus"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/2a/70/e3/2a70e37a-7db6-c41c-8039-e77927bb0ffe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/2a/70/e3/2a70e37a-7db6-c41c-8039-e77927bb0ffe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/2a/70/e3/2a70e37a-7db6-c41c-8039-e77927bb0ffe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Image to Base64 is a flexible and easy to use Base64 image encoder. It can convert Image to Base64 or convert Base64 String to image with Ease.\n\nFeatures:\n∙ Convert Image to Base64 with Ease.\n∙ After converting to Base64, you can copy base64 encoded string for other usage.\n∙ Convert Base64 String to image with Ease.\n∙ After converting an image, you can save this image to the camera roll.\n\nAbout BASE64\nBase64 pictures are used to incorporate image data in other formats such as HTML, CSS, and JSON. Because the image is already embedded in the HTML content, the browser does not need to perform a separate web request to fetch the file. A Base64 representation of a picture is larger than a standalone image, and for huge images, the string can become very long. Primarily use Base64 for small images, and always try both embedded and external images to see which performs better.\n\nLatin letters, numerals, plus, and slash are among the characters generated by Base64 encoding. The MIME (Multipurpose Internet Mail Extensions) transport encoding Base64 is most widely used for email.\n\nWhy BASE64 encoding?\nImg tags or CSS can be used to include Base64 encoded images, which reduces load times for smaller pictures by avoiding additional HTTP calls. This can be used to create single-file mockups or demo html pages, HTML email signatures that don't trigger annoying \"display images\" warnings, and so on.\n\n\nHow To Convert Image to Base64:\n1. Tap on Image to Base64.\n2. Select Photo that needs to be converted.\n3. Tap on Convert Button.\n4. The result appears as soon as a convert button is pressed.\n5. You can obtain the BASE64/HTML/CSS code by pressing the button and it will be copied to your clipboard.\n\nHow To Convert Base64 to Image:\n1. Tap on Base64 to Image.\n2. Paste any Base64 code into the text field.\n3. Tap on Convert Button.\n4. If the code is correct, Image preview will show.\n5. You can save this image to the camera roll.\n\n\nThe base64 string is generated from the image using the base64 algorithm. The image is not sent to the server for conversion.\n\nThanks for your support and do visit nitrio.com for more apps for your iOS devices."
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Heng Jia Liang"
-    },
-    "title": {
-      "label": "Image to Base64 Plus - Heng Jia Liang"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/be/app/image-to-base64-plus/id1602796127?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/42/e1/64/42e1640f-3964-734c-712c-630fc6b234cf/c0d1ff69-80f3-41e5-ac25-536e821a7d03_Simulator_Screen_Shot_-_iPad__U00289th_generation_U0029_-_2021-12-30_at_15.38.23.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/be/app/image-to-base64-plus/id1602796127?uo=2",
-      "attributes": {
-        "im:id": "1602796127",
-        "im:bundleId": "com.nitrio.image2base64"
-      }
-    },
-    "im:artist": {
-      "label": "Heng Jia Liang",
-      "attributes": {
-        "href": "https://apps.apple.com/be/developer/heng-jia-liang/id1532000635?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-12-31T00:00:00-07:00",
-      "attributes": {
-        "label": "December 31, 2021"
       }
     }
   },
@@ -926,35 +926,35 @@
       "total": 88
     },
     "im:name": {
-      "label": "Inspect Browser"
+      "label": "SMTPTester - Test smtp service"
     },
     "im:image": [
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/f4/0c/ab/f40cab58-be24-69f6-c09f-1d73d39067fe/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/63/5f/04/635f0413-ea76-7d4e-f0ed-89dbd0ccd144/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/f4/0c/ab/f40cab58-be24-69f6-c09f-1d73d39067fe/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/63/5f/04/635f0413-ea76-7d4e-f0ed-89dbd0ccd144/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f4/0c/ab/f40cab58-be24-69f6-c09f-1d73d39067fe/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/63/5f/04/635f0413-ea76-7d4e-f0ed-89dbd0ccd144/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Inspect Browser is a powerful iOS app designed to provide users with seamless access to the Web Inspector functionality directly on their mobile devices. With this app, users can conveniently inspect and debug web pages, making it an indispensable tool for web developers, designers, and anyone involved in web development.\n\n \n\nThe app offers a user-friendly and intuitive interface, optimized specifically for iOS devices. Users can easily launch the Inspect Browser app and navigate to any web page they want to examine. Once the web page is loaded, users can initiate the Web Inspector feature within the app.\n\n \n\nWeb Inspector allows users to explore the underlying HTML, CSS, and JavaScript code of a webpage, making it easier to identify and troubleshoot any issues. With Inspect Browser, users can inspect elements, modify CSS styles in real-time, analyze network requests, view JavaScript console logs, and debug JavaScript code.\n\n \n\nThe app provides a comprehensive set of tools and features to assist users in their web development tasks. Users can select elements on the webpage and instantly view their associated CSS properties, allowing for precise inspection and modification. The built-in JavaScript console enables users to execute JavaScript code and view the resulting output or error messages.\n\n \n\nInspect Browser also offers advanced network monitoring capabilities. Users can analyze network requests made by the webpage, view their headers, payloads, and responses. This feature is invaluable for optimizing page load times, identifying performance bottlenecks, or debugging API interactions."
+      "label": "SMTPTester is an SMTP service test tool, through which you can fill in the server address, user information, and then send mail, if there is an error, you can log"
     },
     "im:price": {
-      "label": "14,99 €",
+      "label": "0,99 €",
       "attributes": {
-        "amount": "14.99",
+        "amount": "0.99",
         "currency": "EUR"
       }
     },
@@ -965,17 +965,17 @@
       }
     },
     "rights": {
-      "label": "© VISUAL MOBILE SOFTWARE"
+      "label": "© 2022 FengGao"
     },
     "title": {
-      "label": "Inspect Browser - VISUAL MOBILE SOFTWARE S.R.L."
+      "label": "SMTPTester - Test smtp service - 峰 高"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/be/app/inspect-browser/id6450539608?uo=2"
+          "href": "https://apps.apple.com/be/app/smtptester-test-smtp-service/id1633950905?uo=2"
         }
       },
       {
@@ -986,22 +986,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e9/12/43/e9124369-0aab-8d8c-15ed-510beb61dab6/5f8b902c-d8d1-469c-96ed-63b0265ff3b7_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2023-06-22_at_15.55.09.png/1024x1024bb.png",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b5/60/2c/b5602cc2-8302-6d45-435f-dfbe261553c8/0e5fc93c-bc93-4e4f-b1e3-dd50781d9e04_Simulator_Screen_Shot_-_iPad_Pro__U00289.7-inch_U0029_-_2022-07-11_at_21.38.21.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/be/app/inspect-browser/id6450539608?uo=2",
+      "label": "https://apps.apple.com/be/app/smtptester-test-smtp-service/id1633950905?uo=2",
       "attributes": {
-        "im:id": "6450539608",
-        "im:bundleId": "com.web-inspector.browser-inspect"
+        "im:id": "1633950905",
+        "im:bundleId": "com.appgao.smtptester"
       }
     },
     "im:artist": {
-      "label": "VISUAL MOBILE SOFTWARE S.R.L.",
+      "label": "峰 高",
       "attributes": {
-        "href": "https://apps.apple.com/be/developer/visual-mobile-software-s-r-l/id1566097252?uo=2"
+        "href": "https://apps.apple.com/be/developer/%E5%B3%B0-%E9%AB%98/id1456326418?uo=2"
       }
     },
     "category": {
@@ -1013,9 +1013,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2023-06-22T00:00:00-07:00",
+      "label": "2022-07-11T00:00:00-07:00",
       "attributes": {
-        "label": "June 22, 2023"
+        "label": "July 11, 2022"
       }
     }
   },
@@ -1025,6 +1025,108 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 11,
+      "total": 88
+    },
+    "im:name": {
+      "label": "Image to Base64 Plus"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/2a/70/e3/2a70e37a-7db6-c41c-8039-e77927bb0ffe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/2a/70/e3/2a70e37a-7db6-c41c-8039-e77927bb0ffe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/2a/70/e3/2a70e37a-7db6-c41c-8039-e77927bb0ffe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Image to Base64 is a flexible and easy to use Base64 image encoder. It can convert Image to Base64 or convert Base64 String to image with Ease.\n\nFeatures:\n∙ Convert Image to Base64 with Ease.\n∙ After converting to Base64, you can copy base64 encoded string for other usage.\n∙ Convert Base64 String to image with Ease.\n∙ After converting an image, you can save this image to the camera roll.\n\nAbout BASE64\nBase64 pictures are used to incorporate image data in other formats such as HTML, CSS, and JSON. Because the image is already embedded in the HTML content, the browser does not need to perform a separate web request to fetch the file. A Base64 representation of a picture is larger than a standalone image, and for huge images, the string can become very long. Primarily use Base64 for small images, and always try both embedded and external images to see which performs better.\n\nLatin letters, numerals, plus, and slash are among the characters generated by Base64 encoding. The MIME (Multipurpose Internet Mail Extensions) transport encoding Base64 is most widely used for email.\n\nWhy BASE64 encoding?\nImg tags or CSS can be used to include Base64 encoded images, which reduces load times for smaller pictures by avoiding additional HTTP calls. This can be used to create single-file mockups or demo html pages, HTML email signatures that don't trigger annoying \"display images\" warnings, and so on.\n\n\nHow To Convert Image to Base64:\n1. Tap on Image to Base64.\n2. Select Photo that needs to be converted.\n3. Tap on Convert Button.\n4. The result appears as soon as a convert button is pressed.\n5. You can obtain the BASE64/HTML/CSS code by pressing the button and it will be copied to your clipboard.\n\nHow To Convert Base64 to Image:\n1. Tap on Base64 to Image.\n2. Paste any Base64 code into the text field.\n3. Tap on Convert Button.\n4. If the code is correct, Image preview will show.\n5. You can save this image to the camera roll.\n\n\nThe base64 string is generated from the image using the base64 algorithm. The image is not sent to the server for conversion.\n\nThanks for your support and do visit nitrio.com for more apps for your iOS devices."
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Heng Jia Liang"
+    },
+    "title": {
+      "label": "Image to Base64 Plus - Heng Jia Liang"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/be/app/image-to-base64-plus/id1602796127?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/42/e1/64/42e1640f-3964-734c-712c-630fc6b234cf/c0d1ff69-80f3-41e5-ac25-536e821a7d03_Simulator_Screen_Shot_-_iPad__U00289th_generation_U0029_-_2021-12-30_at_15.38.23.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/be/app/image-to-base64-plus/id1602796127?uo=2",
+      "attributes": {
+        "im:id": "1602796127",
+        "im:bundleId": "com.nitrio.image2base64"
+      }
+    },
+    "im:artist": {
+      "label": "Heng Jia Liang",
+      "attributes": {
+        "href": "https://apps.apple.com/be/developer/heng-jia-liang/id1532000635?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-12-31T00:00:00-07:00",
+      "attributes": {
+        "label": "December 31, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "be",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 12,
       "total": 88
     },
     "im:name": {
@@ -1126,7 +1228,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 13,
       "total": 88
     },
     "im:name": {
@@ -1228,39 +1330,39 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 14,
       "total": 88
     },
     "im:name": {
-      "label": "Docker Management"
+      "label": "Inspect Browser"
     },
     "im:image": [
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/f4/0c/ab/f40cab58-be24-69f6-c09f-1d73d39067fe/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/f4/0c/ab/f40cab58-be24-69f6-c09f-1d73d39067fe/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f4/0c/ab/f40cab58-be24-69f6-c09f-1d73d39067fe/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+      "label": "Inspect Browser is a powerful iOS app designed to provide users with seamless access to the Web Inspector functionality directly on their mobile devices. With this app, users can conveniently inspect and debug web pages, making it an indispensable tool for web developers, designers, and anyone involved in web development.\n\n \n\nThe app offers a user-friendly and intuitive interface, optimized specifically for iOS devices. Users can easily launch the Inspect Browser app and navigate to any web page they want to examine. Once the web page is loaded, users can initiate the Web Inspector feature within the app.\n\n \n\nWeb Inspector allows users to explore the underlying HTML, CSS, and JavaScript code of a webpage, making it easier to identify and troubleshoot any issues. With Inspect Browser, users can inspect elements, modify CSS styles in real-time, analyze network requests, view JavaScript console logs, and debug JavaScript code.\n\n \n\nThe app provides a comprehensive set of tools and features to assist users in their web development tasks. Users can select elements on the webpage and instantly view their associated CSS properties, allowing for precise inspection and modification. The built-in JavaScript console enables users to execute JavaScript code and view the resulting output or error messages.\n\n \n\nInspect Browser also offers advanced network monitoring capabilities. Users can analyze network requests made by the webpage, view their headers, payloads, and responses. This feature is invaluable for optimizing page load times, identifying performance bottlenecks, or debugging API interactions."
     },
     "im:price": {
-      "label": "5,99 €",
+      "label": "14,99 €",
       "attributes": {
-        "amount": "5.99",
+        "amount": "14.99",
         "currency": "EUR"
       }
     },
@@ -1271,17 +1373,17 @@
       }
     },
     "rights": {
-      "label": "© nevishs"
+      "label": "© VISUAL MOBILE SOFTWARE"
     },
     "title": {
-      "label": "Docker Management - Nevis Shkenza"
+      "label": "Inspect Browser - VISUAL MOBILE SOFTWARE S.R.L."
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2"
+          "href": "https://apps.apple.com/be/app/inspect-browser/id6450539608?uo=2"
         }
       },
       {
@@ -1292,22 +1394,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e9/12/43/e9124369-0aab-8d8c-15ed-510beb61dab6/5f8b902c-d8d1-469c-96ed-63b0265ff3b7_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2023-06-22_at_15.55.09.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2",
+      "label": "https://apps.apple.com/be/app/inspect-browser/id6450539608?uo=2",
       "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
+        "im:id": "6450539608",
+        "im:bundleId": "com.web-inspector.browser-inspect"
       }
     },
     "im:artist": {
-      "label": "Nevis Shkenza",
+      "label": "VISUAL MOBILE SOFTWARE S.R.L.",
       "attributes": {
-        "href": "https://apps.apple.com/be/developer/nevis-shkenza/id1268450891?uo=2"
+        "href": "https://apps.apple.com/be/developer/visual-mobile-software-s-r-l/id1566097252?uo=2"
       }
     },
     "category": {
@@ -1319,9 +1421,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
+      "label": "2023-06-22T00:00:00-07:00",
       "attributes": {
-        "label": "August 14, 2020"
+        "label": "June 22, 2023"
       }
     }
   },
@@ -1330,7 +1432,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 15,
       "total": 88
     },
     "im:name": {
@@ -1432,7 +1534,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 16,
       "total": 88
     },
     "im:name": {
@@ -1534,7 +1636,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 17,
       "total": 88
     },
     "im:name": {
@@ -1636,7 +1738,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 88
     },
     "im:name": {
@@ -1738,7 +1840,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 19,
       "total": 88
     },
     "im:name": {
@@ -1840,7 +1942,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 20,
       "total": 88
     },
     "im:name": {
@@ -1942,7 +2044,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 21,
       "total": 88
     },
     "im:name": {
@@ -2044,7 +2146,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 88
     },
     "im:name": {
@@ -2146,7 +2248,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 88
     },
     "im:name": {
@@ -2248,7 +2350,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 24,
       "total": 88
     },
     "im:name": {
@@ -2350,7 +2452,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 25,
       "total": 88
     },
     "im:name": {
@@ -2452,7 +2554,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 26,
       "total": 88
     },
     "im:name": {
@@ -2554,7 +2656,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 88
     },
     "im:name": {
@@ -2656,7 +2758,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 28,
       "total": 88
     },
     "im:name": {
@@ -2758,7 +2860,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 29,
       "total": 88
     },
     "im:name": {
@@ -2860,7 +2962,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 30,
       "total": 88
     },
     "im:name": {
@@ -2962,7 +3064,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 31,
       "total": 88
     },
     "im:name": {
@@ -3064,7 +3166,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
+      "index": 32,
       "total": 88
     },
     "im:name": {
@@ -3094,9 +3196,9 @@
       "label": "Welcome to a powerful tool for analyzing and viewing HTML, XML, JavaScript, CSS, JSON, RSS and ATOM code. Our application will provide you with all the tools you need to work with code conveniently and increase your productivity.\n\nIn our app you will find the following great features:\n\n• Support for Three Device Types: now you can work with the app on iPhone, iPad and Mac, enjoying an optimal user experience on each of them.\n• Intuitive Code Review: easily view and analyze formatted HTML, XML, JSON, RSS and ATOM code in a structured and textual way, which makes interacting with code more convenient.\n• Error Tracking: our application helps you detect errors in HTML, XML, JSON, RSS and ATOM code structure.\n• Built-in Simulator: easily view web pages in the built-in simulator. You have access to templates for different device screen sizes, as well as the ability to create your own device simulators with customized screen sizes.\n• Terminal Testing: Test web pages using a terminal to enter JavaScript code and get results instantly.\n• Search: Use the text or regular expression search function to quickly find the right places in code or content in the simulator.\n• View Connected Styles: See what styles are applied to a selected web page element by viewing them in the code or simulator.\n• Working with Images: view all known image formats added to a web page or CSS file.\n• Query Management: create unique queries with support for Method, Headers, Cookies and Body input, and view, edit or re-execute queries made previously.\n• Built-in Code Beautifier: beautify your source code and easily format it with the built-in Code Beautifier tool.\n• Request Detail View: view Header and Cookie values from the request response for additional analysis and debugging.\n• Query Execution Time View: get information about the time spent on query execution to optimize performance.\n• Copy to clipboard: copy all code, individual sections, or generated code from all children of a selected code structure element to the clipboard.\n• Copying Information from Application Panels: easily copy any output information contained in application panels for easy data sharing.\n• Opening Files on Disk: easily open files stored on your disk directly in the application to view formatted code.\n• Friendly Support and Updates: we appreciate your comments and feedback to help us get better. Write about what you'd like to see in new releases and we'll be sure to take your suggestions into account!\n\nThank you for choosing our app. We are sure that it will become an indispensable assistant in your work with code."
     },
     "im:price": {
-      "label": "9,99 €",
+      "label": "14,99 €",
       "attributes": {
-        "amount": "9.99",
+        "amount": "14.99",
         "currency": "EUR"
       }
     },
@@ -3166,7 +3268,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 32,
+      "index": 33,
       "total": 88
     },
     "im:name": {
@@ -3268,7 +3370,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 34,
       "total": 88
     },
     "im:name": {
@@ -3370,7 +3472,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 35,
       "total": 88
     },
     "im:name": {
@@ -3472,7 +3574,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 88
     },
     "im:name": {
@@ -3574,7 +3676,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 37,
       "total": 88
     },
     "im:name": {
@@ -3668,108 +3770,6 @@
       "label": "2022-06-20T00:00:00-07:00",
       "attributes": {
         "label": "June 20, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "be",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 37,
-      "total": 88
-    },
-    "im:name": {
-      "label": "ESP32 BLE Terminal"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 mightyIT"
-    },
-    "title": {
-      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/be/app/esp32-ble-terminal/id1567601472?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/be/app/esp32-ble-terminal/id1567601472?uo=2",
-      "attributes": {
-        "im:id": "1567601472",
-        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
-      }
-    },
-    "im:artist": {
-      "label": "Gopi Gadhiya",
-      "attributes": {
-        "href": "https://apps.apple.com/be/developer/gopi-gadhiya/id1387816354?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-06-01T00:00:00-07:00",
-      "attributes": {
-        "label": "June 1, 2021"
       }
     }
   },

@@ -314,312 +314,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "449.00 RUB",
-      "attributes": {
-        "amount": "449.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/docker-management/id1527656144?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/docker-management/id1527656144?l=en&uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/nevis-shkenza/id1268450891?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
-      "total": 99
-    },
-    "im:name": {
-      "label": "TCP  UDP Debugger"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/1e/ad/42/1ead4236-a905-b3a8-18d0-76d186d38c09/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/1e/ad/42/1ead4236-a905-b3a8-18d0-76d186d38c09/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/1e/ad/42/1ead4236-a905-b3a8-18d0-76d186d38c09/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The network debugging tool is a TCP&UDP communication debugging tool with rich functions, clear interface, and easy to use. It can assist network maintenance personnel and program developers to debug the network. The main features include:\n1. Integrated TCP client and server; UDP client and server\n2. Support Ping\n3. Support Ping Monitor(Timed automatic Ping server)\n4. Support UDP Broadcast\n5. Support Multicast\n6. Support Port Scan\n7. Support TraceRoute\n8. Support Lan Scan\n9. Support Whois\n10. Support Command Panel\n11. Multi-client link management at the same time\n12. Automatically send messages at regular intervals\n13. Support hexadecimal, UTF-8, Unicode, GBK character encoding switching\n14. Automatically cache the last message sent"
-    },
-    "im:price": {
-      "label": "99.00 RUB",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© NetTools"
-    },
-    "title": {
-      "label": "TCP  UDP Debugger - Xun Zhang"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/tcp-udp-debugger/id1461652639?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/eb/12/6d/eb126df6-fe35-5132-e856-261f0fcdfe55/7b7f2227-59b5-4970-8275-b3ff04501401_iPad1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/tcp-udp-debugger/id1461652639?l=en&uo=2",
-      "attributes": {
-        "im:id": "1461652639",
-        "im:bundleId": "com.wjyw.NetTools"
-      }
-    },
-    "im:artist": {
-      "label": "Xun Zhang",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/xun-zhang/id1001435294?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-05-05T14:44:46-07:00",
-      "attributes": {
-        "label": "May 5, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 6,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Pixel Resizer: Custom Metadata"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/48/8b/9e/488b9e36-da17-efef-4915-acfd3a6338b4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/48/8b/9e/488b9e36-da17-efef-4915-acfd3a6338b4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/48/8b/9e/488b9e36-da17-efef-4915-acfd3a6338b4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "-Custom Scale images to any Exact Pixel Dimensions: Without the constraint of locked aspect ratios\n-ANY dimensions up to 4,000 x 4,000 pixels\n-Import -> Change Output Dimension Pixels -> Export\n-Immediate export of modified image(s) - no lag time\n-Optional Set of Preset Sizes that can be exported all at once\n-Works for any Custom Screenshot size needs\n\n-Best App for Xcode Developer Screenshots\n-Use for Instagram, Facebook, App Store, Selfies, and more!\n\nXcode and iOS Developers now have the fastest tool for adjusting required iOS Developer Screenshots to the exact pixel dimensions they need to be for App Store Connect:\nAll you have to do is set the dimensions to the correct pixel size and save as presets to export all screenshots at once if your app looks the same on all the screenshot size pixel ratios required for submission to the App Store."
-    },
-    "im:price": {
-      "label": "199.00 RUB",
-      "attributes": {
-        "amount": "199.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Bad Assassin Games 2021"
-    },
-    "title": {
-      "label": "Pixel Resizer: Custom Metadata - Bad Assassin Games"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/pixel-resizer-custom-metadata/id1288339266?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/42/f9/e8/42f9e823-e0a4-5b61-255a-83911e154f00/21ab6d9b-25eb-4c10-9d9d-8d0d6848a5bd_IMG_0129-2.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/pixel-resizer-custom-metadata/id1288339266?l=en&uo=2",
-      "attributes": {
-        "im:id": "1288339266",
-        "im:bundleId": "com.badassassingames.app84"
-      }
-    },
-    "im:artist": {
-      "label": "Bad Assassin Games",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/bad-assassin-games/id556279629?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-09-30T00:00:00-07:00",
-      "attributes": {
-        "label": "September 30, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 7,
-      "total": 99
-    },
-    "im:name": {
       "label": "OpenTerm"
     },
     "im:image": [
@@ -718,7 +412,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -820,7 +514,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -922,7 +616,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +718,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -1126,7 +820,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -1228,7 +922,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -1330,7 +1024,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -1432,109 +1126,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Programming Notebook LITE"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "FEATURES:\n- Includes Google Colab and Jupyter notebook\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- Easier web navigation through the in-app browsers.\n- Maximizes space available on screen for code editing/viewing"
-    },
-    "im:price": {
-      "label": "49.00 RUB",
-      "attributes": {
-        "amount": "49.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Ryan Rudes"
-    },
-    "title": {
-      "label": "Programming Notebook LITE - Ryan Rudes"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/programming-notebook-lite/id1519715994?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/5e/a8/a65ea89c-c448-2dbe-e1e4-6778938f1944/c0575338-274d-4651-adf6-4683a23a775d_iPad_Pro_12.9_U0022_2nd_Gen_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/programming-notebook-lite/id1519715994?l=en&uo=2",
-      "attributes": {
-        "im:id": "1519715994",
-        "im:bundleId": "com.appcoda.ryan-rudes"
-      }
-    },
-    "im:artist": {
-      "label": "Ryan Rudes",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/ryan-rudes/id1698870132?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-06-25T00:00:00-07:00",
-      "attributes": {
-        "label": "June 25, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 16,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1636,7 +1228,109 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 13,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Programming Notebook LITE"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "FEATURES:\n- Includes Google Colab and Jupyter notebook\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- Easier web navigation through the in-app browsers.\n- Maximizes space available on screen for code editing/viewing"
+    },
+    "im:price": {
+      "label": "49.00 RUB",
+      "attributes": {
+        "amount": "49.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Ryan Rudes"
+    },
+    "title": {
+      "label": "Programming Notebook LITE - Ryan Rudes"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/programming-notebook-lite/id1519715994?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/5e/a8/a65ea89c-c448-2dbe-e1e4-6778938f1944/c0575338-274d-4651-adf6-4683a23a775d_iPad_Pro_12.9_U0022_2nd_Gen_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/programming-notebook-lite/id1519715994?l=en&uo=2",
+      "attributes": {
+        "im:id": "1519715994",
+        "im:bundleId": "com.appcoda.ryan-rudes"
+      }
+    },
+    "im:artist": {
+      "label": "Ryan Rudes",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/ryan-rudes/id1698870132?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-06-25T00:00:00-07:00",
+      "attributes": {
+        "label": "June 25, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +1432,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1840,7 +1534,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +1636,211 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 17,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "449.00 RUB",
+      "attributes": {
+        "amount": "449.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 18,
+      "total": 99
+    },
+    "im:name": {
+      "label": "TCP  UDP Debugger"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/1e/ad/42/1ead4236-a905-b3a8-18d0-76d186d38c09/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/1e/ad/42/1ead4236-a905-b3a8-18d0-76d186d38c09/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/1e/ad/42/1ead4236-a905-b3a8-18d0-76d186d38c09/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The network debugging tool is a TCP&UDP communication debugging tool with rich functions, clear interface, and easy to use. It can assist network maintenance personnel and program developers to debug the network. The main features include:\n1. Integrated TCP client and server; UDP client and server\n2. Support Ping\n3. Support Ping Monitor(Timed automatic Ping server)\n4. Support UDP Broadcast\n5. Support Multicast\n6. Support Port Scan\n7. Support TraceRoute\n8. Support Lan Scan\n9. Support Whois\n10. Support Command Panel\n11. Multi-client link management at the same time\n12. Automatically send messages at regular intervals\n13. Support hexadecimal, UTF-8, Unicode, GBK character encoding switching\n14. Automatically cache the last message sent"
+    },
+    "im:price": {
+      "label": "99.00 RUB",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© NetTools"
+    },
+    "title": {
+      "label": "TCP  UDP Debugger - Xun Zhang"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/tcp-udp-debugger/id1461652639?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/eb/12/6d/eb126df6-fe35-5132-e856-261f0fcdfe55/7b7f2227-59b5-4970-8275-b3ff04501401_iPad1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/tcp-udp-debugger/id1461652639?l=en&uo=2",
+      "attributes": {
+        "im:id": "1461652639",
+        "im:bundleId": "com.wjyw.NetTools"
+      }
+    },
+    "im:artist": {
+      "label": "Xun Zhang",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/xun-zhang/id1001435294?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-05-05T14:44:46-07:00",
+      "attributes": {
+        "label": "May 5, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -2138,6 +2036,108 @@
       "label": "2017-11-20T11:47:31-07:00",
       "attributes": {
         "label": "November 20, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 21,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Pixel Resizer: Custom Metadata"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/48/8b/9e/488b9e36-da17-efef-4915-acfd3a6338b4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/48/8b/9e/488b9e36-da17-efef-4915-acfd3a6338b4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/48/8b/9e/488b9e36-da17-efef-4915-acfd3a6338b4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "-Custom Scale images to any Exact Pixel Dimensions: Without the constraint of locked aspect ratios\n-ANY dimensions up to 4,000 x 4,000 pixels\n-Import -> Change Output Dimension Pixels -> Export\n-Immediate export of modified image(s) - no lag time\n-Optional Set of Preset Sizes that can be exported all at once\n-Works for any Custom Screenshot size needs\n\n-Best App for Xcode Developer Screenshots\n-Use for Instagram, Facebook, App Store, Selfies, and more!\n\nXcode and iOS Developers now have the fastest tool for adjusting required iOS Developer Screenshots to the exact pixel dimensions they need to be for App Store Connect:\nAll you have to do is set the dimensions to the correct pixel size and save as presets to export all screenshots at once if your app looks the same on all the screenshot size pixel ratios required for submission to the App Store."
+    },
+    "im:price": {
+      "label": "199.00 RUB",
+      "attributes": {
+        "amount": "199.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Bad Assassin Games 2021"
+    },
+    "title": {
+      "label": "Pixel Resizer: Custom Metadata - Bad Assassin Games"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/pixel-resizer-custom-metadata/id1288339266?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/42/f9/e8/42f9e823-e0a4-5b61-255a-83911e154f00/21ab6d9b-25eb-4c10-9d9d-8d0d6848a5bd_IMG_0129-2.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/pixel-resizer-custom-metadata/id1288339266?l=en&uo=2",
+      "attributes": {
+        "im:id": "1288339266",
+        "im:bundleId": "com.badassassingames.app84"
+      }
+    },
+    "im:artist": {
+      "label": "Bad Assassin Games",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/bad-assassin-games/id556279629?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-09-30T00:00:00-07:00",
+      "attributes": {
+        "label": "September 30, 2021"
       }
     }
   },
@@ -3884,108 +3884,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "SSH Term Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Quickly manage Linux SSH servers from Mac and iPhone and iPad, support Terminal and SFTP and SCP and Docker and Redis, monitor CPU and memory as well as disk usage and other rich features"
-    },
-    "im:price": {
-      "label": "99.00 RUB",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "Copyright © 2022 sanliang fei, admin@0760.cn"
-    },
-    "title": {
-      "label": "SSH Term Pro - 三量 费"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/ssh-term-pro/id1636342413?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/25/6d/c5/256dc5bd-d24a-6c3e-c881-8ae1e2658821/becd1478-07db-4bb3-a207-13ab0ea9f03a_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/ssh-term-pro/id1636342413?l=en&uo=2",
-      "attributes": {
-        "im:id": "1636342413",
-        "im:bundleId": "cn.sshterm.pro"
-      }
-    },
-    "im:artist": {
-      "label": "三量 费",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/%E4%B8%89%E9%87%8F-%E8%B4%B9/id1635301163?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-07-26T00:00:00-07:00",
-      "attributes": {
-        "label": "July 26, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 40,
-      "total": 99
-    },
-    "im:name": {
       "label": "Http Traffic pro - sniffer"
     },
     "im:image": [
@@ -4084,7 +3982,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 41,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -4178,6 +4076,108 @@
       "label": "2015-02-12T23:38:01-07:00",
       "attributes": {
         "label": "February 12, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 41,
+      "total": 99
+    },
+    "im:name": {
+      "label": "SSH Term Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Quickly manage Linux SSH servers from Mac and iPhone and iPad, support Terminal and SFTP and SCP and Docker and Redis, monitor CPU and memory as well as disk usage and other rich features"
+    },
+    "im:price": {
+      "label": "99.00 RUB",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "Copyright © 2022 sanliang fei, admin@0760.cn"
+    },
+    "title": {
+      "label": "SSH Term Pro - 三量 费"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/ssh-term-pro/id1636342413?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/25/6d/c5/256dc5bd-d24a-6c3e-c881-8ae1e2658821/becd1478-07db-4bb3-a207-13ab0ea9f03a_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/ssh-term-pro/id1636342413?l=en&uo=2",
+      "attributes": {
+        "im:id": "1636342413",
+        "im:bundleId": "cn.sshterm.pro"
+      }
+    },
+    "im:artist": {
+      "label": "三量 费",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/%E4%B8%89%E9%87%8F-%E8%B4%B9/id1635301163?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-07-26T00:00:00-07:00",
+      "attributes": {
+        "label": "July 26, 2022"
       }
     }
   },
@@ -8366,6 +8366,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Ad Blocker - By Clint"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/74/5f/81/745f81e4-0e73-4f6d-7dc5-5650872aa274/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/74/5f/81/745f81e4-0e73-4f6d-7dc5-5650872aa274/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/74/5f/81/745f81e4-0e73-4f6d-7dc5-5650872aa274/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Now ad blocker extension is available in safari too. We deliver the powerful filter to disable ads, sponsored pages, malware contained domain, adult contains and even much more.\nWe tries to make it minimal and simple to enable by just following few steps and here you go.\nWe helps you to \n1: Block Ads,\n2: Block Sponsored pages,\n3: Skip youtube ads\n4: Block Malware \n5: Block Adult Content\n6: Filtering domain \nand much more."
+    },
+    "im:price": {
+      "label": "99.00 RUB",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Shubham Sharma"
+    },
+    "title": {
+      "label": "Ad Blocker - By Clint - Shubham Sharma"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/ad-blocker-by-clint/id6444582465?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/1c/f2/66/1cf26654-10a0-5346-7527-08781d7c35e4/8f64a2a5-5389-4c81-a1db-1257c70c84bc_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/ad-blocker-by-clint/id6444582465?l=en&uo=2",
+      "attributes": {
+        "im:id": "6444582465",
+        "im:bundleId": "com.clint.Adblocker"
+      }
+    },
+    "im:artist": {
+      "label": "Shubham Sharma",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/shubham-sharma/id1643497398?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-11-28T00:00:00-07:00",
+      "attributes": {
+        "label": "November 28, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 84,
+      "total": 99
+    },
+    "im:name": {
       "label": "VSCoW - Code Wrapper"
     },
     "im:image": [
@@ -8464,7 +8566,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 84,
+      "index": 85,
       "total": 99
     },
     "im:name": {
@@ -8566,7 +8668,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 85,
+      "index": 86,
       "total": 99
     },
     "im:name": {
@@ -8668,7 +8770,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 86,
+      "index": 87,
       "total": 99
     },
     "im:name": {
@@ -8770,7 +8872,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 87,
+      "index": 88,
       "total": 99
     },
     "im:name": {
@@ -8872,7 +8974,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 88,
+      "index": 89,
       "total": 99
     },
     "im:name": {
@@ -8974,7 +9076,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 89,
+      "index": 90,
       "total": 99
     },
     "im:name": {
@@ -9076,7 +9178,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 90,
+      "index": 91,
       "total": 99
     },
     "im:name": {
@@ -9178,7 +9280,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 91,
+      "index": 92,
       "total": 99
     },
     "im:name": {
@@ -9280,7 +9382,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 92,
+      "index": 93,
       "total": 99
     },
     "im:name": {
@@ -9382,7 +9484,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 93,
+      "index": 94,
       "total": 99
     },
     "im:name": {
@@ -9484,7 +9586,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 94,
+      "index": 95,
       "total": 99
     },
     "im:name": {
@@ -9586,7 +9688,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 95,
+      "index": 96,
       "total": 99
     },
     "im:name": {
@@ -9688,7 +9790,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 96,
+      "index": 97,
       "total": 99
     },
     "im:name": {
@@ -9790,7 +9892,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 97,
+      "index": 98,
       "total": 99
     },
     "im:name": {
@@ -9892,7 +9994,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 98,
+      "index": 99,
       "total": 99
     },
     "im:name": {
@@ -9986,108 +10088,6 @@
       "label": "2022-06-20T00:00:00-07:00",
       "attributes": {
         "label": "June 20, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 99,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Header Checker"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/b2/bd/58/b2bd586f-dcbb-de8c-55f1-d47b92f92388/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/b2/bd/58/b2bd586f-dcbb-de8c-55f1-d47b92f92388/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/b2/bd/58/b2bd586f-dcbb-de8c-55f1-d47b92f92388/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "With the Header Checker you can check every url/hostname for returned http headers.\n\nThe Header-Checker shows you details about the existing http-headers and gives hints about missing security relevant http-headers.\n\nThe Header Checker shows you the following details:\n* All returned headers\n* All available security relevant Http headers\n* Warnings for existing headers\n\nCheck your online presence now and improve the security of your site."
-    },
-    "im:price": {
-      "label": "199.00 RUB",
-      "attributes": {
-        "amount": "199.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Feuerberg Software"
-    },
-    "title": {
-      "label": "Header Checker - Daniel Linsenmeier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/header-checker/id1615410359?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/a8/b7/e5/a8b7e57e-fa91-d0cb-717f-a790d3f92590/d09d1833-6784-47dd-8df0-a3b0199c459a_apple_tablet_screenshot_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/header-checker/id1615410359?l=en&uo=2",
-      "attributes": {
-        "im:id": "1615410359",
-        "im:bundleId": "de.feuerberg-software.header-checker"
-      }
-    },
-    "im:artist": {
-      "label": "Daniel Linsenmeier",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/daniel-linsenmeier/id1543220963?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-03-25T00:00:00-07:00",
-      "attributes": {
-        "label": "March 25, 2022"
       }
     }
   }

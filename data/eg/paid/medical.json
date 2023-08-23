@@ -8,6 +8,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "StereoCheck"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/7e/03/3e/7e033e66-fbb5-33e3-0157-78753ed9e6be/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/7e/03/3e/7e033e66-fbb5-33e3-0157-78753ed9e6be/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/7e/03/3e/7e033e66-fbb5-33e3-0157-78753ed9e6be/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Check your Cartesian stereotactic coordinates with an independent system !  \nStereoCheck is a mobile application designed to compute target coordinates using several hardware manufacturers frames and models. \n\nWARNING : Do not use StereoCheck for surgical decision making.\nDo not use StereoCheck as the primary planning or computation system, it is intended to be a verification system. \nStereoCheck is also a valuable educational tool for beginners in the field of stereotaxy. \n \nThe present version of StereoCheck has support for FiMe, Bramsys, Leksell, CRW,  Micromar, Macom, inomed-ZD, Brainlab, Estereoflex and Adeor-Zeppelin frames. \nStereoCheck main axis are:  latero-lateral (X), dorso-ventral (Y) and caudal-rostral (Z).  The mathematical algorithm used by StereoCheck includes corrections for tilted  images (rotation around X and/or Y axis) as long as nine fiducials are present in the image. There is correction for rotation around Z up to 5 degrees.  Linear image distortions are also corrected.\n\nStep-By-Step: \nTake a photo of your stereo-CT or stereo-MR or enter the image into the camera roll using any available way. StereoCheck work with axial (transverse) CT slices only, there is no support for coronal or sagittal views. \nSelect the stereotactic frame and model being used. For some frames, such as FiMe and Bramsys, the fiducials orientation must be defined.  \nSelect the image from the camera roll.  \nMark each fiducial on the image. StereoCheck use nine (9) fiducials, except for Brainlab frame, that uses only six (6). If you are using a ZD system, ignore the occipital fiducials.  \nMark the target point you want to reach and tap the Done button.  At this point the stereotactic coordinates will be computed and displayed. \nIf you want to keep a copy of results for your records, use the Compose button on top of the screen to send them by e-mail."
+    },
+    "im:price": {
+      "label": "EGP 349.99",
+      "attributes": {
+        "amount": "349.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Mevis Informática Médica"
+    },
+    "title": {
+      "label": "StereoCheck - Mevis Informática Médica Ltda."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/stereocheck/id566866809?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/5c/d6/8c/5cd68cf4-b023-76e1-30ba-450c2275a5e3/e2bc54af-016f-4ed2-ad19-6f2f37868a78_screenshot-12.9-2G-1-2.6.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/stereocheck/id566866809?uo=2",
+      "attributes": {
+        "im:id": "566866809",
+        "im:bundleId": "br.com.mevis.StereoCheck"
+      }
+    },
+    "im:artist": {
+      "label": "Mevis Informática Médica Ltda.",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/mevis-inform%C3%A1tica-m%C3%A9dica-ltda/id556863725?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6020",
+        "term": "Medical",
+        "scheme": "https://apps.apple.com/eg/genre/ios-medical/id6020?uo=2",
+        "label": "Medical"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-10-15T18:33:25-07:00",
+      "attributes": {
+        "label": "October 15, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "medical",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
       "label": "Centiles: Baby Growth Charts"
     },
     "im:image": [
@@ -98,108 +200,6 @@
       "label": "2016-02-05T18:52:59-07:00",
       "attributes": {
         "label": "February 5, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "medical",
-      "index": 2,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Renal Dose: Adjust Antibiotics"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/18/2b/d5182bef-18e2-07d3-b889-5bfd79f4c613/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/18/2b/d5182bef-18e2-07d3-b889-5bfd79f4c613/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/18/2b/d5182bef-18e2-07d3-b889-5bfd79f4c613/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Do you have doubts when correcting the dose of antibiotics for your patient's kidney function?\nIf the answer is YES, then this app is made for you.\n\nAs we know, it is extremely important to correct the medications dosage based on the patient's renal function as it is possible to avoid many of the drugs side effects. Thus, it is necessary to calculate the patient's GFR and then look for updated and reliable tables that allow this correction. This is not always done quickly and easily.\n\nWith that in mind, the SmartMedic company developed the Renal Dose application. Through it, you can use the calculator of your choice to calculate the patient’s renal function (CKD-EPI, Cockcroft-Gault or MDRD) and then have access to medications with doses already corrected by creatinine clearance, enabling agility and safety at the time of prescription.\n\nThe application has correction for the renal function of antibiotics, antifungals, antivirals and antiepileptic drugs. This app is the ONLY one that allows you to take the medication dosage already calculated by the creatinine clearance. Don't waste time, download the Renal Dose app and simplify your prescription.\n\n**The app is available in English, Portuguese and Spanish.\n\nDisclaimer: this app was designed only for medical professionals, not suitable for others that should seek a doctor’s advice before making any medical decisions. The app is not a substitute for clinical or physician reasoning."
-    },
-    "im:price": {
-      "label": "EGP 149.99",
-      "attributes": {
-        "amount": "149.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© SmartMedic 2022"
-    },
-    "title": {
-      "label": "Renal Dose: Adjust Antibiotics - SmartMedic LTDA"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/renal-dose-adjust-antibiotics/id1615228928?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/1e/9b/64/1e9b644f-5d22-7018-7d5a-c99811f5ebd7/3bf61cbc-6d9e-4b3d-bf95-ed365cb98c3e_Simulator_Screen_Shot_-_iPad_Pro_12.9_polegadas_2nd_generation_-_2022-03-27_at_09.13.44.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/renal-dose-adjust-antibiotics/id1615228928?uo=2",
-      "attributes": {
-        "im:id": "1615228928",
-        "im:bundleId": "com.renal.dose.app.smartmedic"
-      }
-    },
-    "im:artist": {
-      "label": "SmartMedic LTDA",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/smartmedic-ltda/id1547140604?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6020",
-        "term": "Medical",
-        "scheme": "https://apps.apple.com/eg/genre/ios-medical/id6020?uo=2",
-        "label": "Medical"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-03-29T00:00:00-07:00",
-      "attributes": {
-        "label": "March 29, 2022"
       }
     }
   },
@@ -1436,108 +1436,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "yCry : baby cries translator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/be/bc/f1/bebcf196-d2f4-40f1-9aeb-3d5fca65c234/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/be/bc/f1/bebcf196-d2f4-40f1-9aeb-3d5fca65c234/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/be/bc/f1/bebcf196-d2f4-40f1-9aeb-3d5fca65c234/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "yCry uses A.I. algorithms to help detect and analyze your baby's cry and display his needs to you. It is the result of intensive 8 months collecting babies cries backed by evidence and scientists help. Additionally, the app contains several features to help you have the best mom/dad experience.\n\nFeatures : \n\n~ A food diary to help keep track of your baby's belly\n~ A sounds palette that is backed by evidence that helps soothe the baby and calm him down\n\nDisclamer: yCry may produce results that contradicts what you may think of your baby: always trust your mind."
-    },
-    "im:price": {
-      "label": "EGP 29.99",
-      "attributes": {
-        "amount": "29.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 YAApps"
-    },
-    "title": {
-      "label": "yCry : baby cries translator - Yousef Abourady"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/ycry-baby-cries-translator/id1502037689?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/84/41/9d/84419ddd-793d-d08a-08ef-03d6357cea07/pr_source.jpg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/ycry-baby-cries-translator/id1502037689?uo=2",
-      "attributes": {
-        "im:id": "1502037689",
-        "im:bundleId": "com.yousefahmed.ycry"
-      }
-    },
-    "im:artist": {
-      "label": "Yousef Abourady",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/yousef-abourady/id1502037688?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6020",
-        "term": "Medical",
-        "scheme": "https://apps.apple.com/eg/genre/ios-medical/id6020?uo=2",
-        "label": "Medical"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-03-26T00:00:00-07:00",
-      "attributes": {
-        "label": "March 26, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "medical",
-      "index": 16,
-      "total": 99
-    },
-    "im:name": {
       "label": "Drugs & Medications"
     },
     "im:image": [
@@ -1628,6 +1526,108 @@
       "label": "2009-11-09T09:48:56-07:00",
       "attributes": {
         "label": "November 9, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "medical",
+      "index": 16,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Renal Dose: Adjust Antibiotics"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/18/2b/d5182bef-18e2-07d3-b889-5bfd79f4c613/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/18/2b/d5182bef-18e2-07d3-b889-5bfd79f4c613/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/d5/18/2b/d5182bef-18e2-07d3-b889-5bfd79f4c613/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Do you have doubts when correcting the dose of antibiotics for your patient's kidney function?\nIf the answer is YES, then this app is made for you.\n\nAs we know, it is extremely important to correct the medications dosage based on the patient's renal function as it is possible to avoid many of the drugs side effects. Thus, it is necessary to calculate the patient's GFR and then look for updated and reliable tables that allow this correction. This is not always done quickly and easily.\n\nWith that in mind, the SmartMedic company developed the Renal Dose application. Through it, you can use the calculator of your choice to calculate the patient’s renal function (CKD-EPI, Cockcroft-Gault or MDRD) and then have access to medications with doses already corrected by creatinine clearance, enabling agility and safety at the time of prescription.\n\nThe application has correction for the renal function of antibiotics, antifungals, antivirals and antiepileptic drugs. This app is the ONLY one that allows you to take the medication dosage already calculated by the creatinine clearance. Don't waste time, download the Renal Dose app and simplify your prescription.\n\n**The app is available in English, Portuguese and Spanish.\n\nDisclaimer: this app was designed only for medical professionals, not suitable for others that should seek a doctor’s advice before making any medical decisions. The app is not a substitute for clinical or physician reasoning."
+    },
+    "im:price": {
+      "label": "EGP 149.99",
+      "attributes": {
+        "amount": "149.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© SmartMedic 2022"
+    },
+    "title": {
+      "label": "Renal Dose: Adjust Antibiotics - SmartMedic LTDA"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/renal-dose-adjust-antibiotics/id1615228928?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/1e/9b/64/1e9b644f-5d22-7018-7d5a-c99811f5ebd7/3bf61cbc-6d9e-4b3d-bf95-ed365cb98c3e_Simulator_Screen_Shot_-_iPad_Pro_12.9_polegadas_2nd_generation_-_2022-03-27_at_09.13.44.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/renal-dose-adjust-antibiotics/id1615228928?uo=2",
+      "attributes": {
+        "im:id": "1615228928",
+        "im:bundleId": "com.renal.dose.app.smartmedic"
+      }
+    },
+    "im:artist": {
+      "label": "SmartMedic LTDA",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/smartmedic-ltda/id1547140604?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6020",
+        "term": "Medical",
+        "scheme": "https://apps.apple.com/eg/genre/ios-medical/id6020?uo=2",
+        "label": "Medical"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-03-29T00:00:00-07:00",
+      "attributes": {
+        "label": "March 29, 2022"
       }
     }
   },
@@ -2354,30 +2354,30 @@
       "total": 99
     },
     "im:name": {
-      "label": "MyClinic - Patient Manager"
+      "label": "yCry : baby cries translator"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/f9/81/82/f981824f-02b7-ccbc-80d5-e0db7ce20e4a/pr_source.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/be/bc/f1/bebcf196-d2f4-40f1-9aeb-3d5fca65c234/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f9/81/82/f981824f-02b7-ccbc-80d5-e0db7ce20e4a/pr_source.png/75x75bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/be/bc/f1/bebcf196-d2f4-40f1-9aeb-3d5fca65c234/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/f9/81/82/f981824f-02b7-ccbc-80d5-e0db7ce20e4a/pr_source.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/be/bc/f1/bebcf196-d2f4-40f1-9aeb-3d5fca65c234/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "MyClinic requires no internet or log in each time allowing you to quickly manage and store detailed electronic patient records. You can input from simple to complex tasks like basic Patient Information to detailed prescriptions and more.\n\nUsing MyClinic management app for doctors, you can manage all your patient records such as personal information, medical reports, medication, clinical notes, patient history, and other notes.\nIt is useful for all the medical practitioners like Dentist, Pediatrician, General Physicians, Gynecologist, Ayurvedic, Homeopath, etc.\n\nElectronic Medical Record (EMR):\nKeep medical history of all patients. Record every treatment done for a patient, his or her complaints, diagnosis and investigations. Retrieve this information anytime anywhere.\n\nE-Prescriptions:\nDoctors can write prescriptions using MyClinic. Medicines can be selected from a preloaded list of more than 1500 medicines. This prescription is stored digitally and can be sent to patients via email or SMS.\n\nNo Hidden Subscription Fees. No Ads.\n\nSupport: Jake@driple.co"
+      "label": "yCry uses A.I. algorithms to help detect and analyze your baby's cry and display his needs to you. It is the result of intensive 8 months collecting babies cries backed by evidence and scientists help. Additionally, the app contains several features to help you have the best mom/dad experience.\n\nFeatures : \n\n~ A food diary to help keep track of your baby's belly\n~ A sounds palette that is backed by evidence that helps soothe the baby and calm him down\n\nDisclamer: yCry may produce results that contradicts what you may think of your baby: always trust your mind."
     },
     "im:price": {
       "label": "EGP 29.99",
@@ -2393,17 +2393,17 @@
       }
     },
     "rights": {
-      "label": "Copyright © 2019 Jake El Mir. All rights reserved."
+      "label": "© 2020 YAApps"
     },
     "title": {
-      "label": "MyClinic - Patient Manager - Jake El Mir"
+      "label": "yCry : baby cries translator - Yousef Abourady"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/myclinic-patient-manager/id1484777528?uo=2"
+          "href": "https://apps.apple.com/eg/app/ycry-baby-cries-translator/id1502037689?uo=2"
         }
       },
       {
@@ -2414,22 +2414,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/2a/15/5f/2a155fa9-54b3-7f4b-9b12-b3983d188916/pr_source.jpg/480x480bb.jpg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/84/41/9d/84419ddd-793d-d08a-08ef-03d6357cea07/pr_source.jpg/480x480bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/eg/app/myclinic-patient-manager/id1484777528?uo=2",
+      "label": "https://apps.apple.com/eg/app/ycry-baby-cries-translator/id1502037689?uo=2",
       "attributes": {
-        "im:id": "1484777528",
-        "im:bundleId": "com.jakeelmir.MyClinic"
+        "im:id": "1502037689",
+        "im:bundleId": "com.yousefahmed.ycry"
       }
     },
     "im:artist": {
-      "label": "Jake El Mir",
+      "label": "Yousef Abourady",
       "attributes": {
-        "href": "https://apps.apple.com/eg/developer/jake-el-mir/id776125641?uo=2"
+        "href": "https://apps.apple.com/eg/developer/yousef-abourady/id1502037688?uo=2"
       }
     },
     "category": {
@@ -2441,9 +2441,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2019-10-28T00:00:00-07:00",
+      "label": "2020-03-26T00:00:00-07:00",
       "attributes": {
-        "label": "October 28, 2019"
+        "label": "March 26, 2020"
       }
     }
   },
@@ -2558,6 +2558,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "MyClinic - Patient Manager"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/f9/81/82/f981824f-02b7-ccbc-80d5-e0db7ce20e4a/pr_source.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f9/81/82/f981824f-02b7-ccbc-80d5-e0db7ce20e4a/pr_source.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/f9/81/82/f981824f-02b7-ccbc-80d5-e0db7ce20e4a/pr_source.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "MyClinic requires no internet or log in each time allowing you to quickly manage and store detailed electronic patient records. You can input from simple to complex tasks like basic Patient Information to detailed prescriptions and more.\n\nUsing MyClinic management app for doctors, you can manage all your patient records such as personal information, medical reports, medication, clinical notes, patient history, and other notes.\nIt is useful for all the medical practitioners like Dentist, Pediatrician, General Physicians, Gynecologist, Ayurvedic, Homeopath, etc.\n\nElectronic Medical Record (EMR):\nKeep medical history of all patients. Record every treatment done for a patient, his or her complaints, diagnosis and investigations. Retrieve this information anytime anywhere.\n\nE-Prescriptions:\nDoctors can write prescriptions using MyClinic. Medicines can be selected from a preloaded list of more than 1500 medicines. This prescription is stored digitally and can be sent to patients via email or SMS.\n\nNo Hidden Subscription Fees. No Ads.\n\nSupport: Jake@driple.co"
+    },
+    "im:price": {
+      "label": "EGP 29.99",
+      "attributes": {
+        "amount": "29.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "Copyright © 2019 Jake El Mir. All rights reserved."
+    },
+    "title": {
+      "label": "MyClinic - Patient Manager - Jake El Mir"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/myclinic-patient-manager/id1484777528?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/2a/15/5f/2a155fa9-54b3-7f4b-9b12-b3983d188916/pr_source.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/myclinic-patient-manager/id1484777528?uo=2",
+      "attributes": {
+        "im:id": "1484777528",
+        "im:bundleId": "com.jakeelmir.MyClinic"
+      }
+    },
+    "im:artist": {
+      "label": "Jake El Mir",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/jake-el-mir/id776125641?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6020",
+        "term": "Medical",
+        "scheme": "https://apps.apple.com/eg/genre/ios-medical/id6020?uo=2",
+        "label": "Medical"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-10-28T00:00:00-07:00",
+      "attributes": {
+        "label": "October 28, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "medical",
+      "index": 27,
+      "total": 99
+    },
+    "im:name": {
       "label": "Dermatomes"
     },
     "im:image": [
@@ -2656,7 +2758,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 27,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2758,7 +2860,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 28,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -2860,7 +2962,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 29,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -2962,7 +3064,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 30,
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -3064,7 +3166,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 31,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3166,7 +3268,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 32,
+      "index": 33,
       "total": 99
     },
     "im:name": {
@@ -3268,7 +3370,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 33,
+      "index": 34,
       "total": 99
     },
     "im:name": {
@@ -3370,7 +3472,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 34,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3472,7 +3574,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 35,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3574,7 +3676,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 36,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3676,7 +3778,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 37,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3778,7 +3880,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 38,
+      "index": 39,
       "total": 99
     },
     "im:name": {
@@ -3880,7 +3982,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 39,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -3982,7 +4084,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 40,
+      "index": 41,
       "total": 99
     },
     "im:name": {
@@ -4084,7 +4186,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 41,
+      "index": 42,
       "total": 99
     },
     "im:name": {
@@ -4178,108 +4280,6 @@
       "label": "2010-01-05T19:11:25-07:00",
       "attributes": {
         "label": "January 5, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "medical",
-      "index": 42,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Lab Alpha: Medical Converter"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/16/25/5c/16255c92-863c-3fe1-69cd-b5f2d4d7c335/mzl.tswinoyd.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/16/25/5c/16255c92-863c-3fe1-69cd-b5f2d4d7c335/mzl.tswinoyd.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/16/25/5c/16255c92-863c-3fe1-69cd-b5f2d4d7c335/mzl.tswinoyd.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Easily & quickly convert US (United States) units to SI (International System of Units), or vice versa, wherever you are with full offline functionality. Create custom conversion calculators or use one of 300+ pre-loaded into the app.\n\nLAB ALPHA - HIGHLIGHTS\n\n• Offline functionality\n• Accurate conversions between US and SI medical units\n• Over 300 preset conversion calculators\n• Create your own custom converters\n• Easily search through & find recently used calculators\n• Create a list of favourites\n\nQUICK CONVERSIONS\nWhen reading scientific journals, many scientists struggle to convert between imperial American units and International System of Units. With so many values, converting them mentally can be a challenge. With Lab Alpha, you can quickly convert any medical unit using your smartphone, so you can get back to reading.\n\nOVER 300 CONVERSION CALCULATORS\nWe’ve loaded the app up with over 300 ready-to-go medical unit converters. Quickly search through all the calculators to find the one you need, or create custom converters and save them to use whenever you need. \n\nLab alpha is the simplest and most accurate way to convert the units of most common laboratory tests and drugs. Easily read any PubMed indexed journal such as NEJM, JAMA, The Lancet, Science, Nature and many more, no matter where in the world you are. \n\nFOR THE MOST ACCURATE MEDICAL UNIT CONVERSIONS – DOWNLOAD LAB ALPHA TODAY! \n\nFor educational purposes only. Please read the disclaimer before use."
-    },
-    "im:price": {
-      "label": "EGP 29.99",
-      "attributes": {
-        "amount": "29.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2017–2049 Medicon Applications"
-    },
-    "title": {
-      "label": "Lab Alpha: Medical Converter - Medicon Apps"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/lab-alpha-medical-converter/id1271467781?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/5d/e4/36/5de436d1-c867-aa61-2412-aa3ba28148f6/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/lab-alpha-medical-converter/id1271467781?uo=2",
-      "attributes": {
-        "im:id": "1271467781",
-        "im:bundleId": "com.mediconapps.labalpha"
-      }
-    },
-    "im:artist": {
-      "label": "Medicon Apps",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/medicon-apps/id307829597?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6020",
-        "term": "Medical",
-        "scheme": "https://apps.apple.com/eg/genre/ios-medical/id6020?uo=2",
-        "label": "Medical"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-08-16T09:19:56-07:00",
-      "attributes": {
-        "label": "August 16, 2017"
       }
     }
   },
@@ -4496,6 +4496,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Lab Alpha: Medical Converter"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/16/25/5c/16255c92-863c-3fe1-69cd-b5f2d4d7c335/mzl.tswinoyd.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/16/25/5c/16255c92-863c-3fe1-69cd-b5f2d4d7c335/mzl.tswinoyd.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/16/25/5c/16255c92-863c-3fe1-69cd-b5f2d4d7c335/mzl.tswinoyd.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Easily & quickly convert US (United States) units to SI (International System of Units), or vice versa, wherever you are with full offline functionality. Create custom conversion calculators or use one of 300+ pre-loaded into the app.\n\nLAB ALPHA - HIGHLIGHTS\n\n• Offline functionality\n• Accurate conversions between US and SI medical units\n• Over 300 preset conversion calculators\n• Create your own custom converters\n• Easily search through & find recently used calculators\n• Create a list of favourites\n\nQUICK CONVERSIONS\nWhen reading scientific journals, many scientists struggle to convert between imperial American units and International System of Units. With so many values, converting them mentally can be a challenge. With Lab Alpha, you can quickly convert any medical unit using your smartphone, so you can get back to reading.\n\nOVER 300 CONVERSION CALCULATORS\nWe’ve loaded the app up with over 300 ready-to-go medical unit converters. Quickly search through all the calculators to find the one you need, or create custom converters and save them to use whenever you need. \n\nLab alpha is the simplest and most accurate way to convert the units of most common laboratory tests and drugs. Easily read any PubMed indexed journal such as NEJM, JAMA, The Lancet, Science, Nature and many more, no matter where in the world you are. \n\nFOR THE MOST ACCURATE MEDICAL UNIT CONVERSIONS – DOWNLOAD LAB ALPHA TODAY! \n\nFor educational purposes only. Please read the disclaimer before use."
+    },
+    "im:price": {
+      "label": "EGP 29.99",
+      "attributes": {
+        "amount": "29.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2017–2049 Medicon Applications"
+    },
+    "title": {
+      "label": "Lab Alpha: Medical Converter - Medicon Apps"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/lab-alpha-medical-converter/id1271467781?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/5d/e4/36/5de436d1-c867-aa61-2412-aa3ba28148f6/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/lab-alpha-medical-converter/id1271467781?uo=2",
+      "attributes": {
+        "im:id": "1271467781",
+        "im:bundleId": "com.mediconapps.labalpha"
+      }
+    },
+    "im:artist": {
+      "label": "Medicon Apps",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/medicon-apps/id307829597?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6020",
+        "term": "Medical",
+        "scheme": "https://apps.apple.com/eg/genre/ios-medical/id6020?uo=2",
+        "label": "Medical"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-08-16T09:19:56-07:00",
+      "attributes": {
+        "label": "August 16, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "medical",
+      "index": 46,
+      "total": 99
+    },
+    "im:name": {
       "label": "Dental Prescriber"
     },
     "im:image": [
@@ -4594,7 +4696,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 46,
+      "index": 47,
       "total": 99
     },
     "im:name": {
@@ -4696,7 +4798,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 47,
+      "index": 48,
       "total": 99
     },
     "im:name": {
@@ -4798,7 +4900,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 48,
+      "index": 49,
       "total": 99
     },
     "im:name": {
@@ -4900,7 +5002,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 49,
+      "index": 50,
       "total": 99
     },
     "im:name": {
@@ -5002,7 +5104,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 50,
+      "index": 51,
       "total": 99
     },
     "im:name": {
@@ -5104,7 +5206,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 51,
+      "index": 52,
       "total": 99
     },
     "im:name": {
@@ -5206,7 +5308,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 52,
+      "index": 53,
       "total": 99
     },
     "im:name": {
@@ -5308,7 +5410,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 53,
+      "index": 54,
       "total": 99
     },
     "im:name": {
@@ -5410,7 +5512,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 54,
+      "index": 55,
       "total": 99
     },
     "im:name": {
@@ -5512,7 +5614,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 55,
+      "index": 56,
       "total": 99
     },
     "im:name": {
@@ -5614,7 +5716,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 56,
+      "index": 57,
       "total": 99
     },
     "im:name": {
@@ -5716,7 +5818,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 57,
+      "index": 58,
       "total": 99
     },
     "im:name": {
@@ -5818,7 +5920,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 58,
+      "index": 59,
       "total": 99
     },
     "im:name": {
@@ -5920,7 +6022,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 59,
+      "index": 60,
       "total": 99
     },
     "im:name": {
@@ -6022,7 +6124,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 60,
+      "index": 61,
       "total": 99
     },
     "im:name": {
@@ -6124,7 +6226,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 61,
+      "index": 62,
       "total": 99
     },
     "im:name": {
@@ -6226,7 +6328,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 62,
+      "index": 63,
       "total": 99
     },
     "im:name": {
@@ -6328,7 +6430,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 63,
+      "index": 64,
       "total": 99
     },
     "im:name": {
@@ -6430,7 +6532,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 64,
+      "index": 65,
       "total": 99
     },
     "im:name": {
@@ -6532,7 +6634,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 65,
+      "index": 66,
       "total": 99
     },
     "im:name": {
@@ -6634,7 +6736,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 66,
+      "index": 67,
       "total": 99
     },
     "im:name": {
@@ -6736,7 +6838,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 67,
+      "index": 68,
       "total": 99
     },
     "im:name": {
@@ -6838,7 +6940,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 68,
+      "index": 69,
       "total": 99
     },
     "im:name": {
@@ -6940,7 +7042,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 69,
+      "index": 70,
       "total": 99
     },
     "im:name": {
@@ -7042,7 +7144,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 70,
+      "index": 71,
       "total": 99
     },
     "im:name": {
@@ -7144,7 +7246,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 71,
+      "index": 72,
       "total": 99
     },
     "im:name": {
@@ -7246,7 +7348,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 72,
+      "index": 73,
       "total": 99
     },
     "im:name": {
@@ -7348,7 +7450,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 73,
+      "index": 74,
       "total": 99
     },
     "im:name": {
@@ -7450,7 +7552,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 74,
+      "index": 75,
       "total": 99
     },
     "im:name": {
@@ -7552,7 +7654,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 75,
+      "index": 76,
       "total": 99
     },
     "im:name": {
@@ -7654,7 +7756,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 76,
+      "index": 77,
       "total": 99
     },
     "im:name": {
@@ -7756,7 +7858,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 77,
+      "index": 78,
       "total": 99
     },
     "im:name": {
@@ -7858,7 +7960,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 78,
+      "index": 79,
       "total": 99
     },
     "im:name": {
@@ -7960,7 +8062,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 79,
+      "index": 80,
       "total": 99
     },
     "im:name": {
@@ -8062,7 +8164,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 80,
+      "index": 81,
       "total": 99
     },
     "im:name": {
@@ -8164,7 +8266,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 81,
+      "index": 82,
       "total": 99
     },
     "im:name": {
@@ -8266,7 +8368,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 82,
+      "index": 83,
       "total": 99
     },
     "im:name": {
@@ -8368,7 +8470,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 83,
+      "index": 84,
       "total": 99
     },
     "im:name": {
@@ -8470,7 +8572,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 84,
+      "index": 85,
       "total": 99
     },
     "im:name": {
@@ -8572,7 +8674,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 85,
+      "index": 86,
       "total": 99
     },
     "im:name": {
@@ -8674,7 +8776,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 86,
+      "index": 87,
       "total": 99
     },
     "im:name": {
@@ -8776,7 +8878,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 87,
+      "index": 88,
       "total": 99
     },
     "im:name": {
@@ -8878,7 +8980,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 88,
+      "index": 89,
       "total": 99
     },
     "im:name": {
@@ -8980,7 +9082,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 89,
+      "index": 90,
       "total": 99
     },
     "im:name": {
@@ -9082,7 +9184,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 90,
+      "index": 91,
       "total": 99
     },
     "im:name": {
@@ -9184,7 +9286,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 91,
+      "index": 92,
       "total": 99
     },
     "im:name": {
@@ -9286,7 +9388,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 92,
+      "index": 93,
       "total": 99
     },
     "im:name": {
@@ -9388,7 +9490,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 93,
+      "index": 94,
       "total": 99
     },
     "im:name": {
@@ -9490,7 +9592,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 94,
+      "index": 95,
       "total": 99
     },
     "im:name": {
@@ -9592,7 +9694,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 95,
+      "index": 96,
       "total": 99
     },
     "im:name": {
@@ -9694,7 +9796,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 96,
+      "index": 97,
       "total": 99
     },
     "im:name": {
@@ -9796,7 +9898,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 97,
+      "index": 98,
       "total": 99
     },
     "im:name": {
@@ -9898,7 +10000,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "medical",
-      "index": 98,
+      "index": 99,
       "total": 99
     },
     "im:name": {
@@ -9992,108 +10094,6 @@
       "label": "2017-01-24T19:06:52-07:00",
       "attributes": {
         "label": "January 24, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "medical",
-      "index": 99,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Fast BP - Blood Pressure Log & Tracker"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple69/v4/c7/5f/2f/c75f2fe6-dc73-cae5-e9d6-9bf804d1afea/mzl.ujmhknto.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple69/v4/c7/5f/2f/c75f2fe6-dc73-cae5-e9d6-9bf804d1afea/mzl.ujmhknto.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple69/v4/c7/5f/2f/c75f2fe6-dc73-cae5-e9d6-9bf804d1afea/mzl.ujmhknto.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "* The fastest way to save a blood pressure measurement and see your weekly statistics! *\n\nFast BP is a blood pressure and heart rate tracker for Apple Health. Note that this app cannot measure your blood pressure - please use a blood pressure monitor recommended by your doctor or pharmacist.\n\nOther blood pressure tracking apps make you painstakingly spin a dial to select tiny numbers. With Fast BP, just tap the large numbers on the keypad and tap save - we automatically move you from systolic to diastolic to pulse. With our Fast Focus entering your measurement can be as simple as 8 taps!\n\nFast BP provides an overview of your measurements as weekly averages (since blood pressure readings often vary throughout the day). You can also enable color highlights to see patterns in your measurements from week to week.\n\nKeeping track of your blood pressure is a great habit for your health, and Fast BP can remind you to measure your blood pressure daily.\n\nUsing Fast BP you can email measurements from the last month or year to your doctor. Also with your blood pressure readings in Apple Health, you may enable other apps to use and share that data with your healthcare professionals.\n\nMain features:\n- Quickly save your blood pressure and pulse to Apple Health\n- Weekly averages of blood pressure with configurable color highlights\n- Reminders to take your blood pressure daily\n- Share measurements with email (in HTML table and CSV formats)\n- Save measurements using your Apple Watch\n\nDisclaimer: \nFast BP is intended as a tool to keep track of and share blood pressure measurements utilizing Apple Health. Any health related information provided is for informational purposes only and is not a replacement for the advice, diagnosis, or treatment of healthcare professionals. Fast BP is not a substitute for a doctor or healthcare professional and cannot measure blood pressure."
-    },
-    "im:price": {
-      "label": "EGP 29.99",
-      "attributes": {
-        "amount": "29.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2015 Christion Richert"
-    },
-    "title": {
-      "label": "Fast BP - Blood Pressure Log & Tracker - Christion Richert"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/fast-bp-blood-pressure-log-tracker/id1022733050?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple7/v4/aa/1d/3e/aa1d3e54-358c-c15f-3080-955b0db5c445/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/fast-bp-blood-pressure-log-tracker/id1022733050?uo=2",
-      "attributes": {
-        "im:id": "1022733050",
-        "im:bundleId": "com.christionr.Fast-BP"
-      }
-    },
-    "im:artist": {
-      "label": "Christion Richert",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/christion-richert/id454093508?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6020",
-        "term": "Medical",
-        "scheme": "https://apps.apple.com/eg/genre/ios-medical/id6020?uo=2",
-        "label": "Medical"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-08-22T12:33:29-07:00",
-      "attributes": {
-        "label": "August 22, 2015"
       }
     }
   }

@@ -8,6 +8,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Watch app for Tesla"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/02/e1/dc/02e1dce2-300f-59db-64f0-d52129e7a4e3/AppIcon-0-1x_U007epad-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/02/e1/dc/02e1dce2-300f-59db-64f0-d52129e7a4e3/AppIcon-0-1x_U007epad-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/02/e1/dc/02e1dce2-300f-59db-64f0-d52129e7a4e3/AppIcon-0-1x_U007epad-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Convenience on the wrist - Watch app for Tesla is the ideal companion in day to day life with your Tesla vehicle. These are just a few of the day to day conveniences this app will help achieve:\n\n - Pair your watch as a proper vehicle key, just like your phone! Works under all conditions, including in underground parking garages or in the middle of a desert!\n\n - Forgot to plug in? Get a notification if vehicle is in a pre-configured location and not plugged in - all done directly on the watch, no external servers required, keeping your privacy!\n\n - Add the graphic corner complication to your watch face and enjoy the convenience of having easy access to state of charge, charging indicator, time remaining if charging, sentry mode active indicator and indicator if any windows, doors or trunks are open. All from one complication, that also will launch the app when tapped. \n\n - During and after charge, a panel will show how much energy was added. Convenient if you schedule your charge during the night - wake up each morning and easily check how much energy was added to the battery. \n\n - If you have multiple vehicles on your account, tap the vehicle name to quickly and easily switch between them. \n\n - You can queue up commands by tapping on buttons, then put your wrist down and the commands will execute in the background when the vehicle is successfully woken up. \n\n - When you tap the unlock vehicle button, the charge port will also unlock if a charging cable is attached. That's convenience right there!\n\n - Want to reduce phantom drain? Background updates can be configured to longer intervals between updates or to only update if car is already awake or can be disabled entirely for absolutely zero impact on phantom drain.\n\n - A warning panel will show up if any doors, windows or trunks are left open. Conveniently, you can tap the panel to close any open windows.\n\n - Need to access the frunk? Just do it from your wrist - no fiddling with your phone. \n\n - Sitting comfy in the couch, but just remembered you have a road-trip in the morning? Set the charge limit to 100% - or any value really - and start charging, right from the convenience of your wrist!\n\n - Leaving the office after a long hot day? Activate the HVAC when you're on your way, and enjoy a nice cool vehicle.\n\n - When charging, tap the time remaining label to switch to show time of expected completion - no more head calculus!\n\n - Need to run a quick errand, but you don't have your phone? Unlock your vehicle from your wrist, then activate remote start and off you go. Just please be mindful that this feature requires internet connectivity on both watch and vehicle - so don't drive into the desert and leave your vehicle, or you'll get stuck there!\n\nA note about security and privacy:\nThis app accepts two types of login. Either Tesla account credentials or a Tesla API token. Your account credentials are never stored in the app, but are used only once to obtain an authentication token and refresh token directly from the Tesla API server. If you would rather supply that token yourself, you can do so instead. It is required to supply a refresh token. Your token will be persisted in the app. Tokens will be revoked if you change your Tesla account password. No network traffic will ever be emitted from this app that goes anywhere other than directly to the Tesla API servers, unless the OPTIONAL cloud processing is enabled, in which case an in-flight encrypted ACCESS token with a lifespan of 8 hours will be transmitted and stored ONLY WHILE COMMAND IS EXECUTING. The source code for this application will at all times be made available to any security researcher for a voluntary security and safety audit. \n\nDisclaimer: \nThis app is not endorsed by Tesla Inc. Use at your own risk. No guarantee of proper function is given. Only you are responsible for any changes to your car caused by using this app.  \n\nMade in Denmark"
+    },
+    "im:price": {
+      "label": "22,99 €",
+      "attributes": {
+        "amount": "22.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Kim Hansen"
+    },
+    "title": {
+      "label": "Watch app for Tesla - Kim Hansen"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/watch-app-for-tesla/id1512108917?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/44/75/8d4475dc-3646-4878-7ab5-b5fdd9f3e7f5/159f0441-7ab0-4a73-b3f6-c24bd09600b2_UITest-iPadPro2ndGeneration-mainscreen_bigbattery.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/watch-app-for-tesla/id1512108917?uo=2",
+      "attributes": {
+        "im:id": "1512108917",
+        "im:bundleId": "dk.kimhansen.WatchForTesla"
+      }
+    },
+    "im:artist": {
+      "label": "Kim Hansen",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/kim-hansen/id1512108916?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-05-13T00:00:00-07:00",
+      "attributes": {
+        "label": "May 13, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
       "label": "µBrowser"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 2,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 3,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -412,310 +514,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 5,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Goblin Tools"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is an app version of the free website goblin.tools, a collection of small, simple, single-task tools, mostly designed to help neurodivergent people with tasks they find overwhelming or difficult.\n\n\r\n\r\nTools include\r\n- A Magic Todo list that automatically breaks down tasks into steps\r\n- The Formalizer that transforms your language to be more formal, sociable, concise, or many other options\r\n- The Judge that helps with interpreting tone\r\n- The Estimator that can guess at a timeframe for an activity\r\n- The Compiler to take entire braindumps and turn them into actionable tasks\r\n- The Chef, who turns a description of what ingredients and tools you have in your kitchen into a real recipe\n\n\r\n\r\nAnd many more to come!\n\n\r\n\r\nThe website is free and publicly available. Purchases of this app go first towards keeping the site free and ad-free, before supporting the author."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Skyhook Belgium"
-    },
-    "title": {
-      "label": "Goblin Tools - Skyhook"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/goblin-tools/id6449003064?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/32/69/bb/3269bb6c-ab3a-0fac-f930-e524d11dd894/e3a0ae36-a06a-4355-876f-674a7e29cd5c_goblin.tools___U00282_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/goblin-tools/id6449003064?uo=2",
-      "attributes": {
-        "im:id": "6449003064",
-        "im:bundleId": "com.goblintools"
-      }
-    },
-    "im:artist": {
-      "label": "Skyhook"
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-05-31T00:00:00-07:00",
-      "attributes": {
-        "label": "May 31, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
       "index": 6,
-      "total": 99
-    },
-    "im:name": {
-      "label": "MultiStop - Professional Stopwatch"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple5/v4/f9/2e/5d/f92e5d41-f9b3-6ab3-834d-4aa4ec56b3b9/pr_source.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple5/v4/f9/2e/5d/f92e5d41-f9b3-6ab3-834d-4aa4ec56b3b9/pr_source.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/f9/2e/5d/f92e5d41-f9b3-6ab3-834d-4aa4ec56b3b9/pr_source.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Run multiple stopwatches at the same time. Save, browse and email results.\n\nTimers can be started, stopped, or reset individually, or via a master start/stop button. \n\nKey features:\n\n* 1/100 second precision\n* Multiple simultaneous stopwatches\n* Custom names for stopwatches (optional)\n* Save and email results\n* Browse saved laps\n* Stopwatches continue when the app is closed\n\nIdeal for timing athletics, motorsport, swimming, and even science experiments!"
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2012 Matcha Labs Ltd"
-    },
-    "title": {
-      "label": "MultiStop - Professional Stopwatch - RCR Solutions Ltd"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/multistop-professional-stopwatch/id517593658?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple5/v4/85/3d/55/853d5528-94d5-650d-917c-3560b4f1d629/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/multistop-professional-stopwatch/id517593658?uo=2",
-      "attributes": {
-        "im:id": "517593658",
-        "im:bundleId": "com.matchalabs.multistop"
-      }
-    },
-    "im:artist": {
-      "label": "RCR Solutions Ltd",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/rcr-solutions-ltd/id920781401?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-05-09T19:09:39-07:00",
-      "attributes": {
-        "label": "May 9, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 7,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Export Contacts+ Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/87/6a/cd876a15-a313-71c1-3301-9675cc410029/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/87/6a/cd876a15-a313-71c1-3301-9675cc410029/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/87/6a/cd876a15-a313-71c1-3301-9675cc410029/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Export Contacts+  allows you to safely export your personel contacts. \n\n* Filter contacts by using detailed filtering options.\n* Sort contacts by given name or family name.\n\n* Share exported contacts with the others. \n* Send exported contacts to mail or other sharing options."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Yusuf Onder"
-    },
-    "title": {
-      "label": "Export Contacts+ Pro - Yusuf Onder"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/export-contacts-pro/id1546550155?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/55/50/81/55508193-687c-ea35-97aa-77396549a3b6/ae61e901-7e56-437d-877a-9c3002fb12cb_Apple_iPad_Pro_13_Inch__U00282_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/export-contacts-pro/id1546550155?uo=2",
-      "attributes": {
-        "im:id": "1546550155",
-        "im:bundleId": "com.yonder.ExportContact"
-      }
-    },
-    "im:artist": {
-      "label": "Yusuf Onder",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/yusuf-onder/id1519632301?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-02T00:00:00-07:00",
-      "attributes": {
-        "label": "January 2, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -817,7 +616,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 9,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -919,7 +718,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 10,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -1021,7 +820,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 11,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -1123,109 +922,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 12,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Just Press Record"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Just Press Record is the ultimate audio recorder bringing one tap recording, transcription and iCloud syncing to all your devices. You can edit your audio and transcriptions right inside the app and even start a new recording completely hands-free with Siri!\n\nLife is full of moments we would rather not forget - like your child’s first words, an important meeting or spontaneous idea. Capture these moments effortlessly on iPhone, iPad, Mac or for ultimate convenience, Apple Watch.\n\nRECORD\n• One tap to start, stop, pause and resume recording.\n• Start and stop recording from Shortcuts, Siri, the Widget, a 3D Touch Quick Action or via the URL scheme.\n• Unlimited recording time.\n• Record discretely in the background.\n• Choose to record from the built-in mic, AirPods or external microphones.\n• Record independently on Apple Watch and sync later.\n\nPLAY\n• Seek backwards and forwards during playback.\n• Adjustable playback speed.\n\nTRANSCRIBE\n• Turn speech into searchable text.\n• Support for over 30 languages, independent of your device's language setting.\n• Synchronized text highlighting and audio playback.\n• Format as you record with punctuation commands.\n\nEDIT\n• Audio - visualise your audio in the waveform view and cut out the parts you don’t need.\n• Text - make corrections and add new text to your transcriptions.\n\nSHARE\n• Share audio and text to other apps.\n• Share easily to social media as a video clip.\n• Share to iTunes on Mac or PC via USB cable.\n• Print a hard copy of your transcripts.\n• Share audio files from other apps to Just Press Record. \n\nORGANISATION\n• View recent recordings or browse your library by date and time.\n• Search by filename or transcription content.\n• Dedicated tab for quick access to recordings made on Apple Watch.\n• Rename recordings.\n• Slide Over and Split View support on iPad.\n• Add a badge to the app icon showing the number of unplayed recordings.\n\nSTORAGE\n• Choose to store recordings in iCloud Drive or locally on-device.\n• Recordings stored in iCloud Drive automatically sync across all your devices.\n• Recordings stored locally benefit from Files app integration and automatic iTunes File Sharing.\n• Transcriptions are stored within the audio file.\n\nPRO-AUDIO\n• Support for stereo recording from the built-in microphone on supported devices.\n• Support for high quality external microphones connected via the Lightning Port.\n• Customisable Audio Settings to enhance your recording experience.\n• File types include WAV, AIF or standard iTunes M4A (ACC).\n• High quality audio up to 96kHz / 24-bit.\n\nACCESSIBILITY\n• VoiceOver support throughout the app.\n• Magic Tap gesture to start / stop a recording.\n\nAPPLE WATCH\nJust Press Record includes an Apple Watch app that gives you the freedom to record anywhere, even when your iPhone is not around.\n\n• Start recording with a single tap on the Complication.\n• Record discretely in the background.\n• Unlimited recording time.\n• Recordings automatically transfer to iPhone for transcription and iCloud syncing.\n• Listen to recent recordings through the built-in speaker or AirPods.\n• Adjust volume with the Digital Crown.\n• Pause recording with a downward swipe.\n• Accessibility support with VoiceOver, reduced motion and support for the extra large Complication template.\n\nIMPORTANT:\n• Just Press Record does not record phone calls or audio from other apps.\n• Transcription requires a good, clean audio signal.  Avoid recording in noisy environments and ensure the microphone is positioned close to the source.\n• Recording from AirPods is not available on Apple Watch.\n• URL scheme implemented by Just Press Record can be found on our FAQ page."
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Open Planet Software Ltd."
-    },
-    "title": {
-      "label": "Just Press Record - Open Planet Software"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/just-press-record/id1033342465?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ef/d7/af/efd7afcd-f25c-128c-1282-70dbcaa3efd9/3738b0e0-2065-4551-ad1b-b8c90fdc267d_iPad_Pro_All_Devices.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/just-press-record/id1033342465?uo=2",
-      "attributes": {
-        "im:id": "1033342465",
-        "im:bundleId": "com.openplanetsoftware.Just-Press-Record-for-iOS"
-      }
-    },
-    "im:artist": {
-      "label": "Open Planet Software",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/open-planet-software/id307887935?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-09-21T12:29:39-07:00",
-      "attributes": {
-        "label": "September 21, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 13,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -1327,7 +1024,109 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 14,
+      "index": 11,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Just Press Record"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Just Press Record is the ultimate audio recorder bringing one tap recording, transcription and iCloud syncing to all your devices. You can edit your audio and transcriptions right inside the app and even start a new recording completely hands-free with Siri!\n\nLife is full of moments we would rather not forget - like your child’s first words, an important meeting or spontaneous idea. Capture these moments effortlessly on iPhone, iPad, Mac or for ultimate convenience, Apple Watch.\n\nRECORD\n• One tap to start, stop, pause and resume recording.\n• Start and stop recording from Shortcuts, Siri, the Widget, a 3D Touch Quick Action or via the URL scheme.\n• Unlimited recording time.\n• Record discretely in the background.\n• Choose to record from the built-in mic, AirPods or external microphones.\n• Record independently on Apple Watch and sync later.\n\nPLAY\n• Seek backwards and forwards during playback.\n• Adjustable playback speed.\n\nTRANSCRIBE\n• Turn speech into searchable text.\n• Support for over 30 languages, independent of your device's language setting.\n• Synchronized text highlighting and audio playback.\n• Format as you record with punctuation commands.\n\nEDIT\n• Audio - visualise your audio in the waveform view and cut out the parts you don’t need.\n• Text - make corrections and add new text to your transcriptions.\n\nSHARE\n• Share audio and text to other apps.\n• Share easily to social media as a video clip.\n• Share to iTunes on Mac or PC via USB cable.\n• Print a hard copy of your transcripts.\n• Share audio files from other apps to Just Press Record. \n\nORGANISATION\n• View recent recordings or browse your library by date and time.\n• Search by filename or transcription content.\n• Dedicated tab for quick access to recordings made on Apple Watch.\n• Rename recordings.\n• Slide Over and Split View support on iPad.\n• Add a badge to the app icon showing the number of unplayed recordings.\n\nSTORAGE\n• Choose to store recordings in iCloud Drive or locally on-device.\n• Recordings stored in iCloud Drive automatically sync across all your devices.\n• Recordings stored locally benefit from Files app integration and automatic iTunes File Sharing.\n• Transcriptions are stored within the audio file.\n\nPRO-AUDIO\n• Support for stereo recording from the built-in microphone on supported devices.\n• Support for high quality external microphones connected via the Lightning Port.\n• Customisable Audio Settings to enhance your recording experience.\n• File types include WAV, AIF or standard iTunes M4A (ACC).\n• High quality audio up to 96kHz / 24-bit.\n\nACCESSIBILITY\n• VoiceOver support throughout the app.\n• Magic Tap gesture to start / stop a recording.\n\nAPPLE WATCH\nJust Press Record includes an Apple Watch app that gives you the freedom to record anywhere, even when your iPhone is not around.\n\n• Start recording with a single tap on the Complication.\n• Record discretely in the background.\n• Unlimited recording time.\n• Recordings automatically transfer to iPhone for transcription and iCloud syncing.\n• Listen to recent recordings through the built-in speaker or AirPods.\n• Adjust volume with the Digital Crown.\n• Pause recording with a downward swipe.\n• Accessibility support with VoiceOver, reduced motion and support for the extra large Complication template.\n\nIMPORTANT:\n• Just Press Record does not record phone calls or audio from other apps.\n• Transcription requires a good, clean audio signal.  Avoid recording in noisy environments and ensure the microphone is positioned close to the source.\n• Recording from AirPods is not available on Apple Watch.\n• URL scheme implemented by Just Press Record can be found on our FAQ page."
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Open Planet Software Ltd."
+    },
+    "title": {
+      "label": "Just Press Record - Open Planet Software"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/just-press-record/id1033342465?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ef/d7/af/efd7afcd-f25c-128c-1282-70dbcaa3efd9/3738b0e0-2065-4551-ad1b-b8c90fdc267d_iPad_Pro_All_Devices.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/just-press-record/id1033342465?uo=2",
+      "attributes": {
+        "im:id": "1033342465",
+        "im:bundleId": "com.openplanetsoftware.Just-Press-Record-for-iOS"
+      }
+    },
+    "im:artist": {
+      "label": "Open Planet Software",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/open-planet-software/id307887935?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-09-21T12:29:39-07:00",
+      "attributes": {
+        "label": "September 21, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1429,7 +1228,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 15,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1531,7 +1330,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1633,7 +1432,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1735,7 +1534,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1837,7 +1636,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
+      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1939,7 +1738,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 20,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -2041,7 +1840,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -2143,7 +1942,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -2245,7 +2044,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -2347,7 +2146,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2449,7 +2248,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2551,7 +2350,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
+      "index": 24,
       "total": 99
     },
     "im:name": {
@@ -2653,7 +2452,106 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
+      "index": 25,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Goblin Tools"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is an app version of the free website goblin.tools, a collection of small, simple, single-task tools, mostly designed to help neurodivergent people with tasks they find overwhelming or difficult.\n\n\r\n\r\nTools include\r\n- A Magic Todo list that automatically breaks down tasks into steps\r\n- The Formalizer that transforms your language to be more formal, sociable, concise, or many other options\r\n- The Judge that helps with interpreting tone\r\n- The Estimator that can guess at a timeframe for an activity\r\n- The Compiler to take entire braindumps and turn them into actionable tasks\r\n- The Chef, who turns a description of what ingredients and tools you have in your kitchen into a real recipe\n\n\r\n\r\nAnd many more to come!\n\n\r\n\r\nThe website is free and publicly available. Purchases of this app go first towards keeping the site free and ad-free, before supporting the author."
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Skyhook Belgium"
+    },
+    "title": {
+      "label": "Goblin Tools - Skyhook"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/goblin-tools/id6449003064?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/32/69/bb/3269bb6c-ab3a-0fac-f930-e524d11dd894/e3a0ae36-a06a-4355-876f-674a7e29cd5c_goblin.tools___U00282_U0029.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/goblin-tools/id6449003064?uo=2",
+      "attributes": {
+        "im:id": "6449003064",
+        "im:bundleId": "com.goblintools"
+      }
+    },
+    "im:artist": {
+      "label": "Skyhook"
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-05-31T00:00:00-07:00",
+      "attributes": {
+        "label": "May 31, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 26,
       "total": 99
     },
     "im:name": {
@@ -2755,7 +2653,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2857,7 +2755,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 29,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2959,7 +2857,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 30,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -3061,7 +2959,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 31,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -3163,7 +3061,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 32,
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -3265,7 +3163,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 33,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3367,7 +3265,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 34,
+      "index": 33,
       "total": 99
     },
     "im:name": {
@@ -3469,7 +3367,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 35,
+      "index": 34,
       "total": 99
     },
     "im:name": {
@@ -3571,7 +3469,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 36,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3673,7 +3571,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 37,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3775,7 +3673,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 38,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3877,7 +3775,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 39,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3979,7 +3877,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 40,
+      "index": 39,
       "total": 99
     },
     "im:name": {
@@ -4081,7 +3979,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 41,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -4183,7 +4081,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 42,
+      "index": 41,
       "total": 99
     },
     "im:name": {
@@ -4285,7 +4183,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
+      "index": 42,
       "total": 99
     },
     "im:name": {
@@ -4387,7 +4285,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 44,
+      "index": 43,
       "total": 99
     },
     "im:name": {
@@ -4489,7 +4387,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
+      "index": 44,
       "total": 99
     },
     "im:name": {
@@ -4591,7 +4489,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 46,
+      "index": 45,
       "total": 99
     },
     "im:name": {
@@ -4693,7 +4591,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 47,
+      "index": 46,
       "total": 99
     },
     "im:name": {
@@ -4787,6 +4685,108 @@
       "label": "2013-02-05T21:04:47-07:00",
       "attributes": {
         "label": "February 5, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 47,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Red Onion - Darknet Browser"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Red Onion is a unique browser that lets you access the Internet privately and anonymously.  \n\nFeatures:\n- Internet access tunneled over the Tor network\n- Websites do not see your real IP address\n- Auto clean up of cookies on exit\n- Multiple tabs, Bookmarks & History\n- Supports Do Not Track\n- Start screen with the most frequent visited history entry's\n- Real-time search in your browsing history, bookmarks and tabs\n- Search engine integration in the Address bar\n- Share URL's via Twitter, Mail, Google+"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Gplex"
+    },
+    "title": {
+      "label": "Red Onion - Darknet Browser - Omar Mody"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/red-onion-darknet-browser/id829739720?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/89/6ea189bc-81c1-ff2c-ff95-28b0eec0114e/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/red-onion-darknet-browser/id829739720?uo=2",
+      "attributes": {
+        "im:id": "829739720",
+        "im:bundleId": "com.gplexdb.azulbrowse"
+      }
+    },
+    "im:artist": {
+      "label": "Omar Mody",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/omar-mody/id297279263?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-03-07T15:56:45-07:00",
+      "attributes": {
+        "label": "March 7, 2014"
       }
     }
   },
@@ -4901,210 +4901,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Red Onion - Darknet Browser"
-    },
-    "im:image": [
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/d1/b6/2cd1b63d-29b9-431b-de59-4c0c97b614ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Red Onion is a unique browser that lets you access the Internet privately and anonymously.  \n\nFeatures:\n- Internet access tunneled over the Tor network\n- Websites do not see your real IP address\n- Auto clean up of cookies on exit\n- Multiple tabs, Bookmarks & History\n- Supports Do Not Track\n- Start screen with the most frequent visited history entry's\n- Real-time search in your browsing history, bookmarks and tabs\n- Search engine integration in the Address bar\n- Share URL's via Twitter, Mail, Google+"
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Gplex"
-    },
-    "title": {
-      "label": "Red Onion - Darknet Browser - Omar Mody"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/red-onion-darknet-browser/id829739720?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple122/v4/6e/a1/89/6ea189bc-81c1-ff2c-ff95-28b0eec0114e/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/red-onion-darknet-browser/id829739720?uo=2",
-      "attributes": {
-        "im:id": "829739720",
-        "im:bundleId": "com.gplexdb.azulbrowse"
-      }
-    },
-    "im:artist": {
-      "label": "Omar Mody",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/omar-mody/id297279263?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-03-07T15:56:45-07:00",
-      "attributes": {
-        "label": "March 7, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 50,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Vinegar - Tube Cleaner"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/8e/85/3e/8e853eda-e73a-068f-c3c6-cf1f8ff96ced/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/8e/85/3e/8e853eda-e73a-068f-c3c6-cf1f8ff96ced/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/8e/85/3e/8e853eda-e73a-068f-c3c6-cf1f8ff96ced/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Vinegar is a Safari extension that replaces the YouTube player with a minimal HTML video tag.\n\nIt removes ads, restores picture-in-picture, and keeps videos playing in the background.\n\nNote: The \"can read and alter webpages\" text in the permission section is just unfortunate wording. Vinegar needs access to the web page to find the YouTube player and replace it. It's not doing anything creepy!\n\n(By the way, check out Vinegar's companion app, Baking Soda. It's basically a less powerful version of Vinegar, but it works on all websites other than YouTube.)"
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021-2022 And a Dinosaur"
-    },
-    "title": {
-      "label": "Vinegar - Tube Cleaner - And a Dinosaur"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/vinegar-tube-cleaner/id1591303229?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/80/80/6b/80806bc3-c689-0fd3-f175-287a2f6f1f43/081c4099-53b0-4d30-9873-13da5c862337_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/vinegar-tube-cleaner/id1591303229?uo=2",
-      "attributes": {
-        "im:id": "1591303229",
-        "im:bundleId": "com.andadinosaur.Vinegar"
-      }
-    },
-    "im:artist": {
-      "label": "And a Dinosaur",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/and-a-dinosaur/id475577301?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-11-06T00:00:00-07:00",
-      "attributes": {
-        "label": "November 6, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 51,
-      "total": 99
-    },
-    "im:name": {
       "label": "Noir - Dark Mode for Safari"
     },
     "im:image": [
@@ -5203,109 +4999,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 52,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Fb2-to-ePub"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Fb2-to-ePub is a file converter program from fb2 to ePub formats working directly in your iPhone/iPad. Now you can read e-books in popular in Russia fb2 format without installing any extra book-readers. \nAfter downloading an fb2 e-book through Safari or DropBox simply open it in Fb2-to-ePub app. The program converts your file to ePub format and allows opening a book in any book-reader application installed, e.g. iBooks.\nIf you have got an e-book collection in your local computer just copy it with \niTunes into the Documents of the application. It will allow to select the collection e-books, convert them into the standard format and send to the book-reader. The program is able to process compressed archives of unlimited volume. \nBooks search in the library is possible by file name, name of book and author’s name."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2012-2015, Semyon A. Chertkov"
-    },
-    "title": {
-      "label": "Fb2-to-ePub - Semyon A. Chertkov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/fb2-to-epub/id541521102?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple49/v4/22/6b/74/226b747f-797b-e425-ed89-de9769f7890f/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/fb2-to-epub/id541521102?uo=2",
-      "attributes": {
-        "im:id": "541521102",
-        "im:bundleId": "com.wmhelp.Fb2ePub"
-      }
-    },
-    "im:artist": {
-      "label": "Semyon A. Chertkov",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/semyon-a-chertkov/id541521105?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-08-03T04:38:25-07:00",
-      "attributes": {
-        "label": "August 3, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 53,
+      "index": 50,
       "total": 99
     },
     "im:name": {
@@ -5407,7 +5101,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 54,
+      "index": 51,
       "total": 99
     },
     "im:name": {
@@ -5509,7 +5203,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 55,
+      "index": 52,
       "total": 99
     },
     "im:name": {
@@ -5611,7 +5305,109 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 56,
+      "index": 53,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Vinegar - Tube Cleaner"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/8e/85/3e/8e853eda-e73a-068f-c3c6-cf1f8ff96ced/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/8e/85/3e/8e853eda-e73a-068f-c3c6-cf1f8ff96ced/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/8e/85/3e/8e853eda-e73a-068f-c3c6-cf1f8ff96ced/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Vinegar is a Safari extension that replaces the YouTube player with a minimal HTML video tag.\n\nIt removes ads, restores picture-in-picture, and keeps videos playing in the background.\n\nNote: The \"can read and alter webpages\" text in the permission section is just unfortunate wording. Vinegar needs access to the web page to find the YouTube player and replace it. It's not doing anything creepy!\n\n(By the way, check out Vinegar's companion app, Baking Soda. It's basically a less powerful version of Vinegar, but it works on all websites other than YouTube.)"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021-2022 And a Dinosaur"
+    },
+    "title": {
+      "label": "Vinegar - Tube Cleaner - And a Dinosaur"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/vinegar-tube-cleaner/id1591303229?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/80/80/6b/80806bc3-c689-0fd3-f175-287a2f6f1f43/081c4099-53b0-4d30-9873-13da5c862337_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/vinegar-tube-cleaner/id1591303229?uo=2",
+      "attributes": {
+        "im:id": "1591303229",
+        "im:bundleId": "com.andadinosaur.Vinegar"
+      }
+    },
+    "im:artist": {
+      "label": "And a Dinosaur",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/and-a-dinosaur/id475577301?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-11-06T00:00:00-07:00",
+      "attributes": {
+        "label": "November 6, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 54,
       "total": 99
     },
     "im:name": {
@@ -5713,7 +5509,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 57,
+      "index": 55,
       "total": 99
     },
     "im:name": {
@@ -5815,7 +5611,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 58,
+      "index": 56,
       "total": 99
     },
     "im:name": {
@@ -5917,7 +5713,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 59,
+      "index": 57,
       "total": 99
     },
     "im:name": {
@@ -6019,7 +5815,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 60,
+      "index": 58,
       "total": 99
     },
     "im:name": {
@@ -6121,7 +5917,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 61,
+      "index": 59,
       "total": 99
     },
     "im:name": {
@@ -6223,39 +6019,39 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 62,
+      "index": 60,
       "total": 99
     },
     "im:name": {
-      "label": "AntiBAG Тахограф"
+      "label": "Fb2-to-ePub"
     },
     "im:image": [
       {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/53x53bb.png",
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/75x75bb.png",
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Тахограф в кармане! \nДержать кнопки 1 секунду!!! Сброс таймеров держать 3 секунды!!!\nПо свайпу слева на право появится экран выбора количества водителей. Справа на лево появится экран настроек.\nВ приложении есть три активных области. \nПервая это напоминание ежедневного ввода страны начала и конца работы. Ввели в тахографе сокращенную букву и нажали соответствующую кнопку в приложении. Так Вы никогда не забудете об этой обязательной процедуре. Сокращенное обозначение страны для тахографа автоматически(GPS) пишется на кнопке. В конце рабочего дня ввели в тахографе букву страны окончания работы и подтвердили это действие в приложении. \nВторая область это все необходимые таймеры для работы. Удержание кнопки любого таймера в течении одной секунды запускает таймер или ставит его на паузу, если таймер уже был запущен. Удержание кнопки в течении 3 секунд сбрасывает таймер в первоначальное положение. Все таймеры работают независимо друг от друга. \nПеред началом работы включите таймер общего времени 13/15 часов(ALL) и вы всегда будете знать сколько у Вас осталось рабочего времени. За 30 минут(регулируется в опциях 30, 45 или 60 минут) приложение сообщит включением экрана и звуком о завершении рабочего дня. Если превысили положенное время, то приложение покажет на сколько минут.\nТаймер 45 минут проинформирует Вас об окончании паузы, когда вы находитесь вне автомобиля или заняты своими делами. Даст сигнал на 15 и 45 минутах. При чем таймер работает по правилам тахографа. Если пауза была нажата до 15 минут, то отдых не засчитается. Если 15 минут прошли а 45 минут еще не наступили, то засчитается только 15 минут, а следующую паузу таймер будет считать 30 минут. \nТаймер 9/11 часов рассчитает вам междневную паузу. Вы всегда будете видеть сколько вам осталось стоять до пределов 9 и 11 часов и когда наступит новый рабочий день. \nТаймер 24/45 часов рассчитает вам еженедельную паузу, Вы всегда будете видеть сколько вам осталось стоять до пределов 24 и 45 часов, если пауза сокращённая то приложение точно посчитает время компенсации.\nТаймер 144 часа(W - W) очень важный таймер. Его нужно включить тогда когда начали свой первый рабочий день, или когда закончили межнедельную паузу и начинается новая рабочая неделя. Вы всегда будете видеть сколько осталось времени до наступления начала следующей межнедельной паузы. 144 часа это максимально допустимый промежуток времени между двумя межнедельными паузами. Таймер сообщит вам за 30 минут(в опциях 30, 45 или 60 минут) о необходимости встать на очередной межнедельный отдых. \nТретья область это рабочий календарь. Сделали 15 или 9 часов, нажали соответствующую кнопку. Так вы всегда видите всю нужную информацию за рабочую неделю. Если между двумя межнедельными отдыхами уже были три увеличенных рабочих дня(15 часов) или три сокращённый ежедневных отдыха(9 часов), то таймер общего рабочего времени(ALL) будет считать только до 13 часов. \nЕсли вы проехали больше 9 часов, то нажмите кнопку 10. В календарной неделе можно 2 раза управлять машиной 10 часов. Индикация в рабочем календаре не позволит превысить этот недельный лимит.  Индикаторы 10 часовой езды сбросятся автоматически в понедельник 00:00. \nИндикатор-кнопка 24/45 напомнит какой отдых был у Вас предыдущий раз, сокращённый или полный. Это не позволит вам сделать подряд два сокращенных межнедельных отдыха. Переключать этот индикатор нужно в конце межнедельной паузы.  Переключение этого индикатора сбрасывает кнопки 15 и 9 в календаре и с началом новой рабочей недели вы можете опять брать 15 часовые рабочие дни и сокращенные 9 часовые паузы.   \nПрограмма полностью защищена от любых отключений, таких как принудительное завершение или разрядка аккумулятора.\nПри работе в свернутом режиме или выключенном экране работает звуковое оповещение таймеров.\nДобавлены таймеры считывания чипкарты 28 дней и смены тахо шайбы 24 часа."
+      "label": "Fb2-to-ePub is a file converter program from fb2 to ePub formats working directly in your iPhone/iPad. Now you can read e-books in popular in Russia fb2 format without installing any extra book-readers. \nAfter downloading an fb2 e-book through Safari or DropBox simply open it in Fb2-to-ePub app. The program converts your file to ePub format and allows opening a book in any book-reader application installed, e.g. iBooks.\nIf you have got an e-book collection in your local computer just copy it with \niTunes into the Documents of the application. It will allow to select the collection e-books, convert them into the standard format and send to the book-reader. The program is able to process compressed archives of unlimited volume. \nBooks search in the library is possible by file name, name of book and author’s name."
     },
     "im:price": {
-      "label": "9,99 €",
+      "label": "0,99 €",
       "attributes": {
-        "amount": "9.99",
+        "amount": "0.99",
         "currency": "EUR"
       }
     },
@@ -6266,17 +6062,17 @@
       }
     },
     "rights": {
-      "label": "© 2017 ИП Кузнецова Г.Н."
+      "label": "© 2012-2015, Semyon A. Chertkov"
     },
     "title": {
-      "label": "AntiBAG Тахограф - Maksim Kuzniatsou"
+      "label": "Fb2-to-ePub - Semyon A. Chertkov"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/antibag-%D1%82%D0%B0%D1%85%D0%BE%D0%B3%D1%80%D0%B0%D1%84/id1436730465?uo=2"
+          "href": "https://apps.apple.com/ee/app/fb2-to-epub/id541521102?uo=2"
         }
       },
       {
@@ -6287,22 +6083,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/3d/47/9d/3d479d60-47f1-f574-bc57-9eda546493fa/mzl.fizdhlat.png/1024x1024bb.png",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple49/v4/22/6b/74/226b747f-797b-e425-ed89-de9769f7890f/pr_source.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ee/app/antibag-%D1%82%D0%B0%D1%85%D0%BE%D0%B3%D1%80%D0%B0%D1%84/id1436730465?uo=2",
+      "label": "https://apps.apple.com/ee/app/fb2-to-epub/id541521102?uo=2",
       "attributes": {
-        "im:id": "1436730465",
-        "im:bundleId": "com.spectech.antibag"
+        "im:id": "541521102",
+        "im:bundleId": "com.wmhelp.Fb2ePub"
       }
     },
     "im:artist": {
-      "label": "Maksim Kuzniatsou",
+      "label": "Semyon A. Chertkov",
       "attributes": {
-        "href": "https://apps.apple.com/ee/developer/maksim-kuzniatsou/id1436730464?uo=2"
+        "href": "https://apps.apple.com/ee/developer/semyon-a-chertkov/id541521105?uo=2"
       }
     },
     "category": {
@@ -6314,9 +6110,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2018-11-18T16:42:08-07:00",
+      "label": "2012-08-03T04:38:25-07:00",
       "attributes": {
-        "label": "November 18, 2018"
+        "label": "August 3, 2012"
       }
     }
   },
@@ -6325,7 +6121,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 63,
+      "index": 61,
       "total": 99
     },
     "im:name": {
@@ -6427,109 +6223,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 64,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Fuel Consumption Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/44/20/ad4420c9-5a67-547d-d989-32b6e33e4f02/AppIcon-1x_U007epad-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/44/20/ad4420c9-5a67-547d-d989-32b6e33e4f02/AppIcon-1x_U007epad-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/44/20/ad4420c9-5a67-547d-d989-32b6e33e4f02/AppIcon-1x_U007epad-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Track your fuel consumption, costs and mileage!\n\n- Simple and clear operation \n- Widgets for your homescreen\n- Switch between views for e-cars and combustion cars\n- Informative graphs\n- One-time payment, no frills"
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Lennard Sommer"
-    },
-    "title": {
-      "label": "Fuel Consumption Pro - Lennard Sommer"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/fuel-consumption-pro/id6449151388?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/4f/24/9a/4f249a64-6779-39ff-3759-71cabf08b5dd/c64579f9-bb9a-469b-8c6a-61af251bbf89_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2023-05-13_at_19.53.50.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/fuel-consumption-pro/id6449151388?uo=2",
-      "attributes": {
-        "im:id": "6449151388",
-        "im:bundleId": "com.lennards.fuelconsumptionpro"
-      }
-    },
-    "im:artist": {
-      "label": "Lennard Sommer",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/lennard-sommer/id1523145952?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-05-15T00:00:00-07:00",
-      "attributes": {
-        "label": "May 15, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 65,
+      "index": 62,
       "total": 99
     },
     "im:name": {
@@ -6631,7 +6325,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 66,
+      "index": 63,
       "total": 99
     },
     "im:name": {
@@ -6733,7 +6427,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 67,
+      "index": 64,
       "total": 99
     },
     "im:name": {
@@ -6835,7 +6529,109 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 68,
+      "index": 65,
+      "total": 99
+    },
+    "im:name": {
+      "label": "AntiBAG Тахограф"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Тахограф в кармане! \nДержать кнопки 1 секунду!!! Сброс таймеров держать 3 секунды!!!\nПо свайпу слева на право появится экран выбора количества водителей. Справа на лево появится экран настроек.\nВ приложении есть три активных области. \nПервая это напоминание ежедневного ввода страны начала и конца работы. Ввели в тахографе сокращенную букву и нажали соответствующую кнопку в приложении. Так Вы никогда не забудете об этой обязательной процедуре. Сокращенное обозначение страны для тахографа автоматически(GPS) пишется на кнопке. В конце рабочего дня ввели в тахографе букву страны окончания работы и подтвердили это действие в приложении. \nВторая область это все необходимые таймеры для работы. Удержание кнопки любого таймера в течении одной секунды запускает таймер или ставит его на паузу, если таймер уже был запущен. Удержание кнопки в течении 3 секунд сбрасывает таймер в первоначальное положение. Все таймеры работают независимо друг от друга. \nПеред началом работы включите таймер общего времени 13/15 часов(ALL) и вы всегда будете знать сколько у Вас осталось рабочего времени. За 30 минут(регулируется в опциях 30, 45 или 60 минут) приложение сообщит включением экрана и звуком о завершении рабочего дня. Если превысили положенное время, то приложение покажет на сколько минут.\nТаймер 45 минут проинформирует Вас об окончании паузы, когда вы находитесь вне автомобиля или заняты своими делами. Даст сигнал на 15 и 45 минутах. При чем таймер работает по правилам тахографа. Если пауза была нажата до 15 минут, то отдых не засчитается. Если 15 минут прошли а 45 минут еще не наступили, то засчитается только 15 минут, а следующую паузу таймер будет считать 30 минут. \nТаймер 9/11 часов рассчитает вам междневную паузу. Вы всегда будете видеть сколько вам осталось стоять до пределов 9 и 11 часов и когда наступит новый рабочий день. \nТаймер 24/45 часов рассчитает вам еженедельную паузу, Вы всегда будете видеть сколько вам осталось стоять до пределов 24 и 45 часов, если пауза сокращённая то приложение точно посчитает время компенсации.\nТаймер 144 часа(W - W) очень важный таймер. Его нужно включить тогда когда начали свой первый рабочий день, или когда закончили межнедельную паузу и начинается новая рабочая неделя. Вы всегда будете видеть сколько осталось времени до наступления начала следующей межнедельной паузы. 144 часа это максимально допустимый промежуток времени между двумя межнедельными паузами. Таймер сообщит вам за 30 минут(в опциях 30, 45 или 60 минут) о необходимости встать на очередной межнедельный отдых. \nТретья область это рабочий календарь. Сделали 15 или 9 часов, нажали соответствующую кнопку. Так вы всегда видите всю нужную информацию за рабочую неделю. Если между двумя межнедельными отдыхами уже были три увеличенных рабочих дня(15 часов) или три сокращённый ежедневных отдыха(9 часов), то таймер общего рабочего времени(ALL) будет считать только до 13 часов. \nЕсли вы проехали больше 9 часов, то нажмите кнопку 10. В календарной неделе можно 2 раза управлять машиной 10 часов. Индикация в рабочем календаре не позволит превысить этот недельный лимит.  Индикаторы 10 часовой езды сбросятся автоматически в понедельник 00:00. \nИндикатор-кнопка 24/45 напомнит какой отдых был у Вас предыдущий раз, сокращённый или полный. Это не позволит вам сделать подряд два сокращенных межнедельных отдыха. Переключать этот индикатор нужно в конце межнедельной паузы.  Переключение этого индикатора сбрасывает кнопки 15 и 9 в календаре и с началом новой рабочей недели вы можете опять брать 15 часовые рабочие дни и сокращенные 9 часовые паузы.   \nПрограмма полностью защищена от любых отключений, таких как принудительное завершение или разрядка аккумулятора.\nПри работе в свернутом режиме или выключенном экране работает звуковое оповещение таймеров.\nДобавлены таймеры считывания чипкарты 28 дней и смены тахо шайбы 24 часа."
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2017 ИП Кузнецова Г.Н."
+    },
+    "title": {
+      "label": "AntiBAG Тахограф - Maksim Kuzniatsou"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/antibag-%D1%82%D0%B0%D1%85%D0%BE%D0%B3%D1%80%D0%B0%D1%84/id1436730465?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/3d/47/9d/3d479d60-47f1-f574-bc57-9eda546493fa/mzl.fizdhlat.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/antibag-%D1%82%D0%B0%D1%85%D0%BE%D0%B3%D1%80%D0%B0%D1%84/id1436730465?uo=2",
+      "attributes": {
+        "im:id": "1436730465",
+        "im:bundleId": "com.spectech.antibag"
+      }
+    },
+    "im:artist": {
+      "label": "Maksim Kuzniatsou",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/maksim-kuzniatsou/id1436730464?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-11-18T16:42:08-07:00",
+      "attributes": {
+        "label": "November 18, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 66,
       "total": 99
     },
     "im:name": {
@@ -6937,7 +6733,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 69,
+      "index": 67,
       "total": 99
     },
     "im:name": {
@@ -7039,109 +6835,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 70,
-      "total": 99
-    },
-    "im:name": {
-      "label": "TslaMirror"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/15/c5/bb/15c5bb89-9b5d-0668-8d77-c48a3535d1ee/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/15/c5/bb/15c5bb89-9b5d-0668-8d77-c48a3535d1ee/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/15/c5/bb/15c5bb89-9b5d-0668-8d77-c48a3535d1ee/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "TslaMirror for iOS \nTslaMirror is an app designed to mirror your iPhone apps to your Tesla car! Additionally, it supports screencasting apps to a Chrome browser.\n\nFor Tesla car built-in browser:\n1. If possible, aim to update your Tesla's infotainment system to the most recent version.\n2. Ensure your car is PARKED (0mph/0kph)!\n3. You first need to connect your Tesla's network to the Personal Hotspot on your iOS device (requires cellular data). Tesla MCU2/3 hardware is needed. MCU2/3 is available on the Tesla Model 3 Model Y, Model X (late than March 2018), Model S (late than March 2018), or the Tesla vehicles that are upgraded to MCU2/3 from MCU1.\n4. Ensure the iPhone is not in 'Low Power Mode'. Launch the TslaMirror app. Make sure the 'Proxy' switch is toggled on within the app.\n5. Tap the 'Start' button, then select 'Start Broadcast' to initiate Screen Broadcast via the TslaMirror app.\n6. Use the Tesla car's built-in browser to navigate to https://TslaMirror.com:8443 or http://240.3.3.3, remember to use HTTPS for the domain name and HTTP for the IP address.\n7. To zoom in or out, pinch the screen on the Tesla's built-in browser.\n8. Currently, there is no support for audio. Only the app screen will mirror to the browser. For simultaneous audio during app mirroring, use the Bluetooth audio link to play sound from your iOS device through the Tesla's speakers.\n9. Keep your screen unlocked. Due to Screen Broadcast API limitations, you need to keep your screen unlocked. If the screen locks, you'll need to restart the Screen Broadcast.\n\nFor normal desktop browser\n1 Devices are on the same Wi-Fi network\n2 Start the TslaMirror App.\n3 Click the \"Start\" button to start Screen Broadcast in the TslaMirror App\n4 Access the link below the \"Stop\" button via a normal desktop browser (Safari or Chrome)\n\nKey Features\n1 No extra internet traffic for the screencast, the App mirroring traffic is only locally on iOS device Personal Hotspot. However, please note that during the screenshot, the Tesla vehicle will use the hotspot traffic for its internet access when the hotspot is connected\n2 Private, the screencast is only available to the devices connected to the iOS Personal Hotspot Wi-Fi network\n3 5GHz Personal Hotspot(iPhone 12 series supports it) Wi-Fi is highly recommended. Do not enable the \"Maximize Compatibility\" setting for iPhone 12 series. By default, iPhone 12 series come with a 5GHz Wi-Fi Personal Hotspot. Once the \"Maximize Compatibility\" setting enabled, it will go back to the 2.4GHz Wi-Fi hotspot.\n\nFAQ\n1 This is not CarPlay\n2 iOS Apps that use the AVPlayer framework cannot be supported, such as the Apple Music App and Netflix App. \n3 Netflix App not supported\n\nPrivacy/Security notice: This App does not collect any statistics, personal information, or analytics from our users.This Application does use Location service to access Wi-Fi access point network name on iOS 13 or later. Location data is not stored or collected at any point. No information is stored by our company.\n\nDisclaimer: This software and documentation do not come from nor is endorsed by Tesla Inc. Use this App at your own risk. The author does not guarantee its proper functioning. Some features require certain vehicle options to work (e.g. MCU2 hardware needed). This App attempts to use the same interface used by the official Tesla Apps. However, you are responsible for any changes to your car caused by using this App. The use of this App needs the vehicle's built-in browser. And we are not liable for any damages to you, your car, or any other object in conjunction with the use of this App.\n\nWarning and Legal Disclaimer: DO NOT IGNORE THE FOLLOWING - This service should only be used when the car is PARKED (0mph/0kph)! The use of this program may be restricted based on your local jurisdiction regarding the built-in web browser in your vehicle.\n\nTerms of Use (EULA) link: https://teslamirror.com/terms.html"
-    },
-    "im:price": {
-      "label": "6,99 €",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020-2023 Wuhan TrustComputing IT Co., Ltd."
-    },
-    "title": {
-      "label": "TslaMirror - Wuhan TrustComputing IT Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/tslamirror/id1542447409?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/01/6d/78/016d785d-a3f7-79b4-1a5a-076d51216071/tns.znfvoqok.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/tslamirror/id1542447409?uo=2",
-      "attributes": {
-        "im:id": "1542447409",
-        "im:bundleId": "com.hustmobile.screencastfortesla"
-      }
-    },
-    "im:artist": {
-      "label": "Wuhan TrustComputing IT Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/wuhan-trustcomputing-it-co-ltd/id370363169?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-11T00:00:00-07:00",
-      "attributes": {
-        "label": "December 11, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 71,
+      "index": 68,
       "total": 99
     },
     "im:name": {
@@ -7243,109 +6937,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 72,
-      "total": 99
-    },
-    "im:name": {
-      "label": "µBrowser™"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/22/bd/34/22bd3479-17ec-2abc-ff10-c3e318d73883/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/22/bd/34/22bd3479-17ec-2abc-ff10-c3e318d73883/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/22/bd/34/22bd3479-17ec-2abc-ff10-c3e318d73883/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "µBrowser is a fast, user-friendly and safe internet browser, this application is support for all existing iOS devices. This browser is also designed specifically for iPhone and iPad..., delivering an exceptional broadband experience.\n\n#Features:\n- Browsing speed acceleration\n- Fast and secure web browser\n- No bookmarks & history record\n- Access your favorite websites quickly and easily.\n- Support back/forward and refresh/share\n- And more...\n\nThank you for using this application, hopefully it can provide benefits"
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Le Van Dung"
-    },
-    "title": {
-      "label": "µBrowser™ - Le Van Dung"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/%C2%B5browser/id1616101225?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/78/17/dc/7817dc8b-6acf-75f7-2b79-0d163e734aed/fc75b285-3ee0-4c1a-bb8f-5d7dedd42111_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2022-03-25_at_10.58.08.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/%C2%B5browser/id1616101225?uo=2",
-      "attributes": {
-        "im:id": "1616101225",
-        "im:bundleId": "com.levanduong.daicatao"
-      }
-    },
-    "im:artist": {
-      "label": "Le Van Dung",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/le-van-dung/id1616101227?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-03-25T00:00:00-07:00",
-      "attributes": {
-        "label": "March 25, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 73,
+      "index": 69,
       "total": 99
     },
     "im:name": {
@@ -7447,7 +7039,109 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 74,
+      "index": 70,
+      "total": 99
+    },
+    "im:name": {
+      "label": "MultiStop - Professional Stopwatch"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple5/v4/f9/2e/5d/f92e5d41-f9b3-6ab3-834d-4aa4ec56b3b9/pr_source.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple5/v4/f9/2e/5d/f92e5d41-f9b3-6ab3-834d-4aa4ec56b3b9/pr_source.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/f9/2e/5d/f92e5d41-f9b3-6ab3-834d-4aa4ec56b3b9/pr_source.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Run multiple stopwatches at the same time. Save, browse and email results.\n\nTimers can be started, stopped, or reset individually, or via a master start/stop button. \n\nKey features:\n\n* 1/100 second precision\n* Multiple simultaneous stopwatches\n* Custom names for stopwatches (optional)\n* Save and email results\n* Browse saved laps\n* Stopwatches continue when the app is closed\n\nIdeal for timing athletics, motorsport, swimming, and even science experiments!"
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2012 Matcha Labs Ltd"
+    },
+    "title": {
+      "label": "MultiStop - Professional Stopwatch - RCR Solutions Ltd"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/multistop-professional-stopwatch/id517593658?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple5/v4/85/3d/55/853d5528-94d5-650d-917c-3560b4f1d629/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/multistop-professional-stopwatch/id517593658?uo=2",
+      "attributes": {
+        "im:id": "517593658",
+        "im:bundleId": "com.matchalabs.multistop"
+      }
+    },
+    "im:artist": {
+      "label": "RCR Solutions Ltd",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/rcr-solutions-ltd/id920781401?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-05-09T19:09:39-07:00",
+      "attributes": {
+        "label": "May 9, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 71,
       "total": 99
     },
     "im:name": {
@@ -7549,7 +7243,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 75,
+      "index": 72,
       "total": 99
     },
     "im:name": {
@@ -7651,7 +7345,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 76,
+      "index": 73,
       "total": 99
     },
     "im:name": {
@@ -7753,7 +7447,109 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 77,
+      "index": 74,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Fuel Consumption Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/44/20/ad4420c9-5a67-547d-d989-32b6e33e4f02/AppIcon-1x_U007epad-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/44/20/ad4420c9-5a67-547d-d989-32b6e33e4f02/AppIcon-1x_U007epad-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/44/20/ad4420c9-5a67-547d-d989-32b6e33e4f02/AppIcon-1x_U007epad-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Track your fuel consumption, costs and mileage!\n\n- Simple and clear operation \n- Widgets for your homescreen\n- Switch between views for e-cars and combustion cars\n- Informative graphs\n- One-time payment, no frills"
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Lennard Sommer"
+    },
+    "title": {
+      "label": "Fuel Consumption Pro - Lennard Sommer"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/fuel-consumption-pro/id6449151388?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/4f/24/9a/4f249a64-6779-39ff-3759-71cabf08b5dd/c64579f9-bb9a-469b-8c6a-61af251bbf89_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2023-05-13_at_19.53.50.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/fuel-consumption-pro/id6449151388?uo=2",
+      "attributes": {
+        "im:id": "6449151388",
+        "im:bundleId": "com.lennards.fuelconsumptionpro"
+      }
+    },
+    "im:artist": {
+      "label": "Lennard Sommer",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/lennard-sommer/id1523145952?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-05-15T00:00:00-07:00",
+      "attributes": {
+        "label": "May 15, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 75,
       "total": 99
     },
     "im:name": {
@@ -7855,7 +7651,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 78,
+      "index": 76,
       "total": 99
     },
     "im:name": {
@@ -7957,7 +7753,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 79,
+      "index": 77,
       "total": 99
     },
     "im:name": {
@@ -8059,7 +7855,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 80,
+      "index": 78,
       "total": 99
     },
     "im:name": {
@@ -8161,7 +7957,109 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 81,
+      "index": 79,
+      "total": 99
+    },
+    "im:name": {
+      "label": "TslaMirror"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/15/c5/bb/15c5bb89-9b5d-0668-8d77-c48a3535d1ee/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/15/c5/bb/15c5bb89-9b5d-0668-8d77-c48a3535d1ee/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/15/c5/bb/15c5bb89-9b5d-0668-8d77-c48a3535d1ee/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "TslaMirror for iOS \nTslaMirror is an app designed to mirror your iPhone apps to your Tesla car! Additionally, it supports screencasting apps to a Chrome browser.\n\nFor Tesla car built-in browser:\n1. If possible, aim to update your Tesla's infotainment system to the most recent version.\n2. Ensure your car is PARKED (0mph/0kph)!\n3. You first need to connect your Tesla's network to the Personal Hotspot on your iOS device (requires cellular data). Tesla MCU2/3 hardware is needed. MCU2/3 is available on the Tesla Model 3 Model Y, Model X (late than March 2018), Model S (late than March 2018), or the Tesla vehicles that are upgraded to MCU2/3 from MCU1.\n4. Ensure the iPhone is not in 'Low Power Mode'. Launch the TslaMirror app. Make sure the 'Proxy' switch is toggled on within the app.\n5. Tap the 'Start' button, then select 'Start Broadcast' to initiate Screen Broadcast via the TslaMirror app.\n6. Use the Tesla car's built-in browser to navigate to https://TslaMirror.com:8443 or http://240.3.3.3, remember to use HTTPS for the domain name and HTTP for the IP address.\n7. To zoom in or out, pinch the screen on the Tesla's built-in browser.\n8. Currently, there is no support for audio. Only the app screen will mirror to the browser. For simultaneous audio during app mirroring, use the Bluetooth audio link to play sound from your iOS device through the Tesla's speakers.\n9. Keep your screen unlocked. Due to Screen Broadcast API limitations, you need to keep your screen unlocked. If the screen locks, you'll need to restart the Screen Broadcast.\n\nFor normal desktop browser\n1 Devices are on the same Wi-Fi network\n2 Start the TslaMirror App.\n3 Click the \"Start\" button to start Screen Broadcast in the TslaMirror App\n4 Access the link below the \"Stop\" button via a normal desktop browser (Safari or Chrome)\n\nKey Features\n1 No extra internet traffic for the screencast, the App mirroring traffic is only locally on iOS device Personal Hotspot. However, please note that during the screenshot, the Tesla vehicle will use the hotspot traffic for its internet access when the hotspot is connected\n2 Private, the screencast is only available to the devices connected to the iOS Personal Hotspot Wi-Fi network\n3 5GHz Personal Hotspot(iPhone 12 series supports it) Wi-Fi is highly recommended. Do not enable the \"Maximize Compatibility\" setting for iPhone 12 series. By default, iPhone 12 series come with a 5GHz Wi-Fi Personal Hotspot. Once the \"Maximize Compatibility\" setting enabled, it will go back to the 2.4GHz Wi-Fi hotspot.\n\nFAQ\n1 This is not CarPlay\n2 iOS Apps that use the AVPlayer framework cannot be supported, such as the Apple Music App and Netflix App. \n3 Netflix App not supported\n\nPrivacy/Security notice: This App does not collect any statistics, personal information, or analytics from our users.This Application does use Location service to access Wi-Fi access point network name on iOS 13 or later. Location data is not stored or collected at any point. No information is stored by our company.\n\nDisclaimer: This software and documentation do not come from nor is endorsed by Tesla Inc. Use this App at your own risk. The author does not guarantee its proper functioning. Some features require certain vehicle options to work (e.g. MCU2 hardware needed). This App attempts to use the same interface used by the official Tesla Apps. However, you are responsible for any changes to your car caused by using this App. The use of this App needs the vehicle's built-in browser. And we are not liable for any damages to you, your car, or any other object in conjunction with the use of this App.\n\nWarning and Legal Disclaimer: DO NOT IGNORE THE FOLLOWING - This service should only be used when the car is PARKED (0mph/0kph)! The use of this program may be restricted based on your local jurisdiction regarding the built-in web browser in your vehicle.\n\nTerms of Use (EULA) link: https://teslamirror.com/terms.html"
+    },
+    "im:price": {
+      "label": "6,99 €",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020-2023 Wuhan TrustComputing IT Co., Ltd."
+    },
+    "title": {
+      "label": "TslaMirror - Wuhan TrustComputing IT Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/tslamirror/id1542447409?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/01/6d/78/016d785d-a3f7-79b4-1a5a-076d51216071/tns.znfvoqok.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/tslamirror/id1542447409?uo=2",
+      "attributes": {
+        "im:id": "1542447409",
+        "im:bundleId": "com.hustmobile.screencastfortesla"
+      }
+    },
+    "im:artist": {
+      "label": "Wuhan TrustComputing IT Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/wuhan-trustcomputing-it-co-ltd/id370363169?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-12-11T00:00:00-07:00",
+      "attributes": {
+        "label": "December 11, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 80,
       "total": 99
     },
     "im:name": {
@@ -8263,7 +8161,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 82,
+      "index": 81,
       "total": 99
     },
     "im:name": {
@@ -8365,7 +8263,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 83,
+      "index": 82,
       "total": 99
     },
     "im:name": {
@@ -8467,7 +8365,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 84,
+      "index": 83,
       "total": 99
     },
     "im:name": {
@@ -8569,7 +8467,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 85,
+      "index": 84,
       "total": 99
     },
     "im:name": {
@@ -8663,6 +8561,108 @@
       "label": "2014-02-20T19:55:26-07:00",
       "attributes": {
         "label": "February 20, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 85,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Phone Drive: File Storage Sync"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/f6/fd/1df6fd25-aa52-fc57-275c-4d96605bfbe2/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/f6/fd/1df6fd25-aa52-fc57-275c-4d96605bfbe2/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/f6/fd/1df6fd25-aa52-fc57-275c-4d96605bfbe2/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Introducing Phone Drive - File Manager: Transform your iOS device into a portable Wireless Flash Drive.\n\nWith Phone Drive, you can effortlessly store, view, and manage local or cloud files on your iPhone or iPad. Seamlessly connect to Phone Drive from any Mac or PC over a WiFi network and transfer files through simple drag and drop from Web Browser, Finder or Windows Explorer.\n\nExperience the convenience of managing multiple cloud accounts in a single application. Download, upload, view, and even stream videos or music directly from your cloud drives.\n\nPhone Drive boasts a comprehensive set of features including a document viewer, PDF reader, music player, image viewer, voice recorder, text editor, file manager, and support for various file operations such as delete, move, copy, email, share, zip, unzip, and more.\n\n\n*** KEY FEATURES ***\n• SUPPORT CLOUD STORAGE: \nConnect to multiple Dropbox, Google Drive, OneDrive, Box Drive, FTP, WebDAV, Yandex Disk, and iCloud Drive storage accounts. (*additional in-app purchase required)\n\n• MULTIMEDIA PLAYER:\nCreate custom audio playlists with options like repeat, shuffle, background playback, and multitask remote control. Stream videos and music directly from your cloud storage.\n\n• DOCUMENT READER:\nView MS Office, iWork, Text, and HTML files with ease.\n\n• FILE OPERATION:\nEffortlessly move, copy, rename, delete, zip, unzip, unrar, create files, and folders.\n\n• FILE SHARING:\nShare files with other iPhone/iPad devices via Bluetooth or Wi-Fi, with automatic search for nearby available devices.\n\n• EASY FILE UPLOAD:\nConveniently upload files through drag and drop via your PC/Mac web browser or USB using iTunes.\n\n• TEXT EDITOR:\nEdit text files and source codes directly on your iOS device with the built-in text editor.\n\n• IMPORT/ FILES CREATION:\nCreate text files, capture images, record videos or voice memos, and import pictures from your photo library.\n\n• ﻿PASSCODE LOCK:\nProtect your files from unauthorized access. Utilize Touch ID and Face ID support for secure unlocking.\n\n• UNIVERSALITY:\nEnjoy the benefits of this app on both iPhone and iPad with a single purchase.\n\n\n*** AUDIO PLAYER ***\n• Play MP3 files as playlists.\n• Repeat and shuffle songs.\n• Background audio playback.\n• Multitask audio remote control.\n• Stream music from cloud storage.\n\n\n*** VIEWABLE FORMATS ***\nPhone Drive supports the following formats:\n\n• Audio (WAV, MP3, M4A, CAF, AIF, AIFF, AAC)\n• Images (JPG, PNG, GIF, BMP, TIF, TIFF, ICO)\n• Movies (MP4, MOV, MPV, M4V)\n• iWorks (Pages, numbers, and Keynote)\n• Microsoft Office (Word, Excel and PowerPoint)\n• RTF (Rich Text Format)\n• RTFD (TextEdit with embedded images)\n• PDF Documents\n• Plain text\n• Source code\n• HTML web pages \n• Web archives\n\n\nExplore more about Phone Drive at:\nWebsite : https://sixbytes.io\nTwitter: https://twitter.com/SixbytesApp\nFacebook: https://www.facebook.com/sixbytesapp\n\nFor detailed information, please review our Terms of Service and Privacy Policy:\n• Terms of service: https://sixbytes.io/assets/terms-of-service.pdf\n• Privacy policy: https://sixbytes.io/assets/privacy-policy.pdf"
+    },
+    "im:price": {
+      "label": "3,99 €",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "Copyright © 2023 Phone Drive"
+    },
+    "title": {
+      "label": "Phone Drive: File Storage Sync - Eightythree Technology"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/phone-drive-file-storage-sync/id431033044?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/af/e4/ef/afe4efe2-642c-c4d2-01ad-0e010dd7698e/3254e269-f02d-4cd6-9664-52089985f87f_4.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/phone-drive-file-storage-sync/id431033044?uo=2",
+      "attributes": {
+        "im:id": "431033044",
+        "im:bundleId": "com.eightythree.iPhoneDrive"
+      }
+    },
+    "im:artist": {
+      "label": "Eightythree Technology",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/eightythree-technology/id431033047?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-04-25T19:13:55-07:00",
+      "attributes": {
+        "label": "April 25, 2011"
       }
     }
   },
@@ -8879,6 +8879,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Export Contacts+ Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/87/6a/cd876a15-a313-71c1-3301-9675cc410029/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/87/6a/cd876a15-a313-71c1-3301-9675cc410029/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/87/6a/cd876a15-a313-71c1-3301-9675cc410029/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Export Contacts+  allows you to safely export your personel contacts. \n\n* Filter contacts by using detailed filtering options.\n* Sort contacts by given name or family name.\n\n* Share exported contacts with the others. \n* Send exported contacts to mail or other sharing options."
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Yusuf Onder"
+    },
+    "title": {
+      "label": "Export Contacts+ Pro - Yusuf Onder"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/export-contacts-pro/id1546550155?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/55/50/81/55508193-687c-ea35-97aa-77396549a3b6/ae61e901-7e56-437d-877a-9c3002fb12cb_Apple_iPad_Pro_13_Inch__U00282_U0029.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/export-contacts-pro/id1546550155?uo=2",
+      "attributes": {
+        "im:id": "1546550155",
+        "im:bundleId": "com.yonder.ExportContact"
+      }
+    },
+    "im:artist": {
+      "label": "Yusuf Onder",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/yusuf-onder/id1519632301?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-02T00:00:00-07:00",
+      "attributes": {
+        "label": "January 2, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 89,
+      "total": 99
+    },
+    "im:name": {
       "label": "Flying Ruler Pro"
     },
     "im:image": [
@@ -8977,7 +9079,109 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 89,
+      "index": 90,
+      "total": 99
+    },
+    "im:name": {
+      "label": "µBrowser™"
+    },
+    "im:image": [
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/22/bd/34/22bd3479-17ec-2abc-ff10-c3e318d73883/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/22/bd/34/22bd3479-17ec-2abc-ff10-c3e318d73883/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/22/bd/34/22bd3479-17ec-2abc-ff10-c3e318d73883/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "µBrowser is a fast, user-friendly and safe internet browser, this application is support for all existing iOS devices. This browser is also designed specifically for iPhone and iPad..., delivering an exceptional broadband experience.\n\n#Features:\n- Browsing speed acceleration\n- Fast and secure web browser\n- No bookmarks & history record\n- Access your favorite websites quickly and easily.\n- Support back/forward and refresh/share\n- And more...\n\nThank you for using this application, hopefully it can provide benefits"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Le Van Dung"
+    },
+    "title": {
+      "label": "µBrowser™ - Le Van Dung"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/%C2%B5browser/id1616101225?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/78/17/dc/7817dc8b-6acf-75f7-2b79-0d163e734aed/fc75b285-3ee0-4c1a-bb8f-5d7dedd42111_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2022-03-25_at_10.58.08.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/%C2%B5browser/id1616101225?uo=2",
+      "attributes": {
+        "im:id": "1616101225",
+        "im:bundleId": "com.levanduong.daicatao"
+      }
+    },
+    "im:artist": {
+      "label": "Le Van Dung",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/le-van-dung/id1616101227?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-03-25T00:00:00-07:00",
+      "attributes": {
+        "label": "March 25, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 91,
       "total": 99
     },
     "im:name": {
@@ -9079,7 +9283,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 90,
+      "index": 92,
       "total": 99
     },
     "im:name": {
@@ -9181,7 +9385,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 91,
+      "index": 93,
       "total": 99
     },
     "im:name": {
@@ -9283,7 +9487,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 92,
+      "index": 94,
       "total": 99
     },
     "im:name": {
@@ -9385,7 +9589,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 93,
+      "index": 95,
       "total": 99
     },
     "im:name": {
@@ -9487,7 +9691,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 94,
+      "index": 96,
       "total": 99
     },
     "im:name": {
@@ -9589,7 +9793,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 95,
+      "index": 97,
       "total": 99
     },
     "im:name": {
@@ -9691,109 +9895,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 96,
-      "total": 99
-    },
-    "im:name": {
-      "label": "SSTP Connect"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "SSTP Connect is a VPN client that supports these protocols:\n- SSTP (MS-SSTP)\n- SoftEther VPN\n\nThis is only a VPN client. No VPN service is included. You need to specify the server you are connecting to.\n\n• Native\nOnly iOS native libraries are used in the core function, including the TLS stack. No OpenSSL.\nConnections are saved natively so that you can start a connection from the system settings.\n\n• Simple\nVPN clients ought to be small and simple. No ads, analytics or other 3rd-party SDK are included.\n\n• Privacy\nNo data is collected from you. Connection log only exists in the memory and is never saved to the device.\n\n• Complete\nSupport all password and certificate-based authentications available in Windows 11.\nSupport authenticating by password and certificate at the same time with TEAP (EAP chaining).\nProtocol details below.\n\n• Security\nPasswords and certificates are stored in the iOS keychain. SSTP Connect never saves them locally for convenience.\n\n• IPv6 Ready\nSupport both IPv6 connections and stateless IPv6 configuration in the VPN tunnels. (DHCPv6 not supported)\n\n• More than TCP\nSupport NAT traversal (NAT-T) and UDP acceleration just like the official SoftEther client. (Requiring iOS 12+)\n\n• Easy Import and Export\nNot only from SSTP Connect, reading connection settings from SoftEther Client Manager is also a piece of cake.\n\n• Routing\nAccept static routes pushed from the server or add your own entries.\n\nSSTP Authentication Methods\n- PEAP*\n- EAP-TTLS*\n- TEAP* (EAP chaining)\n- EAP-TLS*\n- EAP-MSCHAPv2\n- MSCHAPv2\n- CHAP\n- PAP\n* Requires iOS 12+\n\nSoftEther Authentication Methods\n- Password\n- RADIUS / NT Domain Password\n- Certificate\n- Anonymous\n\nSupported Server Platforms\n• Microsoft Windows Server 2008 and later\n• Microsoft Azure P2S VPN\n• MikroTik RouterOS*\n• SoftEther VPN Server\n• VPN Azure\n\n* Servers configured without certificates are not supported.\n\nSSTP Connect is a third-party implementation based on Microsoft Open Specifications and SoftEther VPN source code. We do not have any affiliation with either Microsoft Corporation or SoftEther Corporation."
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Domosekai Limited"
-    },
-    "title": {
-      "label": "SSTP Connect - Domosekai Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/sstp-connect/id1543667909?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/00/45/77/004577c3-9021-e0d6-1a80-f70e6a1c2794/36c3eba6-6805-46ca-bd40-e827dbaf3200_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-03-01_at_21.50.06__U00281_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/sstp-connect/id1543667909?uo=2",
-      "attributes": {
-        "im:id": "1543667909",
-        "im:bundleId": "com.domosekai.vpnclient"
-      }
-    },
-    "im:artist": {
-      "label": "Domosekai Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/domosekai-limited/id1488582967?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-19T00:00:00-07:00",
-      "attributes": {
-        "label": "January 19, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 97,
+      "index": 98,
       "total": 99
     },
     "im:name": {
@@ -9895,7 +9997,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 98,
+      "index": 99,
       "total": 99
     },
     "im:name": {
@@ -9989,108 +10091,6 @@
       "label": "2015-03-15T16:57:01-07:00",
       "attributes": {
         "label": "March 15, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 99,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Necrometer"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/44/72/68/447268d5-09a0-bf53-2dbb-f883553137ff/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/44/72/68/447268d5-09a0-bf53-2dbb-f883553137ff/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/44/72/68/447268d5-09a0-bf53-2dbb-f883553137ff/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Necrometer\n\nDesigned for ghost hunters and paranormal enthusiasts. This multifunctional app can be used to detect and communicate with spirits. We have taken known spirit communication techniques and theories and have implemented them here in new and innovative ways. \n\n-Meter that detects and measures magnetic energy\n-Text and Speech modes\n-2 Built in Text To Speech A.I. systems\n-3 Voices\n-Pitch control with randomization option\n-Reverb and Echo audio effects\n\nThe Meter:\nIt is believed that spirits can affect magnetic energy fields. Using your phone’s Magnetometer sensor this app can detect levels of magnetic interference in the environment. These fluctuations of energy fields have a direct influence on the communication.\n-Meter noise (optional) reacts to fluctuations in the meter\n\nText Mode:\nSimply slide the power button over to \"Text\" and begin asking your questions. Walking around a location you can detect energy anomalies and various levels of magnetic interference. Words and phrases will begin coming through the app. The relevance of the communication is determined by multiple factors including spirit connection and strength. Those who have a stronger connection to the otherside may experience more direct and relevant communication. \nSimilar to the famous Ovilus ITC device, the Necrometer app is designed to facilitate spirit communication by measuring fluctuations of energy in the environment. The idea that spirits can manipulate electronic devices for purposes of communication is well documented. Based on the theory of random selection and known evidence of energy manipulation, the Necrometer app utilizes these known methods of spirit communication and paranormal phenomena. \n-Access to over 60k words/phrases\n-Custom word list, Add your own words and phrases\n\nSpeech Mode:\nSliding the power button over to \"Speech\" will turn on this unique mode of the app. Created to facilitate ghost box/ EVP like communication, the speech mode of the app provides audible spirit communication like no other. Generating speech sounds from within the app, there are no sound banks, word lists, radio, or any other pre-recorded audio. Spirits can use and manipulate these random speech sounds to form coherent messages, an idea rooted in ITC/EVP theory. Some of these messages may be heard in real time similar to a ghost box, other EVP-like communication can be heard on playback of the recorded audio. Again, the strength and level of communication being recieved depends on various factors. Coherent messages can only be obtained through communication with spirit, otherwise only unclear speech sounds will be heard.\n-Rate slider to increase/decrease rate of audio coming through\n\nThe Necrometer app is an advanced all-in-one app that can be used to detect energy anomalies in the area, produce words and phrases that can provide relevant clues/information, and provide audible ITC/EVP communication from spirit."
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Chris Rogers"
-    },
-    "title": {
-      "label": "Necrometer - chris rogers"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/necrometer/id1670762759?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/ba/95/2a/ba952aa9-475b-bfe2-34c3-7a0e9d156876/b7bd4855-4200-4556-ac46-48ba95b37eab_IMG_1858.PNG/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/necrometer/id1670762759?uo=2",
-      "attributes": {
-        "im:id": "1670762759",
-        "im:bundleId": "com.BitPlague.Necrometer"
-      }
-    },
-    "im:artist": {
-      "label": "chris rogers",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/chris-rogers/id1119043156?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-05-25T00:00:00-07:00",
-      "attributes": {
-        "label": "May 25, 2023"
       }
     }
   }

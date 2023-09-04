@@ -515,108 +515,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Watch app for Tesla"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/02/e1/dc/02e1dce2-300f-59db-64f0-d52129e7a4e3/AppIcon-0-1x_U007epad-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/02/e1/dc/02e1dce2-300f-59db-64f0-d52129e7a4e3/AppIcon-0-1x_U007epad-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/02/e1/dc/02e1dce2-300f-59db-64f0-d52129e7a4e3/AppIcon-0-1x_U007epad-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Convenience on the wrist - Watch app for Tesla is the ideal companion in day to day life with your Tesla vehicle. These are just a few of the day to day conveniences this app will help achieve:\n\n - Pair your watch as a proper vehicle key, just like your phone! Works under all conditions, including in underground parking garages or in the middle of a desert!\n\n - Forgot to plug in? Get a notification if vehicle is in a pre-configured location and not plugged in - all done directly on the watch, no external servers required, keeping your privacy!\n\n - Add the graphic corner complication to your watch face and enjoy the convenience of having easy access to state of charge, charging indicator, time remaining if charging, sentry mode active indicator and indicator if any windows, doors or trunks are open. All from one complication, that also will launch the app when tapped. \n\n - During and after charge, a panel will show how much energy was added. Convenient if you schedule your charge during the night - wake up each morning and easily check how much energy was added to the battery. \n\n - If you have multiple vehicles on your account, tap the vehicle name to quickly and easily switch between them. \n\n - You can queue up commands by tapping on buttons, then put your wrist down and the commands will execute in the background when the vehicle is successfully woken up. \n\n - When you tap the unlock vehicle button, the charge port will also unlock if a charging cable is attached. That's convenience right there!\n\n - Want to reduce phantom drain? Background updates can be configured to longer intervals between updates or to only update if car is already awake or can be disabled entirely for absolutely zero impact on phantom drain.\n\n - A warning panel will show up if any doors, windows or trunks are left open. Conveniently, you can tap the panel to close any open windows.\n\n - Need to access the frunk? Just do it from your wrist - no fiddling with your phone. \n\n - Sitting comfy in the couch, but just remembered you have a road-trip in the morning? Set the charge limit to 100% - or any value really - and start charging, right from the convenience of your wrist!\n\n - Leaving the office after a long hot day? Activate the HVAC when you're on your way, and enjoy a nice cool vehicle.\n\n - When charging, tap the time remaining label to switch to show time of expected completion - no more head calculus!\n\n - Need to run a quick errand, but you don't have your phone? Unlock your vehicle from your wrist, then activate remote start and off you go. Just please be mindful that this feature requires internet connectivity on both watch and vehicle - so don't drive into the desert and leave your vehicle, or you'll get stuck there!\n\nA note about security and privacy:\nThis app accepts two types of login. Either Tesla account credentials or a Tesla API token. Your account credentials are never stored in the app, but are used only once to obtain an authentication token and refresh token directly from the Tesla API server. If you would rather supply that token yourself, you can do so instead. It is required to supply a refresh token. Your token will be persisted in the app. Tokens will be revoked if you change your Tesla account password. No network traffic will ever be emitted from this app that goes anywhere other than directly to the Tesla API servers, unless the OPTIONAL cloud processing is enabled, in which case an in-flight encrypted ACCESS token with a lifespan of 8 hours will be transmitted and stored ONLY WHILE COMMAND IS EXECUTING. The source code for this application will at all times be made available to any security researcher for a voluntary security and safety audit. \n\nDisclaimer: \nThis app is not endorsed by Tesla Inc. Use at your own risk. No guarantee of proper function is given. Only you are responsible for any changes to your car caused by using this app.  \n\nMade in Denmark"
-    },
-    "im:price": {
-      "label": "22,99 €",
-      "attributes": {
-        "amount": "22.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Kim Hansen"
-    },
-    "title": {
-      "label": "Watch app for Tesla - Kim Hansen"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/watch-app-for-tesla/id1512108917?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/44/75/8d4475dc-3646-4878-7ab5-b5fdd9f3e7f5/159f0441-7ab0-4a73-b3f6-c24bd09600b2_UITest-iPadPro2ndGeneration-mainscreen_bigbattery.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/watch-app-for-tesla/id1512108917?uo=2",
-      "attributes": {
-        "im:id": "1512108917",
-        "im:bundleId": "dk.kimhansen.WatchForTesla"
-      }
-    },
-    "im:artist": {
-      "label": "Kim Hansen",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/kim-hansen/id1512108916?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-05-13T00:00:00-07:00",
-      "attributes": {
-        "label": "May 13, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 7,
-      "total": 99
-    },
-    "im:name": {
       "label": "Mobile Mouse Remote"
     },
     "im:image": [
@@ -715,7 +613,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 8,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -817,7 +715,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 9,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -919,7 +817,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 10,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -1021,7 +919,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 11,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -1123,7 +1021,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 12,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -1225,7 +1123,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 13,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1327,7 +1225,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 14,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1429,7 +1327,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 15,
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1531,7 +1429,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1633,7 +1531,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1735,7 +1633,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1837,7 +1735,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1939,7 +1837,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 20,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -2041,7 +1939,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -2143,7 +2041,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -2245,7 +2143,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2347,7 +2245,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2449,7 +2347,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
+      "index": 24,
       "total": 99
     },
     "im:name": {
@@ -2551,7 +2449,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
+      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2653,7 +2551,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
+      "index": 26,
       "total": 99
     },
     "im:name": {
@@ -2755,7 +2653,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2857,7 +2755,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 29,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2959,7 +2857,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 30,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -3061,7 +2959,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 31,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -3163,7 +3061,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 32,
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -3265,7 +3163,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 33,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3367,7 +3265,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 34,
+      "index": 33,
       "total": 99
     },
     "im:name": {
@@ -3469,7 +3367,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 35,
+      "index": 34,
       "total": 99
     },
     "im:name": {
@@ -3571,7 +3469,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 36,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3673,7 +3571,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 37,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3775,7 +3673,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 38,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3877,7 +3775,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 39,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3979,7 +3877,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 40,
+      "index": 39,
       "total": 99
     },
     "im:name": {
@@ -4081,7 +3979,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 41,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -4183,7 +4081,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 42,
+      "index": 41,
       "total": 99
     },
     "im:name": {
@@ -4285,7 +4183,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
+      "index": 42,
       "total": 99
     },
     "im:name": {
@@ -4387,7 +4285,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 44,
+      "index": 43,
       "total": 99
     },
     "im:name": {
@@ -4489,7 +4387,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
+      "index": 44,
       "total": 99
     },
     "im:name": {
@@ -4591,7 +4489,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 46,
+      "index": 45,
       "total": 99
     },
     "im:name": {
@@ -4693,7 +4591,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 47,
+      "index": 46,
       "total": 99
     },
     "im:name": {
@@ -4795,7 +4693,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 48,
+      "index": 47,
       "total": 99
     },
     "im:name": {
@@ -4889,6 +4787,108 @@
       "label": "2021-09-20T00:00:00-07:00",
       "attributes": {
         "label": "September 20, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 48,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Watch app for Tesla"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/02/e1/dc/02e1dce2-300f-59db-64f0-d52129e7a4e3/AppIcon-0-1x_U007epad-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/02/e1/dc/02e1dce2-300f-59db-64f0-d52129e7a4e3/AppIcon-0-1x_U007epad-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/02/e1/dc/02e1dce2-300f-59db-64f0-d52129e7a4e3/AppIcon-0-1x_U007epad-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Convenience on the wrist - Watch app for Tesla is the ideal companion in day to day life with your Tesla vehicle. These are just a few of the day to day conveniences this app will help achieve:\n\n - Pair your watch as a proper vehicle key, just like your phone! Works under all conditions, including in underground parking garages or in the middle of a desert!\n\n - Forgot to plug in? Get a notification if vehicle is in a pre-configured location and not plugged in - all done directly on the watch, no external servers required, keeping your privacy!\n\n - Add the graphic corner complication to your watch face and enjoy the convenience of having easy access to state of charge, charging indicator, time remaining if charging, sentry mode active indicator and indicator if any windows, doors or trunks are open. All from one complication, that also will launch the app when tapped. \n\n - During and after charge, a panel will show how much energy was added. Convenient if you schedule your charge during the night - wake up each morning and easily check how much energy was added to the battery. \n\n - If you have multiple vehicles on your account, tap the vehicle name to quickly and easily switch between them. \n\n - You can queue up commands by tapping on buttons, then put your wrist down and the commands will execute in the background when the vehicle is successfully woken up. \n\n - When you tap the unlock vehicle button, the charge port will also unlock if a charging cable is attached. That's convenience right there!\n\n - Want to reduce phantom drain? Background updates can be configured to longer intervals between updates or to only update if car is already awake or can be disabled entirely for absolutely zero impact on phantom drain.\n\n - A warning panel will show up if any doors, windows or trunks are left open. Conveniently, you can tap the panel to close any open windows.\n\n - Need to access the frunk? Just do it from your wrist - no fiddling with your phone. \n\n - Sitting comfy in the couch, but just remembered you have a road-trip in the morning? Set the charge limit to 100% - or any value really - and start charging, right from the convenience of your wrist!\n\n - Leaving the office after a long hot day? Activate the HVAC when you're on your way, and enjoy a nice cool vehicle.\n\n - When charging, tap the time remaining label to switch to show time of expected completion - no more head calculus!\n\n - Need to run a quick errand, but you don't have your phone? Unlock your vehicle from your wrist, then activate remote start and off you go. Just please be mindful that this feature requires internet connectivity on both watch and vehicle - so don't drive into the desert and leave your vehicle, or you'll get stuck there!\n\nA note about security and privacy:\nThis app accepts two types of login. Either Tesla account credentials or a Tesla API token. Your account credentials are never stored in the app, but are used only once to obtain an authentication token and refresh token directly from the Tesla API server. If you would rather supply that token yourself, you can do so instead. It is required to supply a refresh token. Your token will be persisted in the app. Tokens will be revoked if you change your Tesla account password. No network traffic will ever be emitted from this app that goes anywhere other than directly to the Tesla API servers, unless the OPTIONAL cloud processing is enabled, in which case an in-flight encrypted ACCESS token with a lifespan of 8 hours will be transmitted and stored ONLY WHILE COMMAND IS EXECUTING. The source code for this application will at all times be made available to any security researcher for a voluntary security and safety audit. \n\nDisclaimer: \nThis app is not endorsed by Tesla Inc. Use at your own risk. No guarantee of proper function is given. Only you are responsible for any changes to your car caused by using this app.  \n\nMade in Denmark"
+    },
+    "im:price": {
+      "label": "22,99 €",
+      "attributes": {
+        "amount": "22.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Kim Hansen"
+    },
+    "title": {
+      "label": "Watch app for Tesla - Kim Hansen"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/watch-app-for-tesla/id1512108917?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/44/75/8d4475dc-3646-4878-7ab5-b5fdd9f3e7f5/159f0441-7ab0-4a73-b3f6-c24bd09600b2_UITest-iPadPro2ndGeneration-mainscreen_bigbattery.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/watch-app-for-tesla/id1512108917?uo=2",
+      "attributes": {
+        "im:id": "1512108917",
+        "im:bundleId": "dk.kimhansen.WatchForTesla"
+      }
+    },
+    "im:artist": {
+      "label": "Kim Hansen",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/kim-hansen/id1512108916?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-05-13T00:00:00-07:00",
+      "attributes": {
+        "label": "May 13, 2020"
       }
     }
   },
@@ -6533,108 +6533,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Speedometer‰"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/a0/d4/3b/a0d43ba0-903a-3346-2a79-c2b9ec7f4ce9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/a0/d4/3b/a0d43ba0-903a-3346-2a79-c2b9ec7f4ce9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/a0/d4/3b/a0d43ba0-903a-3346-2a79-c2b9ec7f4ce9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This a simple speedometer that tells you your current speed in mph, km/h or knots. \n\n-Retina Display \n-Huge Indicators \n-No Ads\n\n*The less transparent the indicator the better the accuracy.\n\nThis software is provided as is and uses the device's internal hardware to estimate speed. By continuing to use this app you agree to our Terms of Service."
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Tim O's Studios, LLC"
-    },
-    "title": {
-      "label": "Speedometer‰ - Tim O's Studios, LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/speedometer/id546560363?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/55/2b/25/552b25e8-8d5c-8c92-b90f-81bb845a6607/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/speedometer/id546560363?uo=2",
-      "attributes": {
-        "im:id": "546560363",
-        "im:bundleId": "com.timoswald.paidSpeedometer"
-      }
-    },
-    "im:artist": {
-      "label": "Tim O's Studios, LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/tim-os-studios-llc/id412839685?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-08-07T10:38:50-07:00",
-      "attributes": {
-        "label": "August 7, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 66,
-      "total": 99
-    },
-    "im:name": {
       "label": "Best Timer"
     },
     "im:image": [
@@ -6733,109 +6631,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 67,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Fb2-to-ePub"
-    },
-    "im:image": [
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Fb2-to-ePub is a file converter program from fb2 to ePub formats working directly in your iPhone/iPad. Now you can read e-books in popular in Russia fb2 format without installing any extra book-readers. \nAfter downloading an fb2 e-book through Safari or DropBox simply open it in Fb2-to-ePub app. The program converts your file to ePub format and allows opening a book in any book-reader application installed, e.g. iBooks.\nIf you have got an e-book collection in your local computer just copy it with \niTunes into the Documents of the application. It will allow to select the collection e-books, convert them into the standard format and send to the book-reader. The program is able to process compressed archives of unlimited volume. \nBooks search in the library is possible by file name, name of book and author’s name."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2012-2015, Semyon A. Chertkov"
-    },
-    "title": {
-      "label": "Fb2-to-ePub - Semyon A. Chertkov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/fb2-to-epub/id541521102?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple49/v4/22/6b/74/226b747f-797b-e425-ed89-de9769f7890f/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/fb2-to-epub/id541521102?uo=2",
-      "attributes": {
-        "im:id": "541521102",
-        "im:bundleId": "com.wmhelp.Fb2ePub"
-      }
-    },
-    "im:artist": {
-      "label": "Semyon A. Chertkov",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/semyon-a-chertkov/id541521105?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-08-03T04:38:25-07:00",
-      "attributes": {
-        "label": "August 3, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 68,
+      "index": 66,
       "total": 99
     },
     "im:name": {
@@ -6937,109 +6733,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 69,
-      "total": 99
-    },
-    "im:name": {
-      "label": "AntiBAG Тахограф"
-    },
-    "im:image": [
-      {
-        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Тахограф в кармане! \nДержать кнопки 1 секунду!!! Сброс таймеров держать 3 секунды!!!\nПо свайпу слева на право появится экран выбора количества водителей. Справа на лево появится экран настроек.\nВ приложении есть три активных области. \nПервая это напоминание ежедневного ввода страны начала и конца работы. Ввели в тахографе сокращенную букву и нажали соответствующую кнопку в приложении. Так Вы никогда не забудете об этой обязательной процедуре. Сокращенное обозначение страны для тахографа автоматически(GPS) пишется на кнопке. В конце рабочего дня ввели в тахографе букву страны окончания работы и подтвердили это действие в приложении. \nВторая область это все необходимые таймеры для работы. Удержание кнопки любого таймера в течении одной секунды запускает таймер или ставит его на паузу, если таймер уже был запущен. Удержание кнопки в течении 3 секунд сбрасывает таймер в первоначальное положение. Все таймеры работают независимо друг от друга. \nПеред началом работы включите таймер общего времени 13/15 часов(ALL) и вы всегда будете знать сколько у Вас осталось рабочего времени. За 30 минут(регулируется в опциях 30, 45 или 60 минут) приложение сообщит включением экрана и звуком о завершении рабочего дня. Если превысили положенное время, то приложение покажет на сколько минут.\nТаймер 45 минут проинформирует Вас об окончании паузы, когда вы находитесь вне автомобиля или заняты своими делами. Даст сигнал на 15 и 45 минутах. При чем таймер работает по правилам тахографа. Если пауза была нажата до 15 минут, то отдых не засчитается. Если 15 минут прошли а 45 минут еще не наступили, то засчитается только 15 минут, а следующую паузу таймер будет считать 30 минут. \nТаймер 9/11 часов рассчитает вам междневную паузу. Вы всегда будете видеть сколько вам осталось стоять до пределов 9 и 11 часов и когда наступит новый рабочий день. \nТаймер 24/45 часов рассчитает вам еженедельную паузу, Вы всегда будете видеть сколько вам осталось стоять до пределов 24 и 45 часов, если пауза сокращённая то приложение точно посчитает время компенсации.\nТаймер 144 часа(W - W) очень важный таймер. Его нужно включить тогда когда начали свой первый рабочий день, или когда закончили межнедельную паузу и начинается новая рабочая неделя. Вы всегда будете видеть сколько осталось времени до наступления начала следующей межнедельной паузы. 144 часа это максимально допустимый промежуток времени между двумя межнедельными паузами. Таймер сообщит вам за 30 минут(в опциях 30, 45 или 60 минут) о необходимости встать на очередной межнедельный отдых. \nТретья область это рабочий календарь. Сделали 15 или 9 часов, нажали соответствующую кнопку. Так вы всегда видите всю нужную информацию за рабочую неделю. Если между двумя межнедельными отдыхами уже были три увеличенных рабочих дня(15 часов) или три сокращённый ежедневных отдыха(9 часов), то таймер общего рабочего времени(ALL) будет считать только до 13 часов. \nЕсли вы проехали больше 9 часов, то нажмите кнопку 10. В календарной неделе можно 2 раза управлять машиной 10 часов. Индикация в рабочем календаре не позволит превысить этот недельный лимит.  Индикаторы 10 часовой езды сбросятся автоматически в понедельник 00:00. \nИндикатор-кнопка 24/45 напомнит какой отдых был у Вас предыдущий раз, сокращённый или полный. Это не позволит вам сделать подряд два сокращенных межнедельных отдыха. Переключать этот индикатор нужно в конце межнедельной паузы.  Переключение этого индикатора сбрасывает кнопки 15 и 9 в календаре и с началом новой рабочей недели вы можете опять брать 15 часовые рабочие дни и сокращенные 9 часовые паузы.   \nПрограмма полностью защищена от любых отключений, таких как принудительное завершение или разрядка аккумулятора.\nПри работе в свернутом режиме или выключенном экране работает звуковое оповещение таймеров.\nДобавлены таймеры считывания чипкарты 28 дней и смены тахо шайбы 24 часа."
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2017 ИП Кузнецова Г.Н."
-    },
-    "title": {
-      "label": "AntiBAG Тахограф - Maksim Kuzniatsou"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/antibag-%D1%82%D0%B0%D1%85%D0%BE%D0%B3%D1%80%D0%B0%D1%84/id1436730465?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/3d/47/9d/3d479d60-47f1-f574-bc57-9eda546493fa/mzl.fizdhlat.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/antibag-%D1%82%D0%B0%D1%85%D0%BE%D0%B3%D1%80%D0%B0%D1%84/id1436730465?uo=2",
-      "attributes": {
-        "im:id": "1436730465",
-        "im:bundleId": "com.spectech.antibag"
-      }
-    },
-    "im:artist": {
-      "label": "Maksim Kuzniatsou",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/maksim-kuzniatsou/id1436730464?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-11-18T16:42:08-07:00",
-      "attributes": {
-        "label": "November 18, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 70,
+      "index": 67,
       "total": 99
     },
     "im:name": {
@@ -7141,7 +6835,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 71,
+      "index": 68,
       "total": 99
     },
     "im:name": {
@@ -7243,7 +6937,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 72,
+      "index": 69,
       "total": 99
     },
     "im:name": {
@@ -7345,7 +7039,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 73,
+      "index": 70,
       "total": 99
     },
     "im:name": {
@@ -7447,7 +7141,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 74,
+      "index": 71,
       "total": 99
     },
     "im:name": {
@@ -7541,6 +7235,312 @@
       "label": "2018-07-24T22:43:03-07:00",
       "attributes": {
         "label": "July 24, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 72,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Speedometer‰"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/a0/d4/3b/a0d43ba0-903a-3346-2a79-c2b9ec7f4ce9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/a0/d4/3b/a0d43ba0-903a-3346-2a79-c2b9ec7f4ce9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/a0/d4/3b/a0d43ba0-903a-3346-2a79-c2b9ec7f4ce9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This a simple speedometer that tells you your current speed in mph, km/h or knots. \n\n-Retina Display \n-Huge Indicators \n-No Ads\n\n*The less transparent the indicator the better the accuracy.\n\nThis software is provided as is and uses the device's internal hardware to estimate speed. By continuing to use this app you agree to our Terms of Service."
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Tim O's Studios, LLC"
+    },
+    "title": {
+      "label": "Speedometer‰ - Tim O's Studios, LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/speedometer/id546560363?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/55/2b/25/552b25e8-8d5c-8c92-b90f-81bb845a6607/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/speedometer/id546560363?uo=2",
+      "attributes": {
+        "im:id": "546560363",
+        "im:bundleId": "com.timoswald.paidSpeedometer"
+      }
+    },
+    "im:artist": {
+      "label": "Tim O's Studios, LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/tim-os-studios-llc/id412839685?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-08-07T10:38:50-07:00",
+      "attributes": {
+        "label": "August 7, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 73,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Fb2-to-ePub"
+    },
+    "im:image": [
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/14/e4/ec/14e4ec05-64b0-52cc-ddf9-848365582488/pr_source.jpg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Fb2-to-ePub is a file converter program from fb2 to ePub formats working directly in your iPhone/iPad. Now you can read e-books in popular in Russia fb2 format without installing any extra book-readers. \nAfter downloading an fb2 e-book through Safari or DropBox simply open it in Fb2-to-ePub app. The program converts your file to ePub format and allows opening a book in any book-reader application installed, e.g. iBooks.\nIf you have got an e-book collection in your local computer just copy it with \niTunes into the Documents of the application. It will allow to select the collection e-books, convert them into the standard format and send to the book-reader. The program is able to process compressed archives of unlimited volume. \nBooks search in the library is possible by file name, name of book and author’s name."
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2012-2015, Semyon A. Chertkov"
+    },
+    "title": {
+      "label": "Fb2-to-ePub - Semyon A. Chertkov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/fb2-to-epub/id541521102?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is5-ssl.mzstatic.com/image/thumb/Purple49/v4/22/6b/74/226b747f-797b-e425-ed89-de9769f7890f/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/fb2-to-epub/id541521102?uo=2",
+      "attributes": {
+        "im:id": "541521102",
+        "im:bundleId": "com.wmhelp.Fb2ePub"
+      }
+    },
+    "im:artist": {
+      "label": "Semyon A. Chertkov",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/semyon-a-chertkov/id541521105?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-08-03T04:38:25-07:00",
+      "attributes": {
+        "label": "August 3, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 74,
+      "total": 99
+    },
+    "im:name": {
+      "label": "AntiBAG Тахограф"
+    },
+    "im:image": [
+      {
+        "label": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/38/69/3f/38693feb-f5ee-6c90-42b2-21a5312aa367/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Тахограф в кармане! \nДержать кнопки 1 секунду!!! Сброс таймеров держать 3 секунды!!!\nПо свайпу слева на право появится экран выбора количества водителей. Справа на лево появится экран настроек.\nВ приложении есть три активных области. \nПервая это напоминание ежедневного ввода страны начала и конца работы. Ввели в тахографе сокращенную букву и нажали соответствующую кнопку в приложении. Так Вы никогда не забудете об этой обязательной процедуре. Сокращенное обозначение страны для тахографа автоматически(GPS) пишется на кнопке. В конце рабочего дня ввели в тахографе букву страны окончания работы и подтвердили это действие в приложении. \nВторая область это все необходимые таймеры для работы. Удержание кнопки любого таймера в течении одной секунды запускает таймер или ставит его на паузу, если таймер уже был запущен. Удержание кнопки в течении 3 секунд сбрасывает таймер в первоначальное положение. Все таймеры работают независимо друг от друга. \nПеред началом работы включите таймер общего времени 13/15 часов(ALL) и вы всегда будете знать сколько у Вас осталось рабочего времени. За 30 минут(регулируется в опциях 30, 45 или 60 минут) приложение сообщит включением экрана и звуком о завершении рабочего дня. Если превысили положенное время, то приложение покажет на сколько минут.\nТаймер 45 минут проинформирует Вас об окончании паузы, когда вы находитесь вне автомобиля или заняты своими делами. Даст сигнал на 15 и 45 минутах. При чем таймер работает по правилам тахографа. Если пауза была нажата до 15 минут, то отдых не засчитается. Если 15 минут прошли а 45 минут еще не наступили, то засчитается только 15 минут, а следующую паузу таймер будет считать 30 минут. \nТаймер 9/11 часов рассчитает вам междневную паузу. Вы всегда будете видеть сколько вам осталось стоять до пределов 9 и 11 часов и когда наступит новый рабочий день. \nТаймер 24/45 часов рассчитает вам еженедельную паузу, Вы всегда будете видеть сколько вам осталось стоять до пределов 24 и 45 часов, если пауза сокращённая то приложение точно посчитает время компенсации.\nТаймер 144 часа(W - W) очень важный таймер. Его нужно включить тогда когда начали свой первый рабочий день, или когда закончили межнедельную паузу и начинается новая рабочая неделя. Вы всегда будете видеть сколько осталось времени до наступления начала следующей межнедельной паузы. 144 часа это максимально допустимый промежуток времени между двумя межнедельными паузами. Таймер сообщит вам за 30 минут(в опциях 30, 45 или 60 минут) о необходимости встать на очередной межнедельный отдых. \nТретья область это рабочий календарь. Сделали 15 или 9 часов, нажали соответствующую кнопку. Так вы всегда видите всю нужную информацию за рабочую неделю. Если между двумя межнедельными отдыхами уже были три увеличенных рабочих дня(15 часов) или три сокращённый ежедневных отдыха(9 часов), то таймер общего рабочего времени(ALL) будет считать только до 13 часов. \nЕсли вы проехали больше 9 часов, то нажмите кнопку 10. В календарной неделе можно 2 раза управлять машиной 10 часов. Индикация в рабочем календаре не позволит превысить этот недельный лимит.  Индикаторы 10 часовой езды сбросятся автоматически в понедельник 00:00. \nИндикатор-кнопка 24/45 напомнит какой отдых был у Вас предыдущий раз, сокращённый или полный. Это не позволит вам сделать подряд два сокращенных межнедельных отдыха. Переключать этот индикатор нужно в конце межнедельной паузы.  Переключение этого индикатора сбрасывает кнопки 15 и 9 в календаре и с началом новой рабочей недели вы можете опять брать 15 часовые рабочие дни и сокращенные 9 часовые паузы.   \nПрограмма полностью защищена от любых отключений, таких как принудительное завершение или разрядка аккумулятора.\nПри работе в свернутом режиме или выключенном экране работает звуковое оповещение таймеров.\nДобавлены таймеры считывания чипкарты 28 дней и смены тахо шайбы 24 часа."
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2017 ИП Кузнецова Г.Н."
+    },
+    "title": {
+      "label": "AntiBAG Тахограф - Maksim Kuzniatsou"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/antibag-%D1%82%D0%B0%D1%85%D0%BE%D0%B3%D1%80%D0%B0%D1%84/id1436730465?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/3d/47/9d/3d479d60-47f1-f574-bc57-9eda546493fa/mzl.fizdhlat.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/antibag-%D1%82%D0%B0%D1%85%D0%BE%D0%B3%D1%80%D0%B0%D1%84/id1436730465?uo=2",
+      "attributes": {
+        "im:id": "1436730465",
+        "im:bundleId": "com.spectech.antibag"
+      }
+    },
+    "im:artist": {
+      "label": "Maksim Kuzniatsou",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/maksim-kuzniatsou/id1436730464?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-11-18T16:42:08-07:00",
+      "attributes": {
+        "label": "November 18, 2018"
       }
     }
   },
@@ -8675,108 +8675,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Construction Calculator++"
-    },
-    "im:image": [
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0e/2a/29/0e2a298d-c437-7da5-59dd-862df4155316/AppIconCons-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/0e/2a/29/0e2a298d-c437-7da5-59dd-862df4155316/AppIconCons-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0e/2a/29/0e2a298d-c437-7da5-59dd-862df4155316/AppIconCons-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The creators of top ranked Statistics Calculator++ for iPhone and Statistics Calculator+++ for iPad, present Construction Calculator++,  designed for construction math solutions and unit conversions. \n\nConstruction Calculator++ comes with the following features:\n- Length-Width-Height Module: You can enter Length, Width, or Height values in Yard-Feet-Inch-Fractions, Decimal Feet,  Decimal Inches, and Yards. Enter the Length and Width to calculate Area, Perimeter (of a room), and Square-up. In addition, enter the Height to calculate the Volume, Wall Area, and Total Room Area. You can enter any single length value and convert it to other dimensions, for example from Feet-Inch-Fractions to Decimal Feet or Decimal Inches or back. Furthermore you can tap on any calculated dimension to convert it to other dimensions. If the calculated value is Volume you can tap and see its conversion to Board Feet. \n- Bricks/Blocks/Pavers/Tiles Function calculates the number of Bricks/Blocks/Pavers/Tiles needed for a certain length or area. You can use the  standard 8-inch x 16-inch size block/mortar (area of 128 square inches) or enter custom block size by height and length or area. Furthermore, this function allows you to quickly and simply add a waste allowance to the number of blocks calculated.\n- Drywall Sheets Function calculates the number of 4 x 8, 4 x 9, and 4 x 12 feet sheets required for an area or length. Furthermore, you can add your own custom size of Drywall Sheets. \n- Add, subtract, or convert linear measures with different units. The units include yard, feet, inches, inch fractions, meters, centimeters and millimeters. \n- Rafter Module: Enter any two of the four parameters, Rise, Run, Diagonal, or Pitch to calculate the unknowns. Run, Rise, and Diagonal values can be entered in Feet, Inches and Inch fractions or Decimal Feet and Decimal Inches. Pitch can be entered as a dimension in inches which is the amount of rise over 12 inches of run. Furthermore, Pitch can be entered as an angle in degrees, a percent grade or slope (pitch ratio). Tap on any of the values to see its conversion to other formats.  In addition to Common Rafter, you can perform calculations of Regular and Irregular Hip/Valley and Jack Rafters. You can also calculate Plump and Level cut angles. Simply enter known values of Common Rafter and you are done. Length and cut angles of the adjoining Hip (or Valley) rafters, Incremental Jack Adjustment, Regular/Irregular Jack Rafter Lengths and Cut Angles for 16 Inch On Center Spacing are all automatically calculated. You can also enter an On Center Spacing other than 16 Inches.\n- Circle and Arc Module: Solves for parameters of circle and arc. The parameters include radius, diameter, area, circumference, arc length, arc angle, chord length (run), segment rise (rise), segment area, and pie slice area. A plot of circle or arc and its parameters is drawn to scale to visualize the parameters for you .\n- Shows the expression as you enter and keeps a history of your calculations (Swipe up on the screen to reveal the history)\n- Capability of performing fraction manipulations and converting between different formats (proper, improper, and mixed fractions) and seamless integration of fraction, integer, and decimal manipulations.\n- Capability of inputting degrees, minutes, and seconds for angles and converting between degrees-minutes-seconds format and decimal format.\n- The left pane scrolls to reveal more functionality without a need to switch modes. The digits and most common operations are always visible and the less common operations can be revealed by scrolling the left half of the screen.\n- Sinusoidal functions can be calculated for angles in units of degrees, radians, or gradians."
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Dogahe"
-    },
-    "title": {
-      "label": "Construction Calculator++ - Dogahe"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ee/app/construction-calculator/id749110889?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a7/0e/56/a70e56b9-28ce-468c-c1ba-78493fd787e3/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ee/app/construction-calculator/id749110889?uo=2",
-      "attributes": {
-        "im:id": "749110889",
-        "im:bundleId": "CONS"
-      }
-    },
-    "im:artist": {
-      "label": "Dogahe",
-      "attributes": {
-        "href": "https://apps.apple.com/ee/developer/dogahe/id468657946?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-05-13T13:44:10-07:00",
-      "attributes": {
-        "label": "May 13, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ee",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 87,
-      "total": 99
-    },
-    "im:name": {
       "label": "Flying Ruler Pro"
     },
     "im:image": [
@@ -8875,7 +8773,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 88,
+      "index": 87,
       "total": 99
     },
     "im:name": {
@@ -8977,7 +8875,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 89,
+      "index": 88,
       "total": 99
     },
     "im:name": {
@@ -9079,7 +8977,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 90,
+      "index": 89,
       "total": 99
     },
     "im:name": {
@@ -9181,7 +9079,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 91,
+      "index": 90,
       "total": 99
     },
     "im:name": {
@@ -9283,7 +9181,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 92,
+      "index": 91,
       "total": 99
     },
     "im:name": {
@@ -9385,7 +9283,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 93,
+      "index": 92,
       "total": 99
     },
     "im:name": {
@@ -9487,7 +9385,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 94,
+      "index": 93,
       "total": 99
     },
     "im:name": {
@@ -9589,7 +9487,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 95,
+      "index": 94,
       "total": 99
     },
     "im:name": {
@@ -9691,7 +9589,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 96,
+      "index": 95,
       "total": 99
     },
     "im:name": {
@@ -9793,7 +9691,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 97,
+      "index": 96,
       "total": 99
     },
     "im:name": {
@@ -9895,7 +9793,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 98,
+      "index": 97,
       "total": 99
     },
     "im:name": {
@@ -9997,7 +9895,7 @@
       "country_code": "ee",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 99,
+      "index": 98,
       "total": 99
     },
     "im:name": {
@@ -10091,6 +9989,108 @@
       "label": "2010-02-18T12:16:26-07:00",
       "attributes": {
         "label": "February 18, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ee",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 99,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Blue Iris"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This app is a CLIENT for the Blue Iris Windows PC software.  In order to make use of this app, you must have Blue Iris version 5 installed and running on a Windows PC or VM.  Instructions for connecting this app to the PC software are found in the Remote Access chapter of its Help file.\n\nThis app provides a single point of contact to your home camera network.  There is no need to insecurely open individual cameras to the Internet.  This app connects using a secure and session-based protocol--no passwords are transmitted in plain text.\n\nRemote access does require router configuration or NGROK, which you can test without the app by using Safari.  You should see your Blue Iris login page.\n\nKey features include:\n\n- Manage multiple Blue Iris installations\n- Geofencing: set status, send alerts, and more in response to device location *\n- Control the shield icon, schedule and profile selection\n- Receive iOS push notification alerts when a Blue Iris camera is triggered or there is a critical status message\n- Fast H.264 streaming\n- Control PTZ, IR and more for any camera that’s also controllable at the Blue Iris PC\n- Listen to and talk to any camera that’s also supported at the Blue Iris PC\n- Navigate cameras by tapping and swiping\n- Review recordings as stored on the Blue Iris PC, up to 64x speed\n- Download recorded video from the Blue Iris PC to the iOS device\n- Selectively delete recordings from the Blue Iris PC\n- Broadcast live video from the iOS device directly into a Blue Iris PC camera window\n- Remote control DIO output signals on compatible devices\n- Baby monitor functionality: continue to listen to audio with app closed or device in standby **\n\n* Note that continued use of GPS running in the background can dramatically decrease battery life.\n** Note that continued use of audio streaming running in the background can dramatically decrease battery life."
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Perspective Software, All Rights Reserved"
+    },
+    "title": {
+      "label": "Blue Iris - Ken Pletzer"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ee/app/blue-iris/id585350145?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/cb/31/54/cb3154ee-6da7-2fad-bf96-4c13a473f1b5/3bec67c3-7252-465d-b5e7-1372b7e0dfa0_Screenshot_2020-09-08_at_11.42.13_AM.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ee/app/blue-iris/id585350145?uo=2",
+      "attributes": {
+        "im:id": "585350145",
+        "im:bundleId": "com.perspective.Blue-Iris"
+      }
+    },
+    "im:artist": {
+      "label": "Ken Pletzer",
+      "attributes": {
+        "href": "https://apps.apple.com/ee/developer/ken-pletzer/id585350148?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ee/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-12-15T15:15:50-07:00",
+      "attributes": {
+        "label": "December 15, 2012"
       }
     }
   }

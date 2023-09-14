@@ -110,6 +110,516 @@
       "total": 100
     },
     "im:name": {
+      "label": "SSTP Connect"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "SSTP Connect is a VPN client that supports these protocols:\n- SSTP (MS-SSTP)\n- SoftEther VPN\n\nThis is only a VPN client. No VPN service is included. You need to specify the server you are connecting to.\n\n• Native\nOnly iOS native libraries are used in the core function, including the TLS stack. No OpenSSL.\nConnections are saved natively so that you can start a connection from the system settings.\n\n• Simple\nVPN clients ought to be small and simple. No ads, analytics or other 3rd-party SDK are included.\n\n• Privacy\nNo data is collected from you. Connection log only exists in the memory and is never saved to the device.\n\n• Complete\nSupport all password and certificate-based authentications available in Windows 11.\nSupport authenticating by password and certificate at the same time with TEAP (EAP chaining).\nProtocol details below.\n\n• Security\nPasswords and certificates are stored in the iOS keychain. SSTP Connect never saves them locally for convenience.\n\n• IPv6 Ready\nSupport both IPv6 connections and stateless IPv6 configuration in the VPN tunnels. (DHCPv6 not supported)\n\n• More than TCP\nSupport NAT traversal (NAT-T) and UDP acceleration just like the official SoftEther client. (Requiring iOS 12+)\n\n• Easy Import and Export\nNot only from SSTP Connect, reading connection settings from SoftEther Client Manager is also a piece of cake.\n\n• Routing\nAccept static routes pushed from the server or add your own entries.\n\nSSTP Authentication Methods\n- PEAP*\n- EAP-TTLS*\n- TEAP* (EAP chaining)\n- EAP-TLS*\n- EAP-MSCHAPv2\n- MSCHAPv2\n- CHAP\n- PAP\n* Requires iOS 12+\n\nSoftEther Authentication Methods\n- Password\n- RADIUS / NT Domain Password\n- Certificate\n- Anonymous\n\nSupported Server Platforms\n• Microsoft Windows Server 2008 and later\n• Microsoft Azure P2S VPN\n• MikroTik RouterOS*\n• SoftEther VPN Server\n• VPN Azure\n\n* Servers configured without certificates are not supported.\n\nSSTP Connect is a third-party implementation based on Microsoft Open Specifications and SoftEther VPN source code. We do not have any affiliation with either Microsoft Corporation or SoftEther Corporation."
+    },
+    "im:price": {
+      "label": "EGP 99.99",
+      "attributes": {
+        "amount": "99.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Domosekai Limited"
+    },
+    "title": {
+      "label": "SSTP Connect - Domosekai Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/sstp-connect/id1543667909?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/00/45/77/004577c3-9021-e0d6-1a80-f70e6a1c2794/36c3eba6-6805-46ca-bd40-e827dbaf3200_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-03-01_at_21.50.06__U00281_U0029.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/sstp-connect/id1543667909?uo=2",
+      "attributes": {
+        "im:id": "1543667909",
+        "im:bundleId": "com.domosekai.vpnclient"
+      }
+    },
+    "im:artist": {
+      "label": "Domosekai Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/domosekai-limited/id1488582967?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-19T00:00:00-07:00",
+      "attributes": {
+        "label": "January 19, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 3,
+      "total": 100
+    },
+    "im:name": {
+      "label": "iNet Pro - Network Scanner"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ce/dd/9e/cedd9eaf-1993-1bb3-6fd6-ccdcb1917f64/AppIcon-iNet-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ce/dd/9e/cedd9eaf-1993-1bb3-6fd6-ccdcb1917f64/AppIcon-iNet-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ce/dd/9e/cedd9eaf-1993-1bb3-6fd6-ccdcb1917f64/AppIcon-iNet-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "iNet - explore your network!\nFind out about security risks and keep your network under control. Which devices are connected to my network? Are they online? Which services do they provide? Does somebody use my wifi network without my knowledge? These and other questions answers iNet fast and simple.\n\nWith iNet you know exactly what's going on! This easy to use App outlines a computer network even to the unexperienced user. And iNet never phones home, your data is absolutely private on your iPhone.\n\niNet provides you with information about networks your iPhone or iPod touch is connected to. Its very easy and user friendly design even allows the unexperienced user to get a profound and understandable overview of a network and the running services.\n\nIn the current release of iNet we implemented the following features:\n\n    • Network scan\n    • Ping\n    • Bonjour browser\n    • Portscan\n    • Device info\n    • Wake on Lan\n    • Sleep on Lan (Macintosh only)\n    • Extensive help section\n    • Send scan results via email\n\nScan Network:\niNet shows the devices connected to your local network, e. g. a computer or router, along with their name, IP and vendor. iNet discovers and distinguishes between windows and macintosh computers with different icons. For most Apple Computers the particular computer model can be seen. Find out the name, vendor and IP of the connected devices as well as the number of running Bonjour services on that particular device. (MAC and Vendor cannot be detected anymore since iOS 11) A classic portscan on the choosen device can also be performed.\n\nThe technology used in iNet scans on a very low level, therefore one can even find machines that don't want to be found, for instance a Mac OS X computer running in stealth mode.\n\nPing:\nPing is a computer network tool used to test whether a particular host is reachable across an IP network or not. The ping section in iNet enables you to find out if an IP exists (if its ping service is enabled; otherwise you will get no response :-)). For your convenience we added a bookmark function to store often needed addresses.\n\nBonjour browser:\nBonjour, also known as zero-configuration networking, enables automatic discovery of computers, devices, and services on IP networks. Bonjour uses industry standard IP protocols to allow devices to automatically discover each other without the need to enter IP addresses or configure DNS servers. The Bonjour-Browser in iNet scans the connected local network for Bonjour services, detecting any hardware that ist connected via the Bonjour protocol (for instance computer, router, printer, …) and any software running Bonjour services, e. g. iTunes or Filemaker.\n\nWake on lan:\nThe outstanding feature of our implementation is that it is very easy to use and simple to setup. For more information see iNet WOL, our stand-alone tool for WOL.\n\nPortscan:\nApplications on devices communicate with the outside world through so called TCP ports. iNet detects wether a port is open or closed. For all detected open ports the service using this port is displayed by its real name (if available).\n\nDevice Info: \nThe device info in iNet shows some information related to your iPhone or iPod touch, e. g. its name or its IP.\n\nIf you want to know what's going on in your local network - iNet Networks Scanner gives you a profound answer.\n\nP.s.: In case you need just the network scan feature of iNet Pro, use the basic version iNet - Network Scanner.  You can always update to iNet Pro from within iNet to access its full feature set. \n\nP.p.s: iNet never \"phones home\"!"
+    },
+    "im:price": {
+      "label": "EGP 299.99",
+      "attributes": {
+        "amount": "299.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© BananaGlue"
+    },
+    "title": {
+      "label": "iNet Pro - Network Scanner - BananaGlue GmbH"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/inet-pro-network-scanner/id305242949?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/9e/31/a3/9e31a369-c91f-5df4-a64d-3772ecd0c384/68c178f6-290e-44f0-8ec3-7a141801b177_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-06-03_at_09.45.48.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/inet-pro-network-scanner/id305242949?uo=2",
+      "attributes": {
+        "im:id": "305242949",
+        "im:bundleId": "com.bananaglue.iNet"
+      }
+    },
+    "im:artist": {
+      "label": "BananaGlue GmbH",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/bananaglue-gmbh/id298348769?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-04-09T21:10:33-07:00",
+      "attributes": {
+        "label": "April 9, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 4,
+      "total": 100
+    },
+    "im:name": {
+      "label": "JSON Viewer - Json file reader"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ef/04/b3/ef04b391-1b7d-d01c-d33c-d8e625b8fee9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ef/04/b3/ef04b391-1b7d-d01c-d33c-d8e625b8fee9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ef/04/b3/ef04b391-1b7d-d01c-d33c-d8e625b8fee9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "With JSON VIEWER, opening, searching and managing JSON files on your iPhone or iPad will no longer be a problem.\n\nTo use it, touch the JSON file in any application, select \"Open with ..\" And select JSON VIEWER.\n\nWith JSON VIEWER you can:\n\n- Open all JSON files directly from other applications on your device\n- JSON to PDF converter\n- Archive your JSON files\n- Share or print your JSON files\n\nPrivacy Policy: https://www.iubenda.com/privacy-policy/43220327"
+    },
+    "im:price": {
+      "label": "EGP 69.99",
+      "attributes": {
+        "amount": "69.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 KnowledgeWorks"
+    },
+    "title": {
+      "label": "JSON Viewer - Json file reader - Beatcode Srl"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/json-viewer-json-file-reader/id1490263936?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/e3/77/76/e3777653-745d-9fe6-0b80-3af96ecaac30/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/json-viewer-json-file-reader/id1490263936?uo=2",
+      "attributes": {
+        "im:id": "1490263936",
+        "im:bundleId": "it.knowledgeworks.json"
+      }
+    },
+    "im:artist": {
+      "label": "Beatcode Srl",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/beatcode-srl/id1478673452?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-12-06T00:00:00-07:00",
+      "attributes": {
+        "label": "December 6, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 5,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Voice Recorder - VOZ Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c0/df/82/c0df82fa-365c-bf76-c2d0-2600c75af630/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c0/df/82/c0df82fa-365c-bf76-c2d0-2600c75af630/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c0/df/82/c0df82fa-365c-bf76-c2d0-2600c75af630/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The pro version without ads.\nVoice recorder is a great recording application that easily records audio, voice,  of the song, speech, lecture, meeting, and save in the device's internal storage. So, you can play back whenever you want, on your phone. \n\nThis is a excellent recording application, meet quality great voice recording, ensuring the information is recorded clearly, accurately, with less noise.\n\nIt does not limit the recording time, which only depends on the remaining space of your internal memory. The voice recorder app stores your recordings and shares them with your friends through social networking channels.\nThe voice recorder pro is designed with an intuitive interface that makes it easy to record, pause, edit audio and much more. It is a very useful application for your work and life.\nFeatures:\n- HD Audio recorder\n- High quality voice recording.\n- Recorder songs, lectures, speeches,… best quality\n- Supported file formats: mp3, ogg\n- Play, pause, stop audio files.\n- Send / Share your recording.\n- Delete your recording right from the app.\n- Rename and delete your recordings.\n- Save the recording file on the device's internal memory\n- Live audio spectrum analyzer\n- Digital voice recorder\n- Mp3 encoded with adjustable sample rate (8-44 kHz)\n- Record in the background (even if the screen is off)\n- Microphone upscaling tool\n- Save / pause / resume / abort the recording process control\n- Send a recording and share a note via email, sms, mms, facebook, WhatsApp, dropbox, ...\n- Move your audio recording through the computer easily\n- Record the microphone inside or outside\n- We are improving .wave format\n- A timer to keep track of your recording time.\n- Smart recorder, automatic recording\n- Call recording is not supported\nThank you for downloading and using voice recorder. Your feedback and suggestions help us to improve!\nAny contact please send by email:\nSincerely thank!"
+    },
+    "im:price": {
+      "label": "EGP 149.99",
+      "attributes": {
+        "amount": "149.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© @2016 DH INC"
+    },
+    "title": {
+      "label": "Voice Recorder - VOZ Pro - Hieu Nguyen"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/voice-recorder-voz-pro/id1467344437?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/78/b8/60/78b8608b-712e-6ac6-ab05-aacb8217ecb4/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/voice-recorder-voz-pro/id1467344437?uo=2",
+      "attributes": {
+        "im:id": "1467344437",
+        "im:bundleId": "com.dh.audio.voicerecorder.VoiceRecorderV3.pro"
+      }
+    },
+    "im:artist": {
+      "label": "Hieu Nguyen",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/hieu-nguyen/id1255775618?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-08-30T00:00:00-07:00",
+      "attributes": {
+        "label": "August 30, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 6,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Wifi Share: internet & hotspot"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a4/14/0c/a4140cc5-120b-f06c-65b3-4ca7c6baf374/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a4/14/0c/a4140cc5-120b-f06c-65b3-4ca7c6baf374/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a4/14/0c/a4140cc5-120b-f06c-65b3-4ca7c6baf374/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "\"Wifi Share: internet & hotspot\" can help you quickly share wifi with your friends/guests.\nUse this Wifi Share App to generate and share Wifi QR codes.\nThe device will connect to wifi automatically after you scan the generated QR code.\n\n- Features -\n1. Add New Wifi Info -> it will generate QR code automatically after saving.\n2. Share the wifi info or QR code.\n3. Scan to connect.\n\nAlso, you can generate, share, and store your Wifi info as much as you want."
+    },
+    "im:price": {
+      "label": "EGP 9.99",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© AppStudio"
+    },
+    "title": {
+      "label": "Wifi Share: internet & hotspot - Nolan Townsend"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/wifi-share-internet-hotspot/id1559339640?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/28/c6/70/28c6703b-4ab0-5ba3-cdc6-dbe56db96a59/7192b324-94a1-4cbe-ae28-dc0ef252a0eb_IMG_0102.PNG/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/wifi-share-internet-hotspot/id1559339640?uo=2",
+      "attributes": {
+        "im:id": "1559339640",
+        "im:bundleId": "com.appstudio.wifishare"
+      }
+    },
+    "im:artist": {
+      "label": "Nolan Townsend",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/nolan-townsend/id1506705934?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-03-24T00:00:00-07:00",
+      "attributes": {
+        "label": "March 24, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 7,
+      "total": 100
+    },
+    "im:name": {
       "label": "Shadowrocket"
     },
     "im:image": [
@@ -208,7 +718,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 3,
+      "index": 8,
       "total": 100
     },
     "im:name": {
@@ -310,7 +820,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 4,
+      "index": 9,
       "total": 100
     },
     "im:name": {
@@ -412,7 +922,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 5,
+      "index": 10,
       "total": 100
     },
     "im:name": {
@@ -514,7 +1024,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 6,
+      "index": 11,
       "total": 100
     },
     "im:name": {
@@ -616,7 +1126,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 7,
+      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -718,7 +1228,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 8,
+      "index": 13,
       "total": 100
     },
     "im:name": {
@@ -812,516 +1322,6 @@
       "label": "2023-04-16T00:00:00-07:00",
       "attributes": {
         "label": "April 16, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 9,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Contacts to Excel , PDF , CSV"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/d5/f4/ecd5f44b-534b-4acc-7b62-f1a964fc8cf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/d5/f4/ecd5f44b-534b-4acc-7b62-f1a964fc8cf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/d5/f4/ecd5f44b-534b-4acc-7b62-f1a964fc8cf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Export Files To :\n\n1. XLSX Format | Supports Microsoft Excel with formatting of contacts details !\n2. PDF Format | You can generate a PDF file, Print or Share it to mark and work on the list !\n3. CSV Format | Now export to CSV format for Outlook, Gmail and other supported apps or softwares !\n4. VCF ( vCard ) Format | Standard VCF file to export contacts to other devices or to create backup of your contacts !\n\n\nFeatures :\n\n1. Export contacts to XLSX, PDF, CSV or VCF file format\n2. Export all contacts at once or choose the contacts you want to export !\n3. Preview exported file and the share with other apps or mail it using other apps!\n4. Backup contacts by exporting with VCF ( vCard ) file !\n5. Edit File Name, delete exported files or share anytime.\n\nFor any further questions please feel free to contact us at :\nsupport@dropouts.in"
-    },
-    "im:price": {
-      "label": "EGP 29.99",
-      "attributes": {
-        "amount": "29.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Dropouts Technologies LLP"
-    },
-    "title": {
-      "label": "Contacts to Excel , PDF , CSV - Dropouts Technologies LLP"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/contacts-to-excel-pdf-csv/id1315523858?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/3a/f9/c9/3af9c906-28fc-c293-2c5f-8cc8158dba4f/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/contacts-to-excel-pdf-csv/id1315523858?uo=2",
-      "attributes": {
-        "im:id": "1315523858",
-        "im:bundleId": "com.dropouts.contacts2excel"
-      }
-    },
-    "im:artist": {
-      "label": "Dropouts Technologies LLP",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/dropouts-technologies-llp/id575481782?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-22T10:23:54-07:00",
-      "attributes": {
-        "label": "November 22, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 10,
-      "total": 100
-    },
-    "im:name": {
-      "label": "OBDII Trouble Codes"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/6d/2e/c56d2e34-d5d5-b44c-2c15-31109f8a96d1/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/6d/2e/c56d2e34-d5d5-b44c-2c15-31109f8a96d1/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/6d/2e/c56d2e34-d5d5-b44c-2c15-31109f8a96d1/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This app is the most complete offline OBD2 (EOBD) diagnostic trouble code definitions database. It contains more than 18500 error descriptions. It is the most full database in market.\n\nVery simple to use! You don't even have to select your car model. Just enter your fault code and app will show you all supported descriptions. No Internet connection needed, no longer spend hours to search for single code description, looking at check engine light.\n\nIf you have usb, bluetooth or WiFi OBDII code reader (ELM327, PLX Kiwi or any other) you need this app for code description because most of code scanners does not contain full DTC (diagnostic trouble code)  database and displays only meaningfull numbers. Be prepared for any troubles wherever you are!\n\nYou can select and copy error description with simple long press on text, and then paste it in SMS, e-mail or wherever you want!\n\nIf your car supports OBD II or EOBD, then you can already use almost 5000 generic OBDII codes. These codes are from PowerTrain series (P0XXX, P2XXX, P34XX), Body Series (B0XXX), Chassis series (C0XXX), Network series (U0XXX, U2XXX, U3XXX).\n\nAlso there is a list of more than 13500 additional manufacturer specific codes.\nSupported manufacturers with specific codes:\nAcura\nAlfa Romeo\nBMW\nChrysler / Dodge / Jeep\nCitroen / Peugeot\nDaewoo\nFiat\nFord\nGeo\nGM (Buick, Cadillac, Chevrolet, GMC, Hummer, Pontiac)\nHonda\nHyundai\nInfinity\nIsuzu\nJaguar\nKia\nLamborghini\nLand Rover\nLexus \nLincoln\nMazda\nMercedes\nMercury\nMini\nMitsubishi\nNissan\nOldsmobile\nOpel / Vauxhall\nPlymouth\nPorsche\nRenault (DF codes)\nSaab\nSaturn\nScion\nSubaru\nSuzuki\nToyota\nVolskwagen Audi Group\nVolvo\n\nNote that it is impossible to create complete OBD DTC database. Manufacturers adding new codes and changing old ones. So if you cannot find your code or if you think that some code not correct anymore, please write us!"
-    },
-    "im:price": {
-      "label": "EGP 149.99",
-      "attributes": {
-        "amount": "149.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 NomDev"
-    },
-    "title": {
-      "label": "OBDII Trouble Codes - Oleg Chumakov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/obdii-trouble-codes/id688892117?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/a7/b7/0f/a7b70fa4-3172-9510-a01c-ab9c8767c9c1/ff0ce279-99f4-442d-bae1-b06fd31fd080_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-12-21_at_21.45.35.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/obdii-trouble-codes/id688892117?uo=2",
-      "attributes": {
-        "im:id": "688892117",
-        "im:bundleId": "NoM.OBDII-Codes"
-      }
-    },
-    "im:artist": {
-      "label": "Oleg Chumakov",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/oleg-chumakov/id688892120?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-10-26T14:42:59-07:00",
-      "attributes": {
-        "label": "October 26, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 11,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Cell Tracker & Mobile Locator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/07/d9/b7/07d9b78c-cbc6-c99d-590c-6aa09a2ca96d/AppIcon-1x_U007emarketing-0-5-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/07/d9/b7/07d9b78c-cbc6-c99d-590c-6aa09a2ca96d/AppIcon-1x_U007emarketing-0-5-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/07/d9/b7/07d9b78c-cbc6-c99d-590c-6aa09a2ca96d/AppIcon-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Cell Tracker & Mobile Number Locator lets you to get information of your caller.\n\nYou can easily get from which state and telecom operator, your caller mobile number belongs to.\n\nNo Internet connection  required.\n\nDo you always get regular missed calls and messages from a particular number, then it will be help you in tracking the state and mobile operator for that number.\n\nSo download & keep track information of caller or any   numbers"
-    },
-    "im:price": {
-      "label": "EGP 99.99",
-      "attributes": {
-        "amount": "99.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Neeraj Apps"
-    },
-    "title": {
-      "label": "Cell Tracker & Mobile Locator - Neeraj ."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/cell-tracker-mobile-locator/id1153520672?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/de/25/b0/de25b011-a24d-c694-a02c-ba3e389a21b9/2919fbc4-677b-4c8f-8cc5-82a42764cb69_iphone1.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/cell-tracker-mobile-locator/id1153520672?uo=2",
-      "attributes": {
-        "im:id": "1153520672",
-        "im:bundleId": "com.insiderapps.mobilelocator"
-      }
-    },
-    "im:artist": {
-      "label": "Neeraj .",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/neeraj/id1146795384?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-09-17T20:51:57-07:00",
-      "attributes": {
-        "label": "September 17, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 12,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Necrometer"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/72/68/447268d5-09a0-bf53-2dbb-f883553137ff/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/72/68/447268d5-09a0-bf53-2dbb-f883553137ff/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/72/68/447268d5-09a0-bf53-2dbb-f883553137ff/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Necrometer\n\nDesigned for ghost hunters and paranormal enthusiasts. This multifunctional app can be used to detect and communicate with spirits. We have taken known spirit communication techniques and theories and have implemented them here in new and innovative ways. \n\n-Meter that detects and measures magnetic energy\n-Text and Speech modes\n-2 Built in Text To Speech A.I. systems\n-3 Voices\n-Pitch control with randomization option\n-Reverb and Echo audio effects\n\nThe Meter:\nIt is believed that spirits can affect magnetic energy fields. Using your phone’s Magnetometer sensor this app can detect levels of magnetic interference in the environment. These fluctuations of energy fields have a direct influence on the communication.\n-Meter noise (optional) reacts to fluctuations in the meter\n\nText Mode:\nSimply slide the power button over to \"Text\" and begin asking your questions. Walking around a location you can detect energy anomalies and various levels of magnetic interference. Words and phrases will begin coming through the app. The relevance of the communication is determined by multiple factors including spirit connection and strength. Those who have a stronger connection to the otherside may experience more direct and relevant communication. \nSimilar to the famous Ovilus ITC device, the Necrometer app is designed to facilitate spirit communication by measuring fluctuations of energy in the environment. The idea that spirits can manipulate electronic devices for purposes of communication is well documented. Based on the theory of random selection and known evidence of energy manipulation, the Necrometer app utilizes these known methods of spirit communication and paranormal phenomena. \n-Access to over 60k words/phrases\n-Custom word list, Add your own words and phrases\n\nSpeech Mode:\nSliding the power button over to \"Speech\" will turn on this unique mode of the app. Created to facilitate ghost box/ EVP like communication, the speech mode of the app provides audible spirit communication like no other. Generating speech sounds from within the app, there are no sound banks, word lists, radio, or any other pre-recorded audio. Spirits can use and manipulate these random speech sounds to form coherent messages, an idea rooted in ITC/EVP theory. Some of these messages may be heard in real time similar to a ghost box, other EVP-like communication can be heard on playback of the recorded audio. Again, the strength and level of communication being recieved depends on various factors. Coherent messages can only be obtained through communication with spirit, otherwise only unclear speech sounds will be heard.\n-Rate slider to increase/decrease rate of audio coming through\n\nThe Necrometer app is an advanced all-in-one app that can be used to detect energy anomalies in the area, produce words and phrases that can provide relevant clues/information, and provide audible ITC/EVP communication from spirit."
-    },
-    "im:price": {
-      "label": "EGP 349.99",
-      "attributes": {
-        "amount": "349.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Chris Rogers"
-    },
-    "title": {
-      "label": "Necrometer - chris rogers"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/necrometer/id1670762759?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ba/95/2a/ba952aa9-475b-bfe2-34c3-7a0e9d156876/b7bd4855-4200-4556-ac46-48ba95b37eab_IMG_1858.PNG/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/necrometer/id1670762759?uo=2",
-      "attributes": {
-        "im:id": "1670762759",
-        "im:bundleId": "com.BitPlague.Necrometer"
-      }
-    },
-    "im:artist": {
-      "label": "chris rogers",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/chris-rogers/id1119043156?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-05-25T00:00:00-07:00",
-      "attributes": {
-        "label": "May 25, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 13,
-      "total": 100
-    },
-    "im:name": {
-      "label": "SSTP Connect"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "SSTP Connect is a VPN client that supports these protocols:\n- SSTP (MS-SSTP)\n- SoftEther VPN\n\nThis is only a VPN client. No VPN service is included. You need to specify the server you are connecting to.\n\n• Native\nOnly iOS native libraries are used in the core function, including the TLS stack. No OpenSSL.\nConnections are saved natively so that you can start a connection from the system settings.\n\n• Simple\nVPN clients ought to be small and simple. No ads, analytics or other 3rd-party SDK are included.\n\n• Privacy\nNo data is collected from you. Connection log only exists in the memory and is never saved to the device.\n\n• Complete\nSupport all password and certificate-based authentications available in Windows 11.\nSupport authenticating by password and certificate at the same time with TEAP (EAP chaining).\nProtocol details below.\n\n• Security\nPasswords and certificates are stored in the iOS keychain. SSTP Connect never saves them locally for convenience.\n\n• IPv6 Ready\nSupport both IPv6 connections and stateless IPv6 configuration in the VPN tunnels. (DHCPv6 not supported)\n\n• More than TCP\nSupport NAT traversal (NAT-T) and UDP acceleration just like the official SoftEther client. (Requiring iOS 12+)\n\n• Easy Import and Export\nNot only from SSTP Connect, reading connection settings from SoftEther Client Manager is also a piece of cake.\n\n• Routing\nAccept static routes pushed from the server or add your own entries.\n\nSSTP Authentication Methods\n- PEAP*\n- EAP-TTLS*\n- TEAP* (EAP chaining)\n- EAP-TLS*\n- EAP-MSCHAPv2\n- MSCHAPv2\n- CHAP\n- PAP\n* Requires iOS 12+\n\nSoftEther Authentication Methods\n- Password\n- RADIUS / NT Domain Password\n- Certificate\n- Anonymous\n\nSupported Server Platforms\n• Microsoft Windows Server 2008 and later\n• Microsoft Azure P2S VPN\n• MikroTik RouterOS*\n• SoftEther VPN Server\n• VPN Azure\n\n* Servers configured without certificates are not supported.\n\nSSTP Connect is a third-party implementation based on Microsoft Open Specifications and SoftEther VPN source code. We do not have any affiliation with either Microsoft Corporation or SoftEther Corporation."
-    },
-    "im:price": {
-      "label": "EGP 99.99",
-      "attributes": {
-        "amount": "99.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Domosekai Limited"
-    },
-    "title": {
-      "label": "SSTP Connect - Domosekai Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/sstp-connect/id1543667909?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/00/45/77/004577c3-9021-e0d6-1a80-f70e6a1c2794/36c3eba6-6805-46ca-bd40-e827dbaf3200_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-03-01_at_21.50.06__U00281_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/sstp-connect/id1543667909?uo=2",
-      "attributes": {
-        "im:id": "1543667909",
-        "im:bundleId": "com.domosekai.vpnclient"
-      }
-    },
-    "im:artist": {
-      "label": "Domosekai Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/domosekai-limited/id1488582967?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-19T00:00:00-07:00",
-      "attributes": {
-        "label": "January 19, 2021"
       }
     }
   },
@@ -3068,108 +3068,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Just Press Record"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Just Press Record is the ultimate audio recorder bringing one tap recording, transcription and iCloud syncing to all your devices. You can edit your audio and transcriptions right inside the app and even start a new recording completely hands-free with Siri!\n\nLife is full of moments we would rather not forget - like your child’s first words, an important meeting or spontaneous idea. Capture these moments effortlessly on iPhone, iPad, Mac or for ultimate convenience, Apple Watch.\n\nRECORD\n• One tap to start, stop, pause and resume recording.\n• Start and stop recording from Shortcuts, Siri, the Widget, a 3D Touch Quick Action or via the URL scheme.\n• Unlimited recording time.\n• Record discretely in the background.\n• Choose to record from the built-in mic, AirPods or external microphones.\n• Record independently on Apple Watch and sync later.\n\nPLAY\n• Seek backwards and forwards during playback.\n• Adjustable playback speed.\n\nTRANSCRIBE\n• Turn speech into searchable text.\n• Support for over 30 languages, independent of your device's language setting.\n• Synchronized text highlighting and audio playback.\n• Format as you record with punctuation commands.\n\nEDIT\n• Audio - visualise your audio in the waveform view and cut out the parts you don’t need.\n• Text - make corrections and add new text to your transcriptions.\n\nSHARE\n• Share audio and text to other apps.\n• Share easily to social media as a video clip.\n• Share to iTunes on Mac or PC via USB cable.\n• Print a hard copy of your transcripts.\n• Share audio files from other apps to Just Press Record. \n\nORGANISATION\n• View recent recordings or browse your library by date and time.\n• Search by filename or transcription content.\n• Dedicated tab for quick access to recordings made on Apple Watch.\n• Rename recordings.\n• Slide Over and Split View support on iPad.\n• Add a badge to the app icon showing the number of unplayed recordings.\n\nSTORAGE\n• Choose to store recordings in iCloud Drive or locally on-device.\n• Recordings stored in iCloud Drive automatically sync across all your devices.\n• Recordings stored locally benefit from Files app integration and automatic iTunes File Sharing.\n• Transcriptions are stored within the audio file.\n\nPRO-AUDIO\n• Support for stereo recording from the built-in microphone on supported devices.\n• Support for high quality external microphones connected via the Lightning Port.\n• Customisable Audio Settings to enhance your recording experience.\n• File types include WAV, AIF or standard iTunes M4A (ACC).\n• High quality audio up to 96kHz / 24-bit.\n\nACCESSIBILITY\n• VoiceOver support throughout the app.\n• Magic Tap gesture to start / stop a recording.\n\nAPPLE WATCH\nJust Press Record includes an Apple Watch app that gives you the freedom to record anywhere, even when your iPhone is not around.\n\n• Start recording with a single tap on the Complication.\n• Record discretely in the background.\n• Unlimited recording time.\n• Recordings automatically transfer to iPhone for transcription and iCloud syncing.\n• Listen to recent recordings through the built-in speaker or AirPods.\n• Adjust volume with the Digital Crown.\n• Pause recording with a downward swipe.\n• Accessibility support with VoiceOver, reduced motion and support for the extra large Complication template.\n\nIMPORTANT:\n• Just Press Record does not record phone calls or audio from other apps.\n• Transcription requires a good, clean audio signal.  Avoid recording in noisy environments and ensure the microphone is positioned close to the source.\n• Recording from AirPods is not available on Apple Watch.\n• URL scheme implemented by Just Press Record can be found on our FAQ page."
-    },
-    "im:price": {
-      "label": "EGP 179.99",
-      "attributes": {
-        "amount": "179.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Open Planet Software Ltd."
-    },
-    "title": {
-      "label": "Just Press Record - Open Planet Software"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/just-press-record/id1033342465?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ef/d7/af/efd7afcd-f25c-128c-1282-70dbcaa3efd9/3738b0e0-2065-4551-ad1b-b8c90fdc267d_iPad_Pro_All_Devices.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/just-press-record/id1033342465?uo=2",
-      "attributes": {
-        "im:id": "1033342465",
-        "im:bundleId": "com.openplanetsoftware.Just-Press-Record-for-iOS"
-      }
-    },
-    "im:artist": {
-      "label": "Open Planet Software",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/open-planet-software/id307887935?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-09-21T12:29:39-07:00",
-      "attributes": {
-        "label": "September 21, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 32,
-      "total": 100
-    },
-    "im:name": {
       "label": "iVerify. - Secure your Phone!"
     },
     "im:image": [
@@ -3260,6 +3158,108 @@
       "label": "2019-11-08T00:00:00-07:00",
       "attributes": {
         "label": "November 8, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 32,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Just Press Record"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b8/e6/69/b8e669a4-8d47-aea1-7dfa-55664cccbab0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Just Press Record is the ultimate audio recorder bringing one tap recording, transcription and iCloud syncing to all your devices. You can edit your audio and transcriptions right inside the app and even start a new recording completely hands-free with Siri!\n\nLife is full of moments we would rather not forget - like your child’s first words, an important meeting or spontaneous idea. Capture these moments effortlessly on iPhone, iPad, Mac or for ultimate convenience, Apple Watch.\n\nRECORD\n• One tap to start, stop, pause and resume recording.\n• Start and stop recording from Shortcuts, Siri, the Widget, a 3D Touch Quick Action or via the URL scheme.\n• Unlimited recording time.\n• Record discretely in the background.\n• Choose to record from the built-in mic, AirPods or external microphones.\n• Record independently on Apple Watch and sync later.\n\nPLAY\n• Seek backwards and forwards during playback.\n• Adjustable playback speed.\n\nTRANSCRIBE\n• Turn speech into searchable text.\n• Support for over 30 languages, independent of your device's language setting.\n• Synchronized text highlighting and audio playback.\n• Format as you record with punctuation commands.\n\nEDIT\n• Audio - visualise your audio in the waveform view and cut out the parts you don’t need.\n• Text - make corrections and add new text to your transcriptions.\n\nSHARE\n• Share audio and text to other apps.\n• Share easily to social media as a video clip.\n• Share to iTunes on Mac or PC via USB cable.\n• Print a hard copy of your transcripts.\n• Share audio files from other apps to Just Press Record. \n\nORGANISATION\n• View recent recordings or browse your library by date and time.\n• Search by filename or transcription content.\n• Dedicated tab for quick access to recordings made on Apple Watch.\n• Rename recordings.\n• Slide Over and Split View support on iPad.\n• Add a badge to the app icon showing the number of unplayed recordings.\n\nSTORAGE\n• Choose to store recordings in iCloud Drive or locally on-device.\n• Recordings stored in iCloud Drive automatically sync across all your devices.\n• Recordings stored locally benefit from Files app integration and automatic iTunes File Sharing.\n• Transcriptions are stored within the audio file.\n\nPRO-AUDIO\n• Support for stereo recording from the built-in microphone on supported devices.\n• Support for high quality external microphones connected via the Lightning Port.\n• Customisable Audio Settings to enhance your recording experience.\n• File types include WAV, AIF or standard iTunes M4A (ACC).\n• High quality audio up to 96kHz / 24-bit.\n\nACCESSIBILITY\n• VoiceOver support throughout the app.\n• Magic Tap gesture to start / stop a recording.\n\nAPPLE WATCH\nJust Press Record includes an Apple Watch app that gives you the freedom to record anywhere, even when your iPhone is not around.\n\n• Start recording with a single tap on the Complication.\n• Record discretely in the background.\n• Unlimited recording time.\n• Recordings automatically transfer to iPhone for transcription and iCloud syncing.\n• Listen to recent recordings through the built-in speaker or AirPods.\n• Adjust volume with the Digital Crown.\n• Pause recording with a downward swipe.\n• Accessibility support with VoiceOver, reduced motion and support for the extra large Complication template.\n\nIMPORTANT:\n• Just Press Record does not record phone calls or audio from other apps.\n• Transcription requires a good, clean audio signal.  Avoid recording in noisy environments and ensure the microphone is positioned close to the source.\n• Recording from AirPods is not available on Apple Watch.\n• URL scheme implemented by Just Press Record can be found on our FAQ page."
+    },
+    "im:price": {
+      "label": "EGP 179.99",
+      "attributes": {
+        "amount": "179.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Open Planet Software Ltd."
+    },
+    "title": {
+      "label": "Just Press Record - Open Planet Software"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/just-press-record/id1033342465?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ef/d7/af/efd7afcd-f25c-128c-1282-70dbcaa3efd9/3738b0e0-2065-4551-ad1b-b8c90fdc267d_iPad_Pro_All_Devices.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/just-press-record/id1033342465?uo=2",
+      "attributes": {
+        "im:id": "1033342465",
+        "im:bundleId": "com.openplanetsoftware.Just-Press-Record-for-iOS"
+      }
+    },
+    "im:artist": {
+      "label": "Open Planet Software",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/open-planet-software/id307887935?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-09-21T12:29:39-07:00",
+      "attributes": {
+        "label": "September 21, 2015"
       }
     }
   },
@@ -5006,108 +5006,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Contacts Pro - Backup&Restore"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/db/78/43db78b3-54e3-aa51-b9cd-c3a4a19a6f44/AppIcon-0-0-1x_U007epad-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/db/78/43db78b3-54e3-aa51-b9cd-c3a4a19a6f44/AppIcon-0-0-1x_U007epad-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/db/78/43db78b3-54e3-aa51-b9cd-c3a4a19a6f44/AppIcon-0-0-1x_U007epad-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Contacts Pro operates offline. It does not require any network permissions and will not collect any of your data.\n\n1,Batch Delete Contacts\n- Ability to delete multiple contacts at once.\n\n2, Batch Merge Duplicate Contacts\n- Capability to merge contacts with the same name, same phone number, or complete duplicates in bulk.\n\n3, Export Contacts to Excel and VCard Files\nOption to export contacts as Excel or VCard files for easy backup or transfer.\n\n4, Batch Import Contacts from Excel or VCard\nFeature to import multiple contacts from Excel or VCard files in one go.\n\n5, T9 Dialer with Vibration Alerts\nT9 dialing for quick and efficient dialing of contacts.\nVibration alerts on call connect and call end to reduce phone radiation.\n\n6, Call Statistics\nView detailed call data and statistics for each day.\n\n7, Group Management\nEfficiently organize and manage contacts with quick group creation.\n\n8, Batch Add and Delete Contact Information\nCapability to add or delete contact information in batch."
-    },
-    "im:price": {
-      "label": "EGP 9.99",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© jianghaiyang"
-    },
-    "title": {
-      "label": "Contacts Pro - Backup&Restore - 海洋 蒋"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/contacts-pro-backup-restore/id6457363377?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/06/ae/8e/06ae8e22-2ebc-47cc-8c78-c20518a7e036/e7b8369e-0105-4dff-a1ec-326b8eee964c_iPad_3rd_Generation-en-0.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/contacts-pro-backup-restore/id6457363377?uo=2",
-      "attributes": {
-        "im:id": "6457363377",
-        "im:bundleId": "com.weizhizeyi.ContactsAddressInternational"
-      }
-    },
-    "im:artist": {
-      "label": "海洋 蒋",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/%E6%B5%B7%E6%B4%8B-%E8%92%8B/id1672482394?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-08-09T00:00:00-07:00",
-      "attributes": {
-        "label": "August 9, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 51,
-      "total": 100
-    },
-    "im:name": {
       "label": "iZip Pro -Zip Unzip Unrar Tool"
     },
     "im:image": [
@@ -5206,7 +5104,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 52,
+      "index": 51,
       "total": 100
     },
     "im:name": {
@@ -5308,7 +5206,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 53,
+      "index": 52,
       "total": 100
     },
     "im:name": {
@@ -5410,7 +5308,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 54,
+      "index": 53,
       "total": 100
     },
     "im:name": {
@@ -5512,7 +5410,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 55,
+      "index": 54,
       "total": 100
     },
     "im:name": {
@@ -5614,7 +5512,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 56,
+      "index": 55,
       "total": 100
     },
     "im:name": {
@@ -5716,7 +5614,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 57,
+      "index": 56,
       "total": 100
     },
     "im:name": {
@@ -5818,211 +5716,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 58,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Phone Drive: File Storage Sync"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e4/6d/6c/e46d6cf2-9459-ecea-3bb3-3be78fb49cce/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e4/6d/6c/e46d6cf2-9459-ecea-3bb3-3be78fb49cce/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e4/6d/6c/e46d6cf2-9459-ecea-3bb3-3be78fb49cce/AppIcon-pro-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Introducing Phone Drive - File Manager: Transform your iOS device into a portable Wireless Flash Drive.\n\nWith Phone Drive, you can effortlessly store, view, and manage local or cloud files on your iPhone or iPad. Seamlessly connect to Phone Drive from any Mac or PC over a WiFi network and transfer files through simple drag and drop from Web Browser, Finder or Windows Explorer.\n\nExperience the convenience of managing multiple cloud accounts in a single application. Download, upload, view, and even stream videos or music directly from your cloud drives.\n\nPhone Drive boasts a comprehensive set of features including a document viewer, PDF reader, music player, image viewer, voice recorder, text editor, file manager, and support for various file operations such as delete, move, copy, email, share, zip, unzip, and more.\n\n\n*** KEY FEATURES ***\n• SUPPORT CLOUD STORAGE: \nConnect to multiple Dropbox, Google Drive, OneDrive, Box Drive, FTP, WebDAV, Yandex Disk, and iCloud Drive storage accounts. (*additional in-app purchase required)\n\n• MULTIMEDIA PLAYER:\nCreate custom audio playlists with options like repeat, shuffle, background playback, and multitask remote control. Stream videos and music directly from your cloud storage.\n\n• DOCUMENT READER:\nView MS Office, iWork, Text, and HTML files with ease.\n\n• FILE OPERATION:\nEffortlessly move, copy, rename, delete, zip, unzip, unrar, create files, and folders.\n\n• FILE SHARING:\nShare files with other iPhone/iPad devices via Bluetooth or Wi-Fi, with automatic search for nearby available devices.\n\n• EASY FILE UPLOAD:\nConveniently upload files through drag and drop via your PC/Mac web browser or USB using iTunes.\n\n• TEXT EDITOR:\nEdit text files and source codes directly on your iOS device with the built-in text editor.\n\n• IMPORT/ FILES CREATION:\nCreate text files, capture images, record videos or voice memos, and import pictures from your photo library.\n\n• ﻿PASSCODE LOCK:\nProtect your files from unauthorized access. Utilize Touch ID and Face ID support for secure unlocking.\n\n• UNIVERSALITY:\nEnjoy the benefits of this app on both iPhone and iPad with a single purchase.\n\n\n*** AUDIO PLAYER ***\n• Play MP3 files as playlists.\n• Repeat and shuffle songs.\n• Background audio playback.\n• Multitask audio remote control.\n• Stream music from cloud storage.\n\n\n*** VIEWABLE FORMATS ***\nPhone Drive supports the following formats:\n\n• Audio (WAV, MP3, M4A, CAF, AIF, AIFF, AAC)\n• Images (JPG, PNG, GIF, BMP, TIF, TIFF, ICO)\n• Movies (MP4, MOV, MPV, M4V)\n• iWorks (Pages, numbers, and Keynote)\n• Microsoft Office (Word, Excel and PowerPoint)\n• RTF (Rich Text Format)\n• RTFD (TextEdit with embedded images)\n• PDF Documents\n• Plain text\n• Source code\n• HTML web pages \n• Web archives\n\n\nExplore more about Phone Drive at:\nWebsite : https://sixbytes.io\nTwitter: https://twitter.com/SixbytesApp\nFacebook: https://www.facebook.com/sixbytesapp\n\nFor detailed information, please review our Terms of Service and Privacy Policy:\n• Terms of service: https://sixbytes.io/assets/terms-of-service.pdf\n• Privacy policy: https://sixbytes.io/assets/privacy-policy.pdf"
-    },
-    "im:price": {
-      "label": "EGP 149.99",
-      "attributes": {
-        "amount": "149.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "Copyright © 2023 Phone Drive"
-    },
-    "title": {
-      "label": "Phone Drive: File Storage Sync - Eightythree Technology"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/phone-drive-file-storage-sync/id431033044?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/af/e4/ef/afe4efe2-642c-c4d2-01ad-0e010dd7698e/3254e269-f02d-4cd6-9664-52089985f87f_4.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/phone-drive-file-storage-sync/id431033044?uo=2",
-      "attributes": {
-        "im:id": "431033044",
-        "im:bundleId": "com.eightythree.iPhoneDrive"
-      }
-    },
-    "im:artist": {
-      "label": "Eightythree Technology",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/eightythree-technology/id431033047?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-04-25T19:13:55-07:00",
-      "attributes": {
-        "label": "April 25, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 59,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Units Plus Converter"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/15/cb/f8/15cbf89b-c71e-3791-a832-f95db9171bac/AppIcon-0-1x_U007emarketing-0-85-220-7.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/15/cb/f8/15cbf89b-c71e-3791-a832-f95db9171bac/AppIcon-0-1x_U007emarketing-0-85-220-7.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/15/cb/f8/15cbf89b-c71e-3791-a832-f95db9171bac/AppIcon-0-1x_U007emarketing-0-85-220-7.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "SWAP units by pressing button on keypad (lower left)\n\nOPTIMIZED for iPhone X, XS, XS Max, XR, 5, 5S, SE, 6, 6+, 7, 7+, 8, 8+\nOPTIMIZED for iPad Pro 12.9 (1st, 2nd, 3rd gen), 11, 10.5, 9.7, Air, Air 2, Mini (2nd, 3rd, 4th)\niPad Split View supported.\n\n***Now with LIVE Currency Updates for all major currencies in the world***\n\nVery simple and beautifully designed unit converter with 12 categories and many different units:\n\nCONVERT:\n\n*Area \n*Currency (155 world currencies updated every 15 min.)\n*Data-computer data (byte, kilobyte, megabyte, etc.) \n*Fuel-milage\n*Length \n*Power\n*Pressure\n*Speed\n*Temperature\n*Time (days, weeks, hours, etc.)\n*Volume (dry and wet)\n*Weight-mass\n\nCurrency exchange rates are downloaded every 15 minutes when app is open. Every download uses very small amount of data. Around 1-2kb. Internet connection required.\n155 currencies available - This is all world currencies with their respective country flags."
-    },
-    "im:price": {
-      "label": "EGP 249.99",
-      "attributes": {
-        "amount": "249.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2013 Alan Mrvica"
-    },
-    "title": {
-      "label": "Units Plus Converter - Alan Mrvica"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/units-plus-converter/id593306620?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/36/df/1a/36df1a9c-e27d-bb87-9b15-9b3ef162062c/mzl.cgjgfneh.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/units-plus-converter/id593306620?uo=2",
-      "attributes": {
-        "im:id": "593306620",
-        "im:bundleId": "com.bluelight.unitsplus"
-      }
-    },
-    "im:artist": {
-      "label": "Alan Mrvica",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/alan-mrvica/id593306623?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-01-18T12:58:57-07:00",
-      "attributes": {
-        "label": "January 18, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 60,
+      "index": 57,
       "total": 100
     },
     "im:name": {
@@ -6124,7 +5818,109 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 61,
+      "index": 58,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Units Plus Converter"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/15/cb/f8/15cbf89b-c71e-3791-a832-f95db9171bac/AppIcon-0-1x_U007emarketing-0-85-220-7.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/15/cb/f8/15cbf89b-c71e-3791-a832-f95db9171bac/AppIcon-0-1x_U007emarketing-0-85-220-7.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/15/cb/f8/15cbf89b-c71e-3791-a832-f95db9171bac/AppIcon-0-1x_U007emarketing-0-85-220-7.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "SWAP units by pressing button on keypad (lower left)\n\nOPTIMIZED for iPhone X, XS, XS Max, XR, 5, 5S, SE, 6, 6+, 7, 7+, 8, 8+\nOPTIMIZED for iPad Pro 12.9 (1st, 2nd, 3rd gen), 11, 10.5, 9.7, Air, Air 2, Mini (2nd, 3rd, 4th)\niPad Split View supported.\n\n***Now with LIVE Currency Updates for all major currencies in the world***\n\nVery simple and beautifully designed unit converter with 12 categories and many different units:\n\nCONVERT:\n\n*Area \n*Currency (155 world currencies updated every 15 min.)\n*Data-computer data (byte, kilobyte, megabyte, etc.) \n*Fuel-milage\n*Length \n*Power\n*Pressure\n*Speed\n*Temperature\n*Time (days, weeks, hours, etc.)\n*Volume (dry and wet)\n*Weight-mass\n\nCurrency exchange rates are downloaded every 15 minutes when app is open. Every download uses very small amount of data. Around 1-2kb. Internet connection required.\n155 currencies available - This is all world currencies with their respective country flags."
+    },
+    "im:price": {
+      "label": "EGP 249.99",
+      "attributes": {
+        "amount": "249.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2013 Alan Mrvica"
+    },
+    "title": {
+      "label": "Units Plus Converter - Alan Mrvica"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/units-plus-converter/id593306620?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/36/df/1a/36df1a9c-e27d-bb87-9b15-9b3ef162062c/mzl.cgjgfneh.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/units-plus-converter/id593306620?uo=2",
+      "attributes": {
+        "im:id": "593306620",
+        "im:bundleId": "com.bluelight.unitsplus"
+      }
+    },
+    "im:artist": {
+      "label": "Alan Mrvica",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/alan-mrvica/id593306623?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-01-18T12:58:57-07:00",
+      "attributes": {
+        "label": "January 18, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 59,
       "total": 100
     },
     "im:name": {
@@ -6226,7 +6022,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 62,
+      "index": 60,
       "total": 100
     },
     "im:name": {
@@ -6328,7 +6124,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 63,
+      "index": 61,
       "total": 100
     },
     "im:name": {
@@ -6430,7 +6226,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 64,
+      "index": 62,
       "total": 100
     },
     "im:name": {
@@ -6532,7 +6328,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 65,
+      "index": 63,
       "total": 100
     },
     "im:name": {
@@ -6634,7 +6430,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 66,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6736,7 +6532,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 67,
+      "index": 65,
       "total": 100
     },
     "im:name": {
@@ -6830,6 +6626,210 @@
       "label": "2009-09-16T11:55:18-07:00",
       "attributes": {
         "label": "September 16, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 66,
+      "total": 100
+    },
+    "im:name": {
+      "label": "DontSpy 2 - detector"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO IN-APP PURCHASES, NO ADVERTISING!\n\nAfter 5 years on the Store and hundreds of thousands of downloading all over the world, Dontspy renews with a 2.0 version!\n\nNow reading data is very simple, following the instructions of the gauge, the bars showing the signal intensity and the line showing the variation of the magnetic field during the search. Never before so easy and accurate! \n\nAre you going to check your room, your workplace or, are you simply curious to try one of the most astonishing  uses of your iPhone? This is the app you need!\n\nThere is no magic: every speaker, microphone, cellphone, spy bug, hidden camera has in itself a magnetic field: iPhones are equipped with a magnetometer (used by the compass), dontspy can read the data captured by the magnetometer and it report the presence of the magnetic field emitted by spy bugs, cellphones, microphones, metal object, other devices that emit magnetic field, and report it. The reading as to be made close to the object you are searching for.\n\nTransform your iPhone in a magnetic field detector, metal detector or electronic devices detector such as smartphones, spy bugs, microphones and so on! \n\nNote that the app can't distinguish metal object from smartphone, spy bugs from other electronic device, so you will read \"found\" also in case of the presence of a metal object, so you have to perform the search away from metal objects to have a good result. \n \nConsider that the magnetometer on iPhones is on the upper right, and on iPads in the back top centre.\n\nThis app read the magnetic field and show it in a simple to use interface."
+    },
+    "im:price": {
+      "label": "EGP 99.99",
+      "attributes": {
+        "amount": "99.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Ivan Colasanti"
+    },
+    "title": {
+      "label": "DontSpy 2 - detector - ivan colasanti"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/dontspy-2-detector/id959086373?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/7b/33/48/7b334816-9f2b-2edb-f4c3-308ae4ffe65a/mzl.rezyrrls.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/dontspy-2-detector/id959086373?uo=2",
+      "attributes": {
+        "im:id": "959086373",
+        "im:bundleId": "8K2NU5962N"
+      }
+    },
+    "im:artist": {
+      "label": "ivan colasanti",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/ivan-colasanti/id853172077?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-02-17T06:47:34-07:00",
+      "attributes": {
+        "label": "February 17, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 67,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Contacts to Excel , PDF , CSV"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/d5/f4/ecd5f44b-534b-4acc-7b62-f1a964fc8cf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/d5/f4/ecd5f44b-534b-4acc-7b62-f1a964fc8cf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ec/d5/f4/ecd5f44b-534b-4acc-7b62-f1a964fc8cf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Export Files To :\n\n1. XLSX Format | Supports Microsoft Excel with formatting of contacts details !\n2. PDF Format | You can generate a PDF file, Print or Share it to mark and work on the list !\n3. CSV Format | Now export to CSV format for Outlook, Gmail and other supported apps or softwares !\n4. VCF ( vCard ) Format | Standard VCF file to export contacts to other devices or to create backup of your contacts !\n\n\nFeatures :\n\n1. Export contacts to XLSX, PDF, CSV or VCF file format\n2. Export all contacts at once or choose the contacts you want to export !\n3. Preview exported file and the share with other apps or mail it using other apps!\n4. Backup contacts by exporting with VCF ( vCard ) file !\n5. Edit File Name, delete exported files or share anytime.\n\nFor any further questions please feel free to contact us at :\nsupport@dropouts.in"
+    },
+    "im:price": {
+      "label": "EGP 29.99",
+      "attributes": {
+        "amount": "29.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Dropouts Technologies LLP"
+    },
+    "title": {
+      "label": "Contacts to Excel , PDF , CSV - Dropouts Technologies LLP"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/contacts-to-excel-pdf-csv/id1315523858?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/3a/f9/c9/3af9c906-28fc-c293-2c5f-8cc8158dba4f/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/contacts-to-excel-pdf-csv/id1315523858?uo=2",
+      "attributes": {
+        "im:id": "1315523858",
+        "im:bundleId": "com.dropouts.contacts2excel"
+      }
+    },
+    "im:artist": {
+      "label": "Dropouts Technologies LLP",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/dropouts-technologies-llp/id575481782?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-11-22T10:23:54-07:00",
+      "attributes": {
+        "label": "November 22, 2017"
       }
     }
   },
@@ -6944,108 +6944,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "DontSpy 2 - detector"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/73/6b/55/736b55bb-8068-fc8f-401a-0162b36cf0c0/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO IN-APP PURCHASES, NO ADVERTISING!\n\nAfter 5 years on the Store and hundreds of thousands of downloading all over the world, Dontspy renews with a 2.0 version!\n\nNow reading data is very simple, following the instructions of the gauge, the bars showing the signal intensity and the line showing the variation of the magnetic field during the search. Never before so easy and accurate! \n\nAre you going to check your room, your workplace or, are you simply curious to try one of the most astonishing  uses of your iPhone? This is the app you need!\n\nThere is no magic: every speaker, microphone, cellphone, spy bug, hidden camera has in itself a magnetic field: iPhones are equipped with a magnetometer (used by the compass), dontspy can read the data captured by the magnetometer and it report the presence of the magnetic field emitted by spy bugs, cellphones, microphones, metal object, other devices that emit magnetic field, and report it. The reading as to be made close to the object you are searching for.\n\nTransform your iPhone in a magnetic field detector, metal detector or electronic devices detector such as smartphones, spy bugs, microphones and so on! \n\nNote that the app can't distinguish metal object from smartphone, spy bugs from other electronic device, so you will read \"found\" also in case of the presence of a metal object, so you have to perform the search away from metal objects to have a good result. \n \nConsider that the magnetometer on iPhones is on the upper right, and on iPads in the back top centre.\n\nThis app read the magnetic field and show it in a simple to use interface."
-    },
-    "im:price": {
-      "label": "EGP 69.99",
-      "attributes": {
-        "amount": "69.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Ivan Colasanti"
-    },
-    "title": {
-      "label": "DontSpy 2 - detector - ivan colasanti"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/dontspy-2-detector/id959086373?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/7b/33/48/7b334816-9f2b-2edb-f4c3-308ae4ffe65a/mzl.rezyrrls.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/dontspy-2-detector/id959086373?uo=2",
-      "attributes": {
-        "im:id": "959086373",
-        "im:bundleId": "8K2NU5962N"
-      }
-    },
-    "im:artist": {
-      "label": "ivan colasanti",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/ivan-colasanti/id853172077?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-02-17T06:47:34-07:00",
-      "attributes": {
-        "label": "February 17, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 70,
-      "total": 100
-    },
-    "im:name": {
       "label": "موسوعة الحديث - ترمذي و نسائي"
     },
     "im:image": [
@@ -7144,7 +7042,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 71,
+      "index": 70,
       "total": 100
     },
     "im:name": {
@@ -7246,7 +7144,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 72,
+      "index": 71,
       "total": 100
     },
     "im:name": {
@@ -7348,7 +7246,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 73,
+      "index": 72,
       "total": 100
     },
     "im:name": {
@@ -7450,7 +7348,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 74,
+      "index": 73,
       "total": 100
     },
     "im:name": {
@@ -7552,7 +7450,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 75,
+      "index": 74,
       "total": 100
     },
     "im:name": {
@@ -7654,7 +7552,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 76,
+      "index": 75,
       "total": 100
     },
     "im:name": {
@@ -7756,7 +7654,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 77,
+      "index": 76,
       "total": 100
     },
     "im:name": {
@@ -7858,7 +7756,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 78,
+      "index": 77,
       "total": 100
     },
     "im:name": {
@@ -7960,7 +7858,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 79,
+      "index": 78,
       "total": 100
     },
     "im:name": {
@@ -7968,26 +7866,26 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/58/49/66/58496694-e499-f2eb-77a8-487afc091ee9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a0/6f/14/a06f14fe-bd86-cd85-d671-e7fe80c351cd/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/58/49/66/58496694-e499-f2eb-77a8-487afc091ee9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a0/6f/14/a06f14fe-bd86-cd85-d671-e7fe80c351cd/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/58/49/66/58496694-e499-f2eb-77a8-487afc091ee9/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a0/6f/14/a06f14fe-bd86-cd85-d671-e7fe80c351cd/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Clear Spaces provides you with a wealth of customization options allowing you to create Basic Transparent Spaces, with the option to add Widget overlays to display quick information such as Weather, Now Playing and Time / Date. Clear Spaces also allows you to add quotes and stickers to your Home Screen. With the ability to make multiple Clear Spaces Styles, you can add all your different wallpapers into Clear Spaces and change your widgets with a tap, or automate it all with a Shortcut. Clear Spaces also takes customization to the Lock Screen with Transparent Spaces on the Lock Screen to allow you to move your widgets wherever you want."
+      "label": "Clear Spaces provides you with a wealth of customization options allowing you to create Basic Transparent Spaces, with the option to add Widget overlays to display quick information such as Weather, Now Playing and Time / Date. Clear Spaces also allows you to add quotes and stickers to your Home Screen. With the ability to make multiple Clear Spaces Styles, you can add all your different wallpapers into Clear Spaces and change your widgets with a tap, or automate it all with a Shortcut. Clear Spaces also takes customization to the Lock Screen with Transparent Spaces on the Lock Screen to allow you to move your widgets wherever you want.\n\nIf you have any questions, feel free to reach out at support@clearspaces.uk or @clearspaces_ on Twitter."
     },
     "im:price": {
       "label": "EGP 99.99",
@@ -8054,6 +7952,108 @@
       "label": "2020-10-14T00:00:00-07:00",
       "attributes": {
         "label": "October 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 79,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Contacts Pro - Backup&Restore"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/db/78/43db78b3-54e3-aa51-b9cd-c3a4a19a6f44/AppIcon-0-0-1x_U007epad-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/db/78/43db78b3-54e3-aa51-b9cd-c3a4a19a6f44/AppIcon-0-0-1x_U007epad-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/db/78/43db78b3-54e3-aa51-b9cd-c3a4a19a6f44/AppIcon-0-0-1x_U007epad-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Contacts Pro operates offline. It does not require any network permissions and will not collect any of your data.\n\n1,Batch Delete Contacts\n- Ability to delete multiple contacts at once.\n\n2, Batch Merge Duplicate Contacts\n- Capability to merge contacts with the same name, same phone number, or complete duplicates in bulk.\n\n3, Export Contacts to Excel and VCard Files\nOption to export contacts as Excel or VCard files for easy backup or transfer.\n\n4, Batch Import Contacts from Excel or VCard\nFeature to import multiple contacts from Excel or VCard files in one go.\n\n5, T9 Dialer with Vibration Alerts\nT9 dialing for quick and efficient dialing of contacts.\nVibration alerts on call connect and call end to reduce phone radiation.\n\n6, Call Statistics\nView detailed call data and statistics for each day.\n\n7, Group Management\nEfficiently organize and manage contacts with quick group creation.\n\n8, Batch Add and Delete Contact Information\nCapability to add or delete contact information in batch."
+    },
+    "im:price": {
+      "label": "EGP 9.99",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© jianghaiyang"
+    },
+    "title": {
+      "label": "Contacts Pro - Backup&Restore - 海洋 蒋"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/contacts-pro-backup-restore/id6457363377?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/06/ae/8e/06ae8e22-2ebc-47cc-8c78-c20518a7e036/e7b8369e-0105-4dff-a1ec-326b8eee964c_iPad_3rd_Generation-en-0.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/contacts-pro-backup-restore/id6457363377?uo=2",
+      "attributes": {
+        "im:id": "6457363377",
+        "im:bundleId": "com.weizhizeyi.ContactsAddressInternational"
+      }
+    },
+    "im:artist": {
+      "label": "海洋 蒋",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/%E6%B5%B7%E6%B4%8B-%E8%92%8B/id1672482394?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-08-09T00:00:00-07:00",
+      "attributes": {
+        "label": "August 9, 2023"
       }
     }
   },
@@ -8882,207 +8882,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Goblin Tools"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is an app version of the free website goblin.tools, a collection of small, simple, single-task tools, mostly designed to help neurodivergent people with tasks they find overwhelming or difficult.\n\n\r\n\r\nTools include\r\n- A Magic Todo list that automatically breaks down tasks into steps\r\n- The Formalizer that transforms your language to be more formal, sociable, concise, or many other options\r\n- The Judge that helps with interpreting tone\r\n- The Estimator that can guess at a timeframe for an activity\r\n- The Compiler to take entire braindumps and turn them into actionable tasks\r\n- The Chef, who turns a description of what ingredients and tools you have in your kitchen into a real recipe\n\n\r\n\r\nAnd many more to come!\n\n\r\n\r\nThe website is free and publicly available. Purchases of this app go first towards keeping the site free and ad-free, before supporting the author."
-    },
-    "im:price": {
-      "label": "EGP 29.99",
-      "attributes": {
-        "amount": "29.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Skyhook Belgium"
-    },
-    "title": {
-      "label": "Goblin Tools - Skyhook"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/goblin-tools/id6449003064?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/32/69/bb/3269bb6c-ab3a-0fac-f930-e524d11dd894/e3a0ae36-a06a-4355-876f-674a7e29cd5c_goblin.tools___U00282_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/goblin-tools/id6449003064?uo=2",
-      "attributes": {
-        "im:id": "6449003064",
-        "im:bundleId": "com.goblintools"
-      }
-    },
-    "im:artist": {
-      "label": "Skyhook"
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-05-31T00:00:00-07:00",
-      "attributes": {
-        "label": "May 31, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 89,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Tydlig"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/da/a4/ae/daa4ae75-dcf0-377a-aa52-4fe6c5abeea5/AppIcon-1x_U007emarketing-85-220-0-8.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/da/a4/ae/daa4ae75-dcf0-377a-aa52-4fe6c5abeea5/AppIcon-1x_U007emarketing-85-220-0-8.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/da/a4/ae/daa4ae75-dcf0-377a-aa52-4fe6c5abeea5/AppIcon-1x_U007emarketing-85-220-0-8.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Calculators have changed very little since the 1970s - while phones from that era look ancient. Why should calculators cling to a 40 year old design with a wall of buttons and one row for results in the age of retina displays? We deserve something better. Tydlig brings the calculator to the next level for iPhone & iPad with innovations like freeform canvas, responsive results and linked numbers. \n\nTydlig is perfect for calculating everyday things like tips and discounts, showing the entire history and allowing you to change any number with instant updates. For deeper calculations real-time graphing is an excellent way to explore and visualize things like bank interest rates and trigonometric functions.\n\nFeatures: \n\n* Responsive results: Edit any number on the canvas and see all results update automatically. Let your calculator work for you, not the other way around. \n\n* Linked numbers: With a result selected, press any operation to create a linked number below. Responsive results will cascade down these links. \n\n* All history is stored on an infinite scrolling canvas. Drag numbers around and reuse them as you wish.\n\n* Annotate any number with an attached text label, like a freestyle spreadsheet.\n\n* Real-time graphing: Link numbers to a graph and any change to the expression will instantly update the graph. Perfect when trying to explore how functions work and behave.\n\n* Use the Slider to tweak any number and see results and graphs update in real-time. Combined with the graph it is an excellent way to visualize and teach math. Tap the slider to toggle between discrete and continuous modes.\n\n* Share the entire canvas by printing, or exporting as a high quality PDF. You can also copy calculations as text, or save the visible area as an image which can be used in other applications like Pages or Word.\n\n* Undo support.\n\n* Supports external Bluetooth keyboards for really quick digit and basic operations entry (+, -, *, /).\n\n* Tydlig works completely offline, no need to be connected to the internet. \n\n* Lots of power under the hood with a lightning fast calculation engine, over 20 mathematical functions  and scientific notation formatting options."
-    },
-    "im:price": {
-      "label": "EGP 69.99",
-      "attributes": {
-        "amount": "69.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2017 Tydlig Software AB"
-    },
-    "title": {
-      "label": "Tydlig - Tydlig Software AB"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/tydlig/id721606556?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/77/42/ab/7742ab53-fb86-86e8-05c5-f528de09dda1/mzl.eopqqodt.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/tydlig/id721606556?uo=2",
-      "attributes": {
-        "im:id": "721606556",
-        "im:bundleId": "se.aksys.tydlig"
-      }
-    },
-    "im:artist": {
-      "label": "Tydlig Software AB",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/tydlig-software-ab/id922197427?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-12-05T00:00:00-07:00",
-      "attributes": {
-        "label": "December 5, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 90,
-      "total": 100
-    },
-    "im:name": {
       "label": "Hidden Spy Camera Detector"
     },
     "im:image": [
@@ -9181,7 +8980,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 91,
+      "index": 89,
       "total": 100
     },
     "im:name": {
@@ -9283,7 +9082,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 92,
+      "index": 90,
       "total": 100
     },
     "im:name": {
@@ -9385,109 +9184,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 93,
-      "total": 100
-    },
-    "im:name": {
-      "label": "NOTAM Decoder"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/de/d5/f1/ded5f176-bc09-3284-a36a-56140ad3406e/mzl.yrlpweoe.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/de/d5/f1/ded5f176-bc09-3284-a36a-56140ad3406e/mzl.yrlpweoe.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/de/d5/f1/ded5f176-bc09-3284-a36a-56140ad3406e/mzl.yrlpweoe.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NOTAM Decoder is a convenient reference guide for pilots, providing quick access to  \"Notice to Airmen\" aviation and weather contractions including the standard aviation weather products, such as METAR/TAF, area forecasts, SIGMETs, AIRMETs, etc. Note:  This app contains only those contractions that are found in \"Notice to Airmen\".\n\nSimply enter the contraction you wish to decode into the text box.  Upon submission you will be presented with a description, or list of descriptions, that match, or decode, that contraction as found in the FAA's Notice to Airmen publication.\n\nNOTAM Decoder is a useful tool for pilots, student pilots, and aviation buffs that wish to have this quick reference available to them.  NOTAM Decoder is not intended to replace flight instruction."
-    },
-    "im:price": {
-      "label": "EGP 29.99",
-      "attributes": {
-        "amount": "29.99",
-        "currency": "EGP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2014 CodeBurners"
-    },
-    "title": {
-      "label": "NOTAM Decoder - CodeBurners"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/notam-decoder/id312079003?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/b8/21/10/b8211097-eb8a-ee65-221c-c1c35027dd89/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/eg/app/notam-decoder/id312079003?uo=2",
-      "attributes": {
-        "im:id": "312079003",
-        "im:bundleId": "com.codeburners.notams"
-      }
-    },
-    "im:artist": {
-      "label": "CodeBurners",
-      "attributes": {
-        "href": "https://apps.apple.com/eg/developer/codeburners/id310114272?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2009-04-17T22:25:30-07:00",
-      "attributes": {
-        "label": "April 17, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "eg",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 94,
+      "index": 91,
       "total": 100
     },
     "im:name": {
@@ -9589,34 +9286,136 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 95,
+      "index": 92,
       "total": 100
     },
     "im:name": {
-      "label": "Carbridge - Light Speedometer"
+      "label": "Tydlig"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9f/12/75/9f127571-edb8-f263-b79e-0984cf3061dd/AppIcon-1x_U007emarketing-0-7-0-P3-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/da/a4/ae/daa4ae75-dcf0-377a-aa52-4fe6c5abeea5/AppIcon-1x_U007emarketing-85-220-0-8.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9f/12/75/9f127571-edb8-f263-b79e-0984cf3061dd/AppIcon-1x_U007emarketing-0-7-0-P3-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/da/a4/ae/daa4ae75-dcf0-377a-aa52-4fe6c5abeea5/AppIcon-1x_U007emarketing-85-220-0-8.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9f/12/75/9f127571-edb8-f263-b79e-0984cf3061dd/AppIcon-1x_U007emarketing-0-7-0-P3-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/da/a4/ae/daa4ae75-dcf0-377a-aa52-4fe6c5abeea5/AppIcon-1x_U007emarketing-85-220-0-8.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "An advanced GPS speedometer app with sophisticated features. When you go over a preset speed limit, the large digits change colour from green to red and the device emits a loud sound to alert you! Great for avoiding speeding tickets and driving safely.\n\nKey Features:\n\n- Speedometer\n- Reminder when its too fast\n- Set maximum speed\n- Screen turn red when its too fast\n- Location\n- History"
+      "label": "Calculators have changed very little since the 1970s - while phones from that era look ancient. Why should calculators cling to a 40 year old design with a wall of buttons and one row for results in the age of retina displays? We deserve something better. Tydlig brings the calculator to the next level for iPhone & iPad with innovations like freeform canvas, responsive results and linked numbers. \n\nTydlig is perfect for calculating everyday things like tips and discounts, showing the entire history and allowing you to change any number with instant updates. For deeper calculations real-time graphing is an excellent way to explore and visualize things like bank interest rates and trigonometric functions.\n\nFeatures: \n\n* Responsive results: Edit any number on the canvas and see all results update automatically. Let your calculator work for you, not the other way around. \n\n* Linked numbers: With a result selected, press any operation to create a linked number below. Responsive results will cascade down these links. \n\n* All history is stored on an infinite scrolling canvas. Drag numbers around and reuse them as you wish.\n\n* Annotate any number with an attached text label, like a freestyle spreadsheet.\n\n* Real-time graphing: Link numbers to a graph and any change to the expression will instantly update the graph. Perfect when trying to explore how functions work and behave.\n\n* Use the Slider to tweak any number and see results and graphs update in real-time. Combined with the graph it is an excellent way to visualize and teach math. Tap the slider to toggle between discrete and continuous modes.\n\n* Share the entire canvas by printing, or exporting as a high quality PDF. You can also copy calculations as text, or save the visible area as an image which can be used in other applications like Pages or Word.\n\n* Undo support.\n\n* Supports external Bluetooth keyboards for really quick digit and basic operations entry (+, -, *, /).\n\n* Tydlig works completely offline, no need to be connected to the internet. \n\n* Lots of power under the hood with a lightning fast calculation engine, over 20 mathematical functions  and scientific notation formatting options."
+    },
+    "im:price": {
+      "label": "EGP 69.99",
+      "attributes": {
+        "amount": "69.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2017 Tydlig Software AB"
+    },
+    "title": {
+      "label": "Tydlig - Tydlig Software AB"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/tydlig/id721606556?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/77/42/ab/7742ab53-fb86-86e8-05c5-f528de09dda1/mzl.eopqqodt.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/tydlig/id721606556?uo=2",
+      "attributes": {
+        "im:id": "721606556",
+        "im:bundleId": "se.aksys.tydlig"
+      }
+    },
+    "im:artist": {
+      "label": "Tydlig Software AB",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/tydlig-software-ab/id922197427?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-12-05T00:00:00-07:00",
+      "attributes": {
+        "label": "December 5, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 93,
+      "total": 100
+    },
+    "im:name": {
+      "label": "OBDII Trouble Codes"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/6d/2e/c56d2e34-d5d5-b44c-2c15-31109f8a96d1/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/6d/2e/c56d2e34-d5d5-b44c-2c15-31109f8a96d1/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/6d/2e/c56d2e34-d5d5-b44c-2c15-31109f8a96d1/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This app is the most complete offline OBD2 (EOBD) diagnostic trouble code definitions database. It contains more than 18500 error descriptions. It is the most full database in market.\n\nVery simple to use! You don't even have to select your car model. Just enter your fault code and app will show you all supported descriptions. No Internet connection needed, no longer spend hours to search for single code description, looking at check engine light.\n\nIf you have usb, bluetooth or WiFi OBDII code reader (ELM327, PLX Kiwi or any other) you need this app for code description because most of code scanners does not contain full DTC (diagnostic trouble code)  database and displays only meaningfull numbers. Be prepared for any troubles wherever you are!\n\nYou can select and copy error description with simple long press on text, and then paste it in SMS, e-mail or wherever you want!\n\nIf your car supports OBD II or EOBD, then you can already use almost 5000 generic OBDII codes. These codes are from PowerTrain series (P0XXX, P2XXX, P34XX), Body Series (B0XXX), Chassis series (C0XXX), Network series (U0XXX, U2XXX, U3XXX).\n\nAlso there is a list of more than 13500 additional manufacturer specific codes.\nSupported manufacturers with specific codes:\nAcura\nAlfa Romeo\nBMW\nChrysler / Dodge / Jeep\nCitroen / Peugeot\nDaewoo\nFiat\nFord\nGeo\nGM (Buick, Cadillac, Chevrolet, GMC, Hummer, Pontiac)\nHonda\nHyundai\nInfinity\nIsuzu\nJaguar\nKia\nLamborghini\nLand Rover\nLexus \nLincoln\nMazda\nMercedes\nMercury\nMini\nMitsubishi\nNissan\nOldsmobile\nOpel / Vauxhall\nPlymouth\nPorsche\nRenault (DF codes)\nSaab\nSaturn\nScion\nSubaru\nSuzuki\nToyota\nVolskwagen Audi Group\nVolvo\n\nNote that it is impossible to create complete OBD DTC database. Manufacturers adding new codes and changing old ones. So if you cannot find your code or if you think that some code not correct anymore, please write us!"
     },
     "im:price": {
       "label": "EGP 149.99",
@@ -9632,17 +9431,17 @@
       }
     },
     "rights": {
-      "label": "© SPD20"
+      "label": "© 2021 NomDev"
     },
     "title": {
-      "label": "Carbridge - Light Speedometer - Marouane SAAD"
+      "label": "OBDII Trouble Codes - Oleg Chumakov"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/eg/app/carbridge-light-speedometer/id1598343344?uo=2"
+          "href": "https://apps.apple.com/eg/app/obdii-trouble-codes/id688892117?uo=2"
         }
       },
       {
@@ -9653,22 +9452,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/2a/50/9c/2a509c20-58f5-449c-72fb-76879adae5b2/2866dc4a-ba83-47e7-9dff-3cbebaf0d568_1.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/a7/b7/0f/a7b70fa4-3172-9510-a01c-ab9c8767c9c1/ff0ce279-99f4-442d-bae1-b06fd31fd080_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-12-21_at_21.45.35.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/eg/app/carbridge-light-speedometer/id1598343344?uo=2",
+      "label": "https://apps.apple.com/eg/app/obdii-trouble-codes/id688892117?uo=2",
       "attributes": {
-        "im:id": "1598343344",
-        "im:bundleId": "com.car.speed.limiter"
+        "im:id": "688892117",
+        "im:bundleId": "NoM.OBDII-Codes"
       }
     },
     "im:artist": {
-      "label": "Marouane SAAD",
+      "label": "Oleg Chumakov",
       "attributes": {
-        "href": "https://apps.apple.com/eg/developer/marouane-saad/id1572666184?uo=2"
+        "href": "https://apps.apple.com/eg/developer/oleg-chumakov/id688892120?uo=2"
       }
     },
     "category": {
@@ -9680,9 +9479,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-12-07T00:00:00-07:00",
+      "label": "2013-10-26T14:42:59-07:00",
       "attributes": {
-        "label": "December 7, 2021"
+        "label": "October 26, 2013"
       }
     }
   },
@@ -9691,7 +9490,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 96,
+      "index": 94,
       "total": 100
     },
     "im:name": {
@@ -9793,7 +9592,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 97,
+      "index": 95,
       "total": 100
     },
     "im:name": {
@@ -9895,7 +9694,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 98,
+      "index": 96,
       "total": 100
     },
     "im:name": {
@@ -9997,7 +9796,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 99,
+      "index": 97,
       "total": 100
     },
     "im:name": {
@@ -10099,7 +9898,7 @@
       "country_code": "eg",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 100,
+      "index": 98,
       "total": 100
     },
     "im:name": {
@@ -10193,6 +9992,210 @@
       "label": "2011-02-23T20:38:51-07:00",
       "attributes": {
         "label": "February 23, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 99,
+      "total": 100
+    },
+    "im:name": {
+      "label": "FileBrowser: Documents Manager"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/67/93/9d/67939d35-5eac-c28b-a846-d5bee7bf9144/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/67/93/9d/67939d35-5eac-c28b-a846-d5bee7bf9144/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/67/93/9d/67939d35-5eac-c28b-a846-d5bee7bf9144/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Use your iPad or iPhone to connect to your home computers, network drives and cloud storage. Easily upload/download/copy files and folders from one location to another, and browse your content using a variety of built-in viewers.\n\n*** FileBrowser remains the best option if you're looking for a file manager that supports a variety of external connections and also integrates deeply with iOS - Federico Viticci - MacStories ***\n\n*** FileBrowser's setup varies for every device, and the automatic wizards work super-well.\nCharlie Sorrel - Cult of Mac ***\n\nUltra-fast browsing of your computers. Faster than Windows Explorer or Mac Finder and our users agree!\n\nGET ORGANIZED\nFileBrowser gives you everything you need to keep your files effortlessly organized:\nMove, edit, delete, rename, copy, zip and unzip. Download files from the web and paste them wherever you choose.\n\nMULTI-TABBED BROWSING\nOur FileBrowser suite of apps are the first file management apps to support multiple tabs. Connect to many of your locations at once and switch between them with ease. Use iPadOS split-screen mode to drag & drop between multiple windows.\n\nCONNECT TO\nWindows, Mac, Linux, Time Capsule, NAS drives, portable WiFi drives, SMB, Samba.\nGoogle Drive, Dropbox, Box, OneDrive, WebDAV, FTP and SFTP.\nLink to the same cloud storage with multiple accounts, if you have more than one Dropbox account, for example.\n\nEXTEND THE FILES APP\nFileBrowser allows you to access all your connections from the iOS Files app and other apps that use this as their document chooser, bringing network access to those apps.\n\nEDIT IN-PLACE\nNo more copying of documents between apps. Launch an app to edit a network document in-place, such as Word or Pages or any of the Office and Mac suite. Changes are saved to the original document automatically.\n\nBLAZINGLY FAST\nCreate bookmarks to your favorite locations & folders. Use a single tap to connect and browse to a favorite folder.\n\nPHOTO VIEWER\nBrowse your photos wherever they are stored and display them on your TV or projector using AirPlay or Chromecast. Easily flick through holiday snaps or use the built-in slideshow feature.\n\nSTREAM YOUR MOVIES / MUSIC\nStream movie files or listen to music, both with AirPlay™ and Chromecast support. Use our built-in viewers or stream video to other apps.\n\nDOCUMENT VIEWER\nView Microsoft Office, Apple Pages, Numbers, KeyNote, PDF, text files, source code, HTML, and many more using the built-in viewers.\n\nANNOTATE PDFS AND IMAGES\nUse the built-in annotation tools for PDFs and images, or use the iOS annotation tools to add notes, drawings or highlight text.\n\nSECURITY AND ENCRYPTION\nFileBrowser securely stores your passwords in the iOS keychain and uses iOS encryption features to protect your local content. Protect local files using a password, TouchID or FaceID.\n\nCONNECT ANYWHERE\nConnect to your Mac or PC when away from home. See our website for details: https://www.stratospherix.com/setupvpn\n\nTOO MANY FEATURES TO LIST\nFileBrowser has many features that we would like to tell you about. Check out our website. You'll be amazed!\nhttps://www.stratospherix.com/products/filebrowser\n\nFIRST CLASS SUPPORT\nUser manuals and help are available at stratospherix.com/support with how-to articles and videos. You can also email us for fast, friendly support."
+    },
+    "im:price": {
+      "label": "EGP 249.99",
+      "attributes": {
+        "amount": "249.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2012 Stratospherix Ltd"
+    },
+    "title": {
+      "label": "FileBrowser: Documents Manager - Stratospherix Ltd"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/filebrowser-documents-manager/id364738545?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/8a/81/35/8a81353d-2ffe-4bc8-f3f8-423eaec9e9a1/26bf4cb8-fb50-4a81-83c6-3a8be24934a9_FB_iPad_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/filebrowser-documents-manager/id364738545?uo=2",
+      "attributes": {
+        "im:id": "364738545",
+        "im:bundleId": "com.stratospherix.filebrowser"
+      }
+    },
+    "im:artist": {
+      "label": "Stratospherix Ltd",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/stratospherix-ltd/id323133606?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-09-23T13:43:50-07:00",
+      "attributes": {
+        "label": "September 23, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "eg",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 100,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Carbridge - Light Speedometer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9f/12/75/9f127571-edb8-f263-b79e-0984cf3061dd/AppIcon-1x_U007emarketing-0-7-0-P3-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9f/12/75/9f127571-edb8-f263-b79e-0984cf3061dd/AppIcon-1x_U007emarketing-0-7-0-P3-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9f/12/75/9f127571-edb8-f263-b79e-0984cf3061dd/AppIcon-1x_U007emarketing-0-7-0-P3-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "An advanced GPS speedometer app with sophisticated features. When you go over a preset speed limit, the large digits change colour from green to red and the device emits a loud sound to alert you! Great for avoiding speeding tickets and driving safely.\n\nKey Features:\n\n- Speedometer\n- Reminder when its too fast\n- Set maximum speed\n- Screen turn red when its too fast\n- Location\n- History"
+    },
+    "im:price": {
+      "label": "EGP 149.99",
+      "attributes": {
+        "amount": "149.99",
+        "currency": "EGP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© SPD20"
+    },
+    "title": {
+      "label": "Carbridge - Light Speedometer - Marouane SAAD"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/eg/app/carbridge-light-speedometer/id1598343344?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/2a/50/9c/2a509c20-58f5-449c-72fb-76879adae5b2/2866dc4a-ba83-47e7-9dff-3cbebaf0d568_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/eg/app/carbridge-light-speedometer/id1598343344?uo=2",
+      "attributes": {
+        "im:id": "1598343344",
+        "im:bundleId": "com.car.speed.limiter"
+      }
+    },
+    "im:artist": {
+      "label": "Marouane SAAD",
+      "attributes": {
+        "href": "https://apps.apple.com/eg/developer/marouane-saad/id1572666184?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/eg/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-12-07T00:00:00-07:00",
+      "attributes": {
+        "label": "December 7, 2021"
       }
     }
   }

@@ -824,108 +824,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "CHF 5.00",
-      "attributes": {
-        "amount": "5.00",
-        "currency": "CHF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ch/app/docker-management/id1527656144?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ch/app/docker-management/id1527656144?l=en&uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/ch/developer/nevis-shkenza/id1268450891?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ch/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ch",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 10,
-      "total": 99
-    },
-    "im:name": {
       "label": "DraftCode Offline PHP IDE"
     },
     "im:image": [
@@ -1024,6 +922,108 @@
       "country_code": "ch",
       "pricing": "paid",
       "genre": "developer_tools",
+      "index": 10,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "CHF 5.00",
+      "attributes": {
+        "amount": "5.00",
+        "currency": "CHF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ch/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ch/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/ch/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ch/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ch",
+      "pricing": "paid",
+      "genre": "developer_tools",
       "index": 11,
       "total": 99
     },
@@ -1032,19 +1032,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b4/e9/a8/b4e9a8c4-c44a-4512-4b3c-04feb6df3308/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e7/40/4f/e7404ff4-b1ef-a0c4-3d46-2cb3750334aa/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b4/e9/a8/b4e9a8c4-c44a-4512-4b3c-04feb6df3308/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e7/40/4f/e7404ff4-b1ef-a0c4-3d46-2cb3750334aa/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b4/e9/a8/b4e9a8c4-c44a-4512-4b3c-04feb6df3308/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e7/40/4f/e7404ff4-b1ef-a0c4-3d46-2cb3750334aa/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -4296,19 +4296,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/14/64/83/146483eb-a6de-7059-67ad-6c119242c1ac/AppIcon-0-1x_U007epad-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/60/b2/3060b29f-8e75-9817-5731-25fed6b56f6c/AppIcon-0-1x_U007epad-0-0-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/14/64/83/146483eb-a6de-7059-67ad-6c119242c1ac/AppIcon-0-1x_U007epad-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/60/b2/3060b29f-8e75-9817-5731-25fed6b56f6c/AppIcon-0-1x_U007epad-0-0-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/14/64/83/146483eb-a6de-7059-67ad-6c119242c1ac/AppIcon-0-1x_U007epad-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/60/b2/3060b29f-8e75-9817-5731-25fed6b56f6c/AppIcon-0-1x_U007epad-0-0-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -4352,7 +4352,7 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/47/10/32/4710320c-422a-aa6c-6246-4ba38e84142f/7cd1e162-3de2-46e9-8643-c014e6c12f70_Apple_iPad_Pro_13_Inch_Screenshot_0.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/7c/9f/a97c9f7e-036f-77f7-bc3c-67bbbdaa6e98/7cd1e162-3de2-46e9-8643-c014e6c12f70_Apple_iPad_Pro_13_Inch_Screenshot_0.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }

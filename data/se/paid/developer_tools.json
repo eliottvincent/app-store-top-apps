@@ -8,6 +8,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "39,00 kr",
+      "attributes": {
+        "amount": "39.00",
+        "currency": "SEK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/se/app/laddertouch/id386737169?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/se/app/laddertouch/id386737169?l=en&uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/se/developer/motonari-hibi/id386737172?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "se",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
       "label": "ESP32 BLE Terminal"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -412,7 +514,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -608,108 +710,6 @@
       "label": "2017-06-06T20:59:38-07:00",
       "attributes": {
         "label": "June 6, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "se",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 7,
-      "total": 99
-    },
-    "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "39,00 kr",
-      "attributes": {
-        "amount": "39.00",
-        "currency": "SEK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/se/app/laddertouch/id386737169?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/se/app/laddertouch/id386737169?l=en&uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/se/developer/motonari-hibi/id386737172?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
       }
     }
   },
@@ -1640,108 +1640,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "PixelsMeasure"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/99/4d/37/994d37d8-a0fd-59fc-4cae-de595ebdb86b/AppIcon-0-0-1x_U007epad-0-0-0-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/99/4d/37/994d37d8-a0fd-59fc-4cae-de595ebdb86b/AppIcon-0-0-1x_U007epad-0-0-0-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/99/4d/37/994d37d8-a0fd-59fc-4cae-de595ebdb86b/AppIcon-0-0-1x_U007epad-0-0-0-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Discover the ultimate measurement solution with PixelsMeasure! Our tool is the fastest and most efficient way to measure anything on your screen.\n\nPixelsMeasure works on your screenshot, and you can measure anything.\n\nExperience the following cutting-edge features:\n\n• Measure distance: Quickly determine the distance between any elements on your screen\n• Cross mode: Ensure perfect alignment of all elements on your screen, which also displays your pointer position\n• Tolerance mode: Adjust tolerance for improved accuracy, even with shadows and low-contrast elements\n• Convenient screenshot capture: Easily take screenshots and share them with your team with system screenshot tool\n\nPro features (need to subscribe):\n• Measure objects: Instantly identify the bounds of any object by simply dragging an area around it\n• Hold dimensions: Hold dimensions on the screen for reference\n• User-friendly editing: Effortlessly undo and redo your measurements with our add edit tool\n\nUpgrade your measurement experience with PixelsMeasure now!\n\nTerms of Service: https://pixelsmeasure.com/#/terms-of-service\nPrivacy Policy: https://pixelsmeasure.com/#/privacy"
-    },
-    "im:price": {
-      "label": "249,00 kr",
-      "attributes": {
-        "amount": "249.00",
-        "currency": "SEK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "Copyright © 2022-2023 ZDDHUB. All rights reserved."
-    },
-    "title": {
-      "label": "PixelsMeasure - 东东 张"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/se/app/pixelsmeasure/id1638740542?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cb/1e/ea/cb1eea29-fad0-f053-4f3f-b70593392a02/6044b4b9-b88d-4fa9-9e70-bafeae7f3563_landing-screen-ipad.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/se/app/pixelsmeasure/id1638740542?l=en&uo=2",
-      "attributes": {
-        "im:id": "1638740542",
-        "im:bundleId": "com.zddhub.PixelsMeasure"
-      }
-    },
-    "im:artist": {
-      "label": "东东 张",
-      "attributes": {
-        "href": "https://apps.apple.com/se/developer/%E4%B8%9C%E4%B8%9C-%E5%BC%A0/id1637022692?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-08-12T00:00:00-07:00",
-      "attributes": {
-        "label": "August 12, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "se",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 18,
-      "total": 99
-    },
-    "im:name": {
       "label": "OpenTerm"
     },
     "im:image": [
@@ -1840,7 +1738,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -2036,6 +1934,108 @@
       "label": "2017-11-20T11:47:31-07:00",
       "attributes": {
         "label": "November 20, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "se",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 20,
+      "total": 99
+    },
+    "im:name": {
+      "label": "PixelsMeasure"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/99/4d/37/994d37d8-a0fd-59fc-4cae-de595ebdb86b/AppIcon-0-0-1x_U007epad-0-0-0-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/99/4d/37/994d37d8-a0fd-59fc-4cae-de595ebdb86b/AppIcon-0-0-1x_U007epad-0-0-0-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/99/4d/37/994d37d8-a0fd-59fc-4cae-de595ebdb86b/AppIcon-0-0-1x_U007epad-0-0-0-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Discover the ultimate measurement solution with PixelsMeasure! Our tool is the fastest and most efficient way to measure anything on your screen.\n\nPixelsMeasure works on your screenshot, and you can measure anything.\n\nExperience the following cutting-edge features:\n\n• Measure distance: Quickly determine the distance between any elements on your screen\n• Cross mode: Ensure perfect alignment of all elements on your screen, which also displays your pointer position\n• Tolerance mode: Adjust tolerance for improved accuracy, even with shadows and low-contrast elements\n• Convenient screenshot capture: Easily take screenshots and share them with your team with system screenshot tool\n\nPro features (need to subscribe):\n• Measure objects: Instantly identify the bounds of any object by simply dragging an area around it\n• Hold dimensions: Hold dimensions on the screen for reference\n• User-friendly editing: Effortlessly undo and redo your measurements with our add edit tool\n\nUpgrade your measurement experience with PixelsMeasure now!\n\nTerms of Service: https://pixelsmeasure.com/#/terms-of-service\nPrivacy Policy: https://pixelsmeasure.com/#/privacy"
+    },
+    "im:price": {
+      "label": "249,00 kr",
+      "attributes": {
+        "amount": "249.00",
+        "currency": "SEK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "Copyright © 2022-2023 ZDDHUB. All rights reserved."
+    },
+    "title": {
+      "label": "PixelsMeasure - 东东 张"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/se/app/pixelsmeasure/id1638740542?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cb/1e/ea/cb1eea29-fad0-f053-4f3f-b70593392a02/6044b4b9-b88d-4fa9-9e70-bafeae7f3563_landing-screen-ipad.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/se/app/pixelsmeasure/id1638740542?l=en&uo=2",
+      "attributes": {
+        "im:id": "1638740542",
+        "im:bundleId": "com.zddhub.PixelsMeasure"
+      }
+    },
+    "im:artist": {
+      "label": "东东 张",
+      "attributes": {
+        "href": "https://apps.apple.com/se/developer/%E4%B8%9C%E4%B8%9C-%E5%BC%A0/id1637022692?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-08-12T00:00:00-07:00",
+      "attributes": {
+        "label": "August 12, 2022"
       }
     }
   },
@@ -2558,108 +2558,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "mitmproxy helper by txthinking"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/26/1b/99/261b998b-2dfa-b699-1fb1-8d572c9ea56b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/26/1b/99/261b998b-2dfa-b699-1fb1-8d572c9ea56b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/26/1b/99/261b998b-2dfa-b699-1fb1-8d572c9ea56b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nThis is a helper app for mitmproxy, which is freely available at https://github.com/mitmproxy/mitmproxy. It is not developed by the mitmproxy project.\n\n[Capture on TCP/IP layer, NOT system proxy]\n\n- The helper captures all IP packets (IP layer)\n- Next assemble into TCP stream (TCP layer)\n- Next assemble into socks5 stream (Application layer)\n- Next send to mitmproxy\n\nRequired: https://github.com/mitmproxy/mitmproxy installed on your desktop\n\n- Intercept HTTP & HTTPS requests and responses and modify them on the fly\n- Save complete HTTP conversations for later replay and analysis\n- Replay the client-side of an HTTP conversations\n- Replay HTTP responses of a previously recorded server\n- Reverse proxy mode to forward traffic to a specified server\n- Transparent proxy mode on macOS and Linux\n- Make scripted changes to HTTP traffic using Python\n- SSL/TLS certificates for interception are generated on the fly\n- And much, much more…"
-    },
-    "im:price": {
-      "label": "129,00 kr",
-      "attributes": {
-        "amount": "129.00",
-        "currency": "SEK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© TxThinking, Inc."
-    },
-    "title": {
-      "label": "mitmproxy helper by txthinking - TxThinking, Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/se/app/mitmproxy-helper-by-txthinking/id1528537342?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/cd/3b/2c/cd3b2c87-b1b3-db91-b94a-31ea172d8c26/a053722f-2e73-4910-98e5-5a58a7f39282_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/se/app/mitmproxy-helper-by-txthinking/id1528537342?l=en&uo=2",
-      "attributes": {
-        "im:id": "1528537342",
-        "im:bundleId": "com.txthinking.mitmproxy"
-      }
-    },
-    "im:artist": {
-      "label": "TxThinking, Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/se/developer/txthinking-inc/id1634589596?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-27T00:00:00-07:00",
-      "attributes": {
-        "label": "August 27, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "se",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 27,
-      "total": 99
-    },
-    "im:name": {
       "label": "Logger for Shortcuts"
     },
     "im:image": [
@@ -2758,7 +2656,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2860,7 +2758,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2962,7 +2860,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -3056,6 +2954,108 @@
       "label": "2017-01-12T00:38:29-07:00",
       "attributes": {
         "label": "January 12, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "se",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 30,
+      "total": 99
+    },
+    "im:name": {
+      "label": "mitmproxy helper by txthinking"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/26/1b/99/261b998b-2dfa-b699-1fb1-8d572c9ea56b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/26/1b/99/261b998b-2dfa-b699-1fb1-8d572c9ea56b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/26/1b/99/261b998b-2dfa-b699-1fb1-8d572c9ea56b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nThis is a helper app for mitmproxy, which is freely available at https://github.com/mitmproxy/mitmproxy. It is not developed by the mitmproxy project.\n\n[Capture on TCP/IP layer, NOT system proxy]\n\n- The helper captures all IP packets (IP layer)\n- Next assemble into TCP stream (TCP layer)\n- Next assemble into socks5 stream (Application layer)\n- Next send to mitmproxy\n\nRequired: https://github.com/mitmproxy/mitmproxy installed on your desktop\n\n- Intercept HTTP & HTTPS requests and responses and modify them on the fly\n- Save complete HTTP conversations for later replay and analysis\n- Replay the client-side of an HTTP conversations\n- Replay HTTP responses of a previously recorded server\n- Reverse proxy mode to forward traffic to a specified server\n- Transparent proxy mode on macOS and Linux\n- Make scripted changes to HTTP traffic using Python\n- SSL/TLS certificates for interception are generated on the fly\n- And much, much more…"
+    },
+    "im:price": {
+      "label": "129,00 kr",
+      "attributes": {
+        "amount": "129.00",
+        "currency": "SEK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© TxThinking, Inc."
+    },
+    "title": {
+      "label": "mitmproxy helper by txthinking - TxThinking, Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/se/app/mitmproxy-helper-by-txthinking/id1528537342?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/cd/3b/2c/cd3b2c87-b1b3-db91-b94a-31ea172d8c26/a053722f-2e73-4910-98e5-5a58a7f39282_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/se/app/mitmproxy-helper-by-txthinking/id1528537342?l=en&uo=2",
+      "attributes": {
+        "im:id": "1528537342",
+        "im:bundleId": "com.txthinking.mitmproxy"
+      }
+    },
+    "im:artist": {
+      "label": "TxThinking, Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/se/developer/txthinking-inc/id1634589596?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-27T00:00:00-07:00",
+      "attributes": {
+        "label": "August 27, 2020"
       }
     }
   },
@@ -9594,19 +9594,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/40/36/84/403684d8-d4d4-f8d3-c5b7-0dd0fc7e9e20/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cd/17/be/cd17be23-ecb8-5e50-1840-d7c2c1d16c94/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/40/36/84/403684d8-d4d4-f8d3-c5b7-0dd0fc7e9e20/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cd/17/be/cd17be23-ecb8-5e50-1840-d7c2c1d16c94/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/40/36/84/403684d8-d4d4-f8d3-c5b7-0dd0fc7e9e20/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cd/17/be/cd17be23-ecb8-5e50-1840-d7c2c1d16c94/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }

@@ -8,6 +8,210 @@
       "total": 100
     },
     "im:name": {
+      "label": "rtl_tcp SDR"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/03/ad/6d03ad5f-6f35-53ab-c1bc-6fa0e34c9346/AppIcon-1x_U007emarketing-3-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/03/ad/6d03ad5f-6f35-53ab-c1bc-6fa0e34c9346/AppIcon-1x_U007emarketing-3-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/03/ad/6d03ad5f-6f35-53ab-c1bc-6fa0e34c9346/AppIcon-1x_U007emarketing-3-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "An RTL-SDR Software Defined Radio receiver app for iOS devices.  Listen to AM, FM, SSB and CW radio signals.  View an RF spectrum and waterfall. Connect, via the rtl_tcp network protocol, to networked RTL-SDR USB peripherals.  \n\nThis app requires an external rtl_tcp server.  iOS devices do not currently support the direct connection of USB peripherals such as an RTL-SDR.  Thus, the use of this app requires network access to a server, such as a Raspberry Pi (or Mac), with an RTL-SDR unit plugged into its USB port, and running the rtl_tcp protocol at an TCP/IP network address accessible from your iOS device.  This allows a Raspberry Pi (or Mac) to act, essentially, as the USB port adapter for your iOS device.   The rtl_tcp SDR app can also connect to hfp_tcp for the Airspy HF+, rsp_tcp for SDRPlay devices, and lmm_tcp for the LimeSDR Mini; see GitHub for server source code.  This app can also connect directly to a networked Hermes Lite 2 QRP SDR transceiver, no server required.\n\nNo support is provided for installing any of the rtl_tcp or other tcp software needed to use this app (with a Raspberry Pi, or otherwise).  Please do not download this app unless you are already familiar with Software Defined Radio, have an RTL-SDR or equivalent USB SDR peripheral, and have already installed and tested rtl_tcp on your Raspberry Pi, Mac, or other server.  Note that this app requires a very high bandwidth network connection in order to receive streams of real-time RF samples from an RTL-SDR.   It is recommended that your rtl_tcp server be on a wired connection rather than on the same WiFi as your iOS device."
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 HotPaw Productions"
+    },
+    "title": {
+      "label": "rtl_tcp SDR - HotPaw Productions"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mt/app/rtl-tcp-sdr/id1351164646?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/4a/57/42/4a57421f-7823-c63a-ffe0-3efdadbf0993/3917b869-e8f9-4eeb-b98c-a6d3a7ed9c83_sdr.ipadbig.ss31.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mt/app/rtl-tcp-sdr/id1351164646?uo=2",
+      "attributes": {
+        "im:id": "1351164646",
+        "im:bundleId": "com.hotpaw.sdr4rtltcp2"
+      }
+    },
+    "im:artist": {
+      "label": "HotPaw Productions",
+      "attributes": {
+        "href": "https://apps.apple.com/mt/developer/hotpaw-productions/id285074853?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-05-02T12:07:36-07:00",
+      "attributes": {
+        "label": "May 2, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mt",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 2,
+      "total": 100
+    },
+    "im:name": {
+      "label": "webCoRE"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/64/75/d2/6475d2e6-c9d7-b632-8001-09bc27e5e8c0/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/64/75/d2/6475d2e6-c9d7-b632-8001-09bc27e5e8c0/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/64/75/d2/6475d2e6-c9d7-b632-8001-09bc27e5e8c0/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "A webCoRE dashboard wrapper that adds support for presence sensors in webCoRE."
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2017 Adrian Caramaliu"
+    },
+    "title": {
+      "label": "webCoRE - Adrian Caramaliu"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mt/app/webcore/id1286878570?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/ba/76/ea/ba76eaf9-8148-dcbb-0176-4df6200f0f6a/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mt/app/webcore/id1286878570?uo=2",
+      "attributes": {
+        "im:id": "1286878570",
+        "im:bundleId": "co.webcore.app.webCoRE"
+      }
+    },
+    "im:artist": {
+      "label": "Adrian Caramaliu",
+      "attributes": {
+        "href": "https://apps.apple.com/mt/developer/adrian-caramaliu/id1286878569?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-12-22T15:04:07-07:00",
+      "attributes": {
+        "label": "December 22, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mt",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 3,
+      "total": 100
+    },
+    "im:name": {
       "label": "WatchWave - Radio Signal Sync"
     },
     "im:image": [
@@ -106,7 +310,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 2,
+      "index": 4,
       "total": 100
     },
     "im:name": {
@@ -205,7 +409,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 3,
+      "index": 5,
       "total": 100
     },
     "im:name": {
@@ -307,7 +511,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 4,
+      "index": 6,
       "total": 100
     },
     "im:name": {
@@ -409,7 +613,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 5,
+      "index": 7,
       "total": 100
     },
     "im:name": {
@@ -511,7 +715,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 6,
+      "index": 8,
       "total": 100
     },
     "im:name": {
@@ -613,7 +817,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 7,
+      "index": 9,
       "total": 100
     },
     "im:name": {
@@ -715,7 +919,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 8,
+      "index": 10,
       "total": 100
     },
     "im:name": {
@@ -817,109 +1021,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 9,
-      "total": 100
-    },
-    "im:name": {
-      "label": "TV Mirror+ for Chromecast"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "TV Mirror+ for Chromecast is the easy screen sharing tool to mirror your iPhone or iPad screen and sound on Chromecast in Full HD Quality.\n\nMirror photos, videos, games, websites, apps, presentations, documents and spreadsheets on Chromecast.\n\n* Supported Chromecasts: Chromecast, Chromecast Ultra and all generations of the Chromecast family\n\n* Supported TVs and other devices: Xiaomi MI Box, NVIDIA Shield TV and all TVs with Google Cast or Chromecast built-in, e.g. Sony, TCL, Vizio, Sharp, Philips, Hisense, Skyworth, Soniq\n\n* Your iPhone/iPad and your Chromecast must be connected to the same wifi to enable screen mirroring. Please do not use VPN, Proxy, VLANS and Subnets.\n\n* Latency is supreme (below 1 second) when you have good wifi network conditions\n\n* No hidden subscriptions or costs\n\n* If a third party app, for example Spotify, does not mirror sound correctly, please FORCE CLOSE and restart Spotify while the mirroring session is active. Please check the Apple Support page to learn how to FORCE CLOSE an app: https://support.apple.com/en-us/HT201330\n\n* Black screen issues: Some third party apps prevent screen mirroring. When you try to mirror them, you will just see a black screen on your TV, for example with Netflix and Disney+. This is a restriction chosen by Netflix and others, so we cannot fix it at the moment.\n\n\nIf you like the app and our constant work on it, please give the app a positive rating on the App Store. Many thanks in advance from the development & support team.\n\n\nDisclaimer: This app is not affiliated with Google or any other trademark mentioned here. Chromecast is a trademark of Google LLC."
-    },
-    "im:price": {
-      "label": "3,99 €",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2kit consulting"
-    },
-    "title": {
-      "label": "TV Mirror+ for Chromecast - Kraus und Karnath GbR 2Kit Consulting"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mt/app/tv-mirror-for-chromecast/id1441797808?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/99/84/2d/99842d0f-311c-2832-4837-108c14a7548e/c470a309-8c70-4f99-82ee-20f40ad00081_AltesIpad1.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mt/app/tv-mirror-for-chromecast/id1441797808?uo=2",
-      "attributes": {
-        "im:id": "1441797808",
-        "im:bundleId": "de.2kit.Screen-Mirroring"
-      }
-    },
-    "im:artist": {
-      "label": "Kraus und Karnath GbR 2Kit Consulting",
-      "attributes": {
-        "href": "https://apps.apple.com/mt/developer/kraus-und-karnath-gbr-2kit-consulting/id477998014?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-11-16T06:32:59-07:00",
-      "attributes": {
-        "label": "November 16, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mt",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 10,
+      "index": 11,
       "total": 100
     },
     "im:name": {
@@ -1021,7 +1123,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 11,
+      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -1123,7 +1225,109 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 12,
+      "index": 13,
+      "total": 100
+    },
+    "im:name": {
+      "label": "TV Mirror+ for Chromecast"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "TV Mirror+ for Chromecast is the easy screen sharing tool to mirror your iPhone or iPad screen and sound on Chromecast in Full HD Quality.\n\nMirror photos, videos, games, websites, apps, presentations, documents and spreadsheets on Chromecast.\n\n* Supported Chromecasts: Chromecast, Chromecast Ultra and all generations of the Chromecast family\n\n* Supported TVs and other devices: Xiaomi MI Box, NVIDIA Shield TV and all TVs with Google Cast or Chromecast built-in, e.g. Sony, TCL, Vizio, Sharp, Philips, Hisense, Skyworth, Soniq\n\n* Your iPhone/iPad and your Chromecast must be connected to the same wifi to enable screen mirroring. Please do not use VPN, Proxy, VLANS and Subnets.\n\n* Latency is supreme (below 1 second) when you have good wifi network conditions\n\n* No hidden subscriptions or costs\n\n* If a third party app, for example Spotify, does not mirror sound correctly, please FORCE CLOSE and restart Spotify while the mirroring session is active. Please check the Apple Support page to learn how to FORCE CLOSE an app: https://support.apple.com/en-us/HT201330\n\n* Black screen issues: Some third party apps prevent screen mirroring. When you try to mirror them, you will just see a black screen on your TV, for example with Netflix and Disney+. This is a restriction chosen by Netflix and others, so we cannot fix it at the moment.\n\n\nIf you like the app and our constant work on it, please give the app a positive rating on the App Store. Many thanks in advance from the development & support team.\n\n\nDisclaimer: This app is not affiliated with Google or any other trademark mentioned here. Chromecast is a trademark of Google LLC."
+    },
+    "im:price": {
+      "label": "3,99 €",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2kit consulting"
+    },
+    "title": {
+      "label": "TV Mirror+ for Chromecast - Kraus und Karnath GbR 2Kit Consulting"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mt/app/tv-mirror-for-chromecast/id1441797808?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/99/84/2d/99842d0f-311c-2832-4837-108c14a7548e/c470a309-8c70-4f99-82ee-20f40ad00081_AltesIpad1.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mt/app/tv-mirror-for-chromecast/id1441797808?uo=2",
+      "attributes": {
+        "im:id": "1441797808",
+        "im:bundleId": "de.2kit.Screen-Mirroring"
+      }
+    },
+    "im:artist": {
+      "label": "Kraus und Karnath GbR 2Kit Consulting",
+      "attributes": {
+        "href": "https://apps.apple.com/mt/developer/kraus-und-karnath-gbr-2kit-consulting/id477998014?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-11-16T06:32:59-07:00",
+      "attributes": {
+        "label": "November 16, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mt",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 14,
       "total": 100
     },
     "im:name": {
@@ -1225,7 +1429,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 13,
+      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1327,7 +1531,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 14,
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1429,7 +1633,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 15,
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -1531,7 +1735,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 18,
       "total": 100
     },
     "im:name": {
@@ -1633,7 +1837,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 19,
       "total": 100
     },
     "im:name": {
@@ -1735,7 +1939,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 20,
       "total": 100
     },
     "im:name": {
@@ -1837,7 +2041,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
+      "index": 21,
       "total": 100
     },
     "im:name": {
@@ -1939,7 +2143,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 20,
+      "index": 22,
       "total": 100
     },
     "im:name": {
@@ -2041,7 +2245,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2143,7 +2347,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
+      "index": 24,
       "total": 100
     },
     "im:name": {
@@ -2245,7 +2449,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2347,7 +2551,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2449,7 +2653,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -2551,7 +2755,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
+      "index": 28,
       "total": 100
     },
     "im:name": {
@@ -2653,7 +2857,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
+      "index": 29,
       "total": 100
     },
     "im:name": {
@@ -2755,7 +2959,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
+      "index": 30,
       "total": 100
     },
     "im:name": {
@@ -2857,7 +3061,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 29,
+      "index": 31,
       "total": 100
     },
     "im:name": {
@@ -2959,7 +3163,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 30,
+      "index": 32,
       "total": 100
     },
     "im:name": {
@@ -3061,7 +3265,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 31,
+      "index": 33,
       "total": 100
     },
     "im:name": {
@@ -3163,7 +3367,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 32,
+      "index": 34,
       "total": 100
     },
     "im:name": {
@@ -3265,7 +3469,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 33,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3367,7 +3571,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 34,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3469,7 +3673,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 35,
+      "index": 37,
       "total": 100
     },
     "im:name": {
@@ -3571,7 +3775,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 36,
+      "index": 38,
       "total": 100
     },
     "im:name": {
@@ -3673,7 +3877,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 37,
+      "index": 39,
       "total": 100
     },
     "im:name": {
@@ -3775,7 +3979,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 38,
+      "index": 40,
       "total": 100
     },
     "im:name": {
@@ -3877,7 +4081,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 39,
+      "index": 41,
       "total": 100
     },
     "im:name": {
@@ -3976,7 +4180,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 40,
+      "index": 42,
       "total": 100
     },
     "im:name": {
@@ -4078,7 +4282,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 41,
+      "index": 43,
       "total": 100
     },
     "im:name": {
@@ -4180,7 +4384,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 42,
+      "index": 44,
       "total": 100
     },
     "im:name": {
@@ -4282,109 +4486,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Magnetometer - metal detector and magnetic field meter in tesla and gauss"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/32/98/a6/3298a609-13b9-8b8f-8c4a-17b758904139/pr_source.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/32/98/a6/3298a609-13b9-8b8f-8c4a-17b758904139/pr_source.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/32/98/a6/3298a609-13b9-8b8f-8c4a-17b758904139/pr_source.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Probably the best home Magnetometer on the App Store!\n\nYou can apply this awesome app to the everyday life, even to predict if a magnetic storm is coming! \nJust a tip, stay away from Magneto from the X-Men.!\n\nMagnetometer is the new app that opens a world of possibilities, we all are surrounded by a magnetic field, Magnetometer measures this field and translates it to your device in readable quantities. Devices like these app are used to find any type of magnetic metal around you, know if a magnetic storm is coming and even large quantities of petroleum (YE$, you heard right)!\n \n• Find magnets and metals with a magnetic field around!\n• Save measurements with the exact GPS position!\n• Find the best place in your house with lower magnetic field!\n• Clear and uncluttered screen for better readings!\n• Great design and user experience!\n• Measures in Gauss and Tesla scale!\n\nThis app is for fun purposes and it’s not intended to be used for professionals.!"
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Vladislav Polyanskiy"
-    },
-    "title": {
-      "label": "Magnetometer - metal detector and magnetic field meter in tesla and gauss - Vlad Polyanskiy"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mt/app/magnetometer-metal-detector-and-magnetic-field-meter/id1021893391?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple30/v4/c4/8f/97/c48f97b1-9d77-8566-f1ce-5849a1e6c322/mzm.jimkkail.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mt/app/magnetometer-metal-detector-and-magnetic-field-meter/id1021893391?uo=2",
-      "attributes": {
-        "im:id": "1021893391",
-        "im:bundleId": "com.vladapps.magnetometer"
-      }
-    },
-    "im:artist": {
-      "label": "Vlad Polyanskiy",
-      "attributes": {
-        "href": "https://apps.apple.com/mt/developer/vlad-polyanskiy/id438646985?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-08-26T11:25:35-07:00",
-      "attributes": {
-        "label": "August 26, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mt",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 44,
+      "index": 45,
       "total": 100
     },
     "im:name": {
@@ -4486,7 +4588,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
+      "index": 46,
       "total": 100
     },
     "im:name": {
@@ -4588,7 +4690,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 46,
+      "index": 47,
       "total": 100
     },
     "im:name": {
@@ -4690,7 +4792,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 47,
+      "index": 48,
       "total": 100
     },
     "im:name": {
@@ -4792,7 +4894,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 48,
+      "index": 49,
       "total": 100
     },
     "im:name": {
@@ -4894,7 +4996,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 49,
+      "index": 50,
       "total": 100
     },
     "im:name": {
@@ -4988,108 +5090,6 @@
       "label": "2019-02-12T00:00:00-07:00",
       "attributes": {
         "label": "February 12, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mt",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 50,
-      "total": 100
-    },
-    "im:name": {
-      "label": "My Leaf for Nissan EV"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/17/4b/fc/174bfc98-d054-c9bb-f6dd-c28fd5373dc2/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/17/4b/fc/174bfc98-d054-c9bb-f6dd-c28fd5373dc2/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/17/4b/fc/174bfc98-d054-c9bb-f6dd-c28fd5373dc2/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Possibly the best app for Nissan Leaf!\n\nProblems? Please contact via email instead of doing a negative review! Please show some appreciation for the open source alternative! Thank you!\n\n- Setup / Before you use -\n\nSupport for North American vehicles has sadly been DISCONTINUED! (blame and complains goes to Nissan of North America)\n\nRemember to first complete the initial setup of your NissanConnect account and vehicle with the official app from Nissan before trying My Leaf!\n\nRemember that My Leaf is directly affected by Nissan's sometimes unreliable services! If the services/official app are down/unreliable so is My Leaf!\n\nTo use My Leaf a NissanConnect subscription from Nissan is required!\n\n- Features -\n\nThis app is exclusively used for the Nissan Leaf and the Nissan e-NV200 at the moment.\n\nMy Leaf is a simple, striving to be great looking, and fast open source alternative to the official NissanConnect apps from Nissan.\n\nBattery statistics; SOC, range and charging statuses\nCharging control; schedule(**) and start charging\nClimate control; set temperature(*), scheduling, starting and stopping of climate control\nLocate your vehicle(*)\nDetailed history of your trips\nFREE \"as in free speech\" and open source!\n\n(*)Only for vehicles produced after May 2019\n(**)Only for vehicles produced prior to May 2019\n\nJoin the testing and feedback community at;\nhttps://groups.google.com/forum/#!forum/my-leaf"
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Tobias Westergaard Kjeldsen"
-    },
-    "title": {
-      "label": "My Leaf for Nissan EV - Tobias Kjeldsen"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mt/app/my-leaf-for-nissan-ev/id1436701776?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/45/27/5e/45275ef7-0899-3b9e-4cec-8f14e8aa7331/mzl.wpszrosr.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mt/app/my-leaf-for-nissan-ev/id1436701776?uo=2",
-      "attributes": {
-        "im:id": "1436701776",
-        "im:bundleId": "dk.kjeldsen.carwingsflutter"
-      }
-    },
-    "im:artist": {
-      "label": "Tobias Kjeldsen",
-      "attributes": {
-        "href": "https://apps.apple.com/mt/developer/tobias-kjeldsen/id1436701775?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-09-25T05:33:23-07:00",
-      "attributes": {
-        "label": "September 25, 2018"
       }
     }
   },
@@ -5714,35 +5714,35 @@
       "total": 100
     },
     "im:name": {
-      "label": "Vinegar - Tube Cleaner"
+      "label": "Magnetometer - metal detector and magnetic field meter in tesla and gauss"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/de/a1/9f/dea19f78-a871-0643-4748-08074ca2c1e7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/32/98/a6/3298a609-13b9-8b8f-8c4a-17b758904139/pr_source.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/de/a1/9f/dea19f78-a871-0643-4748-08074ca2c1e7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/32/98/a6/3298a609-13b9-8b8f-8c4a-17b758904139/pr_source.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/de/a1/9f/dea19f78-a871-0643-4748-08074ca2c1e7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/32/98/a6/3298a609-13b9-8b8f-8c4a-17b758904139/pr_source.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Vinegar is a Safari extension that replaces the YouTube player with a minimal HTML video tag.\n\nIt removes ads, restores picture-in-picture, and keeps videos playing in the background.\n\nNote: The \"can read and alter webpages\" text in the permission section is just unfortunate wording. Vinegar needs access to the web page to find the YouTube player and replace it. It's not doing anything creepy!\n\n(By the way, check out Vinegar's companion app, Baking Soda. It's basically a less powerful version of Vinegar, but it works on all websites other than YouTube.)"
+      "label": "Probably the best home Magnetometer on the App Store!\n\nYou can apply this awesome app to the everyday life, even to predict if a magnetic storm is coming! \nJust a tip, stay away from Magneto from the X-Men.!\n\nMagnetometer is the new app that opens a world of possibilities, we all are surrounded by a magnetic field, Magnetometer measures this field and translates it to your device in readable quantities. Devices like these app are used to find any type of magnetic metal around you, know if a magnetic storm is coming and even large quantities of petroleum (YE$, you heard right)!\n \n• Find magnets and metals with a magnetic field around!\n• Save measurements with the exact GPS position!\n• Find the best place in your house with lower magnetic field!\n• Clear and uncluttered screen for better readings!\n• Great design and user experience!\n• Measures in Gauss and Tesla scale!\n\nThis app is for fun purposes and it’s not intended to be used for professionals.!"
     },
     "im:price": {
-      "label": "1,99 €",
+      "label": "0,99 €",
       "attributes": {
-        "amount": "1.99",
+        "amount": "0.99",
         "currency": "EUR"
       }
     },
@@ -5753,17 +5753,17 @@
       }
     },
     "rights": {
-      "label": "© 2021 And a Dinosaur"
+      "label": "© Vladislav Polyanskiy"
     },
     "title": {
-      "label": "Vinegar - Tube Cleaner - And a Dinosaur"
+      "label": "Magnetometer - metal detector and magnetic field meter in tesla and gauss - Vlad Polyanskiy"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/mt/app/vinegar-tube-cleaner/id1591303229?uo=2"
+          "href": "https://apps.apple.com/mt/app/magnetometer-metal-detector-and-magnetic-field-meter/id1021893391?uo=2"
         }
       },
       {
@@ -5774,22 +5774,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/80/80/6b/80806bc3-c689-0fd3-f175-287a2f6f1f43/081c4099-53b0-4d30-9873-13da5c862337_1.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple30/v4/c4/8f/97/c48f97b1-9d77-8566-f1ce-5849a1e6c322/mzm.jimkkail.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/mt/app/vinegar-tube-cleaner/id1591303229?uo=2",
+      "label": "https://apps.apple.com/mt/app/magnetometer-metal-detector-and-magnetic-field-meter/id1021893391?uo=2",
       "attributes": {
-        "im:id": "1591303229",
-        "im:bundleId": "com.andadinosaur.Vinegar"
+        "im:id": "1021893391",
+        "im:bundleId": "com.vladapps.magnetometer"
       }
     },
     "im:artist": {
-      "label": "And a Dinosaur",
+      "label": "Vlad Polyanskiy",
       "attributes": {
-        "href": "https://apps.apple.com/mt/developer/and-a-dinosaur/id475577301?uo=2"
+        "href": "https://apps.apple.com/mt/developer/vlad-polyanskiy/id438646985?uo=2"
       }
     },
     "category": {
@@ -5801,9 +5801,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-11-06T00:00:00-07:00",
+      "label": "2015-08-26T11:25:35-07:00",
       "attributes": {
-        "label": "November 6, 2021"
+        "label": "August 26, 2015"
       }
     }
   },
@@ -6020,6 +6020,108 @@
       "total": 100
     },
     "im:name": {
+      "label": "My Leaf for Nissan EV"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/17/4b/fc/174bfc98-d054-c9bb-f6dd-c28fd5373dc2/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/17/4b/fc/174bfc98-d054-c9bb-f6dd-c28fd5373dc2/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/17/4b/fc/174bfc98-d054-c9bb-f6dd-c28fd5373dc2/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Possibly the best app for Nissan Leaf!\n\nProblems? Please contact via email instead of doing a negative review! Please show some appreciation for the open source alternative! Thank you!\n\n- Setup / Before you use -\n\nSupport for North American vehicles has sadly been DISCONTINUED! (blame and complains goes to Nissan of North America)\n\nRemember to first complete the initial setup of your NissanConnect account and vehicle with the official app from Nissan before trying My Leaf!\n\nRemember that My Leaf is directly affected by Nissan's sometimes unreliable services! If the services/official app are down/unreliable so is My Leaf!\n\nTo use My Leaf a NissanConnect subscription from Nissan is required!\n\n- Features -\n\nThis app is exclusively used for the Nissan Leaf and the Nissan e-NV200 at the moment.\n\nMy Leaf is a simple, striving to be great looking, and fast open source alternative to the official NissanConnect apps from Nissan.\n\nBattery statistics; SOC, range and charging statuses\nCharging control; schedule(**) and start charging\nClimate control; set temperature(*), scheduling, starting and stopping of climate control\nLocate your vehicle(*)\nDetailed history of your trips\nFREE \"as in free speech\" and open source!\n\n(*)Only for vehicles produced after May 2019\n(**)Only for vehicles produced prior to May 2019\n\nJoin the testing and feedback community at;\nhttps://groups.google.com/forum/#!forum/my-leaf"
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Tobias Westergaard Kjeldsen"
+    },
+    "title": {
+      "label": "My Leaf for Nissan EV - Tobias Kjeldsen"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mt/app/my-leaf-for-nissan-ev/id1436701776?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/45/27/5e/45275ef7-0899-3b9e-4cec-8f14e8aa7331/mzl.wpszrosr.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mt/app/my-leaf-for-nissan-ev/id1436701776?uo=2",
+      "attributes": {
+        "im:id": "1436701776",
+        "im:bundleId": "dk.kjeldsen.carwingsflutter"
+      }
+    },
+    "im:artist": {
+      "label": "Tobias Kjeldsen",
+      "attributes": {
+        "href": "https://apps.apple.com/mt/developer/tobias-kjeldsen/id1436701775?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-09-25T05:33:23-07:00",
+      "attributes": {
+        "label": "September 25, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mt",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 61,
+      "total": 100
+    },
+    "im:name": {
       "label": "Light Meter - lux and foot candle measurement tool"
     },
     "im:image": [
@@ -6118,7 +6220,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 61,
+      "index": 62,
       "total": 100
     },
     "im:name": {
@@ -6220,7 +6322,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 62,
+      "index": 63,
       "total": 100
     },
     "im:name": {
@@ -6322,7 +6424,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 63,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6416,108 +6518,6 @@
       "label": "2009-03-31T10:45:34-07:00",
       "attributes": {
         "label": "March 31, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mt",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 64,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Battery Widget 2.0"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a7/63/aa/a763aae9-3b84-8d60-478e-6a2dfe6350ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a7/63/aa/a763aae9-3b84-8d60-478e-6a2dfe6350ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a7/63/aa/a763aae9-3b84-8d60-478e-6a2dfe6350ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Refund available within 14 days, no questions asked. To do that, click on 'Report a problem' on the app page and select 'Request a refund'.\n\nBatteries is a universal purchase. You buy it once and use on any number of iPhone, iPad, Mac and Apple Watch. With latest release you now can share and track your friends and families' battery levels as well!\n\nBattery-Widget is made with love and care and is used by many happy customers on all their devices on a daily basis. We would love for you to get on board and get rid of your battery anxiety.\n\nTrack battery levels of iPhone, iPad, Apple Watch, and Mac on all your devices. Battery levels are very reliable and sync over the internet. You get low-battery alerts from all devices. You can also monitor batteries of friends and family with battery sharing.\n\n* Features at a glance *\n1. Track battery levels of iPhone, iPad, Apple Watch and Mac (With latest release you now can share and track your friends and families' battery levels as well!)\n2. Shows charging state of all your devices.\n3. Low battery notifications from all your devices.\n4. Supports latest iOS 15, iPadOS 15 and macOS Monterey. Also, fully supports latest M1 Macs.\n5. Most up to date battery tracker with incredible support - any issues and feature requests are welcome. Reach out to me directly pawankdixit@icloud.com\n\nBatteries is designed to do just one thing. That is to track batteries of all your Apple devices from a single app. Once you install batteries app in your iPhone, iPad, Apple Watch and Mac, all your devices' battery levels become available to every other device. So no matter what device you are on, you can check battery level of any of your devices.\n\nlaunching Battery-Widget 2.0 with best-in-class battery level syncing across all your Apple devices. You can monitor battery level of any device from any other device. For example, you can track your Mac's battery on your iPhone or Watch, or your iPhone's battery on your Mac. With the 2.0 release, you can also share and monitor battery levels of friends and family with battery sharing.  Battery-Widget is useful when you want to know which device needs charging without constantly picking up devices. Battery-Widget 2.0 is very reliable in syncing battery levels over the internet with zero initial setup - just install the app on all your devices and you are good to go. You get helpful widgets on your iPhone and Apple watch to easily glance at your devices. On Mac, you get a gorgeous battery status icon that is a true replacement for the system battery icon, showing you battery levels from all your devices. On MacBooks, you also get to see the time remaining on the battery in addition to the percentage.\n\nPrivacy policy: we collect absolutely nothing!\n\nPrivacy Policy: https://pawan.pro/privacy\n\nTags\ncloud battery,battery widget,bluetooth battery,battery tracker,battery monitor,mac battery,batteries"
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Pawan Dixit"
-    },
-    "title": {
-      "label": "Battery Widget 2.0 - Pawan Dixit"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mt/app/battery-widget-2-0/id1561658854?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/62/a4/5e/62a45ef0-78b1-9b91-0620-357a619f144e/1aec8593-9b54-4699-8ca8-1e63cfc44b3e_IMG_0551_copy_5.PNG/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mt/app/battery-widget-2-0/id1561658854?uo=2",
-      "attributes": {
-        "im:id": "1561658854",
-        "im:bundleId": "com.pawan.batteries"
-      }
-    },
-    "im:artist": {
-      "label": "Pawan Dixit",
-      "attributes": {
-        "href": "https://apps.apple.com/mt/developer/pawan-dixit/id1439015043?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-04-19T00:00:00-07:00",
-      "attributes": {
-        "label": "April 19, 2021"
       }
     }
   },
@@ -7142,6 +7142,108 @@
       "total": 100
     },
     "im:name": {
+      "label": "Vinegar - Tube Cleaner"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/de/a1/9f/dea19f78-a871-0643-4748-08074ca2c1e7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/de/a1/9f/dea19f78-a871-0643-4748-08074ca2c1e7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/de/a1/9f/dea19f78-a871-0643-4748-08074ca2c1e7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Vinegar is a Safari extension that replaces the YouTube player with a minimal HTML video tag.\n\nIt removes ads, restores picture-in-picture, and keeps videos playing in the background.\n\nNote: The \"can read and alter webpages\" text in the permission section is just unfortunate wording. Vinegar needs access to the web page to find the YouTube player and replace it. It's not doing anything creepy!\n\n(By the way, check out Vinegar's companion app, Baking Soda. It's basically a less powerful version of Vinegar, but it works on all websites other than YouTube.)"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 And a Dinosaur"
+    },
+    "title": {
+      "label": "Vinegar - Tube Cleaner - And a Dinosaur"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mt/app/vinegar-tube-cleaner/id1591303229?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/80/80/6b/80806bc3-c689-0fd3-f175-287a2f6f1f43/081c4099-53b0-4d30-9873-13da5c862337_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mt/app/vinegar-tube-cleaner/id1591303229?uo=2",
+      "attributes": {
+        "im:id": "1591303229",
+        "im:bundleId": "com.andadinosaur.Vinegar"
+      }
+    },
+    "im:artist": {
+      "label": "And a Dinosaur",
+      "attributes": {
+        "href": "https://apps.apple.com/mt/developer/and-a-dinosaur/id475577301?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-11-06T00:00:00-07:00",
+      "attributes": {
+        "label": "November 6, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mt",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 72,
+      "total": 100
+    },
+    "im:name": {
       "label": "Red Onion - Darknet Browser"
     },
     "im:image": [
@@ -7240,7 +7342,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 72,
+      "index": 73,
       "total": 100
     },
     "im:name": {
@@ -7342,7 +7444,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 73,
+      "index": 74,
       "total": 100
     },
     "im:name": {
@@ -7436,108 +7538,6 @@
       "label": "2010-12-21T15:33:29-07:00",
       "attributes": {
         "label": "December 21, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mt",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 74,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Work Diary"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7a/f7/91/7af7918f-927f-b8f9-5326-2bbd62ae09a6/AppIconWDS-0-1x_U007emarketing-0-85-220-2.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7a/f7/91/7af7918f-927f-b8f9-5326-2bbd62ae09a6/AppIconWDS-0-1x_U007emarketing-0-85-220-2.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7a/f7/91/7af7918f-927f-b8f9-5326-2bbd62ae09a6/AppIconWDS-0-1x_U007emarketing-0-85-220-2.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "*****  \"This app is awesome. It has increased my productivity 100%.\" - johnmba\n\n*****  \"This app has saved me so much time and helped me be better organized!!! I love it definitely worth having!\" - abceeya007\n\n\nWork Diary is an amazing new App, ideal for logging, planning, and/or reporting your day-to-day work activities.\n\nBeing very easy to use, it lets you spend more time doing your work, and less time on the admin.\n\n\nKey Features:\n\n- Can be used as a diary, calendar, planner, tracker, time management tool and/or timesheet generator.\n\n-  Is suitable for any type of work/business.\n\n- Caters for all possible working patterns, including shift work.\n\n- Includes powerful reporting features, producing a wide variety of printable and spreadsheet reports, detailing your work. You can email these wherever you want them to go.\n\n- Contains no Ads or In-App Purchases."
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 SMC Analysts Ltd"
-    },
-    "title": {
-      "label": "Work Diary - SMC Analysts Ltd"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mt/app/work-diary/id522024156?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/ed/23/70ed238a-4b93-e377-42cc-1d7924df2f98/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mt/app/work-diary/id522024156?uo=2",
-      "attributes": {
-        "im:id": "522024156",
-        "im:bundleId": "WorkDiarySimpId"
-      }
-    },
-    "im:artist": {
-      "label": "SMC Analysts Ltd",
-      "attributes": {
-        "href": "https://apps.apple.com/mt/developer/smc-analysts-ltd/id487667375?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-06-15T07:57:08-07:00",
-      "attributes": {
-        "label": "June 15, 2012"
       }
     }
   },
@@ -8465,35 +8465,35 @@
       "total": 100
     },
     "im:name": {
-      "label": "Paint My Ride"
+      "label": "Battery Widget 2.0"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/d2/88/9f/d2889f5f-add7-2473-9905-8524978bb8c1/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a7/63/aa/a763aae9-3b84-8d60-478e-6a2dfe6350ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/d2/88/9f/d2889f5f-add7-2473-9905-8524978bb8c1/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a7/63/aa/a763aae9-3b84-8d60-478e-6a2dfe6350ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/d2/88/9f/d2889f5f-add7-2473-9905-8524978bb8c1/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a7/63/aa/a763aae9-3b84-8d60-478e-6a2dfe6350ed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Paint My Ride app allows you to simply take a picture of your car and apply any color you desire.  This will allow you to find the color you want for your car before going to the paint shop and making a costly mistake. The standard version allows you to take as many normal resolution photos and edit them as you want and adjust the colors and save them to your library to be shared or stored. \n\n\nSUBSCRIPTION PRICING AND TERMS\nWhen you upgrade to the Professional Collage Maker you will have access to the Pro collage export which features more collage options. Perfect for planning your next professional paint job!\n\n- 1 year Subscription - *Auto-Renewable Subscription*\n- $19.99/year (CAD - price will be reflected based on location and currency)\n- Payment will be charged to iTunes Account at confirmation of purchase\n- Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period\n- Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal\n– Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase\n\n\nTerms of Use: https://drive.google.com/open?id=10UGJS9ZBSVZH9LEnBd08bUkqoJ6hCUfJ\nPrivacy Policy: https://drive.google.com/open?id=1SzULl7JjRh0pFxL6jUjgFBWTF7PX5WL8"
+      "label": "Refund available within 14 days, no questions asked. To do that, click on 'Report a problem' on the app page and select 'Request a refund'.\n\nBatteries is a universal purchase. You buy it once and use on any number of iPhone, iPad, Mac and Apple Watch. With latest release you now can share and track your friends and families' battery levels as well!\n\nBattery-Widget is made with love and care and is used by many happy customers on all their devices on a daily basis. We would love for you to get on board and get rid of your battery anxiety.\n\nTrack battery levels of iPhone, iPad, Apple Watch, and Mac on all your devices. Battery levels are very reliable and sync over the internet. You get low-battery alerts from all devices. You can also monitor batteries of friends and family with battery sharing.\n\n* Features at a glance *\n1. Track battery levels of iPhone, iPad, Apple Watch and Mac (With latest release you now can share and track your friends and families' battery levels as well!)\n2. Shows charging state of all your devices.\n3. Low battery notifications from all your devices.\n4. Supports latest iOS 15, iPadOS 15 and macOS Monterey. Also, fully supports latest M1 Macs.\n5. Most up to date battery tracker with incredible support - any issues and feature requests are welcome. Reach out to me directly pawankdixit@icloud.com\n\nBatteries is designed to do just one thing. That is to track batteries of all your Apple devices from a single app. Once you install batteries app in your iPhone, iPad, Apple Watch and Mac, all your devices' battery levels become available to every other device. So no matter what device you are on, you can check battery level of any of your devices.\n\nlaunching Battery-Widget 2.0 with best-in-class battery level syncing across all your Apple devices. You can monitor battery level of any device from any other device. For example, you can track your Mac's battery on your iPhone or Watch, or your iPhone's battery on your Mac. With the 2.0 release, you can also share and monitor battery levels of friends and family with battery sharing.  Battery-Widget is useful when you want to know which device needs charging without constantly picking up devices. Battery-Widget 2.0 is very reliable in syncing battery levels over the internet with zero initial setup - just install the app on all your devices and you are good to go. You get helpful widgets on your iPhone and Apple watch to easily glance at your devices. On Mac, you get a gorgeous battery status icon that is a true replacement for the system battery icon, showing you battery levels from all your devices. On MacBooks, you also get to see the time remaining on the battery in addition to the percentage.\n\nPrivacy policy: we collect absolutely nothing!\n\nPrivacy Policy: https://pawan.pro/privacy\n\nTags\ncloud battery,battery widget,bluetooth battery,battery tracker,battery monitor,mac battery,batteries"
     },
     "im:price": {
-      "label": "7,99 €",
+      "label": "5,99 €",
       "attributes": {
-        "amount": "7.99",
+        "amount": "5.99",
         "currency": "EUR"
       }
     },
@@ -8504,17 +8504,17 @@
       }
     },
     "rights": {
-      "label": "© 2018 Aus-Em Productions Inc."
+      "label": "© 2021 Pawan Dixit"
     },
     "title": {
-      "label": "Paint My Ride - Aus-Em Productions Inc."
+      "label": "Battery Widget 2.0 - Pawan Dixit"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/mt/app/paint-my-ride/id1319441494?uo=2"
+          "href": "https://apps.apple.com/mt/app/battery-widget-2-0/id1561658854?uo=2"
         }
       },
       {
@@ -8525,22 +8525,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/62/bc/d7/62bcd7b0-09af-e032-6668-8fc066010f18/pr_source.jpg/1024x1024bb.jpg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/62/a4/5e/62a45ef0-78b1-9b91-0620-357a619f144e/1aec8593-9b54-4699-8ca8-1e63cfc44b3e_IMG_0551_copy_5.PNG/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/mt/app/paint-my-ride/id1319441494?uo=2",
+      "label": "https://apps.apple.com/mt/app/battery-widget-2-0/id1561658854?uo=2",
       "attributes": {
-        "im:id": "1319441494",
-        "im:bundleId": "com.terraform.colourmyride"
+        "im:id": "1561658854",
+        "im:bundleId": "com.pawan.batteries"
       }
     },
     "im:artist": {
-      "label": "Aus-Em Productions Inc.",
+      "label": "Pawan Dixit",
       "attributes": {
-        "href": "https://apps.apple.com/mt/developer/aus-em-productions-inc/id1319441493?uo=2"
+        "href": "https://apps.apple.com/mt/developer/pawan-dixit/id1439015043?uo=2"
       }
     },
     "category": {
@@ -8552,9 +8552,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2018-08-29T04:47:46-07:00",
+      "label": "2021-04-19T00:00:00-07:00",
       "attributes": {
-        "label": "August 29, 2018"
+        "label": "April 19, 2021"
       }
     }
   },
@@ -8564,6 +8564,108 @@
       "pricing": "paid",
       "genre": "utilities",
       "index": 85,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Work Diary"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7a/f7/91/7af7918f-927f-b8f9-5326-2bbd62ae09a6/AppIconWDS-0-1x_U007emarketing-0-85-220-2.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7a/f7/91/7af7918f-927f-b8f9-5326-2bbd62ae09a6/AppIconWDS-0-1x_U007emarketing-0-85-220-2.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7a/f7/91/7af7918f-927f-b8f9-5326-2bbd62ae09a6/AppIconWDS-0-1x_U007emarketing-0-85-220-2.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "*****  \"This app is awesome. It has increased my productivity 100%.\" - johnmba\n\n*****  \"This app has saved me so much time and helped me be better organized!!! I love it definitely worth having!\" - abceeya007\n\n\nWork Diary is an amazing new App, ideal for logging, planning, and/or reporting your day-to-day work activities.\n\nBeing very easy to use, it lets you spend more time doing your work, and less time on the admin.\n\n\nKey Features:\n\n- Can be used as a diary, calendar, planner, tracker, time management tool and/or timesheet generator.\n\n-  Is suitable for any type of work/business.\n\n- Caters for all possible working patterns, including shift work.\n\n- Includes powerful reporting features, producing a wide variety of printable and spreadsheet reports, detailing your work. You can email these wherever you want them to go.\n\n- Contains no Ads or In-App Purchases."
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 SMC Analysts Ltd"
+    },
+    "title": {
+      "label": "Work Diary - SMC Analysts Ltd"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mt/app/work-diary/id522024156?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/ed/23/70ed238a-4b93-e377-42cc-1d7924df2f98/pr_source.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mt/app/work-diary/id522024156?uo=2",
+      "attributes": {
+        "im:id": "522024156",
+        "im:bundleId": "WorkDiarySimpId"
+      }
+    },
+    "im:artist": {
+      "label": "SMC Analysts Ltd",
+      "attributes": {
+        "href": "https://apps.apple.com/mt/developer/smc-analysts-ltd/id487667375?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-06-15T07:57:08-07:00",
+      "attributes": {
+        "label": "June 15, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mt",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 86,
       "total": 100
     },
     "im:name": {
@@ -8665,7 +8767,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 86,
+      "index": 87,
       "total": 100
     },
     "im:name": {
@@ -8767,7 +8869,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 87,
+      "index": 88,
       "total": 100
     },
     "im:name": {
@@ -8869,7 +8971,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 88,
+      "index": 89,
       "total": 100
     },
     "im:name": {
@@ -8971,7 +9073,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 89,
+      "index": 90,
       "total": 100
     },
     "im:name": {
@@ -9073,7 +9175,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 90,
+      "index": 91,
       "total": 100
     },
     "im:name": {
@@ -9175,7 +9277,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 91,
+      "index": 92,
       "total": 100
     },
     "im:name": {
@@ -9277,7 +9379,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 92,
+      "index": 93,
       "total": 100
     },
     "im:name": {
@@ -9379,7 +9481,7 @@
       "country_code": "mt",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 93,
+      "index": 94,
       "total": 100
     },
     "im:name": {
@@ -9473,108 +9575,6 @@
       "label": "2009-03-25T14:29:18-07:00",
       "attributes": {
         "label": "March 25, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mt",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 94,
-      "total": 100
-    },
-    "im:name": {
-      "label": "النفس الزكية برو - PureSelfPro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/c0/2e/4ac02e50-9ea5-78cd-70d8-1703355f76f6/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/c0/2e/4ac02e50-9ea5-78cd-70d8-1703355f76f6/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/c0/2e/4ac02e50-9ea5-78cd-70d8-1703355f76f6/AppIcon-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "بسم الله الرحمن الرحيم\nاللهم صل على محمد وآل محمد وعجل فرجهم والعن أعدائهم\n----------------\nمميزات النسخة برو:\n١ـ يوجد تنبيه للمناسبات\n٢ـ ارسال المناسبة كإيميل أو اس ام اس  او نسخها وارسالها عن طريق برنامج آخر\n٣ـ امكانية اضافة مناسبات دورية سنوية خاصة بالهجري أو الميلادي\n٤ـ عداد لقضاء الصلوات\n٥ـ حساب الخمس\n٦- عداد للركعات\n٧- عداد للتسبيح\n٨- تحميل صوتيات الادعية\n٩- أحاديث الكافي\n١٠- نبذة عن المعصومين صلوات الله عليهم والمناسبات\n١١- خانة المفضلة لاضافة المفضلة من اعمال الشهور\nوغيره من المميزات\n----------------\nهذه نسخة متقدمة تحوي بعض الامتيازات التي لن تتوفر في النسخة العادية الا بعض الامور العبادية وحسب الضرورة \n----------------\nولكن العبادات والتحديثات الضرورية جدا ستتواجد على النسختين أي يمكن اعتبار النسخة هذه كدعم بسيط لنا لمن يقدر عملنا"
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© PureSelf 2010"
-    },
-    "title": {
-      "label": "النفس الزكية برو - PureSelfPro - AlMahdi A.T.F"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mt/app/%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D8%A7%D9%84%D8%B2%D9%83%D9%8A%D8%A9-%D8%A8%D8%B1%D9%88-pureselfpro/id432883320?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/fc/4e/65/fc4e65a8-160c-31b9-bfdd-dc01681fab65/mzl.ouildszq.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mt/app/%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D8%A7%D9%84%D8%B2%D9%83%D9%8A%D8%A9-%D8%A8%D8%B1%D9%88-pureselfpro/id432883320?uo=2",
-      "attributes": {
-        "im:id": "432883320",
-        "im:bundleId": "com.almahdi.ShiaPrayAndOccasionPro"
-      }
-    },
-    "im:artist": {
-      "label": "AlMahdi A.T.F",
-      "attributes": {
-        "href": "https://apps.apple.com/mt/developer/almahdi-a-t-f/id409021282?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-04-23T19:02:57-07:00",
-      "attributes": {
-        "label": "April 23, 2011"
       }
     }
   },
@@ -9995,108 +9995,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "iAntiSpy"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/4b/c2/53/4bc2539c-6724-b0a0-f233-cc94c90c00de/mzl.braeiuua.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/4b/c2/53/4bc2539c-6724-b0a0-f233-cc94c90c00de/mzl.braeiuua.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/4b/c2/53/4bc2539c-6724-b0a0-f233-cc94c90c00de/mzl.braeiuua.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Worried about targeted ads tracking you online?\nIs your privacy being compromised by web  beacons and \"smart\" pixels?\nAre you constantly followed around by the same retargeted context sensitive ads on websites? \nIf so, you need to download iAntiSpy.\n\nPlease note: iAntiSpy requires iOS9 and an iPhone 5S, iPod touch 6th Gen, iPad Air or newer device.  For more information please see http://www.iantispy.com and http://www.iantispy.com/faq"
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2015 iBoostUp Pty Ltd"
-    },
-    "title": {
-      "label": "iAntiSpy - iBoostUp Pty Ltd"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/mt/app/iantispy/id1006943836?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/c9/d2/7d/c9d27d47-3376-bdb5-20a8-7e6456c9892e/mzm.bpyzmbjs.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/mt/app/iantispy/id1006943836?uo=2",
-      "attributes": {
-        "im:id": "1006943836",
-        "im:bundleId": "com.iantispy.ios"
-      }
-    },
-    "im:artist": {
-      "label": "iBoostUp Pty Ltd",
-      "attributes": {
-        "href": "https://apps.apple.com/mt/developer/iboostup-pty-ltd/id461682043?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-10-15T03:58:50-07:00",
-      "attributes": {
-        "label": "October 15, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "mt",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 100,
-      "total": 100
-    },
-    "im:name": {
       "label": "AdGuard Pro — adblock&privacy"
     },
     "im:image": [
@@ -10187,6 +10085,108 @@
       "label": "2016-09-30T02:10:39-07:00",
       "attributes": {
         "label": "September 30, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "mt",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 100,
+      "total": 100
+    },
+    "im:name": {
+      "label": "AlienMobile+"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/bd/1e/96/bd1e9662-c9f2-89e7-104b-a3c80477b34d/AppIcon-0-1x_U007emarketing-0-85-220-10.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/bd/1e/96/bd1e9662-c9f2-89e7-104b-a3c80477b34d/AppIcon-0-1x_U007emarketing-0-85-220-10.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/bd/1e/96/bd1e9662-c9f2-89e7-104b-a3c80477b34d/AppIcon-0-1x_U007emarketing-0-85-220-10.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The AlienMobile+ App provides you with remote management of Inim™ SmartLiving, Prime and Sol systems via your smartphone or tablet. You can remotely control your home and office by conveniently sending anti-intrusion and home-automation commands from your mobile device, whenever you like and from wherever you like.\n\nAlienMobile+ supports all display sizes, it presents an interface with large-sized icons for simple and intuitive operation. AlienMobile+ has the same interface as Alien touchscreen keypads, so you will find an immediately recognizable environment with easy-to-use commands that you are already familiar with.\n\nFunction completeness has been achieved: with just a few taps you can arm, disarm or even partially arm the anti-intrusion system, access scenarios, access system components and the event memory status, switch on air conditioning systems, sprinklers, lights, and much more.\n\nIn addition to SMS management, you can synchronize the messages configured on the control panel and send them via the App as commands.\n\nThrough AlienMobile+ it is possible to manage multiple SmartLiving, Prime and Sol systems: thanks to multi-control panel management you can in fact interact with numerous installations without limitation. In this way, it is possible to control a number of systems (home, office, business premises, etc.) in a combined manner.\n\nAlienMobile+ also offers a chronothermostat function which allows you to control diverse thermal zones, and manage cameras. You can interact with a camera and control its image-capture angles as well as manage simultaneous multiple-viewing (up to 4 cameras), furthermore, you can associate different cameras to different SmartLiving, Prime or Sol control panels. But it does not end there: with AlienMobile+ you can access Inim Cloud services, thus obtaining the possibility of receiving push notifications regarding alarms, faults, arm/disarm operations and the connection status.\n\nDownload it now!"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Inim Electronics srl"
+    },
+    "title": {
+      "label": "AlienMobile+ - Inim Electronics"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/mt/app/alienmobile/id711389455?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/4a/7b/22/4a7b22bf-ce32-bce5-334a-40c454b6ace6/mzl.crhptmya.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/mt/app/alienmobile/id711389455?uo=2",
+      "attributes": {
+        "im:id": "711389455",
+        "im:bundleId": "it.inim.alienmobilepro"
+      }
+    },
+    "im:artist": {
+      "label": "Inim Electronics",
+      "attributes": {
+        "href": "https://apps.apple.com/mt/developer/inim-electronics/id669028469?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/mt/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-09-25T20:52:49-07:00",
+      "attributes": {
+        "label": "September 25, 2013"
       }
     }
   }

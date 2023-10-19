@@ -8,6 +8,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "$6.99",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -404,108 +506,6 @@
       "label": "2021-01-14T00:00:00-07:00",
       "attributes": {
         "label": "January 14, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
-      "total": 99
-    },
-    "im:name": {
-      "label": "RevenueCat Sales: RCReporting"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/91/7a/17917ae5-f839-5359-f372-b38c49b38a2b/AppIcon-0-1x_U007epad-0-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/91/7a/17917ae5-f839-5359-f372-b38c49b38a2b/AppIcon-0-1x_U007epad-0-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/91/7a/17917ae5-f839-5359-f372-b38c49b38a2b/AppIcon-0-1x_U007epad-0-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "RCReporting is the most powerful reporting tool for RevenueCat, providing all the features from the website in a native, dark mode supported, beautiful interface.\n\nRCReporting is available for a one-time purchase and will include all future updates, made by an indie developer for indie developers. \n\nFeatures include:\n- Overview reporting\n- Overview filtering by an app\n- Subscriber lists\n- Transaction history\n- Transaction filtering by app, date, and status\n- Transaction search by email, transaction id, and customer id\n- Transaction and subscriber details\n- Subscriber attributes\n- Subscriber history\n- Subscriber event details\n- Daily stats and transaction history\n- Charts for:\n    - Active Subscriptions,\n    - Active Subscriptions Movement\n    - ARR\n    - MRR\n    - MRR Movement\n    - Refund Rate\n    - Revenue\n    - Subscription Retention\n    - Trial Conversion\n    - Active Trials\n    - Active Trials Movement\n- Local transaction notifications\n- Remote subscription notifications\n- Custom currency\n- Sandbox mode\n- iCloud sync\n- Widgets\n- Custom transaction fee\n- Rename products\n- RevenueCat Experiments\n\nAuthenticating with RevenueCat uses the RevenueCat web APIs and all your information is sent directly to RevenueCat only. Your email and password are NOT saved anywhere. \nRCReporting supports login with 2FA.\n\nRCReporting is not affiliated with RevenueCat."
-    },
-    "im:price": {
-      "label": "$19.99",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Innovative Digital Technologies"
-    },
-    "title": {
-      "label": "RevenueCat Sales: RCReporting - INNOVATIVE DIGITAL TECHNOLOGIES LIMITED"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/revenuecat-sales-rcreporting/id1511127976?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/7c/9f/a97c9f7e-036f-77f7-bc3c-67bbbdaa6e98/7cd1e162-3de2-46e9-8643-c014e6c12f70_Apple_iPad_Pro_13_Inch_Screenshot_0.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/revenuecat-sales-rcreporting/id1511127976?uo=2",
-      "attributes": {
-        "im:id": "1511127976",
-        "im:bundleId": "com.innovativedigitaltechnologies.RCReporting"
-      }
-    },
-    "im:artist": {
-      "label": "INNOVATIVE DIGITAL TECHNOLOGIES LIMITED",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/innovative-digital-technologies-limited/id1331216448?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-05-08T00:00:00-07:00",
-      "attributes": {
-        "label": "May 8, 2020"
       }
     }
   },
@@ -620,105 +620,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "JSON to XML Converter"
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Simple JSON to XML converter app that lets you input JSON as plain text or load the JSON from url or local files"
-    },
-    "im:artist": {
-      "label": "Mohammed Aadhil",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/mohammed-aadhil/id1526081218?uo=2"
-      }
-    },
-    "title": {
-      "label": "JSON to XML Converter - Mohammed Aadhil"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/json-to-xml-converter/id1545730388?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/03/a4/41/03a441f5-7555-873d-4d3f-24e1c71d37bd/6b50e6ee-0ad4-4fa9-a2ec-7c4cea03d104_2021-01-25_19.21.47.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/json-to-xml-converter/id1545730388?uo=2",
-      "attributes": {
-        "im:id": "1545730388",
-        "im:bundleId": "com.fosspoint.jsontoxml"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-21T00:00:00-07:00",
-      "attributes": {
-        "label": "December 21, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 8,
-      "total": 99
-    },
-    "im:name": {
       "label": "Inspect Browser"
     },
     "im:image": [
@@ -817,7 +718,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -919,7 +820,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -1013,6 +914,105 @@
       "label": "2016-09-27T14:13:49-07:00",
       "attributes": {
         "label": "September 27, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 10,
+      "total": 99
+    },
+    "im:name": {
+      "label": "JSON to XML Converter"
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Simple JSON to XML converter app that lets you input JSON as plain text or load the JSON from url or local files"
+    },
+    "im:artist": {
+      "label": "Mohammed Aadhil",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/mohammed-aadhil/id1526081218?uo=2"
+      }
+    },
+    "title": {
+      "label": "JSON to XML Converter - Mohammed Aadhil"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/json-to-xml-converter/id1545730388?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/03/a4/41/03a441f5-7555-873d-4d3f-24e1c71d37bd/6b50e6ee-0ad4-4fa9-a2ec-7c4cea03d104_2021-01-25_19.21.47.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/json-to-xml-converter/id1545730388?uo=2",
+      "attributes": {
+        "im:id": "1545730388",
+        "im:bundleId": "com.fosspoint.jsontoxml"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-12-21T00:00:00-07:00",
+      "attributes": {
+        "label": "December 21, 2020"
       }
     }
   },
@@ -2045,108 +2045,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "SSH Term Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Quickly manage Linux SSH servers from Mac and iPhone and iPad, support Terminal and SFTP and SCP and Docker and Redis, monitor CPU and memory as well as disk usage and other rich features"
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "Copyright © 2022 sanliang fei, admin@0760.cn"
-    },
-    "title": {
-      "label": "SSH Term Pro - 三量 费"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/ssh-term-pro/id1636342413?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/25/6d/c5/256dc5bd-d24a-6c3e-c881-8ae1e2658821/becd1478-07db-4bb3-a207-13ab0ea9f03a_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/ssh-term-pro/id1636342413?uo=2",
-      "attributes": {
-        "im:id": "1636342413",
-        "im:bundleId": "cn.sshterm.pro"
-      }
-    },
-    "im:artist": {
-      "label": "三量 费",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/%E4%B8%89%E9%87%8F-%E8%B4%B9/id1635301163?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-03-10T00:00:00-07:00",
-      "attributes": {
-        "label": "March 10, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 22,
-      "total": 99
-    },
-    "im:name": {
       "label": "Source 3"
     },
     "im:image": [
@@ -2245,39 +2143,39 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 22,
       "total": 99
     },
     "im:name": {
-      "label": "RegEx Lab: Regular Expressions"
+      "label": "SSH Term Pro"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/35/22/ee35226b-2580-beeb-c128-525ca39099fe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/35/22/ee35226b-2580-beeb-c128-525ca39099fe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/35/22/ee35226b-2580-beeb-c128-525ca39099fe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "RegEx Lab - test regular expressions\n\n• Highlighting of regex syntax and of matches and capture groups.\n• Choose the color of the match highlights\n• Results List View which lists all the matches and capture groups.\n• Replace feature\n• Dark theme (by default) based on the Solarized color palette\n• Themes to choose from (light/dark)\n• A handy cheatsheet which tells you about the different operators, option flags and metacharacters.\n• An extra row of keyboard keys for common special characters\n• Undo / Redo quick access buttons\n• Support for Dynamic Type (iOS Settings Text Size)\n• Export / Import feature\n\nQuestions, suggestions, issues?\nregexlab@sovio.co\n\nMade by Nikolay Suvandzhiev"
+      "label": "Quickly manage Linux SSH servers from Mac and iPhone and iPad, support Terminal and SFTP and SCP and Docker and Redis, monitor CPU and memory as well as disk usage and other rich features"
     },
     "im:price": {
-      "label": "$2.99",
+      "label": "$0.99",
       "attributes": {
-        "amount": "2.99",
+        "amount": "0.99",
         "currency": "CAD"
       }
     },
@@ -2288,17 +2186,17 @@
       }
     },
     "rights": {
-      "label": "© 2023 Sovio Ltd."
+      "label": "Copyright © 2022 sanliang fei, admin@0760.cn"
     },
     "title": {
-      "label": "RegEx Lab: Regular Expressions - sovio"
+      "label": "SSH Term Pro - 三量 费"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/regex-lab-regular-expressions/id1252988123?uo=2"
+          "href": "https://apps.apple.com/ca/app/ssh-term-pro/id1636342413?uo=2"
         }
       },
       {
@@ -2309,22 +2207,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/3e/40/f0/3e40f061-e369-6a50-29f8-24d2987a7a14/mzl.msmxljij.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/25/6d/c5/256dc5bd-d24a-6c3e-c881-8ae1e2658821/becd1478-07db-4bb3-a207-13ab0ea9f03a_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/regex-lab-regular-expressions/id1252988123?uo=2",
+      "label": "https://apps.apple.com/ca/app/ssh-term-pro/id1636342413?uo=2",
       "attributes": {
-        "im:id": "1252988123",
-        "im:bundleId": "com.NikolaySuvandzhiev.RegExLab"
+        "im:id": "1636342413",
+        "im:bundleId": "cn.sshterm.pro"
       }
     },
     "im:artist": {
-      "label": "sovio",
+      "label": "三量 费",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/sovio/id1397333570?uo=2"
+        "href": "https://apps.apple.com/ca/developer/%E4%B8%89%E9%87%8F-%E8%B4%B9/id1635301163?uo=2"
       }
     },
     "category": {
@@ -2336,9 +2234,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2017-07-26T12:09:06-07:00",
+      "label": "2023-03-10T00:00:00-07:00",
       "attributes": {
-        "label": "July 26, 2017"
+        "label": "March 10, 2023"
       }
     }
   },
@@ -2347,7 +2245,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2441,6 +2339,108 @@
       "label": "2022-03-10T00:00:00-07:00",
       "attributes": {
         "label": "March 10, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 24,
+      "total": 99
+    },
+    "im:name": {
+      "label": "RegEx Lab: Regular Expressions"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/35/22/ee35226b-2580-beeb-c128-525ca39099fe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/35/22/ee35226b-2580-beeb-c128-525ca39099fe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/35/22/ee35226b-2580-beeb-c128-525ca39099fe/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "RegEx Lab - test regular expressions\n\n• Highlighting of regex syntax and of matches and capture groups.\n• Choose the color of the match highlights\n• Results List View which lists all the matches and capture groups.\n• Replace feature\n• Dark theme (by default) based on the Solarized color palette\n• Themes to choose from (light/dark)\n• A handy cheatsheet which tells you about the different operators, option flags and metacharacters.\n• An extra row of keyboard keys for common special characters\n• Undo / Redo quick access buttons\n• Support for Dynamic Type (iOS Settings Text Size)\n• Export / Import feature\n\nQuestions, suggestions, issues?\nregexlab@sovio.co\n\nMade by Nikolay Suvandzhiev"
+    },
+    "im:price": {
+      "label": "$2.99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Sovio Ltd."
+    },
+    "title": {
+      "label": "RegEx Lab: Regular Expressions - sovio"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/regex-lab-regular-expressions/id1252988123?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/3e/40/f0/3e40f061-e369-6a50-29f8-24d2987a7a14/mzl.msmxljij.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/regex-lab-regular-expressions/id1252988123?uo=2",
+      "attributes": {
+        "im:id": "1252988123",
+        "im:bundleId": "com.NikolaySuvandzhiev.RegExLab"
+      }
+    },
+    "im:artist": {
+      "label": "sovio",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/sovio/id1397333570?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-07-26T12:09:06-07:00",
+      "attributes": {
+        "label": "July 26, 2017"
       }
     }
   },
@@ -2555,108 +2555,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Text Editor - Document Editor"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Looking for powerful editing apps to write your story, files and make corrections whenever needed? Install Text Editor - Document Editor Pro on your iOS device and edit your texts anytime, anywhere easily.\n\nWe have brought you a fantastic and easy text editor app that will allow you to write and record your story, draft writings, search words or letters and replace multiple words at once. You don’t need several file editors to get different jobs done; this texting editor will provide you with everything. Whether you are looking for a free document editor or a font editing app, our words editor or text document editing app will delight you big time.\n\nWhat can you do with Text Editor- Document Editor app?\n\nThis powerful editing app allows you to edit word files anywhere, anytime. While using this file editor to rewrite your texts, you can find a new word and replace your text with it. Our app works as a text changer, so you can change any word instantly right in the app. You can replace multiple words and search for new words in this word editor app. You can also customize editor themes such as a dark mode for the night or light mode for the day. Also, back up your files and documents on the cloud with one click.\n\nSo, if you are searching for a word editor to edit google documents or a text edit app for customizing your notebook word writings, this editing app is always here to help.\n\nTake a look at the key features of the Text Editor- Document Editor Pro app:\n\n• Whether you are looking for editing apps to make corrections to your word docs or to write a story on your iOS device, this text edit app works effectively and efficiently. The simple and easy user interface of this app editor allows you to edit texts quickly and flawlessly. Install the app on your iPhone and start editing texts instantly without going through any complicated settings.\n• In the setting, you can customize the text as per your will. There are hundreds of font sizes available in our markdown app, and you can select the one you require. You can keep auto-correction on so the app can correct if you make a mistake. This docs and notes editor allows you to write and read texts in fullscreen mode.\n• Your recent activities are also saved in the history so you can find previous documents in one tap. If you are looking for an easy, simple yet elegant text editing tool that contains all necessary functions, your search ends with our quick edit app. \n• You can find words or texts and replace them easily in this texteditor app. This text changer allows you to change words anytime you want. Select the word you want to change, find the alternative in the app, and replace it. You can also edit your Json file effortlessly with this quickedit app.\n• This texting editor allows you to customize the theme. You can switch into the dark mode or light mode according to your need.\n• Keep a backup of your edited word doc or google-docs into the cloud, so you never lose them. Find the right tags for your file in the app and upload them directly on iCloud.\n• If you are searching for a document editor free to edit documents like word files or Json, our simple texting-file editor is the right one. In-app purchases are also available if you want to access more unique features.\n\nSo, what are you waiting for? Install Text Editor- Document Editor on your iOS device and start editing texts like a pro."
-    },
-    "im:price": {
-      "label": "$2.99",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 SUPAGARN - PA"
-    },
-    "title": {
-      "label": "Text Editor - Document Editor - Supagarn Pattananuchart"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/text-editor-document-editor/id1565641091?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/20/fd/42/20fd4210-1434-9983-4d0a-22a028322130/77fc5d5a-3d81-4c56-95ed-2d659d310239_IP-1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/text-editor-document-editor/id1565641091?uo=2",
-      "attributes": {
-        "im:id": "1565641091",
-        "im:bundleId": "com.mav.TextEditor"
-      }
-    },
-    "im:artist": {
-      "label": "Supagarn Pattananuchart",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/supagarn-pattananuchart/id1488328374?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-05-12T00:00:00-07:00",
-      "attributes": {
-        "label": "May 12, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 27,
-      "total": 99
-    },
-    "im:name": {
       "label": "iHTTP Tracker -Network monitor"
     },
     "im:image": [
@@ -2755,7 +2653,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2857,39 +2755,39 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 28,
       "total": 99
     },
     "im:name": {
-      "label": "Haptics - Feedback Generator"
+      "label": "RevenueCat Sales: RCReporting"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/39/ef/6539ef76-9a42-5915-9a15-97765664db42/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/91/7a/17917ae5-f839-5359-f372-b38c49b38a2b/AppIcon-0-1x_U007epad-0-0-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/39/ef/6539ef76-9a42-5915-9a15-97765664db42/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/91/7a/17917ae5-f839-5359-f372-b38c49b38a2b/AppIcon-0-1x_U007epad-0-0-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/39/ef/6539ef76-9a42-5915-9a15-97765664db42/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/91/7a/17917ae5-f839-5359-f372-b38c49b38a2b/AppIcon-0-1x_U007epad-0-0-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Haptics provides developers with an easy way to test variations of the built-in haptic feedback types on iPhone and Apple Watch.\n\nDevelopers can configure the haptic feedback types for testing or viewing of the code without having to create their own demo app.\n\n\nHaptics supports these built-in haptic feedback types:\n\n- Impact\n- Selection\n- Notification\n- Apple Watch\n\n\nHaptics contains these great features:\n\nCONFIGURE\n\nIt’s quick and easy to get started. Simply choose a haptic feedback type and use the built-in controls to select the variation of that haptic feedback you’d like to test.\n\n\nTEST\n\nUsing your iPhone or Apple Watch, you can test how your configured haptic feedback vibrations will feel to your user.\n\n\nVIEW CODE\n\nHaptics provides you the ability to preview what the code will look like for your configuration in real-time. As you update the configuration, the code updates.\n\n\nCOPY & SHARE CODE\n\nTo use the Swift code in your project, simply hold down on the code and select Copy or Share.\n\n\nACCESSIBILITY\n\nThe app has been developed throughout to support VoiceOver & Dynamic Type users.\n\n\nIf you like this app, I’d really appreciate it if you could take the time to leave a positive review! Having issues? Please get in touch:\n\nEmail: support@adamfoot.dev\nWebsite: https://adamfoot.dev"
+      "label": "RCReporting is the most powerful reporting tool for RevenueCat, providing all the features from the website in a native, dark mode supported, beautiful interface.\n\nRCReporting is available for a one-time purchase and will include all future updates, made by an indie developer for indie developers. \n\nFeatures include:\n- Overview reporting\n- Overview filtering by an app\n- Subscriber lists\n- Transaction history\n- Transaction filtering by app, date, and status\n- Transaction search by email, transaction id, and customer id\n- Transaction and subscriber details\n- Subscriber attributes\n- Subscriber history\n- Subscriber event details\n- Daily stats and transaction history\n- Charts for:\n    - Active Subscriptions,\n    - Active Subscriptions Movement\n    - ARR\n    - MRR\n    - MRR Movement\n    - Refund Rate\n    - Revenue\n    - Subscription Retention\n    - Trial Conversion\n    - Active Trials\n    - Active Trials Movement\n- Local transaction notifications\n- Remote subscription notifications\n- Custom currency\n- Sandbox mode\n- iCloud sync\n- Widgets\n- Custom transaction fee\n- Rename products\n- RevenueCat Experiments\n\nAuthenticating with RevenueCat uses the RevenueCat web APIs and all your information is sent directly to RevenueCat only. Your email and password are NOT saved anywhere. \nRCReporting supports login with 2FA.\n\nRCReporting is not affiliated with RevenueCat."
     },
     "im:price": {
-      "label": "$0.99",
+      "label": "$19.99",
       "attributes": {
-        "amount": "0.99",
+        "amount": "19.99",
         "currency": "CAD"
       }
     },
@@ -2900,17 +2798,17 @@
       }
     },
     "rights": {
-      "label": "© Adam Foot"
+      "label": "© Innovative Digital Technologies"
     },
     "title": {
-      "label": "Haptics - Feedback Generator - Adam Foot"
+      "label": "RevenueCat Sales: RCReporting - INNOVATIVE DIGITAL TECHNOLOGIES LIMITED"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/haptics-feedback-generator/id1474606532?uo=2"
+          "href": "https://apps.apple.com/ca/app/revenuecat-sales-rcreporting/id1511127976?uo=2"
         }
       },
       {
@@ -2921,22 +2819,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource113/v4/e3/1d/24/e31d2467-a1b7-e3ce-be22-714fef5e1884/e5d3c205-6aab-4ca5-be2c-a0c457fbd6c8_iPad_12.9_Home_Button__U00281_U0029.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/7c/9f/a97c9f7e-036f-77f7-bc3c-67bbbdaa6e98/7cd1e162-3de2-46e9-8643-c014e6c12f70_Apple_iPad_Pro_13_Inch_Screenshot_0.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/haptics-feedback-generator/id1474606532?uo=2",
+      "label": "https://apps.apple.com/ca/app/revenuecat-sales-rcreporting/id1511127976?uo=2",
       "attributes": {
-        "im:id": "1474606532",
-        "im:bundleId": "app.FootWare.Haptics"
+        "im:id": "1511127976",
+        "im:bundleId": "com.innovativedigitaltechnologies.RCReporting"
       }
     },
     "im:artist": {
-      "label": "Adam Foot",
+      "label": "INNOVATIVE DIGITAL TECHNOLOGIES LIMITED",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/adam-foot/id1071261283?uo=2"
+        "href": "https://apps.apple.com/ca/developer/innovative-digital-technologies-limited/id1331216448?uo=2"
       }
     },
     "category": {
@@ -2948,9 +2846,111 @@
       }
     },
     "im:releaseDate": {
-      "label": "2019-09-19T00:00:00-07:00",
+      "label": "2020-05-08T00:00:00-07:00",
       "attributes": {
-        "label": "September 19, 2019"
+        "label": "May 8, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 29,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Text Editor - Document Editor"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e1/c1/97/e1c19770-1f58-4372-d443-2c8cc6ec687a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Looking for powerful editing apps to write your story, files and make corrections whenever needed? Install Text Editor - Document Editor Pro on your iOS device and edit your texts anytime, anywhere easily.\n\nWe have brought you a fantastic and easy text editor app that will allow you to write and record your story, draft writings, search words or letters and replace multiple words at once. You don’t need several file editors to get different jobs done; this texting editor will provide you with everything. Whether you are looking for a free document editor or a font editing app, our words editor or text document editing app will delight you big time.\n\nWhat can you do with Text Editor- Document Editor app?\n\nThis powerful editing app allows you to edit word files anywhere, anytime. While using this file editor to rewrite your texts, you can find a new word and replace your text with it. Our app works as a text changer, so you can change any word instantly right in the app. You can replace multiple words and search for new words in this word editor app. You can also customize editor themes such as a dark mode for the night or light mode for the day. Also, back up your files and documents on the cloud with one click.\n\nSo, if you are searching for a word editor to edit google documents or a text edit app for customizing your notebook word writings, this editing app is always here to help.\n\nTake a look at the key features of the Text Editor- Document Editor Pro app:\n\n• Whether you are looking for editing apps to make corrections to your word docs or to write a story on your iOS device, this text edit app works effectively and efficiently. The simple and easy user interface of this app editor allows you to edit texts quickly and flawlessly. Install the app on your iPhone and start editing texts instantly without going through any complicated settings.\n• In the setting, you can customize the text as per your will. There are hundreds of font sizes available in our markdown app, and you can select the one you require. You can keep auto-correction on so the app can correct if you make a mistake. This docs and notes editor allows you to write and read texts in fullscreen mode.\n• Your recent activities are also saved in the history so you can find previous documents in one tap. If you are looking for an easy, simple yet elegant text editing tool that contains all necessary functions, your search ends with our quick edit app. \n• You can find words or texts and replace them easily in this texteditor app. This text changer allows you to change words anytime you want. Select the word you want to change, find the alternative in the app, and replace it. You can also edit your Json file effortlessly with this quickedit app.\n• This texting editor allows you to customize the theme. You can switch into the dark mode or light mode according to your need.\n• Keep a backup of your edited word doc or google-docs into the cloud, so you never lose them. Find the right tags for your file in the app and upload them directly on iCloud.\n• If you are searching for a document editor free to edit documents like word files or Json, our simple texting-file editor is the right one. In-app purchases are also available if you want to access more unique features.\n\nSo, what are you waiting for? Install Text Editor- Document Editor on your iOS device and start editing texts like a pro."
+    },
+    "im:price": {
+      "label": "$2.99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 SUPAGARN - PA"
+    },
+    "title": {
+      "label": "Text Editor - Document Editor - Supagarn Pattananuchart"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/text-editor-document-editor/id1565641091?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/20/fd/42/20fd4210-1434-9983-4d0a-22a028322130/77fc5d5a-3d81-4c56-95ed-2d659d310239_IP-1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/text-editor-document-editor/id1565641091?uo=2",
+      "attributes": {
+        "im:id": "1565641091",
+        "im:bundleId": "com.mav.TextEditor"
+      }
+    },
+    "im:artist": {
+      "label": "Supagarn Pattananuchart",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/supagarn-pattananuchart/id1488328374?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-05-12T00:00:00-07:00",
+      "attributes": {
+        "label": "May 12, 2021"
       }
     }
   },
@@ -3167,6 +3167,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Haptics - Feedback Generator"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/39/ef/6539ef76-9a42-5915-9a15-97765664db42/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/39/ef/6539ef76-9a42-5915-9a15-97765664db42/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/39/ef/6539ef76-9a42-5915-9a15-97765664db42/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Haptics provides developers with an easy way to test variations of the built-in haptic feedback types on iPhone and Apple Watch.\n\nDevelopers can configure the haptic feedback types for testing or viewing of the code without having to create their own demo app.\n\n\nHaptics supports these built-in haptic feedback types:\n\n- Impact\n- Selection\n- Notification\n- Apple Watch\n\n\nHaptics contains these great features:\n\nCONFIGURE\n\nIt’s quick and easy to get started. Simply choose a haptic feedback type and use the built-in controls to select the variation of that haptic feedback you’d like to test.\n\n\nTEST\n\nUsing your iPhone or Apple Watch, you can test how your configured haptic feedback vibrations will feel to your user.\n\n\nVIEW CODE\n\nHaptics provides you the ability to preview what the code will look like for your configuration in real-time. As you update the configuration, the code updates.\n\n\nCOPY & SHARE CODE\n\nTo use the Swift code in your project, simply hold down on the code and select Copy or Share.\n\n\nACCESSIBILITY\n\nThe app has been developed throughout to support VoiceOver & Dynamic Type users.\n\n\nIf you like this app, I’d really appreciate it if you could take the time to leave a positive review! Having issues? Please get in touch:\n\nEmail: support@adamfoot.dev\nWebsite: https://adamfoot.dev"
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Adam Foot"
+    },
+    "title": {
+      "label": "Haptics - Feedback Generator - Adam Foot"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/haptics-feedback-generator/id1474606532?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource113/v4/e3/1d/24/e31d2467-a1b7-e3ce-be22-714fef5e1884/e5d3c205-6aab-4ca5-be2c-a0c457fbd6c8_iPad_12.9_Home_Button__U00281_U0029.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/haptics-feedback-generator/id1474606532?uo=2",
+      "attributes": {
+        "im:id": "1474606532",
+        "im:bundleId": "app.FootWare.Haptics"
+      }
+    },
+    "im:artist": {
+      "label": "Adam Foot",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/adam-foot/id1071261283?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-09-19T00:00:00-07:00",
+      "attributes": {
+        "label": "September 19, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 33,
+      "total": 99
+    },
+    "im:name": {
       "label": "San Fransymbols"
     },
     "im:image": [
@@ -3257,108 +3359,6 @@
       "label": "2020-03-29T00:00:00-07:00",
       "attributes": {
         "label": "March 29, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 33,
-      "total": 99
-    },
-    "im:name": {
-      "label": "ConnectBox - App Dev Tool"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/35/9d/90/359d906e-2a23-bb7e-c979-88450ab3f146/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/35/9d/90/359d906e-2a23-bb7e-c979-88450ab3f146/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/35/9d/90/359d906e-2a23-bb7e-c979-88450ab3f146/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is a tool software for product managers, operators or developers.\n\nIf you want to create a version, update information, upload preview pictures, submit for review, etc. for your app software, but you don't have a computer by your side and need to use a mobile phone to operate, then this app can help you very well.\n\nYou can get all the apps under your account and perform some processing on the apps, such as:\n\n- Create a new version\n- View version information\n- Submit review\n\nAt present, this app is still in the development stage, we will continue to add new features to it, welcome to give us feedback on any needs and suggestions.\n\nOur app is developed based on the App Store Connect API. If you want to know more information, you can check it out at the following URL:\n\nhttps://developer.apple.com/documentation/appstoreconnectapi\n\nTo use this app, you need to have the corresponding permissions of the app store connect account and generate the corresponding key in the app store connect. The specific method used is introduced in the app, and you can also view it at the following URL:\n\nhttps://developer.apple.com/documentation/appstoreconnectapi/creating_api_keys_for_app_store_connect_api\n\nOur app will not save or collect any of your data."
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Nine"
-    },
-    "title": {
-      "label": "ConnectBox - App Dev Tool - 源 陈"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/connectbox-app-dev-tool/id1567375667?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/7c/56/19/7c561955-e38a-face-7444-6d16807b97c1/d9c0dd24-62b6-46a1-bf7f-9be6e5058130_IMG_542765410C60-1.jpeg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/connectbox-app-dev-tool/id1567375667?uo=2",
-      "attributes": {
-        "im:id": "1567375667",
-        "im:bundleId": "com.tool.connectbox"
-      }
-    },
-    "im:artist": {
-      "label": "源 陈",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/%E6%BA%90-%E9%99%88/id1217365131?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-05-25T00:00:00-07:00",
-      "attributes": {
-        "label": "May 25, 2021"
       }
     }
   },
@@ -3473,210 +3473,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "MQTT Home Automation"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/e9/c9/87/e9c98719-55d3-516d-7823-c316d6cd5ff6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/e9/c9/87/e9c98719-55d3-516d-7823-c316d6cd5ff6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/e9/c9/87/e9c98719-55d3-516d-7823-c316d6cd5ff6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "MQTT Home Automation App is used to control MQTT Enabled smart devices.\n\nFeatures:\n-> You can define the Room tiles with PUB/SUB Topic of the installed device.\n-> In the room, You can select the number of Switches and Sliders.\n-> Switch ON/OFF Commands and response is set-able, Based on response command app can display a switch feedback. \n-> Sliders are also a configurable.\n-> HEX commands are also supported.\n-> Switch name and Slider name can be changeable.\n-> You can change display order for the Switches and slider any time."
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 mightyIT"
-    },
-    "title": {
-      "label": "MQTT Home Automation - Gopi Gadhiya"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/mqtt-home-automation/id1561778761?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/fb/35/56/fb3556c3-9e11-c431-e77c-bd472e79d742/c58b5728-0243-4790-9117-2fbf0ccc7b10_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/mqtt-home-automation/id1561778761?uo=2",
-      "attributes": {
-        "im:id": "1561778761",
-        "im:bundleId": "com.mightyIT.MQTT-Home-Automation-Roomwise"
-      }
-    },
-    "im:artist": {
-      "label": "Gopi Gadhiya",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/gopi-gadhiya/id1387816354?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-05-15T00:00:00-07:00",
-      "attributes": {
-        "label": "May 15, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 36,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "$6.99",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 37,
-      "total": 99
-    },
-    "im:name": {
       "label": "Juno Connect: Jupyter Client"
     },
     "im:image": [
@@ -3775,109 +3571,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 38,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Http Traffic pro - sniffer"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Compared with the ordinary version, the professional version is updated frequently, and there is no advertisement in the professional version, so the experience is better\n\nFeatures:\n\n- Support packet capturin, data statistics and summary,\n- Support Wi Fi-LAN packet capturing,\n- Support packet analysis in app and web browser,\n- Support search and file type filtering to quickly find target data,\n- Support HTTP / HTTPS body parsing, preview and analysis support,Including videos, pictures, texts, etc\n- Data can be replicated,\n- HTTP body size is unlimited,\n- It supports computers and other devices to access packet capturing records through browsers,\n- HTTP traffic certificate download, support HTTPS,\n- Local notification reminder function,\n- The packet capturing data is output in reverse order. The top of the packet capturing list is the latest data,\n- Grab the historical data file for reference"
-    },
-    "im:price": {
-      "label": "$2.99",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 william.zhao"
-    },
-    "title": {
-      "label": "Http Traffic pro - sniffer - 岚 赵"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/http-traffic-pro-sniffer/id1490043916?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/a4/55/95/a4559550-8482-6e17-1c33-2efebabe8094/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/http-traffic-pro-sniffer/id1490043916?uo=2",
-      "attributes": {
-        "im:id": "1490043916",
-        "im:bundleId": "com.william.httpTraffic.International"
-      }
-    },
-    "im:artist": {
-      "label": "岚 赵",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/%E5%B2%9A-%E8%B5%B5/id1352261434?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-12-03T00:00:00-07:00",
-      "attributes": {
-        "label": "December 3, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 39,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3979,7 +3673,109 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 40,
+      "index": 37,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Http Traffic pro - sniffer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f3/3c/d5/f33cd514-caac-2332-f76c-e5c1d24615b3/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Compared with the ordinary version, the professional version is updated frequently, and there is no advertisement in the professional version, so the experience is better\n\nFeatures:\n\n- Support packet capturin, data statistics and summary,\n- Support Wi Fi-LAN packet capturing,\n- Support packet analysis in app and web browser,\n- Support search and file type filtering to quickly find target data,\n- Support HTTP / HTTPS body parsing, preview and analysis support,Including videos, pictures, texts, etc\n- Data can be replicated,\n- HTTP body size is unlimited,\n- It supports computers and other devices to access packet capturing records through browsers,\n- HTTP traffic certificate download, support HTTPS,\n- Local notification reminder function,\n- The packet capturing data is output in reverse order. The top of the packet capturing list is the latest data,\n- Grab the historical data file for reference"
+    },
+    "im:price": {
+      "label": "$2.99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 william.zhao"
+    },
+    "title": {
+      "label": "Http Traffic pro - sniffer - 岚 赵"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/http-traffic-pro-sniffer/id1490043916?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/a4/55/95/a4559550-8482-6e17-1c33-2efebabe8094/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/http-traffic-pro-sniffer/id1490043916?uo=2",
+      "attributes": {
+        "im:id": "1490043916",
+        "im:bundleId": "com.william.httpTraffic.International"
+      }
+    },
+    "im:artist": {
+      "label": "岚 赵",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/%E5%B2%9A-%E8%B5%B5/id1352261434?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-12-03T00:00:00-07:00",
+      "attributes": {
+        "label": "December 3, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -4081,7 +3877,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 41,
+      "index": 39,
       "total": 99
     },
     "im:name": {
@@ -4183,7 +3979,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 42,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -4277,6 +4073,210 @@
       "label": "2009-08-15T00:00:00-07:00",
       "attributes": {
         "label": "August 15, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 41,
+      "total": 99
+    },
+    "im:name": {
+      "label": "MQTT Home Automation"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/e9/c9/87/e9c98719-55d3-516d-7823-c316d6cd5ff6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/e9/c9/87/e9c98719-55d3-516d-7823-c316d6cd5ff6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/e9/c9/87/e9c98719-55d3-516d-7823-c316d6cd5ff6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "MQTT Home Automation App is used to control MQTT Enabled smart devices.\n\nFeatures:\n-> You can define the Room tiles with PUB/SUB Topic of the installed device.\n-> In the room, You can select the number of Switches and Sliders.\n-> Switch ON/OFF Commands and response is set-able, Based on response command app can display a switch feedback. \n-> Sliders are also a configurable.\n-> HEX commands are also supported.\n-> Switch name and Slider name can be changeable.\n-> You can change display order for the Switches and slider any time."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 mightyIT"
+    },
+    "title": {
+      "label": "MQTT Home Automation - Gopi Gadhiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/mqtt-home-automation/id1561778761?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/fb/35/56/fb3556c3-9e11-c431-e77c-bd472e79d742/c58b5728-0243-4790-9117-2fbf0ccc7b10_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/mqtt-home-automation/id1561778761?uo=2",
+      "attributes": {
+        "im:id": "1561778761",
+        "im:bundleId": "com.mightyIT.MQTT-Home-Automation-Roomwise"
+      }
+    },
+    "im:artist": {
+      "label": "Gopi Gadhiya",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/gopi-gadhiya/id1387816354?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-05-15T00:00:00-07:00",
+      "attributes": {
+        "label": "May 15, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 42,
+      "total": 99
+    },
+    "im:name": {
+      "label": "ConnectBox - App Dev Tool"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/35/9d/90/359d906e-2a23-bb7e-c979-88450ab3f146/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/35/9d/90/359d906e-2a23-bb7e-c979-88450ab3f146/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/35/9d/90/359d906e-2a23-bb7e-c979-88450ab3f146/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is a tool software for product managers, operators or developers.\n\nIf you want to create a version, update information, upload preview pictures, submit for review, etc. for your app software, but you don't have a computer by your side and need to use a mobile phone to operate, then this app can help you very well.\n\nYou can get all the apps under your account and perform some processing on the apps, such as:\n\n- Create a new version\n- View version information\n- Submit review\n\nAt present, this app is still in the development stage, we will continue to add new features to it, welcome to give us feedback on any needs and suggestions.\n\nOur app is developed based on the App Store Connect API. If you want to know more information, you can check it out at the following URL:\n\nhttps://developer.apple.com/documentation/appstoreconnectapi\n\nTo use this app, you need to have the corresponding permissions of the app store connect account and generate the corresponding key in the app store connect. The specific method used is introduced in the app, and you can also view it at the following URL:\n\nhttps://developer.apple.com/documentation/appstoreconnectapi/creating_api_keys_for_app_store_connect_api\n\nOur app will not save or collect any of your data."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Nine"
+    },
+    "title": {
+      "label": "ConnectBox - App Dev Tool - 源 陈"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/connectbox-app-dev-tool/id1567375667?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/7c/56/19/7c561955-e38a-face-7444-6d16807b97c1/d9c0dd24-62b6-46a1-bf7f-9be6e5058130_IMG_542765410C60-1.jpeg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/connectbox-app-dev-tool/id1567375667?uo=2",
+      "attributes": {
+        "im:id": "1567375667",
+        "im:bundleId": "com.tool.connectbox"
+      }
+    },
+    "im:artist": {
+      "label": "源 陈",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/%E6%BA%90-%E9%99%88/id1217365131?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-05-25T00:00:00-07:00",
+      "attributes": {
+        "label": "May 25, 2021"
       }
     }
   },
@@ -4901,210 +4901,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "MQTT Spy"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/be/20/a9be20ab-b640-7514-2992-7626a685ab1b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/be/20/a9be20ab-b640-7514-2992-7626a685ab1b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/be/20/a9be20ab-b640-7514-2992-7626a685ab1b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "INTRODUCTION:\n- MQTT Spy is used for testing pub/sub protocol with MQTT\n- Simply create a MQTT connection with broker and test MQTT messaging\n- With this app, You can control any MQTT enabled IoT devices and monitor sensors with pub/sub protocol.\n\nFEATURES:\n- Save broker list\n- Separate panels for subscribe and publish data\n- Custom your own buttons for frequent publishing of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Publish Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Subscribed and Published data.\n- Keep Screen on/off option."
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 mightyIT"
-    },
-    "title": {
-      "label": "MQTT Spy - Gopi Gadhiya"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/mqtt-spy/id1564422794?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/09/bf/8d/09bf8dc3-1d02-c07b-97a5-0df3020bf144/769a54cd-5456-48f6-a228-af5f85847b3d_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/mqtt-spy/id1564422794?uo=2",
-      "attributes": {
-        "im:id": "1564422794",
-        "im:bundleId": "com.mightyIT.MQTT-Spy"
-      }
-    },
-    "im:artist": {
-      "label": "Gopi Gadhiya",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/gopi-gadhiya/id1387816354?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-05-26T00:00:00-07:00",
-      "attributes": {
-        "label": "May 26, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 50,
-      "total": 99
-    },
-    "im:name": {
-      "label": "MongoGrip"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "MongoGrip is a fully featured MongoDB Client that offers exploring MongoDB databases, managing documents and collection details, advanced queries and more.\n\nMongoGrip features:\n- Replica Sets (with mongodb+srv support)\n- Multiple authentications methods (SCRAM-SHA-1, MONGODB-CR)\n- Document editor\n- TLS support with certificates files\n- Profile exporting\n- Collection and documents export\n- Indexes management\n- Biometrical authentication\n- Dark mode\n- MongoDB Atlas connections"
-    },
-    "im:price": {
-      "label": "$9.99",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Mateusz Woźniak"
-    },
-    "title": {
-      "label": "MongoGrip - Mateusz Wozniak"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/mongogrip/id1633074744?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e3/e0/b7/e3e0b784-9a90-b6c3-1828-e1676e953565/fffb01b7-ea1a-4f6e-a9ee-12c23c7f052e_ios_screenshot_9_small_tablet.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/mongogrip/id1633074744?uo=2",
-      "attributes": {
-        "im:id": "1633074744",
-        "im:bundleId": "pl.enteam.mgrip"
-      }
-    },
-    "im:artist": {
-      "label": "Mateusz Wozniak",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/mateusz-wozniak/id1555491214?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-03-14T00:00:00-07:00",
-      "attributes": {
-        "label": "March 14, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 51,
-      "total": 99
-    },
-    "im:name": {
       "label": "UDevice - Dev Assistant"
     },
     "im:image": [
@@ -5203,7 +4999,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 52,
+      "index": 50,
       "total": 99
     },
     "im:name": {
@@ -5305,7 +5101,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 53,
+      "index": 51,
       "total": 99
     },
     "im:name": {
@@ -5407,7 +5203,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 54,
+      "index": 52,
       "total": 99
     },
     "im:name": {
@@ -5509,7 +5305,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 55,
+      "index": 53,
       "total": 99
     },
     "im:name": {
@@ -5611,7 +5407,109 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 56,
+      "index": 54,
+      "total": 99
+    },
+    "im:name": {
+      "label": "MQTT Spy"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/be/20/a9be20ab-b640-7514-2992-7626a685ab1b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/be/20/a9be20ab-b640-7514-2992-7626a685ab1b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/be/20/a9be20ab-b640-7514-2992-7626a685ab1b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "INTRODUCTION:\n- MQTT Spy is used for testing pub/sub protocol with MQTT\n- Simply create a MQTT connection with broker and test MQTT messaging\n- With this app, You can control any MQTT enabled IoT devices and monitor sensors with pub/sub protocol.\n\nFEATURES:\n- Save broker list\n- Separate panels for subscribe and publish data\n- Custom your own buttons for frequent publishing of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Publish Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Subscribed and Published data.\n- Keep Screen on/off option."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 mightyIT"
+    },
+    "title": {
+      "label": "MQTT Spy - Gopi Gadhiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/mqtt-spy/id1564422794?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/09/bf/8d/09bf8dc3-1d02-c07b-97a5-0df3020bf144/769a54cd-5456-48f6-a228-af5f85847b3d_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/mqtt-spy/id1564422794?uo=2",
+      "attributes": {
+        "im:id": "1564422794",
+        "im:bundleId": "com.mightyIT.MQTT-Spy"
+      }
+    },
+    "im:artist": {
+      "label": "Gopi Gadhiya",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/gopi-gadhiya/id1387816354?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-05-26T00:00:00-07:00",
+      "attributes": {
+        "label": "May 26, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 55,
       "total": 99
     },
     "im:name": {
@@ -5713,7 +5611,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 57,
+      "index": 56,
       "total": 99
     },
     "im:name": {
@@ -5815,7 +5713,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 58,
+      "index": 57,
       "total": 99
     },
     "im:name": {
@@ -5917,7 +5815,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 59,
+      "index": 58,
       "total": 99
     },
     "im:name": {
@@ -6011,6 +5909,108 @@
       "label": "2015-02-12T23:38:01-07:00",
       "attributes": {
         "label": "February 12, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 59,
+      "total": 99
+    },
+    "im:name": {
+      "label": "MongoGrip"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/ed/9c/13ed9cc7-5d2c-975f-1e53-c4b168a1b2f8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "MongoGrip is a fully featured MongoDB Client that offers exploring MongoDB databases, managing documents and collection details, advanced queries and more.\n\nMongoGrip features:\n- Replica Sets (with mongodb+srv support)\n- Multiple authentications methods (SCRAM-SHA-1, MONGODB-CR)\n- Document editor\n- TLS support with certificates files\n- Profile exporting\n- Collection and documents export\n- Indexes management\n- Biometrical authentication\n- Dark mode\n- MongoDB Atlas connections"
+    },
+    "im:price": {
+      "label": "$9.99",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Mateusz Woźniak"
+    },
+    "title": {
+      "label": "MongoGrip - Mateusz Wozniak"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/mongogrip/id1633074744?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e3/e0/b7/e3e0b784-9a90-b6c3-1828-e1676e953565/fffb01b7-ea1a-4f6e-a9ee-12c23c7f052e_ios_screenshot_9_small_tablet.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/mongogrip/id1633074744?uo=2",
+      "attributes": {
+        "im:id": "1633074744",
+        "im:bundleId": "pl.enteam.mgrip"
+      }
+    },
+    "im:artist": {
+      "label": "Mateusz Wozniak",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/mateusz-wozniak/id1555491214?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-03-14T00:00:00-07:00",
+      "attributes": {
+        "label": "March 14, 2023"
       }
     }
   },

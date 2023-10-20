@@ -110,6 +110,210 @@
       "total": 100
     },
     "im:name": {
+      "label": "WebBLE"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/39/f4/2e39f41c-6033-d9fc-60d0-b133178d6cd8/AppIcon-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/39/f4/2e39f41c-6033-d9fc-60d0-b133178d6cd8/AppIcon-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/39/f4/2e39f41c-6033-d9fc-60d0-b133178d6cd8/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Very simple web browser that supports an initial subset of  the web bluetooth javascript APIs, with bookmarks and console log viewing support.\n\n*** New in 1.7 ***\n\n- support for pybricks\n\n*** Overview ***\n\nUsing this app you can navigate to a site written in javascript that can interact with your bluetooth (low energy) devices. This allows you to write your applications for use with devices such as puck.js in a language you are more familiar with (i.e. javascript) and be able to use it from your iOS device.\n\nUse the built-in console viewer to debug issues when running your site on WebBLE.\n\nSecurity is important for bluetooth device access, and so only sites that use https are supported, and it is not possible to connect to a bluetooth device without permission being granted by the user.\n\nInitially the following key APIs are supported:\n\n- bluetooth.requestDevice()\n- bluetooth.getAvailability()\n\n- BluetoothDevice.gatt\n- BluetoothDevice.addEventListener('gattserverdisconnected', cb)\n\n- BluetoothRemoteGATTServer.connect()\n- BluetoothRemoteGATTServer.disconnect()\n- BluetoothRemoteGATTServer.getPrimaryService()\n\n- BluetoothRemoteGATTService.getCharacteristic()\n\n- BluetoothRemoteGATTCharacteristic.writeValue()\n- BluetoothRemoteGATTCharacteristic.writeValueWithResponse()\n- BluetoothRemoteGATTCharacteristic.writeValueWithoutResponse()\n- BluetoothRemoteGATTCharacteristic.readValue()\n- BluetoothRemoteGATTCharacteristic.startNotifications()\n- BluetoothRemoteGATTCharacteristic.stopNotifications()\n- BluetoothRemoteGATTCharacteristic.addEventListener(\"characteristicvaluechanged\", cb)"
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© greenparksoftware.co.uk"
+    },
+    "title": {
+      "label": "WebBLE - GreenParkSoftware"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/webble/id1193531073?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c2/3b/44/c23b440a-4b30-52f1-609f-c27e57adcad6/mzl.clswthur.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/webble/id1193531073?l=en&uo=2",
+      "attributes": {
+        "im:id": "1193531073",
+        "im:bundleId": "co.uk.greenparksoftware.webble"
+      }
+    },
+    "im:artist": {
+      "label": "GreenParkSoftware",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/greenparksoftware/id449062540?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-01-12T02:09:40-07:00",
+      "attributes": {
+        "label": "January 12, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 3,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Flight Computer Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/fe/7e/31/fe7e3185-8e2f-d41f-6e4f-36f9d73db568/AppIcon-1x_U007emarketing-85-220-6.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/fe/7e/31/fe7e3185-8e2f-d41f-6e4f-36f9d73db568/AppIcon-1x_U007emarketing-85-220-6.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/fe/7e/31/fe7e3185-8e2f-d41f-6e4f-36f9d73db568/AppIcon-1x_U007emarketing-85-220-6.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "An easy and intuitive simulation of the E6B slide ruler used by many aircraft pilots.\n\nFeatures a high resolution ruler with smooth controls for rotating, sliding and pinch zooming, allowing precise calculations.\n\nFeels like a real ruler in your hands!\n\nAll three modes are available:\n- Conversions\n- Wind corrections (low speed)\n- Wind corrections (high speed)\n\nAlso features:\n- Holding Pattern calculator (NEW!)\n- Locking feature, to avoid accidental changes\n- Quick reference with instructions on how to perform most calculations\n- No ads\n\nTry Flight Computer Sim for a free simpler version."
+    },
+    "im:price": {
+      "label": "USD 3.99",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Diego Rodrigues"
+    },
+    "title": {
+      "label": "Flight Computer Pro - Diego Rodrigues"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/flight-computer-pro/id1013614863?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/9d/7c/8a/9d7c8ac2-d848-5f67-0623-494ce0a608f6/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/flight-computer-pro/id1013614863?l=en&uo=2",
+      "attributes": {
+        "im:id": "1013614863",
+        "im:bundleId": "dao.DaoSoftware.FlightComputerPro"
+      }
+    },
+    "im:artist": {
+      "label": "Diego Rodrigues",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/diego-rodrigues/id945473545?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-07-06T21:11:55-07:00",
+      "attributes": {
+        "label": "July 6, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 4,
+      "total": 100
+    },
+    "im:name": {
       "label": "ProPresenter Remote"
     },
     "im:image": [
@@ -208,7 +412,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 3,
+      "index": 5,
       "total": 100
     },
     "im:name": {
@@ -310,7 +514,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 4,
+      "index": 6,
       "total": 100
     },
     "im:name": {
@@ -412,7 +616,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 5,
+      "index": 7,
       "total": 100
     },
     "im:name": {
@@ -514,7 +718,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 6,
+      "index": 8,
       "total": 100
     },
     "im:name": {
@@ -616,7 +820,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 7,
+      "index": 9,
       "total": 100
     },
     "im:name": {
@@ -718,7 +922,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 8,
+      "index": 10,
       "total": 100
     },
     "im:name": {
@@ -820,7 +1024,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 9,
+      "index": 11,
       "total": 100
     },
     "im:name": {
@@ -922,7 +1126,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 10,
+      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -1024,415 +1228,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 11,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Manage your pool"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "In this simple and innovative app you will be able to calculate all the necessary chemicals.\nIn addition to being able to solve any inconvenience, such as the water turning green or cloudy.\nAnd as if that were not enough, you will see all the actions that you must carry out daily and weekly so that the water is always crystal clear and in perfect condition for bathing.\n\nTerms and Conditions\n\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
-    },
-    "im:price": {
-      "label": "USD 4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© S/N"
-    },
-    "title": {
-      "label": "Manage your pool - Fernando Montero"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/manage-your-pool/id1591745680?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/33/b1/6f/33b16f07-1e8b-8f03-3731-9e6049567e95/83b1b926-0f6e-4d97-aa6d-f8ea882ede5a_simulator_screenshot_6EAF2E2B-7208-4F7B-8ADC-68E9C17E1321.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/manage-your-pool/id1591745680?l=en&uo=2",
-      "attributes": {
-        "im:id": "1591745680",
-        "im:bundleId": "com.israel.montero.fernando.calculadorapiscinas"
-      }
-    },
-    "im:artist": {
-      "label": "Fernando Montero",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/fernando-montero/id1591745682?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-10-29T00:00:00-07:00",
-      "attributes": {
-        "label": "October 29, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 12,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Audio to Text for WhatsApp"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/8c/9f/4e/8c9f4e90-0ad1-a2f4-64de-b9d31d665e05/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/8c/9f/4e/8c9f4e90-0ad1-a2f4-64de-b9d31d665e05/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/8c/9f/4e/8c9f4e90-0ad1-a2f4-64de-b9d31d665e05/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Are you in the office, at a meeting, in the library or at school?  Can't you hear WhatsApp vocal notes? No problem! \nNow with Audio to Text you can transcribe the vocal notes into text.\nSimply select an audio and share it with the application.\n\nFunc­tion­al­i­ties:\n• It converts voice notes to text.\n• It speeds up vocal notes.\n• It also transcribes videos.\n• It supports 50+ languages.\n• For some languages you don't need an in­ter­net con­nec­tion.\n• Com­pat­i­ble with What­s­App, Telegram and Voice Mem­os."
-    },
-    "im:price": {
-      "label": "USD 0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Mattia Capucci, Gianluca Grossi"
-    },
-    "title": {
-      "label": "Audio to Text for WhatsApp - Gianluca Grossi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/audio-to-text-for-whatsapp/id1250211654?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/2e/c8/90/2ec89099-57d3-3d6e-53fa-b5fd33563c96/pr_source.jpg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/audio-to-text-for-whatsapp/id1250211654?l=en&uo=2",
-      "attributes": {
-        "im:id": "1250211654",
-        "im:bundleId": "com.capu.AudioToTextForWhatsApp"
-      }
-    },
-    "im:artist": {
-      "label": "Gianluca Grossi",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/gianluca-grossi/id1496488604?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-06-21T09:12:58-07:00",
-      "attributes": {
-        "label": "June 21, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
       "index": 13,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Camera 0.5 - Wide Angle Effect"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7a/97/72/7a97727b-edcd-84df-350f-e0b212bf6d79/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7a/97/72/7a97727b-edcd-84df-350f-e0b212bf6d79/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7a/97/72/7a97727b-edcd-84df-350f-e0b212bf6d79/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Broaden your horizons with Camera 0.5, the cutting-edge app tailored to deliver expansive wide-angle shots. From grand landscapes to bustling city streets, ensure you capture every detail with unparalleled breadth.\r\n\r\nWide-Angle Zoom (0.5x): Capture wider perspectives effortlessly. This mode enables you to embrace more of the scene, perfect for landscapes, group photos, and architectural shots.\r\n\r\nSuper Zoom: Go even wider! Delve into the super zoom feature to encapsulate even more of your surroundings, ensuring nothing escapes the frame.\r\n\r\nLive Wide View: See the world in real-time through our wide-angle lens. Use the live view to get a broader look at your surroundings before capturing the moment.\r\n\r\nIntuitive Design: At the heart of Camera 0.5 is a commitment to user-friendliness. Navigate with ease, switch between modes fluidly, and enjoy a hassle-free photography experience tailored for both novices and seasoned photographers.\r\n\r\nShare & Save: After seizing the perfect shot, share your masterpieces with friends, family, or on social media platforms. Additionally, save your creations with high resolution, preserving every detail for future admiration.\r\n\r\nExpand your photographic capabilities and ensure no detail is left uncaptured. Download Camera 0.5 today and redefine the boundaries of mobile photography."
-    },
-    "im:price": {
-      "label": "USD 2.99",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Camera 05"
-    },
-    "title": {
-      "label": "Camera 0.5 - Wide Angle Effect - Damira Rustemova"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/camera-0-5-wide-angle-effect/id6468771738?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/db/c1/51/dbc151fd-e332-a8d8-fb3b-982843d01dab/0aa1ca83-a9ba-4081-b989-69469fafe12b_iPad_Pro_-_1.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/camera-0-5-wide-angle-effect/id6468771738?l=en&uo=2",
-      "attributes": {
-        "im:id": "6468771738",
-        "im:bundleId": "com.camera05.camera05"
-      }
-    },
-    "im:artist": {
-      "label": "Damira Rustemova",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/damira-rustemova/id1708377642?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-10-05T00:00:00-07:00",
-      "attributes": {
-        "label": "October 5, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 14,
-      "total": 100
-    },
-    "im:name": {
-      "label": "繁体字转换器-繁体简体拼音在线字体转换工具"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ce/b3/17/ceb31722-b414-8476-f80e-cf6150f5f5a7/AppIcon-1x_U007emarketing-0-5-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ce/b3/17/ceb31722-b414-8476-f80e-cf6150f5f5a7/AppIcon-1x_U007emarketing-0-5-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ce/b3/17/ceb31722-b414-8476-f80e-cf6150f5f5a7/AppIcon-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "这是一款在线繁体字转换工具！它可以快速在线实现：简体，繁体，火星文，汉字拼音的相互转换，便于大家的阅读与沟通。\n\n繁体字：\n繁体字是指已有简化字所对应笔画较多的汉字。但一般生活中谈到的“繁体字”，实际上还包含了在汉字简化过程中没有被简化的传承字。繁体中文，亦作传统中文，与简体中文相对，是使用繁体字作为书写最基本单元的文字系统。本工具可以将简体字转换成繁体字,输入需要转换的文字,即自动准确的转换成繁体字。\n\n火星文：\n火星文是一种比较奇异的文字，它主要是由一些非正规化的文字符号组合而成的。这些非正规的文字符号主要包括，符号、繁体字、日文、韩文、冷僻字、汉字等拆分后的部分。由于这些文字和我们日常所使用的的文字有所不同，而且特别怪异，看起来就像是打字打错了，或者是一堆乱码，因此就被我们称为“火星文”。本工具可将任意文字(简体中文、繁体中文或英文等)转换为非主流火星文。\n\n汉语拼音：\n是拼读音节的过程，就是按照普通话音节的构成规律，把声母、介母、韵母急速连续拼合并加上声调而成为一个音节。本工具可智能识别汉字词性，再进行拼音转换。可大大降低了汉字在有多音字情况下转换成拼音过程中出现的不必要的错误。\n\n工具特点：\n1、高效，实时转换 \n2、支持多种主题颜色和UI\n3、一键粘贴复制 \n4、简洁、免广告\n5、支持离线使用"
-    },
-    "im:price": {
-      "label": "USD 0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022lifei"
-    },
-    "title": {
-      "label": "繁体字转换器-繁体简体拼音在线字体转换工具 - 飞 李"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/%E7%B9%81%E4%BD%93%E5%AD%97%E8%BD%AC%E6%8D%A2%E5%99%A8-%E7%B9%81%E4%BD%93%E7%AE%80%E4%BD%93%E6%8B%BC%E9%9F%B3%E5%9C%A8%E7%BA%BF%E5%AD%97%E4%BD%93%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7/id6444258829?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/a9/4e/41/a94e41c8-3375-ea2a-c794-b841cf948205/8b666b31-40fb-4b64-b082-d028f958beb3__U622a_U56fe_1.jpg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/%E7%B9%81%E4%BD%93%E5%AD%97%E8%BD%AC%E6%8D%A2%E5%99%A8-%E7%B9%81%E4%BD%93%E7%AE%80%E4%BD%93%E6%8B%BC%E9%9F%B3%E5%9C%A8%E7%BA%BF%E5%AD%97%E4%BD%93%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7/id6444258829?l=en&uo=2",
-      "attributes": {
-        "im:id": "6444258829",
-        "im:bundleId": "com.complex.fly"
-      }
-    },
-    "im:artist": {
-      "label": "飞 李",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/%E9%A3%9E-%E6%9D%8E/id1633407304?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-11-09T00:00:00-07:00",
-      "attributes": {
-        "label": "November 9, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1534,7 +1330,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 14,
       "total": 100
     },
     "im:name": {
@@ -1636,7 +1432,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1738,7 +1534,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1840,7 +1636,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -1942,7 +1738,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 20,
+      "index": 18,
       "total": 100
     },
     "im:name": {
@@ -2044,7 +1840,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
+      "index": 19,
       "total": 100
     },
     "im:name": {
@@ -2146,7 +1942,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
+      "index": 20,
       "total": 100
     },
     "im:name": {
@@ -2248,7 +2044,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
+      "index": 21,
       "total": 100
     },
     "im:name": {
@@ -2350,7 +2146,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
+      "index": 22,
       "total": 100
     },
     "im:name": {
@@ -2452,7 +2248,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2554,7 +2350,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
+      "index": 24,
       "total": 100
     },
     "im:name": {
@@ -2656,7 +2452,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +2554,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2860,7 +2656,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 29,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -2962,7 +2758,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 30,
+      "index": 28,
       "total": 100
     },
     "im:name": {
@@ -3064,7 +2860,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 31,
+      "index": 29,
       "total": 100
     },
     "im:name": {
@@ -3166,7 +2962,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 32,
+      "index": 30,
       "total": 100
     },
     "im:name": {
@@ -3268,7 +3064,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 33,
+      "index": 31,
       "total": 100
     },
     "im:name": {
@@ -3370,7 +3166,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 34,
+      "index": 32,
       "total": 100
     },
     "im:name": {
@@ -3472,7 +3268,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 35,
+      "index": 33,
       "total": 100
     },
     "im:name": {
@@ -3574,7 +3370,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 36,
+      "index": 34,
       "total": 100
     },
     "im:name": {
@@ -3676,7 +3472,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 37,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3778,7 +3574,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 38,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3880,7 +3676,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 39,
+      "index": 37,
       "total": 100
     },
     "im:name": {
@@ -3982,7 +3778,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 40,
+      "index": 38,
       "total": 100
     },
     "im:name": {
@@ -4084,7 +3880,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 41,
+      "index": 39,
       "total": 100
     },
     "im:name": {
@@ -4186,7 +3982,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 42,
+      "index": 40,
       "total": 100
     },
     "im:name": {
@@ -4288,7 +4084,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
+      "index": 41,
       "total": 100
     },
     "im:name": {
@@ -4390,7 +4186,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 44,
+      "index": 42,
       "total": 100
     },
     "im:name": {
@@ -4492,7 +4288,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
+      "index": 43,
       "total": 100
     },
     "im:name": {
@@ -4591,7 +4387,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 46,
+      "index": 44,
       "total": 100
     },
     "im:name": {
@@ -4693,7 +4489,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 47,
+      "index": 45,
       "total": 100
     },
     "im:name": {
@@ -4795,7 +4591,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 48,
+      "index": 46,
       "total": 100
     },
     "im:name": {
@@ -4897,7 +4693,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 49,
+      "index": 47,
       "total": 100
     },
     "im:name": {
@@ -4999,7 +4795,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 50,
+      "index": 48,
       "total": 100
     },
     "im:name": {
@@ -5101,7 +4897,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 51,
+      "index": 49,
       "total": 100
     },
     "im:name": {
@@ -5203,7 +4999,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 52,
+      "index": 50,
       "total": 100
     },
     "im:name": {
@@ -5305,7 +5101,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 53,
+      "index": 51,
       "total": 100
     },
     "im:name": {
@@ -5407,7 +5203,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 54,
+      "index": 52,
       "total": 100
     },
     "im:name": {
@@ -5509,7 +5305,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 55,
+      "index": 53,
       "total": 100
     },
     "im:name": {
@@ -5611,7 +5407,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 56,
+      "index": 54,
       "total": 100
     },
     "im:name": {
@@ -5713,7 +5509,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 57,
+      "index": 55,
       "total": 100
     },
     "im:name": {
@@ -5815,7 +5611,109 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 58,
+      "index": 56,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Manage your pool"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "In this simple and innovative app you will be able to calculate all the necessary chemicals.\nIn addition to being able to solve any inconvenience, such as the water turning green or cloudy.\nAnd as if that were not enough, you will see all the actions that you must carry out daily and weekly so that the water is always crystal clear and in perfect condition for bathing.\n\nTerms and Conditions\n\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+    },
+    "im:price": {
+      "label": "USD 4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© S/N"
+    },
+    "title": {
+      "label": "Manage your pool - Fernando Montero"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/manage-your-pool/id1591745680?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/33/b1/6f/33b16f07-1e8b-8f03-3731-9e6049567e95/83b1b926-0f6e-4d97-aa6d-f8ea882ede5a_simulator_screenshot_6EAF2E2B-7208-4F7B-8ADC-68E9C17E1321.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/manage-your-pool/id1591745680?l=en&uo=2",
+      "attributes": {
+        "im:id": "1591745680",
+        "im:bundleId": "com.israel.montero.fernando.calculadorapiscinas"
+      }
+    },
+    "im:artist": {
+      "label": "Fernando Montero",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/fernando-montero/id1591745682?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-10-29T00:00:00-07:00",
+      "attributes": {
+        "label": "October 29, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 57,
       "total": 100
     },
     "im:name": {
@@ -5917,7 +5815,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 59,
+      "index": 58,
       "total": 100
     },
     "im:name": {
@@ -6019,7 +5917,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 60,
+      "index": 59,
       "total": 100
     },
     "im:name": {
@@ -6121,7 +6019,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 61,
+      "index": 60,
       "total": 100
     },
     "im:name": {
@@ -6223,7 +6121,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 62,
+      "index": 61,
       "total": 100
     },
     "im:name": {
@@ -6325,7 +6223,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 63,
+      "index": 62,
       "total": 100
     },
     "im:name": {
@@ -6427,7 +6325,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 64,
+      "index": 63,
       "total": 100
     },
     "im:name": {
@@ -6529,7 +6427,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 65,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6631,7 +6529,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 66,
+      "index": 65,
       "total": 100
     },
     "im:name": {
@@ -6733,7 +6631,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 67,
+      "index": 66,
       "total": 100
     },
     "im:name": {
@@ -6835,7 +6733,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 68,
+      "index": 67,
       "total": 100
     },
     "im:name": {
@@ -6937,7 +6835,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 69,
+      "index": 68,
       "total": 100
     },
     "im:name": {
@@ -7039,7 +6937,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 70,
+      "index": 69,
       "total": 100
     },
     "im:name": {
@@ -7133,6 +7031,108 @@
       "label": "2013-07-24T18:17:31-07:00",
       "attributes": {
         "label": "July 24, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 70,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Digits Tape Calculator"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/55/96/5f/55965f34-3bbf-3c65-a530-26a588af4f5c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/55/96/5f/55965f34-3bbf-3c65-a530-26a588af4f5c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/55/96/5f/55965f34-3bbf-3c65-a530-26a588af4f5c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Get organized! Conquer numbers on the go. Digits 3 is a top-to-bottom rewrite made for the latest iOS and devices.\n\nWe're human. We're busy. We make mistakes. So we designed a calculator for humans, from the ground up. Digits combines the editability of a spreadsheet with the simplicity of a calculator. Digits is a calculator a human can love.\n\nSo, why do so many humans love Digits? Its uniquely correctable tape means never worrying if you entered a calculation correctly. Make a mistake? Tap any entry on the tape to correct it (or edit, insert, copy and more). Then, add a label/comment and email or print the tape.\n\nDigits is Shift’s highly-rated iOS calculator app that features an intuitive, fully correctable and editable line-by-line tape history. It uniquely provides spreadsheet-like editing with calculator-level simplicity. Tapes are stored as documents so groups of calculations can be stored and edited conveniently. Comments can be added to each calculation line, making the app ideal for expense tracking and budgeting.\n\n---\nDigits 3 highlights:\n• An updated, polished user interface with buttery-smooth interaction.\n• Dark Mode and detailed color and sound customization.\n• Multi-threaded processing for desktop-level performance.\n• In-app upgrades, starting with Tape Document sharing (via Messages, Mail, Dropbox and other popular file sharing services).\n• Built from the ground up with support for 64-bit and the latest iOS/hardware.\n• Designed to maximize resolution on devices like the iPhone X.\n• Split View support on iPad for side-by-side work.\n• Expanded in-app help.\n• Accessibility VoiceOver support.\n\nHow Digits earned its stars:\n• Spreadsheet-like editing with calculator-level simplicity.\n• Fully correctable and editable line-by-line tape history.\n• Fluidly enter values, label and email or print.\n• Double-check and correct entries with ease.\n• Export Tape Documents in a variety of formats.\n\nButton functions:\nDelete row, backspace, clear all, clear, memory, memory plus, memory minus, plus or minus, tape browser, percent, export, settings, shop, tips, help, edit, insert, total, copy, use, comment, flag, sin, cos, tan, square, cube, exponent, square root, cube root, root, inverse, Euler, Pi, add, subtract, multiply, divide, total."
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Copyright 2010-2019 Joshua Distler and Shift. All rights reserved."
+    },
+    "title": {
+      "label": "Digits Tape Calculator - Shift"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/digits-tape-calculator/id364500115?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/3e/a4/ab/3ea4abbb-0502-974c-d40c-213c8193deaa/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/digits-tape-calculator/id364500115?l=en&uo=2",
+      "attributes": {
+        "im:id": "364500115",
+        "im:bundleId": "Shift.DigitsCalculator"
+      }
+    },
+    "im:artist": {
+      "label": "Shift",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/shift/id364500118?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-04-01T12:38:58-07:00",
+      "attributes": {
+        "label": "April 1, 2010"
       }
     }
   },
@@ -7247,108 +7247,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Digits Tape Calculator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/55/96/5f/55965f34-3bbf-3c65-a530-26a588af4f5c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/55/96/5f/55965f34-3bbf-3c65-a530-26a588af4f5c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/55/96/5f/55965f34-3bbf-3c65-a530-26a588af4f5c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Get organized! Conquer numbers on the go. Digits 3 is a top-to-bottom rewrite made for the latest iOS and devices.\n\nWe're human. We're busy. We make mistakes. So we designed a calculator for humans, from the ground up. Digits combines the editability of a spreadsheet with the simplicity of a calculator. Digits is a calculator a human can love.\n\nSo, why do so many humans love Digits? Its uniquely correctable tape means never worrying if you entered a calculation correctly. Make a mistake? Tap any entry on the tape to correct it (or edit, insert, copy and more). Then, add a label/comment and email or print the tape.\n\nDigits is Shift’s highly-rated iOS calculator app that features an intuitive, fully correctable and editable line-by-line tape history. It uniquely provides spreadsheet-like editing with calculator-level simplicity. Tapes are stored as documents so groups of calculations can be stored and edited conveniently. Comments can be added to each calculation line, making the app ideal for expense tracking and budgeting.\n\n---\nDigits 3 highlights:\n• An updated, polished user interface with buttery-smooth interaction.\n• Dark Mode and detailed color and sound customization.\n• Multi-threaded processing for desktop-level performance.\n• In-app upgrades, starting with Tape Document sharing (via Messages, Mail, Dropbox and other popular file sharing services).\n• Built from the ground up with support for 64-bit and the latest iOS/hardware.\n• Designed to maximize resolution on devices like the iPhone X.\n• Split View support on iPad for side-by-side work.\n• Expanded in-app help.\n• Accessibility VoiceOver support.\n\nHow Digits earned its stars:\n• Spreadsheet-like editing with calculator-level simplicity.\n• Fully correctable and editable line-by-line tape history.\n• Fluidly enter values, label and email or print.\n• Double-check and correct entries with ease.\n• Export Tape Documents in a variety of formats.\n\nButton functions:\nDelete row, backspace, clear all, clear, memory, memory plus, memory minus, plus or minus, tape browser, percent, export, settings, shop, tips, help, edit, insert, total, copy, use, comment, flag, sin, cos, tan, square, cube, exponent, square root, cube root, root, inverse, Euler, Pi, add, subtract, multiply, divide, total."
-    },
-    "im:price": {
-      "label": "USD 1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Copyright 2010-2019 Joshua Distler and Shift. All rights reserved."
-    },
-    "title": {
-      "label": "Digits Tape Calculator - Shift"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/digits-tape-calculator/id364500115?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/3e/a4/ab/3ea4abbb-0502-974c-d40c-213c8193deaa/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/digits-tape-calculator/id364500115?l=en&uo=2",
-      "attributes": {
-        "im:id": "364500115",
-        "im:bundleId": "Shift.DigitsCalculator"
-      }
-    },
-    "im:artist": {
-      "label": "Shift",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/shift/id364500118?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-04-01T12:38:58-07:00",
-      "attributes": {
-        "label": "April 1, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 73,
-      "total": 100
-    },
-    "im:name": {
       "label": "Print to ALL Printers"
     },
     "im:image": [
@@ -7447,7 +7345,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 74,
+      "index": 73,
       "total": 100
     },
     "im:name": {
@@ -7549,7 +7447,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 75,
+      "index": 74,
       "total": 100
     },
     "im:name": {
@@ -7651,7 +7549,7 @@
       "country_code": "ar",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 76,
+      "index": 75,
       "total": 100
     },
     "im:name": {
@@ -7745,6 +7643,108 @@
       "label": "2009-08-31T17:28:03-07:00",
       "attributes": {
         "label": "August 31, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 76,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Audio to Text for WhatsApp"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/8c/9f/4e/8c9f4e90-0ad1-a2f4-64de-b9d31d665e05/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/8c/9f/4e/8c9f4e90-0ad1-a2f4-64de-b9d31d665e05/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/8c/9f/4e/8c9f4e90-0ad1-a2f4-64de-b9d31d665e05/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Are you in the office, at a meeting, in the library or at school?  Can't you hear WhatsApp vocal notes? No problem! \nNow with Audio to Text you can transcribe the vocal notes into text.\nSimply select an audio and share it with the application.\n\nFunc­tion­al­i­ties:\n• It converts voice notes to text.\n• It speeds up vocal notes.\n• It also transcribes videos.\n• It supports 50+ languages.\n• For some languages you don't need an in­ter­net con­nec­tion.\n• Com­pat­i­ble with What­s­App, Telegram and Voice Mem­os."
+    },
+    "im:price": {
+      "label": "USD 0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Mattia Capucci, Gianluca Grossi"
+    },
+    "title": {
+      "label": "Audio to Text for WhatsApp - Gianluca Grossi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/audio-to-text-for-whatsapp/id1250211654?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/2e/c8/90/2ec89099-57d3-3d6e-53fa-b5fd33563c96/pr_source.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/audio-to-text-for-whatsapp/id1250211654?l=en&uo=2",
+      "attributes": {
+        "im:id": "1250211654",
+        "im:bundleId": "com.capu.AudioToTextForWhatsApp"
+      }
+    },
+    "im:artist": {
+      "label": "Gianluca Grossi",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/gianluca-grossi/id1496488604?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-06-21T09:12:58-07:00",
+      "attributes": {
+        "label": "June 21, 2017"
       }
     }
   },
@@ -8369,108 +8369,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Radio Code for Renault Stereo"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/ba/45/70ba4569-aa2c-dd0c-d217-161738facf5d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/ba/45/70ba4569-aa2c-dd0c-d217-161738facf5d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/ba/45/70ba4569-aa2c-dd0c-d217-161738facf5d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Sometimes during the repair of the car, the battery is disconnected. After battery reconnected the radio is protected by a four digit code.\nIf you don't remember radio code or lost it, you can recover it quickly and easily with this app using precode.\nNote: precode is located on the rear side of your radio.\n\nTo find the precode:\n- Turn the radio on and hold at the same time the button 1 and 6 (In some cases, it is necessary to remove the radio)\n- See the unit precode. The precode consists of 1 letter and 3 digits. For example: V248, D833, H635\n- Input precode to this app\n\nHow to input radio code ?\n1. With Preset Buttons\n･ Press 1 Button repeatedly for 1st digit to be displayed\n･ Press 2 Button repeatedly for 2nd digit to be displayed\n･ Press 3 Button repeatedly for 3rd digit to be displayed\n･ Press 4 Button repeatedly for 4th digit to be displayed\n･ Press and HOLD preset button 6 (or 5) to store your code (10 seconds)\n\n2. With Stalk Control\n･ Press switch on the CD radio. When CD will display 0 0 0 0.\n･ Rotate the thumb wheel for the 1st digit. Next press the bottom button to move on.\n･ Rotate the thumb wheel for the 2nd digit. Next press the bottom button to move on.\n･ Rotate the thumb wheel for the 3rd digit. Next press the bottom button to move on.\n･ Rotate the thumb wheel for the 4th digit.\n･ Press and hold the bottom button button to finish.\n\n3. With Remote Control\n･ Press the [ ¬] button then rotate the thumb wheel for 1st digit\n･ Press the [ ¬] button then rotate the thumb wheel for 2nd digit\n･ Press the [ ¬] button then rotate the thumb wheel for 3rd digit\n･ Press the [ ¬] button then rotate the thumb wheel for 3rd digit\n･ Press and hold the [ ¬] button to store the code (10 seconds)\n\nPlease support us with your reviews in AppStore, it's very important for new users! Thank you!\n\nIf you experience difficulties with the app, please contact us.\nsupport@kcandr.ru"
-    },
-    "im:price": {
-      "label": "USD 1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Aleksandr Romanchev"
-    },
-    "title": {
-      "label": "Radio Code for Renault Stereo - Aleksandr Romanchev"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ar/app/radio-code-for-renault-stereo/id1121918523?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/fe/76/00/fe7600ed-dfb7-6f09-1f9f-9ecebe4c69e1/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ar/app/radio-code-for-renault-stereo/id1121918523?l=en&uo=2",
-      "attributes": {
-        "im:id": "1121918523",
-        "im:bundleId": "com.kcandr.RenaultAudioCode"
-      }
-    },
-    "im:artist": {
-      "label": "Aleksandr Romanchev",
-      "attributes": {
-        "href": "https://apps.apple.com/ar/developer/aleksandr-romanchev/id986445989?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-06-09T14:36:25-07:00",
-      "attributes": {
-        "label": "June 9, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ar",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 84,
-      "total": 100
-    },
-    "im:name": {
       "label": "Foscam Pro: Multi IP Camera Viewer"
     },
     "im:image": [
@@ -8561,6 +8459,108 @@
       "label": "2012-03-26T16:04:49-07:00",
       "attributes": {
         "label": "March 26, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ar",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 84,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Radio Code for Renault Stereo"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/ba/45/70ba4569-aa2c-dd0c-d217-161738facf5d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/ba/45/70ba4569-aa2c-dd0c-d217-161738facf5d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/ba/45/70ba4569-aa2c-dd0c-d217-161738facf5d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Sometimes during the repair of the car, the battery is disconnected. After battery reconnected the radio is protected by a four digit code.\nIf you don't remember radio code or lost it, you can recover it quickly and easily with this app using precode.\nNote: precode is located on the rear side of your radio.\n\nTo find the precode:\n- Turn the radio on and hold at the same time the button 1 and 6 (In some cases, it is necessary to remove the radio)\n- See the unit precode. The precode consists of 1 letter and 3 digits. For example: V248, D833, H635\n- Input precode to this app\n\nHow to input radio code ?\n1. With Preset Buttons\n･ Press 1 Button repeatedly for 1st digit to be displayed\n･ Press 2 Button repeatedly for 2nd digit to be displayed\n･ Press 3 Button repeatedly for 3rd digit to be displayed\n･ Press 4 Button repeatedly for 4th digit to be displayed\n･ Press and HOLD preset button 6 (or 5) to store your code (10 seconds)\n\n2. With Stalk Control\n･ Press switch on the CD radio. When CD will display 0 0 0 0.\n･ Rotate the thumb wheel for the 1st digit. Next press the bottom button to move on.\n･ Rotate the thumb wheel for the 2nd digit. Next press the bottom button to move on.\n･ Rotate the thumb wheel for the 3rd digit. Next press the bottom button to move on.\n･ Rotate the thumb wheel for the 4th digit.\n･ Press and hold the bottom button button to finish.\n\n3. With Remote Control\n･ Press the [ ¬] button then rotate the thumb wheel for 1st digit\n･ Press the [ ¬] button then rotate the thumb wheel for 2nd digit\n･ Press the [ ¬] button then rotate the thumb wheel for 3rd digit\n･ Press the [ ¬] button then rotate the thumb wheel for 3rd digit\n･ Press and hold the [ ¬] button to store the code (10 seconds)\n\nPlease support us with your reviews in AppStore, it's very important for new users! Thank you!\n\nIf you experience difficulties with the app, please contact us.\nsupport@kcandr.ru"
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Aleksandr Romanchev"
+    },
+    "title": {
+      "label": "Radio Code for Renault Stereo - Aleksandr Romanchev"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ar/app/radio-code-for-renault-stereo/id1121918523?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/fe/76/00/fe7600ed-dfb7-6f09-1f9f-9ecebe4c69e1/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ar/app/radio-code-for-renault-stereo/id1121918523?l=en&uo=2",
+      "attributes": {
+        "im:id": "1121918523",
+        "im:bundleId": "com.kcandr.RenaultAudioCode"
+      }
+    },
+    "im:artist": {
+      "label": "Aleksandr Romanchev",
+      "attributes": {
+        "href": "https://apps.apple.com/ar/developer/aleksandr-romanchev/id986445989?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/ar/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-06-09T14:36:25-07:00",
+      "attributes": {
+        "label": "June 9, 2016"
       }
     }
   },

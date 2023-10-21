@@ -5,38 +5,38 @@
       "pricing": "paid",
       "genre": "utilities",
       "index": 1,
-      "total": 100
+      "total": 99
     },
     "im:name": {
-      "label": "WebBLE"
+      "label": "WiFi Map Explorer"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/39/f4/2e39f41c-6033-d9fc-60d0-b133178d6cd8/AppIcon-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/be/3f/ff/be3fff29-ce40-ae5e-bd43-bf0b9cfc57e6/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/39/f4/2e39f41c-6033-d9fc-60d0-b133178d6cd8/AppIcon-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/be/3f/ff/be3fff29-ce40-ae5e-bd43-bf0b9cfc57e6/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/39/f4/2e39f41c-6033-d9fc-60d0-b133178d6cd8/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/be/3f/ff/be3fff29-ce40-ae5e-bd43-bf0b9cfc57e6/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Very simple web browser that supports an initial subset of  the web bluetooth javascript APIs, with bookmarks and console log viewing support.\n\n*** New in 1.7 ***\n\n- support for pybricks\n\n*** Overview ***\n\nUsing this app you can navigate to a site written in javascript that can interact with your bluetooth (low energy) devices. This allows you to write your applications for use with devices such as puck.js in a language you are more familiar with (i.e. javascript) and be able to use it from your iOS device.\n\nUse the built-in console viewer to debug issues when running your site on WebBLE.\n\nSecurity is important for bluetooth device access, and so only sites that use https are supported, and it is not possible to connect to a bluetooth device without permission being granted by the user.\n\nInitially the following key APIs are supported:\n\n- bluetooth.requestDevice()\n- bluetooth.getAvailability()\n\n- BluetoothDevice.gatt\n- BluetoothDevice.addEventListener('gattserverdisconnected', cb)\n\n- BluetoothRemoteGATTServer.connect()\n- BluetoothRemoteGATTServer.disconnect()\n- BluetoothRemoteGATTServer.getPrimaryService()\n\n- BluetoothRemoteGATTService.getCharacteristic()\n\n- BluetoothRemoteGATTCharacteristic.writeValue()\n- BluetoothRemoteGATTCharacteristic.writeValueWithResponse()\n- BluetoothRemoteGATTCharacteristic.writeValueWithoutResponse()\n- BluetoothRemoteGATTCharacteristic.readValue()\n- BluetoothRemoteGATTCharacteristic.startNotifications()\n- BluetoothRemoteGATTCharacteristic.stopNotifications()\n- BluetoothRemoteGATTCharacteristic.addEventListener(\"characteristicvaluechanged\", cb)"
+      "label": "Main features:\n- 3D animated view of your local network,\n- Network analyzer tools,\n- build a heatmap of your local wireless network,\n- discover all devices connected to the local network,\n- scan and discover every open TCP ports on local or remote devices,\n- discover every mDNS/Bonjour service broadcasted by IoT and home-automation devices (display every broadcasted parameter), by devices like Apple HomePod, AppleTV and other such assistant and streaming devices,\n- latency measurement with local and remote devices,\n- ingress and egress throughput measurements with other local devices running this app,\n- ingress and egress throughput measurements with any TCP CHARGEN/DISCARD server,\n- ingress and egress throughput measurements with the Internet,\n- implement a TCP/CHARGEN service on your device,\n- implement a TCP/DISCARD service on your device."
     },
     "im:price": {
-      "label": "$1.990",
+      "label": "$3.990",
       "attributes": {
-        "amount": "1990",
+        "amount": "3990",
         "currency": "CLP"
       }
     },
@@ -47,17 +47,17 @@
       }
     },
     "rights": {
-      "label": "© greenparksoftware.co.uk"
+      "label": "© 2023 Alexandre Fenyo"
     },
     "title": {
-      "label": "WebBLE - GreenParkSoftware"
+      "label": "WiFi Map Explorer - Alexandre Fenyo"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/webble/id1193531073?l=en&uo=2"
+          "href": "https://apps.apple.com/cl/app/wifi-map-explorer/id1662393654?l=en&uo=2"
         }
       },
       {
@@ -68,22 +68,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c2/3b/44/c23b440a-4b30-52f1-609f-c27e57adcad6/mzl.clswthur.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/e0/d6/e8/e0d6e86b-d4ff-f2b9-ef2f-4d0d69ffff0e/a15ce75f-5e96-479c-8357-0d0e99de0418_ipad-frise-3D-1-EN.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/cl/app/webble/id1193531073?l=en&uo=2",
+      "label": "https://apps.apple.com/cl/app/wifi-map-explorer/id1662393654?l=en&uo=2",
       "attributes": {
-        "im:id": "1193531073",
-        "im:bundleId": "co.uk.greenparksoftware.webble"
+        "im:id": "1662393654",
+        "im:bundleId": "net.fenyo.apple.wifi-map-explorer"
       }
     },
     "im:artist": {
-      "label": "GreenParkSoftware",
+      "label": "Alexandre Fenyo",
       "attributes": {
-        "href": "https://apps.apple.com/cl/developer/greenparksoftware/id449062540?l=en&uo=2"
+        "href": "https://apps.apple.com/cl/developer/alexandre-fenyo/id1641680383?l=en&uo=2"
       }
     },
     "category": {
@@ -95,9 +95,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2017-01-12T02:09:40-07:00",
+      "label": "2023-02-28T00:00:00-07:00",
       "attributes": {
-        "label": "January 12, 2017"
+        "label": "February 28, 2023"
       }
     }
   },
@@ -107,109 +107,7 @@
       "pricing": "paid",
       "genre": "utilities",
       "index": 2,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Manage your pool"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "In this simple and innovative app you will be able to calculate all the necessary chemicals.\nIn addition to being able to solve any inconvenience, such as the water turning green or cloudy.\nAnd as if that were not enough, you will see all the actions that you must carry out daily and weekly so that the water is always crystal clear and in perfect condition for bathing.\n\nTerms and Conditions\n\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
-    },
-    "im:price": {
-      "label": "$4.990",
-      "attributes": {
-        "amount": "4990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© S/N"
-    },
-    "title": {
-      "label": "Manage your pool - Fernando Montero"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/manage-your-pool/id1591745680?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/33/b1/6f/33b16f07-1e8b-8f03-3731-9e6049567e95/83b1b926-0f6e-4d97-aa6d-f8ea882ede5a_simulator_screenshot_6EAF2E2B-7208-4F7B-8ADC-68E9C17E1321.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/manage-your-pool/id1591745680?l=en&uo=2",
-      "attributes": {
-        "im:id": "1591745680",
-        "im:bundleId": "com.israel.montero.fernando.calculadorapiscinas"
-      }
-    },
-    "im:artist": {
-      "label": "Fernando Montero",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/fernando-montero/id1591745682?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-10-29T00:00:00-07:00",
-      "attributes": {
-        "label": "October 29, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 3,
-      "total": 100
+      "total": 99
     },
     "im:name": {
       "label": "Holyrics"
@@ -310,8 +208,518 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
+      "index": 3,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Number Shield"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d7/1a/86/d71a86a6-8674-4dc5-ce07-4968d7e0a708/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d7/1a/86/d71a86a6-8674-4dc5-ce07-4968d7e0a708/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d7/1a/86/d71a86a6-8674-4dc5-ce07-4968d7e0a708/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Block annoying scammers who hide behind fake phone numbers.\n\nDo you get unwanted calls or text messages from phone numbers similar to your own?  With Number Shield, block an entire group of numbers at once.  Just enter a wildcard for each digit you want to block.\n\nFor example, if your number is 714-555-1234, scammers might use a number like 714-555-6789.  Block all similar numbers by entering 714-555-####.  Wildcards and numbers can be combined in any order you choose.  Block international numbers, too!\n\nUse the \"Allow Contacts\" option to make sure you don't miss calls from your family and friends.\n\nBlock numbers directly from your phone's missed calls screen.  Just follow these steps:\n\n1. Tap the “ i ” button next to the missed call.\n2. Tap “Share Contact”.\n3. Tap “Block Similar Numbers”.  (If you don't see this action, tap “Edit Actions...“ to enable it.)\n4. Now you'll see the Number Shield number entry screen.  Tap “Done” to block calls from similar numbers.\n\nPlease note:\n\n• Each number pattern can contain up to 7 wildcards, and up to 50,000,000 phone numbers can be blocked.\n• Blocked calls are sent directly to voice mail.\n• Blocked text messages are sent to the “Junk” filter in the Messages app.\n• iMessage messages are not blocked.\n• When “Do Not Disturb” is enabled on your phone, calls that should be blocked may appear in your phone's list of missed calls.\n\nMore information about caller ID spoofing in the United States is available from the FCC:\n\nhttps://www.fcc.gov/consumers/guides/spoofing-and-caller-id"
+    },
+    "im:price": {
+      "label": "$2.990",
+      "attributes": {
+        "amount": "2990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Kinnaman Software LLC"
+    },
+    "title": {
+      "label": "Number Shield - Kinnaman Software LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/number-shield/id1319082167?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/56/41/29/564129b2-fb99-4423-c9fe-359c163bd0ff/64cb08b1-279d-4187-b15f-97fecc153f5e_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2020-11-29_at_18.29.53.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/number-shield/id1319082167?l=en&uo=2",
+      "attributes": {
+        "im:id": "1319082167",
+        "im:bundleId": "com.AlanKinnaman.Number-Shield"
+      }
+    },
+    "im:artist": {
+      "label": "Kinnaman Software LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/kinnaman-software-llc/id679806187?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-12-01T20:50:30-07:00",
+      "attributes": {
+        "label": "December 1, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
       "index": 4,
-      "total": 100
+      "total": 99
+    },
+    "im:name": {
+      "label": "dB Decibel Meter PRO"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/83/af/65/83af6553-e3fa-7416-19e8-d2f65708317d/mzm.slbkeymq.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/83/af/65/83af6553-e3fa-7416-19e8-d2f65708317d/mzm.slbkeymq.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/83/af/65/83af6553-e3fa-7416-19e8-d2f65708317d/mzm.slbkeymq.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "dB Meter PRO - sound level meter in your pocket.\n\nEnjoy the exclusive accuracy of sound level measurement with our dB Meter PRO tool.\n\nSave some cash, don't bother buying professional and extremely expensive sound level measuring devices, if you are going to use it in your hobby or as a gadget.Enjoy precise sound level measurement reasonable price.\n\nGet dB Meter PRO sound level measurement tool and enjoy:\n- simplicity and convenience of sound level meter use\n- accurate measurements comparable with expensive device\n  (this decibel meter was calibrated with high-precision sound level meter) \n- beautiful design\n\nUse dB Meter PRO to check if the environment your are currently in is safe for your health. \nRemember that loud sounds can be harmful:\n\n150 dB causes eardrum rupture\n130 dB is the noise of a gunshot (close range)\n120 dB is the human pain threshold \n110 dB may cause serious hearing damage if sustained for longer than 1 hour\n100 dB may cause serious hearing damage if sustained for longer than 8 hours\n  80 dB may cause hearing damage if sustained longer than 8 hours\n  60 dB is the volume of a typical conversation\n  50 dB is the volume of a quiet conversation\n  40 dB is a whisper\n  20 dB is the threshold of human hearing\n\nPlease note that dB Meter PRO is not a replacement for professional sound level measurement devices and it should be used for private purposes only. dB Meter PRO shows only approximate decibel level (dB)/ sound pressure level (SPL)."
+    },
+    "im:price": {
+      "label": "$3.990",
+      "attributes": {
+        "amount": "3990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Aexol"
+    },
+    "title": {
+      "label": "dB Decibel Meter PRO - Aexol"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/db-decibel-meter-pro/id934384218?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/89/6d/08/896d088a-714f-5fd7-1dc2-1b65efa3319c/mzl.vtisqtev.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/db-decibel-meter-pro/id934384218?l=en&uo=2",
+      "attributes": {
+        "im:id": "934384218",
+        "im:bundleId": "com.aexol.dbmeterpro"
+      }
+    },
+    "im:artist": {
+      "label": "Aexol",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/aexol/id1191282096?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-12-02T05:01:35-07:00",
+      "attributes": {
+        "label": "December 2, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 5,
+      "total": 99
+    },
+    "im:name": {
+      "label": "WebBLE"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/39/f4/2e39f41c-6033-d9fc-60d0-b133178d6cd8/AppIcon-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/39/f4/2e39f41c-6033-d9fc-60d0-b133178d6cd8/AppIcon-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/39/f4/2e39f41c-6033-d9fc-60d0-b133178d6cd8/AppIcon-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Very simple web browser that supports an initial subset of  the web bluetooth javascript APIs, with bookmarks and console log viewing support.\n\n*** New in 1.7 ***\n\n- support for pybricks\n\n*** Overview ***\n\nUsing this app you can navigate to a site written in javascript that can interact with your bluetooth (low energy) devices. This allows you to write your applications for use with devices such as puck.js in a language you are more familiar with (i.e. javascript) and be able to use it from your iOS device.\n\nUse the built-in console viewer to debug issues when running your site on WebBLE.\n\nSecurity is important for bluetooth device access, and so only sites that use https are supported, and it is not possible to connect to a bluetooth device without permission being granted by the user.\n\nInitially the following key APIs are supported:\n\n- bluetooth.requestDevice()\n- bluetooth.getAvailability()\n\n- BluetoothDevice.gatt\n- BluetoothDevice.addEventListener('gattserverdisconnected', cb)\n\n- BluetoothRemoteGATTServer.connect()\n- BluetoothRemoteGATTServer.disconnect()\n- BluetoothRemoteGATTServer.getPrimaryService()\n\n- BluetoothRemoteGATTService.getCharacteristic()\n\n- BluetoothRemoteGATTCharacteristic.writeValue()\n- BluetoothRemoteGATTCharacteristic.writeValueWithResponse()\n- BluetoothRemoteGATTCharacteristic.writeValueWithoutResponse()\n- BluetoothRemoteGATTCharacteristic.readValue()\n- BluetoothRemoteGATTCharacteristic.startNotifications()\n- BluetoothRemoteGATTCharacteristic.stopNotifications()\n- BluetoothRemoteGATTCharacteristic.addEventListener(\"characteristicvaluechanged\", cb)"
+    },
+    "im:price": {
+      "label": "$1.990",
+      "attributes": {
+        "amount": "1990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© greenparksoftware.co.uk"
+    },
+    "title": {
+      "label": "WebBLE - GreenParkSoftware"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/webble/id1193531073?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c2/3b/44/c23b440a-4b30-52f1-609f-c27e57adcad6/mzl.clswthur.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/webble/id1193531073?l=en&uo=2",
+      "attributes": {
+        "im:id": "1193531073",
+        "im:bundleId": "co.uk.greenparksoftware.webble"
+      }
+    },
+    "im:artist": {
+      "label": "GreenParkSoftware",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/greenparksoftware/id449062540?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-01-12T02:09:40-07:00",
+      "attributes": {
+        "label": "January 12, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 6,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Flat Pattern"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/50/2a/8d/502a8db2-0b97-4f8c-e84d-3be98bae4b3f/AppIcon-BuildServer-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/50/2a/8d/502a8db2-0b97-4f8c-e84d-3be98bae4b3f/AppIcon-BuildServer-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/50/2a/8d/502a8db2-0b97-4f8c-e84d-3be98bae4b3f/AppIcon-BuildServer-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "It is very helpful for developing fabrication layout of all types of shapes generally used in fabrication. it is minimize fabrication time, increased accuracy.\n\nFlat Pattern Calculator is Tool for All Types of Widely used fabrication shapes Such as Pipe, Truncated Pipes, Pipe Branch Connections, Pipe to Cone Intersections, Cone, Truncated Cone, Eccentric Cone, Tori Cone, Multi-Level Cone, Square to Round, Rectangular to Round, Round to Square, Round to Rectangular, Pyramid, Truncated Pyramids, Sphere, Dish ends, Miter bend, Fabricated Bend, Cut Bend, Screw Flight etc.\n\nIn this App Following Fabrication Flat Patterns Options are available :\n\nPipe Layout or Shell Layout or Pipe Flat Pattern.\nTruncated Pipe Layout or Pipe cut at any angle Flat Pattern.\nTruncated Pipe at Both end layout or Pipe cut by an angle on both side Flat Pattern.\nPipe to Pipe Intersection with equal Diameters or Pipe Branch connection Flat Pattern.\nPipe to Pipe Intersection with unequal diameters or Pipe Branch Connection Flat Pattern.\nPipe to Pipe Intersection with offset diameters or Pipe Branch Connection Flat Pattern.\nPipe to Cone intersection at Perpendicular to Axis Flat Pattern.\nPipe to Cone Inter Section at Parallel to Axis Flat Pattern.\nPipe Truncated by Radius Flat Pattern.\nFull Cone Layout Flat Pattern.\nTruncated or Half Cone Layout Flat Pattern.\nMulti Level Cone Layout Flat Pattern.\nEccentric Cone Layout Flat Pattern.\nMultilevel eccentric cone layouts Flat Pattern.\nTori cone with Knuckle radius at large end Flat Pattern.\nTori cone with Knuckle radius at both ends Flat Pattern.\nRectangle to Round or Square to Round Transition layout Flat Pattern.\nRound to Rectangle or Round to Square transition layout Flat Pattern.\nPyramid layout Flat Pattern.\nTruncated Pyramid Layout Flat Pattern.\nSphere Petal Layouts Flat Pattern.\nDish End Petal Layouts Flat Pattern.\nMiter Bend Layout Flat Pattern.\nScrew Flight Layout Flat Pattern.\n\nIn this application cone,shell,pipe,pipe branch connections, full cone, half cone, truncated cone, square to round, round to square, rectangular to round, Round to rectangular, pyramid, truncated pyramid, cone to pipe branch, spheres, dish ends etc.\n\nit is useful for those who are working in Pressure vessels fabrication, process equipment fabrication, welding, Piping, Insulation, Ducting, heavy Equipment fabrication, Storage tank, Agitators, Mechanical equipment, structures, industrial fabrication, heat ex changers etc.\n\nit is best tool for production engineers, fabrication engineer, planning engineers, costing and estimating engineers, project engineers, fabrication contractor, fabrication supervisors, fabrication fitters, fabrication worker."
+    },
+    "im:price": {
+      "label": "$6.990",
+      "attributes": {
+        "amount": "6990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© LetsFab"
+    },
+    "title": {
+      "label": "Flat Pattern - Imran Pinjara"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/flat-pattern/id1490125173?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/cc/69/59/cc695900-7935-13a8-ad20-c60fa9872d55/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/flat-pattern/id1490125173?l=en&uo=2",
+      "attributes": {
+        "im:id": "1490125173",
+        "im:bundleId": "com.letsfab.flatpattern"
+      }
+    },
+    "im:artist": {
+      "label": "Imran Pinjara",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/imran-pinjara/id1484488781?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-12-04T00:00:00-07:00",
+      "attributes": {
+        "label": "December 4, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 7,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Manage your pool"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/30/5f/da/305fdaf3-4f01-82ce-40bc-44846a4a96e4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "In this simple and innovative app you will be able to calculate all the necessary chemicals.\nIn addition to being able to solve any inconvenience, such as the water turning green or cloudy.\nAnd as if that were not enough, you will see all the actions that you must carry out daily and weekly so that the water is always crystal clear and in perfect condition for bathing.\n\nTerms and Conditions\n\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+    },
+    "im:price": {
+      "label": "$4.990",
+      "attributes": {
+        "amount": "4990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© S/N"
+    },
+    "title": {
+      "label": "Manage your pool - Fernando Montero"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/manage-your-pool/id1591745680?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/33/b1/6f/33b16f07-1e8b-8f03-3731-9e6049567e95/83b1b926-0f6e-4d97-aa6d-f8ea882ede5a_simulator_screenshot_6EAF2E2B-7208-4F7B-8ADC-68E9C17E1321.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/manage-your-pool/id1591745680?l=en&uo=2",
+      "attributes": {
+        "im:id": "1591745680",
+        "im:bundleId": "com.israel.montero.fernando.calculadorapiscinas"
+      }
+    },
+    "im:artist": {
+      "label": "Fernando Montero",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/fernando-montero/id1591745682?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-10-29T00:00:00-07:00",
+      "attributes": {
+        "label": "October 29, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 8,
+      "total": 99
     },
     "im:name": {
       "label": "OBDII Trouble Codes"
@@ -412,8 +820,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 5,
-      "total": 100
+      "index": 9,
+      "total": 99
     },
     "im:name": {
       "label": "Light Lux Meter"
@@ -514,110 +922,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 6,
-      "total": 100
-    },
-    "im:name": {
-      "label": "DTMF Decoder"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/67/4c/e7674c0a-8a9b-8467-cadc-5bade1969d8a/AppIcon-0-0-1x_U007ephone-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/67/4c/e7674c0a-8a9b-8467-cadc-5bade1969d8a/AppIcon-0-0-1x_U007ephone-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/67/4c/e7674c0a-8a9b-8467-cadc-5bade1969d8a/AppIcon-0-0-1x_U007ephone-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Turns your iPhone into a simple DTMF decoder. Simply hold the iPhone's microphone near to a clear source of DTMF tones (telephone \"Touch Tones\") and it will display the numbers being dialed. The decoded digits are also placed into a text area from which you can copy them to the clipboard.\n\nSee it in action here:\nhttps://www.youtube.com/watch?v=l_QD8KFCJPw\n\nSource code freely available:\nhttps://github.com/veghead/ios-dtmf-decoder"
-    },
-    "im:price": {
-      "label": "$990",
-      "attributes": {
-        "amount": "990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Martin Wellard"
-    },
-    "title": {
-      "label": "DTMF Decoder - dreadtech.com"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/dtmf-decoder/id306195275?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/a9/24/46/a924463e-6d8f-1d6d-5100-1c92cbb25bcb/241d414c-c1db-49e1-8c77-a609f91fd4ee_Simulator_Screenshot_-_8_Plus_5.5_-_2023-07-30_at_13.16.46.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/dtmf-decoder/id306195275?l=en&uo=2",
-      "attributes": {
-        "im:id": "306195275",
-        "im:bundleId": "com.dreadtech.dtmfdecode"
-      }
-    },
-    "im:artist": {
-      "label": "dreadtech.com",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/dreadtech-com/id306195278?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2009-02-25T13:45:25-07:00",
-      "attributes": {
-        "label": "February 25, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 7,
-      "total": 100
+      "index": 10,
+      "total": 99
     },
     "im:name": {
       "label": "Opener ‒ open links in apps"
@@ -718,8 +1024,110 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 8,
-      "total": 100
+      "index": 11,
+      "total": 99
+    },
+    "im:name": {
+      "label": "DTMF Decoder"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/67/4c/e7674c0a-8a9b-8467-cadc-5bade1969d8a/AppIcon-0-0-1x_U007ephone-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/67/4c/e7674c0a-8a9b-8467-cadc-5bade1969d8a/AppIcon-0-0-1x_U007ephone-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/67/4c/e7674c0a-8a9b-8467-cadc-5bade1969d8a/AppIcon-0-0-1x_U007ephone-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Turns your iPhone into a simple DTMF decoder. Simply hold the iPhone's microphone near to a clear source of DTMF tones (telephone \"Touch Tones\") and it will display the numbers being dialed. The decoded digits are also placed into a text area from which you can copy them to the clipboard.\n\nSee it in action here:\nhttps://www.youtube.com/watch?v=l_QD8KFCJPw\n\nSource code freely available:\nhttps://github.com/veghead/ios-dtmf-decoder"
+    },
+    "im:price": {
+      "label": "$990",
+      "attributes": {
+        "amount": "990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Martin Wellard"
+    },
+    "title": {
+      "label": "DTMF Decoder - dreadtech.com"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/dtmf-decoder/id306195275?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/a9/24/46/a924463e-6d8f-1d6d-5100-1c92cbb25bcb/241d414c-c1db-49e1-8c77-a609f91fd4ee_Simulator_Screenshot_-_8_Plus_5.5_-_2023-07-30_at_13.16.46.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/dtmf-decoder/id306195275?l=en&uo=2",
+      "attributes": {
+        "im:id": "306195275",
+        "im:bundleId": "com.dreadtech.dtmfdecode"
+      }
+    },
+    "im:artist": {
+      "label": "dreadtech.com",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/dreadtech-com/id306195278?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-02-25T13:45:25-07:00",
+      "attributes": {
+        "label": "February 25, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 12,
+      "total": 99
     },
     "im:name": {
       "label": "WakeUp - The Wake on LAN tool"
@@ -820,8 +1228,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 9,
-      "total": 100
+      "index": 13,
+      "total": 99
     },
     "im:name": {
       "label": "iNet WOL - Wake on Lan"
@@ -922,8 +1330,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 10,
-      "total": 100
+      "index": 14,
+      "total": 99
     },
     "im:name": {
       "label": "GeoTracker Pro"
@@ -1024,8 +1432,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 11,
-      "total": 100
+      "index": 15,
+      "total": 99
     },
     "im:name": {
       "label": "MRZ Scanner PRO"
@@ -1126,8 +1534,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 12,
-      "total": 100
+      "index": 16,
+      "total": 99
     },
     "im:name": {
       "label": "Engineering Survey Calculator"
@@ -1228,8 +1636,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 13,
-      "total": 100
+      "index": 17,
+      "total": 99
     },
     "im:name": {
       "label": "Auto Tools"
@@ -1330,8 +1738,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 14,
-      "total": 100
+      "index": 18,
+      "total": 99
     },
     "im:name": {
       "label": "Regedit FFH4X sensi"
@@ -1432,8 +1840,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 15,
-      "total": 100
+      "index": 19,
+      "total": 99
     },
     "im:name": {
       "label": "TV Mirror+ for Chromecast"
@@ -1534,8 +1942,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
-      "total": 100
+      "index": 20,
+      "total": 99
     },
     "im:name": {
       "label": "Browser for Watch"
@@ -1636,8 +2044,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
-      "total": 100
+      "index": 21,
+      "total": 99
     },
     "im:name": {
       "label": "Aventho"
@@ -1738,8 +2146,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
-      "total": 100
+      "index": 22,
+      "total": 99
     },
     "im:name": {
       "label": "Radio Code for Renault Stereo"
@@ -1840,8 +2248,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
-      "total": 100
+      "index": 23,
+      "total": 99
     },
     "im:name": {
       "label": "LightSpectrum Pro"
@@ -1942,8 +2350,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 20,
-      "total": 100
+      "index": 24,
+      "total": 99
     },
     "im:name": {
       "label": "DontSpy 2 - detector"
@@ -2044,8 +2452,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
-      "total": 100
+      "index": 25,
+      "total": 99
     },
     "im:name": {
       "label": "RigRite"
@@ -2146,8 +2554,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
-      "total": 100
+      "index": 26,
+      "total": 99
     },
     "im:name": {
       "label": "Recent Contacts"
@@ -2248,8 +2656,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
-      "total": 100
+      "index": 27,
+      "total": 99
     },
     "im:name": {
       "label": "Four To Twenty: mA/V Converter"
@@ -2350,8 +2758,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
-      "total": 100
+      "index": 28,
+      "total": 99
     },
     "im:name": {
       "label": "Deleter"
@@ -2452,8 +2860,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
-      "total": 100
+      "index": 29,
+      "total": 99
     },
     "im:name": {
       "label": "Calculation of lighting Pro"
@@ -2554,8 +2962,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
-      "total": 100
+      "index": 30,
+      "total": 99
     },
     "im:name": {
       "label": "RGB Keyboard"
@@ -2656,8 +3064,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
-      "total": 100
+      "index": 31,
+      "total": 99
     },
     "im:name": {
       "label": "Unofficial vMix Remote Control"
@@ -2758,8 +3166,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
-      "total": 100
+      "index": 32,
+      "total": 99
     },
     "im:name": {
       "label": "Talking Clock TalkTime"
@@ -2860,8 +3268,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 29,
-      "total": 100
+      "index": 33,
+      "total": 99
     },
     "im:name": {
       "label": "CNC Lathe calculator"
@@ -2962,8 +3370,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 30,
-      "total": 100
+      "index": 34,
+      "total": 99
     },
     "im:name": {
       "label": "RADIO CODE for CHRYSLER JEEP"
@@ -3050,8 +3458,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 31,
-      "total": 100
+      "index": 35,
+      "total": 99
     },
     "im:name": {
       "label": "Fonts + Keyboard"
@@ -3152,8 +3560,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 32,
-      "total": 100
+      "index": 36,
+      "total": 99
     },
     "im:name": {
       "label": "Shadowrocket"
@@ -3254,923 +3662,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 33,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Goblin Tools"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/98/d1/49/98d149b0-645a-7cf4-fb16-3948ff3dd471/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is an app version of the free website goblin.tools, a collection of small, simple, single-task tools, mostly designed to help neurodivergent people with tasks they find overwhelming or difficult.\n\n\r\n\r\nTools include\r\n- A Magic Todo list that automatically breaks down tasks into steps\r\n- The Formalizer that transforms your language to be more formal, sociable, concise, or many other options\r\n- The Judge that helps with interpreting tone\r\n- The Estimator that can guess at a timeframe for an activity\r\n- The Compiler to take entire braindumps and turn them into actionable tasks\r\n- The Chef, who turns a description of what ingredients and tools you have in your kitchen into a real recipe\n\n\r\n\r\nAnd many more to come!\n\n\r\n\r\nThe website is free and publicly available. Purchases of this app go first towards keeping the site free and ad-free, before supporting the author."
-    },
-    "im:price": {
-      "label": "$990",
-      "attributes": {
-        "amount": "990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Skyhook Belgium"
-    },
-    "title": {
-      "label": "Goblin Tools - Skyhook"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/goblin-tools/id6449003064?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/32/69/bb/3269bb6c-ab3a-0fac-f930-e524d11dd894/e3a0ae36-a06a-4355-876f-674a7e29cd5c_goblin.tools___U00282_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/goblin-tools/id6449003064?l=en&uo=2",
-      "attributes": {
-        "im:id": "6449003064",
-        "im:bundleId": "com.goblintools"
-      }
-    },
-    "im:artist": {
-      "label": "Skyhook"
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-05-31T00:00:00-07:00",
-      "attributes": {
-        "label": "May 31, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 34,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Alarm Clock for Me"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/65/6a/87/656a8779-406b-d676-e356-eeaa6d96ba76/AppIcon-1x_U007emarketing-85-220-0-5.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/65/6a/87/656a8779-406b-d676-e356-eeaa6d96ba76/AppIcon-1x_U007emarketing-85-220-0-5.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/65/6a/87/656a8779-406b-d676-e356-eeaa6d96ba76/AppIcon-1x_U007emarketing-85-220-0-5.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Wake up and go to sleep to your favorite music, never sleep through your alarm again, get your own collection of exclusive designer clocks, know weather conditions in your area, countdown to important events, cook or work out with a multifunctional timer, and light up the darkness with a powerful built-in flashlight!\n\nFEATURES: \n\n* Choose from stylish designer themes for the clock: Ultrasonic, Digital (Blue, Green, Red, and Yellow), Wordy, ThinLine\n* Create your own wake-up playlist with the best music \n* Background alarm support: alarm will ring even if the app is not running \n* Choose a way to stop the alarm: shake your device or solve a math problem\n* Go to sleep to your favorite songs or white noise \n* Check live weather conditions and temperature \n* Change the screen brightness so that it doesn’t blind you after a good night’s sleep \n* Shake your device or double tap on the screen to switch on the flashlight \n* Convenient app settings. Get easy access to any option you need\n* Widget: access the remaining time till the next alarm and live local weather conditions in Notification Center.\n\nAlarm Clock for Me provides the functionality of 6 indispensable apps in 1: \n\nALARM \n- Wake up to your favorite music \n- Shake your device or solve a math problem to turn off the alarm\n- Set multiple alarms with different tunes \n- Background alarm support: alarm will go off even if the app is not running! \n- Easy access to the nearest alarm from the main screen \n- Huge Snooze/Stop alarm buttons \n- Add your notes to the alarm! \n- Adjustable volume of Sounds/Music \n- Vibrate / Fade in / Snooze options \n- Shake-to-snooze when alarm goes off \n\nCLOCK \n- Exclusive designer clocks \n- Vertical and horizontal modes \n- 12 or 24 time format \n- Show/Hide seconds \n- Show/Hide day of the week \n- Auto-Lock when plugged in ON/OFF \n- Auto-Lock when on battery ON/OFF \n- Customizable auto-lock time \n\nSLEEP TIMER \n-Use the shortcut on the main screen to go directly to the sleep timer settings \n- Create your own playlist with your favorite songs \n- Shuffle music ON/OFF \n- Adjust the volume of Music/Sounds \n- Go to sleep to white noise \n\nWEATHER \n- Check live weather conditions and temperature \n- Automatic detection of your current location and weather conditions display in your area \n- Weather conditions and temperature in any location you choose \n- Temperature unit: Fahrenheit/Celsius \n- Show Weather ON/OFF \n\nCOUNTDOWN\n- Never miss important events and special occasions. Count down to your vacation, anniversary, graduation and more\n\nTIMER\n- No matter whether you are cooking or working out, multifunctional timer will always be at hand!\n\nFLASHLIGHT \n- Shake your device or double tap on the screen to switch on the flashlight \n\nBeautiful. Reliable. Versatile. Get the alarm clock that you've been looking for!\n\nFor complete access to all Alarm Clock for Me features, you will need to allow access to the following:\n \n*Notifications – otherwise, alarm will not ring;\n*Location data to provide you with the weather forecast for your exact location;\n*Media library so that you can set your own music as an alarm or a sleep timer sound;\n*Camera to activate a powerful built-in flashlight;\n*Photos to give you a possibility to set them as countdown pictures.\n\nPrivacy Policy: http://apalon.com/privacy_policy.html\nEULA: http://www.apalon.com/terms_of_use.html"
-    },
-    "im:price": {
-      "label": "$3.990",
-      "attributes": {
-        "amount": "3990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2014-2020 IAC Search & Media Technologies Limited"
-    },
-    "title": {
-      "label": "Alarm Clock for Me - Apalon Apps"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/alarm-clock-for-me/id749125114?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/f0/8c/95/f08c954f-80b4-dc3a-5631-fc3267c5f53f/en-US___iOS-iPad-Pro___screen1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/alarm-clock-for-me/id749125114?l=en&uo=2",
-      "attributes": {
-        "im:id": "749125114",
-        "im:bundleId": "com.apalonapps.alarmclock"
-      }
-    },
-    "im:artist": {
-      "label": "Apalon Apps",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/apalon-apps/id749046894?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-12-04T11:01:35-07:00",
-      "attributes": {
-        "label": "December 4, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 35,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Panecal Plus Sci. Calculator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/04/59/c1/0459c140-00fe-f0c2-26de-b7c672ae1c6f/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/04/59/c1/0459c140-00fe-f0c2-26de-b7c672ae1c6f/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/04/59/c1/0459c140-00fe-f0c2-26de-b7c672ae1c6f/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "[Description]\nPanecal is a scientific calculator app that allows you to display and modify formulas. It allows you to enter formulas while checking them, which prevents you from typing incorrectly or making calculation errors. It is also possible to reuse past formulas and use variable memory to change only certain values to calculate them.\n　The display shows the cursor, and you can tap or press the arrow keys to quickly navigate to where you want to edit. It has a powerful, flexible and intuitive user interface with support for swiping to scroll through formulas and long-tap to copy and paste.\n　\n[Features]\n- Re-calculation by using past formula\n- Easy editing by using a cursor operation and swipe the screen\n- Copy and paste formulas text\n- Formulas history and answers history table\n- Binary numbers, octal numbers, decimal numbers, hexadecimal numbers calculation and conversion (Max.32bits)\n- M+/M- memory functions and variable(A-F) memory\n- Arithmetic operations, inverse trigonometric functions, logarithmic functions, power functions, power root functions, factorials, absolute values, percent calculations, modulo calculation, polar and cartesian coordinate conversion\n- Angle units (DEG, RAD, GRAD)\n- Result format with Normal(standard), Fix (fixed decimal mode), Sci (significant figures), and Eng (index is in multiples of 3)\n- Decimal point character and grouping separator settings\n\n[Disclaimer]\nPlease note in advance that Appsys is not responsible for any damage or lost profits caused by the use of this software, or any claims from third parties."
-    },
-    "im:price": {
-      "label": "$2.990",
-      "attributes": {
-        "amount": "2990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2013-2023 Appsys"
-    },
-    "title": {
-      "label": "Panecal Plus Sci. Calculator - Noriyasu Kutsuzawa"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/panecal-plus-sci-calculator/id672649451?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/e7/d7/7e/e7d77e6c-83df-65b3-0cc8-21c92b6be18e/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/panecal-plus-sci-calculator/id672649451?l=en&uo=2",
-      "attributes": {
-        "im:id": "672649451",
-        "im:bundleId": "jp.appsys.PanecalPlus"
-      }
-    },
-    "im:artist": {
-      "label": "Noriyasu Kutsuzawa",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/noriyasu-kutsuzawa/id668500806?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-07-24T18:17:31-07:00",
-      "attributes": {
-        "label": "July 24, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 36,
-      "total": 100
-    },
-    "im:name": {
-      "label": "µBrowser"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/6b/96/d86b968b-cce2-e828-ee62-c5b5f12140ed/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/6b/96/d86b968b-cce2-e828-ee62-c5b5f12140ed/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/6b/96/d86b968b-cce2-e828-ee62-c5b5f12140ed/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "µBrowser is the micro browser for your Apple Watch.\nµBrowser is the quick way to do some basic browsing on your Apple Watch when it is necessary. While it is limited it is good way to browse the web when you have no other device around.\n\nFeatures:\n- Open any URL (Entering a URL works especially good with the new Series 7 keyboard)\n- Search the web with DuckDuckGo\n- See your last visited pages\n- Save pages from the history to your favorites\n- iOS companion app to manage bookmarks\n- Complications to quickly access the browser from the watch face\n\nPlease note:\nµBrowser is a limited browsing experience. At first it is limited by the device size.\nThen there are limitations regarding Javascript and large webpages. Login on pages will most likely not work. There is no back button (swiping still works) you need to start a new sessions."
-    },
-    "im:price": {
-      "label": "$990",
-      "attributes": {
-        "amount": "990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 APPenzeller"
-    },
-    "title": {
-      "label": "µBrowser - Arno Appenzeller"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/%C2%B5browser/id1590622755?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/4b/43/b1/4b43b125-a8b1-c86c-2304-830d3c946e1b/56db44f7-ac14-465a-acb8-f583a10988d7_1_55inch.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/%C2%B5browser/id1590622755?l=en&uo=2",
-      "attributes": {
-        "im:id": "1590622755",
-        "im:bundleId": "de.APPenzeller.WebWatcher"
-      }
-    },
-    "im:artist": {
-      "label": "Arno Appenzeller",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/arno-appenzeller/id515339331?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-12-09T00:00:00-07:00",
-      "attributes": {
-        "label": "December 9, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
       "index": 37,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Voice in a Can"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/63/5c/5f/635c5f17-406d-dced-06fd-62b148d1b5d8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/63/5c/5f/635c5f17-406d-dced-06fd-62b148d1b5d8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/63/5c/5f/635c5f17-406d-dced-06fd-62b148d1b5d8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "An Apple Watch (standalone, no phone required), iPhone and iPad app for using Alexa.\n\nControl your home devices, ask general questions, add and remove items to your shopping list and set timers etc.  It is an Alexa implementation.  On your wrist.\n\nThere are nine things you should know before getting this app:\n\n1. The Series 4 watch and newer are supported;\n2. Your phone controls installation of the app to the watch, not the app.  Put your watch on a charger to speed up install time;\n3. Not all audio content can be supported.  Amazon don't allow third-party apps such as this app to play music, audio books or some daily-news content, make announcements or drop-in;\n4. You can use a Siri Shortcut to launch the app and start speaking, just by raising your wrist on Apple Watch.  See the support page on how to configure;\n5. All watch complication types are supported, including those really weird ones.  Also you can change the complication icon under Settings;\n6. The watch app can listen automatically on launch. There is an option under settings to do the same thing on the iPhone;\n7. If the weather or time are wrong, ensure you've enabled Location access in the Alexa app to the \"Voice in a Can\" device, and that you have granted Location permissions to the app on your phone;\n8. You don't have to say \"Alexa\" ... just speak your command when the app is listening;\n9. You can change the language that you speak and hear responses in, under \"Settings\" on the watch and phone.  Only languages supported by Alexa are supported. The language should be set automatically.\n\nIf you have questions or any support issues please don't hesitate to email damian@voiceinacan.com ... you should get a response within 24 hours, and often in minutes.\n\nThis app was not created or endorsed by Amazon. Amazon, Alexa and all related logos are trademarks of Amazon.com, Inc. or its affiliates"
-    },
-    "im:price": {
-      "label": "$1.990",
-      "attributes": {
-        "amount": "1990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Atadore SARL"
-    },
-    "title": {
-      "label": "Voice in a Can - Atadore"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/voice-in-a-can/id1339696720?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/b6/64/d2/b664d212-043a-ee7e-18ef-5bafb63b65ad/12335d44-7e2a-4ad2-842a-1ab74e13213d_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-05-23_at_17.09.15.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/voice-in-a-can/id1339696720?l=en&uo=2",
-      "attributes": {
-        "im:id": "1339696720",
-        "im:bundleId": "com.atadore.AppleWatchAlexa"
-      }
-    },
-    "im:artist": {
-      "label": "Atadore",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/atadore/id1339696719?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-06-07T19:58:07-07:00",
-      "attributes": {
-        "label": "June 7, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 38,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Infinite iNtercom"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ee/4f/cc/ee4fcc72-c35b-4a33-4abf-d10c1afcd078/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ee/4f/cc/ee4fcc72-c35b-4a33-4abf-d10c1afcd078/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ee/4f/cc/ee4fcc72-c35b-4a33-4abf-d10c1afcd078/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Infinite iNtercom lets you place group calls with other devices over Wifi.\n\nInfinite iNtercom acts like a simple walkie talkie (two way radio):\n·No Internet needed. It only uses local communications.\n·Minimum configuration.\n·No registration.\n·No accounts.\n·No buddy list."
-    },
-    "im:price": {
-      "label": "$1.990",
-      "attributes": {
-        "amount": "1990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 InfiniteBuffer"
-    },
-    "title": {
-      "label": "Infinite iNtercom - Roman Belda"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/infinite-intercom/id1206022901?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/76/7e/66/767e661c-827f-8c7c-5c7d-c7c83150b72d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/infinite-intercom/id1206022901?l=en&uo=2",
-      "attributes": {
-        "im:id": "1206022901",
-        "im:bundleId": "com.infinitebuffer.iosintercom"
-      }
-    },
-    "im:artist": {
-      "label": "Roman Belda",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/roman-belda/id1206021130?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-02-17T09:49:11-07:00",
-      "attributes": {
-        "label": "February 17, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 39,
-      "total": 100
-    },
-    "im:name": {
-      "label": "PROtractor – the angle tool for every carpenter, joiner und craftsman"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/56/57/b0/5657b06b-80d2-dfc5-a4d9-d392da6e61fd/mzm.xwufabqh.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/56/57/b0/5657b06b-80d2-dfc5-a4d9-d392da6e61fd/mzm.xwufabqh.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/56/57/b0/5657b06b-80d2-dfc5-a4d9-d392da6e61fd/mzm.xwufabqh.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Determine any angle between two surfaces with your iPhone, iPod Touch and iPad by using the angle measuring tool PROtractor."
-    },
-    "im:price": {
-      "label": "$990",
-      "attributes": {
-        "amount": "990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2016 peAfe GbR"
-    },
-    "title": {
-      "label": "PROtractor – the angle tool for every carpenter, joiner und craftsman - peAfe GbR"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/protractor-the-angle-tool-for-every-carpenter-joiner/id933627578?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/9f/42/be/9f42be04-2dc8-454f-e94a-bd72bcf50621/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/protractor-the-angle-tool-for-every-carpenter-joiner/id933627578?l=en&uo=2",
-      "attributes": {
-        "im:id": "933627578",
-        "im:bundleId": "com.peafe.planeProtractor"
-      }
-    },
-    "im:artist": {
-      "label": "peAfe GbR",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/peafe-gbr/id833526687?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-01-21T17:37:45-07:00",
-      "attributes": {
-        "label": "January 21, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 40,
-      "total": 100
-    },
-    "im:name": {
-      "label": "SpeedUp - Acceleration test 0-100 kmh 0-60 mph"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/c6/9e/1e/c69e1ea4-6473-33a6-68c5-472b02ffdc19/mzm.amakjfuq.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/c6/9e/1e/c69e1ea4-6473-33a6-68c5-472b02ffdc19/mzm.amakjfuq.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/c6/9e/1e/c69e1ea4-6473-33a6-68c5-472b02ffdc19/mzm.amakjfuq.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is Acceleration test 0-100kmh /0-60mph (All tests 0-60mph actually mean is 62.3mph)\nHow to use:\n1. Place your device on dashboard\n2. Launch app\n3. Press button \"Start test\"\n4. Start moving\n5. When you reach speed 100kmh=62.3mph timer will stop.\nSee your result"
-    },
-    "im:price": {
-      "label": "$2.990",
-      "attributes": {
-        "amount": "2990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© ЯB"
-    },
-    "title": {
-      "label": "SpeedUp - Acceleration test 0-100 kmh 0-60 mph - Dmitriy Pushkarev"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/speedup-acceleration-test-0-100-kmh-0-60-mph/id1038909469?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/3e/d5/41/3ed54113-c435-2cd0-0df8-f4c6796ed30d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/speedup-acceleration-test-0-100-kmh-0-60-mph/id1038909469?l=en&uo=2",
-      "attributes": {
-        "im:id": "1038909469",
-        "im:bundleId": "RoyalBlue.inc.SpeedUp"
-      }
-    },
-    "im:artist": {
-      "label": "Dmitriy Pushkarev",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/dmitriy-pushkarev/id704599054?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-09-26T09:44:10-07:00",
-      "attributes": {
-        "label": "September 26, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 41,
-      "total": 100
-    },
-    "im:name": {
-      "label": "iSniffer"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/1f/4d/40/1f4d404d-ca4d-f721-9b32-5809490a697b/AppIcon-0-1x_U007emarketing-0-0-85-220-0-10.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/1f/4d/40/1f4d404d-ca4d-f721-9b32-5809490a697b/AppIcon-0-1x_U007emarketing-0-0-85-220-0-10.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/1f/4d/40/1f4d404d-ca4d-f721-9b32-5809490a697b/AppIcon-0-1x_U007emarketing-0-0-85-220-0-10.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "iSniffer is a proxy that helps you view all network requests your device is making. Simply connect to the local VPN and check back in the app to view the requests your device is making. You are also able to view requests that other apps are making.\n\niSniffer is perfect if you are a developer, security researcher or are interested in anything to do with networking. In the app, there is an interface that is easy to use so you can view all requests and filter out any requests that you don't need to see.\n\niSniffer respects your privacy. The VPN created is a local VPN meaning all the requests pass through iSniffer on your device only. This means that the only copy of your requests is on your device. We do not look at or monitor your network requests in any way. \n\nFor the requests, if available you are able to see:\n• URL \n• Time\n• Metadata\n• User Agent \n• Local IP\n• Local Port\n• Remote IP\n• Remote Port\n• Connection Type\n• Connection Status\n• Upload Traffic\n• Download Traffic\n• Response Headers\n• Requests Headers\n• Proxy Notifications\n• VPN Customisation"
-    },
-    "im:price": {
-      "label": "$5.990",
-      "attributes": {
-        "amount": "5990",
-        "currency": "CLP"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Innovative Digital Technologies"
-    },
-    "title": {
-      "label": "iSniffer - INNOVATIVE DIGITAL TECHNOLOGIES LIMITED"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cl/app/isniffer/id1436431394?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/71/ad/a4/71ada47e-508a-6fb6-d901-55d1b1f80978/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cl/app/isniffer/id1436431394?l=en&uo=2",
-      "attributes": {
-        "im:id": "1436431394",
-        "im:bundleId": "com.simplicityinapps.iSniffer"
-      }
-    },
-    "im:artist": {
-      "label": "INNOVATIVE DIGITAL TECHNOLOGIES LIMITED",
-      "attributes": {
-        "href": "https://apps.apple.com/cl/developer/innovative-digital-technologies-limited/id1331216448?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-09-23T15:06:25-07:00",
-      "attributes": {
-        "label": "September 23, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cl",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 42,
-      "total": 100
+      "total": 99
     },
     "im:name": {
       "label": "Premium Music Search"
@@ -4271,8 +3764,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
-      "total": 100
+      "index": 38,
+      "total": 99
     },
     "im:name": {
       "label": "Rowmote"
@@ -4373,8 +3866,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 44,
-      "total": 100
+      "index": 39,
+      "total": 99
     },
     "im:name": {
       "label": "CamToPlan PRO"
@@ -4475,8 +3968,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
-      "total": 100
+      "index": 40,
+      "total": 99
     },
     "im:name": {
       "label": "Remote Mouse Pro"
@@ -4577,8 +4070,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 46,
-      "total": 100
+      "index": 41,
+      "total": 99
     },
     "im:name": {
       "label": "LEDit - LED Banner"
@@ -4679,8 +4172,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 47,
-      "total": 100
+      "index": 42,
+      "total": 99
     },
     "im:name": {
       "label": "Pocket Glasses PRO"
@@ -4781,8 +4274,110 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 48,
-      "total": 100
+      "index": 43,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Alarm Clock for Me"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/65/6a/87/656a8779-406b-d676-e356-eeaa6d96ba76/AppIcon-1x_U007emarketing-85-220-0-5.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/65/6a/87/656a8779-406b-d676-e356-eeaa6d96ba76/AppIcon-1x_U007emarketing-85-220-0-5.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/65/6a/87/656a8779-406b-d676-e356-eeaa6d96ba76/AppIcon-1x_U007emarketing-85-220-0-5.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Wake up and go to sleep to your favorite music, never sleep through your alarm again, get your own collection of exclusive designer clocks, know weather conditions in your area, countdown to important events, cook or work out with a multifunctional timer, and light up the darkness with a powerful built-in flashlight!\n\nFEATURES: \n\n* Choose from stylish designer themes for the clock: Ultrasonic, Digital (Blue, Green, Red, and Yellow), Wordy, ThinLine\n* Create your own wake-up playlist with the best music \n* Background alarm support: alarm will ring even if the app is not running \n* Choose a way to stop the alarm: shake your device or solve a math problem\n* Go to sleep to your favorite songs or white noise \n* Check live weather conditions and temperature \n* Change the screen brightness so that it doesn’t blind you after a good night’s sleep \n* Shake your device or double tap on the screen to switch on the flashlight \n* Convenient app settings. Get easy access to any option you need\n* Widget: access the remaining time till the next alarm and live local weather conditions in Notification Center.\n\nAlarm Clock for Me provides the functionality of 6 indispensable apps in 1: \n\nALARM \n- Wake up to your favorite music \n- Shake your device or solve a math problem to turn off the alarm\n- Set multiple alarms with different tunes \n- Background alarm support: alarm will go off even if the app is not running! \n- Easy access to the nearest alarm from the main screen \n- Huge Snooze/Stop alarm buttons \n- Add your notes to the alarm! \n- Adjustable volume of Sounds/Music \n- Vibrate / Fade in / Snooze options \n- Shake-to-snooze when alarm goes off \n\nCLOCK \n- Exclusive designer clocks \n- Vertical and horizontal modes \n- 12 or 24 time format \n- Show/Hide seconds \n- Show/Hide day of the week \n- Auto-Lock when plugged in ON/OFF \n- Auto-Lock when on battery ON/OFF \n- Customizable auto-lock time \n\nSLEEP TIMER \n-Use the shortcut on the main screen to go directly to the sleep timer settings \n- Create your own playlist with your favorite songs \n- Shuffle music ON/OFF \n- Adjust the volume of Music/Sounds \n- Go to sleep to white noise \n\nWEATHER \n- Check live weather conditions and temperature \n- Automatic detection of your current location and weather conditions display in your area \n- Weather conditions and temperature in any location you choose \n- Temperature unit: Fahrenheit/Celsius \n- Show Weather ON/OFF \n\nCOUNTDOWN\n- Never miss important events and special occasions. Count down to your vacation, anniversary, graduation and more\n\nTIMER\n- No matter whether you are cooking or working out, multifunctional timer will always be at hand!\n\nFLASHLIGHT \n- Shake your device or double tap on the screen to switch on the flashlight \n\nBeautiful. Reliable. Versatile. Get the alarm clock that you've been looking for!\n\nFor complete access to all Alarm Clock for Me features, you will need to allow access to the following:\n \n*Notifications – otherwise, alarm will not ring;\n*Location data to provide you with the weather forecast for your exact location;\n*Media library so that you can set your own music as an alarm or a sleep timer sound;\n*Camera to activate a powerful built-in flashlight;\n*Photos to give you a possibility to set them as countdown pictures.\n\nPrivacy Policy: http://apalon.com/privacy_policy.html\nEULA: http://www.apalon.com/terms_of_use.html"
+    },
+    "im:price": {
+      "label": "$3.990",
+      "attributes": {
+        "amount": "3990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2014-2020 IAC Search & Media Technologies Limited"
+    },
+    "title": {
+      "label": "Alarm Clock for Me - Apalon Apps"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/alarm-clock-for-me/id749125114?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/f0/8c/95/f08c954f-80b4-dc3a-5631-fc3267c5f53f/en-US___iOS-iPad-Pro___screen1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/alarm-clock-for-me/id749125114?l=en&uo=2",
+      "attributes": {
+        "im:id": "749125114",
+        "im:bundleId": "com.apalonapps.alarmclock"
+      }
+    },
+    "im:artist": {
+      "label": "Apalon Apps",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/apalon-apps/id749046894?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-12-04T11:01:35-07:00",
+      "attributes": {
+        "label": "December 4, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 44,
+      "total": 99
     },
     "im:name": {
       "label": "Mobile Mouse Remote"
@@ -4883,8 +4478,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 49,
-      "total": 100
+      "index": 45,
+      "total": 99
     },
     "im:name": {
       "label": "Puffin Browser Pro"
@@ -4985,8 +4580,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 50,
-      "total": 100
+      "index": 46,
+      "total": 99
     },
     "im:name": {
       "label": "SatFinder"
@@ -5087,8 +4682,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 51,
-      "total": 100
+      "index": 47,
+      "total": 99
     },
     "im:name": {
       "label": "IP Cam Viewer Pro"
@@ -5189,8 +4784,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 52,
-      "total": 100
+      "index": 48,
+      "total": 99
     },
     "im:name": {
       "label": "Rowmote Pro for Mac"
@@ -5291,8 +4886,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 53,
-      "total": 100
+      "index": 49,
+      "total": 99
     },
     "im:name": {
       "label": "Quick AirPlay - Optimized for your iPhone videos"
@@ -5393,8 +4988,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 54,
-      "total": 100
+      "index": 50,
+      "total": 99
     },
     "im:name": {
       "label": "Just Press Record"
@@ -5495,8 +5090,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 55,
-      "total": 100
+      "index": 51,
+      "total": 99
     },
     "im:name": {
       "label": "Total files pro"
@@ -5597,8 +5192,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 56,
-      "total": 100
+      "index": 52,
+      "total": 99
     },
     "im:name": {
       "label": "Flashlight 4 in 1"
@@ -5699,8 +5294,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 57,
-      "total": 100
+      "index": 53,
+      "total": 99
     },
     "im:name": {
       "label": "WiFiAudit Pro - WiFi Passwords"
@@ -5801,8 +5396,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 58,
-      "total": 100
+      "index": 54,
+      "total": 99
     },
     "im:name": {
       "label": "Seismometer"
@@ -5903,8 +5498,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 59,
-      "total": 100
+      "index": 55,
+      "total": 99
     },
     "im:name": {
       "label": "WinZip Pro: zip, unzip & rar"
@@ -6005,8 +5600,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 60,
-      "total": 100
+      "index": 56,
+      "total": 99
     },
     "im:name": {
       "label": "Clinometer + bubble level"
@@ -6107,8 +5702,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 61,
-      "total": 100
+      "index": 57,
+      "total": 99
     },
     "im:name": {
       "label": "Battery HD+ Pro"
@@ -6209,8 +5804,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 62,
-      "total": 100
+      "index": 58,
+      "total": 99
     },
     "im:name": {
       "label": "Heart Rate PRO"
@@ -6311,8 +5906,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 63,
-      "total": 100
+      "index": 59,
+      "total": 99
     },
     "im:name": {
       "label": "Audiobel: Professional SPL"
@@ -6413,8 +6008,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 64,
-      "total": 100
+      "index": 60,
+      "total": 99
     },
     "im:name": {
       "label": "Measuring Tape PRO"
@@ -6515,8 +6110,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 65,
-      "total": 100
+      "index": 61,
+      "total": 99
     },
     "im:name": {
       "label": "Foscam Surveillance Pro"
@@ -6617,8 +6212,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 66,
-      "total": 100
+      "index": 62,
+      "total": 99
     },
     "im:name": {
       "label": "shift calendar pro"
@@ -6719,8 +6314,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 67,
-      "total": 100
+      "index": 63,
+      "total": 99
     },
     "im:name": {
       "label": "Network Analyzer Pro"
@@ -6821,8 +6416,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 68,
-      "total": 100
+      "index": 64,
+      "total": 99
     },
     "im:name": {
       "label": "Knot Guide"
@@ -6923,8 +6518,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 69,
-      "total": 100
+      "index": 65,
+      "total": 99
     },
     "im:name": {
       "label": "Foscam Pro: Multi IP Camera Viewer"
@@ -7025,8 +6620,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 70,
-      "total": 100
+      "index": 66,
+      "total": 99
     },
     "im:name": {
       "label": "Cool Fonts Pro - Font Keyboard"
@@ -7127,8 +6722,110 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 71,
-      "total": 100
+      "index": 67,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Panecal Plus Sci. Calculator"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/04/59/c1/0459c140-00fe-f0c2-26de-b7c672ae1c6f/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/04/59/c1/0459c140-00fe-f0c2-26de-b7c672ae1c6f/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/04/59/c1/0459c140-00fe-f0c2-26de-b7c672ae1c6f/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "[Description]\nPanecal is a scientific calculator app that allows you to display and modify formulas. It allows you to enter formulas while checking them, which prevents you from typing incorrectly or making calculation errors. It is also possible to reuse past formulas and use variable memory to change only certain values to calculate them.\n　The display shows the cursor, and you can tap or press the arrow keys to quickly navigate to where you want to edit. It has a powerful, flexible and intuitive user interface with support for swiping to scroll through formulas and long-tap to copy and paste.\n　\n[Features]\n- Re-calculation by using past formula\n- Easy editing by using a cursor operation and swipe the screen\n- Copy and paste formulas text\n- Formulas history and answers history table\n- Binary numbers, octal numbers, decimal numbers, hexadecimal numbers calculation and conversion (Max.32bits)\n- M+/M- memory functions and variable(A-F) memory\n- Arithmetic operations, inverse trigonometric functions, logarithmic functions, power functions, power root functions, factorials, absolute values, percent calculations, modulo calculation, polar and cartesian coordinate conversion\n- Angle units (DEG, RAD, GRAD)\n- Result format with Normal(standard), Fix (fixed decimal mode), Sci (significant figures), and Eng (index is in multiples of 3)\n- Decimal point character and grouping separator settings\n\n[Disclaimer]\nPlease note in advance that Appsys is not responsible for any damage or lost profits caused by the use of this software, or any claims from third parties."
+    },
+    "im:price": {
+      "label": "$2.990",
+      "attributes": {
+        "amount": "2990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2013-2023 Appsys"
+    },
+    "title": {
+      "label": "Panecal Plus Sci. Calculator - Noriyasu Kutsuzawa"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/panecal-plus-sci-calculator/id672649451?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/e7/d7/7e/e7d77e6c-83df-65b3-0cc8-21c92b6be18e/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/panecal-plus-sci-calculator/id672649451?l=en&uo=2",
+      "attributes": {
+        "im:id": "672649451",
+        "im:bundleId": "jp.appsys.PanecalPlus"
+      }
+    },
+    "im:artist": {
+      "label": "Noriyasu Kutsuzawa",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/noriyasu-kutsuzawa/id668500806?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-07-24T18:17:31-07:00",
+      "attributes": {
+        "label": "July 24, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 68,
+      "total": 99
     },
     "im:name": {
       "label": "Sonar Ruler"
@@ -7229,8 +6926,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 72,
-      "total": 100
+      "index": 69,
+      "total": 99
     },
     "im:name": {
       "label": "Night Vision Camera"
@@ -7331,8 +7028,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 73,
-      "total": 100
+      "index": 70,
+      "total": 99
     },
     "im:name": {
       "label": "iWepPRO"
@@ -7433,8 +7130,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 74,
-      "total": 100
+      "index": 71,
+      "total": 99
     },
     "im:name": {
       "label": "FlashLight LED HD Pro"
@@ -7535,8 +7232,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 75,
-      "total": 100
+      "index": 72,
+      "total": 99
     },
     "im:name": {
       "label": "MP3 2 Ringtone"
@@ -7637,8 +7334,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 76,
-      "total": 100
+      "index": 73,
+      "total": 99
     },
     "im:name": {
       "label": "iZip Pro -Zip Unzip Unrar Tool"
@@ -7739,8 +7436,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 77,
-      "total": 100
+      "index": 74,
+      "total": 99
     },
     "im:name": {
       "label": "Alarm Night Clock / Music"
@@ -7841,8 +7538,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 78,
-      "total": 100
+      "index": 75,
+      "total": 99
     },
     "im:name": {
       "label": "RarExtractor - Extract RAR,ZIP"
@@ -7943,8 +7640,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 79,
-      "total": 100
+      "index": 76,
+      "total": 99
     },
     "im:name": {
       "label": "WMV HD Player Pro - Importer"
@@ -8045,8 +7742,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 80,
-      "total": 100
+      "index": 77,
+      "total": 99
     },
     "im:name": {
       "label": "Wake up! Earthquake"
@@ -8147,8 +7844,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 81,
-      "total": 100
+      "index": 78,
+      "total": 99
     },
     "im:name": {
       "label": "El Tubero 2.0"
@@ -8249,8 +7946,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 82,
-      "total": 100
+      "index": 79,
+      "total": 99
     },
     "im:name": {
       "label": "BFT - Bear Focus Timer"
@@ -8351,8 +8048,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 83,
-      "total": 100
+      "index": 80,
+      "total": 99
     },
     "im:name": {
       "label": "MacID"
@@ -8453,8 +8150,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 84,
-      "total": 100
+      "index": 81,
+      "total": 99
     },
     "im:name": {
       "label": "AnyFont"
@@ -8555,8 +8252,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 85,
-      "total": 100
+      "index": 82,
+      "total": 99
     },
     "im:name": {
       "label": "Aerlink"
@@ -8657,8 +8354,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 86,
-      "total": 100
+      "index": 83,
+      "total": 99
     },
     "im:name": {
       "label": "Blue Iris"
@@ -8759,8 +8456,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 87,
-      "total": 100
+      "index": 84,
+      "total": 99
     },
     "im:name": {
       "label": "Pastel Keyboard Themes Color"
@@ -8861,8 +8558,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 88,
-      "total": 100
+      "index": 85,
+      "total": 99
     },
     "im:name": {
       "label": "Wake N Shake Alarm Clock"
@@ -8963,8 +8660,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 89,
-      "total": 100
+      "index": 86,
+      "total": 99
     },
     "im:name": {
       "label": "Measures - Unit Converter"
@@ -9065,8 +8762,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 90,
-      "total": 100
+      "index": 87,
+      "total": 99
     },
     "im:name": {
       "label": "Viewer for D-Link Cams"
@@ -9167,8 +8864,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 91,
-      "total": 100
+      "index": 88,
+      "total": 99
     },
     "im:name": {
       "label": "iCam - Webcam Video Streaming"
@@ -9269,8 +8966,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 92,
-      "total": 100
+      "index": 89,
+      "total": 99
     },
     "im:name": {
       "label": "DirectVR Remote for DirecTV"
@@ -9371,8 +9068,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 93,
-      "total": 100
+      "index": 90,
+      "total": 99
     },
     "im:name": {
       "label": "Measure 3D Pro - AR Ruler"
@@ -9473,8 +9170,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 94,
-      "total": 100
+      "index": 91,
+      "total": 99
     },
     "im:name": {
       "label": "iConnectHue for Philips Hue"
@@ -9575,8 +9272,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 95,
-      "total": 100
+      "index": 92,
+      "total": 99
     },
     "im:name": {
       "label": "Crystal Adblock – Block unwanted ads!"
@@ -9677,8 +9374,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 96,
-      "total": 100
+      "index": 93,
+      "total": 99
     },
     "im:name": {
       "label": "Calc Pro - The Top Calculator"
@@ -9779,8 +9476,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 97,
-      "total": 100
+      "index": 94,
+      "total": 99
     },
     "im:name": {
       "label": "BTNotification - Smart Watch Notice & BLE Scanner"
@@ -9881,8 +9578,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 98,
-      "total": 100
+      "index": 95,
+      "total": 99
     },
     "im:name": {
       "label": "Tydlig"
@@ -9983,8 +9680,8 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 99,
-      "total": 100
+      "index": 96,
+      "total": 99
     },
     "im:name": {
       "label": "Magnifying Glass PRO"
@@ -10085,8 +9782,110 @@
       "country_code": "cl",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 100,
-      "total": 100
+      "index": 97,
+      "total": 99
+    },
+    "im:name": {
+      "label": "iTorch Pro Flashlight"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b5/68/23/b5682384-7ca4-f73f-a9ef-cd058923fbe8/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b5/68/23/b5682384-7ca4-f73f-a9ef-cd058923fbe8/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b5/68/23/b5682384-7ca4-f73f-a9ef-cd058923fbe8/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LIGHT ning fast – that's the all new iTorch. At last here is exactly what you need if you lose something in the dark and what could be more gorgeous than iTorch on your shiny new iPhone 5.\n\nThere's no need to panic if you've got iTorch. Turn your iPhone into a torch at LIGHT ning speed, faster than any other app. No waiting around for an app to start and for the torch to turn on. This really is a LIGHT ning fast torch because it is specially optimised to be fastest of all with the new iPhone 5.\n\nNew iTorch features include:\n- LIGHT ning fast start time to help out quickly - the fastest torch app ever\n- LIGHT ning bright torch to light up a large area - brighter than any other app\n- LIGHT ning flash strobe - when you're partying hard and want to attract some attention for fun, great at parties and when clubbing\n- LIGHT ning bright SOS signal - if you need help flash a bright SOS to attract attention\n\nYou can use iTorch in the most awkward situations. It's bright, LIGHT ning fast torch beam will shine into any dark corner. Dropped your keys? Can't find the keyhole? Lost something at the bottom of your bag or simply had a few too many?\n\nUse iTorch to:\n- Find your keys if you drop them – LIGHT ning quick\n- Put the key into your door lock late at night – LIGHT ning fast\n- Find your way when you've got your beer goggles on – LIGHT ning clear\n- Attract someone's attention when you need help – LIGHT ning bright\n\niTorch is really going to save your bacon on many occasions. Have you used iTorch to get out of a sticky situation? Tell us, tell your friends, why not tell the whole world on Facebook and Twitter and we'll make sure the best stories get posted on our website.\n\nNote: Continuous use of the LED flash can shorten battery life.\nNote: This App can emit strobe light that might disturb people with epilepsy. Use at your own risk. Pixelinlove assume no liability of any kind for medical harm caused by the misuse of this product."
+    },
+    "im:price": {
+      "label": "$1.990",
+      "attributes": {
+        "amount": "1990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2011 Pixelinlove.com"
+    },
+    "title": {
+      "label": "iTorch Pro Flashlight - Pixelinlove Ltd"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/itorch-pro-flashlight/id392550196?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b5/45/31/b5453125-82ff-3663-c99a-cd75889c605b/mzl.ivaqyasv.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/itorch-pro-flashlight/id392550196?l=en&uo=2",
+      "attributes": {
+        "im:id": "392550196",
+        "im:bundleId": "com.pixelinlove.itorcia-pro"
+      }
+    },
+    "im:artist": {
+      "label": "Pixelinlove Ltd",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/pixelinlove-ltd/id384365351?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-09-22T09:32:09-07:00",
+      "attributes": {
+        "label": "September 22, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 98,
+      "total": 99
     },
     "im:name": {
       "label": "FE File Explorer Pro"
@@ -10179,6 +9978,108 @@
       "label": "2012-02-28T15:21:55-07:00",
       "attributes": {
         "label": "February 28, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cl",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 99,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Magnetic Detector PRO"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/b4/dd/0d/b4dd0de2-2aad-fbec-9b6a-889e810d2dfa/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/b4/dd/0d/b4dd0de2-2aad-fbec-9b6a-889e810d2dfa/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/b4/dd/0d/b4dd0de2-2aad-fbec-9b6a-889e810d2dfa/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Find magnetic field generating objects with your device! The app works thanks to device's built-in magnetometer! The sensor allows you to detect objects generating a magnetic & electromagnetic field like electronic devices (phones, wiretaps), sharp objects, metal screws, wires and much more!\n\nThe app is perfect for:\n\nConstruction workers & handymen ->\n- to find where in the walls are hidden wires\n- to determine the location of metal framing studs\n\nStudents ->\n- for educational purposes like school projects and experiments\n\n\n\n\nPlease note that Magnetic Detector PRO is not a replacement for professional metal detector devices and it should be used for private/entertainment purposes only."
+    },
+    "im:price": {
+      "label": "$3.990",
+      "attributes": {
+        "amount": "3990",
+        "currency": "CLP"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© AEXOL SP Z O O SPOLKA KOMANDYTOWA"
+    },
+    "title": {
+      "label": "Magnetic Detector PRO - Aexol"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cl/app/magnetic-detector-pro/id966179136?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/c3/26/35/c32635de-bbf5-6583-72f6-6bfc1a86f8fc/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cl/app/magnetic-detector-pro/id966179136?l=en&uo=2",
+      "attributes": {
+        "im:id": "966179136",
+        "im:bundleId": "com.aexol.metaldetector"
+      }
+    },
+    "im:artist": {
+      "label": "Aexol",
+      "attributes": {
+        "href": "https://apps.apple.com/cl/developer/aexol/id1191282096?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/cl/genre/ios-utilities/id6002?l=en&uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-02-22T12:36:39-07:00",
+      "attributes": {
+        "label": "February 22, 2015"
       }
     }
   }

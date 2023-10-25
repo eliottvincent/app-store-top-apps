@@ -110,6 +110,312 @@
       "total": 99
     },
     "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "¥400",
+      "attributes": {
+        "amount": "400",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-08-25T09:56:35-07:00",
+      "attributes": {
+        "label": "August 25, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 3,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Programming Notebook LITE"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "FEATURES:\n- Includes Google Colab and Jupyter notebook\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- Easier web navigation through the in-app browsers.\n- Maximizes space available on screen for code editing/viewing"
+    },
+    "im:price": {
+      "label": "¥100",
+      "attributes": {
+        "amount": "100",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Ryan Rudes"
+    },
+    "title": {
+      "label": "Programming Notebook LITE - Ryan Rudes"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/programming-notebook-lite/id1519715994?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/5e/a8/a65ea89c-c448-2dbe-e1e4-6778938f1944/c0575338-274d-4651-adf6-4683a23a775d_iPad_Pro_12.9_U0022_2nd_Gen_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/programming-notebook-lite/id1519715994?l=en&uo=2",
+      "attributes": {
+        "im:id": "1519715994",
+        "im:bundleId": "com.appcoda.ryan-rudes"
+      }
+    },
+    "im:artist": {
+      "label": "Ryan Rudes",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/ryan-rudes/id1698870132?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-06-25T00:00:00-07:00",
+      "attributes": {
+        "label": "June 25, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 4,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Cookie Editor For Safari"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "With our app, you can confidently examine and edit your cookies as you please. Cookie Editor equips you with the essential tools to edit the cookies on the current tab of your iOS, iPadOS, and MacOS devices, giving you complete control over your browsing experience.\n\nOur Cookie Editor provides you with the ability to thoroughly examine and edit the cookies of the current website in various ways. Not only can you create a new cookie manually, but you can also import text in JSON or Netscape format to make the process even easier. In addition, exporting cookies is made easy with the available options in JSON and Netscape format. If you're searching for a specific cookie, you can easily find it using the intuitive search function. And if you're looking to clear your cookies, you can do so with just one click, providing an efficient way to manage your cookies. Overall, managing cookies with our Cookie Editor is not only simple and straightforward, but also provides a wealth of options to ensure complete control over your online experience.\n\nTo edit your cookies, simply download the app and get started! We are confident that you will find the app easy to use and that it will meet all of your needs.\n\nPrivacy Policy: https://www.zamalabs.com/cookie-editor-privacy-policy\nTerms & Conditions: https://www.zamalabs.com/cookie-editor-terms-and-conditions\nCheck out our other apps by visiting: https://www.zamalabs.com/\nIf you want to reach us, feel free to send an email to scipio@zamalabs.com!"
+    },
+    "im:price": {
+      "label": "¥100",
+      "attributes": {
+        "amount": "100",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Zamalabs"
+    },
+    "title": {
+      "label": "Cookie Editor For Safari - Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id6446626905?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0d/c1/34/0dc13421-ceb3-0061-4b2f-6768bfc2263f/2d57df9a-7206-4442-ba2c-2b527e2335b6_12.9_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id6446626905?l=en&uo=2",
+      "attributes": {
+        "im:id": "6446626905",
+        "im:bundleId": "com.zamalabs.CookieEditorExtension"
+      }
+    },
+    "im:artist": {
+      "label": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/zamalabs-yaz%C4%B1l%C4%B1m-ve-bilgi-teknolojileri-limited-%C5%9Firketi/id1637867851?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-04-05T00:00:00-07:00",
+      "attributes": {
+        "label": "April 5, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 5,
+      "total": 99
+    },
+    "im:name": {
       "label": "Hexer — Hex File Viewer"
     },
     "im:image": [
@@ -208,7 +514,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -310,109 +616,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Cicero: A Unicode® Tool"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f0/25/a9/f025a921-407b-9af6-3a88-8f66dd474939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f0/25/a9/f025a921-407b-9af6-3a88-8f66dd474939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f0/25/a9/f025a921-407b-9af6-3a88-8f66dd474939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Cicero provides a few intuitive ways to access the Unicode® character data:\n\nBlock and Plane View\n- Browse through Unicode blocks and planes\n\nGrapheme View\n- Segregate user-perceived characters into code points\n\nCharacter View\n- Inspect detailed character properties\n\nSearch\n- Search characters with code point or Unicode name\n\n* Unicode is a registered trademark of Unicode, Inc. in the United States and other countries."
-    },
-    "im:price": {
-      "label": "¥400",
-      "attributes": {
-        "amount": "400",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Yan Li"
-    },
-    "title": {
-      "label": "Cicero: A Unicode® Tool - Yan Li"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/cicero-a-unicode-tool/id1372549464?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/01/6a/22/016a2221-8291-0720-0658-da7acc119b40/mzl.fxafbtqr.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/cicero-a-unicode-tool/id1372549464?l=en&uo=2",
-      "attributes": {
-        "im:id": "1372549464",
-        "im:bundleId": "com.codezerker.Cicero"
-      }
-    },
-    "im:artist": {
-      "label": "Yan Li",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/yan-li/id515206106?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-07-11T04:15:24-07:00",
-      "attributes": {
-        "label": "July 11, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -514,109 +718,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
-      "total": 99
-    },
-    "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "¥400",
-      "attributes": {
-        "amount": "400",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-08-25T09:56:35-07:00",
-      "attributes": {
-        "label": "August 25, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -718,7 +820,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -820,7 +922,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -922,7 +1024,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +1126,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1126,7 +1228,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1228,7 +1330,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1330,7 +1432,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1424,108 +1526,6 @@
       "label": "2017-06-06T20:59:38-07:00",
       "attributes": {
         "label": "June 6, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 15,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Programming Notebook LITE"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/78/cb/dd/78cbddf0-822c-a20a-9358-299404f6f7c1/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "FEATURES:\n- Includes Google Colab and Jupyter notebook\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- Easier web navigation through the in-app browsers.\n- Maximizes space available on screen for code editing/viewing"
-    },
-    "im:price": {
-      "label": "¥100",
-      "attributes": {
-        "amount": "100",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Ryan Rudes"
-    },
-    "title": {
-      "label": "Programming Notebook LITE - Ryan Rudes"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/programming-notebook-lite/id1519715994?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/5e/a8/a65ea89c-c448-2dbe-e1e4-6778938f1944/c0575338-274d-4651-adf6-4683a23a775d_iPad_Pro_12.9_U0022_2nd_Gen_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/programming-notebook-lite/id1519715994?l=en&uo=2",
-      "attributes": {
-        "im:id": "1519715994",
-        "im:bundleId": "com.appcoda.ryan-rudes"
-      }
-    },
-    "im:artist": {
-      "label": "Ryan Rudes",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/ryan-rudes/id1698870132?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-06-25T00:00:00-07:00",
-      "attributes": {
-        "label": "June 25, 2020"
       }
     }
   },
@@ -2252,6 +2252,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Cicero: A Unicode® Tool"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f0/25/a9/f025a921-407b-9af6-3a88-8f66dd474939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f0/25/a9/f025a921-407b-9af6-3a88-8f66dd474939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f0/25/a9/f025a921-407b-9af6-3a88-8f66dd474939/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Cicero provides a few intuitive ways to access the Unicode® character data:\n\nBlock and Plane View\n- Browse through Unicode blocks and planes\n\nGrapheme View\n- Segregate user-perceived characters into code points\n\nCharacter View\n- Inspect detailed character properties\n\nSearch\n- Search characters with code point or Unicode name\n\n* Unicode is a registered trademark of Unicode, Inc. in the United States and other countries."
+    },
+    "im:price": {
+      "label": "¥400",
+      "attributes": {
+        "amount": "400",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Yan Li"
+    },
+    "title": {
+      "label": "Cicero: A Unicode® Tool - Yan Li"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/cicero-a-unicode-tool/id1372549464?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/01/6a/22/016a2221-8291-0720-0658-da7acc119b40/mzl.fxafbtqr.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/cicero-a-unicode-tool/id1372549464?l=en&uo=2",
+      "attributes": {
+        "im:id": "1372549464",
+        "im:bundleId": "com.codezerker.Cicero"
+      }
+    },
+    "im:artist": {
+      "label": "Yan Li",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/yan-li/id515206106?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-07-11T04:15:24-07:00",
+      "attributes": {
+        "label": "July 11, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 24,
+      "total": 99
+    },
+    "im:name": {
       "label": "Adaptivity (A)"
     },
     "im:image": [
@@ -2350,7 +2452,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2452,7 +2554,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 26,
       "total": 99
     },
     "im:name": {
@@ -2554,7 +2656,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2656,7 +2758,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2758,7 +2860,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -2860,7 +2962,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -2962,7 +3064,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -3064,7 +3166,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3166,7 +3268,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 32,
+      "index": 33,
       "total": 99
     },
     "im:name": {
@@ -3268,7 +3370,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 34,
       "total": 99
     },
     "im:name": {
@@ -3370,7 +3472,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3472,7 +3574,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3574,7 +3676,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3676,7 +3778,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 37,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3778,7 +3880,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 38,
+      "index": 39,
       "total": 99
     },
     "im:name": {
@@ -3880,7 +3982,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 39,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -3982,7 +4084,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 40,
+      "index": 41,
       "total": 99
     },
     "im:name": {
@@ -4076,108 +4178,6 @@
       "label": "2020-03-29T00:00:00-07:00",
       "attributes": {
         "label": "March 29, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 41,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Cookie Editor For Safari"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "With our app, you can confidently examine and edit your cookies as you please. Cookie Editor equips you with the essential tools to edit the cookies on the current tab of your iOS, iPadOS, and MacOS devices, giving you complete control over your browsing experience.\n\nOur Cookie Editor provides you with the ability to thoroughly examine and edit the cookies of the current website in various ways. Not only can you create a new cookie manually, but you can also import text in JSON or Netscape format to make the process even easier. In addition, exporting cookies is made easy with the available options in JSON and Netscape format. If you're searching for a specific cookie, you can easily find it using the intuitive search function. And if you're looking to clear your cookies, you can do so with just one click, providing an efficient way to manage your cookies. Overall, managing cookies with our Cookie Editor is not only simple and straightforward, but also provides a wealth of options to ensure complete control over your online experience.\n\nTo edit your cookies, simply download the app and get started! We are confident that you will find the app easy to use and that it will meet all of your needs.\n\nPrivacy Policy: https://www.zamalabs.com/cookie-editor-privacy-policy\nTerms & Conditions: https://www.zamalabs.com/cookie-editor-terms-and-conditions\nCheck out our other apps by visiting: https://www.zamalabs.com/\nIf you want to reach us, feel free to send an email to scipio@zamalabs.com!"
-    },
-    "im:price": {
-      "label": "¥100",
-      "attributes": {
-        "amount": "100",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Zamalabs"
-    },
-    "title": {
-      "label": "Cookie Editor For Safari - Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id6446626905?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0d/c1/34/0dc13421-ceb3-0061-4b2f-6768bfc2263f/2d57df9a-7206-4442-ba2c-2b527e2335b6_12.9_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id6446626905?l=en&uo=2",
-      "attributes": {
-        "im:id": "6446626905",
-        "im:bundleId": "com.zamalabs.CookieEditorExtension"
-      }
-    },
-    "im:artist": {
-      "label": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/zamalabs-yaz%C4%B1l%C4%B1m-ve-bilgi-teknolojileri-limited-%C5%9Firketi/id1637867851?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-04-05T00:00:00-07:00",
-      "attributes": {
-        "label": "April 5, 2023"
       }
     }
   },
@@ -4394,108 +4394,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "C Code Develop"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f7/36/df/f736df5e-471b-5c8e-2118-2c43f7c2e544/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f7/36/df/f736df5e-471b-5c8e-2118-2c43f7c2e544/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f7/36/df/f736df5e-471b-5c8e-2118-2c43f7c2e544/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "-- Support code auto completion and automatic code formatting;\n-- Support debugger (breakpoints);\n-- Run Offline & Support File IO & Support interaction & Support multi-processing;\n-- Support Project References;\n\nA tiny C language development environment, support project management and header file reference, support code executing.\n\nFor Coding enthusiasts and Computer-Science students, some Data-Structure projects are included.\n\nYou can use the tiny environment provided to run your project locally, or you can export the project to your computer to compile and run the project. The tiny environment includes a small C standard library that supports commonly used header files and most standard C99 library functions, and C Code Develop provides a easy access header file ccd.h, also some C++ features like argument reference, iostream(cin and cout) are supported. For safety reasons, inline assembly and some other unsafe syntax are not supported.\n\n*1. Editor Support auto completion, auto format, long-press to document and other efficient features.\n*2. Terminal (stdin and stdout) is fully supported, and also you can open *.txt file in project use fopen(), because of the app now only support view and edit text file, you can't open file without .txt suffix or other suffix, or use binary (b) as open mode is not currently supported."
-    },
-    "im:price": {
-      "label": "¥100",
-      "attributes": {
-        "amount": "100",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "©2020 Xing Cheng"
-    },
-    "title": {
-      "label": "C Code Develop - 铖 邢"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0c/f1/c2/0cf1c26c-8ba2-ed92-b06d-f92ebda1a301/81c37035-57fb-4307-98e0-6bda3d77cd88_1._U65ad_U70b9_U8c03_U8bd5-en-129.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2",
-      "attributes": {
-        "im:id": "1503486606",
-        "im:bundleId": "org.forgetive.ccmp"
-      }
-    },
-    "im:artist": {
-      "label": "铖 邢",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/%E9%93%96-%E9%82%A2/id1497880786?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-06T00:00:00-07:00",
-      "attributes": {
-        "label": "January 6, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 45,
-      "total": 99
-    },
-    "im:name": {
       "label": "Logger for Shortcuts"
     },
     "im:image": [
@@ -4594,7 +4492,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 46,
+      "index": 45,
       "total": 99
     },
     "im:name": {
@@ -4696,7 +4594,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 47,
+      "index": 46,
       "total": 99
     },
     "im:name": {
@@ -4798,7 +4696,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 48,
+      "index": 47,
       "total": 99
     },
     "im:name": {
@@ -4900,34 +4798,34 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 49,
+      "index": 48,
       "total": 99
     },
     "im:name": {
-      "label": "Code Develop IDE"
+      "label": "C Code Develop"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/5e/6a/ac/5e6aac7d-e255-433c-bf25-35d75179a705/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f7/36/df/f736df5e-471b-5c8e-2118-2c43f7c2e544/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/5e/6a/ac/5e6aac7d-e255-433c-bf25-35d75179a705/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f7/36/df/f736df5e-471b-5c8e-2118-2c43f7c2e544/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/5e/6a/ac/5e6aac7d-e255-433c-bf25-35d75179a705/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f7/36/df/f736df5e-471b-5c8e-2118-2c43f7c2e544/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "-- Support code auto completion;\n-- Compile, Run Offline C++ (with STL support) Python, and terminal support;\n-- Support multiply window and split screen (For iPad);\n\nAn IDE for iPad, iPhone devices. Use apple clang compiler to build and run your C/C++ code offline on your device. Also support many language edit, for other language this is a useful auto completion notepad.\n\nSupport Languages:\nEdit and run: C C++ Python CDBuild(Build System Script) HTML(JavaScript+CSS)\nEdit only: CSharp Swift Objective-C Objective-C++ Java"
+      "label": "-- Support code auto completion and automatic code formatting;\n-- Support debugger (breakpoints);\n-- Run Offline & Support File IO & Support interaction & Support multi-processing;\n-- Support Project References;\n\nA tiny C language development environment, support project management and header file reference, support code executing.\n\nFor Coding enthusiasts and Computer-Science students, some Data-Structure projects are included.\n\nYou can use the tiny environment provided to run your project locally, or you can export the project to your computer to compile and run the project. The tiny environment includes a small C standard library that supports commonly used header files and most standard C99 library functions, and C Code Develop provides a easy access header file ccd.h, also some C++ features like argument reference, iostream(cin and cout) are supported. For safety reasons, inline assembly and some other unsafe syntax are not supported.\n\n*1. Editor Support auto completion, auto format, long-press to document and other efficient features.\n*2. Terminal (stdin and stdout) is fully supported, and also you can open *.txt file in project use fopen(), because of the app now only support view and edit text file, you can't open file without .txt suffix or other suffix, or use binary (b) as open mode is not currently supported."
     },
     "im:price": {
       "label": "¥100",
@@ -4946,14 +4844,14 @@
       "label": "©2020 Xing Cheng"
     },
     "title": {
-      "label": "Code Develop IDE - 铖 邢"
+      "label": "C Code Develop - 铖 邢"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/code-develop-ide/id1564857036?l=en&uo=2"
+          "href": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2"
         }
       },
       {
@@ -4964,16 +4862,16 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/22/c2/ce/22c2cef2-6869-33b1-1244-19b330cd5da4/7c3925d1-28e9-4219-a307-75aa1f38256e_Theme2-en.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0c/f1/c2/0cf1c26c-8ba2-ed92-b06d-f92ebda1a301/81c37035-57fb-4307-98e0-6bda3d77cd88_1._U65ad_U70b9_U8c03_U8bd5-en-129.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/jp/app/code-develop-ide/id1564857036?l=en&uo=2",
+      "label": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2",
       "attributes": {
-        "im:id": "1564857036",
-        "im:bundleId": "org.forgetive.cd"
+        "im:id": "1503486606",
+        "im:bundleId": "org.forgetive.ccmp"
       }
     },
     "im:artist": {
@@ -4991,9 +4889,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-08-16T00:00:00-07:00",
+      "label": "2021-01-06T00:00:00-07:00",
       "attributes": {
-        "label": "August 16, 2021"
+        "label": "January 6, 2021"
       }
     }
   },
@@ -5002,7 +4900,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 50,
+      "index": 49,
       "total": 99
     },
     "im:name": {
@@ -5101,7 +4999,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 51,
+      "index": 50,
       "total": 99
     },
     "im:name": {
@@ -5203,39 +5101,39 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 52,
+      "index": 51,
       "total": 99
     },
     "im:name": {
-      "label": "Tide IDE"
+      "label": "Code Develop IDE"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/4f/ca/174fca53-445e-d370-5c5c-96544ea46ec2/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/5e/6a/ac/5e6aac7d-e255-433c-bf25-35d75179a705/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/4f/ca/174fca53-445e-d370-5c5c-96544ea46ec2/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/5e/6a/ac/5e6aac7d-e255-433c-bf25-35d75179a705/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/4f/ca/174fca53-445e-d370-5c5c-96544ea46ec2/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/5e/6a/ac/5e6aac7d-e255-433c-bf25-35d75179a705/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Develop and build WebAssembly code directly on your favorite tablet device!\nWelcome to Tide, the touch-friendly IDE for WebAssembly development.\n\nCommon Features:\n- On-device compilation & execution of WebAssembly\n- Supports C, C++23 & Python 3.11\n- Import projects from third-party software like Working Copy\n- Project-wide Find & Replace\n- Syntax highlighting\n\nFor C/C++:\n- Debugging with breakpoints & single-stepping, call stack and stack frame information\n- Format your code based on popular styling\n- Autocomplete your variables & functions/methods\n- Project management (using a subset of QMake)\n- Optional WASI threading and socket support\n- Easily release your WebAssembly builds\n\nCopyright notices\n- LLVM: Apache 2.0 License with LLVM exceptions\n- WAMR: Apache 2.0\n- Wasi SDK: Apache 2.0\n- libqmakeparser: BSD 3-Clause License\n- no_system: BSD 3-Clause License\n- Tide icon: Parmjot Singh"
+      "label": "-- Support code auto completion;\n-- Compile, Run Offline C++ (with STL support) Python, and terminal support;\n-- Support multiply window and split screen (For iPad);\n\nAn IDE for iPad, iPhone devices. Use apple clang compiler to build and run your C/C++ code offline on your device. Also support many language edit, for other language this is a useful auto completion notepad.\n\nSupport Languages:\nEdit and run: C C++ Python CDBuild(Build System Script) HTML(JavaScript+CSS)\nEdit only: CSharp Swift Objective-C Objective-C++ Java"
     },
     "im:price": {
-      "label": "¥700",
+      "label": "¥100",
       "attributes": {
-        "amount": "700",
+        "amount": "100",
         "currency": "JPY"
       }
     },
@@ -5246,17 +5144,17 @@
       }
     },
     "rights": {
-      "label": "© 2023 Alfred Neumayer"
+      "label": "©2020 Xing Cheng"
     },
     "title": {
-      "label": "Tide IDE - Alfred Neumayer"
+      "label": "Code Develop IDE - 铖 邢"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/tide-ide/id6450320573?l=en&uo=2"
+          "href": "https://apps.apple.com/jp/app/code-develop-ide/id1564857036?l=en&uo=2"
         }
       },
       {
@@ -5267,22 +5165,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ce/04/9f/ce049fb4-b6fd-449c-f727-d1be9ce3bd78/29972e7d-1e65-4e66-a293-e70a4ab307ff_IMG_0184.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/22/c2/ce/22c2cef2-6869-33b1-1244-19b330cd5da4/7c3925d1-28e9-4219-a307-75aa1f38256e_Theme2-en.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/jp/app/tide-ide/id6450320573?l=en&uo=2",
+      "label": "https://apps.apple.com/jp/app/code-develop-ide/id1564857036?l=en&uo=2",
       "attributes": {
-        "im:id": "6450320573",
-        "im:bundleId": "me.fredl.tide"
+        "im:id": "1564857036",
+        "im:bundleId": "org.forgetive.cd"
       }
     },
     "im:artist": {
-      "label": "Alfred Neumayer",
+      "label": "铖 邢",
       "attributes": {
-        "href": "https://apps.apple.com/jp/developer/alfred-neumayer/id1692833095?l=en&uo=2"
+        "href": "https://apps.apple.com/jp/developer/%E9%93%96-%E9%82%A2/id1497880786?l=en&uo=2"
       }
     },
     "category": {
@@ -5294,9 +5192,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2023-06-22T00:00:00-07:00",
+      "label": "2021-08-16T00:00:00-07:00",
       "attributes": {
-        "label": "June 22, 2023"
+        "label": "August 16, 2021"
       }
     }
   },
@@ -5305,7 +5203,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 53,
+      "index": 52,
       "total": 99
     },
     "im:name": {
@@ -5407,7 +5305,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 54,
+      "index": 53,
       "total": 99
     },
     "im:name": {
@@ -5509,7 +5407,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 55,
+      "index": 54,
       "total": 99
     },
     "im:name": {
@@ -5611,7 +5509,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 56,
+      "index": 55,
       "total": 99
     },
     "im:name": {
@@ -5705,6 +5603,108 @@
       "label": "2018-07-27T17:24:24-07:00",
       "attributes": {
         "label": "July 27, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 56,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Tide IDE"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/4f/ca/174fca53-445e-d370-5c5c-96544ea46ec2/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/4f/ca/174fca53-445e-d370-5c5c-96544ea46ec2/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/17/4f/ca/174fca53-445e-d370-5c5c-96544ea46ec2/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Develop and build WebAssembly code directly on your favorite tablet device!\nWelcome to Tide, the touch-friendly IDE for WebAssembly development.\n\nCommon Features:\n- On-device compilation & execution of WebAssembly\n- Supports C, C++23 & Python 3.11\n- Import projects from third-party software like Working Copy\n- Project-wide Find & Replace\n- Syntax highlighting\n\nFor C/C++:\n- Debugging with breakpoints & single-stepping, call stack and stack frame information\n- Format your code based on popular styling\n- Autocomplete your variables & functions/methods\n- Project management (using a subset of QMake)\n- Optional WASI threading and socket support\n- Easily release your WebAssembly builds\n\nCopyright notices\n- LLVM: Apache 2.0 License with LLVM exceptions\n- WAMR: Apache 2.0\n- Wasi SDK: Apache 2.0\n- libqmakeparser: BSD 3-Clause License\n- no_system: BSD 3-Clause License\n- Tide icon: Parmjot Singh"
+    },
+    "im:price": {
+      "label": "¥700",
+      "attributes": {
+        "amount": "700",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Alfred Neumayer"
+    },
+    "title": {
+      "label": "Tide IDE - Alfred Neumayer"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/tide-ide/id6450320573?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ce/04/9f/ce049fb4-b6fd-449c-f727-d1be9ce3bd78/29972e7d-1e65-4e66-a293-e70a4ab307ff_IMG_0184.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/tide-ide/id6450320573?l=en&uo=2",
+      "attributes": {
+        "im:id": "6450320573",
+        "im:bundleId": "me.fredl.tide"
+      }
+    },
+    "im:artist": {
+      "label": "Alfred Neumayer",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/alfred-neumayer/id1692833095?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-06-22T00:00:00-07:00",
+      "attributes": {
+        "label": "June 22, 2023"
       }
     }
   },

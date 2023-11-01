@@ -8,6 +8,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/it/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/it/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/it/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "it",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
       "label": "Programming Notebook LITE"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -412,7 +514,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -616,7 +718,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -710,108 +812,6 @@
       "label": "2017-06-06T20:59:38-07:00",
       "attributes": {
         "label": "June 6, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "it",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 8,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Juno: Jupyter/Python IDE"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/54/e3/c2/54e3c23a-47fa-70e3-c09d-4a01670158cf/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/54/e3/c2/54e3c23a-47fa-70e3-c09d-4a01670158cf/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/54/e3/c2/54e3c23a-47fa-70e3-c09d-4a01670158cf/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Zero-setup Jupyter and Python environment in a first-class citizen app for iPad and iPhone.\n\nJuno is a Python IDE designed to work seamlessly with Jupyter notebooks — a document format focused on applying Python to data analysis and computational science. Notebooks serve as excellent Python coding playgrounds for data manipulation and experimentation, and Juno makes working with them a breeze!\n\nWith Juno, you can:\n\n• Start coding right away with our zero-setup and user-friendly Jupyter/Python IDE\n• Utilize Jupyter notebooks as programming and data science playgrounds\n• Leverage powerful data analysis and machine learning tools: NumPy, Matplotlib, SciPy, Scikit-learn, Pandas, LXML, and more\n• Execute Python code directly on your iPhone or iPad in a first-class native app, entirely offline\n• Effortlessly install pure Python packages with an intuitive package manager\n• Take full advantage of your keyboard and trackpad in our full-featured code editor\n• Embrace full multitasking and multi-window capabilities on iPad\n\nWHAT ARE JUPYTER NOTEBOOKS?\n\nA Jupyter notebook is a versatile document format that enables you to store live code, markdown text, plots, images, and LaTeX equations — all within a single notebook file. This versatility makes Jupyter notebooks an exceptional learning tool, whether you're learning to code or honing your data analysis skills.\n\nNotebook documents keep a record of all inputs and outputs from an interactive programming session, and the rich output generated by running Python scripts (including HTML, images, video, and plots) is embedded within the Jupyter notebook document. They are particularly convenient for coding in Python for data analysis, machine learning, or computational science in general.\n\nA notebook comprises a sequence of cells, each representing either narrative text in markdown or HTML format, or a coding script with text or media output. This structure makes notebooks both human-readable documents containing analysis descriptions and results (figures, tables, etc.), as well as executable scripts for data analysis or general programming. You can use a Jupyter notebook as a document with optional executable code, or simply as a programming playground for data manipulation and experimentation.\n\nWHO IS JUNO FOR?\n\nJuno provides an exceptional programming environment for those using (or learning to use) Python for data analysis, machine learning, or computational science. Jupyter notebooks serve as an excellent educational tool for learning Python or practicing coding, especially in the context of data science. This makes Juno a perfect learning companion and a powerful developer tool for honing your programming and data analysis skills."
-    },
-    "im:price": {
-      "label": "19,99 €",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Rational Matter Ltd"
-    },
-    "title": {
-      "label": "Juno: Jupyter/Python IDE - Rational Matter"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/it/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9f/5f/02/9f5f02db-e894-d177-b5de-3d2b31996116/093f7443-5241-43c5-bdab-f03012a6a4c4_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/it/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2",
-      "attributes": {
-        "im:id": "1462586500",
-        "im:bundleId": "com.rationalmatter.junoapp"
-      }
-    },
-    "im:artist": {
-      "label": "Rational Matter",
-      "attributes": {
-        "href": "https://apps.apple.com/it/developer/rational-matter/id1315744136?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-09-26T00:00:00-07:00",
-      "attributes": {
-        "label": "September 26, 2019"
       }
     }
   },
@@ -926,6 +926,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Juno: Jupyter/Python IDE"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/54/e3/c2/54e3c23a-47fa-70e3-c09d-4a01670158cf/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/54/e3/c2/54e3c23a-47fa-70e3-c09d-4a01670158cf/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/54/e3/c2/54e3c23a-47fa-70e3-c09d-4a01670158cf/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Zero-setup Jupyter and Python environment in a first-class citizen app for iPad and iPhone.\n\nJuno is a Python IDE designed to work seamlessly with Jupyter notebooks — a document format focused on applying Python to data analysis and computational science. Notebooks serve as excellent Python coding playgrounds for data manipulation and experimentation, and Juno makes working with them a breeze!\n\nWith Juno, you can:\n\n• Start coding right away with our zero-setup and user-friendly Jupyter/Python IDE\n• Utilize Jupyter notebooks as programming and data science playgrounds\n• Leverage powerful data analysis and machine learning tools: NumPy, Matplotlib, SciPy, Scikit-learn, Pandas, LXML, and more\n• Execute Python code directly on your iPhone or iPad in a first-class native app, entirely offline\n• Effortlessly install pure Python packages with an intuitive package manager\n• Take full advantage of your keyboard and trackpad in our full-featured code editor\n• Embrace full multitasking and multi-window capabilities on iPad\n\nWHAT ARE JUPYTER NOTEBOOKS?\n\nA Jupyter notebook is a versatile document format that enables you to store live code, markdown text, plots, images, and LaTeX equations — all within a single notebook file. This versatility makes Jupyter notebooks an exceptional learning tool, whether you're learning to code or honing your data analysis skills.\n\nNotebook documents keep a record of all inputs and outputs from an interactive programming session, and the rich output generated by running Python scripts (including HTML, images, video, and plots) is embedded within the Jupyter notebook document. They are particularly convenient for coding in Python for data analysis, machine learning, or computational science in general.\n\nA notebook comprises a sequence of cells, each representing either narrative text in markdown or HTML format, or a coding script with text or media output. This structure makes notebooks both human-readable documents containing analysis descriptions and results (figures, tables, etc.), as well as executable scripts for data analysis or general programming. You can use a Jupyter notebook as a document with optional executable code, or simply as a programming playground for data manipulation and experimentation.\n\nWHO IS JUNO FOR?\n\nJuno provides an exceptional programming environment for those using (or learning to use) Python for data analysis, machine learning, or computational science. Jupyter notebooks serve as an excellent educational tool for learning Python or practicing coding, especially in the context of data science. This makes Juno a perfect learning companion and a powerful developer tool for honing your programming and data analysis skills."
+    },
+    "im:price": {
+      "label": "19,99 €",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Rational Matter Ltd"
+    },
+    "title": {
+      "label": "Juno: Jupyter/Python IDE - Rational Matter"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/it/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9f/5f/02/9f5f02db-e894-d177-b5de-3d2b31996116/093f7443-5241-43c5-bdab-f03012a6a4c4_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/it/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2",
+      "attributes": {
+        "im:id": "1462586500",
+        "im:bundleId": "com.rationalmatter.junoapp"
+      }
+    },
+    "im:artist": {
+      "label": "Rational Matter",
+      "attributes": {
+        "href": "https://apps.apple.com/it/developer/rational-matter/id1315744136?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-09-26T00:00:00-07:00",
+      "attributes": {
+        "label": "September 26, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "it",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 11,
+      "total": 99
+    },
+    "im:name": {
       "label": "DraftCode Offline PHP IDE"
     },
     "im:image": [
@@ -1024,7 +1126,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1126,7 +1228,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1220,108 +1322,6 @@
       "label": "2020-05-28T00:00:00-07:00",
       "attributes": {
         "label": "May 28, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "it",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 13,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Kuber - Kubernetes Dashboard"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Kuber helps you manage Kubernetes clusters easily via your mobile device, making it possible to view the status of clusters and quickly fix issues from the comfort of your couch.\n\nKuber has many features (and there are more to come!):\n1. View the status of almost any resources. e.g. Pods, Deployments, PVs, Jobs, CronJobs, Nodes, Config Maps, Docker containers and so on.\n2. Scale deployments (Replica sets/Replication controllers) to accommodate short-term spikes in traffic.\n3. Inspect logs of any containers in realtime!\n4. Integrate with bash shell to exec commands inside the containers.\n4. Edit labels & Annotations via the lovely interface.\n5. View / Update almost any resources via YAML.\n6. Support managing multiple clusters.\n7. Invoke shell commands inside the container.\n8. View top nodes & pods (requires metrics server).\n9. Supported authentication methods: Certificate, Credentials, Token, AWS IAM Authenticator (EKS), Google Cloud Platform (GCP), and DigitalOcean.\n10. Support Face ID / Touch ID.\n11. Support dark mode.\n\nKuber works with Kubernetes >= 1.9 currently. Please talk to us if you want more features!"
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019-2021 Zihua Li"
-    },
-    "title": {
-      "label": "Kuber - Kubernetes Dashboard - Surge Networks Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/it/app/kuber-kubernetes-dashboard/id1461666739?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/ad/99/24/ad992443-661b-d232-b2a7-404aa1151212/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/it/app/kuber-kubernetes-dashboard/id1461666739?l=en&uo=2",
-      "attributes": {
-        "im:id": "1461666739",
-        "im:bundleId": "li.zihua.kuber"
-      }
-    },
-    "im:artist": {
-      "label": "Surge Networks Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/it/developer/surge-networks-inc/id1442620677?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-05-03T19:43:56-07:00",
-      "attributes": {
-        "label": "May 3, 2019"
       }
     }
   },
@@ -1538,6 +1538,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Kuber - Kubernetes Dashboard"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/1d/9a/e8/1d9ae8c0-b7ec-7912-26d2-4144517eb5d2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Kuber helps you manage Kubernetes clusters easily via your mobile device, making it possible to view the status of clusters and quickly fix issues from the comfort of your couch.\n\nKuber has many features (and there are more to come!):\n1. View the status of almost any resources. e.g. Pods, Deployments, PVs, Jobs, CronJobs, Nodes, Config Maps, Docker containers and so on.\n2. Scale deployments (Replica sets/Replication controllers) to accommodate short-term spikes in traffic.\n3. Inspect logs of any containers in realtime!\n4. Integrate with bash shell to exec commands inside the containers.\n4. Edit labels & Annotations via the lovely interface.\n5. View / Update almost any resources via YAML.\n6. Support managing multiple clusters.\n7. Invoke shell commands inside the container.\n8. View top nodes & pods (requires metrics server).\n9. Supported authentication methods: Certificate, Credentials, Token, AWS IAM Authenticator (EKS), Google Cloud Platform (GCP), and DigitalOcean.\n10. Support Face ID / Touch ID.\n11. Support dark mode.\n\nKuber works with Kubernetes >= 1.9 currently. Please talk to us if you want more features!"
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019-2021 Zihua Li"
+    },
+    "title": {
+      "label": "Kuber - Kubernetes Dashboard - Surge Networks Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/it/app/kuber-kubernetes-dashboard/id1461666739?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/ad/99/24/ad992443-661b-d232-b2a7-404aa1151212/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/it/app/kuber-kubernetes-dashboard/id1461666739?l=en&uo=2",
+      "attributes": {
+        "im:id": "1461666739",
+        "im:bundleId": "li.zihua.kuber"
+      }
+    },
+    "im:artist": {
+      "label": "Surge Networks Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/it/developer/surge-networks-inc/id1442620677?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-05-03T19:43:56-07:00",
+      "attributes": {
+        "label": "May 3, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "it",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 17,
+      "total": 99
+    },
+    "im:name": {
       "label": "OpenTerm"
     },
     "im:image": [
@@ -1636,7 +1738,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +1840,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -1840,7 +1942,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +2044,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -2044,7 +2146,7 @@
       "country_code": "it",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2138,108 +2240,6 @@
       "label": "2009-08-15T00:00:00-07:00",
       "attributes": {
         "label": "August 15, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "it",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 22,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Zeitgeist"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/90/4b/4b/904b4b19-c1c1-7392-0ad0-bc1ee666ce20/AppIcon-0-1x_U007epad-0-0-0-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/90/4b/4b/904b4b19-c1c1-7392-0ad0-bc1ee666ce20/AppIcon-0-1x_U007epad-0-0-0-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/90/4b/4b/904b4b19-c1c1-7392-0ad0-bc1ee666ce20/AppIcon-0-1x_U007epad-0-0-0-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Daniel Eden"
-    },
-    "title": {
-      "label": "Zeitgeist - Dan Eden"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/it/app/zeitgeist/id1526052028?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7b/01/9d/7b019d57-2a29-eb5f-e70f-f3c19d02cace/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/it/app/zeitgeist/id1526052028?l=en&uo=2",
-      "attributes": {
-        "im:id": "1526052028",
-        "im:bundleId": "me.daneden.Zeitgeist"
-      }
-    },
-    "im:artist": {
-      "label": "Dan Eden",
-      "attributes": {
-        "href": "https://apps.apple.com/it/developer/dan-eden/id508167369?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/it/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-02T00:00:00-07:00",
-      "attributes": {
-        "label": "December 2, 2020"
       }
     }
   },
@@ -2354,35 +2354,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "Docker Management"
+      "label": "Zeitgeist"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/90/4b/4b/904b4b19-c1c1-7392-0ad0-bc1ee666ce20/AppIcon-0-1x_U007epad-0-0-0-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/90/4b/4b/904b4b19-c1c1-7392-0ad0-bc1ee666ce20/AppIcon-0-1x_U007epad-0-0-0-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/90/4b/4b/904b4b19-c1c1-7392-0ad0-bc1ee666ce20/AppIcon-0-1x_U007epad-0-0-0-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
     },
     "im:price": {
-      "label": "5,99 €",
+      "label": "1,99 €",
       "attributes": {
-        "amount": "5.99",
+        "amount": "1.99",
         "currency": "EUR"
       }
     },
@@ -2393,17 +2393,17 @@
       }
     },
     "rights": {
-      "label": "© nevishs"
+      "label": "© Daniel Eden"
     },
     "title": {
-      "label": "Docker Management - Nevis Shkenza"
+      "label": "Zeitgeist - Dan Eden"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/it/app/docker-management/id1527656144?l=en&uo=2"
+          "href": "https://apps.apple.com/it/app/zeitgeist/id1526052028?l=en&uo=2"
         }
       },
       {
@@ -2414,22 +2414,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7b/01/9d/7b019d57-2a29-eb5f-e70f-f3c19d02cace/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/it/app/docker-management/id1527656144?l=en&uo=2",
+      "label": "https://apps.apple.com/it/app/zeitgeist/id1526052028?l=en&uo=2",
       "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
+        "im:id": "1526052028",
+        "im:bundleId": "me.daneden.Zeitgeist"
       }
     },
     "im:artist": {
-      "label": "Nevis Shkenza",
+      "label": "Dan Eden",
       "attributes": {
-        "href": "https://apps.apple.com/it/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+        "href": "https://apps.apple.com/it/developer/dan-eden/id508167369?l=en&uo=2"
       }
     },
     "category": {
@@ -2441,9 +2441,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
+      "label": "2020-12-02T00:00:00-07:00",
       "attributes": {
-        "label": "August 14, 2020"
+        "label": "December 2, 2020"
       }
     }
   },
@@ -4516,9 +4516,9 @@
       "label": "Welcome to a powerful tool for analyzing and viewing HTML, XML, JavaScript, CSS, JSON, RSS, and ATOM code. Our application provides you with all the necessary tools to work with code conveniently and increase your productivity.\n\nIn our application, you will find the following fantastic features:\n\n• Support for Three Types of Devices: Now you can work with the application on iPhone, iPad, and Mac, enjoying an optimal user experience on each of them.\n• Intuitive Code Viewing: Easily browse and analyze formatted HTML, XML, JSON, RSS, and ATOM code in both structured and plain text formats, making code interaction more convenient.\n• Error Tracking: Our application will help you detect errors in the structure of HTML, XML, JSON, RSS, and ATOM code.\n• Built-in Simulator: Effortlessly view web pages in the embedded simulator. You have access to templates of different screen sizes for devices and the ability to create custom device simulators with individual screen sizes.\n• Terminal Testing: Conduct web page testing using the terminal to input JavaScript code and get instant results.\n• Search: Use the text search or apply regular expressions to quickly find specific locations in the code or content within the simulator.\n• View Connected Styles: Learn which styles are applied to the selected element of the web page by viewing them in the code or simulator.\n• Image Handling: View all known image formats added to the web page or CSS file.\n• Request Management: Create unique requests with input support for Method, Headers, Cookies, and Body. Also, view, edit, or re-execute previously made requests.\n• Built-in Code Beautifier: Beautify the source code and easily format it using the built-in Code Beautifier tool.\n• Detailed Request Inspection: Examine Header and Cookie values from the request response for additional analysis and debugging.\n• Request Execution Time Viewing: Obtain information about the time spent executing the request for performance optimization.\n• Copy to Clipboard: Copy the entire code, individual sections, or formatted code from all child elements of the selected code structure element to the clipboard.\n• Copying Information from Application Panels: Easily copy any displayed information contained in the application panels for convenient data exchange.\n• Disk File Opening: Easily open files saved on your disk directly in the application for viewing formatted code.\n• Friendly Support and Updates: We value your comments and feedback, which will help us improve. Write about what you would like to see in new releases, and we will definitely take your wishes into account!\n\nThank you for choosing our application. We are confident it will become an indispensable assistant in your code work."
     },
     "im:price": {
-      "label": "14,99 €",
+      "label": "8,99 €",
       "attributes": {
-        "amount": "14.99",
+        "amount": "8.99",
         "currency": "EUR"
       }
     },
@@ -9483,19 +9483,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/05/0d/6c050db6-bee8-681f-623c-268a919be00b/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/55/e1/2355e1c7-d578-8104-3a1d-9da8d6737805/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/05/0d/6c050db6-bee8-681f-623c-268a919be00b/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/55/e1/2355e1c7-d578-8104-3a1d-9da8d6737805/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/05/0d/6c050db6-bee8-681f-623c-268a919be00b/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/55/e1/2355e1c7-d578-8104-3a1d-9da8d6737805/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -9539,7 +9539,7 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/49/88/97/498897a6-281d-96ed-b42b-8e474861dcc8/31db8314-af3e-47f0-931e-aee8756c812f_page-0.jpg/1024x1024bb.jpg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/f4/5f/24f45ff1-e3e0-6b6a-4e4e-435c76b5eb41/31db8314-af3e-47f0-931e-aee8756c812f_page-0.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }

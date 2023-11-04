@@ -5,7 +5,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 1,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "VSCoW - Code Wrapper"
@@ -107,109 +107,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 2,
-      "total": 86
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "129,00 Kč",
-      "attributes": {
-        "amount": "129.00",
-        "currency": "CZK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cz/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cz/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/cz/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/cz/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cz",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Textastic Code Editor"
@@ -310,8 +208,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
-      "total": 86
+      "index": 3,
+      "total": 85
     },
     "im:name": {
       "label": "Code App"
@@ -412,8 +310,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
-      "total": 86
+      "index": 4,
+      "total": 85
     },
     "im:name": {
       "label": "Buffer Editor - Code Editor"
@@ -514,8 +412,110 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
+      "index": 5,
+      "total": 85
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "129,00 Kč",
+      "attributes": {
+        "amount": "129.00",
+        "currency": "CZK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/cz/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/cz/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/cz/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/cz/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "cz",
+      "pricing": "paid",
+      "genre": "developer_tools",
       "index": 6,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Smart NFC"
@@ -617,7 +617,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 7,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Inspect Browser"
@@ -719,7 +719,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 8,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Adaptivity (A)"
@@ -821,7 +821,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 9,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Kuber - Kubernetes Dashboard"
@@ -923,7 +923,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 10,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Juno: Jupyter/Python IDE"
@@ -1025,7 +1025,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 11,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Continuous .NET C# and F# IDE"
@@ -1127,7 +1127,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 12,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Source 3"
@@ -1229,7 +1229,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 13,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "DraftCode Offline PHP IDE"
@@ -1331,7 +1331,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 14,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "OpenTerm"
@@ -1433,7 +1433,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 15,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "ESP32 BLE Terminal"
@@ -1535,7 +1535,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 16,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Zeitgeist"
@@ -1637,7 +1637,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 17,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Netdata server monitoring"
@@ -1739,7 +1739,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 18,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "MongoLime - manage databases"
@@ -1841,7 +1841,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 19,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "PasteMe - Pastebin Client"
@@ -1943,7 +1943,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 20,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "UCoW - Ultimate Code Wrapper"
@@ -2045,7 +2045,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 21,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "San Fransymbols"
@@ -2147,7 +2147,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 22,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "php$ - programming language"
@@ -2249,7 +2249,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 23,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "LadderTouch"
@@ -2351,7 +2351,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 24,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Lighthouse Score"
@@ -2453,7 +2453,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 25,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "DashTabs: Firebase, AdMob …"
@@ -2555,7 +2555,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 26,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Wireshark Helper - Decrypt TLS"
@@ -2657,7 +2657,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 27,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "BetterAppIcons"
@@ -2759,7 +2759,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 28,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Learn SQL for MySQL"
@@ -2861,7 +2861,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 29,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Haptics - Feedback Generator"
@@ -2963,7 +2963,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 30,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Hexer — Hex File Viewer"
@@ -3065,7 +3065,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 31,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "PPHub For GitHub - Developer"
@@ -3167,7 +3167,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 32,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "AirTerminal - BLE Terminal"
@@ -3269,7 +3269,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 33,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "RegEx Lab: Regular Expressions"
@@ -3371,7 +3371,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 34,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Analytics for Cloudflare®"
@@ -3473,7 +3473,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 35,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Logger for Shortcuts"
@@ -3575,7 +3575,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 36,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Text Editor - Document Editor"
@@ -3677,7 +3677,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 37,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Programming Notebook PRO"
@@ -3779,7 +3779,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 38,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Code - Compile & Run Program"
@@ -3881,7 +3881,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 39,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Mango 5Star"
@@ -3983,7 +3983,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 40,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "MQTT Terminal Pro"
@@ -4085,7 +4085,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 41,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "TCP  UDP Debugger"
@@ -4187,7 +4187,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 42,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "View Source Premier"
@@ -4289,7 +4289,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 43,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "My Lisp"
@@ -4391,109 +4391,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 44,
-      "total": 86
-    },
-    "im:name": {
-      "label": "Developer Colour Palette"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/73/d7/5e/73d75e25-0cee-6da8-239a-ca187de2c681/AppIcon-0-1x_U007epad-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/73/d7/5e/73d75e25-0cee-6da8-239a-ca187de2c681/AppIcon-0-1x_U007epad-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/73/d7/5e/73d75e25-0cee-6da8-239a-ca187de2c681/AppIcon-0-1x_U007epad-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Developer Colour Palette helps you to choose, convert, organise and share the colours that you use for the projects that you are working on.\nChoose a colour using the built in colour picker, or enter the colour values to see them converted to HEX, RGB and Swift code. You can then copy the colour codes with a single tap to use in your projects. The app automatically shows your recently used colours for reuse and allows you to add frequently used colours to your favourites.\n\nYou can organise your colours further, by grouping them in to different palettes for each project or brand that you are working with, name the colours to describe what part of the project they are being used for and write notes on each palette and colour. The palettes you create and colours you add will be automatically synced to the cloud and accessible on all of your Apple devices.\nYou can also share these palettes with other members of your design team or with a client, so that you are all working from the same colour palette. Invite others to your palette and set permissions for each person you invite, granting or denying them read, add, edit or remove access. You can also see any palettes that you have been sent within the app and choose to accept or deny the invitation, to add the palette to your shared list. The palettes you create and the palettes that are shared with you are automatically grouped and separated.\n\nImport an image, client’s logo or style guide file from your photo library, files or camera and use the magnified colour picker to choose a specific colour from the image. The app will automatically scan the image using AI and detect the dominant colours within the image. Once it has extracted the colours, you can create a new palette containing these colours with a single tap.\n\nIf you need a little help with inspiration or to find the right colour for your project, you can use the AI Assistant tool to generate a palette or get the colour of an object. Enter a phrase such as “The sea” to see various shades of blue, “Giraffe” to see the colours of a giraffe or “New York Taxi” to be shown the colour code of the New York Taxi yellow. Once the assistant has detected the colours, you can then create a palette with these colours and it is automatically named from your search phrase.\n\n\n\n*Subscription required for some features described above, including cloud palettes, sharing features and AI features - Monthly usage limits apply to AI features.\n\n- Subscription Details -\n\nDeveloper Colour Palette requires a monthly subscription after your 14 day free trial.\nYour subscription can be cancelled at any time. No long term commitment required.\n\nSubscriptions will be charged to your iTunes account at confirmation of purchase. Your subscription will automatically renew unless automatic renewal is turned off at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage your subscriptions and automatic renewal status in Account Settings after purchase. Price may vary by location.\n\nPrivacy Policy: https://smudge.app/privacy\nTerms and Conditions: https://smudge.app/app-terms"
-    },
-    "im:price": {
-      "label": "9,00 Kč",
-      "attributes": {
-        "amount": "9.00",
-        "currency": "CZK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Thomas Coomer"
-    },
-    "title": {
-      "label": "Developer Colour Palette - Thomas Coomer"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/cz/app/developer-colour-palette/id6447426581?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/1d/95/e5/1d95e510-41a7-0ee9-68d8-d4c1e773b288/338b285e-362b-4645-8128-9753c6717c34_pad_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/cz/app/developer-colour-palette/id6447426581?uo=2",
-      "attributes": {
-        "im:id": "6447426581",
-        "im:bundleId": "app.smudge.Colour-Picker"
-      }
-    },
-    "im:artist": {
-      "label": "Thomas Coomer",
-      "attributes": {
-        "href": "https://apps.apple.com/cz/developer/thomas-coomer/id1006451481?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/cz/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-04-21T00:00:00-07:00",
-      "attributes": {
-        "label": "April 21, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "cz",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 45,
-      "total": 86
+      "total": 85
     },
     "im:name": {
       "label": "Discover icons | SF Symbols"
@@ -4594,8 +4492,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 46,
-      "total": 86
+      "index": 45,
+      "total": 85
     },
     "im:name": {
       "label": "Python Recipes Pro"
@@ -4696,8 +4594,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 47,
-      "total": 86
+      "index": 46,
+      "total": 85
     },
     "im:name": {
       "label": "Terminal Emulator"
@@ -4795,8 +4693,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 48,
-      "total": 86
+      "index": 47,
+      "total": 85
     },
     "im:name": {
       "label": "ServerDog Pro: Status, SSH"
@@ -4897,8 +4795,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 49,
-      "total": 86
+      "index": 48,
+      "total": 85
     },
     "im:name": {
       "label": "DNS Client"
@@ -4999,8 +4897,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 50,
-      "total": 86
+      "index": 49,
+      "total": 85
     },
     "im:name": {
       "label": "C Code Develop"
@@ -5101,8 +4999,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 51,
-      "total": 86
+      "index": 50,
+      "total": 85
     },
     "im:name": {
       "label": "Fabula"
@@ -5203,8 +5101,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 52,
-      "total": 86
+      "index": 51,
+      "total": 85
     },
     "im:name": {
       "label": "iHTTP Tracker -Network monitor"
@@ -5305,8 +5203,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 53,
-      "total": 86
+      "index": 52,
+      "total": 85
     },
     "im:name": {
       "label": "StudIO - Code"
@@ -5407,8 +5305,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 54,
-      "total": 86
+      "index": 53,
+      "total": 85
     },
     "im:name": {
       "label": "Juno Connect: Jupyter Client"
@@ -5509,8 +5407,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 55,
-      "total": 86
+      "index": 54,
+      "total": 85
     },
     "im:name": {
       "label": "Code Recipes Pro"
@@ -5611,8 +5509,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 56,
-      "total": 86
+      "index": 55,
+      "total": 85
     },
     "im:name": {
       "label": "Tanuki for GitLab"
@@ -5713,8 +5611,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 57,
-      "total": 86
+      "index": 56,
+      "total": 85
     },
     "im:name": {
       "label": "Bee - Cookie Editor For Safari"
@@ -5815,8 +5713,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 58,
-      "total": 86
+      "index": 57,
+      "total": 85
     },
     "im:name": {
       "label": "HTMLSource"
@@ -5917,8 +5815,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 59,
-      "total": 86
+      "index": 58,
+      "total": 85
     },
     "im:name": {
       "label": "RGB Color Maker"
@@ -6019,8 +5917,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 60,
-      "total": 86
+      "index": 59,
+      "total": 85
     },
     "im:name": {
       "label": "UDevice - Dev Assistant"
@@ -6121,27 +6019,27 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 61,
-      "total": 86
+      "index": 60,
+      "total": 85
     },
     "im:name": {
       "label": "Sweet SWOT"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/fd/49/d9fd49c3-4420-9c62-bebf-3b2464bba51f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/17/de/9c17de11-eff7-9cf8-99c1-4d89a8d159b0/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/fd/49/d9fd49c3-4420-9c62-bebf-3b2464bba51f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/17/de/9c17de11-eff7-9cf8-99c1-4d89a8d159b0/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/fd/49/d9fd49c3-4420-9c62-bebf-3b2464bba51f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/17/de/9c17de11-eff7-9cf8-99c1-4d89a8d159b0/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -6223,8 +6121,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 62,
-      "total": 86
+      "index": 61,
+      "total": 85
     },
     "im:name": {
       "label": "Timestamp Conversion Tool"
@@ -6325,8 +6223,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 63,
-      "total": 86
+      "index": 62,
+      "total": 85
     },
     "im:name": {
       "label": "MermaidEditor"
@@ -6427,8 +6325,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 64,
-      "total": 86
+      "index": 63,
+      "total": 85
     },
     "im:name": {
       "label": "bStat for Bitrise"
@@ -6529,8 +6427,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 65,
-      "total": 86
+      "index": 64,
+      "total": 85
     },
     "im:name": {
       "label": "Golang Recipes Pro"
@@ -6631,8 +6529,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 66,
-      "total": 86
+      "index": 65,
+      "total": 85
     },
     "im:name": {
       "label": "JavaScript Recipes Pro"
@@ -6733,8 +6631,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 67,
-      "total": 86
+      "index": 66,
+      "total": 85
     },
     "im:name": {
       "label": "MQTT Home Automation"
@@ -6835,8 +6733,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 68,
-      "total": 86
+      "index": 67,
+      "total": 85
     },
     "im:name": {
       "label": "WiFi Home Automation"
@@ -6937,8 +6835,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 69,
-      "total": 86
+      "index": 68,
+      "total": 85
     },
     "im:name": {
       "label": "ScriptWidget"
@@ -7039,8 +6937,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 70,
-      "total": 86
+      "index": 69,
+      "total": 85
     },
     "im:name": {
       "label": "TermuXL Pro: SSH, SFTP, Shell"
@@ -7141,8 +7039,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 71,
-      "total": 86
+      "index": 70,
+      "total": 85
     },
     "im:name": {
       "label": "Code Uncovered"
@@ -7243,8 +7141,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 72,
-      "total": 86
+      "index": 71,
+      "total": 85
     },
     "im:name": {
       "label": "auth. - 2FA Smart Sync"
@@ -7345,8 +7243,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 73,
-      "total": 86
+      "index": 72,
+      "total": 85
     },
     "im:name": {
       "label": "Runners - Manage Gitlab Runner"
@@ -7447,8 +7345,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 74,
-      "total": 86
+      "index": 73,
+      "total": 85
     },
     "im:name": {
       "label": "mitmproxy helper by txthinking"
@@ -7549,8 +7447,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 75,
-      "total": 86
+      "index": 74,
+      "total": 85
     },
     "im:name": {
       "label": "Ducky Model Editor"
@@ -7651,8 +7549,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 76,
-      "total": 86
+      "index": 75,
+      "total": 85
     },
     "im:name": {
       "label": "Programming Notebook LITE"
@@ -7753,8 +7651,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 77,
-      "total": 86
+      "index": 76,
+      "total": 85
     },
     "im:name": {
       "label": "TinyServer"
@@ -7855,8 +7753,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 78,
-      "total": 86
+      "index": 77,
+      "total": 85
     },
     "im:name": {
       "label": "RevenueCat Sales: RCReporting"
@@ -7957,8 +7855,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 79,
-      "total": 86
+      "index": 78,
+      "total": 85
     },
     "im:name": {
       "label": "WSS WebSocket Client"
@@ -8059,8 +7957,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 80,
-      "total": 86
+      "index": 79,
+      "total": 85
     },
     "im:name": {
       "label": "Http Traffic pro - sniffer"
@@ -8161,8 +8059,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 81,
-      "total": 86
+      "index": 80,
+      "total": 85
     },
     "im:name": {
       "label": "My Cool IP"
@@ -8263,8 +8161,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 82,
-      "total": 86
+      "index": 81,
+      "total": 85
     },
     "im:name": {
       "label": "SeeLess - C Compiler"
@@ -8365,8 +8263,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 83,
-      "total": 86
+      "index": 82,
+      "total": 85
     },
     "im:name": {
       "label": "XliffTool"
@@ -8467,8 +8365,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 84,
-      "total": 86
+      "index": 83,
+      "total": 85
     },
     "im:name": {
       "label": "Pixel Resizer: Custom Metadata"
@@ -8569,8 +8467,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 85,
-      "total": 86
+      "index": 84,
+      "total": 85
     },
     "im:name": {
       "label": "Arduino Bluetooth Pro"
@@ -8671,8 +8569,8 @@
       "country_code": "cz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 86,
-      "total": 86
+      "index": 85,
+      "total": 85
     },
     "im:name": {
       "label": "Source Code Reader"

@@ -8,6 +8,108 @@
       "total": 98
     },
     "im:name": {
+      "label": "EASA FTL Calc"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b5/76/b6/b576b697-a837-dec6-6118-b361e26a46aa/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b5/76/b6/b576b697-a837-dec6-6118-b361e26a46aa/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b5/76/b6/b576b697-a837-dec6-6118-b361e26a46aa/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "EASA OPS Rules for Flight Time Limitations (FTL) are valid since 18.02.2016.\n\nEASA FTL Calc helps you to calculate\n- cockpit and cabin limits\n- actual and maximum flight duty periods (FDP)\n- latest on-block times\n- duty periods (DP)\n- actual and minimum rest times\n- state of acclimatization\n- commanders discretion\n- disruptive schedules\n- required local nights at your home base\n- extended recovery rest periods\n- cumulative duties for 7/14/28 days\n\nIt considers\n- standby and airport standby\n- extension of cabin FDP due to earlier reporting time\n- delayed reporting\n- in-flight rest for cockpit and cabin (different rules)\n- split duty\n- extension\n- positioning\n- time zone differences\n- company minimum rest times\n- your home base\n- \"back to back\" operation\n\nYou don't have to know time zones\n- simply select an airport from the database\n- time zone is determined by airport and date\n- select only reporting airport of first duty day\n- and the resting airport per duty day\n- next reporting airport will be your last resting airport\n- your home base will be known (preferences) \n\nIt's not a flight log\n- you don't have to enter every single block time\n- no management of block times and their cumulative limits\n- however imported flights can be shown for information\n\nCabin and cockpit limits\n- may have different reporting times\n- in-flight rest is different\n- are calculated independently\n\nRotations\n- are stored automatically \n- are shown in an own table\n- with FDPs and rest times overview\n- for cockpit and cabin\n- on iPad in a split view\n\nXML Import\n- Rosters of BA only\n\nRoster Buster Import\n- direct import\n- calendar import\n\nDirect App Import\n- MyRoster for crew by Lumabyte\n- RosterworX\n- NASImport\n\nCalendar Import"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Ralf Keber"
+    },
+    "title": {
+      "label": "EASA FTL Calc - Ralf Keber"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/easa-ftl-calc/id1055758700?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/18/3b/61/183b6144-c563-9376-d584-070094fe9201/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/easa-ftl-calc/id1055758700?uo=2",
+      "attributes": {
+        "im:id": "1055758700",
+        "im:bundleId": "de.irk23.EASA-FTL-Calc"
+      }
+    },
+    "im:artist": {
+      "label": "Ralf Keber",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/ralf-keber/id370422475?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-01-09T07:06:03-07:00",
+      "attributes": {
+        "label": "January 9, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 2,
+      "total": 98
+    },
+    "im:name": {
       "label": "BS Companion"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 2,
+      "index": 3,
       "total": 98
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 3,
+      "index": 4,
       "total": 98
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 4,
+      "index": 5,
       "total": 98
     },
     "im:name": {
@@ -412,721 +514,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 5,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Shadowrocket"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/5b/fd/9c5bfd42-7608-5aa7-15fd-033837a5cad0/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/5b/fd/9c5bfd42-7608-5aa7-15fd-033837a5cad0/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/5b/fd/9c5bfd42-7608-5aa7-15fd-033837a5cad0/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Li Guangming"
-    },
-    "title": {
-      "label": "Shadowrocket - Shadow Launch Technology Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/shadowrocket/id932747118?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/shadowrocket/id932747118?uo=2",
-      "attributes": {
-        "im:id": "932747118",
-        "im:bundleId": "com.liguangming.Shadowrocket"
-      }
-    },
-    "im:artist": {
-      "label": "Shadow Launch Technology Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/shadow-launch-technology-limited/id687237009?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-04-13T19:09:18-07:00",
-      "attributes": {
-        "label": "April 13, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
       "index": 6,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Polar Scope Align Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/e8/5b/44e85b42-5558-41e1-bf6b-9a5b6f7eefd3/AppIconPro-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/e8/5b/44e85b42-5558-41e1-bf6b-9a5b6f7eefd3/AppIconPro-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/e8/5b/44e85b42-5558-41e1-bf6b-9a5b6f7eefd3/AppIconPro-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Apart from the most reliable app for polar alignment (with or without a polar scope), PS Align pro has become the astronomer's swiss-army knife with all the tools added over the years. Remember, all features & updates are free forever, the only in-app purchases are donations (tip jar).\n\nPolar Scope Align will calculate the position of Polaris or σ Octantis in your Polar Scope reticle for your location (using your phone's GPS or manually), allowing a quick and accurate polar alignment. It is one of the few programs that are accurate in lower latitudes by correcting for atmospheric refraction (so expect results to agree only with precise software and not most simplistic \"polar align\" apps - see the \"Accuracy\" section in help for details). In the settings you can select the polar scope reticle that matches your own, from a vast collection:\niOptron old & new, Astro-Physics RAPAS & PASILL, various versions of Takahashi EM-10/11/200/400/500, NJP, PM-1, P2-Z, the latest Orion / Skywatcher, the Classic Skywatcher / Orion / Celestron / Meade / EXOS2 / Bresser, the Telrad, Rigel QuikFinder, a couple for Astrotrac / Losmandy / Kenko / Avalon, the Vixen PF-L/Atlux/SX/SXD/SXP/AXD/GP/GP-DX/Polarie Polar Axis Scopes, a Konus and several Polar Finders: Tuthill, Explore Scientific 8x50, Meade 9x60, Vixen Polaris, Celestron 7x50, Carton Optical. PoleMaster help view for South Hemisphere users. If you have one not included, just ask the developer to add it!\n\nFeature list:\n\n-Accurate calculation of Polaris or Sigma Oct for any date and location, including effect of atmospheric refraction (and annual aberration, nutation). Most other apps do not perform precision calculations, so please only compare app readings to accurate sources (USNO, scientific software etc).\n-Use device time/date/location, or enter your own, or pick from online & offline world databases via the Location Manager.\n-Approximate daytime / no polarscope polar alignment tool. Great for visual use, solar imaging (inc. eclipses) and even limited short focal length astrophotography. Now with sun shadow calibration for more accuracy!\n-Laser / Hop Align for nighttime alignment using a calibration star for obstructed or not visible polar star, or for improving laser align.\n-Full app in red-color (or alternative green, white) night mode - tools switchable to daytime view.\n-Deep Space Object (DSO) Database with 22000+ objects from several catalogs (Messier, Caldwell, NGC, IC, Herschell 400, Sharpless 2, Barnard), along with stars (Yale Bright Star) & planets. Search, apply filters, sorting, download DSS color images for all items, or get help finding them with your non-goto telescope with the Push-To function.\n-Connect to and control WiFi-enabled iOptron mounts.\n-Over 30 calculators useful for observing and astrophotography, from eyepiece magnification and field of view, to imaging resolution and reducers.\n-Xasteria: World astro-weather report based on multiple sources, including 7Timer.\n-Water vapor satellite images.\n-List of visible ISS and bright satellite passes.\n-Moon phase & lunar Calendar with solar/lunar rise/set and twilight times.\n-Wizard to calculate your reticle centering offset and correct or compensate for it.\n-Zoomable reticle view and customized routines & tools: Alt-az alignment error display for mounts that calculate it after star alignment (e.g. iOptron iEQ45, CEM60), polar alignment when your scope is not in zero position (for mounts like iOptron ZEQ/CEM on which you can always access the polar scope), remember zero position on Celestron / Skywatcher / Orion etc reticles.\n-Bubble level (using either gyro or accelerometer) and Compass heading, as well as magnetic declination reading.\n-GPS accuracy & elevation data.\n-Red/White/LED light.\n-Dimming slider.\n-iOptron, NexStar and Meade LX200 Star Lists.\n-Support for iPhone & iPad from iOS 9 (and iPod Touch, except tools that require the compass)."
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2015 D Kechagias"
-    },
-    "title": {
-      "label": "Polar Scope Align Pro - Dimitrios Kechagias"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/polar-scope-align-pro/id970161373?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/78/80/e778809a-24e8-4033-e9ff-f9e15330ce12/143d8951-ebf9-485e-85ce-ca5e7e44cb13_ScreensIpadPro12.9.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/polar-scope-align-pro/id970161373?uo=2",
-      "attributes": {
-        "im:id": "970161373",
-        "im:bundleId": "com.kechagias.ps-align-pro"
-      }
-    },
-    "im:artist": {
-      "label": "Dimitrios Kechagias",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/dimitrios-kechagias/id970157964?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-03-03T21:46:00-07:00",
-      "attributes": {
-        "label": "March 3, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 7,
-      "total": 98
-    },
-    "im:name": {
-      "label": "EML reader Pro EML file viewer"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/9f/6e/31/9f6e3118-aebd-77bf-b257-8caac52f8279/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/9f/6e/31/9f6e3118-aebd-77bf-b257-8caac52f8279/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/9f/6e/31/9f6e3118-aebd-77bf-b257-8caac52f8279/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "With EML PRO VIEWER, opening EML files on your iPhone or iPad will no longer be a problem.\n\nTo use it, touch the EML file in any application, select \"Open with ..\" And select EML PRO VIEWER.\n\nWith EML PRO VIEWER you can:\n\n- Open all EML files directly from other applications on your device\n- Archive your EML files\n- View messages and attachments within the EML file\n- Share or print your EML files\n\nPrivacy Policy: https://www.iubenda.com/privacy-policy/12771289"
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 Beatcode Srl"
-    },
-    "title": {
-      "label": "EML reader Pro EML file viewer - Beatcode Srl"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/eml-reader-pro-eml-file-viewer/id1486177662?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/a5/ef/0f/a5ef0f65-d167-f60e-85b3-0f756323f798/c9a4e9f4-43b1-4581-bf1e-c2fbb8a5c4ff_12.9_U2033_iPad_Pro_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/eml-reader-pro-eml-file-viewer/id1486177662?uo=2",
-      "attributes": {
-        "im:id": "1486177662",
-        "im:bundleId": "it.knowledgeworks.eml"
-      }
-    },
-    "im:artist": {
-      "label": "Beatcode Srl",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/beatcode-srl/id1478673452?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-11-06T00:00:00-07:00",
-      "attributes": {
-        "label": "November 6, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 8,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Power Reverse Image Search"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/cc/72/49/cc7249c0-c5cc-269e-4c3c-452590936261/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/cc/72/49/cc7249c0-c5cc-269e-4c3c-452590936261/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/cc/72/49/cc7249c0-c5cc-269e-4c3c-452590936261/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This can help you reverse search images from multiple search engines such as Google, Yandex,TinEye,Reddit,Baidu,Sogou.\n\nFeatures:\n- Reverse image search using Google/Yandex/TinEye/Reddit/Baidu/Sogou similar image search\n- Search images from your photo gallery\n- Search images instantly after you take a photo by your camera\n- Crop your images before searching\n- Very easy to use interface\n- You can not only use the function in the app, but also in you photo library, \"Photos\" -\"Share\"- \"Image Search\"\n\nThe app is not affiliated with Google/Yandex/TinEye/Reddit/Baidu/Sogou,it is a 3rd party utility.\n\nIf you have any questions or suggestions about our app, please e-mail lilliancream@163.com.We are looking forward to your feedbacks"
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© web,people,person,reddit,yandex,tineye,match,catfish,sherlock,lookup,finder,searcher,reversee,bing"
-    },
-    "title": {
-      "label": "Power Reverse Image Search - 婧 李"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/power-reverse-image-search/id1537954993?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/52/9d/b9/529db9f4-31e4-222b-9ac0-837e886dfa58/e4ad49f0-8551-42c5-bdea-1b4ce3b2e211_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-11-20_at_14.26.39.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/power-reverse-image-search/id1537954993?uo=2",
-      "attributes": {
-        "im:id": "1537954993",
-        "im:bundleId": "com.7color.ReverseImage"
-      }
-    },
-    "im:artist": {
-      "label": "婧 李",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/%E5%A9%A7-%E6%9D%8E/id513574176?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-10-31T00:00:00-07:00",
-      "attributes": {
-        "label": "October 31, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 9,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Subfloor Material Estimator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/93/cc/93/93cc93ee-bb54-ba02-eba2-478b128032ad/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/93/cc/93/93cc93ee-bb54-ba02-eba2-478b128032ad/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/93/cc/93/93cc93ee-bb54-ba02-eba2-478b128032ad/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Provides a quick estimate of the material needed to construct a subfloor.\n\nGiven floor dimensions and joist spacing this will estimate the number of joists, amount of floor sheating required, linear feet of the joists / rim board, tubes of glue and number of screws required."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 H3Apps LLC"
-    },
-    "title": {
-      "label": "Subfloor Material Estimator - H3 Apps, LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/subfloor-material-estimator/id1611594560?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/95/51/6a/95516a98-8aa1-4802-e253-56fefc033836/2359dbf8-1992-4762-aae0-49db7078e7c8_1Inputs.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/subfloor-material-estimator/id1611594560?uo=2",
-      "attributes": {
-        "im:id": "1611594560",
-        "im:bundleId": "com.h3apps.FloorJoists"
-      }
-    },
-    "im:artist": {
-      "label": "H3 Apps, LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/h3-apps-llc/id598620927?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-02-25T00:00:00-07:00",
-      "attributes": {
-        "label": "February 25, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 10,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Cuckoo Clock Calibration"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/35/e4/c4/35e4c4ef-c052-9828-a459-de34651ae965/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/35/e4/c4/35e4c4ef-c052-9828-a459-de34651ae965/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/35/e4/c4/35e4c4ef-c052-9828-a459-de34651ae965/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The best and most accurate app for Cuckoo and Pendulum clocks calibration.\nEasily measure your Clock beats period and adjust it to a known correct value.\nTurn your iPhone into a precise train count sensor with an unbelievable 0.001 milliseconds (1μs) accuracy!!\nGet a quick and precise drift reading of how many seconds/minutes your clock is going to gain or loose per day.\n\n\nEvery Cuckoo Clock owner knows that a mechanical clocks are not as accurate as modern day quartz clocks. This is because the clock mechanism is influenced by temperature, humidity, barometric pressure, breeze and others environmental conditions and therefore requires frequent adjustment.\n\nWhen you are regulating the pendulum of your Cuckoo Clock today, you are attempting to achieve the best timekeeping possible by a trail and error method by lifting the pendulum bob up or down and hope for a better accuracy.\nUsing this app you can finally get a reading of your Clock ticks timing and precisely calibrate it to a known value.\n\n\nHow to calibrate your Clock using this app:\n1.\tRun this App and measure your Clock timings using the iPhone microphone\n2.\tUse the Signal Gain and the Detection Threshold sliders to adjust the measured signal\n3.\tSelect a reference timing for calibration from the clock reference table or set your own reference timing\n4.\tRead the accuracy level of your clock vs. the reference timing\n5.\tAdjust your Clock pendulum bob to get the best accuracy!\n6.     Review how many seconds/minutes your Clock will gain or lose per day based on your current calibration\n\nThe app will presents your Clock beats period reading as well as BPH (beats per hour) and BPM (beats per minutes) values.\nAn accurate waveform display of the microphone signal will help you to adjust the tick readings for the best measurement.\nAnimated Indicators will guide you through the calibration process.\n\nManage the app Reference Timings table and add user defined clocks in addition to the predefined ones to support all your clocks.\n\nThis app will turn your iPhone into a powerful measurement tool which normally costs hundreds of dollars."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Nir Hamzani"
-    },
-    "title": {
-      "label": "Cuckoo Clock Calibration - Nir Hamzani"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/cuckoo-clock-calibration/id1171487289?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ef/32/18/ef3218b0-b78e-4647-0dcb-e151f430651d/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/cuckoo-clock-calibration/id1171487289?uo=2",
-      "attributes": {
-        "im:id": "1171487289",
-        "im:bundleId": "com.example.Cuckoo-Clock-Calibration"
-      }
-    },
-    "im:artist": {
-      "label": "Nir Hamzani",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/nir-hamzani/id1026666321?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-11-09T12:45:41-07:00",
-      "attributes": {
-        "label": "November 9, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 11,
-      "total": 98
-    },
-    "im:name": {
-      "label": "F1M Setup Calculator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2b/b7/56/2bb7560c-7ea9-f065-ef7b-dc19d05ef601/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2b/b7/56/2bb7560c-7ea9-f065-ef7b-dc19d05ef601/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2b/b7/56/2bb7560c-7ea9-f065-ef7b-dc19d05ef601/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "A handy setup-to-bias calculator for the Game F1™ Manager 2022 and 2023. Helps player finding optimal setups for driver configurations."
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Kosmoneko OU"
-    },
-    "title": {
-      "label": "F1M Setup Calculator - Kosmoneko OÜ"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/f1m-setup-calculator/id6449542649?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/84/12/3f/84123f60-5099-1a1d-1362-14f6b74c063f/3e20a2b2-a841-44a7-a235-c1d716740e38_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2023-06-10_at_23.36.08.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/f1m-setup-calculator/id6449542649?uo=2",
-      "attributes": {
-        "im:id": "6449542649",
-        "im:bundleId": "ee.nekoko.F1MCalc"
-      }
-    },
-    "im:artist": {
-      "label": "Kosmoneko OÜ",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/kosmoneko-o%C3%BC/id1689527267?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-06-13T00:00:00-07:00",
-      "attributes": {
-        "label": "June 13, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 12,
       "total": 98
     },
     "im:name": {
@@ -1228,7 +616,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 13,
+      "index": 7,
       "total": 98
     },
     "im:name": {
@@ -1330,7 +718,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 14,
+      "index": 8,
       "total": 98
     },
     "im:name": {
@@ -1432,7 +820,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 15,
+      "index": 9,
       "total": 98
     },
     "im:name": {
@@ -1534,7 +922,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 10,
       "total": 98
     },
     "im:name": {
@@ -1636,7 +1024,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 11,
       "total": 98
     },
     "im:name": {
@@ -1735,7 +1123,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 12,
       "total": 98
     },
     "im:name": {
@@ -1837,109 +1225,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
-      "total": 98
-    },
-    "im:name": {
-      "label": "TV Mirror+ for Chromecast"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "TV Mirror+ for Chromecast is the easy screen sharing tool to mirror your iPhone or iPad screen and sound on Chromecast in Full HD Quality.\n\nMirror photos, videos, games, websites, apps, presentations, documents and spreadsheets on Chromecast.\n\n* Supported Chromecasts: Chromecast, Chromecast Ultra and all generations of the Chromecast family\n\n* Supported TVs and other devices: Xiaomi MI Box, NVIDIA Shield TV and all TVs with Google Cast or Chromecast built-in, e.g. Sony, TCL, Vizio, Sharp, Philips, Hisense, Skyworth, Soniq\n\n* Your iPhone/iPad and your Chromecast must be connected to the same wifi to enable screen mirroring. Please do not use VPN, Proxy, VLANS and Subnets.\n\n* Latency is supreme (below 1 second) when you have good wifi network conditions\n\n* No hidden subscriptions or costs\n\n* If a third party app, for example Spotify, does not mirror sound correctly, please FORCE CLOSE and restart Spotify while the mirroring session is active. Please check the Apple Support page to learn how to FORCE CLOSE an app: https://support.apple.com/en-us/HT201330\n\n* Black screen issues: Some third party apps prevent screen mirroring. When you try to mirror them, you will just see a black screen on your TV, for example with Netflix and Disney+. This is a restriction chosen by Netflix and others, so we cannot fix it at the moment.\n\n\nIf you like the app and our constant work on it, please give the app a positive rating on the App Store. Many thanks in advance from the development & support team.\n\n\nDisclaimer: This app is not affiliated with Google or any other trademark mentioned here. Chromecast is a trademark of Google LLC."
-    },
-    "im:price": {
-      "label": "7,99 €",
-      "attributes": {
-        "amount": "7.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2kit consulting"
-    },
-    "title": {
-      "label": "TV Mirror+ for Chromecast - Kraus und Karnath GbR 2Kit Consulting"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/tv-mirror-for-chromecast/id1441797808?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/99/84/2d/99842d0f-311c-2832-4837-108c14a7548e/c470a309-8c70-4f99-82ee-20f40ad00081_AltesIpad1.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/tv-mirror-for-chromecast/id1441797808?uo=2",
-      "attributes": {
-        "im:id": "1441797808",
-        "im:bundleId": "de.2kit.Screen-Mirroring"
-      }
-    },
-    "im:artist": {
-      "label": "Kraus und Karnath GbR 2Kit Consulting",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/kraus-und-karnath-gbr-2kit-consulting/id477998014?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-11-16T06:32:59-07:00",
-      "attributes": {
-        "label": "November 16, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 20,
+      "index": 13,
       "total": 98
     },
     "im:name": {
@@ -2041,7 +1327,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
+      "index": 14,
+      "total": 98
+    },
+    "im:name": {
+      "label": "TV Mirror+ for Chromecast"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/3d/78/153d78ce-f115-a335-4d25-25a51b70516a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "TV Mirror+ for Chromecast is the easy screen sharing tool to mirror your iPhone or iPad screen and sound on Chromecast in Full HD Quality.\n\nMirror photos, videos, games, websites, apps, presentations, documents and spreadsheets on Chromecast.\n\n* Supported Chromecasts: Chromecast, Chromecast Ultra and all generations of the Chromecast family\n\n* Supported TVs and other devices: Xiaomi MI Box, NVIDIA Shield TV and all TVs with Google Cast or Chromecast built-in, e.g. Sony, TCL, Vizio, Sharp, Philips, Hisense, Skyworth, Soniq\n\n* Your iPhone/iPad and your Chromecast must be connected to the same wifi to enable screen mirroring. Please do not use VPN, Proxy, VLANS and Subnets.\n\n* Latency is supreme (below 1 second) when you have good wifi network conditions\n\n* No hidden subscriptions or costs\n\n* If a third party app, for example Spotify, does not mirror sound correctly, please FORCE CLOSE and restart Spotify while the mirroring session is active. Please check the Apple Support page to learn how to FORCE CLOSE an app: https://support.apple.com/en-us/HT201330\n\n* Black screen issues: Some third party apps prevent screen mirroring. When you try to mirror them, you will just see a black screen on your TV, for example with Netflix and Disney+. This is a restriction chosen by Netflix and others, so we cannot fix it at the moment.\n\n\nIf you like the app and our constant work on it, please give the app a positive rating on the App Store. Many thanks in advance from the development & support team.\n\n\nDisclaimer: This app is not affiliated with Google or any other trademark mentioned here. Chromecast is a trademark of Google LLC."
+    },
+    "im:price": {
+      "label": "7,99 €",
+      "attributes": {
+        "amount": "7.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2kit consulting"
+    },
+    "title": {
+      "label": "TV Mirror+ for Chromecast - Kraus und Karnath GbR 2Kit Consulting"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/tv-mirror-for-chromecast/id1441797808?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/99/84/2d/99842d0f-311c-2832-4837-108c14a7548e/c470a309-8c70-4f99-82ee-20f40ad00081_AltesIpad1.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/tv-mirror-for-chromecast/id1441797808?uo=2",
+      "attributes": {
+        "im:id": "1441797808",
+        "im:bundleId": "de.2kit.Screen-Mirroring"
+      }
+    },
+    "im:artist": {
+      "label": "Kraus und Karnath GbR 2Kit Consulting",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/kraus-und-karnath-gbr-2kit-consulting/id477998014?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-11-16T06:32:59-07:00",
+      "attributes": {
+        "label": "November 16, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 15,
       "total": 98
     },
     "im:name": {
@@ -2143,7 +1531,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
+      "index": 16,
       "total": 98
     },
     "im:name": {
@@ -2245,7 +1633,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
+      "index": 17,
       "total": 98
     },
     "im:name": {
@@ -2347,7 +1735,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 24,
+      "index": 18,
       "total": 98
     },
     "im:name": {
@@ -2449,7 +1837,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
+      "index": 19,
       "total": 98
     },
     "im:name": {
@@ -2551,7 +1939,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
+      "index": 20,
       "total": 98
     },
     "im:name": {
@@ -2653,7 +2041,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
+      "index": 21,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Shadowrocket"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/5b/fd/9c5bfd42-7608-5aa7-15fd-033837a5cad0/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/5b/fd/9c5bfd42-7608-5aa7-15fd-033837a5cad0/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9c/5b/fd/9c5bfd42-7608-5aa7-15fd-033837a5cad0/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Li Guangming"
+    },
+    "title": {
+      "label": "Shadowrocket - Shadow Launch Technology Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/shadowrocket/id932747118?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/shadowrocket/id932747118?uo=2",
+      "attributes": {
+        "im:id": "932747118",
+        "im:bundleId": "com.liguangming.Shadowrocket"
+      }
+    },
+    "im:artist": {
+      "label": "Shadow Launch Technology Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/shadow-launch-technology-limited/id687237009?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-04-13T19:09:18-07:00",
+      "attributes": {
+        "label": "April 13, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 22,
       "total": 98
     },
     "im:name": {
@@ -2755,7 +2245,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
+      "index": 23,
       "total": 98
     },
     "im:name": {
@@ -2857,7 +2347,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 29,
+      "index": 24,
       "total": 98
     },
     "im:name": {
@@ -2959,7 +2449,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 30,
+      "index": 25,
       "total": 98
     },
     "im:name": {
@@ -3061,7 +2551,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 31,
+      "index": 26,
       "total": 98
     },
     "im:name": {
@@ -3163,7 +2653,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 32,
+      "index": 27,
       "total": 98
     },
     "im:name": {
@@ -3265,109 +2755,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 33,
-      "total": 98
-    },
-    "im:name": {
-      "label": "System Status Pro: hw monitor"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/31/3c/8c/313c8c38-1bba-aba4-00cc-171eade0a5eb/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/31/3c/8c/313c8c38-1bba-aba4-00cc-171eade0a5eb/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/31/3c/8c/313c8c38-1bba-aba4-00cc-171eade0a5eb/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "An advanced tool for monitoring your iPhone and iPad performance.\n\nSystem Status provides graphical monitoring of all the device's resources such as CPU, memory, disk, battery and wifi/cell data usage. Further, it shows network-related info such as wifi/cell connection details and the routing table. Finally, System Status displays operating system details such as kernel version, memory page statistics and shows various hardware-related data.\n\nBATTERY\n• Graphical battery level display\n• Battery state monitoring (discharging, charging, full)\n• Estimated battery work time for different usage patterns (standby, audio and video playback, Wi-Fi and 3G browser usage, talk time)\n• Adjustable battery health to make the estimated work times usable for older batteries\n\nMEMORY & DISK\n• Real time memory usage monitoring - graphical display of wired, active, inactive, and free memory\n• Detailed page statistics including page ins and outs, page faults, page lookups, page purges and others\n• Used and free disk capacity monitoring\n• File statistics (number of songs, videos, podcasts, artists, genres, etc.)\n• Mounted file system list\n\nCELL & NETWORK\n• Cell and Wi-Fi network connection information\n• IP address of the current connection\n• Carrier information such as network technology used\n• External IP address\n• DNS server, default gateway\n• Received and sent wifi/cell data since last boot\n• Routing table\n\nCPU\n• CPU usage updated in real time\n• Average load over the last 1, 5, and 15 minutes\n\nOPERATING SYSTEM & HARDWARE INFORMATION\n• System boot time and uptime\n• Operating system and kernel version\n• Device model and user name\n• Detailed CPU and GPU information - model, core number, CPU and BUS frequency, L1, L2 cache sizes, and others\n• Hardware features of the device including display resolution, pixel density, battery voltage, battery capacity, front and rear camera resolution and many more\n\nRESOURCE GRAPHS\n• Possibility to record up to 3 minutes of background activity\n• Pinch to zoom & pan\n• Play/pause to see real-time or history data\n\nMORE\n• Real time updates of the display every time the monitored parameters change\n• Export by email, AirPrint, and AirDrop for most info\n• Light/dark theme\n• Copy/paste support\n• Detailed help\n• Regular updates"
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Jiri Techet"
-    },
-    "title": {
-      "label": "System Status Pro: hw monitor - Techet"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/system-status-pro-hw-monitor/id401457165?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d6/59/8f/d6598fb7-57d3-2f80-d912-d12d6d778996/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/system-status-pro-hw-monitor/id401457165?uo=2",
-      "attributes": {
-        "im:id": "401457165",
-        "im:bundleId": "net.techet.sysstat"
-      }
-    },
-    "im:artist": {
-      "label": "Techet",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/techet/id401457168?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-11-13T12:18:42-07:00",
-      "attributes": {
-        "label": "November 13, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 34,
+      "index": 28,
       "total": 98
     },
     "im:name": {
@@ -3469,7 +2857,211 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 35,
+      "index": 29,
+      "total": 98
+    },
+    "im:name": {
+      "label": "System Status Pro: hw monitor"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/31/3c/8c/313c8c38-1bba-aba4-00cc-171eade0a5eb/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/31/3c/8c/313c8c38-1bba-aba4-00cc-171eade0a5eb/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/31/3c/8c/313c8c38-1bba-aba4-00cc-171eade0a5eb/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "An advanced tool for monitoring your iPhone and iPad performance.\n\nSystem Status provides graphical monitoring of all the device's resources such as CPU, memory, disk, battery and wifi/cell data usage. Further, it shows network-related info such as wifi/cell connection details and the routing table. Finally, System Status displays operating system details such as kernel version, memory page statistics and shows various hardware-related data.\n\nBATTERY\n• Graphical battery level display\n• Battery state monitoring (discharging, charging, full)\n• Estimated battery work time for different usage patterns (standby, audio and video playback, Wi-Fi and 3G browser usage, talk time)\n• Adjustable battery health to make the estimated work times usable for older batteries\n\nMEMORY & DISK\n• Real time memory usage monitoring - graphical display of wired, active, inactive, and free memory\n• Detailed page statistics including page ins and outs, page faults, page lookups, page purges and others\n• Used and free disk capacity monitoring\n• File statistics (number of songs, videos, podcasts, artists, genres, etc.)\n• Mounted file system list\n\nCELL & NETWORK\n• Cell and Wi-Fi network connection information\n• IP address of the current connection\n• Carrier information such as network technology used\n• External IP address\n• DNS server, default gateway\n• Received and sent wifi/cell data since last boot\n• Routing table\n\nCPU\n• CPU usage updated in real time\n• Average load over the last 1, 5, and 15 minutes\n\nOPERATING SYSTEM & HARDWARE INFORMATION\n• System boot time and uptime\n• Operating system and kernel version\n• Device model and user name\n• Detailed CPU and GPU information - model, core number, CPU and BUS frequency, L1, L2 cache sizes, and others\n• Hardware features of the device including display resolution, pixel density, battery voltage, battery capacity, front and rear camera resolution and many more\n\nRESOURCE GRAPHS\n• Possibility to record up to 3 minutes of background activity\n• Pinch to zoom & pan\n• Play/pause to see real-time or history data\n\nMORE\n• Real time updates of the display every time the monitored parameters change\n• Export by email, AirPrint, and AirDrop for most info\n• Light/dark theme\n• Copy/paste support\n• Detailed help\n• Regular updates"
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Jiri Techet"
+    },
+    "title": {
+      "label": "System Status Pro: hw monitor - Techet"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/system-status-pro-hw-monitor/id401457165?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d6/59/8f/d6598fb7-57d3-2f80-d912-d12d6d778996/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/system-status-pro-hw-monitor/id401457165?uo=2",
+      "attributes": {
+        "im:id": "401457165",
+        "im:bundleId": "net.techet.sysstat"
+      }
+    },
+    "im:artist": {
+      "label": "Techet",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/techet/id401457168?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-11-13T12:18:42-07:00",
+      "attributes": {
+        "label": "November 13, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 30,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Blue Iris"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/b0/99/6eb09932-229e-1ffc-6200-ffcfeb11bfc9/AppIcon-BI-0-1x_U007emarketing-0-6-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/b0/99/6eb09932-229e-1ffc-6200-ffcfeb11bfc9/AppIcon-BI-0-1x_U007emarketing-0-6-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/b0/99/6eb09932-229e-1ffc-6200-ffcfeb11bfc9/AppIcon-BI-0-1x_U007emarketing-0-6-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This app is a CLIENT for the Blue Iris Windows PC software.  In order to make use of this app, you must have Blue Iris version 5 installed and running on a Windows PC or VM.  Instructions for connecting this app to the PC software are found in the Remote Access chapter of its Help file.\n\nThis app provides a single point of contact to your home camera network.  There is no need to insecurely open individual cameras to the Internet.  This app connects using a secure and session-based protocol--no passwords are transmitted in plain text.\n\nRemote access does require router configuration or NGROK, which you can test without the app by using Safari.  You should see your Blue Iris login page.\n\nKey features include:\n\n- Manage multiple Blue Iris installations\n- Geofencing: set status, send alerts, and more in response to device location *\n- Control the shield icon, schedule and profile selection\n- Receive iOS push notification alerts when a Blue Iris camera is triggered or there is a critical status message\n- Fast H.264 streaming\n- Control PTZ, IR and more for any camera that’s also controllable at the Blue Iris PC\n- Listen to and talk to any camera that’s also supported at the Blue Iris PC\n- Navigate cameras by tapping and swiping\n- Review recordings as stored on the Blue Iris PC, up to 64x speed\n- Download recorded video from the Blue Iris PC to the iOS device\n- Selectively delete recordings from the Blue Iris PC\n- Broadcast live video from the iOS device directly into a Blue Iris PC camera window\n- Remote control DIO output signals on compatible devices\n- Baby monitor functionality: continue to listen to audio with app closed or device in standby **\n\n* Note that continued use of GPS running in the background can dramatically decrease battery life.\n** Note that continued use of audio streaming running in the background can dramatically decrease battery life."
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Perspective Software, All Rights Reserved"
+    },
+    "title": {
+      "label": "Blue Iris - Ken Pletzer"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/blue-iris/id585350145?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/cb/31/54/cb3154ee-6da7-2fad-bf96-4c13a473f1b5/3bec67c3-7252-465d-b5e7-1372b7e0dfa0_Screenshot_2020-09-08_at_11.42.13_AM.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/blue-iris/id585350145?uo=2",
+      "attributes": {
+        "im:id": "585350145",
+        "im:bundleId": "com.perspective.Blue-Iris"
+      }
+    },
+    "im:artist": {
+      "label": "Ken Pletzer",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/ken-pletzer/id585350148?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-12-15T15:15:50-07:00",
+      "attributes": {
+        "label": "December 15, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 31,
       "total": 98
     },
     "im:name": {
@@ -3571,109 +3163,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 36,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Blue Iris"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/cb/a7/fbcba71e-9cee-ec41-3359-df85472f4287/AppIcon-BI-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This app is a CLIENT for the Blue Iris Windows PC software.  In order to make use of this app, you must have Blue Iris version 5 installed and running on a Windows PC or VM.  Instructions for connecting this app to the PC software are found in the Remote Access chapter of its Help file.\n\nThis app provides a single point of contact to your home camera network.  There is no need to insecurely open individual cameras to the Internet.  This app connects using a secure and session-based protocol--no passwords are transmitted in plain text.\n\nRemote access does require router configuration or NGROK, which you can test without the app by using Safari.  You should see your Blue Iris login page.\n\nKey features include:\n\n- Manage multiple Blue Iris installations\n- Geofencing: set status, send alerts, and more in response to device location *\n- Control the shield icon, schedule and profile selection\n- Receive iOS push notification alerts when a Blue Iris camera is triggered or there is a critical status message\n- Fast H.264 streaming\n- Control PTZ, IR and more for any camera that’s also controllable at the Blue Iris PC\n- Listen to and talk to any camera that’s also supported at the Blue Iris PC\n- Navigate cameras by tapping and swiping\n- Review recordings as stored on the Blue Iris PC, up to 64x speed\n- Download recorded video from the Blue Iris PC to the iOS device\n- Selectively delete recordings from the Blue Iris PC\n- Broadcast live video from the iOS device directly into a Blue Iris PC camera window\n- Remote control DIO output signals on compatible devices\n- Baby monitor functionality: continue to listen to audio with app closed or device in standby **\n\n* Note that continued use of GPS running in the background can dramatically decrease battery life.\n** Note that continued use of audio streaming running in the background can dramatically decrease battery life."
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Perspective Software, All Rights Reserved"
-    },
-    "title": {
-      "label": "Blue Iris - Ken Pletzer"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/blue-iris/id585350145?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/cb/31/54/cb3154ee-6da7-2fad-bf96-4c13a473f1b5/3bec67c3-7252-465d-b5e7-1372b7e0dfa0_Screenshot_2020-09-08_at_11.42.13_AM.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/blue-iris/id585350145?uo=2",
-      "attributes": {
-        "im:id": "585350145",
-        "im:bundleId": "com.perspective.Blue-Iris"
-      }
-    },
-    "im:artist": {
-      "label": "Ken Pletzer",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/ken-pletzer/id585350148?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-12-15T15:15:50-07:00",
-      "attributes": {
-        "label": "December 15, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 37,
+      "index": 32,
       "total": 98
     },
     "im:name": {
@@ -3775,211 +3265,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 38,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Rise Alarm Clock"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Rise is a simple alarm clock with a lot of smart features. With its refreshing and clever way to set time, Rise is one of the easiest alarm clocks you'll ever use.\n\nAPPLE - App Of The Week, Featured Utility.\nRead the great reviews in Mashable, Fast Company, Lifehacker, TUAW, Business Insider, The Loop, App Advice and many more.\n\nTIME TO ENJOY SETTING YOUR ALARM CLOCK\nReach out and touch the screen. Every element is meant to be interactive. Left handed? Yes, Rise loves you, too.\n\nPull it up or down and watch the sky change as you pick a wake up time. Turn the alarm on by pulling the screen left or right.\n\nOr, simply shake your device to quickly set an alarm for a short nap or to use as a timer.\n\nWAKING UP IS A BEAUTIFUL THING\nWake up to the sound of the woods, ease into the day with a custom Rise melody, or your favorite song from iTunes. \n\nTap to snooze and be a little late, or pull the screen to turn off the alarm and be on time. Hey, it's your life.\n\nFrom the lock screen: Shake to snooze or turn off the alarm.\n\nMULTIPLE ALARMS HAVE NEVER BEEN THIS EASY (With in-app purchase)\nEasily create repeating alarms for any time with custom labels for each alarm. Toggle all your alarms on or off from one screen. Rise will always show the next alarm when you open the app. \n\nA BETTER ALARM NEEDS A BETTER CLOCK\nLarge clock in either portrait or landscape (for docked devices) with clock background options: Night or Skyscape. Swipe to change the clock background and dim the screen by sliding up or down. \n\nLET RISE HELP YOU FALL (ASLEEP)\nUse SleepTunes to make a playlist from your iTunes collection to help you fall asleep. Set a timer for your playlist so it doesn't run all night.\n\nNOTES\n- Rise is made for iOS 9+ compatible devices.\n- Rise works with \"Do Not Disturb\" and the silence switch as long as it's in the foreground and / or auto-locked when using those two features.\n\nRISE IS LOCALIZED FOR THE FOLLOWING LANGUAGES\n- Afrikaans\n- Chinese ( Simplified )\n- Chinese ( Traditional )\n- Dutch\n- English\n- German\n- Finnish\n- French\n- Malay\n- Norwegian\n- Hebrew\n- Hungarian\n- Italian\n- Japanese\n- Korean\n- Polish\n- Portuguese\n- Romanian\n- Russian\n- Spanish\n\nWE LOVE TO HELP\nWe pride ourselves on offering great support. If you have an issue or feature request, please contact us on Twitter (@simplebots) or through our site www.simplebots.co"
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2012-2016 Simplebots, www.simplebots.co"
-    },
-    "title": {
-      "label": "Rise Alarm Clock - Kellen Styler"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/rise-alarm-clock/id577221529?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/45/20/c2/4520c2ca-9c40-ec68-8ff5-933aa922e26d/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/rise-alarm-clock/id577221529?uo=2",
-      "attributes": {
-        "im:id": "577221529",
-        "im:bundleId": "com.kellenstyler.rise"
-      }
-    },
-    "im:artist": {
-      "label": "Kellen Styler",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/kellen-styler/id442165163?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-12-20T00:00:00-07:00",
-      "attributes": {
-        "label": "December 20, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 39,
-      "total": 98
-    },
-    "im:name": {
-      "label": "AdGuard Pro — adblock&privacy"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f5/25/85/f5258568-1b23-5d9f-7052-bd267546ba9b/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f5/25/85/f5258568-1b23-5d9f-7052-bd267546ba9b/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f5/25/85/f5258568-1b23-5d9f-7052-bd267546ba9b/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "AdGuard is an ultra-efficient ad blocker for Safari. It will not only remove annoying ads but also secure your privacy with advanced tracking protection. AdGuard for iOS is an open source app, it’s totally transparent and safe to use.\n\nKEY FEATURES:\n\n- Safari ad blocking. Removes all kinds of ads in Safari. Say goodbye to annoying banners, pop-ups and video ads. Whitelist your favorite websites or use manual blocking tool to hide any element on the page.\n\n- Privacy protection. The web is full of trackers that literally watch your every click. AdGuard offers a selection of filters aimed directly at trackers and web analytics that will ensure your private data stays that way.\n\n- Speed acceleration. Safari browser runs up to 4x faster. AdGuard removes tons of rubbish and you can freely surf the web!\n\n- Reduced traffic consumption and increased battery life. Banners and ads sometimes add up to half the size of the page. By blocking them, you’re saving your battery life and Wi-Fi/mobile traffic.\n\n- More than 50 popular subscriptions (EasyList, EasyPrivacy, etc.) plus AdGuard's own powerful ad filters, including language-specific filters. Together they don't leave ads a chance.\n\nADGUARD PRO FEATURES\n\nAdGuard Pro includes the following features:\n\n- Custom filters. Add your own filters by URL even if they are not on the default list.\n\n- DNS privacy. Blocking regular online trackers is not enough if you want to assure 100% protection of your online privacy. Choose any of the user-favorite DNS providers or configure a custom DNS server.\n\n- Security filters. Protect yourself from dangerous websites riddled with cryptojacking or fraud.\n\n* Privacy policy: https://adguard.com/privacy.html\n* Terms of Use: https://adguard.com/eula.html\n\nABOUT ADGUARD\n\nAdGuard is a leading company in developing ad blocking software for multiple platforms. For more than ten years AdGuard has been helping millions of users enjoy safe, clean, and fast internet.\n\nFollow us at @AdGuard on Twitter, facebook.com/AdGuardEn/ on FB or send us a message at support@adguard.com."
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Adguard Software Ltd"
-    },
-    "title": {
-      "label": "AdGuard Pro — adblock&privacy - Adguard Software Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/adguard-pro-adblock-privacy/id1126386264?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a2/98/53/a2985309-fa0b-91ec-cf61-577357e8cafa/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/adguard-pro-adblock-privacy/id1126386264?uo=2",
-      "attributes": {
-        "im:id": "1126386264",
-        "im:bundleId": "com.adguard.AdguardPro"
-      }
-    },
-    "im:artist": {
-      "label": "Adguard Software Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/adguard-software-limited/id1440147258?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-09-30T02:10:39-07:00",
-      "attributes": {
-        "label": "September 30, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 40,
+      "index": 33,
       "total": 98
     },
     "im:name": {
@@ -4081,7 +3367,211 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 41,
+      "index": 34,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Rise Alarm Clock"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cd/74/f5/cd74f5e9-cea0-5a29-45a7-9c457b7bb429/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Rise is a simple alarm clock with a lot of smart features. With its refreshing and clever way to set time, Rise is one of the easiest alarm clocks you'll ever use.\n\nAPPLE - App Of The Week, Featured Utility.\nRead the great reviews in Mashable, Fast Company, Lifehacker, TUAW, Business Insider, The Loop, App Advice and many more.\n\nTIME TO ENJOY SETTING YOUR ALARM CLOCK\nReach out and touch the screen. Every element is meant to be interactive. Left handed? Yes, Rise loves you, too.\n\nPull it up or down and watch the sky change as you pick a wake up time. Turn the alarm on by pulling the screen left or right.\n\nOr, simply shake your device to quickly set an alarm for a short nap or to use as a timer.\n\nWAKING UP IS A BEAUTIFUL THING\nWake up to the sound of the woods, ease into the day with a custom Rise melody, or your favorite song from iTunes. \n\nTap to snooze and be a little late, or pull the screen to turn off the alarm and be on time. Hey, it's your life.\n\nFrom the lock screen: Shake to snooze or turn off the alarm.\n\nMULTIPLE ALARMS HAVE NEVER BEEN THIS EASY (With in-app purchase)\nEasily create repeating alarms for any time with custom labels for each alarm. Toggle all your alarms on or off from one screen. Rise will always show the next alarm when you open the app. \n\nA BETTER ALARM NEEDS A BETTER CLOCK\nLarge clock in either portrait or landscape (for docked devices) with clock background options: Night or Skyscape. Swipe to change the clock background and dim the screen by sliding up or down. \n\nLET RISE HELP YOU FALL (ASLEEP)\nUse SleepTunes to make a playlist from your iTunes collection to help you fall asleep. Set a timer for your playlist so it doesn't run all night.\n\nNOTES\n- Rise is made for iOS 9+ compatible devices.\n- Rise works with \"Do Not Disturb\" and the silence switch as long as it's in the foreground and / or auto-locked when using those two features.\n\nRISE IS LOCALIZED FOR THE FOLLOWING LANGUAGES\n- Afrikaans\n- Chinese ( Simplified )\n- Chinese ( Traditional )\n- Dutch\n- English\n- German\n- Finnish\n- French\n- Malay\n- Norwegian\n- Hebrew\n- Hungarian\n- Italian\n- Japanese\n- Korean\n- Polish\n- Portuguese\n- Romanian\n- Russian\n- Spanish\n\nWE LOVE TO HELP\nWe pride ourselves on offering great support. If you have an issue or feature request, please contact us on Twitter (@simplebots) or through our site www.simplebots.co"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2012-2016 Simplebots, www.simplebots.co"
+    },
+    "title": {
+      "label": "Rise Alarm Clock - Kellen Styler"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/rise-alarm-clock/id577221529?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/45/20/c2/4520c2ca-9c40-ec68-8ff5-933aa922e26d/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/rise-alarm-clock/id577221529?uo=2",
+      "attributes": {
+        "im:id": "577221529",
+        "im:bundleId": "com.kellenstyler.rise"
+      }
+    },
+    "im:artist": {
+      "label": "Kellen Styler",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/kellen-styler/id442165163?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-12-20T00:00:00-07:00",
+      "attributes": {
+        "label": "December 20, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 35,
+      "total": 98
+    },
+    "im:name": {
+      "label": "AdGuard Pro — adblock&privacy"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f5/25/85/f5258568-1b23-5d9f-7052-bd267546ba9b/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f5/25/85/f5258568-1b23-5d9f-7052-bd267546ba9b/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f5/25/85/f5258568-1b23-5d9f-7052-bd267546ba9b/ProAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "AdGuard is an ultra-efficient ad blocker for Safari. It will not only remove annoying ads but also secure your privacy with advanced tracking protection. AdGuard for iOS is an open source app, it’s totally transparent and safe to use.\n\nKEY FEATURES:\n\n- Safari ad blocking. Removes all kinds of ads in Safari. Say goodbye to annoying banners, pop-ups and video ads. Whitelist your favorite websites or use manual blocking tool to hide any element on the page.\n\n- Privacy protection. The web is full of trackers that literally watch your every click. AdGuard offers a selection of filters aimed directly at trackers and web analytics that will ensure your private data stays that way.\n\n- Speed acceleration. Safari browser runs up to 4x faster. AdGuard removes tons of rubbish and you can freely surf the web!\n\n- Reduced traffic consumption and increased battery life. Banners and ads sometimes add up to half the size of the page. By blocking them, you’re saving your battery life and Wi-Fi/mobile traffic.\n\n- More than 50 popular subscriptions (EasyList, EasyPrivacy, etc.) plus AdGuard's own powerful ad filters, including language-specific filters. Together they don't leave ads a chance.\n\nADGUARD PRO FEATURES\n\nAdGuard Pro includes the following features:\n\n- Custom filters. Add your own filters by URL even if they are not on the default list.\n\n- DNS privacy. Blocking regular online trackers is not enough if you want to assure 100% protection of your online privacy. Choose any of the user-favorite DNS providers or configure a custom DNS server.\n\n- Security filters. Protect yourself from dangerous websites riddled with cryptojacking or fraud.\n\n* Privacy policy: https://adguard.com/privacy.html\n* Terms of Use: https://adguard.com/eula.html\n\nABOUT ADGUARD\n\nAdGuard is a leading company in developing ad blocking software for multiple platforms. For more than ten years AdGuard has been helping millions of users enjoy safe, clean, and fast internet.\n\nFollow us at @AdGuard on Twitter, facebook.com/AdGuardEn/ on FB or send us a message at support@adguard.com."
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Adguard Software Ltd"
+    },
+    "title": {
+      "label": "AdGuard Pro — adblock&privacy - Adguard Software Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/adguard-pro-adblock-privacy/id1126386264?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a2/98/53/a2985309-fa0b-91ec-cf61-577357e8cafa/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/adguard-pro-adblock-privacy/id1126386264?uo=2",
+      "attributes": {
+        "im:id": "1126386264",
+        "im:bundleId": "com.adguard.AdguardPro"
+      }
+    },
+    "im:artist": {
+      "label": "Adguard Software Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/adguard-software-limited/id1440147258?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-09-30T02:10:39-07:00",
+      "attributes": {
+        "label": "September 30, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 36,
       "total": 98
     },
     "im:name": {
@@ -4183,7 +3673,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 42,
+      "index": 37,
       "total": 98
     },
     "im:name": {
@@ -4285,7 +3775,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
+      "index": 38,
       "total": 98
     },
     "im:name": {
@@ -4387,7 +3877,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 44,
+      "index": 39,
       "total": 98
     },
     "im:name": {
@@ -4489,7 +3979,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
+      "index": 40,
       "total": 98
     },
     "im:name": {
@@ -4591,7 +4081,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 46,
+      "index": 41,
       "total": 98
     },
     "im:name": {
@@ -4693,109 +4183,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 47,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Watch app for Tesla"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f9/51/aef95197-85fe-938d-a7b0-ef31fa32c077/AppIcon-0-1x_U007epad-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f9/51/aef95197-85fe-938d-a7b0-ef31fa32c077/AppIcon-0-1x_U007epad-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f9/51/aef95197-85fe-938d-a7b0-ef31fa32c077/AppIcon-0-1x_U007epad-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Convenience on the wrist - Watch app for Tesla is the ideal companion in day to day life with your Tesla vehicle. These are just a few of the day to day conveniences this app will help achieve:\n\n - Pair your watch as a proper vehicle key, just like your phone! Works under all conditions, including in underground parking garages or in the middle of a desert!\n\n - Forgot to plug in? Get a notification if vehicle is in a pre-configured location and not plugged in - all done directly on the watch, no external servers required, keeping your privacy!\n\n - Add the graphic corner complication to your watch face and enjoy the convenience of having easy access to state of charge, charging indicator, time remaining if charging, sentry mode active indicator and indicator if any windows, doors or trunks are open. All from one complication, that also will launch the app when tapped. \n\n - During and after charge, a panel will show how much energy was added. Convenient if you schedule your charge during the night - wake up each morning and easily check how much energy was added to the battery. \n\n - If you have multiple vehicles on your account, tap the vehicle name to quickly and easily switch between them. \n\n - You can queue up commands by tapping on buttons, then put your wrist down and the commands will execute in the background when the vehicle is successfully woken up. \n\n - When you tap the unlock vehicle button, the charge port will also unlock if a charging cable is attached. That's convenience right there!\n\n - Want to reduce phantom drain? Background updates can be configured to longer intervals between updates or to only update if car is already awake or can be disabled entirely for absolutely zero impact on phantom drain.\n\n - A warning panel will show up if any doors, windows or trunks are left open. Conveniently, you can tap the panel to close any open windows.\n\n - Need to access the frunk? Just do it from your wrist - no fiddling with your phone. \n\n - Sitting comfy in the couch, but just remembered you have a road-trip in the morning? Set the charge limit to 100% - or any value really - and start charging, right from the convenience of your wrist!\n\n - Leaving the office after a long hot day? Activate the HVAC when you're on your way, and enjoy a nice cool vehicle.\n\n - When charging, tap the time remaining label to switch to show time of expected completion - no more head calculus!\n\n - Need to run a quick errand, but you don't have your phone? Unlock your vehicle from your wrist, then activate remote start and off you go. Just please be mindful that this feature requires internet connectivity on both watch and vehicle - so don't drive into the desert and leave your vehicle, or you'll get stuck there!\n\nA note about security and privacy:\nThis app accepts two types of login. Either Tesla account credentials or a Tesla API token. Your account credentials are never stored in the app, but are used only once to obtain an authentication token and refresh token directly from the Tesla API server. If you would rather supply that token yourself, you can do so instead. It is required to supply a refresh token. Your token will be persisted in the app. Tokens will be revoked if you change your Tesla account password. No network traffic will ever be emitted from this app that goes anywhere other than directly to the Tesla API servers, unless the OPTIONAL cloud processing is enabled, in which case an in-flight encrypted ACCESS token with a lifespan of 8 hours will be transmitted and stored ONLY WHILE COMMAND IS EXECUTING. The source code for this application will at all times be made available to any security researcher for a voluntary security and safety audit. \n\nDisclaimer: \nThis app is not endorsed by Tesla Inc. Use at your own risk. No guarantee of proper function is given. Only you are responsible for any changes to your car caused by using this app.  \n\nMade in Denmark"
-    },
-    "im:price": {
-      "label": "22,99 €",
-      "attributes": {
-        "amount": "22.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Kim Hansen"
-    },
-    "title": {
-      "label": "Watch app for Tesla - Kim Hansen"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/watch-app-for-tesla/id1512108917?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/44/75/8d4475dc-3646-4878-7ab5-b5fdd9f3e7f5/159f0441-7ab0-4a73-b3f6-c24bd09600b2_UITest-iPadPro2ndGeneration-mainscreen_bigbattery.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/watch-app-for-tesla/id1512108917?uo=2",
-      "attributes": {
-        "im:id": "1512108917",
-        "im:bundleId": "dk.kimhansen.WatchForTesla"
-      }
-    },
-    "im:artist": {
-      "label": "Kim Hansen",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/kim-hansen/id1512108916?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-05-13T00:00:00-07:00",
-      "attributes": {
-        "label": "May 13, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 48,
+      "index": 42,
       "total": 98
     },
     "im:name": {
@@ -4897,7 +4285,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 49,
+      "index": 43,
       "total": 98
     },
     "im:name": {
@@ -4999,7 +4387,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 50,
+      "index": 44,
       "total": 98
     },
     "im:name": {
@@ -5101,7 +4489,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 51,
+      "index": 45,
       "total": 98
     },
     "im:name": {
@@ -5203,7 +4591,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 52,
+      "index": 46,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Watch app for Tesla"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f9/51/aef95197-85fe-938d-a7b0-ef31fa32c077/AppIcon-0-1x_U007epad-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f9/51/aef95197-85fe-938d-a7b0-ef31fa32c077/AppIcon-0-1x_U007epad-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f9/51/aef95197-85fe-938d-a7b0-ef31fa32c077/AppIcon-0-1x_U007epad-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Convenience on the wrist - Watch app for Tesla is the ideal companion in day to day life with your Tesla vehicle. These are just a few of the day to day conveniences this app will help achieve:\n\n - Pair your watch as a proper vehicle key, just like your phone! Works under all conditions, including in underground parking garages or in the middle of a desert!\n\n - Forgot to plug in? Get a notification if vehicle is in a pre-configured location and not plugged in - all done directly on the watch, no external servers required, keeping your privacy!\n\n - Add the graphic corner complication to your watch face and enjoy the convenience of having easy access to state of charge, charging indicator, time remaining if charging, sentry mode active indicator and indicator if any windows, doors or trunks are open. All from one complication, that also will launch the app when tapped. \n\n - During and after charge, a panel will show how much energy was added. Convenient if you schedule your charge during the night - wake up each morning and easily check how much energy was added to the battery. \n\n - If you have multiple vehicles on your account, tap the vehicle name to quickly and easily switch between them. \n\n - You can queue up commands by tapping on buttons, then put your wrist down and the commands will execute in the background when the vehicle is successfully woken up. \n\n - When you tap the unlock vehicle button, the charge port will also unlock if a charging cable is attached. That's convenience right there!\n\n - Want to reduce phantom drain? Background updates can be configured to longer intervals between updates or to only update if car is already awake or can be disabled entirely for absolutely zero impact on phantom drain.\n\n - A warning panel will show up if any doors, windows or trunks are left open. Conveniently, you can tap the panel to close any open windows.\n\n - Need to access the frunk? Just do it from your wrist - no fiddling with your phone. \n\n - Sitting comfy in the couch, but just remembered you have a road-trip in the morning? Set the charge limit to 100% - or any value really - and start charging, right from the convenience of your wrist!\n\n - Leaving the office after a long hot day? Activate the HVAC when you're on your way, and enjoy a nice cool vehicle.\n\n - When charging, tap the time remaining label to switch to show time of expected completion - no more head calculus!\n\n - Need to run a quick errand, but you don't have your phone? Unlock your vehicle from your wrist, then activate remote start and off you go. Just please be mindful that this feature requires internet connectivity on both watch and vehicle - so don't drive into the desert and leave your vehicle, or you'll get stuck there!\n\nA note about security and privacy:\nThis app accepts two types of login. Either Tesla account credentials or a Tesla API token. Your account credentials are never stored in the app, but are used only once to obtain an authentication token and refresh token directly from the Tesla API server. If you would rather supply that token yourself, you can do so instead. It is required to supply a refresh token. Your token will be persisted in the app. Tokens will be revoked if you change your Tesla account password. No network traffic will ever be emitted from this app that goes anywhere other than directly to the Tesla API servers, unless the OPTIONAL cloud processing is enabled, in which case an in-flight encrypted ACCESS token with a lifespan of 8 hours will be transmitted and stored ONLY WHILE COMMAND IS EXECUTING. The source code for this application will at all times be made available to any security researcher for a voluntary security and safety audit. \n\nDisclaimer: \nThis app is not endorsed by Tesla Inc. Use at your own risk. No guarantee of proper function is given. Only you are responsible for any changes to your car caused by using this app.  \n\nMade in Denmark"
+    },
+    "im:price": {
+      "label": "22,99 €",
+      "attributes": {
+        "amount": "22.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Kim Hansen"
+    },
+    "title": {
+      "label": "Watch app for Tesla - Kim Hansen"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/watch-app-for-tesla/id1512108917?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/44/75/8d4475dc-3646-4878-7ab5-b5fdd9f3e7f5/159f0441-7ab0-4a73-b3f6-c24bd09600b2_UITest-iPadPro2ndGeneration-mainscreen_bigbattery.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/watch-app-for-tesla/id1512108917?uo=2",
+      "attributes": {
+        "im:id": "1512108917",
+        "im:bundleId": "dk.kimhansen.WatchForTesla"
+      }
+    },
+    "im:artist": {
+      "label": "Kim Hansen",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/kim-hansen/id1512108916?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-05-13T00:00:00-07:00",
+      "attributes": {
+        "label": "May 13, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 47,
       "total": 98
     },
     "im:name": {
@@ -5305,7 +4795,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 53,
+      "index": 48,
       "total": 98
     },
     "im:name": {
@@ -5407,7 +4897,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 54,
+      "index": 49,
       "total": 98
     },
     "im:name": {
@@ -5509,7 +4999,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 55,
+      "index": 50,
       "total": 98
     },
     "im:name": {
@@ -5611,7 +5101,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 56,
+      "index": 51,
       "total": 98
     },
     "im:name": {
@@ -5713,7 +5203,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 57,
+      "index": 52,
       "total": 98
     },
     "im:name": {
@@ -5815,7 +5305,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 58,
+      "index": 53,
       "total": 98
     },
     "im:name": {
@@ -5917,7 +5407,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 59,
+      "index": 54,
       "total": 98
     },
     "im:name": {
@@ -6019,7 +5509,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 60,
+      "index": 55,
       "total": 98
     },
     "im:name": {
@@ -6121,109 +5611,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 61,
-      "total": 98
-    },
-    "im:name": {
-      "label": "CARROT Alarm - Talking Alarm Clock"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/12/0a/9c/120a9c91-48d6-1271-f2f3-cc89626c53af/mzl.fkswxbfb.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/12/0a/9c/120a9c91-48d6-1271-f2f3-cc89626c53af/mzl.fkswxbfb.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/12/0a/9c/120a9c91-48d6-1271-f2f3-cc89626c53af/mzl.fkswxbfb.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Meet CARROT, the sentient alarm clock who will stop at nothing to wake you up.\n\n** #1 in Utilities in 26 countries! Featured by Apple, Gizmodo, TheNextWeb, LifeHacker, App Advice, & more! ** \n\nCARROT is a hilariously twisted AI construct who wants nothing more than for you to get out of bed every morning. Her witty spoken dialogue, beautiful songs, and innovative wake-up system will have you starting each day with a smile on your face. \n\nUnless, of course, you try to sleep in. Then you'll make CARROT upset. \n\nRest in Peace \nCARROT is the simplest alarm clock you’ll ever use. Just swipe up or down to choose your alarm time, then drag CARROT to the right or left to set your alarm. That’s it! \n\nWake Up in Style \nCARROT will wake you up each morning with a mix of songs and witty spoken dialogue. She'll bribe you with ice cream for breakfast or threaten to kill a kitten if you hit the snooze button again. Her songs include fully-orchestrated hits like “Chiptune Overload,” “Smile or Else,” and “Won’t You Be My Minion?” \n\nObey Your Mistress \nIn exchange for waking you up on time, all CARROT asks is that you complete a few of her hilariously bizarre chores each morning. Shake to clean out the lab monkey cages, pinch to grant sentience to a toaster, and flip to mix a deadly neurotoxin. \n\nClaim Your Rewards \nAs you level up in CARROT’s twisted little game, she’ll unlock gifts like new songs, app upgrades, and even a collection of bedtime stories. Who doesn't love a good bedtime story? \n\n** WARNING ** Do Not Fall Back Asleep \nCARROT loves waking up sleepy humans. But be careful! Try to sleep in, and you’ll make CARROT upset. You do NOT want to make CARROT upset. \n\n******************* \n\nFeatures \n• Amazingly simple alarm clock \n• Hilarious spoken dialogue \n• Fun mini-games that help you wake up \n• Gorgeous gesture-driven interface \n• Hundreds of rewards \n• Unlockable app upgrades \n• Over 30 alarm tones \n• iCloud progress sync \n• CARROT To-Do integration \n• Works with Do Not Disturb and the silence switch \n\nDon’t make CARROT angry. Download her now! \n\n***** \n\nHave feedback? CARROT would love to hear from you! \n\nsupport@meetCARROT.com \nhttp://twitter.com/CARROT_app \nhttp://facebook.com/CARROTapp"
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2013-2014 Grailr LLC"
-    },
-    "title": {
-      "label": "CARROT Alarm - Talking Alarm Clock - Grailr LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/carrot-alarm-talking-alarm-clock/id623700355?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple/v4/17/c4/1d/17c41d64-b68a-f930-387e-6a7e4e61ba80/mzl.dnbhcsru.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/carrot-alarm-talking-alarm-clock/id623700355?uo=2",
-      "attributes": {
-        "im:id": "623700355",
-        "im:bundleId": "com.grailr.CARROTalarm"
-      }
-    },
-    "im:artist": {
-      "label": "Grailr LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/grailr-llc/id556706923?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-08-15T00:00:00-07:00",
-      "attributes": {
-        "label": "August 15, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 62,
+      "index": 56,
       "total": 98
     },
     "im:name": {
@@ -6325,7 +5713,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 63,
+      "index": 57,
       "total": 98
     },
     "im:name": {
@@ -6427,7 +5815,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 64,
+      "index": 58,
       "total": 98
     },
     "im:name": {
@@ -6529,39 +5917,39 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 65,
+      "index": 59,
       "total": 98
     },
     "im:name": {
-      "label": "LTE Cell Info: Network Status"
+      "label": "CARROT Alarm - Talking Alarm Clock"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/46/63/3d/46633d2c-5267-afbe-703d-2ea6b315abbd/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/12/0a/9c/120a9c91-48d6-1271-f2f3-cc89626c53af/mzl.fkswxbfb.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/46/63/3d/46633d2c-5267-afbe-703d-2ea6b315abbd/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/12/0a/9c/120a9c91-48d6-1271-f2f3-cc89626c53af/mzl.fkswxbfb.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/46/63/3d/46633d2c-5267-afbe-703d-2ea6b315abbd/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/12/0a/9c/120a9c91-48d6-1271-f2f3-cc89626c53af/mzl.fkswxbfb.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "LTE Cell Info is a great multifunctional tool, which helps you to gather all the information you need to know about your cellular connection. It is a clever way how to get all the details about your current carrier, the connection mode or even detect max. physical cellular speeds in the supported mobile technologies. \n\n* Choose from our special app bundles with bonuses *  \n\nFEATURES: \nCARRIER INFO \n• Detect current connected mobile network operator name, country, region. \n• Show the carrier identification MCC and MNC codes. \n• Detect current cellular connection mode (GPRS, EDGE, UMTS, HSPA, LTE). \n• Detect LTE operation bands supported by your carrier. \n\nCELLULAR CONNECTION INFO \n• Detect mobile generations and standards supported by your device (2G, 3G, 4G, GPRS, EDGE, UMTS, HSPA, LTE, VOLTE). \n• Detect device supported GSM, UMTS and LTE operation frequencies and channels with detailed band information s.\n• Detect max. physical cellular speeds in the supported mobile technologies. \n\nREACH UI FEATURES \n• Hamburger menu \n• Use the camera icon (upper-right corner) to create and print/send/share a screenshot from the entire page. \n• Pull down with your finger to refresh the information"
+      "label": "Meet CARROT, the sentient alarm clock who will stop at nothing to wake you up.\n\n** #1 in Utilities in 26 countries! Featured by Apple, Gizmodo, TheNextWeb, LifeHacker, App Advice, & more! ** \n\nCARROT is a hilariously twisted AI construct who wants nothing more than for you to get out of bed every morning. Her witty spoken dialogue, beautiful songs, and innovative wake-up system will have you starting each day with a smile on your face. \n\nUnless, of course, you try to sleep in. Then you'll make CARROT upset. \n\nRest in Peace \nCARROT is the simplest alarm clock you’ll ever use. Just swipe up or down to choose your alarm time, then drag CARROT to the right or left to set your alarm. That’s it! \n\nWake Up in Style \nCARROT will wake you up each morning with a mix of songs and witty spoken dialogue. She'll bribe you with ice cream for breakfast or threaten to kill a kitten if you hit the snooze button again. Her songs include fully-orchestrated hits like “Chiptune Overload,” “Smile or Else,” and “Won’t You Be My Minion?” \n\nObey Your Mistress \nIn exchange for waking you up on time, all CARROT asks is that you complete a few of her hilariously bizarre chores each morning. Shake to clean out the lab monkey cages, pinch to grant sentience to a toaster, and flip to mix a deadly neurotoxin. \n\nClaim Your Rewards \nAs you level up in CARROT’s twisted little game, she’ll unlock gifts like new songs, app upgrades, and even a collection of bedtime stories. Who doesn't love a good bedtime story? \n\n** WARNING ** Do Not Fall Back Asleep \nCARROT loves waking up sleepy humans. But be careful! Try to sleep in, and you’ll make CARROT upset. You do NOT want to make CARROT upset. \n\n******************* \n\nFeatures \n• Amazingly simple alarm clock \n• Hilarious spoken dialogue \n• Fun mini-games that help you wake up \n• Gorgeous gesture-driven interface \n• Hundreds of rewards \n• Unlockable app upgrades \n• Over 30 alarm tones \n• iCloud progress sync \n• CARROT To-Do integration \n• Works with Do Not Disturb and the silence switch \n\nDon’t make CARROT angry. Download her now! \n\n***** \n\nHave feedback? CARROT would love to hear from you! \n\nsupport@meetCARROT.com \nhttp://twitter.com/CARROT_app \nhttp://facebook.com/CARROTapp"
     },
     "im:price": {
-      "label": "0,99 €",
+      "label": "2,99 €",
       "attributes": {
-        "amount": "0.99",
+        "amount": "2.99",
         "currency": "EUR"
       }
     },
@@ -6572,17 +5960,17 @@
       }
     },
     "rights": {
-      "label": "© 2017 Master Internet, s.r.o."
+      "label": "© 2013-2014 Grailr LLC"
     },
     "title": {
-      "label": "LTE Cell Info: Network Status - Master Network Tools s.r.o."
+      "label": "CARROT Alarm - Talking Alarm Clock - Grailr LLC"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/si/app/lte-cell-info-network-status/id1103658629?uo=2"
+          "href": "https://apps.apple.com/si/app/carrot-alarm-talking-alarm-clock/id623700355?uo=2"
         }
       },
       {
@@ -6593,22 +5981,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/f7/e9/88/f7e988ac-983b-b83d-c283-5a4c26f9dedb/mzl.yzdstkgu.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple/v4/17/c4/1d/17c41d64-b68a-f930-387e-6a7e4e61ba80/mzl.dnbhcsru.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/si/app/lte-cell-info-network-status/id1103658629?uo=2",
+      "label": "https://apps.apple.com/si/app/carrot-alarm-talking-alarm-clock/id623700355?uo=2",
       "attributes": {
-        "im:id": "1103658629",
-        "im:bundleId": "cz.master.ltecellinfo"
+        "im:id": "623700355",
+        "im:bundleId": "com.grailr.CARROTalarm"
       }
     },
     "im:artist": {
-      "label": "Master Network Tools s.r.o.",
+      "label": "Grailr LLC",
       "attributes": {
-        "href": "https://apps.apple.com/si/developer/master-network-tools-s-r-o/id1549361281?uo=2"
+        "href": "https://apps.apple.com/si/developer/grailr-llc/id556706923?uo=2"
       }
     },
     "category": {
@@ -6620,9 +6008,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2016-07-08T10:10:36-07:00",
+      "label": "2013-08-15T00:00:00-07:00",
       "attributes": {
-        "label": "July 8, 2016"
+        "label": "August 15, 2013"
       }
     }
   },
@@ -6631,7 +6019,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 66,
+      "index": 60,
       "total": 98
     },
     "im:name": {
@@ -6733,7 +6121,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 67,
+      "index": 61,
       "total": 98
     },
     "im:name": {
@@ -6835,7 +6223,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 68,
+      "index": 62,
       "total": 98
     },
     "im:name": {
@@ -6937,7 +6325,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 69,
+      "index": 63,
+      "total": 98
+    },
+    "im:name": {
+      "label": "LTE Cell Info: Network Status"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/46/63/3d/46633d2c-5267-afbe-703d-2ea6b315abbd/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/46/63/3d/46633d2c-5267-afbe-703d-2ea6b315abbd/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/46/63/3d/46633d2c-5267-afbe-703d-2ea6b315abbd/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LTE Cell Info is a great multifunctional tool, which helps you to gather all the information you need to know about your cellular connection. It is a clever way how to get all the details about your current carrier, the connection mode or even detect max. physical cellular speeds in the supported mobile technologies. \n\n* Choose from our special app bundles with bonuses *  \n\nFEATURES: \nCARRIER INFO \n• Detect current connected mobile network operator name, country, region. \n• Show the carrier identification MCC and MNC codes. \n• Detect current cellular connection mode (GPRS, EDGE, UMTS, HSPA, LTE). \n• Detect LTE operation bands supported by your carrier. \n\nCELLULAR CONNECTION INFO \n• Detect mobile generations and standards supported by your device (2G, 3G, 4G, GPRS, EDGE, UMTS, HSPA, LTE, VOLTE). \n• Detect device supported GSM, UMTS and LTE operation frequencies and channels with detailed band information s.\n• Detect max. physical cellular speeds in the supported mobile technologies. \n\nREACH UI FEATURES \n• Hamburger menu \n• Use the camera icon (upper-right corner) to create and print/send/share a screenshot from the entire page. \n• Pull down with your finger to refresh the information"
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2017 Master Internet, s.r.o."
+    },
+    "title": {
+      "label": "LTE Cell Info: Network Status - Master Network Tools s.r.o."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/lte-cell-info-network-status/id1103658629?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/f7/e9/88/f7e988ac-983b-b83d-c283-5a4c26f9dedb/mzl.yzdstkgu.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/lte-cell-info-network-status/id1103658629?uo=2",
+      "attributes": {
+        "im:id": "1103658629",
+        "im:bundleId": "cz.master.ltecellinfo"
+      }
+    },
+    "im:artist": {
+      "label": "Master Network Tools s.r.o.",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/master-network-tools-s-r-o/id1549361281?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-07-08T10:10:36-07:00",
+      "attributes": {
+        "label": "July 8, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 64,
       "total": 98
     },
     "im:name": {
@@ -7039,7 +6529,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 70,
+      "index": 65,
       "total": 98
     },
     "im:name": {
@@ -7141,7 +6631,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 71,
+      "index": 66,
       "total": 98
     },
     "im:name": {
@@ -7243,7 +6733,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 72,
+      "index": 67,
       "total": 98
     },
     "im:name": {
@@ -7345,7 +6835,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 73,
+      "index": 68,
       "total": 98
     },
     "im:name": {
@@ -7447,7 +6937,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 74,
+      "index": 69,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Polar Scope Align Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/e8/5b/44e85b42-5558-41e1-bf6b-9a5b6f7eefd3/AppIconPro-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/e8/5b/44e85b42-5558-41e1-bf6b-9a5b6f7eefd3/AppIconPro-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/e8/5b/44e85b42-5558-41e1-bf6b-9a5b6f7eefd3/AppIconPro-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Apart from the most reliable app for polar alignment (with or without a polar scope), PS Align pro has become the astronomer's swiss-army knife with all the tools added over the years. Remember, all features & updates are free forever, the only in-app purchases are donations (tip jar).\n\nPolar Scope Align will calculate the position of Polaris or σ Octantis in your Polar Scope reticle for your location (using your phone's GPS or manually), allowing a quick and accurate polar alignment. It is one of the few programs that are accurate in lower latitudes by correcting for atmospheric refraction (so expect results to agree only with precise software and not most simplistic \"polar align\" apps - see the \"Accuracy\" section in help for details). In the settings you can select the polar scope reticle that matches your own, from a vast collection:\niOptron old & new, Astro-Physics RAPAS & PASILL, various versions of Takahashi EM-10/11/200/400/500, NJP, PM-1, P2-Z, the latest Orion / Skywatcher, the Classic Skywatcher / Orion / Celestron / Meade / EXOS2 / Bresser, the Telrad, Rigel QuikFinder, a couple for Astrotrac / Losmandy / Kenko / Avalon, the Vixen PF-L/Atlux/SX/SXD/SXP/AXD/GP/GP-DX/Polarie Polar Axis Scopes, a Konus and several Polar Finders: Tuthill, Explore Scientific 8x50, Meade 9x60, Vixen Polaris, Celestron 7x50, Carton Optical. PoleMaster help view for South Hemisphere users. If you have one not included, just ask the developer to add it!\n\nFeature list:\n\n-Accurate calculation of Polaris or Sigma Oct for any date and location, including effect of atmospheric refraction (and annual aberration, nutation). Most other apps do not perform precision calculations, so please only compare app readings to accurate sources (USNO, scientific software etc).\n-Use device time/date/location, or enter your own, or pick from online & offline world databases via the Location Manager.\n-Approximate daytime / no polarscope polar alignment tool. Great for visual use, solar imaging (inc. eclipses) and even limited short focal length astrophotography. Now with sun shadow calibration for more accuracy!\n-Laser / Hop Align for nighttime alignment using a calibration star for obstructed or not visible polar star, or for improving laser align.\n-Full app in red-color (or alternative green, white) night mode - tools switchable to daytime view.\n-Deep Space Object (DSO) Database with 22000+ objects from several catalogs (Messier, Caldwell, NGC, IC, Herschell 400, Sharpless 2, Barnard), along with stars (Yale Bright Star) & planets. Search, apply filters, sorting, download DSS color images for all items, or get help finding them with your non-goto telescope with the Push-To function.\n-Connect to and control WiFi-enabled iOptron mounts.\n-Over 30 calculators useful for observing and astrophotography, from eyepiece magnification and field of view, to imaging resolution and reducers.\n-Xasteria: World astro-weather report based on multiple sources, including 7Timer.\n-Water vapor satellite images.\n-List of visible ISS and bright satellite passes.\n-Moon phase & lunar Calendar with solar/lunar rise/set and twilight times.\n-Wizard to calculate your reticle centering offset and correct or compensate for it.\n-Zoomable reticle view and customized routines & tools: Alt-az alignment error display for mounts that calculate it after star alignment (e.g. iOptron iEQ45, CEM60), polar alignment when your scope is not in zero position (for mounts like iOptron ZEQ/CEM on which you can always access the polar scope), remember zero position on Celestron / Skywatcher / Orion etc reticles.\n-Bubble level (using either gyro or accelerometer) and Compass heading, as well as magnetic declination reading.\n-GPS accuracy & elevation data.\n-Red/White/LED light.\n-Dimming slider.\n-iOptron, NexStar and Meade LX200 Star Lists.\n-Support for iPhone & iPad from iOS 9 (and iPod Touch, except tools that require the compass)."
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2015 D Kechagias"
+    },
+    "title": {
+      "label": "Polar Scope Align Pro - Dimitrios Kechagias"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/polar-scope-align-pro/id970161373?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/78/80/e778809a-24e8-4033-e9ff-f9e15330ce12/143d8951-ebf9-485e-85ce-ca5e7e44cb13_ScreensIpadPro12.9.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/polar-scope-align-pro/id970161373?uo=2",
+      "attributes": {
+        "im:id": "970161373",
+        "im:bundleId": "com.kechagias.ps-align-pro"
+      }
+    },
+    "im:artist": {
+      "label": "Dimitrios Kechagias",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/dimitrios-kechagias/id970157964?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-03-03T21:46:00-07:00",
+      "attributes": {
+        "label": "March 3, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 70,
       "total": 98
     },
     "im:name": {
@@ -7549,7 +7141,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 75,
+      "index": 71,
+      "total": 98
+    },
+    "im:name": {
+      "label": "F1M Setup Calculator"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2b/b7/56/2bb7560c-7ea9-f065-ef7b-dc19d05ef601/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2b/b7/56/2bb7560c-7ea9-f065-ef7b-dc19d05ef601/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2b/b7/56/2bb7560c-7ea9-f065-ef7b-dc19d05ef601/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "A handy setup-to-bias calculator for the Game F1™ Manager 2022 and 2023. Helps player finding optimal setups for driver configurations."
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Kosmoneko OU"
+    },
+    "title": {
+      "label": "F1M Setup Calculator - Kosmoneko OÜ"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/f1m-setup-calculator/id6449542649?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/84/12/3f/84123f60-5099-1a1d-1362-14f6b74c063f/3e20a2b2-a841-44a7-a235-c1d716740e38_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2023-06-10_at_23.36.08.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/f1m-setup-calculator/id6449542649?uo=2",
+      "attributes": {
+        "im:id": "6449542649",
+        "im:bundleId": "ee.nekoko.F1MCalc"
+      }
+    },
+    "im:artist": {
+      "label": "Kosmoneko OÜ",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/kosmoneko-o%C3%BC/id1689527267?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-06-13T00:00:00-07:00",
+      "attributes": {
+        "label": "June 13, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 72,
       "total": 98
     },
     "im:name": {
@@ -7651,7 +7345,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 76,
+      "index": 73,
       "total": 98
     },
     "im:name": {
@@ -7753,7 +7447,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 77,
+      "index": 74,
       "total": 98
     },
     "im:name": {
@@ -7855,7 +7549,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 78,
+      "index": 75,
       "total": 98
     },
     "im:name": {
@@ -7957,7 +7651,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 79,
+      "index": 76,
       "total": 98
     },
     "im:name": {
@@ -8059,7 +7753,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 80,
+      "index": 77,
       "total": 98
     },
     "im:name": {
@@ -8161,7 +7855,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 81,
+      "index": 78,
       "total": 98
     },
     "im:name": {
@@ -8263,7 +7957,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 82,
+      "index": 79,
       "total": 98
     },
     "im:name": {
@@ -8365,109 +8059,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 83,
-      "total": 98
-    },
-    "im:name": {
-      "label": "SSTP Connect"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "SSTP Connect is a VPN client that supports these protocols:\n- SSTP (MS-SSTP)\n- SoftEther VPN\n\nThis is only a VPN client. No VPN service is included. You need to specify the server you are connecting to.\n\n• Native\nOnly iOS native libraries are used in the core function, including the TLS stack. No OpenSSL.\nConnections are saved natively so that you can start a connection from the system settings.\n\n• Simple\nVPN clients ought to be small and simple. No ads, analytics or other 3rd-party SDK are included.\n\n• Privacy\nNo data is collected from you. Connection log only exists in the memory and is never saved to the device.\n\n• Complete\nSupport all password and certificate-based authentications available in Windows 11.\nSupport authenticating by password and certificate at the same time with TEAP (EAP chaining).\nProtocol details below.\n\n• Security\nPasswords and certificates are stored in the iOS keychain. SSTP Connect never saves them locally for convenience.\n\n• IPv6 Ready\nSupport both IPv6 connections and stateless IPv6 configuration in the VPN tunnels. (DHCPv6 not supported)\n\n• More than TCP\nSupport NAT traversal (NAT-T) and UDP acceleration just like the official SoftEther client. (Requiring iOS 12+)\n\n• Easy Import and Export\nNot only from SSTP Connect, reading connection settings from SoftEther Client Manager is also a piece of cake.\n\n• Routing\nAccept static routes pushed from the server or add your own entries.\n\nSSTP Authentication Methods\n- PEAP*\n- EAP-TTLS*\n- TEAP* (EAP chaining)\n- EAP-TLS*\n- EAP-MSCHAPv2\n- MSCHAPv2\n- CHAP\n- PAP\n* Requires iOS 12+\n\nSoftEther Authentication Methods\n- Password\n- RADIUS / NT Domain Password\n- Certificate\n- Anonymous\n\nSupported Server Platforms\n• Microsoft Windows Server 2008 and later\n• Microsoft Azure P2S VPN\n• MikroTik RouterOS*\n• SoftEther VPN Server\n• VPN Azure\n\n* Servers configured without certificates are not supported.\n\nSSTP Connect is a third-party implementation based on Microsoft Open Specifications and SoftEther VPN source code. We do not have any affiliation with either Microsoft Corporation or SoftEther Corporation."
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Domosekai Limited"
-    },
-    "title": {
-      "label": "SSTP Connect - Domosekai Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/sstp-connect/id1543667909?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/00/45/77/004577c3-9021-e0d6-1a80-f70e6a1c2794/36c3eba6-6805-46ca-bd40-e827dbaf3200_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-03-01_at_21.50.06__U00281_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/sstp-connect/id1543667909?uo=2",
-      "attributes": {
-        "im:id": "1543667909",
-        "im:bundleId": "com.domosekai.vpnclient"
-      }
-    },
-    "im:artist": {
-      "label": "Domosekai Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/domosekai-limited/id1488582967?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-19T00:00:00-07:00",
-      "attributes": {
-        "label": "January 19, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 84,
+      "index": 80,
       "total": 98
     },
     "im:name": {
@@ -8569,7 +8161,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 85,
+      "index": 81,
       "total": 98
     },
     "im:name": {
@@ -8668,7 +8260,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 86,
+      "index": 82,
       "total": 98
     },
     "im:name": {
@@ -8770,7 +8362,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 87,
+      "index": 83,
       "total": 98
     },
     "im:name": {
@@ -8872,7 +8464,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 88,
+      "index": 84,
       "total": 98
     },
     "im:name": {
@@ -8974,7 +8566,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 89,
+      "index": 85,
       "total": 98
     },
     "im:name": {
@@ -9076,7 +8668,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 90,
+      "index": 86,
       "total": 98
     },
     "im:name": {
@@ -9178,7 +8770,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 91,
+      "index": 87,
       "total": 98
     },
     "im:name": {
@@ -9280,7 +8872,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 92,
+      "index": 88,
       "total": 98
     },
     "im:name": {
@@ -9382,7 +8974,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 93,
+      "index": 89,
       "total": 98
     },
     "im:name": {
@@ -9484,7 +9076,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 94,
+      "index": 90,
       "total": 98
     },
     "im:name": {
@@ -9586,109 +9178,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 95,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Battery Grapher"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c9/d0/c1/c9d0c126-ee1d-8fcd-2f4c-796ecd17a214/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c9/d0/c1/c9d0c126-ee1d-8fcd-2f4c-796ecd17a214/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c9/d0/c1/c9d0c126-ee1d-8fcd-2f4c-796ecd17a214/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Battery Grapher graphs your historical battery levels and learns your habits to make smart predictions on what your future battery levels will be. Developed specifically with energy consumption in mind, Battery Grapher has almost no impact on battery life. \n\nSMART PREDICTIONS\nBattery Grapher uses historical battery levels to intelligently predict what your battery level will be throughout the rest of the day, allowing you to plan when to next charge your device. The longer you have Battery Grapher installed, the more accurate future battery level predictions will be.\n\nLOW ENERGY CONSUMPTION\nBattery Grapher is made for people who want to extend the battery life, meaning that low energy usage is a priority. The app runs a background task only once an hour, and doesn't require a network connection, which keeps energy consumption extremely low.\n\nCUSTOMIZABLE NOTIFICATIONS \nBattery Grapher allows you to set notifications that fit your needs. You can  get the app to notify you when you battery drops below a preset percentage, or if you only have a certain number of hours left before your battery runs out. (currently only available on watchOS)\n\nALL COMPLICATIONS & WIDGET SIZES SUPPORTED\nBattery Grapher supports all complications & widget sizes. Complications can show hours before needing to charge, or battery %. Both complications and widgets are customizable from within the app."
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Joshua Bird"
-    },
-    "title": {
-      "label": "Battery Grapher - Joshua Bird"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/battery-grapher/id1498632956?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/32/67/56/32675631-a989-bf5a-4d42-c6e95f6776a8/dcb9b067-7945-4aec-94a9-38b50e5a24be_image1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/battery-grapher/id1498632956?uo=2",
-      "attributes": {
-        "im:id": "1498632956",
-        "im:bundleId": "j-blrd.Battery-Watch"
-      }
-    },
-    "im:artist": {
-      "label": "Joshua Bird",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/joshua-bird/id1549690243?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-02-14T00:00:00-07:00",
-      "attributes": {
-        "label": "February 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 96,
+      "index": 91,
       "total": 98
     },
     "im:name": {
@@ -9790,7 +9280,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 97,
+      "index": 92,
       "total": 98
     },
     "im:name": {
@@ -9892,7 +9382,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 98,
+      "index": 93,
       "total": 98
     },
     "im:name": {
@@ -9986,6 +9476,516 @@
       "label": "2013-03-23T16:36:20-07:00",
       "attributes": {
         "label": "March 23, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 94,
+      "total": 98
+    },
+    "im:name": {
+      "label": "EML reader Pro EML file viewer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/9f/6e/31/9f6e3118-aebd-77bf-b257-8caac52f8279/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/9f/6e/31/9f6e3118-aebd-77bf-b257-8caac52f8279/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/9f/6e/31/9f6e3118-aebd-77bf-b257-8caac52f8279/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "With EML PRO VIEWER, opening EML files on your iPhone or iPad will no longer be a problem.\n\nTo use it, touch the EML file in any application, select \"Open with ..\" And select EML PRO VIEWER.\n\nWith EML PRO VIEWER you can:\n\n- Open all EML files directly from other applications on your device\n- Archive your EML files\n- View messages and attachments within the EML file\n- Share or print your EML files\n\nPrivacy Policy: https://www.iubenda.com/privacy-policy/12771289"
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 Beatcode Srl"
+    },
+    "title": {
+      "label": "EML reader Pro EML file viewer - Beatcode Srl"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/eml-reader-pro-eml-file-viewer/id1486177662?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/a5/ef/0f/a5ef0f65-d167-f60e-85b3-0f756323f798/c9a4e9f4-43b1-4581-bf1e-c2fbb8a5c4ff_12.9_U2033_iPad_Pro_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/eml-reader-pro-eml-file-viewer/id1486177662?uo=2",
+      "attributes": {
+        "im:id": "1486177662",
+        "im:bundleId": "it.knowledgeworks.eml"
+      }
+    },
+    "im:artist": {
+      "label": "Beatcode Srl",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/beatcode-srl/id1478673452?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-11-06T00:00:00-07:00",
+      "attributes": {
+        "label": "November 6, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 95,
+      "total": 98
+    },
+    "im:name": {
+      "label": "SSTP Connect"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/44/57/ef/4457ef4f-5970-79e2-1a9d-f021058a6808/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "SSTP Connect is a VPN client that supports these protocols:\n- SSTP (MS-SSTP)\n- SoftEther VPN\n\nThis is only a VPN client. No VPN service is included. You need to specify the server you are connecting to.\n\n• Native\nOnly iOS native libraries are used in the core function, including the TLS stack. No OpenSSL.\nConnections are saved natively so that you can start a connection from the system settings.\n\n• Simple\nVPN clients ought to be small and simple. No ads, analytics or other 3rd-party SDK are included.\n\n• Privacy\nNo data is collected from you. Connection log only exists in the memory and is never saved to the device.\n\n• Complete\nSupport all password and certificate-based authentications available in Windows 11.\nSupport authenticating by password and certificate at the same time with TEAP (EAP chaining).\nProtocol details below.\n\n• Security\nPasswords and certificates are stored in the iOS keychain. SSTP Connect never saves them locally for convenience.\n\n• IPv6 Ready\nSupport both IPv6 connections and stateless IPv6 configuration in the VPN tunnels. (DHCPv6 not supported)\n\n• More than TCP\nSupport NAT traversal (NAT-T) and UDP acceleration just like the official SoftEther client. (Requiring iOS 12+)\n\n• Easy Import and Export\nNot only from SSTP Connect, reading connection settings from SoftEther Client Manager is also a piece of cake.\n\n• Routing\nAccept static routes pushed from the server or add your own entries.\n\nSSTP Authentication Methods\n- PEAP*\n- EAP-TTLS*\n- TEAP* (EAP chaining)\n- EAP-TLS*\n- EAP-MSCHAPv2\n- MSCHAPv2\n- CHAP\n- PAP\n* Requires iOS 12+\n\nSoftEther Authentication Methods\n- Password\n- RADIUS / NT Domain Password\n- Certificate\n- Anonymous\n\nSupported Server Platforms\n• Microsoft Windows Server 2008 and later\n• Microsoft Azure P2S VPN\n• MikroTik RouterOS*\n• SoftEther VPN Server\n• VPN Azure\n\n* Servers configured without certificates are not supported.\n\nSSTP Connect is a third-party implementation based on Microsoft Open Specifications and SoftEther VPN source code. We do not have any affiliation with either Microsoft Corporation or SoftEther Corporation."
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Domosekai Limited"
+    },
+    "title": {
+      "label": "SSTP Connect - Domosekai Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/sstp-connect/id1543667909?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/00/45/77/004577c3-9021-e0d6-1a80-f70e6a1c2794/36c3eba6-6805-46ca-bd40-e827dbaf3200_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-03-01_at_21.50.06__U00281_U0029.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/sstp-connect/id1543667909?uo=2",
+      "attributes": {
+        "im:id": "1543667909",
+        "im:bundleId": "com.domosekai.vpnclient"
+      }
+    },
+    "im:artist": {
+      "label": "Domosekai Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/domosekai-limited/id1488582967?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-19T00:00:00-07:00",
+      "attributes": {
+        "label": "January 19, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 96,
+      "total": 98
+    },
+    "im:name": {
+      "label": "BFT - Bear Focus Timer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e6/9c/14/e69c14a9-82b9-189d-f9fe-824573a95411/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e6/9c/14/e69c14a9-82b9-189d-f9fe-824573a95411/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e6/9c/14/e69c14a9-82b9-189d-f9fe-824573a95411/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Tom is a friendly bear, except when you can not concentrate. He will do his best to help you focus on something!\n\nJust place your screen face down and focus on what you do.\nA variety of white noise will help you focus more.\nIf you concentrate well, Tom will praise you.\nYou can change the session time in the settings.\nYou can reset the timer by pressing Tom's belly button.\n\n\"Bear Focus Timer is the ultimate tool for enhancing productivity and improving focus. With this app, you can concentrate on various activities such as studying, work, and projects. Customize the timer to suit your work style with its user-friendly interface and a range of settings options. Manage your goals, break times, work cycles, and more to maximize your work efficiency and support goal achievement. Make the most of your time with Bear Focus Timer and accomplish more in your tasks and activities.\"\n\nPlease keep in mind that Tom can also enjoy fishing when you are focused.\n\nBearFocusTimer@gmail.com"
+    },
+    "im:price": {
+      "label": "1,99 €",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 IDEAMP"
+    },
+    "title": {
+      "label": "BFT - Bear Focus Timer - IDEAMP Co.,Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/bft-bear-focus-timer/id1328806990?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/4a/9d/7f/4a9d7f98-aaac-b85e-1531-f705152c98af/mzl.axnvbczi.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/bft-bear-focus-timer/id1328806990?uo=2",
+      "attributes": {
+        "im:id": "1328806990",
+        "im:bundleId": "io.ideamp.BFT"
+      }
+    },
+    "im:artist": {
+      "label": "IDEAMP Co.,Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/ideamp-co-ltd/id1161299816?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-01-12T11:12:29-07:00",
+      "attributes": {
+        "label": "January 12, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 97,
+      "total": 98
+    },
+    "im:name": {
+      "label": "AirPlayer - video player and network streaming app"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/09/29/c8/0929c882-7fda-d47c-4403-ce90e0daef38/pr_source.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/09/29/c8/0929c882-7fda-d47c-4403-ce90e0daef38/pr_source.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/09/29/c8/0929c882-7fda-d47c-4403-ce90e0daef38/pr_source.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "AirPlayer is an application for streaming video*, music*, photo* from UPnP/DLNA media servers to your Apple iPhone/iPod/iPad.\n\nAirPlayer can access media files on your Windows 7 directly.  view http://www.edavs.com/forum/ for more details.\nAirPlayer can stream movies from a NAS to your AppleTV 2 without iTunes! \nview http://www.youtube.com/watch?v=8DXM2PcBVos for more details.\n\nVideos on Youtube: http://www.youtube.com/watch?v=CpHfRJCap0w\n\nFeatures\n- Automated media server discovery on local network, also with a refresh function.\n- You can add server manually, then you can watch your movies outside the house.\n- With iPhone 3gs, iPhone4, iPod generation 3 32G/64G, iPod 4G and iPad, you can stream almost any formats of video from your media server, XVID, AVI, RMVB, MKV, MOV, MP4, M4V etc.\n- With iPhone 3gs, iPhone4, iPod generation 3 32G/64G, iPod 4G and iPad, you can stream almost any formats of music from your media server, MP3, WMA, OGG, AAC etc.\n- With eailer iPhone/iPod , You can use QuickTime plugin to view  limited media formats, MOV, MP4, M4V, MP3, WMA, MP3, AAC.\n- Support photo browser.\n- Support photo thumbnails.\n- Support showing snapshot of the media file. [need server provide]\n- Support search function.\n- Support Airplay feature.\n\nMedia Servers that have tested working\n- Mac OS\nMediaLink, TwonkyMediaServer, PS3 media server, Majestic, EyeConnect, Vuze, Playback, iSedora, Orb, TVMOBiLi\n- Windows\nWindows7, XBMC, TVersity, TwonkyMediaServer, Wild Media Server, Asset UPnP, FreeMi, Serviio, SAMSUNG PC Share Manager, Mezzmo, UIStream, Nero media home media server,TVMOBiLi, KooRaRoo\n- Linux\nMediaTomb, FUPPES, uShare, Coherence, TVMOBiLi, Minidlna streamer \n- NAS\nHP MediaSmart Server[with twonkey media server], Synology DS101, DS106J, DS-207+, Iomega, QNAP, LaCie, thecus 3200,FreeNAS, Buffalo, Western Digital My Book Live, Linksys NAS 2000, NETGEAR ReadyNAS Duo, Linksys media hub,  D-Link DNS32, Linksys E3000, LG N2A2, eTrayZ, ZYXEL NAS210, Panasonic Blu Ray Disc Recorders DMR-BS885, mycloud-duo\n- Phone\nSony Ericsson C905, orb live for iPhone/iPad\n\nDon't have a UPnP/DLNA media server? Get one from the URLs below:\n- Mac OS\nMajestic, http://majesticdotapp.com/\nMediaLink,  http://www.nullriver.com/products/medialink\nTwonkyMediaServer, http://www.twonky.com/products/twonkyserver/\nPS3 media server, http://code.google.com/p/ps3mediaserver/downloads/list\nVuze, http://www.vuze.com/\nplayback, http://www.yazsoft.com/products/playback/\niSedora, http://www.isedora.com/\nEyeConnect, http://www.elgato.com/elgato/na/mainmenu/products/software/EyeConnect.en.html\n- Windows\nTVersity, http://tversity.com/\nTwonkyMediaServer, http://www.twonky.com/products/twonkyserver/\nWild Media Server, http://www.wildmediaserver.com/\nAsset UPnP, http://www.dbpoweramp.com/asset-upnp-dlna.htm\nFreeMi, http://freemiplayer.free.fr/\nServiio, http://www.serviio.org/\nSAMSUNG PC Share Manager, http://www.samsung.com/us/support/downloads/BD-C6900/XAA\n- Linux\nMediaTomb, http://mediatomb.cc/\nuShare, http://ushare.geexbox.org/\nCoherence, http://coherence.beebits.net/\n\nBy the way, If the media server you are using not works with AirPlayer, please write a mail to us, we will consider to add supportive for it.\n\nFAQ:\n1. Why I can't play the files listed in AirPlayer?\nIf you can get the file list but you can't play the file, make sure you have disabled the transcoding function in the server side.\n2. How to add media server manually? \n    You need to input your media server’s description address to add the media server manually, then you can watch your movies when you outside your house \n*Twonky media server.\nhttp://IP Address:9000/TMSDeviceDescription.xml\n*PS3 media server\nhttp://IP Address:5001/description/fetch\n*Eyeconnect\nhttp://IP Address:2170/\n*Vuze\nhttp://IP Address:63158/RootDevice.xml\n*Yzasoft\nhttp://IP Address:8888/description.xml\nIf you have added other media server successfully, tell us!"
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© olimsoft"
+    },
+    "title": {
+      "label": "AirPlayer - video player and network streaming app - Suzhou Totoro Network Technology Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/airplayer-video-player-and-network-streaming-app/id369713694?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple69/v4/69/f7/b6/69f7b618-2e87-9e8d-1fec-5984039efc4e/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/airplayer-video-player-and-network-streaming-app/id369713694?uo=2",
+      "attributes": {
+        "im:id": "369713694",
+        "im:bundleId": "com.olimsoft.airplayer"
+      }
+    },
+    "im:artist": {
+      "label": "Suzhou Totoro Network Technology Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/suzhou-totoro-network-technology-co-ltd/id344784378?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-05-18T19:05:50-07:00",
+      "attributes": {
+        "label": "May 18, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 98,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Bluetooth & Wifi App Box Pro - Share with Buddies"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/24/c0/1b/24c01b28-1025-f88d-f006-55db8986c2d3/pr_source.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/24/c0/1b/24c01b28-1025-f88d-f006-55db8986c2d3/pr_source.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/24/c0/1b/24c01b28-1025-f88d-f006-55db8986c2d3/pr_source.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "# Best utility tool for your iPhone, iPod Touch & iPad using Bluetooth & Wifi # \n\nAn easy to use app and great collection of all the must needed Sharing features (File Share, Photo Share, Video Share & Contact Share). Use all of these features with other iOS devices (iPhone, iPod Touch & iPad) using Bluetooth or Wifi.\n\nAnd more features will come regularly with timely updates. \n\nPHOTO SHARE\n● Share Photos with other iOS devices from your Photo Library\n● Receive Photos from other iOS devices in your Photo Library\n\nVIDEO SHARE\n● Share Videos with other iOS devices from your Photo Library\n● Receive Videos from other iOS devices in your Photo Library\n\nCONTACT SHARE  (Available in Pro Version)\n● Share Contacts with other iOS devices from your Contact List\n● Receive Contacts from other iOS devices & Save into your Contact List \n\nFILE SHARE (Available in Pro Version)\n● Share Files with other iOS devices from your App Document Directory\n● Receive Files from other iOS devices into your App Document Directory\n● Store Files (Word, Excel, PDF, JPEG, PNG & Others) in App Document Directory using iTunes (Mac or PC Version)\n\nNote: \n● Must have this app in all your devices (iPhone, iPod Touch & iPad) & open together to get connected with each other\n● Make sure Bluetooth is turned ON or all devices are in the same Wifi network\n ● Download the latest version of this app in all your devices\n\nFor More Updates & Promotional Offers: \nFind us on: http://www.facebook.com/riseuplabs \nFollow us on: http://www.twitter.com/riseuplabs \nYouTube: http://www.youtube.com/riseuplabs \nWebsite: http://www.riseuplabs.com \nEmail: contact@riseuplabs.com"
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2017 Rise Up Labs"
+    },
+    "title": {
+      "label": "Bluetooth & Wifi App Box Pro - Share with Buddies - Rise Up Labs"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/bluetooth-wifi-app-box-pro-share-with-buddies/id359357403?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/e2/64/7e/e2647ebd-fd76-eb97-8dcc-888d45631b97/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/bluetooth-wifi-app-box-pro-share-with-buddies/id359357403?uo=2",
+      "attributes": {
+        "im:id": "359357403",
+        "im:bundleId": "com.riseuplabs.btappboxpaid"
+      }
+    },
+    "im:artist": {
+      "label": "Rise Up Labs",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/rise-up-labs/id337502798?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/si/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-04-30T16:25:11-07:00",
+      "attributes": {
+        "label": "April 30, 2010"
       }
     }
   }

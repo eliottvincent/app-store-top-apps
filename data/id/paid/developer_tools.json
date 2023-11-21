@@ -5,7 +5,109 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 1,
-      "total": 77
+      "total": 76
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "Rp 49ribu",
+      "attributes": {
+        "amount": "49000",
+        "currency": "IDR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/id/app/laddertouch/id386737169?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/id/app/laddertouch/id386737169?uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/id/developer/motonari-hibi/id386737172?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/id/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "id",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 76
     },
     "im:name": {
       "label": "Textastic Code Editor"
@@ -106,110 +208,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
-      "total": 77
-    },
-    "im:name": {
-      "label": "ESP32 BLE Terminal"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
-    },
-    "im:price": {
-      "label": "Rp 19ribu",
-      "attributes": {
-        "amount": "19000",
-        "currency": "IDR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 mightyIT"
-    },
-    "title": {
-      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/id/app/esp32-ble-terminal/id1567601472?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/id/app/esp32-ble-terminal/id1567601472?uo=2",
-      "attributes": {
-        "im:id": "1567601472",
-        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
-      }
-    },
-    "im:artist": {
-      "label": "Gopi Gadhiya",
-      "attributes": {
-        "href": "https://apps.apple.com/id/developer/gopi-gadhiya/id1387816354?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/id/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-06-01T00:00:00-07:00",
-      "attributes": {
-        "label": "June 1, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "id",
-      "pricing": "paid",
-      "genre": "developer_tools",
       "index": 3,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "OpenTerm"
@@ -311,7 +311,109 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 4,
-      "total": 77
+      "total": 76
+    },
+    "im:name": {
+      "label": "ESP32 BLE Terminal"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
+    },
+    "im:price": {
+      "label": "Rp 19ribu",
+      "attributes": {
+        "amount": "19000",
+        "currency": "IDR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 mightyIT"
+    },
+    "title": {
+      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/id/app/esp32-ble-terminal/id1567601472?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/id/app/esp32-ble-terminal/id1567601472?uo=2",
+      "attributes": {
+        "im:id": "1567601472",
+        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
+      }
+    },
+    "im:artist": {
+      "label": "Gopi Gadhiya",
+      "attributes": {
+        "href": "https://apps.apple.com/id/developer/gopi-gadhiya/id1387816354?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/id/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-06-01T00:00:00-07:00",
+      "attributes": {
+        "label": "June 1, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "id",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 5,
+      "total": 76
     },
     "im:name": {
       "label": "Inspect Browser"
@@ -412,8 +514,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
-      "total": 77
+      "index": 6,
+      "total": 76
     },
     "im:name": {
       "label": "Buffer Editor - Code Editor"
@@ -514,110 +616,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
-      "total": 77
-    },
-    "im:name": {
-      "label": "Wireshark Helper - Decrypt TLS"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nRequires: two softwares on your desktop:\n\nWireshark: https://www.wireshark.org\nWireshark Helper: https://www.txthinking.com\n\n- Redirect all mobile TCP&UDP to your desktop Wireshark\n- SSL/TLS-capable intercepting\n- HTTP, HTTPS, SMTP, IMAP, DNS, FTP, POP3, SSH, Telnel, IRC, *ANY* custom protocol…"
-    },
-    "im:price": {
-      "label": "Rp 169ribu",
-      "attributes": {
-        "amount": "169000",
-        "currency": "IDR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© TxThinking, Inc."
-    },
-    "title": {
-      "label": "Wireshark Helper - Decrypt TLS - TxThinking, Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/id/app/wireshark-helper-decrypt-tls/id1534485108?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/3f/b1/61/3fb1611d-5746-6c18-cd01-2de6aa953ab0/ff24f463-0d31-47fd-a39e-a16261a741e1_2.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/id/app/wireshark-helper-decrypt-tls/id1534485108?uo=2",
-      "attributes": {
-        "im:id": "1534485108",
-        "im:bundleId": "com.txthinking.wireshark"
-      }
-    },
-    "im:artist": {
-      "label": "TxThinking, Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/id/developer/txthinking-inc/id1634589596?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/id/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-11-06T00:00:00-07:00",
-      "attributes": {
-        "label": "November 6, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "id",
-      "pricing": "paid",
-      "genre": "developer_tools",
       "index": 7,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Smart NFC"
@@ -719,7 +719,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 8,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Flutter Cheats"
@@ -821,7 +821,109 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 9,
-      "total": 77
+      "total": 76
+    },
+    "im:name": {
+      "label": "Wireshark Helper - Decrypt TLS"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nRequires: two softwares on your desktop:\n\nWireshark: https://www.wireshark.org\nWireshark Helper: https://www.txthinking.com\n\n- Redirect all mobile TCP&UDP to your desktop Wireshark\n- SSL/TLS-capable intercepting\n- HTTP, HTTPS, SMTP, IMAP, DNS, FTP, POP3, SSH, Telnel, IRC, *ANY* custom protocol…"
+    },
+    "im:price": {
+      "label": "Rp 169ribu",
+      "attributes": {
+        "amount": "169000",
+        "currency": "IDR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© TxThinking, Inc."
+    },
+    "title": {
+      "label": "Wireshark Helper - Decrypt TLS - TxThinking, Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/id/app/wireshark-helper-decrypt-tls/id1534485108?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/3f/b1/61/3fb1611d-5746-6c18-cd01-2de6aa953ab0/ff24f463-0d31-47fd-a39e-a16261a741e1_2.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/id/app/wireshark-helper-decrypt-tls/id1534485108?uo=2",
+      "attributes": {
+        "im:id": "1534485108",
+        "im:bundleId": "com.txthinking.wireshark"
+      }
+    },
+    "im:artist": {
+      "label": "TxThinking, Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/id/developer/txthinking-inc/id1634589596?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/id/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-11-06T00:00:00-07:00",
+      "attributes": {
+        "label": "November 6, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "id",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 10,
+      "total": 76
     },
     "im:name": {
       "label": "Source 3"
@@ -922,8 +1024,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
-      "total": 77
+      "index": 11,
+      "total": 76
     },
     "im:name": {
       "label": "DraftCode Offline PHP IDE"
@@ -1024,8 +1126,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
-      "total": 77
+      "index": 12,
+      "total": 76
     },
     "im:name": {
       "label": "UCoW - Ultimate Code Wrapper"
@@ -1126,8 +1228,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
-      "total": 77
+      "index": 13,
+      "total": 76
     },
     "im:name": {
       "label": "Terminal Emulator"
@@ -1225,8 +1327,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
-      "total": 77
+      "index": 14,
+      "total": 76
     },
     "im:name": {
       "label": "Programming Notebook LITE"
@@ -1327,8 +1429,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
-      "total": 77
+      "index": 15,
+      "total": 76
     },
     "im:name": {
       "label": "iHTTP Tracker -Network monitor"
@@ -1429,8 +1531,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
-      "total": 77
+      "index": 16,
+      "total": 76
     },
     "im:name": {
       "label": "Juno: Jupyter/Python IDE"
@@ -1531,8 +1633,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
-      "total": 77
+      "index": 17,
+      "total": 76
     },
     "im:name": {
       "label": "MongoLime - manage databases"
@@ -1633,110 +1735,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
-      "total": 77
-    },
-    "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "Rp 49ribu",
-      "attributes": {
-        "amount": "49000",
-        "currency": "IDR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/id/app/laddertouch/id386737169?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/id/app/laddertouch/id386737169?uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/id/developer/motonari-hibi/id386737172?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/id/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "id",
-      "pricing": "paid",
-      "genre": "developer_tools",
       "index": 18,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Programming Notebook PRO"
@@ -1838,7 +1838,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 19,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Code App"
@@ -1940,7 +1940,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 20,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "PPHub For GitHub - Developer"
@@ -2042,7 +2042,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 21,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Zeitgeist"
@@ -2144,7 +2144,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 22,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Http Traffic pro - sniffer"
@@ -2246,7 +2246,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 23,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Text Editor - Document Editor"
@@ -2348,7 +2348,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 24,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "DNS Client"
@@ -2450,7 +2450,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 25,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "TinyServer"
@@ -2552,7 +2552,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 26,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Code - Compile & Run Program"
@@ -2654,7 +2654,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 27,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "PasteMe - Pastebin Client"
@@ -2756,7 +2756,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 28,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "VSCoW - Code Wrapper"
@@ -2858,7 +2858,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 29,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "php$ - programming language"
@@ -2960,7 +2960,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 30,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Bee - Cookie Editor For Safari"
@@ -3062,7 +3062,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 31,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "MQTT Home Automation"
@@ -3164,7 +3164,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 32,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Kuber - Kubernetes Dashboard"
@@ -3266,7 +3266,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 33,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Juno Connect: Jupyter Client"
@@ -3368,7 +3368,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 34,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Continuous .NET C# and F# IDE"
@@ -3470,7 +3470,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 35,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Code Recipes Pro"
@@ -3572,7 +3572,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 36,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Source Code Reader"
@@ -3674,7 +3674,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 37,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Cookie Editor For Safari"
@@ -3776,7 +3776,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 38,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Simple Server: HTTP Server"
@@ -3878,7 +3878,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 39,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Analytics for Cloudflare®"
@@ -3980,7 +3980,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 40,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "MongoGrip"
@@ -4082,7 +4082,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 41,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "DashTabs: Firebase, AdMob …"
@@ -4184,7 +4184,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 42,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Privacy Policy Generator"
@@ -4286,7 +4286,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 43,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "JavaScript Recipes Pro"
@@ -4388,7 +4388,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 44,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "TermuXL Pro: SSH, SFTP, Shell"
@@ -4490,7 +4490,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 45,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "mitmproxy helper by txthinking"
@@ -4592,7 +4592,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 46,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "JSON Tools"
@@ -4691,7 +4691,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 47,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Learn SQL for MySQL"
@@ -4793,7 +4793,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 48,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "C Code Develop"
@@ -4895,7 +4895,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 49,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "App Icon Generator"
@@ -4997,7 +4997,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 50,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Adaptivity (A)"
@@ -5099,7 +5099,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 51,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Nmap Handbook"
@@ -5201,7 +5201,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 52,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Deeplink Buddy"
@@ -5303,7 +5303,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 53,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "SoundSysId"
@@ -5405,7 +5405,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 54,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Sweet SWOT"
@@ -5507,7 +5507,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 55,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Cown Zoo"
@@ -5609,7 +5609,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 56,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "MermaidEditor"
@@ -5711,7 +5711,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 57,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Java Recipes Pro"
@@ -5813,7 +5813,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 58,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "MarkGit"
@@ -5915,7 +5915,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 59,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Golang Recipes Pro"
@@ -6017,109 +6017,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 60,
-      "total": 77
-    },
-    "im:name": {
-      "label": "ScriptWidget"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/55/e1/2355e1c7-d578-8104-3a1d-9da8d6737805/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/55/e1/2355e1c7-d578-8104-3a1d-9da8d6737805/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/55/e1/2355e1c7-d578-8104-3a1d-9da8d6737805/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "With ScriptWidget, you can create widgets for iOS and macOS with JSX label style in JavaScript.\n\nFor more information, please visit https://scriptwidget.app\n\nAnd the documents at https://scriptwidget.app/docs/"
-    },
-    "im:price": {
-      "label": "Rp 19ribu",
-      "attributes": {
-        "amount": "19000",
-        "currency": "IDR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 everettjf"
-    },
-    "title": {
-      "label": "ScriptWidget - 峰 朱"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/id/app/scriptwidget/id1555600758?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/f4/5f/24f45ff1-e3e0-6b6a-4e4e-435c76b5eb41/31db8314-af3e-47f0-931e-aee8756c812f_page-0.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/id/app/scriptwidget/id1555600758?uo=2",
-      "attributes": {
-        "im:id": "1555600758",
-        "im:bundleId": "com.everettjf.scriptwidget"
-      }
-    },
-    "im:artist": {
-      "label": "峰 朱",
-      "attributes": {
-        "href": "https://apps.apple.com/id/developer/%E5%B3%B0-%E6%9C%B1/id1111654148?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/id/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-03-09T00:00:00-07:00",
-      "attributes": {
-        "label": "March 9, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "id",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 61,
-      "total": 77
+      "total": 76
     },
     "im:name": {
       "label": "Code Uncovered"
@@ -6220,8 +6118,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 62,
-      "total": 77
+      "index": 61,
+      "total": 76
     },
     "im:name": {
       "label": "Phone repair screen color test"
@@ -6319,8 +6217,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 63,
-      "total": 77
+      "index": 62,
+      "total": 76
     },
     "im:name": {
       "label": "ServerDog Pro: Status, SSH"
@@ -6421,8 +6319,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 64,
-      "total": 77
+      "index": 63,
+      "total": 76
     },
     "im:name": {
       "label": "JSON to XML Converter"
@@ -6520,8 +6418,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 65,
-      "total": 77
+      "index": 64,
+      "total": 76
     },
     "im:name": {
       "label": "Docker Management"
@@ -6622,8 +6520,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 66,
-      "total": 77
+      "index": 65,
+      "total": 76
     },
     "im:name": {
       "label": "Netdata server monitoring"
@@ -6724,8 +6622,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 67,
-      "total": 77
+      "index": 66,
+      "total": 76
     },
     "im:name": {
       "label": "Morsels — Code Snippets"
@@ -6826,8 +6724,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 68,
-      "total": 77
+      "index": 67,
+      "total": 76
     },
     "im:name": {
       "label": "RevenueCat Sales: RCReporting"
@@ -6928,8 +6826,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 69,
-      "total": 77
+      "index": 68,
+      "total": 76
     },
     "im:name": {
       "label": "Lorem Ipsum Keyboard"
@@ -7030,8 +6928,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 70,
-      "total": 77
+      "index": 69,
+      "total": 76
     },
     "im:name": {
       "label": "SQL Server Mobile Client PRO"
@@ -7132,8 +7030,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 71,
-      "total": 77
+      "index": 70,
+      "total": 76
     },
     "im:name": {
       "label": "Haptics - Test Haptic Feedback"
@@ -7234,8 +7132,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 72,
-      "total": 77
+      "index": 71,
+      "total": 76
     },
     "im:name": {
       "label": "MQTT Terminal Pro"
@@ -7336,8 +7234,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 73,
-      "total": 77
+      "index": 72,
+      "total": 76
     },
     "im:name": {
       "label": "AirTerminal - BLE Terminal"
@@ -7438,8 +7336,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 74,
-      "total": 77
+      "index": 73,
+      "total": 76
     },
     "im:name": {
       "label": "Pixel Resizer: Custom Metadata"
@@ -7540,8 +7438,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 75,
-      "total": 77
+      "index": 74,
+      "total": 76
     },
     "im:name": {
       "label": "RegEx Lab: Regular Expressions"
@@ -7642,8 +7540,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 76,
-      "total": 77
+      "index": 75,
+      "total": 76
     },
     "im:name": {
       "label": "Colordrop: Color Picker"
@@ -7744,8 +7642,8 @@
       "country_code": "id",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 77,
-      "total": 77
+      "index": 76,
+      "total": 76
     },
     "im:name": {
       "label": "Arduino Bluetooth Pro"

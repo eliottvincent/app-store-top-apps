@@ -8,108 +8,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "¥400",
-      "attributes": {
-        "amount": "400",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-08-25T09:56:35-07:00",
-      "attributes": {
-        "label": "August 25, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 2,
-      "total": 99
-    },
-    "im:name": {
       "label": "Programming Notebook LITE"
     },
     "im:image": [
@@ -208,823 +106,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Textastic Code Editor"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/45/dc/d1/45dcd1a4-9032-f568-a55e-92f901d1974c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/45/dc/d1/45dcd1a4-9032-f568-a55e-92f901d1974c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/45/dc/d1/45dcd1a4-9032-f568-a55e-92f901d1974c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Textastic is a comprehensive and versatile text and code editor for iPad and iPhone. It supports syntax highlighting of more than 80 programming and markup languages. Connect to SFTP, FTP, and WebDAV servers or to your Dropbox or Google Drive account. Use the built-in SSH terminal to work directly on your server.\n\nFEATURES:\n• Syntax highlighting of more than 80 languages: HTML, JavaScript, CSS, C++, Swift, Objective-C, Rust, XML, Markdown, PHP, Perl, Python, Ruby, Lua, YAML, JSON, SQL, shell scripts and many more (full list available on the website) \n• Compatible with Sublime Text 3 and TextMate 1 syntax definitions and themes \n• Code completion for HTML, CSS, JavaScript, C, Objective-C, and PHP\n• SFTP (SSH connection), FTP, FTPS (FTP over SSL), WebDAV, Dropbox and Google Drive clients\n• SSH terminal connections\n• Git repositories from the Git client app Working Copy can be opened as external folders in Textastic\n• Emmet support\n• JavaScript console\n• iCloud Drive file synchronization\n• WebDAV server to easily transfer files from your Mac or PC over Wi-Fi.\n• Symbol list to quickly navigate in a file \n• Full support for external keyboards, trackpads, and mice\n• Configurable keyboard shortcuts\n• Displays additional keys over the virtual keyboard to make it easy to type characters often used for programming \n• Cursor navigation wheel for easy text selection\n• Easily move the cursor using swipe gestures\n• Split View and Slide Over multitasking on iPad\n• Open multiple files in tabs\n• Multiple Windows on iPadOS\n• Support for Dark Mode\n• Supports most encodings like UTF-8, UTF-16, and ISO-8859-1\n• Supports different tab widths and soft tabs (spaces instead of tabs) \n• Custom fonts\n• Find & Replace (including regular expression search)\n• Find in multiple files\n• File information like character count and word count \n• Local and remote web preview for HTML and Markdown files \n\nDon't hesitate to tell me the features you want to see in the next version!\n\nhttps://feedback.textasticapp.com/"
-    },
-    "im:price": {
-      "label": "¥2,000",
-      "attributes": {
-        "amount": "2000",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2010-2023 Alexander Blach"
-    },
-    "title": {
-      "label": "Textastic Code Editor - Alexander Blach"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/textastic-code-editor/id1049254261?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/3d/f2/cd/3df2cd3f-0ef5-7ccc-a2a9-5bedae5bf228/95774f19-274c-476e-a7e4-eb6953c0d0a4_Screenshot_1_en.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/textastic-code-editor/id1049254261?l=en&uo=2",
-      "attributes": {
-        "im:id": "1049254261",
-        "im:bundleId": "com.textasticapp.textastic-universal"
-      }
-    },
-    "im:artist": {
-      "label": "Alexander Blach",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/alexander-blach/id303486870?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-03-12T01:33:30-07:00",
-      "attributes": {
-        "label": "March 12, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 4,
-      "total": 99
-    },
-    "im:name": {
-      "label": "BASIC: programming language"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/9c/27/ef9c2701-3dab-8494-7085-44cf0ff5447b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/9c/27/ef9c2701-3dab-8494-7085-44cf0ff5447b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/9c/27/ef9c2701-3dab-8494-7085-44cf0ff5447b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is \"smart BASIC\" - an improved version of the popular Minimal BASIC programming language.\nWith \"smart BASIC\" you can create your own programs right on your iOS device.\nBASIC programs written in \"smart BASIC\" can be published in the Apple App Store as standalone applications using the \"smart BASIC\" SDK for Xcode.\n\nThe \"smart BASIC\" programming language has many powerful features.\n\nINTERFACE:\n- buttons, text boxes, sliders, switches, browsers\n- pages for grouping your interface objects\n- support for additional TTF fonts\n- clipboard support\n- multitouch up to 11 simultaneous touches\n\nGRAPHIC:\n- advanced graphics functions\n- animated sprites, sprite sheet support\n\nMUSIC and SOUND:\n- play MP3, AIFF, WAV, MIDI, MOV and MP4 files\n- programmable MIDI synthesizer with 128 built-in instruments\n- support for additional sound fonts SF2 and DLS\n- speech synthesizer\n\nHARDWARE support:\n- GPS, compass\n- accelerometer\n- photo and video recording\n\nand more:\n- files\n- networking\n- integrated mathematics of complex numbers\n- customizable IDE\n- built-in documentation\n- ready-to-use examples of programs\n\n\nVisit the support forum to get assistance and to share your BASIC programs with other users."
-    },
-    "im:price": {
-      "label": "¥1,800",
-      "attributes": {
-        "amount": "1800",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Mr.Kibernetik"
-    },
-    "title": {
-      "label": "BASIC: programming language - Nikolay Denislamov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/basic-programming-language/id1540244170?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/d2/56/41/d25641b4-a684-9896-6b0f-7a4a50247e0f/54f8a286-f2fc-4025-a6c0-9c753fe3ebd6_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/basic-programming-language/id1540244170?l=en&uo=2",
-      "attributes": {
-        "im:id": "1540244170",
-        "im:bundleId": "Kibernetik.smartBASIC"
-      }
-    },
-    "im:artist": {
-      "label": "Nikolay Denislamov",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/nikolay-denislamov/id505796639?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-11-16T00:00:00-07:00",
-      "attributes": {
-        "label": "November 16, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 5,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Simple DNS"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/67/27/8e/67278e7c-441f-8998-00bf-9331c30ad13c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/67/27/8e/67278e7c-441f-8998-00bf-9331c30ad13c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/67/27/8e/67278e7c-441f-8998-00bf-9331c30ad13c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Simple DNS is an easy-to-use tool with which DNS queries can be performed.\n\nFeatures:\n* DNS Lookup\n* Reverse DNS\n* Supports all resource records\n\nSimple and straightforward!"
-    },
-    "im:price": {
-      "label": "¥300",
-      "attributes": {
-        "amount": "300",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Feuerberg Software"
-    },
-    "title": {
-      "label": "Simple DNS - Daniel Linsenmeier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/simple-dns/id1645591739?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/38/2b/58/382b58ac-8d8d-ceb0-207b-6e6b922a7869/d58b683b-cd07-470d-9efb-a7f6804f9a2c_apple_tablet_screenshot_0.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/simple-dns/id1645591739?l=en&uo=2",
-      "attributes": {
-        "im:id": "1645591739",
-        "im:bundleId": "de.feuerberg-software.simple-dns"
-      }
-    },
-    "im:artist": {
-      "label": "Daniel Linsenmeier",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/daniel-linsenmeier/id1543220963?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-09-18T00:00:00-07:00",
-      "attributes": {
-        "label": "September 18, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 6,
-      "total": 99
-    },
-    "im:name": {
-      "label": "JINS MEME Logger"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/74/5d/a4/745da4b8-9203-41cd-af4a-8fb6cb4c3222/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/74/5d/a4/745da4b8-9203-41cd-af4a-8fb6cb4c3222/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/74/5d/a4/745da4b8-9203-41cd-af4a-8fb6cb4c3222/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "ーーー\nメガネで生体情報を取得できるロガーアプリ\nJINS MEME Loggerは、JINS MEMEで計測された様々なデータを表示し保存することができるアプリです。このアプリは現在販売中のJINS MEMEにのみ対応しております。\nアプリの使い方\n—————————————————————————————————————\n1. JINS MEMEとスマートフォンを接続\n・タブバーの「接続」をタップ\n・アプリ画面下「検索」ボタンをタップしてアドバタイズされているJINS MEMEを検索\n・見つかったJINS MEMEのIDをタップすれば接続完了\n—————————————————————————————————————\n2. 「ロガー」ページで計測データを確認してデータ保存\n・タブバーの「ロガー」ページには接続されているJINS MEMEで計測されたデータがリアルタイムに表示されます\n・画面下の「記録」ボタンをタップでデータの記録を開始します。「記録終了」ボタンをタップすれば記録を終了しデータを保存します\n・記録されたデータはCSVファイルでスマートフォン内に保存されます\n—————————————————————————————————————\n3. 目の動き、体の動きをグラフで確認\n・タブバー中央の「グラフ」ページでは、接続されているJINS MEMEで計測されたデータをグラフでリアルタイム表示します\n—————————————————————————————————————\n4. CSVファイルの取り出し\n内部ストレージ→Download以下にファイル種毎にフォルダが切られ保存されています。他のファイラーアプリで開いてください。\n—————————————————————————————————————\n5. データの連携\n・Google Driveにデータを自動連携することができます。\n・WebSocketクライアントを追加することで、JINS MEMEのデータをリアルタイムに外部出力することができます。\n—————————————————————————————————————\nJINS MEMEに関する情報はこちら\nhttps://jinsmeme.com/"
-    },
-    "im:price": {
-      "label": "¥100",
-      "attributes": {
-        "amount": "100",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2018 JINS Inc."
-    },
-    "title": {
-      "label": "JINS MEME Logger - JINS Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/jins-meme-logger/id1537937129?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7c/11/7c/7c117c61-9748-215f-d553-5f6ea3985efd/d4dd5275-2b0f-4549-8ba6-3847ff15af91_logger01.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/jins-meme-logger/id1537937129?l=en&uo=2",
-      "attributes": {
-        "im:id": "1537937129",
-        "im:bundleId": "com.jins-meme.logger"
-      }
-    },
-    "im:artist": {
-      "label": "JINS Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/jins-inc/id510584835?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-25T00:00:00-07:00",
-      "attributes": {
-        "label": "January 25, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 7,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Cookie Editor For Safari"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "With our app, you can confidently examine and edit your cookies as you please. Cookie Editor equips you with the essential tools to edit the cookies on the current tab of your iOS, iPadOS, and MacOS devices, giving you complete control over your browsing experience.\n\nOur Cookie Editor provides you with the ability to thoroughly examine and edit the cookies of the current website in various ways. Not only can you create a new cookie manually, but you can also import text in JSON or Netscape format to make the process even easier. In addition, exporting cookies is made easy with the available options in JSON and Netscape format. If you're searching for a specific cookie, you can easily find it using the intuitive search function. And if you're looking to clear your cookies, you can do so with just one click, providing an efficient way to manage your cookies. Overall, managing cookies with our Cookie Editor is not only simple and straightforward, but also provides a wealth of options to ensure complete control over your online experience.\n\nTo edit your cookies, simply download the app and get started! We are confident that you will find the app easy to use and that it will meet all of your needs.\n\nPrivacy Policy: https://www.zamalabs.com/cookie-editor-privacy-policy\nTerms & Conditions: https://www.zamalabs.com/cookie-editor-terms-and-conditions\nCheck out our other apps by visiting: https://www.zamalabs.com/\nIf you want to reach us, feel free to send an email to scipio@zamalabs.com!"
-    },
-    "im:price": {
-      "label": "¥100",
-      "attributes": {
-        "amount": "100",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Zamalabs"
-    },
-    "title": {
-      "label": "Cookie Editor For Safari - Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id6446626905?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0d/c1/34/0dc13421-ceb3-0061-4b2f-6768bfc2263f/2d57df9a-7206-4442-ba2c-2b527e2335b6_12.9_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id6446626905?l=en&uo=2",
-      "attributes": {
-        "im:id": "6446626905",
-        "im:bundleId": "com.zamalabs.CookieEditorExtension"
-      }
-    },
-    "im:artist": {
-      "label": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/zamalabs-yaz%C4%B1l%C4%B1m-ve-bilgi-teknolojileri-limited-%C5%9Firketi/id1637867851?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-04-05T00:00:00-07:00",
-      "attributes": {
-        "label": "April 5, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 8,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Continuous .NET C# and F# IDE"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/84/7f/3a/847f3aea-1f6f-201f-5cae-9c9e0053bb55/AppIcons-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/84/7f/3a/847f3aea-1f6f-201f-5cae-9c9e0053bb55/AppIcons-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/84/7f/3a/847f3aea-1f6f-201f-5cae-9c9e0053bb55/AppIcons-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Continuous is a fast and powerful .NET C# and F# IDE that runs directly on the iPad and iPhone (no network needed!). With it, you can write apps and games using your favorite languages on your favorite devices.\n\nContinuous is always building and running your code so you can see changes as you type. Writing interactive apps in Continuous is a pleasure compared to the traditional code-build-run cycle. It frees you to make lots of small changes and see their effects immediately - no more waiting for builds or deployments and no more clicking around trying to get to the screen you're trying to code.\n\nContinuous looks and works in many of the same ways as traditional .NET IDEs so you'll feel right at home, but it also strives to advance the state of the art in IDEs with these features:\n\n>>> Full C# 8 and F# 4.7 compilers so you can use the latest tech\n>>> Xamarin.Forms Live XAML Editing\n>>> Automatic compiling and running so you can focus on the code and the results\n>>> Fancy text editor with tabs, semantic highlighting, inline error bubbles, and inline values that are updated as you type\n>>> Watch window enables you to view graphical objects in your app (UI and images), inspect live objects as your app runs, create instances of new objects, and call methods\n>>> Code completion with inline type info and documentation makes learning new APIs fun\n>>> Uses standard .NET file and project formats so you can share code with other IDEs\n>>> Includes Xamarin.Forms and UIKit to build apps and SpriteKit and SceneKit to build games. You can access many iOS APIs including CoreMotion, the Social framework, and HealthKit to read data.\n>>> Split screen support so you can keep documentation by your side\n>>> Execution powered by a new IL interpreter\n\nIf you're new to .NET or iOS coding, you will love the code completion with integrated documentation and the fun examples that come with the app.\n\nIf you're a .NET pro, then you will love the support for projects and the ability to inspect objects as you code them - whether they're in a script or just a normal project file.\n\nIf you're new to programming, C# is an great language to learn: it's powerful yet friendly language, example code is all over the internet, and there are plenty of jobs out there waiting for you.\n\nIf you enjoy thinking a little differently, then you will love that F# is included and fully supported. This amazing programming language will teach you to write better code and will arm you to solve problems that you thought were too big or hard to solve - like writing an IDE."
-    },
-    "im:price": {
-      "label": "¥2,000",
-      "attributes": {
-        "amount": "2000",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2016-2023 Krueger Systems, Inc."
-    },
-    "title": {
-      "label": "Continuous .NET C# and F# IDE - Krueger Systems, Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/continuous-net-c-and-f-ide/id1095213378?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/0e/35/da/0e35da2d-9aa8-3f6c-ca84-80df14f59d1b/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/continuous-net-c-and-f-ide/id1095213378?l=en&uo=2",
-      "attributes": {
-        "im:id": "1095213378",
-        "im:bundleId": "com.kruegersystems.continuous"
-      }
-    },
-    "im:artist": {
-      "label": "Krueger Systems, Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/krueger-systems-inc/id299293363?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-07-06T10:01:12-07:00",
-      "attributes": {
-        "label": "July 6, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 9,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Pro JavaScript Editor"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/cd/9b/c4/cd9bc464-a021-1e48-3660-7cce6a870f3b/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/cd/9b/c4/cd9bc464-a021-1e48-3660-7cce6a870f3b/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/cd/9b/c4/cd9bc464-a021-1e48-3660-7cce6a870f3b/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is the Ad-Free Pro-Version of the app 'Java Editor - .java Editor'\n\nJavaScript Editor is a simple and powerful app for creating, editing, and saving JavaScript files on your device. With its intuitive interface and essential features such as import, export and syntax highlighting, JavaScript Editor is the perfect tool for anyone who needs to manage their JavaScript code. Whether you're a student, developer or just need to write or view some code, JavaScript Editor makes it easy to write JavaScript code on-the-go or at home. Download JavaScript Editor now and experience the power of effortless JavaScript editing!"
-    },
-    "im:price": {
-      "label": "¥600",
-      "attributes": {
-        "amount": "600",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Julian Lau"
-    },
-    "title": {
-      "label": "Pro JavaScript Editor - Julian Lau"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/pro-javascript-editor/id6449680697?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/d7/a8/8dd7a8ba-7f6d-50ca-be08-8c0f9184e937/cd807e1b-81d6-452b-8791-bedd0ad10fe7_3.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/pro-javascript-editor/id6449680697?l=en&uo=2",
-      "attributes": {
-        "im:id": "6449680697",
-        "im:bundleId": "app.edit-js-pro.com"
-      }
-    },
-    "im:artist": {
-      "label": "Julian Lau",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/julian-lau/id1603050262?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-05-31T00:00:00-07:00",
-      "attributes": {
-        "label": "May 31, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 10,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Juno: Jupyter/Python IDE"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/10/48/dd/1048dd97-8fb4-5178-fa9e-c48988d932b2/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/10/48/dd/1048dd97-8fb4-5178-fa9e-c48988d932b2/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/10/48/dd/1048dd97-8fb4-5178-fa9e-c48988d932b2/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Zero-setup Jupyter and Python environment in a first-class citizen app for iPad and iPhone.\n\nJuno is a Python IDE designed to work seamlessly with Jupyter notebooks — a document format focused on applying Python to data analysis and computational science. Notebooks serve as excellent Python coding playgrounds for data manipulation and experimentation, and Juno makes working with them a breeze!\n\nWith Juno, you can:\n\n• Start coding right away with our zero-setup and user-friendly Jupyter/Python IDE\n• Utilize Jupyter notebooks as programming and data science playgrounds\n• Leverage powerful data analysis and machine learning tools: NumPy, Matplotlib, SciPy, Scikit-learn, Pandas, LXML, and more\n• Execute Python code directly on your iPhone or iPad in a first-class native app, entirely offline\n• Effortlessly install pure Python packages with an intuitive package manager\n• Take full advantage of your keyboard and trackpad in our full-featured code editor\n• Embrace full multitasking and multi-window capabilities on iPad\n\nWHAT ARE JUPYTER NOTEBOOKS?\n\nA Jupyter notebook is a versatile document format that enables you to store live code, markdown text, plots, images, and LaTeX equations — all within a single notebook file. This versatility makes Jupyter notebooks an exceptional learning tool, whether you're learning to code or honing your data analysis skills.\n\nNotebook documents keep a record of all inputs and outputs from an interactive programming session, and the rich output generated by running Python scripts (including HTML, images, video, and plots) is embedded within the Jupyter notebook document. They are particularly convenient for coding in Python for data analysis, machine learning, or computational science in general.\n\nA notebook comprises a sequence of cells, each representing either narrative text in markdown or HTML format, or a coding script with text or media output. This structure makes notebooks both human-readable documents containing analysis descriptions and results (figures, tables, etc.), as well as executable scripts for data analysis or general programming. You can use a Jupyter notebook as a document with optional executable code, or simply as a programming playground for data manipulation and experimentation.\n\nWHO IS JUNO FOR?\n\nJuno provides an exceptional programming environment for those using (or learning to use) Python for data analysis, machine learning, or computational science. Jupyter notebooks serve as an excellent educational tool for learning Python or practicing coding, especially in the context of data science. This makes Juno a perfect learning companion and a powerful developer tool for honing your programming and data analysis skills."
-    },
-    "im:price": {
-      "label": "¥2,500",
-      "attributes": {
-        "amount": "2500",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Rational Matter Ltd"
-    },
-    "title": {
-      "label": "Juno: Jupyter/Python IDE - Rational Matter"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9f/5f/02/9f5f02db-e894-d177-b5de-3d2b31996116/093f7443-5241-43c5-bdab-f03012a6a4c4_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2",
-      "attributes": {
-        "im:id": "1462586500",
-        "im:bundleId": "com.rationalmatter.junoapp"
-      }
-    },
-    "im:artist": {
-      "label": "Rational Matter",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/rational-matter/id1315744136?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-09-26T00:00:00-07:00",
-      "attributes": {
-        "label": "September 26, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 11,
+      "index": 2,
       "total": 99
     },
     "im:name": {
@@ -1126,7 +208,823 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 3,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Cookie Editor For Safari"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/76/26/e27626e9-7619-d69b-ef12-b0717a2c3379/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "With our app, you can confidently examine and edit your cookies as you please. Cookie Editor equips you with the essential tools to edit the cookies on the current tab of your iOS, iPadOS, and MacOS devices, giving you complete control over your browsing experience.\n\nOur Cookie Editor provides you with the ability to thoroughly examine and edit the cookies of the current website in various ways. Not only can you create a new cookie manually, but you can also import text in JSON or Netscape format to make the process even easier. In addition, exporting cookies is made easy with the available options in JSON and Netscape format. If you're searching for a specific cookie, you can easily find it using the intuitive search function. And if you're looking to clear your cookies, you can do so with just one click, providing an efficient way to manage your cookies. Overall, managing cookies with our Cookie Editor is not only simple and straightforward, but also provides a wealth of options to ensure complete control over your online experience.\n\nTo edit your cookies, simply download the app and get started! We are confident that you will find the app easy to use and that it will meet all of your needs.\n\nPrivacy Policy: https://www.zamalabs.com/cookie-editor-privacy-policy\nTerms & Conditions: https://www.zamalabs.com/cookie-editor-terms-and-conditions\nCheck out our other apps by visiting: https://www.zamalabs.com/\nIf you want to reach us, feel free to send an email to scipio@zamalabs.com!"
+    },
+    "im:price": {
+      "label": "¥100",
+      "attributes": {
+        "amount": "100",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Zamalabs"
+    },
+    "title": {
+      "label": "Cookie Editor For Safari - Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id6446626905?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0d/c1/34/0dc13421-ceb3-0061-4b2f-6768bfc2263f/2d57df9a-7206-4442-ba2c-2b527e2335b6_12.9_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/cookie-editor-for-safari/id6446626905?l=en&uo=2",
+      "attributes": {
+        "im:id": "6446626905",
+        "im:bundleId": "com.zamalabs.CookieEditorExtension"
+      }
+    },
+    "im:artist": {
+      "label": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/zamalabs-yaz%C4%B1l%C4%B1m-ve-bilgi-teknolojileri-limited-%C5%9Firketi/id1637867851?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-04-05T00:00:00-07:00",
+      "attributes": {
+        "label": "April 5, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 4,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Code - Compile & Run Program"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/de/28/b7/de28b77f-5404-e69f-b8fe-14ad02e07290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/de/28/b7/de28b77f-5404-e69f-b8fe-14ad02e07290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/de/28/b7/de28b77f-5404-e69f-b8fe-14ad02e07290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "A coding experience custom tailored for iOS that is useful for learning, experimenting and fast prototyping. No downloads, no configs, no setups required, just login and you’re ready to start writing code.\n\nSupported programming languages\nC, C++, Clojure, Crystal, C#, Go, Java, JavaScript, Kotlin, Lua, Perl, PHP, Python, Ruby, Rust, Scala, Swift, TypeScript\n\nUnified development Environment\nAll-in-one platform that lets you code, compile and execute\n\nCustomize your setup\nMake your workspace feel just like home with your desired theme and keyboard mode\n\nReal-time Cloud Sync\nAll your files are seamlessly synced across your devices\n\nContact Support -> code+support@techulus.com\n\nPrivacy and Security\n\nPrivacy Policy - https://code.techulus.com/privacypolicy/\nTerms and Conditions - https://code.techulus.com/terms/\n\nIf you have any questions or suggestions about Privacy Policy, do not hesitate to contact us at code@techulus.com."
+    },
+    "im:price": {
+      "label": "¥600",
+      "attributes": {
+        "amount": "600",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Techulus LLC"
+    },
+    "title": {
+      "label": "Code - Compile & Run Program - Arjun Komath"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/code-compile-run-program/id1515506950?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d3/81/06/d3810615-2809-b4fc-2c18-f1ba1bac6445/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/code-compile-run-program/id1515506950?l=en&uo=2",
+      "attributes": {
+        "im:id": "1515506950",
+        "im:bundleId": "com.techulus.CodePlayground"
+      }
+    },
+    "im:artist": {
+      "label": "Arjun Komath",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/arjun-komath/id1388042509?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-06-09T00:00:00-07:00",
+      "attributes": {
+        "label": "June 9, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 5,
+      "total": 99
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "¥400",
+      "attributes": {
+        "amount": "400",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-08-25T09:56:35-07:00",
+      "attributes": {
+        "label": "August 25, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 6,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Textastic Code Editor"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/45/dc/d1/45dcd1a4-9032-f568-a55e-92f901d1974c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/45/dc/d1/45dcd1a4-9032-f568-a55e-92f901d1974c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/45/dc/d1/45dcd1a4-9032-f568-a55e-92f901d1974c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Textastic is a comprehensive and versatile text and code editor for iPad and iPhone. It supports syntax highlighting of more than 80 programming and markup languages. Connect to SFTP, FTP, and WebDAV servers or to your Dropbox or Google Drive account. Use the built-in SSH terminal to work directly on your server.\n\nFEATURES:\n• Syntax highlighting of more than 80 languages: HTML, JavaScript, CSS, C++, Swift, Objective-C, Rust, XML, Markdown, PHP, Perl, Python, Ruby, Lua, YAML, JSON, SQL, shell scripts and many more (full list available on the website) \n• Compatible with Sublime Text 3 and TextMate 1 syntax definitions and themes \n• Code completion for HTML, CSS, JavaScript, C, Objective-C, and PHP\n• SFTP (SSH connection), FTP, FTPS (FTP over SSL), WebDAV, Dropbox and Google Drive clients\n• SSH terminal connections\n• Git repositories from the Git client app Working Copy can be opened as external folders in Textastic\n• Emmet support\n• JavaScript console\n• iCloud Drive file synchronization\n• WebDAV server to easily transfer files from your Mac or PC over Wi-Fi.\n• Symbol list to quickly navigate in a file \n• Full support for external keyboards, trackpads, and mice\n• Configurable keyboard shortcuts\n• Displays additional keys over the virtual keyboard to make it easy to type characters often used for programming \n• Cursor navigation wheel for easy text selection\n• Easily move the cursor using swipe gestures\n• Split View and Slide Over multitasking on iPad\n• Open multiple files in tabs\n• Multiple Windows on iPadOS\n• Support for Dark Mode\n• Supports most encodings like UTF-8, UTF-16, and ISO-8859-1\n• Supports different tab widths and soft tabs (spaces instead of tabs) \n• Custom fonts\n• Find & Replace (including regular expression search)\n• Find in multiple files\n• File information like character count and word count \n• Local and remote web preview for HTML and Markdown files \n\nDon't hesitate to tell me the features you want to see in the next version!\n\nhttps://feedback.textasticapp.com/"
+    },
+    "im:price": {
+      "label": "¥2,000",
+      "attributes": {
+        "amount": "2000",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2010-2023 Alexander Blach"
+    },
+    "title": {
+      "label": "Textastic Code Editor - Alexander Blach"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/textastic-code-editor/id1049254261?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/3d/f2/cd/3df2cd3f-0ef5-7ccc-a2a9-5bedae5bf228/95774f19-274c-476e-a7e4-eb6953c0d0a4_Screenshot_1_en.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/textastic-code-editor/id1049254261?l=en&uo=2",
+      "attributes": {
+        "im:id": "1049254261",
+        "im:bundleId": "com.textasticapp.textastic-universal"
+      }
+    },
+    "im:artist": {
+      "label": "Alexander Blach",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/alexander-blach/id303486870?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-03-12T01:33:30-07:00",
+      "attributes": {
+        "label": "March 12, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 7,
+      "total": 99
+    },
+    "im:name": {
+      "label": "BASIC: programming language"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/9c/27/ef9c2701-3dab-8494-7085-44cf0ff5447b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/9c/27/ef9c2701-3dab-8494-7085-44cf0ff5447b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/9c/27/ef9c2701-3dab-8494-7085-44cf0ff5447b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is \"smart BASIC\" - an improved version of the popular Minimal BASIC programming language.\nWith \"smart BASIC\" you can create your own programs right on your iOS device.\nBASIC programs written in \"smart BASIC\" can be published in the Apple App Store as standalone applications using the \"smart BASIC\" SDK for Xcode.\n\nThe \"smart BASIC\" programming language has many powerful features.\n\nINTERFACE:\n- buttons, text boxes, sliders, switches, browsers\n- pages for grouping your interface objects\n- support for additional TTF fonts\n- clipboard support\n- multitouch up to 11 simultaneous touches\n\nGRAPHIC:\n- advanced graphics functions\n- animated sprites, sprite sheet support\n\nMUSIC and SOUND:\n- play MP3, AIFF, WAV, MIDI, MOV and MP4 files\n- programmable MIDI synthesizer with 128 built-in instruments\n- support for additional sound fonts SF2 and DLS\n- speech synthesizer\n\nHARDWARE support:\n- GPS, compass\n- accelerometer\n- photo and video recording\n\nand more:\n- files\n- networking\n- integrated mathematics of complex numbers\n- customizable IDE\n- built-in documentation\n- ready-to-use examples of programs\n\n\nVisit the support forum to get assistance and to share your BASIC programs with other users."
+    },
+    "im:price": {
+      "label": "¥1,800",
+      "attributes": {
+        "amount": "1800",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Mr.Kibernetik"
+    },
+    "title": {
+      "label": "BASIC: programming language - Nikolay Denislamov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/basic-programming-language/id1540244170?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/d2/56/41/d25641b4-a684-9896-6b0f-7a4a50247e0f/54f8a286-f2fc-4025-a6c0-9c753fe3ebd6_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/basic-programming-language/id1540244170?l=en&uo=2",
+      "attributes": {
+        "im:id": "1540244170",
+        "im:bundleId": "Kibernetik.smartBASIC"
+      }
+    },
+    "im:artist": {
+      "label": "Nikolay Denislamov",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/nikolay-denislamov/id505796639?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-11-16T00:00:00-07:00",
+      "attributes": {
+        "label": "November 16, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 8,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Simple DNS"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/67/27/8e/67278e7c-441f-8998-00bf-9331c30ad13c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/67/27/8e/67278e7c-441f-8998-00bf-9331c30ad13c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/67/27/8e/67278e7c-441f-8998-00bf-9331c30ad13c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Simple DNS is an easy-to-use tool with which DNS queries can be performed.\n\nFeatures:\n* DNS Lookup\n* Reverse DNS\n* Supports all resource records\n\nSimple and straightforward!"
+    },
+    "im:price": {
+      "label": "¥300",
+      "attributes": {
+        "amount": "300",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Feuerberg Software"
+    },
+    "title": {
+      "label": "Simple DNS - Daniel Linsenmeier"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/simple-dns/id1645591739?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/38/2b/58/382b58ac-8d8d-ceb0-207b-6e6b922a7869/d58b683b-cd07-470d-9efb-a7f6804f9a2c_apple_tablet_screenshot_0.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/simple-dns/id1645591739?l=en&uo=2",
+      "attributes": {
+        "im:id": "1645591739",
+        "im:bundleId": "de.feuerberg-software.simple-dns"
+      }
+    },
+    "im:artist": {
+      "label": "Daniel Linsenmeier",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/daniel-linsenmeier/id1543220963?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-09-18T00:00:00-07:00",
+      "attributes": {
+        "label": "September 18, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 9,
+      "total": 99
+    },
+    "im:name": {
+      "label": "JINS MEME Logger"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/74/5d/a4/745da4b8-9203-41cd-af4a-8fb6cb4c3222/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/74/5d/a4/745da4b8-9203-41cd-af4a-8fb6cb4c3222/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/74/5d/a4/745da4b8-9203-41cd-af4a-8fb6cb4c3222/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "ーーー\nメガネで生体情報を取得できるロガーアプリ\nJINS MEME Loggerは、JINS MEMEで計測された様々なデータを表示し保存することができるアプリです。このアプリは現在販売中のJINS MEMEにのみ対応しております。\nアプリの使い方\n—————————————————————————————————————\n1. JINS MEMEとスマートフォンを接続\n・タブバーの「接続」をタップ\n・アプリ画面下「検索」ボタンをタップしてアドバタイズされているJINS MEMEを検索\n・見つかったJINS MEMEのIDをタップすれば接続完了\n—————————————————————————————————————\n2. 「ロガー」ページで計測データを確認してデータ保存\n・タブバーの「ロガー」ページには接続されているJINS MEMEで計測されたデータがリアルタイムに表示されます\n・画面下の「記録」ボタンをタップでデータの記録を開始します。「記録終了」ボタンをタップすれば記録を終了しデータを保存します\n・記録されたデータはCSVファイルでスマートフォン内に保存されます\n—————————————————————————————————————\n3. 目の動き、体の動きをグラフで確認\n・タブバー中央の「グラフ」ページでは、接続されているJINS MEMEで計測されたデータをグラフでリアルタイム表示します\n—————————————————————————————————————\n4. CSVファイルの取り出し\n内部ストレージ→Download以下にファイル種毎にフォルダが切られ保存されています。他のファイラーアプリで開いてください。\n—————————————————————————————————————\n5. データの連携\n・Google Driveにデータを自動連携することができます。\n・WebSocketクライアントを追加することで、JINS MEMEのデータをリアルタイムに外部出力することができます。\n—————————————————————————————————————\nJINS MEMEに関する情報はこちら\nhttps://jinsmeme.com/"
+    },
+    "im:price": {
+      "label": "¥100",
+      "attributes": {
+        "amount": "100",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2018 JINS Inc."
+    },
+    "title": {
+      "label": "JINS MEME Logger - JINS Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/jins-meme-logger/id1537937129?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7c/11/7c/7c117c61-9748-215f-d553-5f6ea3985efd/d4dd5275-2b0f-4549-8ba6-3847ff15af91_logger01.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/jins-meme-logger/id1537937129?l=en&uo=2",
+      "attributes": {
+        "im:id": "1537937129",
+        "im:bundleId": "com.jins-meme.logger"
+      }
+    },
+    "im:artist": {
+      "label": "JINS Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/jins-inc/id510584835?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-25T00:00:00-07:00",
+      "attributes": {
+        "label": "January 25, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 10,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Continuous .NET C# and F# IDE"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/84/7f/3a/847f3aea-1f6f-201f-5cae-9c9e0053bb55/AppIcons-1x_U007emarketing-0-4-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/84/7f/3a/847f3aea-1f6f-201f-5cae-9c9e0053bb55/AppIcons-1x_U007emarketing-0-4-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/84/7f/3a/847f3aea-1f6f-201f-5cae-9c9e0053bb55/AppIcons-1x_U007emarketing-0-4-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Continuous is a fast and powerful .NET C# and F# IDE that runs directly on the iPad and iPhone (no network needed!). With it, you can write apps and games using your favorite languages on your favorite devices.\n\nContinuous is always building and running your code so you can see changes as you type. Writing interactive apps in Continuous is a pleasure compared to the traditional code-build-run cycle. It frees you to make lots of small changes and see their effects immediately - no more waiting for builds or deployments and no more clicking around trying to get to the screen you're trying to code.\n\nContinuous looks and works in many of the same ways as traditional .NET IDEs so you'll feel right at home, but it also strives to advance the state of the art in IDEs with these features:\n\n>>> Full C# 8 and F# 4.7 compilers so you can use the latest tech\n>>> Xamarin.Forms Live XAML Editing\n>>> Automatic compiling and running so you can focus on the code and the results\n>>> Fancy text editor with tabs, semantic highlighting, inline error bubbles, and inline values that are updated as you type\n>>> Watch window enables you to view graphical objects in your app (UI and images), inspect live objects as your app runs, create instances of new objects, and call methods\n>>> Code completion with inline type info and documentation makes learning new APIs fun\n>>> Uses standard .NET file and project formats so you can share code with other IDEs\n>>> Includes Xamarin.Forms and UIKit to build apps and SpriteKit and SceneKit to build games. You can access many iOS APIs including CoreMotion, the Social framework, and HealthKit to read data.\n>>> Split screen support so you can keep documentation by your side\n>>> Execution powered by a new IL interpreter\n\nIf you're new to .NET or iOS coding, you will love the code completion with integrated documentation and the fun examples that come with the app.\n\nIf you're a .NET pro, then you will love the support for projects and the ability to inspect objects as you code them - whether they're in a script or just a normal project file.\n\nIf you're new to programming, C# is an great language to learn: it's powerful yet friendly language, example code is all over the internet, and there are plenty of jobs out there waiting for you.\n\nIf you enjoy thinking a little differently, then you will love that F# is included and fully supported. This amazing programming language will teach you to write better code and will arm you to solve problems that you thought were too big or hard to solve - like writing an IDE."
+    },
+    "im:price": {
+      "label": "¥2,000",
+      "attributes": {
+        "amount": "2000",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2016-2023 Krueger Systems, Inc."
+    },
+    "title": {
+      "label": "Continuous .NET C# and F# IDE - Krueger Systems, Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/continuous-net-c-and-f-ide/id1095213378?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/0e/35/da/0e35da2d-9aa8-3f6c-ca84-80df14f59d1b/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/continuous-net-c-and-f-ide/id1095213378?l=en&uo=2",
+      "attributes": {
+        "im:id": "1095213378",
+        "im:bundleId": "com.kruegersystems.continuous"
+      }
+    },
+    "im:artist": {
+      "label": "Krueger Systems, Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/krueger-systems-inc/id299293363?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-07-06T10:01:12-07:00",
+      "attributes": {
+        "label": "July 6, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -1220,6 +1118,108 @@
       "label": "2009-08-14T11:42:03-07:00",
       "attributes": {
         "label": "August 14, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 12,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Juno: Jupyter/Python IDE"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/10/48/dd/1048dd97-8fb4-5178-fa9e-c48988d932b2/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/10/48/dd/1048dd97-8fb4-5178-fa9e-c48988d932b2/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/10/48/dd/1048dd97-8fb4-5178-fa9e-c48988d932b2/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Zero-setup Jupyter and Python environment in a first-class citizen app for iPad and iPhone.\n\nJuno is a Python IDE designed to work seamlessly with Jupyter notebooks — a document format focused on applying Python to data analysis and computational science. Notebooks serve as excellent Python coding playgrounds for data manipulation and experimentation, and Juno makes working with them a breeze!\n\nWith Juno, you can:\n\n• Start coding right away with our zero-setup and user-friendly Jupyter/Python IDE\n• Utilize Jupyter notebooks as programming and data science playgrounds\n• Leverage powerful data analysis and machine learning tools: NumPy, Matplotlib, SciPy, Scikit-learn, Pandas, LXML, and more\n• Execute Python code directly on your iPhone or iPad in a first-class native app, entirely offline\n• Effortlessly install pure Python packages with an intuitive package manager\n• Take full advantage of your keyboard and trackpad in our full-featured code editor\n• Embrace full multitasking and multi-window capabilities on iPad\n\nWHAT ARE JUPYTER NOTEBOOKS?\n\nA Jupyter notebook is a versatile document format that enables you to store live code, markdown text, plots, images, and LaTeX equations — all within a single notebook file. This versatility makes Jupyter notebooks an exceptional learning tool, whether you're learning to code or honing your data analysis skills.\n\nNotebook documents keep a record of all inputs and outputs from an interactive programming session, and the rich output generated by running Python scripts (including HTML, images, video, and plots) is embedded within the Jupyter notebook document. They are particularly convenient for coding in Python for data analysis, machine learning, or computational science in general.\n\nA notebook comprises a sequence of cells, each representing either narrative text in markdown or HTML format, or a coding script with text or media output. This structure makes notebooks both human-readable documents containing analysis descriptions and results (figures, tables, etc.), as well as executable scripts for data analysis or general programming. You can use a Jupyter notebook as a document with optional executable code, or simply as a programming playground for data manipulation and experimentation.\n\nWHO IS JUNO FOR?\n\nJuno provides an exceptional programming environment for those using (or learning to use) Python for data analysis, machine learning, or computational science. Jupyter notebooks serve as an excellent educational tool for learning Python or practicing coding, especially in the context of data science. This makes Juno a perfect learning companion and a powerful developer tool for honing your programming and data analysis skills."
+    },
+    "im:price": {
+      "label": "¥2,500",
+      "attributes": {
+        "amount": "2500",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Rational Matter Ltd"
+    },
+    "title": {
+      "label": "Juno: Jupyter/Python IDE - Rational Matter"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9f/5f/02/9f5f02db-e894-d177-b5de-3d2b31996116/093f7443-5241-43c5-bdab-f03012a6a4c4_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/juno-jupyter-python-ide/id1462586500?l=en&uo=2",
+      "attributes": {
+        "im:id": "1462586500",
+        "im:bundleId": "com.rationalmatter.junoapp"
+      }
+    },
+    "im:artist": {
+      "label": "Rational Matter",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/rational-matter/id1315744136?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-09-26T00:00:00-07:00",
+      "attributes": {
+        "label": "September 26, 2019"
       }
     }
   },
@@ -1844,108 +1844,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Code Recipes Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/60/2b/ae/602bae39-5000-a998-f0b4-21f01a5e0c04/AppIcon-1x_U007emarketing-0-4-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/60/2b/ae/602bae39-5000-a998-f0b4-21f01a5e0c04/AppIcon-1x_U007emarketing-0-4-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/60/2b/ae/602bae39-5000-a998-f0b4-21f01a5e0c04/AppIcon-1x_U007emarketing-0-4-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "• Programming languages:\n  - How to get a substring? \n  - How to declare a generalized method? \n  - How to perform a database query?\n• SQL:\n  - How to combine multiple tables in a single query? \n  - How to sort the result of grouping data?\n  - What types of data are there in SQL Server?\nThese and over 300 of other code samples for each language are available in the application.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Finding the best decision on the Internet may demand hours of working time. Ready for use and tested code \"recipes\" are included in the application.\n\n• One app for iOS and MacOS. Buy once and use on your phone, tablet or computer.\n\n• This is an excellent help for those who often use several programming languages. The application reduces the time required to switch to a different syntax.\n\n• The application is a good tool during the exam or the preparation to the interview because it contains a reference to frequently used operations in different programming languages.\n\n• All examples in the application are available offline. The application can be used when the Internet connection is not available.\n\n• Quick search of the correct example by the code or by the name of topic. Print or send the code example, which you like and share it with your colleagues.\n\n• Being a developer, I use this program when I need to remember quickly how to solve a given task in one or another programming language.\n\n• One of the app reviews:\nA must have app for any consultant. Rather than being a lexicon of coding descriptions and commands, as so many of these apps are, Fedor has provided a reference tool for real-world developers. There are three main areas of the app; list of topics leading to subject menu, explanation page, settings. Starting with the list of topics, the index is broken into logical sections that direct the developer quickly to a sub-menu and the area needed - precisely where a developer would expect to find what they’re looking for. The explanations in each and every page are succinct, well thought out, and clearly presented with excellent examples where needed. There is no boiler plate generic definitions here. The ‘settings’ section is equally efficient. It allows to switch to dark, change font and size, upgrade/release additional language examples, or simply upgrade to a full and ad-free version. It should be noted that the cost and features of a fully upgraded ‘Codes recipes’ app is the same as buying the ‘Codes recipes PRO’ version. Fedor, thank you for developing this app - it’s excellent.\n\nIf you can help with translating the names of topics into your language, please contact me by e-mail."
-    },
-    "im:price": {
-      "label": "¥600",
-      "attributes": {
-        "amount": "600",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Obraztsov Fedor Alexandrovich"
-    },
-    "title": {
-      "label": "Code Recipes Pro - Fedor Obraztsov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/code-recipes-pro/id1061486140?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/20/e7/e6/20e7e656-2cab-19fa-736d-a663d93ce2de/52049350-3dcf-4793-a82c-c3e9b28dd435_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2023-06-30_at_09.07.09.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/code-recipes-pro/id1061486140?l=en&uo=2",
-      "attributes": {
-        "im:id": "1061486140",
-        "im:bundleId": "ru.obraztsov.codeSamplesHD"
-      }
-    },
-    "im:artist": {
-      "label": "Fedor Obraztsov",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/fedor-obraztsov/id1012115119?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-12-19T13:24:02-07:00",
-      "attributes": {
-        "label": "December 19, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 20,
-      "total": 99
-    },
-    "im:name": {
       "label": "My Lisp"
     },
     "im:image": [
@@ -2044,7 +1942,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -2146,7 +2044,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -2240,6 +2138,108 @@
       "label": "2017-11-20T11:47:31-07:00",
       "attributes": {
         "label": "November 20, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 22,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Code Recipes Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/60/2b/ae/602bae39-5000-a998-f0b4-21f01a5e0c04/AppIcon-1x_U007emarketing-0-4-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/60/2b/ae/602bae39-5000-a998-f0b4-21f01a5e0c04/AppIcon-1x_U007emarketing-0-4-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/60/2b/ae/602bae39-5000-a998-f0b4-21f01a5e0c04/AppIcon-1x_U007emarketing-0-4-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "• Programming languages:\n  - How to get a substring? \n  - How to declare a generalized method? \n  - How to perform a database query?\n• SQL:\n  - How to combine multiple tables in a single query? \n  - How to sort the result of grouping data?\n  - What types of data are there in SQL Server?\nThese and over 300 of other code samples for each language are available in the application.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Finding the best decision on the Internet may demand hours of working time. Ready for use and tested code \"recipes\" are included in the application.\n\n• One app for iOS and MacOS. Buy once and use on your phone, tablet or computer.\n\n• This is an excellent help for those who often use several programming languages. The application reduces the time required to switch to a different syntax.\n\n• The application is a good tool during the exam or the preparation to the interview because it contains a reference to frequently used operations in different programming languages.\n\n• All examples in the application are available offline. The application can be used when the Internet connection is not available.\n\n• Quick search of the correct example by the code or by the name of topic. Print or send the code example, which you like and share it with your colleagues.\n\n• Being a developer, I use this program when I need to remember quickly how to solve a given task in one or another programming language.\n\n• One of the app reviews:\nA must have app for any consultant. Rather than being a lexicon of coding descriptions and commands, as so many of these apps are, Fedor has provided a reference tool for real-world developers. There are three main areas of the app; list of topics leading to subject menu, explanation page, settings. Starting with the list of topics, the index is broken into logical sections that direct the developer quickly to a sub-menu and the area needed - precisely where a developer would expect to find what they’re looking for. The explanations in each and every page are succinct, well thought out, and clearly presented with excellent examples where needed. There is no boiler plate generic definitions here. The ‘settings’ section is equally efficient. It allows to switch to dark, change font and size, upgrade/release additional language examples, or simply upgrade to a full and ad-free version. It should be noted that the cost and features of a fully upgraded ‘Codes recipes’ app is the same as buying the ‘Codes recipes PRO’ version. Fedor, thank you for developing this app - it’s excellent.\n\nIf you can help with translating the names of topics into your language, please contact me by e-mail."
+    },
+    "im:price": {
+      "label": "¥600",
+      "attributes": {
+        "amount": "600",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Obraztsov Fedor Alexandrovich"
+    },
+    "title": {
+      "label": "Code Recipes Pro - Fedor Obraztsov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/code-recipes-pro/id1061486140?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/20/e7/e6/20e7e656-2cab-19fa-736d-a663d93ce2de/52049350-3dcf-4793-a82c-c3e9b28dd435_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2023-06-30_at_09.07.09.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/code-recipes-pro/id1061486140?l=en&uo=2",
+      "attributes": {
+        "im:id": "1061486140",
+        "im:bundleId": "ru.obraztsov.codeSamplesHD"
+      }
+    },
+    "im:artist": {
+      "label": "Fedor Obraztsov",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/fedor-obraztsov/id1012115119?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-12-19T13:24:02-07:00",
+      "attributes": {
+        "label": "December 19, 2015"
       }
     }
   },
@@ -2660,6 +2660,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Pro JavaScript Editor"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/cd/9b/c4/cd9bc464-a021-1e48-3660-7cce6a870f3b/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/cd/9b/c4/cd9bc464-a021-1e48-3660-7cce6a870f3b/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/cd/9b/c4/cd9bc464-a021-1e48-3660-7cce6a870f3b/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is the Ad-Free Pro-Version of the app 'Java Editor - .java Editor'\n\nJavaScript Editor is a simple and powerful app for creating, editing, and saving JavaScript files on your device. With its intuitive interface and essential features such as import, export and syntax highlighting, JavaScript Editor is the perfect tool for anyone who needs to manage their JavaScript code. Whether you're a student, developer or just need to write or view some code, JavaScript Editor makes it easy to write JavaScript code on-the-go or at home. Download JavaScript Editor now and experience the power of effortless JavaScript editing!"
+    },
+    "im:price": {
+      "label": "¥600",
+      "attributes": {
+        "amount": "600",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Julian Lau"
+    },
+    "title": {
+      "label": "Pro JavaScript Editor - Julian Lau"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/pro-javascript-editor/id6449680697?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/d7/a8/8dd7a8ba-7f6d-50ca-be08-8c0f9184e937/cd807e1b-81d6-452b-8791-bedd0ad10fe7_3.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/pro-javascript-editor/id6449680697?l=en&uo=2",
+      "attributes": {
+        "im:id": "6449680697",
+        "im:bundleId": "app.edit-js-pro.com"
+      }
+    },
+    "im:artist": {
+      "label": "Julian Lau",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/julian-lau/id1603050262?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-05-31T00:00:00-07:00",
+      "attributes": {
+        "label": "May 31, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 28,
+      "total": 99
+    },
+    "im:name": {
       "label": "ActionsHub - GitHub Actions"
     },
     "im:image": [
@@ -2750,108 +2852,6 @@
       "label": "2020-08-07T00:00:00-07:00",
       "attributes": {
         "label": "August 7, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 28,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Simple Server: HTTP Server"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Simple Server is a small web server in your pocket.\n\n- Share your folders/files from your iPhone/iPad to other devices in the same local network.\n- Browse your shared folders and files via browsers easily.\n- Manage your folders/files on your iPhone/iPad via browsers.\n- Set a username/password for sharing/managing files.\n- Support Access Logs displaying HTTP method, URL, remote IP address, and access time of requests and responses.\n- On iPad, you can preview your static HTML files in Safari with Split View while the web server runs on the same iPad.\n\n\nTwo steps to share your folder:\n\n1. In the app, tap \"Select folder\" and select a folder to be shared. You can choose a folder on your device or iCloud.\n2. Tap the \"Start Server\" button. It's done!\n\nThen, connect to the address in a browser on any device in the same network. (e.g., A device that uses the same WiFi router.)\n\nAlso, you can allow remote users can manage folders and files if you want.\n\n\nCaution:\n\n- Simple HTTP Server should be running in the foreground. It cannot be run in the background. If you change to another app or turn off the screen, the web server will stop.\n- On iPad, you can browse files/folders via Safari with running the web server on the same device, thanks to multitasking.\n- However, if you switch to another app on your iPhone, the web server will stop. The server status will be automatically recovered when you return to the app. On iPhone, browsing files from other devices is only meaningful.\n- It works only in a local WiFi network or local wired network. You cannot connect to the web server via a cellular network."
-    },
-    "im:price": {
-      "label": "¥400",
-      "attributes": {
-        "amount": "400",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Bitsbaker LLC."
-    },
-    "title": {
-      "label": "Simple Server: HTTP Server - Bitsbaker LLC."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/simple-server-http-server/id6443893597?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f9/95/44/f9954413-7d98-680e-4e21-223c4dc91226/5483fc7b-8f4e-4ff7-953d-486dedecd116_iPad_-_2732x2048_-_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/simple-server-http-server/id6443893597?l=en&uo=2",
-      "attributes": {
-        "im:id": "6443893597",
-        "im:bundleId": "com.bitsbaker.SimpleServer"
-      }
-    },
-    "im:artist": {
-      "label": "Bitsbaker LLC.",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/bitsbaker-llc/id1631721150?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-10-18T00:00:00-07:00",
-      "attributes": {
-        "label": "October 18, 2022"
       }
     }
   },
@@ -2966,6 +2966,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Simple Server: HTTP Server"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Simple Server is a small web server in your pocket.\n\n- Share your folders/files from your iPhone/iPad to other devices in the same local network.\n- Browse your shared folders and files via browsers easily.\n- Manage your folders/files on your iPhone/iPad via browsers.\n- Set a username/password for sharing/managing files.\n- Support Access Logs displaying HTTP method, URL, remote IP address, and access time of requests and responses.\n- On iPad, you can preview your static HTML files in Safari with Split View while the web server runs on the same iPad.\n\n\nTwo steps to share your folder:\n\n1. In the app, tap \"Select folder\" and select a folder to be shared. You can choose a folder on your device or iCloud.\n2. Tap the \"Start Server\" button. It's done!\n\nThen, connect to the address in a browser on any device in the same network. (e.g., A device that uses the same WiFi router.)\n\nAlso, you can allow remote users can manage folders and files if you want.\n\n\nCaution:\n\n- Simple HTTP Server should be running in the foreground. It cannot be run in the background. If you change to another app or turn off the screen, the web server will stop.\n- On iPad, you can browse files/folders via Safari with running the web server on the same device, thanks to multitasking.\n- However, if you switch to another app on your iPhone, the web server will stop. The server status will be automatically recovered when you return to the app. On iPhone, browsing files from other devices is only meaningful.\n- It works only in a local WiFi network or local wired network. You cannot connect to the web server via a cellular network."
+    },
+    "im:price": {
+      "label": "¥400",
+      "attributes": {
+        "amount": "400",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Bitsbaker LLC."
+    },
+    "title": {
+      "label": "Simple Server: HTTP Server - Bitsbaker LLC."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/simple-server-http-server/id6443893597?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f9/95/44/f9954413-7d98-680e-4e21-223c4dc91226/5483fc7b-8f4e-4ff7-953d-486dedecd116_iPad_-_2732x2048_-_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/simple-server-http-server/id6443893597?l=en&uo=2",
+      "attributes": {
+        "im:id": "6443893597",
+        "im:bundleId": "com.bitsbaker.SimpleServer"
+      }
+    },
+    "im:artist": {
+      "label": "Bitsbaker LLC.",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/bitsbaker-llc/id1631721150?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-18T00:00:00-07:00",
+      "attributes": {
+        "label": "October 18, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 31,
+      "total": 99
+    },
+    "im:name": {
       "label": "Logger for Shortcuts"
     },
     "im:image": [
@@ -3056,108 +3158,6 @@
       "label": "2022-03-10T00:00:00-07:00",
       "attributes": {
         "label": "March 10, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 31,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Color Hunter | Find Colors"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/49/e0/2f/49e02fea-1ebe-46b9-bd56-01ad3a00ed88/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/49/e0/2f/49e02fea-1ebe-46b9-bd56-01ad3a00ed88/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/49/e0/2f/49e02fea-1ebe-46b9-bd56-01ad3a00ed88/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Color Hunter offers you a 1000+ color where you can generate gradients."
-    },
-    "im:price": {
-      "label": "¥100",
-      "attributes": {
-        "amount": "100",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022.BAT.ColorHunter"
-    },
-    "title": {
-      "label": "Color Hunter | Find Colors - Basel AbuTaleb"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/color-hunter-find-colors/id1626905185?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/54/cb/94/54cb949c-b045-26da-5bbb-bbe6726ac290/57119781-8219-4b6a-8d1a-2c0ce0f45930_Apple_iPad_Pro_13_Inch_Screenshot_0.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/color-hunter-find-colors/id1626905185?l=en&uo=2",
-      "attributes": {
-        "im:id": "1626905185",
-        "im:bundleId": "co.BAT.ColorHunter"
-      }
-    },
-    "im:artist": {
-      "label": "Basel AbuTaleb",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/basel-abutaleb/id1604005525?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-05-31T00:00:00-07:00",
-      "attributes": {
-        "label": "May 31, 2022"
       }
     }
   },
@@ -3374,6 +3374,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Color Hunter | Find Colors"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/49/e0/2f/49e02fea-1ebe-46b9-bd56-01ad3a00ed88/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/49/e0/2f/49e02fea-1ebe-46b9-bd56-01ad3a00ed88/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/49/e0/2f/49e02fea-1ebe-46b9-bd56-01ad3a00ed88/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Color Hunter offers you a 1000+ color where you can generate gradients."
+    },
+    "im:price": {
+      "label": "¥100",
+      "attributes": {
+        "amount": "100",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022.BAT.ColorHunter"
+    },
+    "title": {
+      "label": "Color Hunter | Find Colors - Basel AbuTaleb"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/color-hunter-find-colors/id1626905185?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/54/cb/94/54cb949c-b045-26da-5bbb-bbe6726ac290/57119781-8219-4b6a-8d1a-2c0ce0f45930_Apple_iPad_Pro_13_Inch_Screenshot_0.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/color-hunter-find-colors/id1626905185?l=en&uo=2",
+      "attributes": {
+        "im:id": "1626905185",
+        "im:bundleId": "co.BAT.ColorHunter"
+      }
+    },
+    "im:artist": {
+      "label": "Basel AbuTaleb",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/basel-abutaleb/id1604005525?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-05-31T00:00:00-07:00",
+      "attributes": {
+        "label": "May 31, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 35,
+      "total": 99
+    },
+    "im:name": {
       "label": "ESP32 BLE Terminal"
     },
     "im:image": [
@@ -3472,7 +3574,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3574,7 +3676,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3676,7 +3778,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 37,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3778,313 +3880,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 38,
-      "total": 99
-    },
-    "im:name": {
-      "label": "UCoW - Ultimate Code Wrapper"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/fd/53/d3fd5325-29db-5512-b232-ac9b2dee57bf/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/fd/53/d3fd5325-29db-5512-b232-ac9b2dee57bf/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/fd/53/d3fd5325-29db-5512-b232-ac9b2dee57bf/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The Ultimate Code Wrapper gives you the ability to access all your Code-Server, OpenVSCode Server, gitpod, github.dev, vscode.dev*, github codespaces, github1s, jupyter notebooks, jetbrains projector and stackblitz online instances in one place \"with tweeks\". That means you can use all defined and global shortcuts without the limitation of a browser. \nUCoW also adds a custom Keybar, including an innovative new \"cursor control stick\" to the virtual keyboard.\n\nShort features overview: \n• Access to all keyboard shortcuts (physical keyboard required)\n• Extra Key-bar with many onscreen shortcuts \n(including a virtual stick to move the cursor without a trackpad/mouse)\n• Best possible performance on iPad devices\n• Quick switch between multiple code-server instances \n• Optimized Trackpad support\n• Multi instance and window support \n• Editor scale/zoom support\n\n••• ! ••• This app requires a self hosted code-server instance \nor an account at one of the supported services ••• ! •••\n\nSupported Services:\n• Code-Server (self-hosted) \nYou can download code-server at: https://github.com/cdr/code-server\n• NEW! OpenVSCode Server (self-hosted)\nDownload it at: https://github.com/gitpod-io/openvscode-server\n• NEW! Support for VSCode and Jupyter Notebook Add-On in Home Assistant (www.home-assistant.io)\n• NEW! Join a live share (VSCode Extension) on https://VSCode.dev via URL or Liveshare id\n\n• Gitpod (gitpod.io)\n• Github Codespaces (github.com/features/codespaces)\n• Github1s (github1s.com)\n• Stackblitz (stackblitz.com)\n• VSCode.dev* (github.dev)\n• Jetbrains Projector  (jetbrains.com/projector)\n• Jupyter Notebooks (jupyter.org)\n• more services will follow soon\n\n\n* IMPORTANT! for VSCode.dev (VS Code Server & Liveshare) there is an new separate App available on the AppStore. \nPlease check out: \"VSCoW - Code Wrapper\" for this case. \n\n\n••• ! ••• An internet connection is required to work\n\n\n••• ! ••• An external keyboard is recommended to use the app since selection with the touch cursor is not supported in VSCode at this moment.\n\nThis is a wrapper app only and is not affiliated with or endorsed by Microsoft Corporation."
-    },
-    "im:price": {
-      "label": "¥600",
-      "attributes": {
-        "amount": "600",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Christoph Gogolin | Gogolith 2023"
-    },
-    "title": {
-      "label": "UCoW - Ultimate Code Wrapper - Christoph Gogolin"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/ucow-ultimate-code-wrapper/id1551344923?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/32/d9/6b/32d96b47-fe33-9bfc-433a-29c71bd7eac4/b9d30e39-7e93-46b9-84fb-db776a75b581_2732x2048bb-2.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/ucow-ultimate-code-wrapper/id1551344923?l=en&uo=2",
-      "attributes": {
-        "im:id": "1551344923",
-        "im:bundleId": "com.gogolith.vscodewrapper"
-      }
-    },
-    "im:artist": {
-      "label": "Christoph Gogolin",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/christoph-gogolin/id511901280?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-08-23T00:00:00-07:00",
-      "attributes": {
-        "label": "August 23, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
       "index": 39,
-      "total": 99
-    },
-    "im:name": {
-      "label": "SeeLess - C Compiler"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d9/00/3b/d9003b9d-bbbd-0ca9-d15a-794f4a791f8c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d9/00/3b/d9003b9d-bbbd-0ca9-d15a-794f4a791f8c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d9/00/3b/d9003b9d-bbbd-0ca9-d15a-794f4a791f8c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "SeeLess is a C IDE for iOS. SeeLess allows you to code commands with C and install them in LibTerm.\n\nThe compiler used to compile programs is clang. Clang generates bitcode with -S -emit-llvm flags that can be executed with lli command. Also contains llvm-link so multiple objects can be linked into one \"executable\".\n\nThis app consists in a file browser for managing projects. Projects are packages with C sources and configuration files."
-    },
-    "im:price": {
-      "label": "¥400",
-      "attributes": {
-        "amount": "400",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 Adrian Labbé"
-    },
-    "title": {
-      "label": "SeeLess - C Compiler - Develobile S.p.A."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/seeless-c-compiler/id1481018071?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7f/3d/83/7f3d8344-42f5-ceb6-a121-94ccb85b4fb1/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/seeless-c-compiler/id1481018071?l=en&uo=2",
-      "attributes": {
-        "im:id": "1481018071",
-        "im:bundleId": "ch.ada.SeeLess"
-      }
-    },
-    "im:artist": {
-      "label": "Develobile S.p.A.",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/develobile-s-p-a/id1212021727?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-11-12T00:00:00-07:00",
-      "attributes": {
-        "label": "November 12, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 40,
-      "total": 99
-    },
-    "im:name": {
-      "label": "View Source Premier"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/af/84/3daf84e8-974d-0b68-1436-ec4c88602e37/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/af/84/3daf84e8-974d-0b68-1436-ec4c88602e37/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/af/84/3daf84e8-974d-0b68-1436-ec4c88602e37/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Welcome to a powerful tool for analyzing and viewing HTML, XML, JavaScript, CSS, JSON, RSS, and ATOM code. Our application provides you with all the necessary tools to work with code conveniently and increase your productivity.\n\nIn our application, you will find the following fantastic features:\n\n• Support for Three Types of Devices: Now you can work with the application on iPhone, iPad, and Mac, enjoying an optimal user experience on each of them.\n• Intuitive Code Viewing: Easily browse and analyze formatted HTML, XML, JSON, RSS, and ATOM code in both structured and plain text formats, making code interaction more convenient.\n• Error Tracking: Our application will help you detect errors in the structure of HTML, XML, JSON, RSS, and ATOM code.\n• Built-in Simulator: Effortlessly view web pages in the embedded simulator. You have access to templates of different screen sizes for devices and the ability to create custom device simulators with individual screen sizes.\n• Terminal Testing: Conduct web page testing using the terminal to input JavaScript code and get instant results.\n• Search: Use the text search or apply regular expressions to quickly find specific locations in the code or content within the simulator.\n• View Connected Styles: Learn which styles are applied to the selected element of the web page by viewing them in the code or simulator.\n• Image Handling: View all known image formats added to the web page or CSS file.\n• Request Management: Create unique requests with input support for Method, Headers, Cookies, and Body. Also, view, edit, or re-execute previously made requests.\n• Built-in Code Beautifier: Beautify the source code and easily format it using the built-in Code Beautifier tool.\n• Detailed Request Inspection: Examine Header and Cookie values from the request response for additional analysis and debugging.\n• Request Execution Time Viewing: Obtain information about the time spent executing the request for performance optimization.\n• Copy to Clipboard: Copy the entire code, individual sections, or formatted code from all child elements of the selected code structure element to the clipboard.\n• Copying Information from Application Panels: Easily copy any displayed information contained in the application panels for convenient data exchange.\n• Disk File Opening: Easily open files saved on your disk directly in the application for viewing formatted code.\n• Friendly Support and Updates: We value your comments and feedback, which will help us improve. Write about what you would like to see in new releases, and we will definitely take your wishes into account!\n\nThank you for choosing our application. We are confident it will become an indispensable assistant in your code work."
-    },
-    "im:price": {
-      "label": "¥900",
-      "attributes": {
-        "amount": "900",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Andrey Uspanov"
-    },
-    "title": {
-      "label": "View Source Premier - Andrey Uspanov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/view-source-premier/id1425213172?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/dd/63/de/dd63de3a-ea8d-8463-1761-ac53148b95fe/f3652f20-bc14-496e-b911-247fe011e8d1_Simulator_Screen_Shot_-_iPad_Pro__U002810.5-inch_U0029_-_2021-09-28_at_14.37.28.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/view-source-premier/id1425213172?l=en&uo=2",
-      "attributes": {
-        "im:id": "1425213172",
-        "im:bundleId": "com.cloudwhale.anoren-reviewer"
-      }
-    },
-    "im:artist": {
-      "label": "Andrey Uspanov",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/andrey-uspanov/id1203890914?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-08-18T01:05:46-07:00",
-      "attributes": {
-        "label": "August 18, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 41,
       "total": 99
     },
     "im:name": {
@@ -4186,34 +3982,34 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 42,
+      "index": 40,
       "total": 99
     },
     "im:name": {
-      "label": "Code - Compile & Run Program"
+      "label": "UCoW - Ultimate Code Wrapper"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/de/28/b7/de28b77f-5404-e69f-b8fe-14ad02e07290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/fd/53/d3fd5325-29db-5512-b232-ac9b2dee57bf/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/de/28/b7/de28b77f-5404-e69f-b8fe-14ad02e07290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/fd/53/d3fd5325-29db-5512-b232-ac9b2dee57bf/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/de/28/b7/de28b77f-5404-e69f-b8fe-14ad02e07290/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/fd/53/d3fd5325-29db-5512-b232-ac9b2dee57bf/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "A coding experience custom tailored for iOS that is useful for learning, experimenting and fast prototyping. No downloads, no configs, no setups required, just login and you’re ready to start writing code.\n\nSupported programming languages\nC, C++, Clojure, Crystal, C#, Go, Java, JavaScript, Kotlin, Lua, Perl, PHP, Python, Ruby, Rust, Scala, Swift, TypeScript\n\nUnified development Environment\nAll-in-one platform that lets you code, compile and execute\n\nCustomize your setup\nMake your workspace feel just like home with your desired theme and keyboard mode\n\nReal-time Cloud Sync\nAll your files are seamlessly synced across your devices\n\nContact Support -> code+support@techulus.com\n\nPrivacy and Security\n\nPrivacy Policy - https://code.techulus.com/privacypolicy/\nTerms and Conditions - https://code.techulus.com/terms/\n\nIf you have any questions or suggestions about Privacy Policy, do not hesitate to contact us at code@techulus.com."
+      "label": "The Ultimate Code Wrapper gives you the ability to access all your Code-Server, OpenVSCode Server, gitpod, github.dev, vscode.dev*, github codespaces, github1s, jupyter notebooks, jetbrains projector and stackblitz online instances in one place \"with tweeks\". That means you can use all defined and global shortcuts without the limitation of a browser. \nUCoW also adds a custom Keybar, including an innovative new \"cursor control stick\" to the virtual keyboard.\n\nShort features overview: \n• Access to all keyboard shortcuts (physical keyboard required)\n• Extra Key-bar with many onscreen shortcuts \n(including a virtual stick to move the cursor without a trackpad/mouse)\n• Best possible performance on iPad devices\n• Quick switch between multiple code-server instances \n• Optimized Trackpad support\n• Multi instance and window support \n• Editor scale/zoom support\n\n••• ! ••• This app requires a self hosted code-server instance \nor an account at one of the supported services ••• ! •••\n\nSupported Services:\n• Code-Server (self-hosted) \nYou can download code-server at: https://github.com/cdr/code-server\n• NEW! OpenVSCode Server (self-hosted)\nDownload it at: https://github.com/gitpod-io/openvscode-server\n• NEW! Support for VSCode and Jupyter Notebook Add-On in Home Assistant (www.home-assistant.io)\n• NEW! Join a live share (VSCode Extension) on https://VSCode.dev via URL or Liveshare id\n\n• Gitpod (gitpod.io)\n• Github Codespaces (github.com/features/codespaces)\n• Github1s (github1s.com)\n• Stackblitz (stackblitz.com)\n• VSCode.dev* (github.dev)\n• Jetbrains Projector  (jetbrains.com/projector)\n• Jupyter Notebooks (jupyter.org)\n• more services will follow soon\n\n\n* IMPORTANT! for VSCode.dev (VS Code Server & Liveshare) there is an new separate App available on the AppStore. \nPlease check out: \"VSCoW - Code Wrapper\" for this case. \n\n\n••• ! ••• An internet connection is required to work\n\n\n••• ! ••• An external keyboard is recommended to use the app since selection with the touch cursor is not supported in VSCode at this moment.\n\nThis is a wrapper app only and is not affiliated with or endorsed by Microsoft Corporation."
     },
     "im:price": {
       "label": "¥600",
@@ -4229,17 +4025,17 @@
       }
     },
     "rights": {
-      "label": "© 2020 Techulus LLC"
+      "label": "© Christoph Gogolin | Gogolith 2023"
     },
     "title": {
-      "label": "Code - Compile & Run Program - Arjun Komath"
+      "label": "UCoW - Ultimate Code Wrapper - Christoph Gogolin"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/code-compile-run-program/id1515506950?l=en&uo=2"
+          "href": "https://apps.apple.com/jp/app/ucow-ultimate-code-wrapper/id1551344923?l=en&uo=2"
         }
       },
       {
@@ -4250,22 +4046,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d3/81/06/d3810615-2809-b4fc-2c18-f1ba1bac6445/pr_source.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/32/d9/6b/32d96b47-fe33-9bfc-433a-29c71bd7eac4/b9d30e39-7e93-46b9-84fb-db776a75b581_2732x2048bb-2.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/jp/app/code-compile-run-program/id1515506950?l=en&uo=2",
+      "label": "https://apps.apple.com/jp/app/ucow-ultimate-code-wrapper/id1551344923?l=en&uo=2",
       "attributes": {
-        "im:id": "1515506950",
-        "im:bundleId": "com.techulus.CodePlayground"
+        "im:id": "1551344923",
+        "im:bundleId": "com.gogolith.vscodewrapper"
       }
     },
     "im:artist": {
-      "label": "Arjun Komath",
+      "label": "Christoph Gogolin",
       "attributes": {
-        "href": "https://apps.apple.com/jp/developer/arjun-komath/id1388042509?l=en&uo=2"
+        "href": "https://apps.apple.com/jp/developer/christoph-gogolin/id511901280?l=en&uo=2"
       }
     },
     "category": {
@@ -4277,9 +4073,213 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-06-09T00:00:00-07:00",
+      "label": "2021-08-23T00:00:00-07:00",
       "attributes": {
-        "label": "June 9, 2020"
+        "label": "August 23, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 41,
+      "total": 99
+    },
+    "im:name": {
+      "label": "SeeLess - C Compiler"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d9/00/3b/d9003b9d-bbbd-0ca9-d15a-794f4a791f8c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d9/00/3b/d9003b9d-bbbd-0ca9-d15a-794f4a791f8c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d9/00/3b/d9003b9d-bbbd-0ca9-d15a-794f4a791f8c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "SeeLess is a C IDE for iOS. SeeLess allows you to code commands with C and install them in LibTerm.\n\nThe compiler used to compile programs is clang. Clang generates bitcode with -S -emit-llvm flags that can be executed with lli command. Also contains llvm-link so multiple objects can be linked into one \"executable\".\n\nThis app consists in a file browser for managing projects. Projects are packages with C sources and configuration files."
+    },
+    "im:price": {
+      "label": "¥400",
+      "attributes": {
+        "amount": "400",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 Adrian Labbé"
+    },
+    "title": {
+      "label": "SeeLess - C Compiler - Develobile S.p.A."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/seeless-c-compiler/id1481018071?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7f/3d/83/7f3d8344-42f5-ceb6-a121-94ccb85b4fb1/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/seeless-c-compiler/id1481018071?l=en&uo=2",
+      "attributes": {
+        "im:id": "1481018071",
+        "im:bundleId": "ch.ada.SeeLess"
+      }
+    },
+    "im:artist": {
+      "label": "Develobile S.p.A.",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/develobile-s-p-a/id1212021727?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-11-12T00:00:00-07:00",
+      "attributes": {
+        "label": "November 12, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 42,
+      "total": 99
+    },
+    "im:name": {
+      "label": "View Source Premier"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/af/84/3daf84e8-974d-0b68-1436-ec4c88602e37/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/af/84/3daf84e8-974d-0b68-1436-ec4c88602e37/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/af/84/3daf84e8-974d-0b68-1436-ec4c88602e37/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Welcome to a powerful tool for analyzing and viewing HTML, XML, JavaScript, CSS, JSON, RSS, and ATOM code. Our application provides you with all the necessary tools to work with code conveniently and increase your productivity.\n\nIn our application, you will find the following fantastic features:\n\n• Support for Three Types of Devices: Now you can work with the application on iPhone, iPad, and Mac, enjoying an optimal user experience on each of them.\n• Intuitive Code Viewing: Easily browse and analyze formatted HTML, XML, JSON, RSS, and ATOM code in both structured and plain text formats, making code interaction more convenient.\n• Error Tracking: Our application will help you detect errors in the structure of HTML, XML, JSON, RSS, and ATOM code.\n• Built-in Simulator: Effortlessly view web pages in the embedded simulator. You have access to templates of different screen sizes for devices and the ability to create custom device simulators with individual screen sizes.\n• Terminal Testing: Conduct web page testing using the terminal to input JavaScript code and get instant results.\n• Search: Use the text search or apply regular expressions to quickly find specific locations in the code or content within the simulator.\n• View Connected Styles: Learn which styles are applied to the selected element of the web page by viewing them in the code or simulator.\n• Image Handling: View all known image formats added to the web page or CSS file.\n• Request Management: Create unique requests with input support for Method, Headers, Cookies, and Body. Also, view, edit, or re-execute previously made requests.\n• Built-in Code Beautifier: Beautify the source code and easily format it using the built-in Code Beautifier tool.\n• Detailed Request Inspection: Examine Header and Cookie values from the request response for additional analysis and debugging.\n• Request Execution Time Viewing: Obtain information about the time spent executing the request for performance optimization.\n• Copy to Clipboard: Copy the entire code, individual sections, or formatted code from all child elements of the selected code structure element to the clipboard.\n• Copying Information from Application Panels: Easily copy any displayed information contained in the application panels for convenient data exchange.\n• Disk File Opening: Easily open files saved on your disk directly in the application for viewing formatted code.\n• Friendly Support and Updates: We value your comments and feedback, which will help us improve. Write about what you would like to see in new releases, and we will definitely take your wishes into account!\n\nThank you for choosing our application. We are confident it will become an indispensable assistant in your code work."
+    },
+    "im:price": {
+      "label": "¥900",
+      "attributes": {
+        "amount": "900",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Andrey Uspanov"
+    },
+    "title": {
+      "label": "View Source Premier - Andrey Uspanov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/view-source-premier/id1425213172?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/dd/63/de/dd63de3a-ea8d-8463-1761-ac53148b95fe/f3652f20-bc14-496e-b911-247fe011e8d1_Simulator_Screen_Shot_-_iPad_Pro__U002810.5-inch_U0029_-_2021-09-28_at_14.37.28.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/view-source-premier/id1425213172?l=en&uo=2",
+      "attributes": {
+        "im:id": "1425213172",
+        "im:bundleId": "com.cloudwhale.anoren-reviewer"
+      }
+    },
+    "im:artist": {
+      "label": "Andrey Uspanov",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/andrey-uspanov/id1203890914?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-08-18T01:05:46-07:00",
+      "attributes": {
+        "label": "August 18, 2018"
       }
     }
   },

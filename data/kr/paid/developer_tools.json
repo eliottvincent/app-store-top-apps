@@ -8,6 +8,108 @@
       "total": 90
     },
     "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "￦4,400",
+      "attributes": {
+        "amount": "4400",
+        "currency": "KRW"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kr/app/laddertouch/id386737169?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kr/app/laddertouch/id386737169?l=en&uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/kr/developer/motonari-hibi/id386737172?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-11-01T22:49:20-07:00",
+      "attributes": {
+        "label": "November 1, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kr",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 90
+    },
+    "im:name": {
       "label": "Programming Notebook LITE"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
+      "index": 3,
       "total": 90
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 90
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 90
     },
     "im:name": {
@@ -412,211 +514,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
-      "total": 90
-    },
-    "im:name": {
-      "label": "Buffer Editor - Code Editor"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/40/30/ff40300a-b7af-ab0a-3a77-b37ec72a27fe/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/40/30/ff40300a-b7af-ab0a-3a77-b37ec72a27fe/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/40/30/ff40300a-b7af-ab0a-3a77-b37ec72a27fe/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Listed in creativebloq, techworld and wpmudev as one of the best code editors.\n\nBuffer Editor is a POWERFUL code and text editor that lets you easily develop software, view code or take notes on the go. Join thousands of coders who trust Buffer Editor for fast, powerful, and advanced code editing on mobile devices. \n\nCode and text editor you'll fall in love with !\n\nFeatures\n• Universal app for iPhone, iPad, iPad Pro and iPod touch\n• Superfast user interface\n• Multiple Windows, Split View and Slide Over support\n• Full Screen Mode\n• Tabs. Quickly switch between your open files or terminals.\n• Built In Terminal (SSH Client). Multiple terminals in tabs!\n• Connect to BitBucket, Github, GitLab, Custom Git, Dropbox, iCloud ,Google Drive, SFTP, SSH and FTP servers\n• iOS Files app support\n• Open from iOS Files app (Link external folders and open multiple files)\n• Preview your files in safari with \"Preview in Safari\" function\n• Send files by email \n• File search\n• Bracket matching/highlight\n• Touch / Face ID protection\n• Find & replace (including regular expression search)\n• Syntax highlighting & Code Autocomplete ( ASP, AWK, ActionScript, Ada, Arduino, Bash (Unix shell), C, C++, C#, Clojure, Cobol, CSS, D, Dart, Dockerfile, Erlang, F#, Fortran, Gherkin, Go, HAML, Haskell, HTML(4&5), INI, Java, Javascript, Kotlin, LaTeX, (Common) Lisp, Lua, Markdown, MATLAB, MQL(4&5), NSIS, Objective-C, Org Mode, Pascal, Perl, PHP, Powershell, Progress, Prolog, Pug, Puppet, Python, Q/kdb+, R, reStructedText, Ruby, Rust, SCALA, Solidity, SQL, Stata, Swift, Terraform, TypeScript, TypeScript React, Verilog, VHDL, Visual Basic, VUE, x86 ASM, XML)\n• Extended Keyboard\n• Vim coding support (If you don't need it, don't use it.)\n• Unicode support\n• Bluetooth keyboard support (Supports all iOS short-cut keys)\n• Preview any files supported by iOS including images, PDFs, movies and documents\n• iOS \"Open In\" support, from Buffer Editor to other app - vice versa\n• Customizable font and font sizes \n• Multiple dark and light themes (Ayu Dark, Ayu Light, Buffereditor, Candy, Candyland, Dante, Dark Blue, Deep Dark, Desert, Dracula, Github, Inkpot, Jellybeans, Mac Classic, Made of code, Monokai, Oceanic, One Dark, Putty, Seti, Solarized Dark, Solarized Light, Spacecadet, Spacegray Light, VSCode Dark, VSCode Light, Wombat, Xcode)\n\n\nTo see the full list of features, including supported Vim commands, please visit\nhttp://www.buffereditor.com/features\n\nFor support please visit \nhttp://www.buffereditor.com/support"
-    },
-    "im:price": {
-      "label": "￦14,000",
-      "attributes": {
-        "amount": "14000",
-        "currency": "KRW"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Blakzero Oy"
-    },
-    "title": {
-      "label": "Buffer Editor - Code Editor - Blakzero Oy"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kr/app/buffer-editor-code-editor/id502633252?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/95/a6/0b/95a60b58-8671-8e2d-ee2a-d177639a0fd0/5669acf1-9173-4d80-8a84-36c813dd926c_image19.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kr/app/buffer-editor-code-editor/id502633252?l=en&uo=2",
-      "attributes": {
-        "im:id": "502633252",
-        "im:bundleId": "Upstart-Illustration-LLC.Buffer"
-      }
-    },
-    "im:artist": {
-      "label": "Blakzero Oy",
-      "attributes": {
-        "href": "https://apps.apple.com/kr/developer/blakzero-oy/id898876511?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-03-01T16:33:04-07:00",
-      "attributes": {
-        "label": "March 1, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kr",
-      "pricing": "paid",
-      "genre": "developer_tools",
       "index": 6,
-      "total": 90
-    },
-    "im:name": {
-      "label": "Haptics Studio"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/b1/49/1fb14961-fe90-a400-9c3f-1f116264163f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/b1/49/1fb14961-fe90-a400-9c3f-1f116264163f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/b1/49/1fb14961-fe90-a400-9c3f-1f116264163f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Featured in iOS Dev Weekly! https://iosdevweekly.com/issues/563#tools\n\nBuilding an app that offers haptic feedback? Haptics Studio helps you discover the perfect customized haptics for your app. Haptic Studio offers you three save slots, each with their own unique color. Tap the \"Play\" buttons at the bottom of the screen to play the corresponding haptic, and switch to it if not already on that screen.\n\nTap the \"Code\" symbol at the top of the screen to share the code to generate that haptic effect!\n\nWant to see how the app is built? Follow the creative process live on Twitch https://twitch.tv/FullQueueDeveloper Or watch the playlist on YouTube! https://www.youtube.com/playlist?list=PLE6NxxP3FSUzkBopkgZNSHCajwF5pfOyr"
-    },
-    "im:price": {
-      "label": "￦6,600",
-      "attributes": {
-        "amount": "6600",
-        "currency": "KRW"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Sincere Labs NYC Inc"
-    },
-    "title": {
-      "label": "Haptics Studio - Sincere Labs NYC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kr/app/haptics-studio/id1624792731?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/08/82/b9/0882b902-95c5-a7ef-de1e-e9d5024fc582/c0a7302c-4cb6-409e-aba3-59e7e7eec8ba_Screenshot-iPhone_8_Plus-Haptic_A_1_F20B0130-5F86-4CE4-96DE-5C53A16DC2F4.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kr/app/haptics-studio/id1624792731?l=en&uo=2",
-      "attributes": {
-        "im:id": "1624792731",
-        "im:bundleId": "nyc.sincerelabs.Haptics"
-      }
-    },
-    "im:artist": {
-      "label": "Sincere Labs NYC",
-      "attributes": {
-        "href": "https://apps.apple.com/kr/developer/sincere-labs-nyc/id372325403?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-06-03T00:00:00-07:00",
-      "attributes": {
-        "label": "June 3, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kr",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 7,
       "total": 90
     },
     "im:name": {
@@ -710,6 +608,108 @@
       "label": "2016-03-12T01:33:30-07:00",
       "attributes": {
         "label": "March 12, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kr",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 7,
+      "total": 90
+    },
+    "im:name": {
+      "label": "Buffer Editor - Code Editor"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/40/30/ff40300a-b7af-ab0a-3a77-b37ec72a27fe/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/40/30/ff40300a-b7af-ab0a-3a77-b37ec72a27fe/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/40/30/ff40300a-b7af-ab0a-3a77-b37ec72a27fe/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Listed in creativebloq, techworld and wpmudev as one of the best code editors.\n\nBuffer Editor is a POWERFUL code and text editor that lets you easily develop software, view code or take notes on the go. Join thousands of coders who trust Buffer Editor for fast, powerful, and advanced code editing on mobile devices. \n\nCode and text editor you'll fall in love with !\n\nFeatures\n• Universal app for iPhone, iPad, iPad Pro and iPod touch\n• Superfast user interface\n• Multiple Windows, Split View and Slide Over support\n• Full Screen Mode\n• Tabs. Quickly switch between your open files or terminals.\n• Built In Terminal (SSH Client). Multiple terminals in tabs!\n• Connect to BitBucket, Github, GitLab, Custom Git, Dropbox, iCloud ,Google Drive, SFTP, SSH and FTP servers\n• iOS Files app support\n• Open from iOS Files app (Link external folders and open multiple files)\n• Preview your files in safari with \"Preview in Safari\" function\n• Send files by email \n• File search\n• Bracket matching/highlight\n• Touch / Face ID protection\n• Find & replace (including regular expression search)\n• Syntax highlighting & Code Autocomplete ( ASP, AWK, ActionScript, Ada, Arduino, Bash (Unix shell), C, C++, C#, Clojure, Cobol, CSS, D, Dart, Dockerfile, Erlang, F#, Fortran, Gherkin, Go, HAML, Haskell, HTML(4&5), INI, Java, Javascript, Kotlin, LaTeX, (Common) Lisp, Lua, Markdown, MATLAB, MQL(4&5), NSIS, Objective-C, Org Mode, Pascal, Perl, PHP, Powershell, Progress, Prolog, Pug, Puppet, Python, Q/kdb+, R, reStructedText, Ruby, Rust, SCALA, Solidity, SQL, Stata, Swift, Terraform, TypeScript, TypeScript React, Verilog, VHDL, Visual Basic, VUE, x86 ASM, XML)\n• Extended Keyboard\n• Vim coding support (If you don't need it, don't use it.)\n• Unicode support\n• Bluetooth keyboard support (Supports all iOS short-cut keys)\n• Preview any files supported by iOS including images, PDFs, movies and documents\n• iOS \"Open In\" support, from Buffer Editor to other app - vice versa\n• Customizable font and font sizes \n• Multiple dark and light themes (Ayu Dark, Ayu Light, Buffereditor, Candy, Candyland, Dante, Dark Blue, Deep Dark, Desert, Dracula, Github, Inkpot, Jellybeans, Mac Classic, Made of code, Monokai, Oceanic, One Dark, Putty, Seti, Solarized Dark, Solarized Light, Spacecadet, Spacegray Light, VSCode Dark, VSCode Light, Wombat, Xcode)\n\n\nTo see the full list of features, including supported Vim commands, please visit\nhttp://www.buffereditor.com/features\n\nFor support please visit \nhttp://www.buffereditor.com/support"
+    },
+    "im:price": {
+      "label": "￦14,000",
+      "attributes": {
+        "amount": "14000",
+        "currency": "KRW"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Blakzero Oy"
+    },
+    "title": {
+      "label": "Buffer Editor - Code Editor - Blakzero Oy"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kr/app/buffer-editor-code-editor/id502633252?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/95/a6/0b/95a60b58-8671-8e2d-ee2a-d177639a0fd0/5669acf1-9173-4d80-8a84-36c813dd926c_image19.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kr/app/buffer-editor-code-editor/id502633252?l=en&uo=2",
+      "attributes": {
+        "im:id": "502633252",
+        "im:bundleId": "Upstart-Illustration-LLC.Buffer"
+      }
+    },
+    "im:artist": {
+      "label": "Blakzero Oy",
+      "attributes": {
+        "href": "https://apps.apple.com/kr/developer/blakzero-oy/id898876511?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-03-01T16:33:04-07:00",
+      "attributes": {
+        "label": "March 1, 2012"
       }
     }
   },
@@ -824,108 +824,6 @@
       "total": 90
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "￦4,400",
-      "attributes": {
-        "amount": "4400",
-        "currency": "KRW"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kr/app/laddertouch/id386737169?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kr/app/laddertouch/id386737169?l=en&uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/kr/developer/motonari-hibi/id386737172?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-11-01T22:49:20-07:00",
-      "attributes": {
-        "label": "November 1, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kr",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 10,
-      "total": 90
-    },
-    "im:name": {
       "label": "Programming Notebook PRO"
     },
     "im:image": [
@@ -1024,7 +922,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 10,
       "total": 90
     },
     "im:name": {
@@ -1118,6 +1016,108 @@
       "label": "2019-09-26T00:00:00-07:00",
       "attributes": {
         "label": "September 26, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kr",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 11,
+      "total": 90
+    },
+    "im:name": {
+      "label": "Haptics Studio"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/b1/49/1fb14961-fe90-a400-9c3f-1f116264163f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/b1/49/1fb14961-fe90-a400-9c3f-1f116264163f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/b1/49/1fb14961-fe90-a400-9c3f-1f116264163f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Featured in iOS Dev Weekly! https://iosdevweekly.com/issues/563#tools\n\nBuilding an app that offers haptic feedback? Haptics Studio helps you discover the perfect customized haptics for your app. Haptic Studio offers you three save slots, each with their own unique color. Tap the \"Play\" buttons at the bottom of the screen to play the corresponding haptic, and switch to it if not already on that screen.\n\nTap the \"Code\" symbol at the top of the screen to share the code to generate that haptic effect!\n\nWant to see how the app is built? Follow the creative process live on Twitch https://twitch.tv/FullQueueDeveloper Or watch the playlist on YouTube! https://www.youtube.com/playlist?list=PLE6NxxP3FSUzkBopkgZNSHCajwF5pfOyr"
+    },
+    "im:price": {
+      "label": "￦6,600",
+      "attributes": {
+        "amount": "6600",
+        "currency": "KRW"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Sincere Labs NYC Inc"
+    },
+    "title": {
+      "label": "Haptics Studio - Sincere Labs NYC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kr/app/haptics-studio/id1624792731?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/08/82/b9/0882b902-95c5-a7ef-de1e-e9d5024fc582/c0a7302c-4cb6-409e-aba3-59e7e7eec8ba_Screenshot-iPhone_8_Plus-Haptic_A_1_F20B0130-5F86-4CE4-96DE-5C53A16DC2F4.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kr/app/haptics-studio/id1624792731?l=en&uo=2",
+      "attributes": {
+        "im:id": "1624792731",
+        "im:bundleId": "nyc.sincerelabs.Haptics"
+      }
+    },
+    "im:artist": {
+      "label": "Sincere Labs NYC",
+      "attributes": {
+        "href": "https://apps.apple.com/kr/developer/sincere-labs-nyc/id372325403?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-06-03T00:00:00-07:00",
+      "attributes": {
+        "label": "June 3, 2022"
       }
     }
   },
@@ -2456,108 +2456,6 @@
       "total": 90
     },
     "im:name": {
-      "label": "Egern"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/46/e6/c2/46e6c260-fd89-fe68-5dc0-4fb3ca03aefe/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/46/e6/c2/46e6c260-fd89-fe68-5dc0-4fb3ca03aefe/AppIcon-0-0-1x_U007epad-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/46/e6/c2/46e6c260-fd89-fe68-5dc0-4fb3ca03aefe/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Egern is a feature-rich and powerful networking tool, specifically designed for proxying, intercepting, and modifying network traffic.\n\nKey features include:\n· Comprehensive recording of TCP, UDP, DNS, and HTTP network traffic.\n· Support for a wide range of rule types: domain, domain keywords, domain suffix, domain regular expressions, geo-location, IPv4/IPv6 CIDR, URL regular expressions, rule sets, and default rules.\n· Flexible policy group options: selection, automatic testing, fallback, load balancing, and external policies.\n· Support for multiple proxy protocols: HTTP, SOCKS5, Shadowsocks, Trojan, Vless, and Vmess.\n· Effortlessly decrypt HTTPS traffic using Man-in-the-Middle attack techniques.\n· URL rewriting capabilities, allowing you to freely customize network requests.\n· Highly customizable request and response header rewriting functionality.\n· Versatile request and response content rewriting abilities.\n· Utilize JavaScript to provide customized operations on request and response data.\n· Support for local HTTP proxy server and local SOCKS5 proxy server to meet various networking needs.\n· Sync configuration information across devices with iCloud, ensuring consistent network settings anywhere, anytime.\n\nAs your ultimate network management tool, Egern helps you easily navigate various network environments and achieve efficient network control and debugging. Whether you're a network security expert, developer, or simply interested in network management, Egern will become an indispensable tool. Experience the powerful features of Egern and create your own exclusive networking environment today!\n\nTwitter: https://twitter.com/byteallen"
-    },
-    "im:price": {
-      "label": "￦5,500",
-      "attributes": {
-        "amount": "5500",
-        "currency": "KRW"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 BYTE CROSSING LTD"
-    },
-    "title": {
-      "label": "Egern - Byte Crossing"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kr/app/egern/id1616105820?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/09/07/cc/0907ccba-2541-4d74-f87d-a41f5edcef41/9501b94d-ded1-47a9-96ac-304b53e8bf86_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-01-Analytics.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kr/app/egern/id1616105820?l=en&uo=2",
-      "attributes": {
-        "im:id": "1616105820",
-        "im:bundleId": "com.bytecrossing.Egern"
-      }
-    },
-    "im:artist": {
-      "label": "Byte Crossing",
-      "attributes": {
-        "href": "https://apps.apple.com/kr/developer/byte-crossing/id1562957268?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-07-11T00:00:00-07:00",
-      "attributes": {
-        "label": "July 11, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kr",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 26,
-      "total": 90
-    },
-    "im:name": {
       "label": "RegEx Lab: Regular Expressions"
     },
     "im:image": [
@@ -2648,6 +2546,108 @@
       "label": "2017-07-26T12:09:06-07:00",
       "attributes": {
         "label": "July 26, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kr",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 26,
+      "total": 90
+    },
+    "im:name": {
+      "label": "Egern"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/46/e6/c2/46e6c260-fd89-fe68-5dc0-4fb3ca03aefe/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/46/e6/c2/46e6c260-fd89-fe68-5dc0-4fb3ca03aefe/AppIcon-0-0-1x_U007epad-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/46/e6/c2/46e6c260-fd89-fe68-5dc0-4fb3ca03aefe/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Egern is a feature-rich and powerful networking tool, specifically designed for proxying, intercepting, and modifying network traffic.\n\nKey features include:\n· Comprehensive recording of TCP, UDP, DNS, and HTTP network traffic.\n· Support for a wide range of rule types: domain, domain keywords, domain suffix, domain regular expressions, geo-location, IPv4/IPv6 CIDR, URL regular expressions, rule sets, and default rules.\n· Flexible policy group options: selection, automatic testing, fallback, load balancing, and external policies.\n· Support for multiple proxy protocols: HTTP, SOCKS5, Shadowsocks, Trojan, Vless, and Vmess.\n· Effortlessly decrypt HTTPS traffic using Man-in-the-Middle attack techniques.\n· URL rewriting capabilities, allowing you to freely customize network requests.\n· Highly customizable request and response header rewriting functionality.\n· Versatile request and response content rewriting abilities.\n· Utilize JavaScript to provide customized operations on request and response data.\n· Support for local HTTP proxy server and local SOCKS5 proxy server to meet various networking needs.\n· Sync configuration information across devices with iCloud, ensuring consistent network settings anywhere, anytime.\n\nAs your ultimate network management tool, Egern helps you easily navigate various network environments and achieve efficient network control and debugging. Whether you're a network security expert, developer, or simply interested in network management, Egern will become an indispensable tool. Experience the powerful features of Egern and create your own exclusive networking environment today!\n\nTwitter: https://twitter.com/byteallen"
+    },
+    "im:price": {
+      "label": "￦5,500",
+      "attributes": {
+        "amount": "5500",
+        "currency": "KRW"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 BYTE CROSSING LTD"
+    },
+    "title": {
+      "label": "Egern - Byte Crossing"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kr/app/egern/id1616105820?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/09/07/cc/0907ccba-2541-4d74-f87d-a41f5edcef41/9501b94d-ded1-47a9-96ac-304b53e8bf86_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-01-Analytics.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kr/app/egern/id1616105820?l=en&uo=2",
+      "attributes": {
+        "im:id": "1616105820",
+        "im:bundleId": "com.bytecrossing.Egern"
+      }
+    },
+    "im:artist": {
+      "label": "Byte Crossing",
+      "attributes": {
+        "href": "https://apps.apple.com/kr/developer/byte-crossing/id1562957268?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-07-11T00:00:00-07:00",
+      "attributes": {
+        "label": "July 11, 2022"
       }
     }
   },
@@ -3578,108 +3578,6 @@
       "total": 90
     },
     "im:name": {
-      "label": "Cown Zoo"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c5/8d/0b/c58d0bf5-7fb5-a92e-51fc-80dbe4f1865d/AppIcon-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c5/8d/0b/c58d0bf5-7fb5-a92e-51fc-80dbe4f1865d/AppIcon-0-1x_U007emarketing-0-8-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c5/8d/0b/c58d0bf5-7fb5-a92e-51fc-80dbe4f1865d/AppIcon-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Cown Zoo is an app that allows you to create, edit and inject scripts into any webpage on Safari.\nIt's designed to be mobile-native as to simplify the usage and creation of user scripts and stylesheets on mobile devices.\n\n- Add your own JavaScript or CSS to any webpage\n- Edit script & CSS right in app\n- (Partial) support for GreaseMonkey scripts"
-    },
-    "im:price": {
-      "label": "￦3,300",
-      "attributes": {
-        "amount": "3300",
-        "currency": "KRW"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Inkwire Technology (Hangzhou) Co., Ltd."
-    },
-    "title": {
-      "label": "Cown Zoo - Inkwire Tech (Hangzhou) Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kr/app/cown-zoo/id1596457459?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/fd/bf/6e/fdbf6ecf-4841-3d4c-2e74-1476124ccccf/9e896c17-7592-4a00-afc4-0b00c60c34c6_screenshot3.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kr/app/cown-zoo/id1596457459?l=en&uo=2",
-      "attributes": {
-        "im:id": "1596457459",
-        "im:bundleId": "app.cown.Zoo"
-      }
-    },
-    "im:artist": {
-      "label": "Inkwire Tech (Hangzhou) Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/kr/developer/inkwire-tech-hangzhou-co-ltd/id1468283514?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-01-07T00:00:00-07:00",
-      "attributes": {
-        "label": "January 7, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kr",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 37,
-      "total": 90
-    },
-    "im:name": {
       "label": "iKeleton OSC"
     },
     "im:image": [
@@ -3778,7 +3676,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 38,
+      "index": 37,
       "total": 90
     },
     "im:name": {
@@ -3880,7 +3778,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 39,
+      "index": 38,
       "total": 90
     },
     "im:name": {
@@ -3982,7 +3880,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 40,
+      "index": 39,
       "total": 90
     },
     "im:name": {
@@ -4084,7 +3982,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 41,
+      "index": 40,
       "total": 90
     },
     "im:name": {
@@ -4186,7 +4084,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 42,
+      "index": 41,
       "total": 90
     },
     "im:name": {
@@ -4288,7 +4186,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 43,
+      "index": 42,
       "total": 90
     },
     "im:name": {
@@ -4390,7 +4288,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 44,
+      "index": 43,
       "total": 90
     },
     "im:name": {
@@ -4492,7 +4390,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 45,
+      "index": 44,
       "total": 90
     },
     "im:name": {
@@ -4594,7 +4492,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 46,
+      "index": 45,
       "total": 90
     },
     "im:name": {
@@ -4696,7 +4594,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 47,
+      "index": 46,
       "total": 90
     },
     "im:name": {
@@ -4798,7 +4696,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 48,
+      "index": 47,
       "total": 90
     },
     "im:name": {
@@ -4900,7 +4798,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 49,
+      "index": 48,
       "total": 90
     },
     "im:name": {
@@ -5002,7 +4900,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 50,
+      "index": 49,
       "total": 90
     },
     "im:name": {
@@ -5101,7 +4999,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 51,
+      "index": 50,
       "total": 90
     },
     "im:name": {
@@ -5203,7 +5101,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 52,
+      "index": 51,
       "total": 90
     },
     "im:name": {
@@ -5305,7 +5203,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 53,
+      "index": 52,
       "total": 90
     },
     "im:name": {
@@ -5407,7 +5305,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 54,
+      "index": 53,
       "total": 90
     },
     "im:name": {
@@ -5509,7 +5407,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 55,
+      "index": 54,
       "total": 90
     },
     "im:name": {
@@ -5611,7 +5509,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 56,
+      "index": 55,
       "total": 90
     },
     "im:name": {
@@ -5713,7 +5611,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 57,
+      "index": 56,
       "total": 90
     },
     "im:name": {
@@ -5815,7 +5713,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 58,
+      "index": 57,
       "total": 90
     },
     "im:name": {
@@ -5917,7 +5815,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 59,
+      "index": 58,
       "total": 90
     },
     "im:name": {
@@ -6019,7 +5917,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 60,
+      "index": 59,
       "total": 90
     },
     "im:name": {
@@ -6121,7 +6019,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 61,
+      "index": 60,
       "total": 90
     },
     "im:name": {
@@ -6223,7 +6121,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 62,
+      "index": 61,
       "total": 90
     },
     "im:name": {
@@ -6325,7 +6223,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 63,
+      "index": 62,
       "total": 90
     },
     "im:name": {
@@ -6427,7 +6325,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 64,
+      "index": 63,
       "total": 90
     },
     "im:name": {
@@ -6529,7 +6427,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 65,
+      "index": 64,
       "total": 90
     },
     "im:name": {
@@ -6631,7 +6529,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 66,
+      "index": 65,
       "total": 90
     },
     "im:name": {
@@ -6733,7 +6631,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 67,
+      "index": 66,
       "total": 90
     },
     "im:name": {
@@ -6835,7 +6733,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 68,
+      "index": 67,
       "total": 90
     },
     "im:name": {
@@ -6937,7 +6835,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 69,
+      "index": 68,
       "total": 90
     },
     "im:name": {
@@ -7039,7 +6937,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 70,
+      "index": 69,
       "total": 90
     },
     "im:name": {
@@ -7141,7 +7039,7 @@
       "country_code": "kr",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 71,
+      "index": 70,
       "total": 90
     },
     "im:name": {
@@ -7235,6 +7133,108 @@
       "label": "2021-12-16T00:00:00-07:00",
       "attributes": {
         "label": "December 16, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kr",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 71,
+      "total": 90
+    },
+    "im:name": {
+      "label": "Cown Zoo"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c5/8d/0b/c58d0bf5-7fb5-a92e-51fc-80dbe4f1865d/AppIcon-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c5/8d/0b/c58d0bf5-7fb5-a92e-51fc-80dbe4f1865d/AppIcon-0-1x_U007emarketing-0-8-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c5/8d/0b/c58d0bf5-7fb5-a92e-51fc-80dbe4f1865d/AppIcon-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Cown Zoo is an app that allows you to create, edit and inject scripts into any webpage on Safari.\nIt's designed to be mobile-native as to simplify the usage and creation of user scripts and stylesheets on mobile devices.\n\n- Add your own JavaScript or CSS to any webpage\n- Edit script & CSS right in app\n- (Partial) support for GreaseMonkey scripts"
+    },
+    "im:price": {
+      "label": "￦3,300",
+      "attributes": {
+        "amount": "3300",
+        "currency": "KRW"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Inkwire Technology (Hangzhou) Co., Ltd."
+    },
+    "title": {
+      "label": "Cown Zoo - Inkwire Tech (Hangzhou) Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kr/app/cown-zoo/id1596457459?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/fd/bf/6e/fdbf6ecf-4841-3d4c-2e74-1476124ccccf/9e896c17-7592-4a00-afc4-0b00c60c34c6_screenshot3.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kr/app/cown-zoo/id1596457459?l=en&uo=2",
+      "attributes": {
+        "im:id": "1596457459",
+        "im:bundleId": "app.cown.Zoo"
+      }
+    },
+    "im:artist": {
+      "label": "Inkwire Tech (Hangzhou) Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/kr/developer/inkwire-tech-hangzhou-co-ltd/id1468283514?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/kr/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-01-07T00:00:00-07:00",
+      "attributes": {
+        "label": "January 7, 2022"
       }
     }
   },

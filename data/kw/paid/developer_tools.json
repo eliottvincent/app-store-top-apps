@@ -5,7 +5,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 1,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Buffer Editor - Code Editor"
@@ -107,7 +107,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 2,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Inspect Browser"
@@ -209,109 +209,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 3,
-      "total": 42
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "$4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/kw/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 4,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "SecurityKit - Developer Tools"
@@ -412,8 +310,110 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "developer_tools",
+      "index": 4,
+      "total": 41
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "$4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/kw/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/kw/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/kw/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/kw/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "kw",
+      "pricing": "paid",
+      "genre": "developer_tools",
       "index": 5,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "OpenTerm"
@@ -515,7 +515,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 6,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Textastic Code Editor"
@@ -617,7 +617,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 7,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "DraftCode Offline PHP IDE"
@@ -719,7 +719,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 8,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Code Develop IDE"
@@ -821,7 +821,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 9,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Terminal Emulator"
@@ -920,7 +920,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 10,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "DashTabs Alt"
@@ -1022,7 +1022,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 11,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Privacy Policy Generator"
@@ -1124,7 +1124,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 12,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Globe Topper"
@@ -1226,7 +1226,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 13,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Alexa Stats"
@@ -1325,7 +1325,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 14,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Kodika - No Code App Builder"
@@ -1427,7 +1427,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 15,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "RegEx Lab: Regular Expressions"
@@ -1529,7 +1529,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 16,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Cookie Editor For Safari"
@@ -1631,7 +1631,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 17,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Rating Watch: App Store Rating"
@@ -1733,7 +1733,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 18,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "SSH Term Pro"
@@ -1835,7 +1835,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 19,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Web Monitor - Down or Just Me"
@@ -1937,7 +1937,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 20,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Discover icons | SF Symbols"
@@ -2039,7 +2039,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 21,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "AppReport - Revenues & Trends"
@@ -2141,7 +2141,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 22,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "DashTabs: Firebase, AdMob …"
@@ -2243,7 +2243,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 23,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "DevFiscal-App Sales & Trends"
@@ -2345,7 +2345,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 24,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Text Editor - Document Editor"
@@ -2447,7 +2447,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 25,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "auth. - 2FA Smart Sync"
@@ -2549,7 +2549,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 26,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Flutter Cheats"
@@ -2651,7 +2651,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 27,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "ReviewMouse"
@@ -2750,7 +2750,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 28,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "iDashboards - App Report"
@@ -2852,7 +2852,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 29,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Code App"
@@ -2954,26 +2954,26 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 30,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "San Fransymbols"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/3f/04/ca/3f04caaa-9c20-8c53-87d2-811f12fc04b3/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/bc/a0/b7/bca0b7d9-2b73-6f4c-c9ba-6a9aa9fd8132/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/3f/04/ca/3f04caaa-9c20-8c53-87d2-811f12fc04b3/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/bc/a0/b7/bca0b7d9-2b73-6f4c-c9ba-6a9aa9fd8132/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/3f/04/ca/3f04caaa-9c20-8c53-87d2-811f12fc04b3/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/bc/a0/b7/bca0b7d9-2b73-6f4c-c9ba-6a9aa9fd8132/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -2996,7 +2996,7 @@
       }
     },
     "rights": {
-      "label": "© 2020-2023 Coding Corner LLP"
+      "label": "© 2020-2024 Coding Corner LLP"
     },
     "title": {
       "label": "San Fransymbols - Coding Corner LLP"
@@ -3056,7 +3056,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 31,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Http Traffic pro - sniffer"
@@ -3158,7 +3158,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 32,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Hexer — Hex File Viewer"
@@ -3260,7 +3260,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 33,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "iHTTP Tracker -Network monitor"
@@ -3362,7 +3362,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 34,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "BLE Spy"
@@ -3464,7 +3464,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 35,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "PPHub For GitHub - Developer"
@@ -3566,7 +3566,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 36,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Pixel Resizer: Custom Metadata"
@@ -3668,109 +3668,7 @@
       "pricing": "paid",
       "genre": "developer_tools",
       "index": 37,
-      "total": 42
-    },
-    "im:name": {
-      "label": "App Icon Generator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/de/02/01/de02017a-dc9f-f0bb-20d9-47cf552dd890/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/de/02/01/de02017a-dc9f-f0bb-20d9-47cf552dd890/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/de/02/01/de02017a-dc9f-f0bb-20d9-47cf552dd890/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Generate your app icons in seconds for iOS, watchOS, iMessage Apps, macOS and more with just a few taps!\n\n1. Choose your icon image from your Photo Library or from Files.\n2. Choose the devices that you would like to export for.\n3. Tap export.\n\nAll of your icons are then exported into the selected folder, named by size and automatically converted to PNG ready for use. App Icon Generator is updated to support the current size and resolution requirements for new devices and icon sizes.\n\nThe icons for this app were generated using this app."
-    },
-    "im:price": {
-      "label": "$3.49",
-      "attributes": {
-        "amount": "3.49",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2017 - 2022 Thomas Coomer"
-    },
-    "title": {
-      "label": "App Icon Generator - Thomas Coomer"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/kw/app/app-icon-generator/id1253599389?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/85/77/80/857780c2-b2cb-36c6-77c3-bcecb468cba1/924b7253-a220-434e-a382-045e6e6b2452_pad_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/kw/app/app-icon-generator/id1253599389?uo=2",
-      "attributes": {
-        "im:id": "1253599389",
-        "im:bundleId": "com.smudgeinc.Icon-Generator"
-      }
-    },
-    "im:artist": {
-      "label": "Thomas Coomer",
-      "attributes": {
-        "href": "https://apps.apple.com/kw/developer/thomas-coomer/id1006451481?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/kw/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-06-29T20:04:58-07:00",
-      "attributes": {
-        "label": "June 29, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "kw",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 38,
-      "total": 42
+      "total": 41
     },
     "im:name": {
       "label": "Arduino Bluetooth Pro"
@@ -3871,8 +3769,8 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 39,
-      "total": 42
+      "index": 38,
+      "total": 41
     },
     "im:name": {
       "label": "Continuous .NET C# and F# IDE"
@@ -3973,8 +3871,8 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 40,
-      "total": 42
+      "index": 39,
+      "total": 41
     },
     "im:name": {
       "label": "Adaptivity (A)"
@@ -4075,8 +3973,8 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 41,
-      "total": 42
+      "index": 40,
+      "total": 41
     },
     "im:name": {
       "label": "Source 3"
@@ -4177,8 +4075,8 @@
       "country_code": "kw",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 42,
-      "total": 42
+      "index": 41,
+      "total": 41
     },
     "im:name": {
       "label": "LadderTouch"

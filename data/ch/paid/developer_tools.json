@@ -8,6 +8,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "My Lisp"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
+    },
+    "im:price": {
+      "label": "CHF 4.00",
+      "attributes": {
+        "amount": "4.00",
+        "currency": "CHF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2008-2023 Laurent Rodier."
+    },
+    "title": {
+      "label": "My Lisp - Laurent Rodier"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ch/app/my-lisp/id1245341806?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/9a/4c/d89a4c12-786c-ada7-aaa0-ee87c26362ff/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ch/app/my-lisp/id1245341806?l=en&uo=2",
+      "attributes": {
+        "im:id": "1245341806",
+        "im:bundleId": "net.lsrodier.MyLisp"
+      }
+    },
+    "im:artist": {
+      "label": "Laurent Rodier",
+      "attributes": {
+        "href": "https://apps.apple.com/ch/developer/laurent-rodier/id697920086?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ch/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-11-07T11:32:31-07:00",
+      "attributes": {
+        "label": "November 7, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ch",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -98,108 +200,6 @@
       "label": "2016-03-12T01:33:30-07:00",
       "attributes": {
         "label": "March 12, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ch",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 2,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Logger for Shortcuts"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Logger is the first developer console designed for Shortcuts.\n\nBuilding complex shortcuts is now easier than ever! Use the Logger's shortcut actions to write messages to the console. See them posted in realtime as your shortcut runs - no more Quick Look actions required.\n\nUse the powerful filtering tools to drill down into the output. Filter by category, device, date, contents, search or tags.\n\nAll your messages are synced securely between your devices using iCloud and you can even export your logs to plain text or markdown."
-    },
-    "im:price": {
-      "label": "CHF 5.00",
-      "attributes": {
-        "amount": "5.00",
-        "currency": "CHF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Alex Hay"
-    },
-    "title": {
-      "label": "Logger for Shortcuts - Snailed It Development Ltd"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ch/app/logger-for-shortcuts/id1611554653?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/65/7a/91/657a91fd-edd4-601a-7d86-a747121b9b05/0386aabc-1867-49f9-b8f1-2f94277827a5_iOS_ipad_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ch/app/logger-for-shortcuts/id1611554653?l=en&uo=2",
-      "attributes": {
-        "im:id": "1611554653",
-        "im:bundleId": "com.alexhay.Console"
-      }
-    },
-    "im:artist": {
-      "label": "Snailed It Development Ltd",
-      "attributes": {
-        "href": "https://apps.apple.com/ch/developer/snailed-it-development-ltd/id1493284299?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ch/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-03-10T00:00:00-07:00",
-      "attributes": {
-        "label": "March 10, 2022"
       }
     }
   },
@@ -824,6 +824,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Logger for Shortcuts"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Logger is the first developer console designed for Shortcuts.\n\nBuilding complex shortcuts is now easier than ever! Use the Logger's shortcut actions to write messages to the console. See them posted in realtime as your shortcut runs - no more Quick Look actions required.\n\nUse the powerful filtering tools to drill down into the output. Filter by category, device, date, contents, search or tags.\n\nAll your messages are synced securely between your devices using iCloud and you can even export your logs to plain text or markdown."
+    },
+    "im:price": {
+      "label": "CHF 5.00",
+      "attributes": {
+        "amount": "5.00",
+        "currency": "CHF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Alex Hay"
+    },
+    "title": {
+      "label": "Logger for Shortcuts - Snailed It Development Ltd"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ch/app/logger-for-shortcuts/id1611554653?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/65/7a/91/657a91fd-edd4-601a-7d86-a747121b9b05/0386aabc-1867-49f9-b8f1-2f94277827a5_iOS_ipad_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ch/app/logger-for-shortcuts/id1611554653?l=en&uo=2",
+      "attributes": {
+        "im:id": "1611554653",
+        "im:bundleId": "com.alexhay.Console"
+      }
+    },
+    "im:artist": {
+      "label": "Snailed It Development Ltd",
+      "attributes": {
+        "href": "https://apps.apple.com/ch/developer/snailed-it-development-ltd/id1493284299?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ch/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-03-10T00:00:00-07:00",
+      "attributes": {
+        "label": "March 10, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ch",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 10,
+      "total": 99
+    },
+    "im:name": {
       "label": "DraftCode Offline PHP IDE"
     },
     "im:image": [
@@ -922,7 +1024,7 @@
       "country_code": "ch",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +1126,7 @@
       "country_code": "ch",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1126,7 +1228,7 @@
       "country_code": "ch",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1220,108 +1322,6 @@
       "label": "2019-12-15T00:00:00-07:00",
       "attributes": {
         "label": "December 15, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ch",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 13,
-      "total": 99
-    },
-    "im:name": {
-      "label": "MermaidEditor"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "MermaidEditor is a diagram and chart editor, powered by mermaid-js. And MermaidEditor supports iPhone, iPad and Mac, with one app you can edit diagram everywhere on any device.\n\nMermaidEditor supports mermaid-js syntax highlighting and code completion, so it can help writing diagram and chart clearly, easily and quickly.\n\nYou can also easily export charts as PNG images or SVG files from the editor, or share image to other people with system actions.\n\n√ All Platforms\n\n- Both Mobile and Desktop platforms supported, you can edit diagram documents on iPhone, iPad or Mac\n- Document browser based app, easily edit files on device and sync document between devices\n- Multiple windows ready, it makes the editor more powerful on iPadOS\n- Keyboard shortcuts ready on iPadOS with keyboard connected\n\n√ Powerful Editor\n\n- Syntax Highlighting for mermaid-js grammar\n- Auto Completion in editor helps typing keywords quickly\n- Code Snippets likes parallel block in sequence diagram makes life easier\n- Instant Parsing Error indicator for locating syntax error\n\n√ Instant Preview\n\n- Auto Generated Preview when typing in editor\n- Zoom and Pan to move preview for checking diagram's detail\n- With Scroll wheel it can be easily zoom diagram on macOS\n\n√ Integrated Extensions\n\n- Thumbnail support, every .mmd file will has its own thumbnail when saving file\n- QuickLook Preview extension helps you preview mermaid document in Files app on iPhone or iPad and Finder on macOS\n\n√ Sharing\n\n- Save diagram document as its source with .mmd extension\n- Export diagram to PNG image or SVG file with one click\n\nFor mermaid-js grammar, please visit https://mermaid-js.github.io/mermaid/ for documentation."
-    },
-    "im:price": {
-      "label": "CHF 4.00",
-      "attributes": {
-        "amount": "4.00",
-        "currency": "CHF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© TickPlant.com"
-    },
-    "title": {
-      "label": "MermaidEditor - 基伟 徐"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ch/app/mermaideditor/id1581312955?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/03/b4/51/03b451e3-895f-480a-aa13-09d610c55840/df693d58-6980-4405-adee-4620f5d31aa0_iPad__U622a_U56fe-1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ch/app/mermaideditor/id1581312955?l=en&uo=2",
-      "attributes": {
-        "im:id": "1581312955",
-        "im:bundleId": "com.tickplant.MermaidEditor"
-      }
-    },
-    "im:artist": {
-      "label": "基伟 徐",
-      "attributes": {
-        "href": "https://apps.apple.com/ch/developer/%E5%9F%BA%E4%BC%9F-%E5%BE%90/id391905315?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ch/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-08-15T00:00:00-07:00",
-      "attributes": {
-        "label": "August 15, 2021"
       }
     }
   },
@@ -1538,6 +1538,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "MermaidEditor"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "MermaidEditor is a diagram and chart editor, powered by mermaid-js. And MermaidEditor supports iPhone, iPad and Mac, with one app you can edit diagram everywhere on any device.\n\nMermaidEditor supports mermaid-js syntax highlighting and code completion, so it can help writing diagram and chart clearly, easily and quickly.\n\nYou can also easily export charts as PNG images or SVG files from the editor, or share image to other people with system actions.\n\n√ All Platforms\n\n- Both Mobile and Desktop platforms supported, you can edit diagram documents on iPhone, iPad or Mac\n- Document browser based app, easily edit files on device and sync document between devices\n- Multiple windows ready, it makes the editor more powerful on iPadOS\n- Keyboard shortcuts ready on iPadOS with keyboard connected\n\n√ Powerful Editor\n\n- Syntax Highlighting for mermaid-js grammar\n- Auto Completion in editor helps typing keywords quickly\n- Code Snippets likes parallel block in sequence diagram makes life easier\n- Instant Parsing Error indicator for locating syntax error\n\n√ Instant Preview\n\n- Auto Generated Preview when typing in editor\n- Zoom and Pan to move preview for checking diagram's detail\n- With Scroll wheel it can be easily zoom diagram on macOS\n\n√ Integrated Extensions\n\n- Thumbnail support, every .mmd file will has its own thumbnail when saving file\n- QuickLook Preview extension helps you preview mermaid document in Files app on iPhone or iPad and Finder on macOS\n\n√ Sharing\n\n- Save diagram document as its source with .mmd extension\n- Export diagram to PNG image or SVG file with one click\n\nFor mermaid-js grammar, please visit https://mermaid-js.github.io/mermaid/ for documentation."
+    },
+    "im:price": {
+      "label": "CHF 4.00",
+      "attributes": {
+        "amount": "4.00",
+        "currency": "CHF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© TickPlant.com"
+    },
+    "title": {
+      "label": "MermaidEditor - 基伟 徐"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ch/app/mermaideditor/id1581312955?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/03/b4/51/03b451e3-895f-480a-aa13-09d610c55840/df693d58-6980-4405-adee-4620f5d31aa0_iPad__U622a_U56fe-1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ch/app/mermaideditor/id1581312955?l=en&uo=2",
+      "attributes": {
+        "im:id": "1581312955",
+        "im:bundleId": "com.tickplant.MermaidEditor"
+      }
+    },
+    "im:artist": {
+      "label": "基伟 徐",
+      "attributes": {
+        "href": "https://apps.apple.com/ch/developer/%E5%9F%BA%E4%BC%9F-%E5%BE%90/id391905315?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ch/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-08-15T00:00:00-07:00",
+      "attributes": {
+        "label": "August 15, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ch",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 17,
+      "total": 99
+    },
+    "im:name": {
       "label": "ESP32 BLE Terminal"
     },
     "im:image": [
@@ -1636,7 +1738,7 @@
       "country_code": "ch",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +1840,7 @@
       "country_code": "ch",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -1832,108 +1934,6 @@
       "label": "2014-10-08T10:20:13-07:00",
       "attributes": {
         "label": "October 8, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ch",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 19,
-      "total": 99
-    },
-    "im:name": {
-      "label": "My Lisp"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
-    },
-    "im:price": {
-      "label": "CHF 4.00",
-      "attributes": {
-        "amount": "4.00",
-        "currency": "CHF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2008-2023 Laurent Rodier."
-    },
-    "title": {
-      "label": "My Lisp - Laurent Rodier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ch/app/my-lisp/id1245341806?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/9a/4c/d89a4c12-786c-ada7-aaa0-ee87c26362ff/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ch/app/my-lisp/id1245341806?l=en&uo=2",
-      "attributes": {
-        "im:id": "1245341806",
-        "im:bundleId": "net.lsrodier.MyLisp"
-      }
-    },
-    "im:artist": {
-      "label": "Laurent Rodier",
-      "attributes": {
-        "href": "https://apps.apple.com/ch/developer/laurent-rodier/id697920086?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ch/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-07T11:32:31-07:00",
-      "attributes": {
-        "label": "November 7, 2017"
       }
     }
   },

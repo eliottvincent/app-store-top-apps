@@ -8,35 +8,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "Docker Management"
+      "label": "Source 3"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+      "label": "Source is an app plus a Safari extension that makes it easy to do one key web developer task: view the HTML source of any web page, with beautiful and customisable syntax highlighting.\n\nJust browse the web in Safari as you normally would, and if you want to view the source for your current page just tap the Action icon and choose Source.\n\nThe following steps show you how to get extensions to enhance your browsing experience in Safari on ‌iOS 15‌.\n\nSettings app → Safari → Extensions → toggle on the app or settings."
     },
     "im:price": {
-      "label": "69,00 kr",
+      "label": "9,00 kr",
       "attributes": {
-        "amount": "69.00",
+        "amount": "9.00",
         "currency": "SEK"
       }
     },
@@ -47,17 +47,17 @@
       }
     },
     "rights": {
-      "label": "© nevishs"
+      "label": "© ytzong"
     },
     "title": {
-      "label": "Docker Management - Nevis Shkenza"
+      "label": "Source 3 - 永涛 宗"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/se/app/docker-management/id1527656144?l=en&uo=2"
+          "href": "https://apps.apple.com/se/app/source-3/id921385542?l=en&uo=2"
         }
       },
       {
@@ -68,22 +68,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7f/92/f3/7f92f3e1-9543-6a7a-45e3-ece4cd8011b5/efc98fb8-d655-4f35-ae9d-af3ad5312168_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-12-07_at_17.40.43.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/se/app/docker-management/id1527656144?l=en&uo=2",
+      "label": "https://apps.apple.com/se/app/source-3/id921385542?l=en&uo=2",
       "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
+        "im:id": "921385542",
+        "im:bundleId": "com.ytzong.ViewSource"
       }
     },
     "im:artist": {
-      "label": "Nevis Shkenza",
+      "label": "永涛 宗",
       "attributes": {
-        "href": "https://apps.apple.com/se/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+        "href": "https://apps.apple.com/se/developer/%E6%B0%B8%E6%B6%9B-%E5%AE%97/id473955712?l=en&uo=2"
       }
     },
     "category": {
@@ -95,9 +95,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
+      "label": "2014-10-08T10:20:13-07:00",
       "attributes": {
-        "label": "August 14, 2020"
+        "label": "October 8, 2014"
       }
     }
   },
@@ -722,35 +722,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "Source 3"
+      "label": "Docker Management"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/97/1a/42/971a422d-ff31-3717-7ba6-9cc97038c554/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Source is an app plus a Safari extension that makes it easy to do one key web developer task: view the HTML source of any web page, with beautiful and customisable syntax highlighting.\n\nJust browse the web in Safari as you normally would, and if you want to view the source for your current page just tap the Action icon and choose Source.\n\nThe following steps show you how to get extensions to enhance your browsing experience in Safari on ‌iOS 15‌.\n\nSettings app → Safari → Extensions → toggle on the app or settings."
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
     },
     "im:price": {
-      "label": "9,00 kr",
+      "label": "69,00 kr",
       "attributes": {
-        "amount": "9.00",
+        "amount": "69.00",
         "currency": "SEK"
       }
     },
@@ -761,17 +761,17 @@
       }
     },
     "rights": {
-      "label": "© ytzong"
+      "label": "© nevishs"
     },
     "title": {
-      "label": "Source 3 - 永涛 宗"
+      "label": "Docker Management - Nevis Shkenza"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/se/app/source-3/id921385542?l=en&uo=2"
+          "href": "https://apps.apple.com/se/app/docker-management/id1527656144?l=en&uo=2"
         }
       },
       {
@@ -782,22 +782,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7f/92/f3/7f92f3e1-9543-6a7a-45e3-ece4cd8011b5/efc98fb8-d655-4f35-ae9d-af3ad5312168_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-12-07_at_17.40.43.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/se/app/source-3/id921385542?l=en&uo=2",
+      "label": "https://apps.apple.com/se/app/docker-management/id1527656144?l=en&uo=2",
       "attributes": {
-        "im:id": "921385542",
-        "im:bundleId": "com.ytzong.ViewSource"
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
       }
     },
     "im:artist": {
-      "label": "永涛 宗",
+      "label": "Nevis Shkenza",
       "attributes": {
-        "href": "https://apps.apple.com/se/developer/%E6%B0%B8%E6%B6%9B-%E5%AE%97/id473955712?l=en&uo=2"
+        "href": "https://apps.apple.com/se/developer/nevis-shkenza/id1268450891?l=en&uo=2"
       }
     },
     "category": {
@@ -809,9 +809,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2014-10-08T10:20:13-07:00",
+      "label": "2020-08-14T00:00:00-07:00",
       "attributes": {
-        "label": "October 8, 2014"
+        "label": "August 14, 2020"
       }
     }
   },
@@ -1232,6 +1232,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Pro Markdown Editor and Reader"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d8/97/10/d897100b-f4cd-5358-c292-2e8fe22278d1/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d8/97/10/d897100b-f4cd-5358-c292-2e8fe22278d1/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d8/97/10/d897100b-f4cd-5358-c292-2e8fe22278d1/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is the Ad-free version of the popular Markdown Editor and Reader.\nCreate and Edit Markdown files and save them on your device or import exiting .md files and preview them directly in the App and share the files with other people."
+    },
+    "im:price": {
+      "label": "49,00 kr",
+      "attributes": {
+        "amount": "49.00",
+        "currency": "SEK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Julian Lau"
+    },
+    "title": {
+      "label": "Pro Markdown Editor and Reader - Julian Lau"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/se/app/pro-markdown-editor-and-reader/id1619825911?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/aa/dc/3b/aadc3b3c-5b16-e415-a793-85fb1e12fc9a/6cb5c200-61f7-4278-a68d-09eb4372c958_ipad2.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/se/app/pro-markdown-editor-and-reader/id1619825911?l=en&uo=2",
+      "attributes": {
+        "im:id": "1619825911",
+        "im:bundleId": "app.edit-md-pro-jl"
+      }
+    },
+    "im:artist": {
+      "label": "Julian Lau",
+      "attributes": {
+        "href": "https://apps.apple.com/se/developer/julian-lau/id1603050262?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-04-19T00:00:00-07:00",
+      "attributes": {
+        "label": "April 19, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "se",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 14,
+      "total": 99
+    },
+    "im:name": {
       "label": "Flutter Cheats"
     },
     "im:image": [
@@ -1330,7 +1432,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1432,7 +1534,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1534,7 +1636,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1636,7 +1738,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +1840,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -1840,7 +1942,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +2044,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -2044,7 +2146,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2146,7 +2248,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2248,7 +2350,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 24,
       "total": 99
     },
     "im:name": {
@@ -2350,7 +2452,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2452,7 +2554,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 26,
       "total": 99
     },
     "im:name": {
@@ -2554,7 +2656,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2656,7 +2758,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2758,7 +2860,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -2860,7 +2962,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -2962,7 +3064,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -3064,7 +3166,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
+      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3166,7 +3268,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 32,
+      "index": 33,
       "total": 99
     },
     "im:name": {
@@ -3268,7 +3370,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 34,
       "total": 99
     },
     "im:name": {
@@ -3370,7 +3472,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 35,
       "total": 99
     },
     "im:name": {
@@ -3472,7 +3574,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 99
     },
     "im:name": {
@@ -3574,7 +3676,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 37,
       "total": 99
     },
     "im:name": {
@@ -3676,7 +3778,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 37,
+      "index": 38,
       "total": 99
     },
     "im:name": {
@@ -3778,7 +3880,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 38,
+      "index": 39,
       "total": 99
     },
     "im:name": {
@@ -3880,7 +3982,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 39,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -3982,7 +4084,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 40,
+      "index": 41,
       "total": 99
     },
     "im:name": {
@@ -4084,7 +4186,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 41,
+      "index": 42,
       "total": 99
     },
     "im:name": {
@@ -4186,7 +4288,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 42,
+      "index": 43,
       "total": 99
     },
     "im:name": {
@@ -4288,7 +4390,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 43,
+      "index": 44,
       "total": 99
     },
     "im:name": {
@@ -4390,7 +4492,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 44,
+      "index": 45,
       "total": 99
     },
     "im:name": {
@@ -4492,7 +4594,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 45,
+      "index": 46,
       "total": 99
     },
     "im:name": {
@@ -4594,7 +4696,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 46,
+      "index": 47,
       "total": 99
     },
     "im:name": {
@@ -4696,7 +4798,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 47,
+      "index": 48,
       "total": 99
     },
     "im:name": {
@@ -4798,7 +4900,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 48,
+      "index": 49,
       "total": 99
     },
     "im:name": {
@@ -4900,7 +5002,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 49,
+      "index": 50,
       "total": 99
     },
     "im:name": {
@@ -5002,7 +5104,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 50,
+      "index": 51,
       "total": 99
     },
     "im:name": {
@@ -5104,7 +5206,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 51,
+      "index": 52,
       "total": 99
     },
     "im:name": {
@@ -5206,7 +5308,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 52,
+      "index": 53,
       "total": 99
     },
     "im:name": {
@@ -5308,7 +5410,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 53,
+      "index": 54,
       "total": 99
     },
     "im:name": {
@@ -5410,7 +5512,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 54,
+      "index": 55,
       "total": 99
     },
     "im:name": {
@@ -5512,7 +5614,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 55,
+      "index": 56,
       "total": 99
     },
     "im:name": {
@@ -5614,7 +5716,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 56,
+      "index": 57,
       "total": 99
     },
     "im:name": {
@@ -5716,7 +5818,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 57,
+      "index": 58,
       "total": 99
     },
     "im:name": {
@@ -5818,7 +5920,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 58,
+      "index": 59,
       "total": 99
     },
     "im:name": {
@@ -5920,7 +6022,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 59,
+      "index": 60,
       "total": 99
     },
     "im:name": {
@@ -6022,7 +6124,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 60,
+      "index": 61,
       "total": 99
     },
     "im:name": {
@@ -6124,7 +6226,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 61,
+      "index": 62,
       "total": 99
     },
     "im:name": {
@@ -6226,7 +6328,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 62,
+      "index": 63,
       "total": 99
     },
     "im:name": {
@@ -6328,7 +6430,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 63,
+      "index": 64,
       "total": 99
     },
     "im:name": {
@@ -6430,7 +6532,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 64,
+      "index": 65,
       "total": 99
     },
     "im:name": {
@@ -6532,7 +6634,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 65,
+      "index": 66,
       "total": 99
     },
     "im:name": {
@@ -6634,7 +6736,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 66,
+      "index": 67,
       "total": 99
     },
     "im:name": {
@@ -6736,7 +6838,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 67,
+      "index": 68,
       "total": 99
     },
     "im:name": {
@@ -6838,7 +6940,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 68,
+      "index": 69,
       "total": 99
     },
     "im:name": {
@@ -6940,7 +7042,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 69,
+      "index": 70,
       "total": 99
     },
     "im:name": {
@@ -7042,7 +7144,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 70,
+      "index": 71,
       "total": 99
     },
     "im:name": {
@@ -7144,7 +7246,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 71,
+      "index": 72,
       "total": 99
     },
     "im:name": {
@@ -7246,7 +7348,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 72,
+      "index": 73,
       "total": 99
     },
     "im:name": {
@@ -7340,108 +7442,6 @@
       "label": "2022-07-07T00:00:00-07:00",
       "attributes": {
         "label": "July 7, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "se",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 73,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Pro Markdown Editor and Reader"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d8/97/10/d897100b-f4cd-5358-c292-2e8fe22278d1/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d8/97/10/d897100b-f4cd-5358-c292-2e8fe22278d1/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/d8/97/10/d897100b-f4cd-5358-c292-2e8fe22278d1/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is the Ad-free version of the popular Markdown Editor and Reader.\nCreate and Edit Markdown files and save them on your device or import exiting .md files and preview them directly in the App and share the files with other people."
-    },
-    "im:price": {
-      "label": "49,00 kr",
-      "attributes": {
-        "amount": "49.00",
-        "currency": "SEK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Julian Lau"
-    },
-    "title": {
-      "label": "Pro Markdown Editor and Reader - Julian Lau"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/se/app/pro-markdown-editor-and-reader/id1619825911?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/aa/dc/3b/aadc3b3c-5b16-e415-a793-85fb1e12fc9a/6cb5c200-61f7-4278-a68d-09eb4372c958_ipad2.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/se/app/pro-markdown-editor-and-reader/id1619825911?l=en&uo=2",
-      "attributes": {
-        "im:id": "1619825911",
-        "im:bundleId": "app.edit-md-pro-jl"
-      }
-    },
-    "im:artist": {
-      "label": "Julian Lau",
-      "attributes": {
-        "href": "https://apps.apple.com/se/developer/julian-lau/id1603050262?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-04-19T00:00:00-07:00",
-      "attributes": {
-        "label": "April 19, 2022"
       }
     }
   },

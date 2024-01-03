@@ -624,26 +624,26 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/bb/ac/dabbac79-fbe2-8849-cba9-cc794507a6ec/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/bb/ac/dabbac79-fbe2-8849-cba9-cc794507a6ec/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/bb/ac/dabbac79-fbe2-8849-cba9-cc794507a6ec/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
     },
     "im:price": {
       "label": "HUF1,990.00",
@@ -926,108 +926,6 @@
       "total": 76
     },
     "im:name": {
-      "label": "Zeitgeist"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/ad/07/6ead0715-e497-875c-974c-a7c8fa374932/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/ad/07/6ead0715-e497-875c-974c-a7c8fa374932/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/ad/07/6ead0715-e497-875c-974c-a7c8fa374932/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
-    },
-    "im:price": {
-      "label": "HUF999.00",
-      "attributes": {
-        "amount": "999",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Daniel Eden"
-    },
-    "title": {
-      "label": "Zeitgeist - Dan Eden"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/zeitgeist/id1526052028?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7b/01/9d/7b019d57-2a29-eb5f-e70f-f3c19d02cace/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/zeitgeist/id1526052028?uo=2",
-      "attributes": {
-        "im:id": "1526052028",
-        "im:bundleId": "me.daneden.Zeitgeist"
-      }
-    },
-    "im:artist": {
-      "label": "Dan Eden",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/dan-eden/id508167369?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/hu/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-02T00:00:00-07:00",
-      "attributes": {
-        "label": "December 2, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 11,
-      "total": 76
-    },
-    "im:name": {
       "label": "Inspect Browser"
     },
     "im:image": [
@@ -1126,7 +1024,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 11,
       "total": 76
     },
     "im:name": {
@@ -1228,7 +1126,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 12,
       "total": 76
     },
     "im:name": {
@@ -1330,7 +1228,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 13,
       "total": 76
     },
     "im:name": {
@@ -1432,7 +1330,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 14,
       "total": 76
     },
     "im:name": {
@@ -1534,7 +1432,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 15,
       "total": 76
     },
     "im:name": {
@@ -1636,7 +1534,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 16,
       "total": 76
     },
     "im:name": {
@@ -1738,7 +1636,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 17,
       "total": 76
     },
     "im:name": {
@@ -1840,7 +1738,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 76
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 19,
       "total": 76
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 20,
       "total": 76
     },
     "im:name": {
@@ -2146,7 +2044,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 21,
       "total": 76
     },
     "im:name": {
@@ -2240,6 +2138,108 @@
       "label": "2021-02-04T00:00:00-07:00",
       "attributes": {
         "label": "February 4, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 22,
+      "total": 76
+    },
+    "im:name": {
+      "label": "Zeitgeist"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/ad/07/6ead0715-e497-875c-974c-a7c8fa374932/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/ad/07/6ead0715-e497-875c-974c-a7c8fa374932/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/ad/07/6ead0715-e497-875c-974c-a7c8fa374932/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Zeitgeist helps you stay on top of your Vercel deployments.\n\nSee deployments wait, build, and finish (or fail); quickly access their URLs, logs, or commits; and get real-time notifications for build progress."
+    },
+    "im:price": {
+      "label": "HUF999.00",
+      "attributes": {
+        "amount": "999",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Daniel Eden"
+    },
+    "title": {
+      "label": "Zeitgeist - Dan Eden"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/zeitgeist/id1526052028?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7b/01/9d/7b019d57-2a29-eb5f-e70f-f3c19d02cace/7ea8fe2d-7a23-42a4-9bb9-b8dcdb512d45_2nd_Gen_iPad_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/zeitgeist/id1526052028?uo=2",
+      "attributes": {
+        "im:id": "1526052028",
+        "im:bundleId": "me.daneden.Zeitgeist"
+      }
+    },
+    "im:artist": {
+      "label": "Dan Eden",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/dan-eden/id508167369?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/hu/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-12-02T00:00:00-07:00",
+      "attributes": {
+        "label": "December 2, 2020"
       }
     }
   },

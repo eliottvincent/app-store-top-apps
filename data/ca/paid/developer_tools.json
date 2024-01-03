@@ -110,6 +110,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/bb/ac/dabbac79-fbe2-8849-cba9-cc794507a6ec/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/bb/ac/dabbac79-fbe2-8849-cba9-cc794507a6ec/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/bb/ac/dabbac79-fbe2-8849-cba9-cc794507a6ec/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "$6.99",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 3,
+      "total": 99
+    },
+    "im:name": {
       "label": "Hexer — Hex File Viewer"
     },
     "im:image": [
@@ -208,7 +310,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -412,7 +514,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -616,7 +718,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -718,7 +820,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -820,7 +922,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -922,7 +1024,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +1126,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1126,7 +1228,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1228,7 +1330,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1330,7 +1432,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1432,7 +1534,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1534,7 +1636,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1636,7 +1738,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +1840,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -1840,7 +1942,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +2044,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -2044,7 +2146,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2146,7 +2248,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2240,108 +2342,6 @@
       "label": "2022-03-10T00:00:00-07:00",
       "attributes": {
         "label": "March 10, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 23,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Netdata server monitoring"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/57/53/95/57539571-5ee0-847f-3e1e-de9567571161/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/57/53/95/57539571-5ee0-847f-3e1e-de9567571161/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/57/53/95/57539571-5ee0-847f-3e1e-de9567571161/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Netdata is distributed, real-time performance and health monitoring for systems and applications. It is a highly-optimized monitoring agent you install on all your systems and containers.\n\nNote. \n1. This app does NOT work with Netdata Cloud.\n2. This app is an independent iOS/macOS client and is not officially affiliated with, authorized, maintained, sponsored, or endorsed by Netdata (Netdata Inc) or any of its affiliates or subsidiaries. This application is open-source, and it operates by utilising the APIs provided by Netdata.\n\nFeatures\n\n- Real-time monitoring on the go\nMonitor everything in real time on your mobile device\n\n- Seamless connection\nWorks out-of-the-box with any Netdata instance\n\n- Authentication\nSupport for authenticating using HTTP/HTTPS Basic Auth\n\n- Monitor Local servers\nSupport for accessing local and remote Netdata instances\n\n- iCloud Sync\nYour data is automatically synced across all your devices\n\n- Open-source\nOpen-source iOS, iPadOS and macOS client"
-    },
-    "im:price": {
-      "label": "$4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Copyright (C) Arjun Komath"
-    },
-    "title": {
-      "label": "Netdata server monitoring - Arjun Komath"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/netdata-server-monitoring/id1525322870?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/32/22/98/322298ee-6ce5-6475-3d38-7aba1f5512fb/6fddbdcc-16b1-446f-b11b-5fc975f45571_IMG_0066.PNG/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/netdata-server-monitoring/id1525322870?uo=2",
-      "attributes": {
-        "im:id": "1525322870",
-        "im:bundleId": "com.techulus.netdata"
-      }
-    },
-    "im:artist": {
-      "label": "Arjun Komath",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/arjun-komath/id1388042509?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-09-16T00:00:00-07:00",
-      "attributes": {
-        "label": "September 16, 2020"
       }
     }
   },
@@ -2456,6 +2456,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Netdata server monitoring"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/57/53/95/57539571-5ee0-847f-3e1e-de9567571161/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/57/53/95/57539571-5ee0-847f-3e1e-de9567571161/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/57/53/95/57539571-5ee0-847f-3e1e-de9567571161/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Netdata is distributed, real-time performance and health monitoring for systems and applications. It is a highly-optimized monitoring agent you install on all your systems and containers.\n\nNote. \n1. This app does NOT work with Netdata Cloud.\n2. This app is an independent iOS/macOS client and is not officially affiliated with, authorized, maintained, sponsored, or endorsed by Netdata (Netdata Inc) or any of its affiliates or subsidiaries. This application is open-source, and it operates by utilising the APIs provided by Netdata.\n\nFeatures\n\n- Real-time monitoring on the go\nMonitor everything in real time on your mobile device\n\n- Seamless connection\nWorks out-of-the-box with any Netdata instance\n\n- Authentication\nSupport for authenticating using HTTP/HTTPS Basic Auth\n\n- Monitor Local servers\nSupport for accessing local and remote Netdata instances\n\n- iCloud Sync\nYour data is automatically synced across all your devices\n\n- Open-source\nOpen-source iOS, iPadOS and macOS client"
+    },
+    "im:price": {
+      "label": "$4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Copyright (C) Arjun Komath"
+    },
+    "title": {
+      "label": "Netdata server monitoring - Arjun Komath"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/netdata-server-monitoring/id1525322870?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/32/22/98/322298ee-6ce5-6475-3d38-7aba1f5512fb/6fddbdcc-16b1-446f-b11b-5fc975f45571_IMG_0066.PNG/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/netdata-server-monitoring/id1525322870?uo=2",
+      "attributes": {
+        "im:id": "1525322870",
+        "im:bundleId": "com.techulus.netdata"
+      }
+    },
+    "im:artist": {
+      "label": "Arjun Komath",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/arjun-komath/id1388042509?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-09-16T00:00:00-07:00",
+      "attributes": {
+        "label": "September 16, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 26,
+      "total": 99
+    },
+    "im:name": {
       "label": "Text Editor - Document Editor"
     },
     "im:image": [
@@ -2554,7 +2656,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2656,7 +2758,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2758,412 +2860,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
-      "total": 99
-    },
-    "im:name": {
-      "label": "UIdraw"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/95/f4/59/95f4592e-6f61-c9b9-ce73-df9f7133650e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/95/f4/59/95f4592e-6f61-c9b9-ce73-df9f7133650e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/95/f4/59/95f4592e-6f61-c9b9-ce73-df9f7133650e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Simple mockup drawing app\n\nNo Subscription! No In-App-Purchase! \n\nYour are on the way and you have an app idea or a feature of your current project. With UIdraw can simply and fast make a visual notice for your app.\n\n- change thickness\n- change color\n- change transparent\n- save mockup\n- erase mockup\n\nFast and easy to create mockups on the way.\nYou can even build a prototype out of your mockups. ( with TabCase App )\n\nWe will always working to make the better and bring more useful feature to make your work process better and better."
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© BRANTRIX LLC"
-    },
-    "title": {
-      "label": "UIdraw - Sebastian Hans Harke"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/uidraw/id1585429854?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/d9/0e/ef/d90eef6d-6dcc-d6a1-5438-5d67f7d5f905/1e2c4455-9ae9-4411-a603-06e3afe21f21_IMG_0398.PNG/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/uidraw/id1585429854?uo=2",
-      "attributes": {
-        "im:id": "1585429854",
-        "im:bundleId": "com.drawdesign.appdraw"
-      }
-    },
-    "im:artist": {
-      "label": "Sebastian Hans Harke",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/sebastian-hans-harke/id645248799?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-09-11T00:00:00-07:00",
-      "attributes": {
-        "label": "September 11, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
       "index": 29,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Wireshark Helper - Decrypt TLS"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nRequires: two softwares on your desktop:\n\nWireshark: https://www.wireshark.org\nWireshark Helper: https://www.txthinking.com\n\n- Redirect all mobile TCP&UDP to your desktop Wireshark\n- SSL/TLS-capable intercepting\n- HTTP, HTTPS, SMTP, IMAP, DNS, FTP, POP3, SSH, Telnel, IRC, *ANY* custom protocol…"
-    },
-    "im:price": {
-      "label": "$12.99",
-      "attributes": {
-        "amount": "12.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© TxThinking, Inc."
-    },
-    "title": {
-      "label": "Wireshark Helper - Decrypt TLS - TxThinking, Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/wireshark-helper-decrypt-tls/id1534485108?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/3f/b1/61/3fb1611d-5746-6c18-cd01-2de6aa953ab0/ff24f463-0d31-47fd-a39e-a16261a741e1_2.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/wireshark-helper-decrypt-tls/id1534485108?uo=2",
-      "attributes": {
-        "im:id": "1534485108",
-        "im:bundleId": "com.txthinking.wireshark"
-      }
-    },
-    "im:artist": {
-      "label": "TxThinking, Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/txthinking-inc/id1634589596?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-11-06T00:00:00-07:00",
-      "attributes": {
-        "label": "November 6, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 30,
-      "total": 99
-    },
-    "im:name": {
-      "label": "ESP32 BLE Terminal"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 mightyIT"
-    },
-    "title": {
-      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/esp32-ble-terminal/id1567601472?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/esp32-ble-terminal/id1567601472?uo=2",
-      "attributes": {
-        "im:id": "1567601472",
-        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
-      }
-    },
-    "im:artist": {
-      "label": "Gopi Gadhiya",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/gopi-gadhiya/id1387816354?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-06-01T00:00:00-07:00",
-      "attributes": {
-        "label": "June 1, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 31,
-      "total": 99
-    },
-    "im:name": {
-      "label": "JSON to XML Converter"
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Simple JSON to XML converter app that lets you input JSON as plain text or load the JSON from url or local files"
-    },
-    "im:artist": {
-      "label": "Mohammed Aadhil",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/mohammed-aadhil/id1526081218?uo=2"
-      }
-    },
-    "title": {
-      "label": "JSON to XML Converter - Mohammed Aadhil"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/json-to-xml-converter/id1545730388?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/03/a4/41/03a441f5-7555-873d-4d3f-24e1c71d37bd/6b50e6ee-0ad4-4fa9-a2ec-7c4cea03d104_2021-01-25_19.21.47.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/json-to-xml-converter/id1545730388?uo=2",
-      "attributes": {
-        "im:id": "1545730388",
-        "im:bundleId": "com.fosspoint.jsontoxml"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-12-21T00:00:00-07:00",
-      "attributes": {
-        "label": "December 21, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 32,
       "total": 99
     },
     "im:name": {
@@ -3265,7 +2962,106 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 30,
+      "total": 99
+    },
+    "im:name": {
+      "label": "JSON to XML Converter"
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/6f/c1/93/6fc193ec-41dc-985d-6994-57c1e69cce4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Simple JSON to XML converter app that lets you input JSON as plain text or load the JSON from url or local files"
+    },
+    "im:artist": {
+      "label": "Mohammed Aadhil",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/mohammed-aadhil/id1526081218?uo=2"
+      }
+    },
+    "title": {
+      "label": "JSON to XML Converter - Mohammed Aadhil"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/json-to-xml-converter/id1545730388?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/03/a4/41/03a441f5-7555-873d-4d3f-24e1c71d37bd/6b50e6ee-0ad4-4fa9-a2ec-7c4cea03d104_2021-01-25_19.21.47.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/json-to-xml-converter/id1545730388?uo=2",
+      "attributes": {
+        "im:id": "1545730388",
+        "im:bundleId": "com.fosspoint.jsontoxml"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-12-21T00:00:00-07:00",
+      "attributes": {
+        "label": "December 21, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 31,
       "total": 99
     },
     "im:name": {
@@ -3359,6 +3155,210 @@
       "label": "2012-03-25T21:34:23-07:00",
       "attributes": {
         "label": "March 25, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 32,
+      "total": 99
+    },
+    "im:name": {
+      "label": "UIdraw"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/95/f4/59/95f4592e-6f61-c9b9-ce73-df9f7133650e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/95/f4/59/95f4592e-6f61-c9b9-ce73-df9f7133650e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/95/f4/59/95f4592e-6f61-c9b9-ce73-df9f7133650e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Simple mockup drawing app\n\nNo Subscription! No In-App-Purchase! \n\nYour are on the way and you have an app idea or a feature of your current project. With UIdraw can simply and fast make a visual notice for your app.\n\n- change thickness\n- change color\n- change transparent\n- save mockup\n- erase mockup\n\nFast and easy to create mockups on the way.\nYou can even build a prototype out of your mockups. ( with TabCase App )\n\nWe will always working to make the better and bring more useful feature to make your work process better and better."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© BRANTRIX LLC"
+    },
+    "title": {
+      "label": "UIdraw - Sebastian Hans Harke"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/uidraw/id1585429854?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/d9/0e/ef/d90eef6d-6dcc-d6a1-5438-5d67f7d5f905/1e2c4455-9ae9-4411-a603-06e3afe21f21_IMG_0398.PNG/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/uidraw/id1585429854?uo=2",
+      "attributes": {
+        "im:id": "1585429854",
+        "im:bundleId": "com.drawdesign.appdraw"
+      }
+    },
+    "im:artist": {
+      "label": "Sebastian Hans Harke",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/sebastian-hans-harke/id645248799?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-09-11T00:00:00-07:00",
+      "attributes": {
+        "label": "September 11, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 33,
+      "total": 99
+    },
+    "im:name": {
+      "label": "ESP32 BLE Terminal"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 mightyIT"
+    },
+    "title": {
+      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/esp32-ble-terminal/id1567601472?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/esp32-ble-terminal/id1567601472?uo=2",
+      "attributes": {
+        "im:id": "1567601472",
+        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
+      }
+    },
+    "im:artist": {
+      "label": "Gopi Gadhiya",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/gopi-gadhiya/id1387816354?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-06-01T00:00:00-07:00",
+      "attributes": {
+        "label": "June 1, 2021"
       }
     }
   },
@@ -3473,6 +3473,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Wireshark Helper - Decrypt TLS"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/49/e0/7c49e090-854f-bf1a-3e28-fda5f742a590/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Why you need this:\n\nhttps://talks.txthinking.com/articles/mobile-capture-en.article\n\nRequires: two softwares on your desktop:\n\nWireshark: https://www.wireshark.org\nWireshark Helper: https://www.txthinking.com\n\n- Redirect all mobile TCP&UDP to your desktop Wireshark\n- SSL/TLS-capable intercepting\n- HTTP, HTTPS, SMTP, IMAP, DNS, FTP, POP3, SSH, Telnel, IRC, *ANY* custom protocol…"
+    },
+    "im:price": {
+      "label": "$12.99",
+      "attributes": {
+        "amount": "12.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© TxThinking, Inc."
+    },
+    "title": {
+      "label": "Wireshark Helper - Decrypt TLS - TxThinking, Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/wireshark-helper-decrypt-tls/id1534485108?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/3f/b1/61/3fb1611d-5746-6c18-cd01-2de6aa953ab0/ff24f463-0d31-47fd-a39e-a16261a741e1_2.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/wireshark-helper-decrypt-tls/id1534485108?uo=2",
+      "attributes": {
+        "im:id": "1534485108",
+        "im:bundleId": "com.txthinking.wireshark"
+      }
+    },
+    "im:artist": {
+      "label": "TxThinking, Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/txthinking-inc/id1634589596?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-11-06T00:00:00-07:00",
+      "attributes": {
+        "label": "November 6, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 36,
+      "total": 99
+    },
+    "im:name": {
       "label": "San Fransymbols"
     },
     "im:image": [
@@ -3563,108 +3665,6 @@
       "label": "2020-03-29T00:00:00-07:00",
       "attributes": {
         "label": "March 29, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 36,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/57/95/90579567-adb3-cc1c-d02d-91aeb968d2f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nConnect via ssh to your Linux server and manage your docker.\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- list images\n- build images\n- remove images\n- connect through password or rsa key\n\nFeatures\n- credentials are encrypted\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\nsudo usermod -aG docker $USERsudo reboot\n\nQ: Why I can not connect to Synology server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to Synology server, the .bashrc profile is not loaded by default so the following command are required:\nsudo synogroup --add docker $USER\nsudo chown root:docker /var/run/docker.sock\nsudo ln -s /volume1/@appstore/Docker/usr/bin/docker /usr/bin/docker\nNOTE: \"/volume1/@appstore/Docker/usr/bin/docker\" might be different for your case.\n\nQ: Why I can not connect to QNAP server with non-root user?\nA: The non-root user has to in the docker group and also when ssh-ing to QNAP server, the .bashrc profile is not loaded by default so the following command are required:\nsudo addgroup $USER administrators\nsudo ln -s /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker /usr/bin/docker\nNOTE: \"/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\" might be different for your case.\n\nQ: Why my ssh key is not working?\nA: The ssh agent accepts only RSA format keys so if you are using another format (openssh) please convert it with the following command:\nssh-keygen -f -p -m pem -P PASSPHASE -N PASSPHASE\nNOTE: add \"\" if there is no passphase for the ssh key\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "$6.99",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
       }
     }
   },
@@ -4701,19 +4701,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/42/4d/a2/424da292-6d86-a1c9-9f9d-13c48b35c319/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4e/f4/d8/4ef4d8b9-637d-7cff-0afd-b3b99e0b7c4a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/42/4d/a2/424da292-6d86-a1c9-9f9d-13c48b35c319/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4e/f4/d8/4ef4d8b9-637d-7cff-0afd-b3b99e0b7c4a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/42/4d/a2/424da292-6d86-a1c9-9f9d-13c48b35c319/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4e/f4/d8/4ef4d8b9-637d-7cff-0afd-b3b99e0b7c4a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -6635,210 +6635,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Nmap Handbook"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2d/37/db/2d37db05-7f04-f235-b74f-3aaea29475e6/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2d/37/db/2d37db05-7f04-f235-b74f-3aaea29475e6/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2d/37/db/2d37db05-7f04-f235-b74f-3aaea29475e6/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Nmap Handbook is your ultimate companion for network scanning and security exploration. Explore a comprehensive collection of Nmap commands with detailed explanations to enhance your knowledge and skills. Additionally, leverage the power of AI to ask questions and receive instant answers related to network scanning techniques. Unleash the full potential of Nmap with this indispensable app."
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023.BAT.NMAPHANDBOOK"
-    },
-    "title": {
-      "label": "Nmap Handbook - Basel AbuTaleb"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/nmap-handbook/id6450674361?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/3f/e2/19/3fe219eb-cd32-4865-0629-177349d9d700/679d123e-dbbf-485e-8cad-0c26c8572da9_Apple_iPad_Pro_13_Inch_Screenshot_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/nmap-handbook/id6450674361?uo=2",
-      "attributes": {
-        "im:id": "6450674361",
-        "im:bundleId": "co.BAT.Nmap-AI"
-      }
-    },
-    "im:artist": {
-      "label": "Basel AbuTaleb",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/basel-abutaleb/id1604005525?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-06-28T00:00:00-07:00",
-      "attributes": {
-        "label": "June 28, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 67,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Lamdi"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/96/3e/ed/963eedb6-6792-2f2b-c97a-945fefc0eadf/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/96/3e/ed/963eedb6-6792-2f2b-c97a-945fefc0eadf/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/96/3e/ed/963eedb6-6792-2f2b-c97a-945fefc0eadf/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Lamdi is a simple app that lets you preview a static website by selecting the folder that has an index.html, index.htm, main.html, or main.htm file. \n\nLamdi will then open a web preview of your static website and allow you to interact with it directly on your device. \n\nLamdi will also allow you to load static websites with nested assets where for example your images may be located in a subfolder from your index.html which helps you better organize your website assets.\n\nLamdi doesn't need any internet access to work because it loads the website directly from your devices storage.\n\nLamdi can also work with static websites stored on an external drive thanks to MFI adapters that can allow you to view contents of say an SD Card or a USB Flash drive.\n\nLamdi allows you to navigate to the previous page by swiping left and navigate forward to the page you were just on by swiping right.\n\nLamdi also allows you to pull down to reload the page you currently have open.\n\nLamdi can also enable other devices on the same network to connect to your website preview by accessing the address located in the help sheet when available.\n\nThese instructions are also available inside the help button in the app.\n\nNote:  Lamdi does not support opening website folders from third party apps. It only allows opening a website folder from iCloud Drive, On My Device, and Physically Connected External Storage Mediums."
-    },
-    "im:price": {
-      "label": "$0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "CAD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Blaine Miller"
-    },
-    "title": {
-      "label": "Lamdi - Blaine Miller"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/lamdi/id6446975599?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/a9/85/74/a98574a5-1656-7721-6388-6314e0b397ea/ab786ccf-b9f2-4d99-a68f-3464cd0bfe07_image1.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ca/app/lamdi/id6446975599?uo=2",
-      "attributes": {
-        "im:id": "6446975599",
-        "im:bundleId": "com.blainemiller.Lamdi"
-      }
-    },
-    "im:artist": {
-      "label": "Blaine Miller",
-      "attributes": {
-        "href": "https://apps.apple.com/ca/developer/blaine-miller/id1348196068?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-04-06T00:00:00-07:00",
-      "attributes": {
-        "label": "April 6, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ca",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 68,
-      "total": 99
-    },
-    "im:name": {
       "label": "SSL Toolkit"
     },
     "im:image": [
@@ -6937,7 +6733,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 69,
+      "index": 67,
       "total": 99
     },
     "im:name": {
@@ -7039,7 +6835,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 70,
+      "index": 68,
       "total": 99
     },
     "im:name": {
@@ -7141,34 +6937,34 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 71,
+      "index": 69,
       "total": 99
     },
     "im:name": {
-      "label": "Binarrator - binary translator"
+      "label": "Nmap Handbook"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bc/fe/59/bcfe59c2-148d-bc48-dd70-77f98771ac23/AppIcon-1x_U007ephone-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2d/37/db/2d37db05-7f04-f235-b74f-3aaea29475e6/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bc/fe/59/bcfe59c2-148d-bc48-dd70-77f98771ac23/AppIcon-1x_U007ephone-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2d/37/db/2d37db05-7f04-f235-b74f-3aaea29475e6/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bc/fe/59/bcfe59c2-148d-bc48-dd70-77f98771ac23/AppIcon-1x_U007ephone-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2d/37/db/2d37db05-7f04-f235-b74f-3aaea29475e6/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "This app allows you to easily translate text to binary code or binary code to text, with just the click of a button.\n\nIt's very simple, just type in the text (or your 0's and 1's), click the translate button and let the app do the rest.\n\nThe app doesn't show any ads."
+      "label": "Nmap Handbook is your ultimate companion for network scanning and security exploration. Explore a comprehensive collection of Nmap commands with detailed explanations to enhance your knowledge and skills. Additionally, leverage the power of AI to ask questions and receive instant answers related to network scanning techniques. Unleash the full potential of Nmap with this indispensable app."
     },
     "im:price": {
       "label": "$0.99",
@@ -7184,17 +6980,17 @@
       }
     },
     "rights": {
-      "label": "© 2023 Ludvig Valdemar"
+      "label": "© 2023.BAT.NMAPHANDBOOK"
     },
     "title": {
-      "label": "Binarrator - binary translator - Ludvig Valdemar Soerensen"
+      "label": "Nmap Handbook - Basel AbuTaleb"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ca/app/binarrator-binary-translator/id6463489384?uo=2"
+          "href": "https://apps.apple.com/ca/app/nmap-handbook/id6450674361?uo=2"
         }
       },
       {
@@ -7205,22 +7001,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/f0/73/65f07364-1dcb-f652-d588-35d2cee3b6dd/095261c9-6468-4ef9-9b03-fcba8b09dd52_app-preview-small-1.png/480x480bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/3f/e2/19/3fe219eb-cd32-4865-0629-177349d9d700/679d123e-dbbf-485e-8cad-0c26c8572da9_Apple_iPad_Pro_13_Inch_Screenshot_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ca/app/binarrator-binary-translator/id6463489384?uo=2",
+      "label": "https://apps.apple.com/ca/app/nmap-handbook/id6450674361?uo=2",
       "attributes": {
-        "im:id": "6463489384",
-        "im:bundleId": "com.ludvigvaldemar.Binarrator"
+        "im:id": "6450674361",
+        "im:bundleId": "co.BAT.Nmap-AI"
       }
     },
     "im:artist": {
-      "label": "Ludvig Valdemar Soerensen",
+      "label": "Basel AbuTaleb",
       "attributes": {
-        "href": "https://apps.apple.com/ca/developer/ludvig-valdemar-soerensen/id1603304344?uo=2"
+        "href": "https://apps.apple.com/ca/developer/basel-abutaleb/id1604005525?uo=2"
       }
     },
     "category": {
@@ -7232,9 +7028,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2023-08-27T00:00:00-07:00",
+      "label": "2023-06-28T00:00:00-07:00",
       "attributes": {
-        "label": "August 27, 2023"
+        "label": "June 28, 2023"
       }
     }
   },
@@ -7243,7 +7039,109 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 72,
+      "index": 70,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Lamdi"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/96/3e/ed/963eedb6-6792-2f2b-c97a-945fefc0eadf/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/96/3e/ed/963eedb6-6792-2f2b-c97a-945fefc0eadf/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/96/3e/ed/963eedb6-6792-2f2b-c97a-945fefc0eadf/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Lamdi is a simple app that lets you preview a static website by selecting the folder that has an index.html, index.htm, main.html, or main.htm file. \n\nLamdi will then open a web preview of your static website and allow you to interact with it directly on your device. \n\nLamdi will also allow you to load static websites with nested assets where for example your images may be located in a subfolder from your index.html which helps you better organize your website assets.\n\nLamdi doesn't need any internet access to work because it loads the website directly from your devices storage.\n\nLamdi can also work with static websites stored on an external drive thanks to MFI adapters that can allow you to view contents of say an SD Card or a USB Flash drive.\n\nLamdi allows you to navigate to the previous page by swiping left and navigate forward to the page you were just on by swiping right.\n\nLamdi also allows you to pull down to reload the page you currently have open.\n\nLamdi can also enable other devices on the same network to connect to your website preview by accessing the address located in the help sheet when available.\n\nThese instructions are also available inside the help button in the app.\n\nNote:  Lamdi does not support opening website folders from third party apps. It only allows opening a website folder from iCloud Drive, On My Device, and Physically Connected External Storage Mediums."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Blaine Miller"
+    },
+    "title": {
+      "label": "Lamdi - Blaine Miller"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/lamdi/id6446975599?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/a9/85/74/a98574a5-1656-7721-6388-6314e0b397ea/ab786ccf-b9f2-4d99-a68f-3464cd0bfe07_image1.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/lamdi/id6446975599?uo=2",
+      "attributes": {
+        "im:id": "6446975599",
+        "im:bundleId": "com.blainemiller.Lamdi"
+      }
+    },
+    "im:artist": {
+      "label": "Blaine Miller",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/blaine-miller/id1348196068?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-04-06T00:00:00-07:00",
+      "attributes": {
+        "label": "April 6, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 71,
       "total": 99
     },
     "im:name": {
@@ -7345,7 +7243,7 @@
       "country_code": "ca",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 73,
+      "index": 72,
       "total": 99
     },
     "im:name": {
@@ -7439,6 +7337,108 @@
       "label": "2019-07-24T00:00:00-07:00",
       "attributes": {
         "label": "July 24, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ca",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 73,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Binarrator - binary translator"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bc/fe/59/bcfe59c2-148d-bc48-dd70-77f98771ac23/AppIcon-1x_U007ephone-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bc/fe/59/bcfe59c2-148d-bc48-dd70-77f98771ac23/AppIcon-1x_U007ephone-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bc/fe/59/bcfe59c2-148d-bc48-dd70-77f98771ac23/AppIcon-1x_U007ephone-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This app allows you to easily translate text to binary code or binary code to text, with just the click of a button.\n\nIt's very simple, just type in the text (or your 0's and 1's), click the translate button and let the app do the rest.\n\nThe app doesn't show any ads."
+    },
+    "im:price": {
+      "label": "$0.99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "CAD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Ludvig Valdemar"
+    },
+    "title": {
+      "label": "Binarrator - binary translator - Ludvig Valdemar Soerensen"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ca/app/binarrator-binary-translator/id6463489384?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/f0/73/65f07364-1dcb-f652-d588-35d2cee3b6dd/095261c9-6468-4ef9-9b03-fcba8b09dd52_app-preview-small-1.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ca/app/binarrator-binary-translator/id6463489384?uo=2",
+      "attributes": {
+        "im:id": "6463489384",
+        "im:bundleId": "com.ludvigvaldemar.Binarrator"
+      }
+    },
+    "im:artist": {
+      "label": "Ludvig Valdemar Soerensen",
+      "attributes": {
+        "href": "https://apps.apple.com/ca/developer/ludvig-valdemar-soerensen/id1603304344?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ca/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-08-27T00:00:00-07:00",
+      "attributes": {
+        "label": "August 27, 2023"
       }
     }
   },

@@ -110,6 +110,108 @@
       "total": 100
     },
     "im:name": {
+      "label": "ZIG SIM PRO"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/78/c8/c1/78c8c1f5-0065-30db-c6fd-5d8f5f40affb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/78/c8/c1/78c8c1f5-0065-30db-c6fd-5d8f5f40affb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/78/c8/c1/78c8c1f5-0065-30db-c6fd-5d8f5f40affb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "ZIG SIM PRO is an app for \"the physical prototyping\".\nIn ZIG SIM PRO, it is possible to send not only the sensor information obtained with the existing free application ZIG SIM but also the feature point information obtained with ARKit to the specified device.\n\nYou can monitor such as the feature point data obtained with ARKit as well as data obtained with the existing free ZIGSIM, and send it to a destination device by TCP or UDP.\n\nFor that reason, even without electronic kits, you can also experiment IoT related the video system.\n\nSome functions may not be available depending on the model.\n- Features other than NFC Reader are available on iOS 12.3.1 iPad Pro.\n- Features other than Apple Pencil are available on iOS 12.3.1 iPhone X&11.\n- NDI function Depth cannot be used on models that do not have a Dual camera.\n- NDI function HUMAN cannot be used on models that do not equip with A12 chip and higher.\n- ARKit function FaceTracking cannot be used on models that do not have a TrueDepth camera.\n- ARKit function BodyTracking cannot be used on models that do not equip with A12 chip and higher.\n- NFC Reader function cannot be used on models that do not have a NFC Chip.\n\nThis appn supports the following sensors and functions.\nNote that actual availability depends on the model and OS version.\n•NDI (image type : camera, depth, human)\n•ARKit (tracking type : device, face, marker, body)\n•Image detection(detection type : face, QR, rect, text)\n•NFC\n•Apple Pencil\n•battery\n•acceleration\n•gravity from accel\n•gyro\n•quaternion\n•compass\n•atmospheric pressure\n•GPS\n•touch coordinate\n•touch radius\n•touch pressure\n•beacon\n•proximity monitor\n•mic level(mic volume)\n•remote control(headset remote control)\n\n[Communication]\nIt supports the NDI protocol in NDI function.\nIt supports the local UDP and TCP(client)communication.\nIt also supports to save sensor data to local file.\n\n[Communication interval]\nYou can select from 1,10,30,60 FPS.\nNote that the interval might vary depending on the sending device, the receiving device and the communication environment.\n\n[Message type]\nIt supports OSC(used in the music industry) and JSON(used in the web industry).\n\n[ZIG SIM (free app)]\nhttps://apps.apple.com/jp/app/zig-sim/id1112909974"
+    },
+    "im:price": {
+      "label": "USD 3.99",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 1-10, Inc."
+    },
+    "title": {
+      "label": "ZIG SIM PRO - 1-10, INC."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/uy/app/zig-sim-pro/id1481556614?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f6/1f/14/f61f14dc-6ceb-40d4-8304-19d3b8ca703a/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/uy/app/zig-sim-pro/id1481556614?uo=2",
+      "attributes": {
+        "im:id": "1481556614",
+        "im:bundleId": "com.1-10.ZIG-SIM-PRO"
+      }
+    },
+    "im:artist": {
+      "label": "1-10, INC.",
+      "attributes": {
+        "href": "https://apps.apple.com/uy/developer/1-10-inc/id1447864635?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-10-28T00:00:00-07:00",
+      "attributes": {
+        "label": "October 28, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "uy",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 3,
+      "total": 100
+    },
+    "im:name": {
       "label": "Things 3"
     },
     "im:image": [
@@ -200,108 +302,6 @@
       "label": "2017-05-18T08:10:30-07:00",
       "attributes": {
         "label": "May 18, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "uy",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 3,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Secure Notes Professional"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/45/15/58/451558a0-a83f-7ae1-9b59-2df4280a37c0/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/45/15/58/451558a0-a83f-7ae1-9b59-2df4280a37c0/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/45/15/58/451558a0-a83f-7ae1-9b59-2df4280a37c0/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "With ‘Secure Notes’ you will no longer have problems managing and protecting your notes. \nBy typing one single code, you will be able to access all of your stored notes. \n\nSuper-secure because your notes are stored on your device and cannot be traced online. \n\nEasy, daily use because of its practical design. \nClear and comprehensible, whatever the situation. \n\nComprehensive because you can protect, copy, delete, export and change all of your stored notes."
-    },
-    "im:price": {
-      "label": "USD 0.99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Skylab Software"
-    },
-    "title": {
-      "label": "Secure Notes Professional - Emanuele Floris"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/uy/app/secure-notes-professional/id602769533?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/8f/7e/76/8f7e7623-efeb-243e-2269-0b67de0c6c07/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/uy/app/secure-notes-professional/id602769533?uo=2",
-      "attributes": {
-        "im:id": "602769533",
-        "im:bundleId": "com.domainname.VoicePad"
-      }
-    },
-    "im:artist": {
-      "label": "Emanuele Floris",
-      "attributes": {
-        "href": "https://apps.apple.com/uy/developer/emanuele-floris/id597490842?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-04-01T21:33:45-07:00",
-      "attributes": {
-        "label": "April 1, 2013"
       }
     }
   },
@@ -2864,108 +2864,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "HairTech-Head Sheets"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/d4/71/5bd471ef-e6eb-31bb-0c2a-f80fef0dc87c/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/d4/71/5bd471ef-e6eb-31bb-0c2a-f80fef0dc87c/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/d4/71/5bd471ef-e6eb-31bb-0c2a-f80fef0dc87c/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Hairtech Head Sheets - diagram drawing tool for hairdressers.  \nDraw haircutting diagrams when attending seminars and keep it on your iPhone or iPad.\nDraw down client's haircut and recreate it in exactly the same manner next time.\n\nPlease note: Users should be aware that the Hairtech - Head Sheets is not intended to be used to copy and post or publish previously copyrighted works owned by others."
-    },
-    "im:price": {
-      "label": "USD 5.99",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Oleksandr Prent"
-    },
-    "title": {
-      "label": "HairTech-Head Sheets - Oleksandr Prent"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/uy/app/hairtech-head-sheets/id625740630?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/79/c8/2e/79c82e2c-b858-b115-bfa8-c89cd03be29b/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/uy/app/hairtech-head-sheets/id625740630?uo=2",
-      "attributes": {
-        "im:id": "625740630",
-        "im:bundleId": "com.hair.hairtech"
-      }
-    },
-    "im:artist": {
-      "label": "Oleksandr Prent",
-      "attributes": {
-        "href": "https://apps.apple.com/uy/developer/oleksandr-prent/id625740633?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-04-05T06:21:44-07:00",
-      "attributes": {
-        "label": "April 5, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "uy",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 30,
-      "total": 100
-    },
-    "im:name": {
       "label": "Planimeter — Measure Land Area"
     },
     "im:image": [
@@ -3064,7 +2962,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 31,
+      "index": 30,
       "total": 100
     },
     "im:name": {
@@ -3166,7 +3064,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 32,
+      "index": 31,
       "total": 100
     },
     "im:name": {
@@ -3268,7 +3166,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 33,
+      "index": 32,
       "total": 100
     },
     "im:name": {
@@ -3370,39 +3268,39 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 34,
+      "index": 33,
       "total": 100
     },
     "im:name": {
-      "label": "Due - Reminders & Timers"
+      "label": "HairTech-Head Sheets"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/06/01/ff060166-bb10-141d-2506-068c96e1d456/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/d4/71/5bd471ef-e6eb-31bb-0c2a-f80fef0dc87c/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/06/01/ff060166-bb10-141d-2506-068c96e1d456/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/d4/71/5bd471ef-e6eb-31bb-0c2a-f80fef0dc87c/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/06/01/ff060166-bb10-141d-2506-068c96e1d456/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/d4/71/5bd471ef-e6eb-31bb-0c2a-f80fef0dc87c/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Due remembers all the things that you need so you don't have to.\n\nBecause it repeatedly reminds you of things until you act on them, it‘s impossible to forget anything.\n\nMost importantly, it's lightning-fast to set and postpone reminders, all thanks to a clever time picker and natural date parsing.\n\n\nKEY FEATURES\n\n1. Persistent & Effective\nAuto Snooze repeatedly* notifies you of missed reminders until marked done or rescheduled. Choose between intervals of every 1, 5, 10, 15, 30 and 60 minutes.\n\n2. Fast to Set, Fast to Postpone\nA time picker with 12 preset and fully customizable times lets you set due dates and postpone reminders in record time.\n\n3. Natural Date & Time Parsing\nDue can also parse dates and times that you typed or dictate and offer to set the due dates and times for you.\n\n4. Countdown Timers\nPrecise to the second, perfect for making the perfect soft-boiled eggs, brewing your coffee and more. Set them up once and reuse them forever\n\n5. Powerful Recurring Reminders\nFrom the simple daily and weekly reminders to the complex every-3rd-Wednesday-of-the-month kind of reminders\n\n6. Keep in Sync**\nUse iCloud or Dropbox to keep your reminders and timers in sync across your iPhone, iPad and Mac.\n\n7. Works Offline, Completely Private\nThere is no account to sign up for. We don't store, and we can't access your reminders and timers. And you don't need internet to receive reminders.\n\n8. Accessible to Everyone\nAutomatically adjusts text size according to your system setting, and offers full VoiceOver support. Due is also localized in 17 languages.\n\n\n* By default, auto snooze repeats 5 times, and can be configured to repeat up to 10 times. Due can auto snooze any overdue items indefinitely when you launch Due or act on any of its notifications.\n** Sync on Mac requires Due for Mac (sold separately)\n\n\nWHAT'S THAT IN-APP PURCHASE ABOUT?\n\nWhen you purchase Due today, you will have access to every feature in the app today—no further purchase required.\n\nYou will also get access to all new features released one year from your date of purchase.\n\nThe optional Due Upgrade Pass subscription allows you to continue getting access to all new features released one year *after* your date of purchase.\n\nAnd here's the deal: Every feature that you have unlocked will remain available to you, forever—even if you stop subscribing.\n\nEven without a subscription, you'll always receive bug-fix and compatibility updates for free. These updates add support for the latest iPhones, iPads and Apple Watches. They also help ensure that Due continues to function well on the latest versions of iOS, iPadOS and watchOS.\n\nDue has a pretty good track record with that.\n\nTo illustrate: If you've purchased Due back in 2010 for your iPhone 3G running iOS 4, that very same app in 2023 is now optimized for iPhone 15 Pro Max running iOS 17. It even works on devices that didn't exist back then, such as the iPad Pro and the Apple Watch.\n\nTERMS & PRIVACY POLICY\n\nOur terms of use and privacy policy is available here: https://www.dueapp.com/terms.html\n\n\nCOMPATIBILITY\n\nDue requires an iPhone, iPod touch or iPad running iOS 13 or later."
+      "label": "Hairtech Head Sheets - diagram drawing tool for hairdressers.  \nDraw haircutting diagrams when attending seminars and keep it on your iPhone or iPad.\nDraw down client's haircut and recreate it in exactly the same manner next time.\n\nPlease note: Users should be aware that the Hairtech - Head Sheets is not intended to be used to copy and post or publish previously copyrighted works owned by others."
     },
     "im:price": {
-      "label": "USD 7.99",
+      "label": "USD 5.99",
       "attributes": {
-        "amount": "7.99",
+        "amount": "5.99",
         "currency": "USD"
       }
     },
@@ -3413,17 +3311,17 @@
       }
     },
     "rights": {
-      "label": "© 2010–2024 Due Pte. Ltd."
+      "label": "© 2023 Oleksandr Prent"
     },
     "title": {
-      "label": "Due - Reminders & Timers - Due Apps LLP"
+      "label": "HairTech-Head Sheets - Oleksandr Prent"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/uy/app/due-reminders-timers/id390017969?uo=2"
+          "href": "https://apps.apple.com/uy/app/hairtech-head-sheets/id625740630?uo=2"
         }
       },
       {
@@ -3434,22 +3332,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/1b/35/13/1b351358-d787-f8e4-90c7-f15c837eb6f6/pr_source.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/79/c8/2e/79c82e2c-b858-b115-bfa8-c89cd03be29b/pr_source.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/uy/app/due-reminders-timers/id390017969?uo=2",
+      "label": "https://apps.apple.com/uy/app/hairtech-head-sheets/id625740630?uo=2",
       "attributes": {
-        "im:id": "390017969",
-        "im:bundleId": "com.phocusllp.due"
+        "im:id": "625740630",
+        "im:bundleId": "com.hair.hairtech"
       }
     },
     "im:artist": {
-      "label": "Due Apps LLP",
+      "label": "Oleksandr Prent",
       "attributes": {
-        "href": "https://apps.apple.com/uy/developer/due-apps-llp/id387681526?uo=2"
+        "href": "https://apps.apple.com/uy/developer/oleksandr-prent/id625740633?uo=2"
       }
     },
     "category": {
@@ -3461,9 +3359,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2010-09-14T18:58:23-07:00",
+      "label": "2013-04-05T06:21:44-07:00",
       "attributes": {
-        "label": "September 14, 2010"
+        "label": "April 5, 2013"
       }
     }
   },
@@ -3472,7 +3370,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 35,
+      "index": 34,
       "total": 100
     },
     "im:name": {
@@ -3574,7 +3472,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 36,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3668,6 +3566,108 @@
       "label": "2009-08-13T12:47:20-07:00",
       "attributes": {
         "label": "August 13, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "uy",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 36,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Due - Reminders & Timers"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/06/01/ff060166-bb10-141d-2506-068c96e1d456/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/06/01/ff060166-bb10-141d-2506-068c96e1d456/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ff/06/01/ff060166-bb10-141d-2506-068c96e1d456/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Due remembers all the things that you need so you don't have to.\n\nBecause it repeatedly reminds you of things until you act on them, it‘s impossible to forget anything.\n\nMost importantly, it's lightning-fast to set and postpone reminders, all thanks to a clever time picker and natural date parsing.\n\n\nKEY FEATURES\n\n1. Persistent & Effective\nAuto Snooze repeatedly* notifies you of missed reminders until marked done or rescheduled. Choose between intervals of every 1, 5, 10, 15, 30 and 60 minutes.\n\n2. Fast to Set, Fast to Postpone\nA time picker with 12 preset and fully customizable times lets you set due dates and postpone reminders in record time.\n\n3. Natural Date & Time Parsing\nDue can also parse dates and times that you typed or dictate and offer to set the due dates and times for you.\n\n4. Countdown Timers\nPrecise to the second, perfect for making the perfect soft-boiled eggs, brewing your coffee and more. Set them up once and reuse them forever\n\n5. Powerful Recurring Reminders\nFrom the simple daily and weekly reminders to the complex every-3rd-Wednesday-of-the-month kind of reminders\n\n6. Keep in Sync**\nUse iCloud or Dropbox to keep your reminders and timers in sync across your iPhone, iPad and Mac.\n\n7. Works Offline, Completely Private\nThere is no account to sign up for. We don't store, and we can't access your reminders and timers. And you don't need internet to receive reminders.\n\n8. Accessible to Everyone\nAutomatically adjusts text size according to your system setting, and offers full VoiceOver support. Due is also localized in 17 languages.\n\n\n* By default, auto snooze repeats 5 times, and can be configured to repeat up to 10 times. Due can auto snooze any overdue items indefinitely when you launch Due or act on any of its notifications.\n** Sync on Mac requires Due for Mac (sold separately)\n\n\nWHAT'S THAT IN-APP PURCHASE ABOUT?\n\nWhen you purchase Due today, you will have access to every feature in the app today—no further purchase required.\n\nYou will also get access to all new features released one year from your date of purchase.\n\nThe optional Due Upgrade Pass subscription allows you to continue getting access to all new features released one year *after* your date of purchase.\n\nAnd here's the deal: Every feature that you have unlocked will remain available to you, forever—even if you stop subscribing.\n\nEven without a subscription, you'll always receive bug-fix and compatibility updates for free. These updates add support for the latest iPhones, iPads and Apple Watches. They also help ensure that Due continues to function well on the latest versions of iOS, iPadOS and watchOS.\n\nDue has a pretty good track record with that.\n\nTo illustrate: If you've purchased Due back in 2010 for your iPhone 3G running iOS 4, that very same app in 2023 is now optimized for iPhone 15 Pro Max running iOS 17. It even works on devices that didn't exist back then, such as the iPad Pro and the Apple Watch.\n\nTERMS & PRIVACY POLICY\n\nOur terms of use and privacy policy is available here: https://www.dueapp.com/terms.html\n\n\nCOMPATIBILITY\n\nDue requires an iPhone, iPod touch or iPad running iOS 13 or later."
+    },
+    "im:price": {
+      "label": "USD 7.99",
+      "attributes": {
+        "amount": "7.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2010–2024 Due Pte. Ltd."
+    },
+    "title": {
+      "label": "Due - Reminders & Timers - Due Apps LLP"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/uy/app/due-reminders-timers/id390017969?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/1b/35/13/1b351358-d787-f8e4-90c7-f15c837eb6f6/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/uy/app/due-reminders-timers/id390017969?uo=2",
+      "attributes": {
+        "im:id": "390017969",
+        "im:bundleId": "com.phocusllp.due"
+      }
+    },
+    "im:artist": {
+      "label": "Due Apps LLP",
+      "attributes": {
+        "href": "https://apps.apple.com/uy/developer/due-apps-llp/id387681526?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-09-14T18:58:23-07:00",
+      "attributes": {
+        "label": "September 14, 2010"
       }
     }
   },
@@ -4398,19 +4398,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/aa/94/27/aa94276c-08a2-42e6-a9c0-41903201dcfc/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/d9/3b/d9d93b17-b672-fd52-854c-33f5d6bcbd6c/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/aa/94/27/aa94276c-08a2-42e6-a9c0-41903201dcfc/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/d9/3b/d9d93b17-b672-fd52-854c-33f5d6bcbd6c/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/aa/94/27/aa94276c-08a2-42e6-a9c0-41903201dcfc/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/d9/3b/d9d93b17-b672-fd52-854c-33f5d6bcbd6c/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -4904,35 +4904,35 @@
       "total": 100
     },
     "im:name": {
-      "label": "Dwight - Priority To Do Matrix"
+      "label": "Secure Notes Professional"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fb/54/6d/fb546dbd-94be-500d-95de-8e1f2c82764b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/45/15/58/451558a0-a83f-7ae1-9b59-2df4280a37c0/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fb/54/6d/fb546dbd-94be-500d-95de-8e1f2c82764b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/45/15/58/451558a0-a83f-7ae1-9b59-2df4280a37c0/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fb/54/6d/fb546dbd-94be-500d-95de-8e1f2c82764b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/45/15/58/451558a0-a83f-7ae1-9b59-2df4280a37c0/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Dwight - Priority Task Matrix is a task management solution based on the Eisenhower principle, helping you filter tasks by urgency and importance and concentrate on what matters to you.\n\nThis method requires group tasks and activities into four priorities based on urgency and importance and plan them ahead of time, before the next productive day.\n\nPriority matrix:\n- Important and urgent.\n- Important but not urgent.\n- Not important but urgent.\n- Not important and not urgent.\n\nIt is essential to understand the difference between important and urgent tasks. Urgent tasks demand an immediate and fast reaction and are usually associated with dealing with someone else's deadlines. Important tasks are achieving our long-term goals are often not urgent. To put us in the position to grow our business and careers, we should spend most of our time working on important and not urgent tasks and delegate all that is urgent but not important. To focus on growing yourself, delegate more if you can.\n\n\"What is important is seldom urgent, and what is urgent is seldom important.\" Dwight \"Ike\" Eisenhower, 34th President of the United States.\n\nKey Features:\n- Create a task and put each into one of the Priority Matrix categories\n- Create a list, add an icon, and improve your productivity\n- Sort created lists using the native drag and drop behaviour\n- Add a due date for each task\n- Use \"Due Date\" categories to check your schedule for today or tomorrow\n- Set a reminder and receive push notifications\n- Use the \"Dwight View\" and swipe fast between different categories\n- Switch between dark and light mode or use the system settings.\n- Change the priority matrix view\n- Use iCloud sync and manage your tasks on other devices\n- Plan a time to work on tasks with the \"Add to calendar\" feature\n- Upload images\n- Create tasks with Siri Shortcuts\n- Change priority with 3D Touch\n- Due date calendar\n- Atlassian cloud integration\n- 2-way communication for Confluence action points\n- Jira issues with advanced attachment management\n- Special lists, daily routine and shopping list"
+      "label": "With ‘Secure Notes’ you will no longer have problems managing and protecting your notes. \nBy typing one single code, you will be able to access all of your stored notes. \n\nSuper-secure because your notes are stored on your device and cannot be traced online. \n\nEasy, daily use because of its practical design. \nClear and comprehensible, whatever the situation. \n\nComprehensive because you can protect, copy, delete, export and change all of your stored notes."
     },
     "im:price": {
-      "label": "USD 3.99",
+      "label": "USD 0.99",
       "attributes": {
-        "amount": "3.99",
+        "amount": "0.99",
         "currency": "USD"
       }
     },
@@ -4943,17 +4943,17 @@
       }
     },
     "rights": {
-      "label": "© 2022 Evolutio d.o.o"
+      "label": "© Skylab Software"
     },
     "title": {
-      "label": "Dwight - Priority To Do Matrix - Evolutio d.o.o"
+      "label": "Secure Notes Professional - Emanuele Floris"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/uy/app/dwight-priority-to-do-matrix/id1547444827?uo=2"
+          "href": "https://apps.apple.com/uy/app/secure-notes-professional/id602769533?uo=2"
         }
       },
       {
@@ -4964,22 +4964,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/57/14/83/57148379-8b9f-e0df-2e74-0cee1f0295cd/tns.cploguvu.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/8f/7e/76/8f7e7623-efeb-243e-2269-0b67de0c6c07/pr_source.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/uy/app/dwight-priority-to-do-matrix/id1547444827?uo=2",
+      "label": "https://apps.apple.com/uy/app/secure-notes-professional/id602769533?uo=2",
       "attributes": {
-        "im:id": "1547444827",
-        "im:bundleId": "com.evolutio.dwightprioritymatrix"
+        "im:id": "602769533",
+        "im:bundleId": "com.domainname.VoicePad"
       }
     },
     "im:artist": {
-      "label": "Evolutio d.o.o",
+      "label": "Emanuele Floris",
       "attributes": {
-        "href": "https://apps.apple.com/uy/developer/evolutio-d-o-o/id1547444829?uo=2"
+        "href": "https://apps.apple.com/uy/developer/emanuele-floris/id597490842?uo=2"
       }
     },
     "category": {
@@ -4991,9 +4991,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2021-01-14T00:00:00-07:00",
+      "label": "2013-04-01T21:33:45-07:00",
       "attributes": {
-        "label": "January 14, 2021"
+        "label": "April 1, 2013"
       }
     }
   },
@@ -5822,6 +5822,108 @@
       "total": 100
     },
     "im:name": {
+      "label": "Dwight - Priority To Do Matrix"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fb/54/6d/fb546dbd-94be-500d-95de-8e1f2c82764b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fb/54/6d/fb546dbd-94be-500d-95de-8e1f2c82764b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fb/54/6d/fb546dbd-94be-500d-95de-8e1f2c82764b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Dwight - Priority Task Matrix is a task management solution based on the Eisenhower principle, helping you filter tasks by urgency and importance and concentrate on what matters to you.\n\nThis method requires group tasks and activities into four priorities based on urgency and importance and plan them ahead of time, before the next productive day.\n\nPriority matrix:\n- Important and urgent.\n- Important but not urgent.\n- Not important but urgent.\n- Not important and not urgent.\n\nIt is essential to understand the difference between important and urgent tasks. Urgent tasks demand an immediate and fast reaction and are usually associated with dealing with someone else's deadlines. Important tasks are achieving our long-term goals are often not urgent. To put us in the position to grow our business and careers, we should spend most of our time working on important and not urgent tasks and delegate all that is urgent but not important. To focus on growing yourself, delegate more if you can.\n\n\"What is important is seldom urgent, and what is urgent is seldom important.\" Dwight \"Ike\" Eisenhower, 34th President of the United States.\n\nKey Features:\n- Create a task and put each into one of the Priority Matrix categories\n- Create a list, add an icon, and improve your productivity\n- Sort created lists using the native drag and drop behaviour\n- Add a due date for each task\n- Use \"Due Date\" categories to check your schedule for today or tomorrow\n- Set a reminder and receive push notifications\n- Use the \"Dwight View\" and swipe fast between different categories\n- Switch between dark and light mode or use the system settings.\n- Change the priority matrix view\n- Use iCloud sync and manage your tasks on other devices\n- Plan a time to work on tasks with the \"Add to calendar\" feature\n- Upload images\n- Create tasks with Siri Shortcuts\n- Change priority with 3D Touch\n- Due date calendar\n- Atlassian cloud integration\n- 2-way communication for Confluence action points\n- Jira issues with advanced attachment management\n- Special lists, daily routine and shopping list"
+    },
+    "im:price": {
+      "label": "USD 3.99",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Evolutio d.o.o"
+    },
+    "title": {
+      "label": "Dwight - Priority To Do Matrix - Evolutio d.o.o"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/uy/app/dwight-priority-to-do-matrix/id1547444827?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/57/14/83/57148379-8b9f-e0df-2e74-0cee1f0295cd/tns.cploguvu.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/uy/app/dwight-priority-to-do-matrix/id1547444827?uo=2",
+      "attributes": {
+        "im:id": "1547444827",
+        "im:bundleId": "com.evolutio.dwightprioritymatrix"
+      }
+    },
+    "im:artist": {
+      "label": "Evolutio d.o.o",
+      "attributes": {
+        "href": "https://apps.apple.com/uy/developer/evolutio-d-o-o/id1547444829?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-14T00:00:00-07:00",
+      "attributes": {
+        "label": "January 14, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "uy",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 59,
+      "total": 100
+    },
+    "im:name": {
       "label": "FlashAir Image Share"
     },
     "im:image": [
@@ -5920,7 +6022,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 59,
+      "index": 60,
       "total": 100
     },
     "im:name": {
@@ -6022,7 +6124,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 60,
+      "index": 61,
       "total": 100
     },
     "im:name": {
@@ -6124,7 +6226,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 61,
+      "index": 62,
       "total": 100
     },
     "im:name": {
@@ -6226,7 +6328,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 62,
+      "index": 63,
       "total": 100
     },
     "im:name": {
@@ -6328,7 +6430,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 63,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6430,7 +6532,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 64,
+      "index": 65,
       "total": 100
     },
     "im:name": {
@@ -6532,7 +6634,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 65,
+      "index": 66,
       "total": 100
     },
     "im:name": {
@@ -6634,7 +6736,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 66,
+      "index": 67,
       "total": 100
     },
     "im:name": {
@@ -6736,7 +6838,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 67,
+      "index": 68,
       "total": 100
     },
     "im:name": {
@@ -6838,7 +6940,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 68,
+      "index": 69,
       "total": 100
     },
     "im:name": {
@@ -6940,7 +7042,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 69,
+      "index": 70,
       "total": 100
     },
     "im:name": {
@@ -7042,7 +7144,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 70,
+      "index": 71,
       "total": 100
     },
     "im:name": {
@@ -7144,7 +7246,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 71,
+      "index": 72,
       "total": 100
     },
     "im:name": {
@@ -7246,7 +7348,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 72,
+      "index": 73,
       "total": 100
     },
     "im:name": {
@@ -7348,7 +7450,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 73,
+      "index": 74,
       "total": 100
     },
     "im:name": {
@@ -7450,7 +7552,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 74,
+      "index": 75,
       "total": 100
     },
     "im:name": {
@@ -7552,7 +7654,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 75,
+      "index": 76,
       "total": 100
     },
     "im:name": {
@@ -7654,7 +7756,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 76,
+      "index": 77,
       "total": 100
     },
     "im:name": {
@@ -7756,7 +7858,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 77,
+      "index": 78,
       "total": 100
     },
     "im:name": {
@@ -7858,7 +7960,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 78,
+      "index": 79,
       "total": 100
     },
     "im:name": {
@@ -7960,7 +8062,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 79,
+      "index": 80,
       "total": 100
     },
     "im:name": {
@@ -8062,7 +8164,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 80,
+      "index": 81,
       "total": 100
     },
     "im:name": {
@@ -8164,7 +8266,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 81,
+      "index": 82,
       "total": 100
     },
     "im:name": {
@@ -8266,7 +8368,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 82,
+      "index": 83,
       "total": 100
     },
     "im:name": {
@@ -8368,7 +8470,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 83,
+      "index": 84,
       "total": 100
     },
     "im:name": {
@@ -8470,7 +8572,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 84,
+      "index": 85,
       "total": 100
     },
     "im:name": {
@@ -8572,7 +8674,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 85,
+      "index": 86,
       "total": 100
     },
     "im:name": {
@@ -8674,7 +8776,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 86,
+      "index": 87,
       "total": 100
     },
     "im:name": {
@@ -8776,7 +8878,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 87,
+      "index": 88,
       "total": 100
     },
     "im:name": {
@@ -8878,7 +8980,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 88,
+      "index": 89,
       "total": 100
     },
     "im:name": {
@@ -8980,7 +9082,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 89,
+      "index": 90,
       "total": 100
     },
     "im:name": {
@@ -9082,7 +9184,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 90,
+      "index": 91,
       "total": 100
     },
     "im:name": {
@@ -9184,7 +9286,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 91,
+      "index": 92,
       "total": 100
     },
     "im:name": {
@@ -9286,7 +9388,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 92,
+      "index": 93,
       "total": 100
     },
     "im:name": {
@@ -9388,7 +9490,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 93,
+      "index": 94,
       "total": 100
     },
     "im:name": {
@@ -9490,7 +9592,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 94,
+      "index": 95,
       "total": 100
     },
     "im:name": {
@@ -9592,7 +9694,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 95,
+      "index": 96,
       "total": 100
     },
     "im:name": {
@@ -9694,7 +9796,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 96,
+      "index": 97,
       "total": 100
     },
     "im:name": {
@@ -9796,7 +9898,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 97,
+      "index": 98,
       "total": 100
     },
     "im:name": {
@@ -9898,7 +10000,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 98,
+      "index": 99,
       "total": 100
     },
     "im:name": {
@@ -10000,7 +10102,7 @@
       "country_code": "uy",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 99,
+      "index": 100,
       "total": 100
     },
     "im:name": {
@@ -10094,108 +10196,6 @@
       "label": "2015-10-12T20:25:22-07:00",
       "attributes": {
         "label": "October 12, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "uy",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 100,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Photo Measure wall dimensions"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/c7/91/2c/c7912c6c-acb0-bdab-016e-66ae8f05a1c7/AppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/c7/91/2c/c7912c6c-acb0-bdab-016e-66ae8f05a1c7/AppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/c7/91/2c/c7912c6c-acb0-bdab-016e-66ae8f05a1c7/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "◉ Professional Perspective Correction of your photos to accurate scale.  Now you can take measurements directly from photos of interiors, buildings, furniture and more.\n◉ Drag out accurate dimensions on your photos, and do it to correct scale.\n◉ Watch video's of the full process at the \"developer website\" link below.\n\n◉ You can now update to the A.I. version of this app too.  (see \"Developer apps\" link below look for the similar app, and watch the video of the A.I. version)\n\n◉ Place a rectangular object in your view before taking the photo, like a clipboard or piece of paper, or measure one door or window or other rectangular object on each surface that needs to be measured, that becomes the photo's reference marker for all other dimensions on that surface.  Watch as the app creates perfectly rectangular images of your walls and surfaces to accurate scale. Now you can measure directly on the perspective corrected photo, even do it all back at home or your office.\n\n◉ Pinch and zoom into your photo to nearly the pixel level of the photo for complete accuracy. You have full control of your project properties, and dimension properties.\n\n◉ Change to metric or to Imperial dimensions.\nset up a snap grid,  and/or a visual grid, also you can round your dimensions accurately.\n\n◉ Constrain the angle of your dimensions,  change the color, and text background of your dimensions.\n\n◉ Use Direct arrow dimensions, or professional Architectural offset dimensions.\n\n◉ Save your finished photo to your Camera Roll,  and share to your photo stream, even email your new drawing.  Also AirPrint to your printers with correct scale and take a scale/ruler and measure even more objects in the photo.\n\nIndustry Standard scales and dimensions for real estate agents, engineers, architects, contractors and DIY projects."
-    },
-    "im:price": {
-      "label": "USD 4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© PictureEngineCompany, Inc. All rights reserved."
-    },
-    "title": {
-      "label": "Photo Measure wall dimensions - Picture Engine Company, Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/uy/app/photo-measure-wall-dimensions/id904800747?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/49/c0/33/49c0333e-c5e6-ad25-489b-06b159df2ff7/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/uy/app/photo-measure-wall-dimensions/id904800747?uo=2",
-      "attributes": {
-        "im:id": "904800747",
-        "im:bundleId": "com.PictureEngineCompany.MeasurePhoto"
-      }
-    },
-    "im:artist": {
-      "label": "Picture Engine Company, Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/uy/developer/picture-engine-company-inc/id364295096?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/uy/genre/ios-productivity/id6007?uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-11-05T09:02:37-07:00",
-      "attributes": {
-        "label": "November 5, 2014"
       }
     }
   }

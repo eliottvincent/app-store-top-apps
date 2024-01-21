@@ -110,6 +110,516 @@
       "total": 98
     },
     "im:name": {
+      "label": "VAG Virtual Cockpit ELM327 OBD"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The VAG Virtual Cockpit shows important diagnostic parameters of your car. You only need an ELM327 adapter.\n\nVersion 3.3 shows the next parameters.\n\nVirtual Cockpit\n1) Opened doors\n2) Speed\n3) RPM\n4) Oil temperature\n5) Coolant temperature\n6) Fuel in the tank in litres\n7) Range in kilometers\n8) Average consumption\n9) Time in the machine\n10) Odometer\n11) Outside temperature\n12) Voltage\n\nEngine control unit\n1) RPM\n2) Mass Air Flow Sensor (G70)\n3) Intake Air Temperature (G42)\n4) Exhaust Temperature Projection\n5) Oil Warning Threshold\n6) Oil Level\n7) Boost Specified\n8) Boost Actual\n9) Misfire Counter\n10) Ignition Angle Delay\n11) Oil temperature\n12) Valve N75\n\nTransmission control unit\n1) ATF Temperature (G93) - AISIN\n2) Temperature Transmission Fluid (G93) - DSG6\n3) Temperature Control Module (G510) - DSG6\n4) Temperature Clutch Oil (G509) - DSG6\n5) Temperature Control Device (G510) - DSG7\n6) Temperature Microprocessor - DSG7\n7) Clutch Temperature - DSG7\n\nBattery control unit\n1) Battery voltage\n2) Battery current\n3) Battery temperature\n4) Battery state\n6) Battery aging\n7) Internal battery resistance\n8) Alternator current\n9) Alternator power\n\nAWD unit\n\nHaldex 3/4\n1) Oil temperature\n2) Oil pressure\n3) Torque\n4) Pump current\n5) Supply voltage (Terminal 30)\n\nHaldex 5\n1) Oil temperature\n2) Pump current\n3) Supply voltage (Terminal 30)\n4) Pump voltage\n5) PWM signal of pump\n6) Temperature of the control unit\n7) Temperature of friction discs\n\nLong hold of the TRIP switch changes the view style of the parameters.\n\nSupported next ELM327 adapters:\n- Viecar BLE 4.0\n- Konnwei BLE 4.0\n- Vgate vLinker MC+\n- OBDLink MX+\n\nThe application has been tested with Skoda Octavia A5 2011 release. \nPartially or fully supported by other auto brands of the VAG group:\nVolkswagen\nSkoda\nSeat\nAudi\nPorsche\n\nIf the parameters are not displayed correctly or not completely, please contact with me by Email: vagvirtualcockpit@ya.ru."
+    },
+    "im:price": {
+      "label": "HUF999.00",
+      "attributes": {
+        "amount": "999",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Yurkin Vitaliy"
+    },
+    "title": {
+      "label": "VAG Virtual Cockpit ELM327 OBD - Vitaliy Yorkin"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/vag-virtual-cockpit-elm327-obd/id1468103297?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/65/8d/a3/658da341-ad7b-a429-ee52-63b9609b47cb/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/vag-virtual-cockpit-elm327-obd/id1468103297?uo=2",
+      "attributes": {
+        "im:id": "1468103297",
+        "im:bundleId": "VS.VagVirtualCockpit"
+      }
+    },
+    "im:artist": {
+      "label": "Vitaliy Yorkin",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/vitaliy-yorkin/id866761663?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-06-22T12:43:34-07:00",
+      "attributes": {
+        "label": "June 22, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 3,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Spirit Talker ®"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/28/e3/e4/28e3e4f3-b98f-1a20-2865-93990b2b801e/AppIcon-1x_U007emarketing-0-3-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/28/e3/e4/28e3e4f3-b98f-1a20-2865-93990b2b801e/AppIcon-1x_U007emarketing-0-3-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/28/e3/e4/28e3e4f3-b98f-1a20-2865-93990b2b801e/AppIcon-1x_U007emarketing-0-3-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Spirit Talker ® works in a similar way to the world famous Ovilus device, but it is based on my own research and theories.\n\nIt produces words and speech based on what the sensors in your phone are detecting.\n\nThe theory behind this app is that spirits might be able to manipulate the device to say and show relevant words and responses to questions being asked during a paranormal investigation. \n\nSpirit Talker ® is a modern form of ITC (Instrumental Trans Communication) and is very simple to use.\n\nJust click green ON button and begin asking your questions. When a response is detected by the app the words will show visually in the text box along with audible speech.\n\nWhen you have finished your session just click stop. You can also look back at the responses you received during your session by clicking on the folder button (this only works when the scanner is \"Stopped\").\n\nThe EMF Meter only works if your device has a Magnetometer Sensor. If not then the EMF Meter won't be displayed.\nPlease check the compatibility of your phone / tablet.\n\nThe sensors that the app uses are:\n\nMagnetometer (EMF)\nAccelerometer\nGyroscope\nOrientation\nBarometer\nCompass\n\nThis app works by reading the values from the sensors in your device, these values are constantly changing depending on the environment, so sometimes the app may produce what seem like random words.\n\nLanguages in the app are:\n\nEnglish, Latin, French, German, Chinese (Text or Symbols), Danish, Portuguese, Romanian, Turkish, Croatian, Polish, Finnish, Swedish, Hungarian, Greek, Czech, Dutch, Italian, Spanish Korean and Icelandic.\n\n** App Voice **\n\nThe voice uses the \"Spoken Content\" voice on your device, “Settings” -> “Accessibility” -> “Spoken Content”\n\n** Disclaimer **\nUse at your own risk. We cannot be held personally responsible for you or any outcome (paranormal or otherwise) from using this app!\n\nThe paranormal is not a proven science and is considered theoretical. Accordingly, words or phrases generated are not intended as requests or instructions, and should not be used to make legal, financial, medical or other decisions. Words/phrases generated do not represent the official position of the developer.\n\nRefer to our website for a full list of terms and conditions http://www.spirittalkerapp.com/"
+    },
+    "im:price": {
+      "label": "HUF1,790.00",
+      "attributes": {
+        "amount": "1790",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Spotted: Ghosts"
+    },
+    "title": {
+      "label": "Spirit Talker ® - Neil Davies"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/spirit-talker/id1536762482?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/dc/09/a5/dc09a5bf-d956-b3a3-09b1-35502dca72b1/1ef4821c-1e74-4a0c-9f39-b17d26bd8db9_IMG_0034.PNG/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/spirit-talker/id1536762482?uo=2",
+      "attributes": {
+        "im:id": "1536762482",
+        "im:bundleId": "com.spottedghosts.SpiritTalker"
+      }
+    },
+    "im:artist": {
+      "label": "Neil Davies",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/neil-davies/id1439178125?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 4,
+      "total": 98
+    },
+    "im:name": {
+      "label": "ZOONZOON - Gamepad Vibration"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/3b/10/d33b106a-3355-3bf8-5da0-24da21c64b8f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/3b/10/d33b106a-3355-3bf8-5da0-24da21c64b8f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/3b/10/d33b106a-3355-3bf8-5da0-24da21c64b8f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Just relax and turn on the app. Test the vibration as much as you want. Connect the gamepad from your console and enjoy."
+    },
+    "im:price": {
+      "label": "HUF999.00",
+      "attributes": {
+        "amount": "999",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© SISHOR, OOO"
+    },
+    "title": {
+      "label": "ZOONZOON - Gamepad Vibration - SeaShore"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/zoonzoon-gamepad-vibration/id1595186051?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/22/4f/81/224f8175-dc50-ddfa-a4ae-af6173d3e2cb/682e6e38-af51-4c78-8940-8a17009699fd_333_0000_111.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/zoonzoon-gamepad-vibration/id1595186051?uo=2",
+      "attributes": {
+        "im:id": "1595186051",
+        "im:bundleId": "com.ZoonZoon"
+      }
+    },
+    "im:artist": {
+      "label": "SeaShore",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/seashore/id1546398810?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-11-18T00:00:00-07:00",
+      "attributes": {
+        "label": "November 18, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 5,
+      "total": 98
+    },
+    "im:name": {
+      "label": "OBD-2 Cadillac"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/de/13/08/de130832-cd06-f3d4-46c2-4453ba649d69/pr_source.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/de/13/08/de130832-cd06-f3d4-46c2-4453ba649d69/pr_source.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/de/13/08/de130832-cd06-f3d4-46c2-4453ba649d69/pr_source.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "8000+ OBD-2 Diagnostic Trouble Codes special for Cadillac:\n • Detailed diagnostics trouble code information\n • Title, \"Possible causes\", \"When is the code detected?\", \"Possible Symptoms\" and \"Description\"\n • Personal favorites list\n • Clipboard and text sharing\n\n300+ Dashboard Warning Lights, Indicators & Car Symbols:\n • Red, yellow, green, white, blue warning lights and symbols\n • Search by indicators and symbols\n • Personal favorites list\n • Name and complete description for each indicator\n • Large, colored icons\n\nMost Complete OBD-2 Information:\n • OBD-2 connector\n • OBD-2 diagnostic connector\n • OBD-2 interface and Pin layout\n • Diagnostic connector location\n • OBD-2 fault codes explained\n • Security issues\n • Useful links\n\n1200+ Car Abbreviation and Definitions:\n • Search by abbreviation and definition\n • Personal favorites list\n\nOther Features:\n • Supports 3D Touch Icon App for fast code search, abbrs and indicators\n • Find a Cadillac Dealer close to you\n • Email Support and Social groups\n • 5 Colorful Themes for the App\n • 40 Quality Stickers for iMessage\n\nSupported Models:\n● Cadillac Aera\n● Cadillac Allante\n● Cadillac ATS\n● Cadillac ATS-V\n● Cadillac Aurora\n● Cadillac BLS\n● Cadillac Brougham\n● Cadillac Caribbean\n● Cadillac Castilian\n● Cadillac Catera\n● Cadillac Celebrity\n● Cadillac Ciel\n● Cadillac Cien\n● Cadillac Cimarron\n● Cadillac Converj\n● Cadillac CT6\n● Cadillac CTS\n● Cadillac CTS Coupe\n● Cadillac CTS-V\n● Cadillac Cyclone\n● Cadillac De Ville\n● Cadillac Debutante\n● Cadillac Director\n● Cadillac El Camino\n● Cadillac Eldorado\n● Cadillac Elmiraj\n● Cadillac Escalade\n● Cadillac Evoq\n● Cadillac Fleetwood\n● Cadillac Florentine\n● Cadillac Imaj\n● Cadillac Le Mans\n● Cadillac NART\n● Cadillac Provoq\n● Cadillac Seville\n● Cadillac Sixteen\n● Cadillac Skylight\n● Cadillac Solitaire\n● Cadillac SRX\n● Cadillac ST6\n● Cadillac Starlight\n● Cadillac STS\n● Cadillac Vizon\n● Cadillac Voyage\n● Cadillac XLR\n● Cadillac XP-715\n● Cadillac XP-840\n● Cadillac XT5\n● Cadillac XTS Platinum\nand other models\n\n--\n► 50% OFF SALE ► BUY NOW ►"
+    },
+    "im:price": {
+      "label": "HUF1,990.00",
+      "attributes": {
+        "amount": "1990",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2017 AutoApps"
+    },
+    "title": {
+      "label": "OBD-2 Cadillac - Rauza Tleuova"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/obd-2-cadillac/id1233376628?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/19/93/bb/1993bbb4-b8a2-09fc-f741-92c9f431fa29/pr_source.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/obd-2-cadillac/id1233376628?uo=2",
+      "attributes": {
+        "im:id": "1233376628",
+        "im:bundleId": "rauza.auto.apps.codes.Cadillac"
+      }
+    },
+    "im:artist": {
+      "label": "Rauza Tleuova",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/rauza-tleuova/id1233372736?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-08-24T16:09:43-07:00",
+      "attributes": {
+        "label": "August 24, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 6,
+      "total": 98
+    },
+    "im:name": {
+      "label": "The Global Key - Trip Planner"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ce/11/48/ce11486a-f344-ada7-9579-0548000262fc/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ce/11/48/ce11486a-f344-ada7-9579-0548000262fc/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ce/11/48/ce11486a-f344-ada7-9579-0548000262fc/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The Global Key is the ultimate trip planner & curator of experiences for dreamers and travelers who want to take a city by storm and experience the best it has to offer. We are a global lifestyle and luxury travel guide designed to give you information about and access to exceptional restaurants, bars, clubs, hotels, luxury retreats and more, in cities all around the world. \n \nHold the keys to the ultimate luxury travel destinations in the palm of your hand and be the first to discover the best travel destinations via our city guide. Read about the best a city has to offer from our own personal experiences and contact us to receive your personal itinerary, tailored just for you. The Global Key members can vouch for every restaurant, hotel, nightlife bar or spa listed on our travel guide. We guarantee the highest quality and standards that ensure you get a fulfilling experience whenever you visit a city.  \n \nThe Global Key invites you to access exclusive, exciting travel destinations and experiences all around the world using our vacation planner. The list of luxury retreats, nightlife bars and cafes’, spas and restaurants is up to date and inclusive of the best places a city has to offer. \n \nUnlock the keys to the world through our:\n \nTRAVEL ITINERARY - If you’re planning to visit a city, what better way of creating your personalised travel itinerary than by letting us do the job for you? Simply contact us and give us all your details and we will plan and schedule your entire trip for you. We promise to curate a lucrative itinerary that would not only take you to every dream destination but would also be absolutely perfect and suited to your interests. \n \nDESTINATION TRAVEL GUIDES - Finding a list of prime hotels, restaurants, nightlife bars and spas has never been easier. We have personally visited each place featured on our travel planner and have curated a city wise list. Our verified spots and locations meet the highest standards in terms of quality to ensure that you are content at the end of your stay. \n\n\nWe want you to explore each city through our detailed city guide curated with the most up to date information about the best places to stay and visit. These tour guides are a collection of honest reviews and suggestions with details like the best time and day to visit, what to order, what to wear etc along with the basic contact details. We have also taken out time to put together beautiful photos of each place so that you can get a teaser of the new hotels, bars and popular venues in these cities on our vacation planner itself. We are a curator of experiences and we leave no stone unturned to make it worth your while.\n \nMAKE VIP BOOKINGS - If you’re a part of The Global Key family, getting into the finest clubs and bars is a piece of cake. To be able to get in without any hassle, just drop in an email and we will ensure that you not only have a VIP booking under your name but also have the most exclusive, special and unique experience. \n \nDownload The Global Key today, revolutionise the way you travel and unlock your boundaries with new, exceptional travel experiences. Once you’ve traveled with The Global Key, you’ll never want to travel any other way! \n \nTry for free or subscribe at $2.99/month or $49.99/year. \n \nSubscriptions auto-renew monthly.Payment charged to iTunes Account at confirmation of purchase, automatically renews unless auto-renew is turned off at least 24 hrs prior to end of current period. Account will be charged for renewal 24 hrs prior to end of current period, & identify the cost of renewal. Subscriptions & auto-renewal may be turned off by going to Account Settings after purchase. No cancellation of the current subscription is allowed while subscription is active. Any unused portion of a free trial period, if offered, forfeited when the user purchases a subscription.\n \nTerms of Use:\nhttps://app.termly.io/document/terms-and-conditions/362c8459-0572-4694-b137-f0ddad9c880d"
+    },
+    "im:price": {
+      "label": "HUF3,490.00",
+      "attributes": {
+        "amount": "3490",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "2020 © The Global Key LLC"
+    },
+    "title": {
+      "label": "The Global Key - Trip Planner - The Global Key LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/the-global-key-trip-planner/id1414242068?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/90/54/c9905495-a69c-8f06-8f28-4e3d8741a52a/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/the-global-key-trip-planner/id1414242068?uo=2",
+      "attributes": {
+        "im:id": "1414242068",
+        "im:bundleId": "com.theglobalkey.theglobalkey"
+      }
+    },
+    "im:artist": {
+      "label": "The Global Key LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/the-global-key-llc/id1441131813?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-09-06T00:35:22-07:00",
+      "attributes": {
+        "label": "September 6, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 7,
+      "total": 98
+    },
+    "im:name": {
       "label": "Board Game Stats"
     },
     "im:image": [
@@ -208,7 +718,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 3,
+      "index": 8,
       "total": 98
     },
     "im:name": {
@@ -310,7 +820,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 4,
+      "index": 9,
       "total": 98
     },
     "im:name": {
@@ -412,7 +922,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 5,
+      "index": 10,
       "total": 98
     },
     "im:name": {
@@ -514,313 +1024,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 6,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Big Day - Event Countdown"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/08/90/cb/0890cb94-ae7f-b66b-c3e1-62ee406eaa9f/AppIcon-0-1x_U007emarketing-0-2-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/08/90/cb/0890cb94-ae7f-b66b-c3e1-62ee406eaa9f/AppIcon-0-1x_U007emarketing-0-2-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/08/90/cb/0890cb94-ae7f-b66b-c3e1-62ee406eaa9f/AppIcon-0-1x_U007emarketing-0-2-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Are you looking for widgets to track your events? Here is the widget app to help you see your events on your Home Screen at a glance. \n \nAre you bored with the other countdown or day tracking apps which have only text, small images? We have a totally different and unique app with full graphics and animation effects. \n \nOr are you tired of too complicated user interfaces with other apps? We have an easy-to-use app focusing on the basics.\n \nBig Day is a day tracking app and widget which tells you the remaining days until or starts counting the days after the event with your own photos. It is the simplest and the most beautiful way to track your big days.\n \nWhen to use Big Day :\n- Your wedding day, valentine's day, the first date, birthday, anniversary, the birth of your children and baby, holiday, meeting, trip, party, vacation, discharge, exam, days of quitting smoking, graduation, halloween, new year, thanksgiving and all of the other very important days of your life. \n \nFeatures:\n- Widgets on your home screen.\n- No annoying ads banner.\n- Select your own pictures for the background.\n- Share your big day on Facebook, Instagram, Twitter or other social apps.\n- Set notification date and time to get an alarm.\n- Change color by double-tapping the counter frame.\n- Multiple dates and events up to 30.\n- Reorder dates and events.\n- View all events in a list.\n \nContacts/Downloads :\nTo contact us or download some sample photos on the screenshot, Please visit at http://bigdayapp.com/"
-    },
-    "im:price": {
-      "label": "HUF499.00",
-      "attributes": {
-        "amount": "499",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2008-2021 bigdayapp.com"
-    },
-    "title": {
-      "label": "Big Day - Event Countdown - whatisid"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/big-day-event-countdown/id295759189?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/86/63/30/866330a0-1d34-e936-03cb-981a81ccfc4f/94ecc28b-d388-42fe-b8a5-a8793bab738f_5.5_01_1.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/big-day-event-countdown/id295759189?uo=2",
-      "attributes": {
-        "im:id": "295759189",
-        "im:bundleId": "com.whatisid.bigday"
-      }
-    },
-    "im:artist": {
-      "label": "whatisid",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/whatisid/id295759192?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2008-12-04T00:00:00-07:00",
-      "attributes": {
-        "label": "December 4, 2008"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 7,
-      "total": 98
-    },
-    "im:name": {
-      "label": "What's My Mutt?"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/33/2c/f6/332cf62f-7d16-97a2-b4a6-c6d34cb1dd90/mzl.qkgjdvjv.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/33/2c/f6/332cf62f-7d16-97a2-b4a6-c6d34cb1dd90/mzl.qkgjdvjv.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/33/2c/f6/332cf62f-7d16-97a2-b4a6-c6d34cb1dd90/mzl.qkgjdvjv.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Have you always wondered what breeds make up your Mutt? It is time to solve the mystery.  \n\n• Choose seven dominant features of your adult mixed breed dog and you will discover the top three predominant breeds that make up your Mutt based on their dominant features.  With over sixty-five of the most common breeds represented, you will get excellent and accurate results.\n   \n• Everyone loves to share photos of their dog. “What’s My Mutt?” makes this easy. Once you find out what breeds make up your Mutt, share a photo and the results on Twitter and Facebook. Use the hashtag #whatsmymutt\n\n• With our new Profile Tracker, save your name and email in the app. We want to stay in touch! \n\n• Share a photo and your results of your Mutt with us at woof@whatsmymuttapp.com, and your Mutt may be featured on the \"What's My Mutt?\" Facebook, Instagram and Twitter page!\n\nThank you for downloading \"What's My Mutt?\"! A portion of all download proceeds is donated to dog rescue groups. Additional information can be found at whatsmymuttapp.com"
-    },
-    "im:price": {
-      "label": "HUF499.00",
-      "attributes": {
-        "amount": "499",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "©2015 Indy Dog, LLC"
-    },
-    "title": {
-      "label": "What's My Mutt? - Indy Dog LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/whats-my-mutt/id1035161188?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/2d/03/b1/2d03b1d0-f111-6ba4-2c07-bd50b97282e8/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/whats-my-mutt/id1035161188?uo=2",
-      "attributes": {
-        "im:id": "1035161188",
-        "im:bundleId": "com.indydogllc.whatsmymutt"
-      }
-    },
-    "im:artist": {
-      "label": "Indy Dog LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/indy-dog-llc/id1035161187?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-02-17T13:15:55-07:00",
-      "attributes": {
-        "label": "February 17, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 8,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Wallpapers 8K"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/c2/c9/07c2c922-d52b-951b-50d6-5bf0a92a6c18/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/c2/c9/07c2c922-d52b-951b-50d6-5bf0a92a6c18/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/c2/c9/07c2c922-d52b-951b-50d6-5bf0a92a6c18/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Are you tired of being bombarded by ads just so you can download a wallpaper? \r\nAre you tired of endlessly scrolling a wallpaper app just to find 1 kind of alright wallpaper? \r\nAre you tired of abusive pricing? \n\n\r\n\r\nIf you answered yes to any of these questions then this wallpaper app is for you! \r\n\r\nWallpapers 8K has over 200 Beautiful Wallpapers to take your homescreen and lockscreen to the next level! \r\n\r\nTap to save your wallpaper to your Camera Roll and you are off to the races! \n\n\r\n\r\n\r\nSimple App Usage Instructions: \r\n1. Tap on any Wallpaper you like\r\n2. Your phone will ask you to allow access to save your wallpaper to Camera Roll ( First time only )\r\n3. Now that it is saved, go to your Photos \r\n4. Go to wallpaper, Hit Share Icon\r\n5. Scroll Down to Set As Wallpaper\r\n6. Follow The On Screen Instructions, DONE! \r\n\r\n\r\nNote: You can set the wallpaper to Lock Screen or to Home Screen or Both! \r\n\r\n\r\n\nAnd that's it! The app also has a dice button where it will randomly pick a wallpaper for you and download it to your Camera Roll! \r\n\r\nI hope that you will enjoy these wallpapers as much as I am! \r\n  \r\n\r\nHave a great day!"
-    },
-    "im:price": {
-      "label": "HUF999.00",
-      "attributes": {
-        "amount": "999",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Nosakhare Ogbebor"
-    },
-    "title": {
-      "label": "Wallpapers 8K - Nosakhare Ogbebor"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/wallpapers-8k/id1633891383?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/22/df/e8/22dfe8bc-59ad-f05c-a5c1-7c953ea7fcab/09249b38-dbc7-4078-b4c0-971a8d94705d_screen1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/wallpapers-8k/id1633891383?uo=2",
-      "attributes": {
-        "im:id": "1633891383",
-        "im:bundleId": "com.bloodhound.Wallpapers-8K"
-      }
-    },
-    "im:artist": {
-      "label": "Nosakhare Ogbebor",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/nosakhare-ogbebor/id545191093?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-03-15T00:00:00-07:00",
-      "attributes": {
-        "label": "March 15, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 9,
+      "index": 11,
       "total": 98
     },
     "im:name": {
@@ -922,7 +1126,211 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 10,
+      "index": 12,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Big Day - Event Countdown"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/08/90/cb/0890cb94-ae7f-b66b-c3e1-62ee406eaa9f/AppIcon-0-1x_U007emarketing-0-2-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/08/90/cb/0890cb94-ae7f-b66b-c3e1-62ee406eaa9f/AppIcon-0-1x_U007emarketing-0-2-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/08/90/cb/0890cb94-ae7f-b66b-c3e1-62ee406eaa9f/AppIcon-0-1x_U007emarketing-0-2-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Are you looking for widgets to track your events? Here is the widget app to help you see your events on your Home Screen at a glance. \n \nAre you bored with the other countdown or day tracking apps which have only text, small images? We have a totally different and unique app with full graphics and animation effects. \n \nOr are you tired of too complicated user interfaces with other apps? We have an easy-to-use app focusing on the basics.\n \nBig Day is a day tracking app and widget which tells you the remaining days until or starts counting the days after the event with your own photos. It is the simplest and the most beautiful way to track your big days.\n \nWhen to use Big Day :\n- Your wedding day, valentine's day, the first date, birthday, anniversary, the birth of your children and baby, holiday, meeting, trip, party, vacation, discharge, exam, days of quitting smoking, graduation, halloween, new year, thanksgiving and all of the other very important days of your life. \n \nFeatures:\n- Widgets on your home screen.\n- No annoying ads banner.\n- Select your own pictures for the background.\n- Share your big day on Facebook, Instagram, Twitter or other social apps.\n- Set notification date and time to get an alarm.\n- Change color by double-tapping the counter frame.\n- Multiple dates and events up to 30.\n- Reorder dates and events.\n- View all events in a list.\n \nContacts/Downloads :\nTo contact us or download some sample photos on the screenshot, Please visit at http://bigdayapp.com/"
+    },
+    "im:price": {
+      "label": "HUF499.00",
+      "attributes": {
+        "amount": "499",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2008-2021 bigdayapp.com"
+    },
+    "title": {
+      "label": "Big Day - Event Countdown - whatisid"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/big-day-event-countdown/id295759189?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/86/63/30/866330a0-1d34-e936-03cb-981a81ccfc4f/94ecc28b-d388-42fe-b8a5-a8793bab738f_5.5_01_1.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/big-day-event-countdown/id295759189?uo=2",
+      "attributes": {
+        "im:id": "295759189",
+        "im:bundleId": "com.whatisid.bigday"
+      }
+    },
+    "im:artist": {
+      "label": "whatisid",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/whatisid/id295759192?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2008-12-04T00:00:00-07:00",
+      "attributes": {
+        "label": "December 4, 2008"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 13,
+      "total": 98
+    },
+    "im:name": {
+      "label": "What's My Mutt?"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/33/2c/f6/332cf62f-7d16-97a2-b4a6-c6d34cb1dd90/mzl.qkgjdvjv.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/33/2c/f6/332cf62f-7d16-97a2-b4a6-c6d34cb1dd90/mzl.qkgjdvjv.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/33/2c/f6/332cf62f-7d16-97a2-b4a6-c6d34cb1dd90/mzl.qkgjdvjv.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Have you always wondered what breeds make up your Mutt? It is time to solve the mystery.  \n\n• Choose seven dominant features of your adult mixed breed dog and you will discover the top three predominant breeds that make up your Mutt based on their dominant features.  With over sixty-five of the most common breeds represented, you will get excellent and accurate results.\n   \n• Everyone loves to share photos of their dog. “What’s My Mutt?” makes this easy. Once you find out what breeds make up your Mutt, share a photo and the results on Twitter and Facebook. Use the hashtag #whatsmymutt\n\n• With our new Profile Tracker, save your name and email in the app. We want to stay in touch! \n\n• Share a photo and your results of your Mutt with us at woof@whatsmymuttapp.com, and your Mutt may be featured on the \"What's My Mutt?\" Facebook, Instagram and Twitter page!\n\nThank you for downloading \"What's My Mutt?\"! A portion of all download proceeds is donated to dog rescue groups. Additional information can be found at whatsmymuttapp.com"
+    },
+    "im:price": {
+      "label": "HUF499.00",
+      "attributes": {
+        "amount": "499",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "©2015 Indy Dog, LLC"
+    },
+    "title": {
+      "label": "What's My Mutt? - Indy Dog LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/whats-my-mutt/id1035161188?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/2d/03/b1/2d03b1d0-f111-6ba4-2c07-bd50b97282e8/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/whats-my-mutt/id1035161188?uo=2",
+      "attributes": {
+        "im:id": "1035161188",
+        "im:bundleId": "com.indydogllc.whatsmymutt"
+      }
+    },
+    "im:artist": {
+      "label": "Indy Dog LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/indy-dog-llc/id1035161187?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-02-17T13:15:55-07:00",
+      "attributes": {
+        "label": "February 17, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 14,
       "total": 98
     },
     "im:name": {
@@ -1024,7 +1432,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 11,
+      "index": 15,
       "total": 98
     },
     "im:name": {
@@ -1126,7 +1534,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 12,
+      "index": 16,
       "total": 98
     },
     "im:name": {
@@ -1228,7 +1636,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 13,
+      "index": 17,
       "total": 98
     },
     "im:name": {
@@ -1330,7 +1738,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 14,
+      "index": 18,
       "total": 98
     },
     "im:name": {
@@ -1432,7 +1840,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 15,
+      "index": 19,
       "total": 98
     },
     "im:name": {
@@ -1534,7 +1942,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 16,
+      "index": 20,
       "total": 98
     },
     "im:name": {
@@ -1636,7 +2044,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 17,
+      "index": 21,
       "total": 98
     },
     "im:name": {
@@ -1738,7 +2146,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 18,
+      "index": 22,
       "total": 98
     },
     "im:name": {
@@ -1840,7 +2248,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 19,
+      "index": 23,
       "total": 98
     },
     "im:name": {
@@ -1942,7 +2350,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 20,
+      "index": 24,
       "total": 98
     },
     "im:name": {
@@ -2044,7 +2452,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 21,
+      "index": 25,
       "total": 98
     },
     "im:name": {
@@ -2146,7 +2554,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 22,
+      "index": 26,
       "total": 98
     },
     "im:name": {
@@ -2248,7 +2656,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 23,
+      "index": 27,
       "total": 98
     },
     "im:name": {
@@ -2350,7 +2758,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 24,
+      "index": 28,
       "total": 98
     },
     "im:name": {
@@ -2452,7 +2860,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 25,
+      "index": 29,
       "total": 98
     },
     "im:name": {
@@ -2554,7 +2962,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 26,
+      "index": 30,
       "total": 98
     },
     "im:name": {
@@ -2656,7 +3064,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 27,
+      "index": 31,
       "total": 98
     },
     "im:name": {
@@ -2758,7 +3166,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 28,
+      "index": 32,
       "total": 98
     },
     "im:name": {
@@ -2860,7 +3268,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 29,
+      "index": 33,
       "total": 98
     },
     "im:name": {
@@ -2962,7 +3370,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 30,
+      "index": 34,
       "total": 98
     },
     "im:name": {
@@ -3064,7 +3472,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 31,
+      "index": 35,
       "total": 98
     },
     "im:name": {
@@ -3166,7 +3574,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 32,
+      "index": 36,
       "total": 98
     },
     "im:name": {
@@ -3268,109 +3676,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 33,
-      "total": 98
-    },
-    "im:name": {
-      "label": "iMicroscope - Magnifying Glass"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/65/dd/6f/65dd6f44-d9f7-b18d-f67f-2d3b97c29819/AppIcon-1x_U007emarketing-0-5-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/65/dd/6f/65dd6f44-d9f7-b18d-f67f-2d3b97c29819/AppIcon-1x_U007emarketing-0-5-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/65/dd/6f/65dd6f44-d9f7-b18d-f67f-2d3b97c29819/AppIcon-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Unlock the secrets of the microscopic world with iMicroscope, the ultimate app for exploring the tiniest of details. \nThis app turns your mobile device into a high-powered microscope, allowing you to view objects in stunning detail and magnification. \n\nInvestigate small objects and take pictures of the revealed details. Watch the details in realtime via AirPlay on your TV. Amaze your friends with stunning details which can hardly be viewed by the naked eye.\nUse iMicroscope to examine stamps, little animals or small objects magnified by a factor of 8! Reveal even the smallest structures with a precision and detail which is normally offered only by real microscopes. \n\nShare your discoveries with your friends using various sharing options"
-    },
-    "im:price": {
-      "label": "HUF999.00",
-      "attributes": {
-        "amount": "999",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 - elklab UG"
-    },
-    "title": {
-      "label": "iMicroscope - Magnifying Glass - elklab UG"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/imicroscope-magnifying-glass/id577434784?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/44/db/eb/44dbeb26-c694-339d-3e87-89dd4a2e9e30/0ba6e00b-f5d2-4cea-a587-5a0d184e18fa_01_iMicroscope_5.5_en@3x.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/imicroscope-magnifying-glass/id577434784?uo=2",
-      "attributes": {
-        "im:id": "577434784",
-        "im:bundleId": "de.apploft.imicroscope"
-      }
-    },
-    "im:artist": {
-      "label": "elklab UG",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/elklab-ug/id1117016330?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-11-14T16:18:41-07:00",
-      "attributes": {
-        "label": "November 14, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 34,
+      "index": 37,
       "total": 98
     },
     "im:name": {
@@ -3472,7 +3778,109 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 35,
+      "index": 38,
+      "total": 98
+    },
+    "im:name": {
+      "label": "iMicroscope - Magnifying Glass"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/65/dd/6f/65dd6f44-d9f7-b18d-f67f-2d3b97c29819/AppIcon-1x_U007emarketing-0-5-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/65/dd/6f/65dd6f44-d9f7-b18d-f67f-2d3b97c29819/AppIcon-1x_U007emarketing-0-5-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/65/dd/6f/65dd6f44-d9f7-b18d-f67f-2d3b97c29819/AppIcon-1x_U007emarketing-0-5-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Unlock the secrets of the microscopic world with iMicroscope, the ultimate app for exploring the tiniest of details. \nThis app turns your mobile device into a high-powered microscope, allowing you to view objects in stunning detail and magnification. \n\nInvestigate small objects and take pictures of the revealed details. Watch the details in realtime via AirPlay on your TV. Amaze your friends with stunning details which can hardly be viewed by the naked eye.\nUse iMicroscope to examine stamps, little animals or small objects magnified by a factor of 8! Reveal even the smallest structures with a precision and detail which is normally offered only by real microscopes. \n\nShare your discoveries with your friends using various sharing options"
+    },
+    "im:price": {
+      "label": "HUF999.00",
+      "attributes": {
+        "amount": "999",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 - elklab UG"
+    },
+    "title": {
+      "label": "iMicroscope - Magnifying Glass - elklab UG"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/imicroscope-magnifying-glass/id577434784?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/44/db/eb/44dbeb26-c694-339d-3e87-89dd4a2e9e30/0ba6e00b-f5d2-4cea-a587-5a0d184e18fa_01_iMicroscope_5.5_en@3x.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/imicroscope-magnifying-glass/id577434784?uo=2",
+      "attributes": {
+        "im:id": "577434784",
+        "im:bundleId": "de.apploft.imicroscope"
+      }
+    },
+    "im:artist": {
+      "label": "elklab UG",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/elklab-ug/id1117016330?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-11-14T16:18:41-07:00",
+      "attributes": {
+        "label": "November 14, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 39,
       "total": 98
     },
     "im:name": {
@@ -3574,7 +3982,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 36,
+      "index": 40,
       "total": 98
     },
     "im:name": {
@@ -3676,109 +4084,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 37,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Tradfri Disco for TRÅDFRI"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/ca/18/1f/ca181f12-4ac3-3a6b-fd66-169faed10a07/AppIconTradfri-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/ca/18/1f/ca181f12-4ac3-3a6b-fd66-169faed10a07/AppIconTradfri-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/ca/18/1f/ca181f12-4ac3-3a6b-fd66-169faed10a07/AppIconTradfri-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "**** PLEASE TAKE NOTE\nThis app requires the IKEA® TRÅFRI Gateway to function.\n****\n\nTRÅDFRI Disco! An amazing controller for your IKEA® TRÅDFRI connected house or business. Use your TRÅDFRI connected restaurant as a party location.\n\nTRÅDFRI Disco does it all with your  IKEA® TRÅDFRI  setup. The Mood function changes your Hue Lights within a themed colorset at your chosen time interval over and over again. Perfect for warming up your party or any other occasion. \nJust perfect.\n\nThe stock IKEA® TRÅFRI app let’s you choose between just 20 colors. TRÅFRI Disco gives you the whole spectrum available on the system.\nBecause we connect direct, there is virtually no delay between the command and the light response like HomeKit.\n\nTRÅDFRI Disco is the best in recognizing your favorite music through the microphone. Even at low volume levels changes are accurately detected and transformed into a lightshow. It's the only TRÅDFRI App with a real fast Stroboscope! (Strobe)\n\nSome detailed features:\n\n\n****Audio options****\n- Microphone sensitivity sliders let you control how often music is turned into light (change)  and control silence detection. (dB)\n- Brightness control sliders manage the maximum and minimum brightness of your disco setup\n- Indicators to show when your thresholds are being 'hit' by the music. \n- LED indicator for TEMPO tap button indicating current BPM. \n-> Auto Disco (strobe, transition style)\n\n****Color Control and Custom Color Themes****\n- User configurable color themes.\n- Color control slider helps you set the saturation of bulbs.\n- Color range control\n- Transform any image from your library in a color theme.\n\n****Strobe****\n- New Color Strobe.\n- Rainbow Strobe.\n- Classic White Strobe\n- Custom Color Strobe \n- Strobe your own Custom Color theme\n\n-> Smooth, Snap or Mix Transition. For selecting soft or crazy wild fast transition. Warning for the epileptic! \n\n\n- Mood Tab. Control any mood with these new great features: \n-> Select transition/cycle time between selected lights from 1 second to 10 minutes! \n-> Choose a theme or select a color range \n-> Create your own color theme\n-> Choose to change all bulbs to the same color \n-> Or never change to the same color \n-> Or sometimes \n-> Or Frequent \n-> Shake for random setting within current theme (option) \n-> Overall Mood Brightness Control \n-> Overall Mood Color Intensity Control \n-> Sleeptimer for Mood mode \n\n\nTRÅDFRI Disco listens to an external sound source. It supports running in the background!\n- It’s possible to use hue disco while playing audio with any other app through: \n- Bluetooth\n- Airplay\n- the internal speaker \n- a connected dock with audio features \n- a device connected through the headphone jack \n\n\nWarning: To use TRÅDFRI Disco you must own or have access to a IKEA® TRÅDFRI Gateway with at least one controlled bulb. Obviously best to have color capable lights. Don't buy this App if you do not know what IKEA® TRÅDFRI is. See https://www.ikea.com/us/en/catalog/products/00337813/ for more information.\n\nWe are not affiliated, associated, authorized, endorsed by, or in any way officially connected with IKEA® other than we connect to the TRÅDFRI system. Inquiries about this app should be send through the feedback option within this app. Not to IKEA®."
-    },
-    "im:price": {
-      "label": "HUF1,790.00",
-      "attributes": {
-        "amount": "1790",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© iMakeStuff"
-    },
-    "title": {
-      "label": "Tradfri Disco for TRÅDFRI - iMakeStuff"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/tradfri-disco-for-tr%C3%A5dfri/id1254157199?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/30/5d/da/305ddafd-6f15-f9f3-050c-767a1c8ee665/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/tradfri-disco-for-tr%C3%A5dfri/id1254157199?uo=2",
-      "attributes": {
-        "im:id": "1254157199",
-        "im:bundleId": "TradfriDisco"
-      }
-    },
-    "im:artist": {
-      "label": "iMakeStuff",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/imakestuff/id317796293?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2018-09-23T09:02:40-07:00",
-      "attributes": {
-        "label": "September 23, 2018"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 38,
+      "index": 41,
       "total": 98
     },
     "im:name": {
@@ -3880,7 +4186,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 39,
+      "index": 42,
       "total": 98
     },
     "im:name": {
@@ -3982,7 +4288,109 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 40,
+      "index": 43,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Tradfri Disco for TRÅDFRI"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/ca/18/1f/ca181f12-4ac3-3a6b-fd66-169faed10a07/AppIconTradfri-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/ca/18/1f/ca181f12-4ac3-3a6b-fd66-169faed10a07/AppIconTradfri-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/ca/18/1f/ca181f12-4ac3-3a6b-fd66-169faed10a07/AppIconTradfri-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "**** PLEASE TAKE NOTE\nThis app requires the IKEA® TRÅFRI Gateway to function.\n****\n\nTRÅDFRI Disco! An amazing controller for your IKEA® TRÅDFRI connected house or business. Use your TRÅDFRI connected restaurant as a party location.\n\nTRÅDFRI Disco does it all with your  IKEA® TRÅDFRI  setup. The Mood function changes your Hue Lights within a themed colorset at your chosen time interval over and over again. Perfect for warming up your party or any other occasion. \nJust perfect.\n\nThe stock IKEA® TRÅFRI app let’s you choose between just 20 colors. TRÅFRI Disco gives you the whole spectrum available on the system.\nBecause we connect direct, there is virtually no delay between the command and the light response like HomeKit.\n\nTRÅDFRI Disco is the best in recognizing your favorite music through the microphone. Even at low volume levels changes are accurately detected and transformed into a lightshow. It's the only TRÅDFRI App with a real fast Stroboscope! (Strobe)\n\nSome detailed features:\n\n\n****Audio options****\n- Microphone sensitivity sliders let you control how often music is turned into light (change)  and control silence detection. (dB)\n- Brightness control sliders manage the maximum and minimum brightness of your disco setup\n- Indicators to show when your thresholds are being 'hit' by the music. \n- LED indicator for TEMPO tap button indicating current BPM. \n-> Auto Disco (strobe, transition style)\n\n****Color Control and Custom Color Themes****\n- User configurable color themes.\n- Color control slider helps you set the saturation of bulbs.\n- Color range control\n- Transform any image from your library in a color theme.\n\n****Strobe****\n- New Color Strobe.\n- Rainbow Strobe.\n- Classic White Strobe\n- Custom Color Strobe \n- Strobe your own Custom Color theme\n\n-> Smooth, Snap or Mix Transition. For selecting soft or crazy wild fast transition. Warning for the epileptic! \n\n\n- Mood Tab. Control any mood with these new great features: \n-> Select transition/cycle time between selected lights from 1 second to 10 minutes! \n-> Choose a theme or select a color range \n-> Create your own color theme\n-> Choose to change all bulbs to the same color \n-> Or never change to the same color \n-> Or sometimes \n-> Or Frequent \n-> Shake for random setting within current theme (option) \n-> Overall Mood Brightness Control \n-> Overall Mood Color Intensity Control \n-> Sleeptimer for Mood mode \n\n\nTRÅDFRI Disco listens to an external sound source. It supports running in the background!\n- It’s possible to use hue disco while playing audio with any other app through: \n- Bluetooth\n- Airplay\n- the internal speaker \n- a connected dock with audio features \n- a device connected through the headphone jack \n\n\nWarning: To use TRÅDFRI Disco you must own or have access to a IKEA® TRÅDFRI Gateway with at least one controlled bulb. Obviously best to have color capable lights. Don't buy this App if you do not know what IKEA® TRÅDFRI is. See https://www.ikea.com/us/en/catalog/products/00337813/ for more information.\n\nWe are not affiliated, associated, authorized, endorsed by, or in any way officially connected with IKEA® other than we connect to the TRÅDFRI system. Inquiries about this app should be send through the feedback option within this app. Not to IKEA®."
+    },
+    "im:price": {
+      "label": "HUF1,790.00",
+      "attributes": {
+        "amount": "1790",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© iMakeStuff"
+    },
+    "title": {
+      "label": "Tradfri Disco for TRÅDFRI - iMakeStuff"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/tradfri-disco-for-tr%C3%A5dfri/id1254157199?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/30/5d/da/305ddafd-6f15-f9f3-050c-767a1c8ee665/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/tradfri-disco-for-tr%C3%A5dfri/id1254157199?uo=2",
+      "attributes": {
+        "im:id": "1254157199",
+        "im:bundleId": "TradfriDisco"
+      }
+    },
+    "im:artist": {
+      "label": "iMakeStuff",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/imakestuff/id317796293?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2018-09-23T09:02:40-07:00",
+      "attributes": {
+        "label": "September 23, 2018"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 44,
       "total": 98
     },
     "im:name": {
@@ -4084,7 +4492,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 41,
+      "index": 45,
       "total": 98
     },
     "im:name": {
@@ -4186,7 +4594,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 42,
+      "index": 46,
       "total": 98
     },
     "im:name": {
@@ -4288,7 +4696,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 43,
+      "index": 47,
       "total": 98
     },
     "im:name": {
@@ -4390,7 +4798,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 44,
+      "index": 48,
       "total": 98
     },
     "im:name": {
@@ -4492,7 +4900,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 45,
+      "index": 49,
       "total": 98
     },
     "im:name": {
@@ -4594,7 +5002,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 46,
+      "index": 50,
       "total": 98
     },
     "im:name": {
@@ -4696,7 +5104,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 47,
+      "index": 51,
       "total": 98
     },
     "im:name": {
@@ -4798,7 +5206,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 48,
+      "index": 52,
       "total": 98
     },
     "im:name": {
@@ -4900,7 +5308,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 49,
+      "index": 53,
       "total": 98
     },
     "im:name": {
@@ -5002,7 +5410,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 50,
+      "index": 54,
       "total": 98
     },
     "im:name": {
@@ -5104,7 +5512,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 51,
+      "index": 55,
       "total": 98
     },
     "im:name": {
@@ -5206,7 +5614,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 52,
+      "index": 56,
       "total": 98
     },
     "im:name": {
@@ -5308,109 +5716,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 53,
-      "total": 98
-    },
-    "im:name": {
-      "label": "VAG Virtual Cockpit ELM327 OBD"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The VAG Virtual Cockpit shows important diagnostic parameters of your car. You only need an ELM327 adapter.\n\nVersion 3.3 shows the next parameters.\n\nVirtual Cockpit\n1) Opened doors\n2) Speed\n3) RPM\n4) Oil temperature\n5) Coolant temperature\n6) Fuel in the tank in litres\n7) Range in kilometers\n8) Average consumption\n9) Time in the machine\n10) Odometer\n11) Outside temperature\n12) Voltage\n\nEngine control unit\n1) RPM\n2) Mass Air Flow Sensor (G70)\n3) Intake Air Temperature (G42)\n4) Exhaust Temperature Projection\n5) Oil Warning Threshold\n6) Oil Level\n7) Boost Specified\n8) Boost Actual\n9) Misfire Counter\n10) Ignition Angle Delay\n11) Oil temperature\n12) Valve N75\n\nTransmission control unit\n1) ATF Temperature (G93) - AISIN\n2) Temperature Transmission Fluid (G93) - DSG6\n3) Temperature Control Module (G510) - DSG6\n4) Temperature Clutch Oil (G509) - DSG6\n5) Temperature Control Device (G510) - DSG7\n6) Temperature Microprocessor - DSG7\n7) Clutch Temperature - DSG7\n\nBattery control unit\n1) Battery voltage\n2) Battery current\n3) Battery temperature\n4) Battery state\n6) Battery aging\n7) Internal battery resistance\n8) Alternator current\n9) Alternator power\n\nAWD unit\n\nHaldex 3/4\n1) Oil temperature\n2) Oil pressure\n3) Torque\n4) Pump current\n5) Supply voltage (Terminal 30)\n\nHaldex 5\n1) Oil temperature\n2) Pump current\n3) Supply voltage (Terminal 30)\n4) Pump voltage\n5) PWM signal of pump\n6) Temperature of the control unit\n7) Temperature of friction discs\n\nLong hold of the TRIP switch changes the view style of the parameters.\n\nSupported next ELM327 adapters:\n- Viecar BLE 4.0\n- Konnwei BLE 4.0\n- Vgate vLinker MC+\n- OBDLink MX+\n\nThe application has been tested with Skoda Octavia A5 2011 release. \nPartially or fully supported by other auto brands of the VAG group:\nVolkswagen\nSkoda\nSeat\nAudi\nPorsche\n\nIf the parameters are not displayed correctly or not completely, please contact with me by Email: vagvirtualcockpit@ya.ru."
-    },
-    "im:price": {
-      "label": "HUF999.00",
-      "attributes": {
-        "amount": "999",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Yurkin Vitaliy"
-    },
-    "title": {
-      "label": "VAG Virtual Cockpit ELM327 OBD - Vitaliy Yorkin"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/vag-virtual-cockpit-elm327-obd/id1468103297?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/65/8d/a3/658da341-ad7b-a429-ee52-63b9609b47cb/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/vag-virtual-cockpit-elm327-obd/id1468103297?uo=2",
-      "attributes": {
-        "im:id": "1468103297",
-        "im:bundleId": "VS.VagVirtualCockpit"
-      }
-    },
-    "im:artist": {
-      "label": "Vitaliy Yorkin",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/vitaliy-yorkin/id866761663?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-06-22T12:43:34-07:00",
-      "attributes": {
-        "label": "June 22, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 54,
+      "index": 57,
       "total": 98
     },
     "im:name": {
@@ -5512,7 +5818,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 55,
+      "index": 58,
       "total": 98
     },
     "im:name": {
@@ -5614,7 +5920,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 56,
+      "index": 59,
       "total": 98
     },
     "im:name": {
@@ -5716,7 +6022,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 57,
+      "index": 60,
       "total": 98
     },
     "im:name": {
@@ -5818,7 +6124,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 58,
+      "index": 61,
       "total": 98
     },
     "im:name": {
@@ -5920,7 +6226,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 59,
+      "index": 62,
       "total": 98
     },
     "im:name": {
@@ -6022,7 +6328,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 60,
+      "index": 63,
       "total": 98
     },
     "im:name": {
@@ -6124,7 +6430,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 61,
+      "index": 64,
       "total": 98
     },
     "im:name": {
@@ -6226,211 +6532,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 62,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Vocular"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a1/eb/1f/a1eb1fba-2196-9467-999b-62b859fcda71/AppIcons-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a1/eb/1f/a1eb1fba-2196-9467-999b-62b859fcda71/AppIcons-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a1/eb/1f/a1eb1fba-2196-9467-999b-62b859fcda71/AppIcons-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "How deep is your voice? Do you have an undulating pitch or a low monotone? Our algorithm analyses your voice and compares it with data from over 150 celebrities to let you understand your voice and learn how to improve it.\n\nThe Standard version of the app gives you a full analysis of your voice in terms of depth and variety and calculates a set of celebrity matches to give you a grounding of what your results mean.\n\nThe Pro version helps you improve your voice. Currently this includes an on-the-fly pitch tracker - so you can practise different ways of speaking and immediately see their effect - as well as unlimited archive space, celebrity comparison graphs, and a charting tool so you can track your progress over time.\n\nWe’re working to expand Vocular to other areas too. We want to cover things like smoothness, nasality, vocal fry, even creating a rating of how attractive your voice currently is, based on the latest research. If you want to get the most out of your vocal chords, this is the app for you."
-    },
-    "im:price": {
-      "label": "HUF1,790.00",
-      "attributes": {
-        "amount": "1790",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Verbera"
-    },
-    "title": {
-      "label": "Vocular - Stuart Brown"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/vocular/id1080181813?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/24/c1/30/24c130b0-faa0-5dd8-fa12-d97277e86fab/mzl.lwitfzbc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/vocular/id1080181813?uo=2",
-      "attributes": {
-        "im:id": "1080181813",
-        "im:bundleId": "com.sqlwizards.vocular"
-      }
-    },
-    "im:artist": {
-      "label": "Stuart Brown",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/stuart-brown/id1080181812?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-10-01T04:40:12-07:00",
-      "attributes": {
-        "label": "October 1, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 63,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Chakra Tuner Jonathan Goldman"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/37/b4/1e/37b41e52-6010-07c2-7e4f-a7a38aa2a6a1/AppIcon-1x_U007emarketing-0-9-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/37/b4/1e/37b41e52-6010-07c2-7e4f-a7a38aa2a6a1/AppIcon-1x_U007emarketing-0-9-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/37/b4/1e/37b41e52-6010-07c2-7e4f-a7a38aa2a6a1/AppIcon-1x_U007emarketing-0-9-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Experience chakra healing and meditation with Jonathan Goldman’s Chakra Tuner. Balance and align your chakras with this powerful app for sound therapy and sonic transformation. Using Healing Sounds® pioneer Goldman’s internationally renowned system of Sacred Vowel Sounds, the Chakra Tuner allows you to experience individual chakra resonance. You can also use the Chakra Tuner sequentially with all 7 chakras going from root to crown or crown to root, with or without guided meditation. Utilizing high sound quality, the Chakra Tuner will bring you to a new level of health and transformation.\n\nJonathan Goldman’s Chakra Tuner offers many unique features. With Chakra Tuner by Jonathan Goldman you will:\n\n• Listen and sound along with Chant Master Jonathan Goldman’s extraordinary Chakra Chanting \n\n• Choose, select and experience the resonance of each chakra individually for as long as you like\n\n• Experience having all your 7 chakras resonated with different sacred vowel sounds\n\n• Go from the root (1st chakra) to the crown (7th chakra) in one sequence\n\n• Go from the crown (7th chakra) to root (1st chakra) in one sequence\n\n• Listen to the 7 Chakra sequence with or without guided meditation\n\n• View the extraordinary chakra graphics by visionary artist Lahrinda to enhance visualization \n\n• Experience harmonically tuned Chakra Chimes that amplify the Chakra Tuner healing\n\n• Explore the power and energy of the chakras through over 16 pages of information on the chakras and use of the Chakra Tuner by Jonathan Goldman \n\n• Information on Jonathan Goldman and links to his website as well as visionary artist Lahrinda’s website\n\n• The sounds on the Chakra Tuner were created to have the greatest transformational and healing resonance"
-    },
-    "im:price": {
-      "label": "HUF1,490.00",
-      "attributes": {
-        "amount": "1490",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Healing Sounds"
-    },
-    "title": {
-      "label": "Chakra Tuner Jonathan Goldman - Healing Sounds"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/chakra-tuner-jonathan-goldman/id521979246?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/e7/95/23e7958b-0850-0cfb-16ac-1fcc68e2dc48/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/chakra-tuner-jonathan-goldman/id521979246?uo=2",
-      "attributes": {
-        "im:id": "521979246",
-        "im:bundleId": "com.frequencyshifter.chakratuner"
-      }
-    },
-    "im:artist": {
-      "label": "Healing Sounds",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/healing-sounds/id521979269?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-05-23T13:13:36-07:00",
-      "attributes": {
-        "label": "May 23, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 64,
+      "index": 65,
       "total": 98
     },
     "im:name": {
@@ -6532,7 +6634,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 65,
+      "index": 66,
       "total": 98
     },
     "im:name": {
@@ -6634,7 +6736,109 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 66,
+      "index": 67,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Vocular"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a1/eb/1f/a1eb1fba-2196-9467-999b-62b859fcda71/AppIcons-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a1/eb/1f/a1eb1fba-2196-9467-999b-62b859fcda71/AppIcons-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/a1/eb/1f/a1eb1fba-2196-9467-999b-62b859fcda71/AppIcons-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "How deep is your voice? Do you have an undulating pitch or a low monotone? Our algorithm analyses your voice and compares it with data from over 150 celebrities to let you understand your voice and learn how to improve it.\n\nThe Standard version of the app gives you a full analysis of your voice in terms of depth and variety and calculates a set of celebrity matches to give you a grounding of what your results mean.\n\nThe Pro version helps you improve your voice. Currently this includes an on-the-fly pitch tracker - so you can practise different ways of speaking and immediately see their effect - as well as unlimited archive space, celebrity comparison graphs, and a charting tool so you can track your progress over time.\n\nWe’re working to expand Vocular to other areas too. We want to cover things like smoothness, nasality, vocal fry, even creating a rating of how attractive your voice currently is, based on the latest research. If you want to get the most out of your vocal chords, this is the app for you."
+    },
+    "im:price": {
+      "label": "HUF1,790.00",
+      "attributes": {
+        "amount": "1790",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Verbera"
+    },
+    "title": {
+      "label": "Vocular - Stuart Brown"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/vocular/id1080181813?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/24/c1/30/24c130b0-faa0-5dd8-fa12-d97277e86fab/mzl.lwitfzbc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/vocular/id1080181813?uo=2",
+      "attributes": {
+        "im:id": "1080181813",
+        "im:bundleId": "com.sqlwizards.vocular"
+      }
+    },
+    "im:artist": {
+      "label": "Stuart Brown",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/stuart-brown/id1080181812?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-10-01T04:40:12-07:00",
+      "attributes": {
+        "label": "October 1, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 68,
       "total": 98
     },
     "im:name": {
@@ -6736,7 +6940,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 67,
+      "index": 69,
       "total": 98
     },
     "im:name": {
@@ -6838,7 +7042,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 68,
+      "index": 70,
       "total": 98
     },
     "im:name": {
@@ -6940,7 +7144,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 69,
+      "index": 71,
       "total": 98
     },
     "im:name": {
@@ -7042,7 +7246,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 70,
+      "index": 72,
       "total": 98
     },
     "im:name": {
@@ -7144,243 +7348,39 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 71,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Collection Register"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d8/01/d4/d801d498-fe30-8afe-238c-dc810a8ddbdc/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d8/01/d4/d801d498-fe30-8afe-238c-dc810a8ddbdc/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d8/01/d4/d801d498-fe30-8afe-238c-dc810a8ddbdc/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is simple and convenient app for keep track of your collection of any type. Wide capabilities and flexible settings will appeal to both expert collectors and beginners.\n\t\n•  You will always know how many items you have and what kind of them. \n\n•  Described  more than 20 characteristics generally accepted among collectors.\n\n•  Flexible settings. Any characteristics can be hidden. \n\n•  Add photos."
-    },
-    "im:price": {
-      "label": "HUF2,490.00",
-      "attributes": {
-        "amount": "2490",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2015-2023, Benjamin Gribkov"
-    },
-    "title": {
-      "label": "Collection Register - VENIAMIN GRIBKOV"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/collection-register/id991525044?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/c0/64/98c0642c-fe93-0c60-dfd5-fa587ab0e9e2/db1eb401-be22-4ad5-b4b6-5ee491c76f59_1main.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/collection-register/id991525044?uo=2",
-      "attributes": {
-        "im:id": "991525044",
-        "im:bundleId": "ru.beng.MyHumidor"
-      }
-    },
-    "im:artist": {
-      "label": "VENIAMIN GRIBKOV",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/veniamin-gribkov/id907913370?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-08-15T05:38:52-07:00",
-      "attributes": {
-        "label": "August 15, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 72,
-      "total": 98
-    },
-    "im:name": {
-      "label": "DayPlus - Countdown & Count Up"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9b/9e/5d/9b9e5dbf-9b20-37a9-0135-3ca55edfe559/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9b/9e/5d/9b9e5dbf-9b20-37a9-0135-3ca55edfe559/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9b/9e/5d/9b9e5dbf-9b20-37a9-0135-3ca55edfe559/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "DayPlus lets you easily create and track countdowns for important events or dates in your life. Customize with backgrounds, colors, and reminders. Share exciting countdowns with friends and family.\n\nKey Features:\n* iCloud backup,Keep your countdowns safe with iCloud integration.\n* Quickly add countdowns for events, goals, trips, births, weddings, etc\n* View countdowns on app,  lock screen and home screen\n* Customizable backgrounds, colors\n* Receive reminders 1 day before or 1 week before the event.\n* Share your countdowns with friends and family\n* Track all your countdowns and life events on the timeline\n* Light and dark mode\n* Supports repeating countdowns (daily, weekly, etc)\n* Auto-delete countdowns option\n* Lunar calendar support\n\nDo you have suggestions? Contact us at hlai.manjun@gmail.com\n\nPrivacy Policy: https://manjun.tech/doc/en/privacy-policy.html\nTerms of Service: https://manjun.tech/doc/en/user-agreement.html"
-    },
-    "im:price": {
-      "label": "HUF1,490.00",
-      "attributes": {
-        "amount": "1490",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Guangzhou Manjun Technology Co., Ltd."
-    },
-    "title": {
-      "label": "DayPlus - Countdown & Count Up - Manjun Tech"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/dayplus-countdown-count-up/id6463768562?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b6/00/56/b60056be-c55a-7298-9244-9a954c234366/b72dfeaf-0a6a-4956-9c21-d7b7ac882ec1_iPhone_13_mini_-_82.jpg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/dayplus-countdown-count-up/id6463768562?uo=2",
-      "attributes": {
-        "im:id": "6463768562",
-        "im:bundleId": "tech.manjun.app.daycount"
-      }
-    },
-    "im:artist": {
-      "label": "Manjun Tech",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/manjun-tech/id1675637283?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-10-12T00:00:00-07:00",
-      "attributes": {
-        "label": "October 12, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
       "index": 73,
       "total": 98
     },
     "im:name": {
-      "label": "Baby Led Weaning Recipes"
+      "label": "Wallpapers 8K"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/62/44/6f/62446fc4-f640-0020-2398-ded3f61dbb63/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/c2/c9/07c2c922-d52b-951b-50d6-5bf0a92a6c18/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/62/44/6f/62446fc4-f640-0020-2398-ded3f61dbb63/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/c2/c9/07c2c922-d52b-951b-50d6-5bf0a92a6c18/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/62/44/6f/62446fc4-f640-0020-2398-ded3f61dbb63/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/c2/c9/07c2c922-d52b-951b-50d6-5bf0a92a6c18/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "The Baby-Led Weaning Recipes app contains over 250 delicious recipes (all suitable from 6 months), with monthly guides and routines, to support busy parents and make your weaning journey as easy and enjoyable as possible.\n\nMy goal is to supply you with recipes that are quick to prepare, yet nutrient-rich so that your baby can grow up enjoying healthy and nutritious but, above all, TASTY foods!\n\nKey app features:\n\n* 250+ delicious, family-friendly recipes\n* A clean, bright design that is easy to navigate\n* Monthly guides and routines (from 6-12 months)\n* Recipes divided into breakfast, lunch, dinner and snack sections\n* Search for your favourite family recipes by recipe name and ingredient\n* Save your favourites so they are easy to find\n* A bonus ‘special occasions’ section for parties and seasonal family events\n* Free help and support, directly or via my online support group\n* Free app updates and improvements on a regular basis\n\nNew features:\n\n* Two new recipes added every week (from July 2019)\n* Add recipe ingredients directly into your shopping basket\n* A guide on how to prepare your child’s first finger foods\n* Filter recipes by your specific dietary requirements (vegetarian, vegan, dairy free and egg free)\n* Search for recipes by ingredient, as well as by recipe name\n* A new ‘like’ button feature so that you can quickly identify the most popular recipes\n* Fun recipe videos on selected dishes\n\nAccess Exclusive Recipes:\n\nNow there is an opportunity for you to enjoy an extra 48+ exclusive recipes every year.\n\nThe Quarterly Subscription to Baby-Led Weaning Recipes is available for $1.49 per quarter. These recipes will be delicious, nutritious and seasonal – allowing you an increasing number of recipes at your fingertips to keep things fresh and new in your kitchen.\n\nYour subscription payment will be charged to iTunes Account at confirmation of purchase. The subscription will renew automatically each quarter and payment will be charged to your iTunes Account within 24-hours prior to the end of the current period. You can turn off auto-renewal by going to your Account Settings after purchase. Subscriptions can be cancelled at any time. Access to premium content will continue up to the end of the subscription period. Any unused portion of a free trial or introductory period, if offered, will be forfeited when you purchase a subscription to Quarterly Subscriptions, where applicable.\n\nTerms of Use:\nhttps://babyledweaningcookbook.com/terms-and-conditions\n\nPrivacy Policy:\nhttps://babyledweaningcookbook.com/privacy-policy\n\nI hope you enjoy the recipes. Please do contact me if you have any questions or require any support, I am always happy to help.\n\nNatalie x"
+      "label": "Are you tired of being bombarded by ads just so you can download a wallpaper? \r\nAre you tired of endlessly scrolling a wallpaper app just to find 1 kind of alright wallpaper? \r\nAre you tired of abusive pricing? \n\n\r\n\r\nIf you answered yes to any of these questions then this wallpaper app is for you! \r\n\r\nWallpapers 8K has over 200 Beautiful Wallpapers to take your homescreen and lockscreen to the next level! \r\n\r\nTap to save your wallpaper to your Camera Roll and you are off to the races! \n\n\r\n\r\n\r\nSimple App Usage Instructions: \r\n1. Tap on any Wallpaper you like\r\n2. Your phone will ask you to allow access to save your wallpaper to Camera Roll ( First time only )\r\n3. Now that it is saved, go to your Photos \r\n4. Go to wallpaper, Hit Share Icon\r\n5. Scroll Down to Set As Wallpaper\r\n6. Follow The On Screen Instructions, DONE! \r\n\r\n\r\nNote: You can set the wallpaper to Lock Screen or to Home Screen or Both! \r\n\r\n\r\n\nAnd that's it! The app also has a dice button where it will randomly pick a wallpaper for you and download it to your Camera Roll! \r\n\r\nI hope that you will enjoy these wallpapers as much as I am! \r\n  \r\n\r\nHave a great day!"
     },
     "im:price": {
-      "label": "HUF1,990.00",
+      "label": "HUF999.00",
       "attributes": {
-        "amount": "1990",
+        "amount": "999",
         "currency": "HUF"
       }
     },
@@ -7391,17 +7391,17 @@
       }
     },
     "rights": {
-      "label": "© 2023, Starsky Creative Ltd."
+      "label": "© Nosakhare Ogbebor"
     },
     "title": {
-      "label": "Baby Led Weaning Recipes - Natalie Peall"
+      "label": "Wallpapers 8K - Nosakhare Ogbebor"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/baby-led-weaning-recipes/id1114320457?uo=2"
+          "href": "https://apps.apple.com/hu/app/wallpapers-8k/id1633891383?uo=2"
         }
       },
       {
@@ -7412,22 +7412,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/09/3e/57/093e574d-9f8d-265e-fcef-c09e05f1ab10/pr_source.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/22/df/e8/22dfe8bc-59ad-f05c-a5c1-7c953ea7fcab/09249b38-dbc7-4078-b4c0-971a8d94705d_screen1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/hu/app/baby-led-weaning-recipes/id1114320457?uo=2",
+      "label": "https://apps.apple.com/hu/app/wallpapers-8k/id1633891383?uo=2",
       "attributes": {
-        "im:id": "1114320457",
-        "im:bundleId": "com.natalie.babyled"
+        "im:id": "1633891383",
+        "im:bundleId": "com.bloodhound.Wallpapers-8K"
       }
     },
     "im:artist": {
-      "label": "Natalie Peall",
+      "label": "Nosakhare Ogbebor",
       "attributes": {
-        "href": "https://apps.apple.com/hu/developer/natalie-peall/id1114320456?uo=2"
+        "href": "https://apps.apple.com/hu/developer/nosakhare-ogbebor/id545191093?uo=2"
       }
     },
     "category": {
@@ -7439,9 +7439,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2016-05-17T07:42:58-07:00",
+      "label": "2023-03-15T00:00:00-07:00",
       "attributes": {
-        "label": "May 17, 2016"
+        "label": "March 15, 2023"
       }
     }
   },
@@ -7964,6 +7964,210 @@
       "total": 98
     },
     "im:name": {
+      "label": "Baby Led Weaning Recipes"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/62/44/6f/62446fc4-f640-0020-2398-ded3f61dbb63/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/62/44/6f/62446fc4-f640-0020-2398-ded3f61dbb63/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/62/44/6f/62446fc4-f640-0020-2398-ded3f61dbb63/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The Baby-Led Weaning Recipes app contains over 250 delicious recipes (all suitable from 6 months), with monthly guides and routines, to support busy parents and make your weaning journey as easy and enjoyable as possible.\n\nMy goal is to supply you with recipes that are quick to prepare, yet nutrient-rich so that your baby can grow up enjoying healthy and nutritious but, above all, TASTY foods!\n\nKey app features:\n\n* 250+ delicious, family-friendly recipes\n* A clean, bright design that is easy to navigate\n* Monthly guides and routines (from 6-12 months)\n* Recipes divided into breakfast, lunch, dinner and snack sections\n* Search for your favourite family recipes by recipe name and ingredient\n* Save your favourites so they are easy to find\n* A bonus ‘special occasions’ section for parties and seasonal family events\n* Free help and support, directly or via my online support group\n* Free app updates and improvements on a regular basis\n\nNew features:\n\n* Two new recipes added every week (from July 2019)\n* Add recipe ingredients directly into your shopping basket\n* A guide on how to prepare your child’s first finger foods\n* Filter recipes by your specific dietary requirements (vegetarian, vegan, dairy free and egg free)\n* Search for recipes by ingredient, as well as by recipe name\n* A new ‘like’ button feature so that you can quickly identify the most popular recipes\n* Fun recipe videos on selected dishes\n\nAccess Exclusive Recipes:\n\nNow there is an opportunity for you to enjoy an extra 48+ exclusive recipes every year.\n\nThe Quarterly Subscription to Baby-Led Weaning Recipes is available for $1.49 per quarter. These recipes will be delicious, nutritious and seasonal – allowing you an increasing number of recipes at your fingertips to keep things fresh and new in your kitchen.\n\nYour subscription payment will be charged to iTunes Account at confirmation of purchase. The subscription will renew automatically each quarter and payment will be charged to your iTunes Account within 24-hours prior to the end of the current period. You can turn off auto-renewal by going to your Account Settings after purchase. Subscriptions can be cancelled at any time. Access to premium content will continue up to the end of the subscription period. Any unused portion of a free trial or introductory period, if offered, will be forfeited when you purchase a subscription to Quarterly Subscriptions, where applicable.\n\nTerms of Use:\nhttps://babyledweaningcookbook.com/terms-and-conditions\n\nPrivacy Policy:\nhttps://babyledweaningcookbook.com/privacy-policy\n\nI hope you enjoy the recipes. Please do contact me if you have any questions or require any support, I am always happy to help.\n\nNatalie x"
+    },
+    "im:price": {
+      "label": "HUF1,990.00",
+      "attributes": {
+        "amount": "1990",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023, Starsky Creative Ltd."
+    },
+    "title": {
+      "label": "Baby Led Weaning Recipes - Natalie Peall"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/baby-led-weaning-recipes/id1114320457?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/09/3e/57/093e574d-9f8d-265e-fcef-c09e05f1ab10/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/baby-led-weaning-recipes/id1114320457?uo=2",
+      "attributes": {
+        "im:id": "1114320457",
+        "im:bundleId": "com.natalie.babyled"
+      }
+    },
+    "im:artist": {
+      "label": "Natalie Peall",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/natalie-peall/id1114320456?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-05-17T07:42:58-07:00",
+      "attributes": {
+        "label": "May 17, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 80,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Chakra Tuner Jonathan Goldman"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/37/b4/1e/37b41e52-6010-07c2-7e4f-a7a38aa2a6a1/AppIcon-1x_U007emarketing-0-9-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/37/b4/1e/37b41e52-6010-07c2-7e4f-a7a38aa2a6a1/AppIcon-1x_U007emarketing-0-9-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/37/b4/1e/37b41e52-6010-07c2-7e4f-a7a38aa2a6a1/AppIcon-1x_U007emarketing-0-9-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Experience chakra healing and meditation with Jonathan Goldman’s Chakra Tuner. Balance and align your chakras with this powerful app for sound therapy and sonic transformation. Using Healing Sounds® pioneer Goldman’s internationally renowned system of Sacred Vowel Sounds, the Chakra Tuner allows you to experience individual chakra resonance. You can also use the Chakra Tuner sequentially with all 7 chakras going from root to crown or crown to root, with or without guided meditation. Utilizing high sound quality, the Chakra Tuner will bring you to a new level of health and transformation.\n\nJonathan Goldman’s Chakra Tuner offers many unique features. With Chakra Tuner by Jonathan Goldman you will:\n\n• Listen and sound along with Chant Master Jonathan Goldman’s extraordinary Chakra Chanting \n\n• Choose, select and experience the resonance of each chakra individually for as long as you like\n\n• Experience having all your 7 chakras resonated with different sacred vowel sounds\n\n• Go from the root (1st chakra) to the crown (7th chakra) in one sequence\n\n• Go from the crown (7th chakra) to root (1st chakra) in one sequence\n\n• Listen to the 7 Chakra sequence with or without guided meditation\n\n• View the extraordinary chakra graphics by visionary artist Lahrinda to enhance visualization \n\n• Experience harmonically tuned Chakra Chimes that amplify the Chakra Tuner healing\n\n• Explore the power and energy of the chakras through over 16 pages of information on the chakras and use of the Chakra Tuner by Jonathan Goldman \n\n• Information on Jonathan Goldman and links to his website as well as visionary artist Lahrinda’s website\n\n• The sounds on the Chakra Tuner were created to have the greatest transformational and healing resonance"
+    },
+    "im:price": {
+      "label": "HUF1,490.00",
+      "attributes": {
+        "amount": "1490",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Healing Sounds"
+    },
+    "title": {
+      "label": "Chakra Tuner Jonathan Goldman - Healing Sounds"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/chakra-tuner-jonathan-goldman/id521979246?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/e7/95/23e7958b-0850-0cfb-16ac-1fcc68e2dc48/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/chakra-tuner-jonathan-goldman/id521979246?uo=2",
+      "attributes": {
+        "im:id": "521979246",
+        "im:bundleId": "com.frequencyshifter.chakratuner"
+      }
+    },
+    "im:artist": {
+      "label": "Healing Sounds",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/healing-sounds/id521979269?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-05-23T13:13:36-07:00",
+      "attributes": {
+        "label": "May 23, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 81,
+      "total": 98
+    },
+    "im:name": {
       "label": "Rivets - rugged watch faces"
     },
     "im:image": [
@@ -8062,7 +8266,109 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 80,
+      "index": 82,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Collection Register"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d8/01/d4/d801d498-fe30-8afe-238c-dc810a8ddbdc/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d8/01/d4/d801d498-fe30-8afe-238c-dc810a8ddbdc/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d8/01/d4/d801d498-fe30-8afe-238c-dc810a8ddbdc/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is simple and convenient app for keep track of your collection of any type. Wide capabilities and flexible settings will appeal to both expert collectors and beginners.\n\t\n•  You will always know how many items you have and what kind of them. \n\n•  Described  more than 20 characteristics generally accepted among collectors.\n\n•  Flexible settings. Any characteristics can be hidden. \n\n•  Add photos."
+    },
+    "im:price": {
+      "label": "HUF2,490.00",
+      "attributes": {
+        "amount": "2490",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2015-2023, Benjamin Gribkov"
+    },
+    "title": {
+      "label": "Collection Register - VENIAMIN GRIBKOV"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/collection-register/id991525044?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/c0/64/98c0642c-fe93-0c60-dfd5-fa587ab0e9e2/db1eb401-be22-4ad5-b4b6-5ee491c76f59_1main.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/collection-register/id991525044?uo=2",
+      "attributes": {
+        "im:id": "991525044",
+        "im:bundleId": "ru.beng.MyHumidor"
+      }
+    },
+    "im:artist": {
+      "label": "VENIAMIN GRIBKOV",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/veniamin-gribkov/id907913370?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-08-15T05:38:52-07:00",
+      "attributes": {
+        "label": "August 15, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 83,
       "total": 98
     },
     "im:name": {
@@ -8164,7 +8470,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 81,
+      "index": 84,
       "total": 98
     },
     "im:name": {
@@ -8266,7 +8572,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 82,
+      "index": 85,
       "total": 98
     },
     "im:name": {
@@ -8368,109 +8674,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 83,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Murmur : voice diary"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/68/5d/5e/685d5ed5-2587-68b6-8f0d-1666b789fc4a/AppIcon-1x_U007epad-0-9-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/68/5d/5e/685d5ed5-2587-68b6-8f0d-1666b789fc4a/AppIcon-1x_U007epad-0-9-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/68/5d/5e/685d5ed5-2587-68b6-8f0d-1666b789fc4a/AppIcon-1x_U007epad-0-9-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "# Record today\n\nYou can record the day by touching the date on the calendar or pressing the + button.\nChoose one of the 5 levels of emotion.\nEmotions can be customized.\nAnd record what happened today or what you want to record.\n\nRecordings are only saved on your device!\nUse the cloud server sync function to keep your records safe!\n\n# View records\n\nTouch the date on the calendar to see the emotions and hear the stories of the day you recorded.\nIf you want to edit the record, delete it and record it again!\n\n# Your own notification\n\nGet the notification message i set at a fixed time!\nIt will help you record a day constantly.\n\n# PIN lock\n\nLogin is automatic once you log in\nSo anyone can open the app and see the history!\nTo prevent this, you can lock the app by setting a PIN code!\n\n# Statistics\n\nWe provide statistics function. We will tell you the number of diary recorded for each period!\nIt will be updated further in the future!\n\n—————————————\n\nAny inconvenience or suggestions you would like to make while using it are welcome!\nAnyone who can help with translation work is also welcome.\n\nPeople who helped with the translation\n- English : Jiyoung Jung \n- Russian: Храмцова Анна\n- Turkish: Eren Yener\n- Indonesian: Sekar Langit\n\nEmail : huurray@gmail.com\n\nRemember today. Thank you!"
-    },
-    "im:price": {
-      "label": "HUF499.00",
-      "attributes": {
-        "amount": "499",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 Huurray"
-    },
-    "title": {
-      "label": "Murmur : voice diary - Junhyeok Heo"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/murmur-voice-diary/id1510564828?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/4f/fc/ea/4ffcea34-ee35-7791-3648-0bf14fd4c8b0/7d1bc94e-d164-44af-9e9e-e8cb96abdff1_en1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/murmur-voice-diary/id1510564828?uo=2",
-      "attributes": {
-        "im:id": "1510564828",
-        "im:bundleId": "com.midnightplan.murmur"
-      }
-    },
-    "im:artist": {
-      "label": "Junhyeok Heo",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/junhyeok-heo/id1510564827?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-04-29T00:00:00-07:00",
-      "attributes": {
-        "label": "April 29, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 84,
+      "index": 86,
       "total": 98
     },
     "im:name": {
@@ -8572,7 +8776,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 85,
+      "index": 87,
       "total": 98
     },
     "im:name": {
@@ -8674,7 +8878,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 86,
+      "index": 88,
       "total": 98
     },
     "im:name": {
@@ -8776,7 +8980,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 87,
+      "index": 89,
       "total": 98
     },
     "im:name": {
@@ -8878,7 +9082,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 88,
+      "index": 90,
       "total": 98
     },
     "im:name": {
@@ -8980,7 +9184,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 89,
+      "index": 91,
       "total": 98
     },
     "im:name": {
@@ -9082,7 +9286,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 90,
+      "index": 92,
       "total": 98
     },
     "im:name": {
@@ -9184,7 +9388,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 91,
+      "index": 93,
       "total": 98
     },
     "im:name": {
@@ -9286,7 +9490,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 92,
+      "index": 94,
       "total": 98
     },
     "im:name": {
@@ -9388,7 +9592,109 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 93,
+      "index": 95,
+      "total": 98
+    },
+    "im:name": {
+      "label": "DayPlus - Countdown & Count Up"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9b/9e/5d/9b9e5dbf-9b20-37a9-0135-3ca55edfe559/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9b/9e/5d/9b9e5dbf-9b20-37a9-0135-3ca55edfe559/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9b/9e/5d/9b9e5dbf-9b20-37a9-0135-3ca55edfe559/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "DayPlus lets you easily create and track countdowns for important events or dates in your life. Customize with backgrounds, colors, and reminders. Share exciting countdowns with friends and family.\n\nKey Features:\n* iCloud backup,Keep your countdowns safe with iCloud integration.\n* Quickly add countdowns for events, goals, trips, births, weddings, etc\n* View countdowns on app,  lock screen and home screen\n* Customizable backgrounds, colors\n* Receive reminders 1 day before or 1 week before the event.\n* Share your countdowns with friends and family\n* Track all your countdowns and life events on the timeline\n* Light and dark mode\n* Supports repeating countdowns (daily, weekly, etc)\n* Auto-delete countdowns option\n* Lunar calendar support\n\nDo you have suggestions? Contact us at hlai.manjun@gmail.com\n\nPrivacy Policy: https://manjun.tech/doc/en/privacy-policy.html\nTerms of Service: https://manjun.tech/doc/en/user-agreement.html"
+    },
+    "im:price": {
+      "label": "HUF1,490.00",
+      "attributes": {
+        "amount": "1490",
+        "currency": "HUF"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Guangzhou Manjun Technology Co., Ltd."
+    },
+    "title": {
+      "label": "DayPlus - Countdown & Count Up - Manjun Tech"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hu/app/dayplus-countdown-count-up/id6463768562?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b6/00/56/b60056be-c55a-7298-9244-9a954c234366/b72dfeaf-0a6a-4956-9c21-d7b7ac882ec1_iPhone_13_mini_-_82.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hu/app/dayplus-countdown-count-up/id6463768562?uo=2",
+      "attributes": {
+        "im:id": "6463768562",
+        "im:bundleId": "tech.manjun.app.daycount"
+      }
+    },
+    "im:artist": {
+      "label": "Manjun Tech",
+      "attributes": {
+        "href": "https://apps.apple.com/hu/developer/manjun-tech/id1675637283?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-10-12T00:00:00-07:00",
+      "attributes": {
+        "label": "October 12, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hu",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 96,
       "total": 98
     },
     "im:name": {
@@ -9490,7 +9796,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 94,
+      "index": 97,
       "total": 98
     },
     "im:name": {
@@ -9592,7 +9898,7 @@
       "country_code": "hu",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 95,
+      "index": 98,
       "total": 98
     },
     "im:name": {
@@ -9686,312 +9992,6 @@
       "label": "2011-12-01T20:20:39-07:00",
       "attributes": {
         "label": "December 1, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 96,
-      "total": 98
-    },
-    "im:name": {
-      "label": "BrainWave: Dream Inducer ™"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9f/b5/26/9fb5264c-5397-f6d4-f2d3-f6af1a7533e0/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9f/b5/26/9fb5264c-5397-f6d4-f2d3-f6af1a7533e0/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9f/b5/26/9fb5264c-5397-f6d4-f2d3-f6af1a7533e0/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "11 Advanced Binaural Dream Induction Programs in One App!  Dream Inducer combines soothing ambient sounds with powerful binaural sequences to synchronize your brainwaves with frequencies associated with 11 different levels of dreaming. * Universal iOS App for iPhone/Pad * Headphones or Earbuds must be worn for binaural tones to be effective.  \n\n* Each program includes a sleep induction phase and then introduces progressively higher frequency Alpha, Beta, and Theta dream sequences to stimulate increasingly vivid dreams.\n\n* To combine Brainwaves and Ambience with Audio from Another App use the 'Ambience + Other App' background mode.\n\n* To use just Brainwaves and Audio from Another App use the \"Other App\" option for the Background Mode.\n\n** How Binaural Brainwave Entrainment Works **\nThrough the process of brainwave entrainment human brainwave frequencies can be synchronized with a  frequency associated with a target mental state.  These Brainwave frequencies are too low for the human ear to hear, however, these low-frequencies can be perceived by the human brain if two different audible frequencies are played separately into each ear with headphones or earbuds.  For example, the human ear can't directly perceive the 2 Hz Delta-wave frequency associated with deep sleep, but if you wear headphones with one side playing a 135 Hz tone and the other playing a 137 Hz tone your brain will perceive the 2 Hz difference between those frequencies as a periodic beat.  As you listen, your brainwaves will begin to match that frequency, inducing the associated mental state.\n\nDream Inducer improves upon basic binaural techniques by layering multiple signals and then assembling these into sequences of programs that combine to create extremely unique experiences."
-    },
-    "im:price": {
-      "label": "HUF999.00",
-      "attributes": {
-        "amount": "999",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Banzai Labs Inc"
-    },
-    "title": {
-      "label": "BrainWave: Dream Inducer ™ - Banzai Labs"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/brainwave-dream-inducer/id383185215?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a9/11/84/a9118485-f407-da58-6db4-e5856e188074/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/brainwave-dream-inducer/id383185215?uo=2",
-      "attributes": {
-        "im:id": "383185215",
-        "im:bundleId": "com.banzailabs.Dream"
-      }
-    },
-    "im:artist": {
-      "label": "Banzai Labs",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/banzai-labs/id305909501?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-07-30T11:14:51-07:00",
-      "attributes": {
-        "label": "July 30, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 97,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Foscam HD 2 Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple30/v4/2c/21/dc/2c21dc7b-7b89-6a48-1da8-6eb758610af0/mzl.fooflpni.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple30/v4/2c/21/dc/2c21dc7b-7b89-6a48-1da8-6eb758610af0/mzl.fooflpni.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple30/v4/2c/21/dc/2c21dc7b-7b89-6a48-1da8-6eb758610af0/mzl.fooflpni.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Foscam HD 2 Pro (formerly known as Foscam Surveillance 2 Pro) is the successor of Foscam Surveillance, the best-selling camera app for Foscam. It's the only app you need for controlling your Foscam cameras. Wether you want to protect your business or home, keep an extra eye on you elderly mother or don't want to miss a single second of your new-born baby: this is the app you need.\n\nHighlights (for an overview of features see http://foscamapp.com/2/features/):\n\n- Shows the full HD streams of the cameras (in contrast to those other apps that show a scaled down, low framerate image)\n- Today screen support!\n- Mosaic with 2, 4 or 6 cameras\n- Different zones\n- Supports most Foscam MJPEG and HD cameras\n- Preliminary support for Amcrest cameras!\n- Motion detection\n- Sound detection for cameras that support it\n- Pan/tilt\n- iPad support (and not just scaled up!)\n- Two-way audio (currently only for Foscam MJPEG cameras)\n- Connection monitoring\n- Find camera in the network\n- Patrol\n- Presets\n- Optical zoom for cameras that support it\n- HTTPS support for Foscam HD camera models that support it\n- Mail server setup from within the app\n- And much much more\n\nPlease note that not all features are available for all cameras!\n\nSupported Foscam models: C1 C2 FI8601 (MJPEG) FI8602 (H264) FI8602 (MJPEG) FI8604 FI8605 FI8608W FI8620 FI8901W FI8902W FI8903W FI8904W FI8905W/FI8905E FI8906W FI8907 FI8907W FI8908W FI8909W FI8909W-NA FI8910W FI8916W FI8918W/FI8918E FI8918W/FI8918E reversed pan FI8919W FI9800P/FI9800EP FI9801W FI9802W FI9803 FI9803P V1 FI9803P V2 FI9803W FI9804W FI9805W FI9816P FI9818W V1 FI9818W V2 FI9820W FI9821E FI9821P FI9821W V1 FI9821W V2 FI9826P FI9826W FI9828P V2 FI9828W/FI9828P V1 FI9831W/FI9831P FI9851W/FI9851P FI9853W/FI9853P/FI9853EP FI9900P/FI9900EP \nFI9903P/FI9903EP FosBaby R2\nSupported Chinese models: EH8165 FHD973P/EF9725 HD811W V1 HD811W V2 HD815P/EH8135 HD816E V1 HD816E V2 HD816P V1 HD816P V2 HD816W V1 HD816W V2 HD818P V1/EH8155 V1 HD818P V2/EH8155 V2 HD818W HD931/EH9331/EH9311/EH9312 HD931W HD933/EH9331/HD933E/EH9333 HD950/HD950E/EH9501/EH9502 HD950W HD950W/EH9502 HD951 HD951W HD953/HD953E HD953W HD963W/HD963P V1 HD963W/HD963P V2 HD965 IQ IQ200 SD810W SD810W reversed pan SD812W \nSupported Fostar models: FC9821P\nSupported Amcrest models: IP2M-841 IP2M-842 IP2M-842E IP2M-954E IP4M-1024E IPM-721 IPM-722 IPM-743E \nFor a complete list, see http://foscamapp.com/2/cameras/\n\n3G/4G or wireless network connection required, for use outside your home network you'll need to setup portforwarding on your router or setup a VPN connection, see the FAQ."
-    },
-    "im:price": {
-      "label": "HUF1,990.00",
-      "attributes": {
-        "amount": "1990",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© The Convenience Factory BV"
-    },
-    "title": {
-      "label": "Foscam HD 2 Pro - The Convenience Factory B.V."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/foscam-hd-2-pro/id1028965705?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple69/v4/67/bf/6e/67bf6e69-e97d-97f0-094f-b1f09a87ccf5/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/foscam-hd-2-pro/id1028965705?uo=2",
-      "attributes": {
-        "im:id": "1028965705",
-        "im:bundleId": "com.tcf.foscamv2"
-      }
-    },
-    "im:artist": {
-      "label": "The Convenience Factory B.V.",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/the-convenience-factory-b-v/id373509503?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-11-24T01:44:28-07:00",
-      "attributes": {
-        "label": "November 24, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hu",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 98,
-      "total": 98
-    },
-    "im:name": {
-      "label": "More Toast!"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/84/87/6a/84876ab9-78c4-9b9f-98b9-3687056e59bb/mzl.psjwzsny.jpg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/84/87/6a/84876ab9-78c4-9b9f-98b9-3687056e59bb/mzl.psjwzsny.jpg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/84/87/6a/84876ab9-78c4-9b9f-98b9-3687056e59bb/mzl.psjwzsny.jpg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Make virtual toast, bagels, waffles, sandwiches and more, with nearly limitless toppings & customization, right on your iPhone or iPod Touch!  From Maverick Software, creators of the best food games on the App Store- Cupcakes!, More Sundaes!, More Pizza!, and More Breakfast! \n\n- Featured in iTunes Rewind Top Sellers\n- \"More Toast! is a little slice of genius\" - Slate.com\n- 8,000 five star App Store reviews \n- One of Channel 4 UK's Top 10 food apps\n\nIf you download only one virtual toaster for the iPhone, this should be it!\n \nMore Toast gives your iPhone or iPod Touch the ability to make virtual toast.  And so much more!\n\nThat's right, hot & golden brown toast popping right out of a toaster on your iPhone screen.  With toaster sound effects, adjustable settings from light to dark, one or two slice capacity, and a choice of toast. Even choose a photo to burn onto the toast automatically.  \n\nAfter your toast is done, you can choose from 100 different photo-realistic toppings to put on it, make a sandwich with it, take a snapshot to share with friends, or even virtually eat it!\n\nNeed more? Turn on the Toast-O-Meter and see how many slices you've made.  Then check out the world-wide leaderboards to see how you stack up against the other toastmasters of the world.\n\nAmaze or confuse your friends!  Have virtual toast anywhere, any time!  Your iPhone does so many things, shouldn't it make you toast as well?\n\nFeatures:\n - 100 different toppings\n-  25 achievements to earn and brag about on Game Center\n - Over a dozen kinds of food to toast, from bagels to pancakes, waffles, and cookies\n - Customizable toaster (pick colors & icon, or add a photo to the front)\n - Share a picture of your toast via email, Facebook, or save to your Photos library\n - Eat your toast, a bite a time\n - Choose any photo have it burnt into your toast\n - Cut the crusts off your toast, or cut it in half before eating\n - Multiple styles of plates to serve your toast on\n - Make a sandwich after you've toasted and added toppings to your bread."
-    },
-    "im:price": {
-      "label": "HUF499.00",
-      "attributes": {
-        "amount": "499",
-        "currency": "HUF"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2015 Maverick Software"
-    },
-    "title": {
-      "label": "More Toast! - Maverick Software LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hu/app/more-toast/id296180799?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/91/1f/32/911f3292-d9fd-0f1d-c260-3e0ba934204a/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hu/app/more-toast/id296180799?uo=2",
-      "attributes": {
-        "im:id": "296180799",
-        "im:bundleId": "com.mavericksoftware.moretoast"
-      }
-    },
-    "im:artist": {
-      "label": "Maverick Software LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/hu/developer/maverick-software-llc/id284540824?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/hu/genre/ios-lifestyle/id6012?uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2008-12-12T16:13:20-07:00",
-      "attributes": {
-        "label": "December 12, 2008"
       }
     }
   }

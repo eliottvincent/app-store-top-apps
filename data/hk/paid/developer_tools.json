@@ -416,108 +416,6 @@
       "total": 81
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "HK$ 32.00",
-      "attributes": {
-        "amount": "32.00",
-        "currency": "HKD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hk/app/laddertouch/id386737169?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hk/app/laddertouch/id386737169?l=en&uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/hk/developer/motonari-hibi/id386737172?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/hk/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hk",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 6,
-      "total": 81
-    },
-    "im:name": {
       "label": "Juno: Jupyter/Python IDE"
     },
     "im:image": [
@@ -608,6 +506,108 @@
       "label": "2019-09-26T00:00:00-07:00",
       "attributes": {
         "label": "September 26, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hk",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 6,
+      "total": 81
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "HK$ 32.00",
+      "attributes": {
+        "amount": "32.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/laddertouch/id386737169?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/laddertouch/id386737169?l=en&uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/motonari-hibi/id386737172?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/hk/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
       }
     }
   },
@@ -926,108 +926,6 @@
       "total": 81
     },
     "im:name": {
-      "label": "SSL Toolkit"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "SSL Toolkit offers useful tools to help you in your daily work with SSL certificates.\n\nThese are some features provided by SSL Toolkit :\n- Check installed certificate\n- Check TLS versions\n- Search Certificate Transparency Log\n- View Certificate Transparency Log in realtime\n- PKCS7 Converter\n- PKCS12 Converter\n- Generate self-signed certificates\n- Generate RSA / ECC CSR\n- Manage RSA / ECC CSR\n- PEM parser supporting X509, PKCS7 and CSR in PEM format.\n- OCSP Check\n- IDN converter\n- Base64 Converter\n- Root/Intermediate search\n- CRL Check"
-    },
-    "im:price": {
-      "label": "HK$ 88.00",
-      "attributes": {
-        "amount": "88.00",
-        "currency": "HKD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Feuerberg Software"
-    },
-    "title": {
-      "label": "SSL Toolkit - Daniel Linsenmeier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/hk/app/ssl-toolkit/id1547278785?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/37/43/c3/3743c3fc-aa0d-c084-72fe-1e176def2e31/910563fb-909e-4923-b8ed-68eb88bb5f26_apple_tablet_screenshot_0.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/hk/app/ssl-toolkit/id1547278785?l=en&uo=2",
-      "attributes": {
-        "im:id": "1547278785",
-        "im:bundleId": "de.feuerbergsoftware.ssl-checker"
-      }
-    },
-    "im:artist": {
-      "label": "Daniel Linsenmeier",
-      "attributes": {
-        "href": "https://apps.apple.com/hk/developer/daniel-linsenmeier/id1543220963?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/hk/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-22T00:00:00-07:00",
-      "attributes": {
-        "label": "January 22, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "hk",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 11,
-      "total": 81
-    },
-    "im:name": {
       "label": "Programming Notebook PRO"
     },
     "im:image": [
@@ -1126,39 +1024,39 @@
       "country_code": "hk",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 11,
       "total": 81
     },
     "im:name": {
-      "label": "Learn SQL for MySQL"
+      "label": "SSL Toolkit"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Will you start learning SQL in MySQL?\nDid you forget the statements many times?\nDo you no longer remember the syntax and the result of an statement?\n\nDeveloped to easily learn SQL Programming for MySQL\n\n. . . . . . . . . . . . . . . . . . . . . \n\nThis App acts as a reference for the SQL language\nLearn DML & DDL statements with description, syntax, notes and examples\n\nFor each statement is presented:\n\nDetailed description of the statement/command purpose\n\nSyntax of the statement with various options\n\nTwo examples executed from a real table (Automobile Table)\n\nProvides:\n. . . . . . . . . . . . . . . . . . . . . \n\n1. GENERAL\n  \n1.1 - Comments\n1.2 - Data Types\n  \n2. (DML) Data Manipulation Language\n  \n2.1 – SELECT\n\n  - Columns, Multi-Column, All Columns\n  - Expressions, Functions, Alias\n  - Limit, Distinct, Order By\n  - Where\n  - Relational, Math & String Operators\n  - Wildcards\n  - Group By, Having, Aggregate Functions\n  - Union (Any & All)\n  - Subqueries\n  - Joins (Inner, Right, Left)\n  - Select Into\n  \n2.2 - INSERT\n\n  - With Columns names\n  - Without Column names\n  - Rules\n  - Insert Into ... Select\n   \n2.3 - DELETE\n\n  - Delete All Rows\n  - Delete ... Where\n  - Rules\n  - Referencial Integrity\n   \n2.4 - UPDATE\n\n  - Update All Rows\n  - Update ... Where\n  - Rules\n\n  \n3. (DDL) DATA DEFINITION LANGUAGE\n  \n3.1 - CREATE\n\n  - Create Database\n  - Create Table\n  - Create Index\n  - Auto-Increment\n  - Constraints (PK, FK, CK, DF, UQ, NN)\n\n3.2 - ALTER\n\n  - Alter Columns\n  - Add Constraints\n  - Drop Constrains\n\n3.3 - DROP\n\n  - Drop Table\n  - Drop Database\n  - Drop Index\n  \n3.4 - TUNCATE \n  \n  - Delete Versus Truncate"
+      "label": "SSL Toolkit offers useful tools to help you in your daily work with SSL certificates.\n\nThese are some features provided by SSL Toolkit :\n- Check installed certificate\n- Check TLS versions\n- Search Certificate Transparency Log\n- View Certificate Transparency Log in realtime\n- PKCS7 Converter\n- PKCS12 Converter\n- Generate self-signed certificates\n- Generate RSA / ECC CSR\n- Manage RSA / ECC CSR\n- PEM parser supporting X509, PKCS7 and CSR in PEM format.\n- OCSP Check\n- IDN converter\n- Base64 Converter\n- Root/Intermediate search\n- CRL Check"
     },
     "im:price": {
-      "label": "HK$ 38.00",
+      "label": "HK$ 88.00",
       "attributes": {
-        "amount": "38.00",
+        "amount": "88.00",
         "currency": "HKD"
       }
     },
@@ -1169,17 +1067,17 @@
       }
     },
     "rights": {
-      "label": "© Paulo Narra 2021"
+      "label": "© 2023 Feuerberg Software"
     },
     "title": {
-      "label": "Learn SQL for MySQL - Paulo Narra"
+      "label": "SSL Toolkit - Daniel Linsenmeier"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/hk/app/learn-sql-for-mysql/id1521671915?l=en&uo=2"
+          "href": "https://apps.apple.com/hk/app/ssl-toolkit/id1547278785?l=en&uo=2"
         }
       },
       {
@@ -1190,22 +1088,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/bc/c9/d8/bcc9d889-f795-5f29-3347-9e54b3703bb2/d40e5728-33c9-411a-b098-4f1eabce0bd7_foto2.jpg/480x480bb.jpg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/37/43/c3/3743c3fc-aa0d-c084-72fe-1e176def2e31/910563fb-909e-4923-b8ed-68eb88bb5f26_apple_tablet_screenshot_0.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/hk/app/learn-sql-for-mysql/id1521671915?l=en&uo=2",
+      "label": "https://apps.apple.com/hk/app/ssl-toolkit/id1547278785?l=en&uo=2",
       "attributes": {
-        "im:id": "1521671915",
-        "im:bundleId": "com.pmbNarra.MySql"
+        "im:id": "1547278785",
+        "im:bundleId": "de.feuerbergsoftware.ssl-checker"
       }
     },
     "im:artist": {
-      "label": "Paulo Narra",
+      "label": "Daniel Linsenmeier",
       "attributes": {
-        "href": "https://apps.apple.com/hk/developer/paulo-narra/id1251717382?l=en&uo=2"
+        "href": "https://apps.apple.com/hk/developer/daniel-linsenmeier/id1543220963?l=en&uo=2"
       }
     },
     "category": {
@@ -1217,9 +1115,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-07-02T00:00:00-07:00",
+      "label": "2021-01-22T00:00:00-07:00",
       "attributes": {
-        "label": "July 2, 2020"
+        "label": "January 22, 2021"
       }
     }
   },
@@ -1228,7 +1126,7 @@
       "country_code": "hk",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 12,
       "total": 81
     },
     "im:name": {
@@ -1322,6 +1220,108 @@
       "label": "2017-08-17T15:49:41-07:00",
       "attributes": {
         "label": "August 17, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "hk",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 13,
+      "total": 81
+    },
+    "im:name": {
+      "label": "Learn SQL for MySQL"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/5e/4b/ef5e4b84-1a6e-3dcd-37e5-8e2afb81cff2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Will you start learning SQL in MySQL?\nDid you forget the statements many times?\nDo you no longer remember the syntax and the result of an statement?\n\nDeveloped to easily learn SQL Programming for MySQL\n\n. . . . . . . . . . . . . . . . . . . . . \n\nThis App acts as a reference for the SQL language\nLearn DML & DDL statements with description, syntax, notes and examples\n\nFor each statement is presented:\n\nDetailed description of the statement/command purpose\n\nSyntax of the statement with various options\n\nTwo examples executed from a real table (Automobile Table)\n\nProvides:\n. . . . . . . . . . . . . . . . . . . . . \n\n1. GENERAL\n  \n1.1 - Comments\n1.2 - Data Types\n  \n2. (DML) Data Manipulation Language\n  \n2.1 – SELECT\n\n  - Columns, Multi-Column, All Columns\n  - Expressions, Functions, Alias\n  - Limit, Distinct, Order By\n  - Where\n  - Relational, Math & String Operators\n  - Wildcards\n  - Group By, Having, Aggregate Functions\n  - Union (Any & All)\n  - Subqueries\n  - Joins (Inner, Right, Left)\n  - Select Into\n  \n2.2 - INSERT\n\n  - With Columns names\n  - Without Column names\n  - Rules\n  - Insert Into ... Select\n   \n2.3 - DELETE\n\n  - Delete All Rows\n  - Delete ... Where\n  - Rules\n  - Referencial Integrity\n   \n2.4 - UPDATE\n\n  - Update All Rows\n  - Update ... Where\n  - Rules\n\n  \n3. (DDL) DATA DEFINITION LANGUAGE\n  \n3.1 - CREATE\n\n  - Create Database\n  - Create Table\n  - Create Index\n  - Auto-Increment\n  - Constraints (PK, FK, CK, DF, UQ, NN)\n\n3.2 - ALTER\n\n  - Alter Columns\n  - Add Constraints\n  - Drop Constrains\n\n3.3 - DROP\n\n  - Drop Table\n  - Drop Database\n  - Drop Index\n  \n3.4 - TUNCATE \n  \n  - Delete Versus Truncate"
+    },
+    "im:price": {
+      "label": "HK$ 38.00",
+      "attributes": {
+        "amount": "38.00",
+        "currency": "HKD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Paulo Narra 2021"
+    },
+    "title": {
+      "label": "Learn SQL for MySQL - Paulo Narra"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/hk/app/learn-sql-for-mysql/id1521671915?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/bc/c9/d8/bcc9d889-f795-5f29-3347-9e54b3703bb2/d40e5728-33c9-411a-b098-4f1eabce0bd7_foto2.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/hk/app/learn-sql-for-mysql/id1521671915?l=en&uo=2",
+      "attributes": {
+        "im:id": "1521671915",
+        "im:bundleId": "com.pmbNarra.MySql"
+      }
+    },
+    "im:artist": {
+      "label": "Paulo Narra",
+      "attributes": {
+        "href": "https://apps.apple.com/hk/developer/paulo-narra/id1251717382?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/hk/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-07-02T00:00:00-07:00",
+      "attributes": {
+        "label": "July 2, 2020"
       }
     }
   },

@@ -620,108 +620,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "19,99 zł",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "PLN"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/pl/app/laddertouch/id386737169?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/pl/app/laddertouch/id386737169?uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/pl/developer/motonari-hibi/id386737172?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/pl/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "pl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 8,
-      "total": 98
-    },
-    "im:name": {
       "label": "Code App"
     },
     "im:image": [
@@ -812,6 +710,108 @@
       "label": "2020-05-28T00:00:00-07:00",
       "attributes": {
         "label": "May 28, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "pl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 8,
+      "total": 98
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "19,99 zł",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "PLN"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/pl/app/laddertouch/id386737169?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/pl/app/laddertouch/id386737169?uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/pl/developer/motonari-hibi/id386737172?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/pl/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
       }
     }
   },
@@ -1844,108 +1844,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "VSCoW - Code Wrapper"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/03/9f/15039ffa-5155-d5ef-97f4-915b096eb28b/AppIconVSDev-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/03/9f/15039ffa-5155-d5ef-97f4-915b096eb28b/AppIconVSDev-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/03/9f/15039ffa-5155-d5ef-97f4-915b096eb28b/AppIconVSDev-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "„The Ultimate Code Wrapper“ is a special version of „UCoW - Ultimate Code Wrapper“ for use with  https://vscode.dev. \n\nIt supports „Liveshare“ and „Tunnel“ urls and works seamless with the UCoW App by switching over and sharing remotes.\n\nIt supports all UCoW editing features. That means you can use all defined and global shortcuts without the limitation of a browser.\n\nIt also adds a custom Keybar, including an innovative new \"cursor control stick\" to the virtual keyboard.\n\nShort features overview:\n• Access to all keyboard shortcuts (physical keyboard required)\n• Extra Key-bar with many onscreen shortcuts\n(including a virtual stick to move the cursor without a trackpad/mouse)\n• Best possible performance on iPad devices\n• Quick switch between multiple code-server instances\n• Optimized Trackpad support\n• Multi instance and window support\n• Editor scale/zoom support\n\nFor self-hosted Code-server, OpenVSCode Server, gitpod, github codespaces, github1s, jupyter notebooks, jetbrains projector and stackblitz and other services check out the Basic App: \n„UCoW - The Ultimate Code Wrapper“\n\nAn external keyboard is recommended to use the app since selection with the touch cursor is not supported in VSCode at this moment.\n\nThis is a wrapper app only and is not affiliated with or endorsed by Microsoft Corporation."
-    },
-    "im:price": {
-      "label": "14,99 zł",
-      "attributes": {
-        "amount": "14.99",
-        "currency": "PLN"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Christoph Gogolin | Gogolith 2022"
-    },
-    "title": {
-      "label": "VSCoW - Code Wrapper - Christoph Gogolin"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/pl/app/vscow-code-wrapper/id6444493151?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/6c/be/78/6cbe7830-a24c-fbfa-166b-a6ec257d621e/80a83538-9866-433d-82e5-f907790d9eb6_2732x2048bb.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/pl/app/vscow-code-wrapper/id6444493151?uo=2",
-      "attributes": {
-        "im:id": "6444493151",
-        "im:bundleId": "com.gogolith.vscodewrapper.vsdev"
-      }
-    },
-    "im:artist": {
-      "label": "Christoph Gogolin",
-      "attributes": {
-        "href": "https://apps.apple.com/pl/developer/christoph-gogolin/id511901280?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/pl/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-03-15T00:00:00-07:00",
-      "attributes": {
-        "label": "March 15, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "pl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 20,
-      "total": 98
-    },
-    "im:name": {
       "label": "Zeitgeist"
     },
     "im:image": [
@@ -2044,7 +1942,7 @@
       "country_code": "pl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 20,
       "total": 98
     },
     "im:name": {
@@ -2146,7 +2044,7 @@
       "country_code": "pl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 21,
       "total": 98
     },
     "im:name": {
@@ -2248,7 +2146,7 @@
       "country_code": "pl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 22,
       "total": 98
     },
     "im:name": {
@@ -2350,7 +2248,7 @@
       "country_code": "pl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 23,
       "total": 98
     },
     "im:name": {
@@ -2452,7 +2350,7 @@
       "country_code": "pl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 24,
       "total": 98
     },
     "im:name": {
@@ -2546,6 +2444,108 @@
       "label": "2020-09-16T00:00:00-07:00",
       "attributes": {
         "label": "September 16, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "pl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 25,
+      "total": 98
+    },
+    "im:name": {
+      "label": "VSCoW - Code Wrapper"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/03/9f/15039ffa-5155-d5ef-97f4-915b096eb28b/AppIconVSDev-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/03/9f/15039ffa-5155-d5ef-97f4-915b096eb28b/AppIconVSDev-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/03/9f/15039ffa-5155-d5ef-97f4-915b096eb28b/AppIconVSDev-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "„The Ultimate Code Wrapper“ is a special version of „UCoW - Ultimate Code Wrapper“ for use with  https://vscode.dev. \n\nIt supports „Liveshare“ and „Tunnel“ urls and works seamless with the UCoW App by switching over and sharing remotes.\n\nIt supports all UCoW editing features. That means you can use all defined and global shortcuts without the limitation of a browser.\n\nIt also adds a custom Keybar, including an innovative new \"cursor control stick\" to the virtual keyboard.\n\nShort features overview:\n• Access to all keyboard shortcuts (physical keyboard required)\n• Extra Key-bar with many onscreen shortcuts\n(including a virtual stick to move the cursor without a trackpad/mouse)\n• Best possible performance on iPad devices\n• Quick switch between multiple code-server instances\n• Optimized Trackpad support\n• Multi instance and window support\n• Editor scale/zoom support\n\nFor self-hosted Code-server, OpenVSCode Server, gitpod, github codespaces, github1s, jupyter notebooks, jetbrains projector and stackblitz and other services check out the Basic App: \n„UCoW - The Ultimate Code Wrapper“\n\nAn external keyboard is recommended to use the app since selection with the touch cursor is not supported in VSCode at this moment.\n\nThis is a wrapper app only and is not affiliated with or endorsed by Microsoft Corporation."
+    },
+    "im:price": {
+      "label": "14,99 zł",
+      "attributes": {
+        "amount": "14.99",
+        "currency": "PLN"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Christoph Gogolin | Gogolith 2022"
+    },
+    "title": {
+      "label": "VSCoW - Code Wrapper - Christoph Gogolin"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/pl/app/vscow-code-wrapper/id6444493151?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/6c/be/78/6cbe7830-a24c-fbfa-166b-a6ec257d621e/80a83538-9866-433d-82e5-f907790d9eb6_2732x2048bb.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/pl/app/vscow-code-wrapper/id6444493151?uo=2",
+      "attributes": {
+        "im:id": "6444493151",
+        "im:bundleId": "com.gogolith.vscodewrapper.vsdev"
+      }
+    },
+    "im:artist": {
+      "label": "Christoph Gogolin",
+      "attributes": {
+        "href": "https://apps.apple.com/pl/developer/christoph-gogolin/id511901280?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/pl/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-03-15T00:00:00-07:00",
+      "attributes": {
+        "label": "March 15, 2023"
       }
     }
   },

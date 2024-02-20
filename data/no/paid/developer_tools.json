@@ -722,108 +722,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "49,00 kr",
-      "attributes": {
-        "amount": "49.00",
-        "currency": "NOK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/no/app/laddertouch/id386737169?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/no/app/laddertouch/id386737169?uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/no/developer/motonari-hibi/id386737172?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "no",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 9,
-      "total": 98
-    },
-    "im:name": {
       "label": "Continuous .NET C# and F# IDE"
     },
     "im:image": [
@@ -914,6 +812,108 @@
       "label": "2016-07-06T10:01:12-07:00",
       "attributes": {
         "label": "July 6, 2016"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "no",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 9,
+      "total": 98
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "49,00 kr",
+      "attributes": {
+        "amount": "49.00",
+        "currency": "NOK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/no/app/laddertouch/id386737169?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/no/app/laddertouch/id386737169?uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/no/developer/motonari-hibi/id386737172?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2010"
       }
     }
   },
@@ -1640,108 +1640,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "SSL Toolkit"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "SSL Toolkit offers useful tools to help you in your daily work with SSL certificates.\n\nThese are some features provided by SSL Toolkit :\n- Check installed certificate\n- Check TLS versions\n- Search Certificate Transparency Log\n- View Certificate Transparency Log in realtime\n- PKCS7 Converter\n- PKCS12 Converter\n- Generate self-signed certificates\n- Generate RSA / ECC CSR\n- Manage RSA / ECC CSR\n- PEM parser supporting X509, PKCS7 and CSR in PEM format.\n- OCSP Check\n- IDN converter\n- Base64 Converter\n- Root/Intermediate search\n- CRL Check"
-    },
-    "im:price": {
-      "label": "129,00 kr",
-      "attributes": {
-        "amount": "129.00",
-        "currency": "NOK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Feuerberg Software"
-    },
-    "title": {
-      "label": "SSL Toolkit - Daniel Linsenmeier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/no/app/ssl-toolkit/id1547278785?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/37/43/c3/3743c3fc-aa0d-c084-72fe-1e176def2e31/910563fb-909e-4923-b8ed-68eb88bb5f26_apple_tablet_screenshot_0.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/no/app/ssl-toolkit/id1547278785?uo=2",
-      "attributes": {
-        "im:id": "1547278785",
-        "im:bundleId": "de.feuerbergsoftware.ssl-checker"
-      }
-    },
-    "im:artist": {
-      "label": "Daniel Linsenmeier",
-      "attributes": {
-        "href": "https://apps.apple.com/no/developer/daniel-linsenmeier/id1543220963?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-22T00:00:00-07:00",
-      "attributes": {
-        "label": "January 22, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "no",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 18,
-      "total": 98
-    },
-    "im:name": {
       "label": "ESP32 BLE Terminal"
     },
     "im:image": [
@@ -1840,7 +1738,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 98
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "no",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 19,
       "total": 98
     },
     "im:name": {
@@ -2036,6 +1934,108 @@
       "label": "2019-05-03T19:43:56-07:00",
       "attributes": {
         "label": "May 3, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "no",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 20,
+      "total": 98
+    },
+    "im:name": {
+      "label": "SSL Toolkit"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "SSL Toolkit offers useful tools to help you in your daily work with SSL certificates.\n\nThese are some features provided by SSL Toolkit :\n- Check installed certificate\n- Check TLS versions\n- Search Certificate Transparency Log\n- View Certificate Transparency Log in realtime\n- PKCS7 Converter\n- PKCS12 Converter\n- Generate self-signed certificates\n- Generate RSA / ECC CSR\n- Manage RSA / ECC CSR\n- PEM parser supporting X509, PKCS7 and CSR in PEM format.\n- OCSP Check\n- IDN converter\n- Base64 Converter\n- Root/Intermediate search\n- CRL Check"
+    },
+    "im:price": {
+      "label": "129,00 kr",
+      "attributes": {
+        "amount": "129.00",
+        "currency": "NOK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Feuerberg Software"
+    },
+    "title": {
+      "label": "SSL Toolkit - Daniel Linsenmeier"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/no/app/ssl-toolkit/id1547278785?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/37/43/c3/3743c3fc-aa0d-c084-72fe-1e176def2e31/910563fb-909e-4923-b8ed-68eb88bb5f26_apple_tablet_screenshot_0.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/no/app/ssl-toolkit/id1547278785?uo=2",
+      "attributes": {
+        "im:id": "1547278785",
+        "im:bundleId": "de.feuerbergsoftware.ssl-checker"
+      }
+    },
+    "im:artist": {
+      "label": "Daniel Linsenmeier",
+      "attributes": {
+        "href": "https://apps.apple.com/no/developer/daniel-linsenmeier/id1543220963?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/no/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-22T00:00:00-07:00",
+      "attributes": {
+        "label": "January 22, 2021"
       }
     }
   },
@@ -3276,19 +3276,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/d8/94/f0d894b3-5829-e3db-1e07-6a2eb96757cb/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -3311,7 +3311,7 @@
       }
     },
     "rights": {
-      "label": "© 2008-2023 Laurent Rodier."
+      "label": "© 2008-2024 Laurent Rodier."
     },
     "title": {
       "label": "My Lisp - Laurent Rodier"

@@ -8,35 +8,35 @@
       "total": 98
     },
     "im:name": {
-      "label": "Docker Management"
+      "label": "Netdata server monitoring"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/08/43/75/08437532-29da-553e-be12-c6beb39952f0/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/08/43/75/08437532-29da-553e-be12-c6beb39952f0/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/08/43/75/08437532-29da-553e-be12-c6beb39952f0/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+      "label": "Netdata is distributed, real-time performance and health monitoring for systems and applications. It is a highly-optimized monitoring agent you install on all your systems and containers.\n\nNote. \n1. This app does NOT work with Netdata Cloud.\n2. This app is an independent iOS/macOS client and is not officially affiliated with, authorized, maintained, sponsored, or endorsed by Netdata (Netdata Inc) or any of its affiliates or subsidiaries. This application is open-source, and it operates by utilising the APIs provided by Netdata.\n\nFeatures\n\n- Real-time monitoring on the go\nMonitor everything in real time on your mobile device\n\n- Seamless connection\nWorks out-of-the-box with any Netdata instance\n\n- Authentication\nSupport for authenticating using HTTP/HTTPS Basic Auth\n\n- Monitor Local servers\nSupport for accessing local and remote Netdata instances\n\n- iCloud Sync\nYour data is automatically synced across all your devices\n\n- Open-source\nOpen-source iOS, iPadOS and macOS client"
     },
     "im:price": {
-      "label": "€ 6,99",
+      "label": "€ 5,99",
       "attributes": {
-        "amount": "6.99",
+        "amount": "5.99",
         "currency": "EUR"
       }
     },
@@ -47,17 +47,17 @@
       }
     },
     "rights": {
-      "label": "© nevishs"
+      "label": "© Copyright (C) Arjun Komath"
     },
     "title": {
-      "label": "Docker Management - Nevis Shkenza"
+      "label": "Netdata server monitoring - Arjun Komath"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/docker-management/id1527656144?l=en&uo=2"
+          "href": "https://apps.apple.com/nl/app/netdata-server-monitoring/id1525322870?l=en&uo=2"
         }
       },
       {
@@ -68,22 +68,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/32/22/98/322298ee-6ce5-6475-3d38-7aba1f5512fb/6fddbdcc-16b1-446f-b11b-5fc975f45571_IMG_0066.PNG/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/nl/app/docker-management/id1527656144?l=en&uo=2",
+      "label": "https://apps.apple.com/nl/app/netdata-server-monitoring/id1525322870?l=en&uo=2",
       "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
+        "im:id": "1525322870",
+        "im:bundleId": "com.techulus.netdata"
       }
     },
     "im:artist": {
-      "label": "Nevis Shkenza",
+      "label": "Arjun Komath",
       "attributes": {
-        "href": "https://apps.apple.com/nl/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+        "href": "https://apps.apple.com/nl/developer/arjun-komath/id1388042509?l=en&uo=2"
       }
     },
     "category": {
@@ -95,9 +95,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
+      "label": "2020-09-16T00:00:00-07:00",
       "attributes": {
-        "label": "August 14, 2020"
+        "label": "September 16, 2020"
       }
     }
   },
@@ -722,6 +722,108 @@
       "total": 98
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "€ 6,99",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/nl/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/nl/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/nl/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "nl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 9,
+      "total": 98
+    },
+    "im:name": {
       "label": "Continuous .NET C# and F# IDE"
     },
     "im:image": [
@@ -820,7 +922,7 @@
       "country_code": "nl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 98
     },
     "im:name": {
@@ -922,7 +1024,7 @@
       "country_code": "nl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 11,
       "total": 98
     },
     "im:name": {
@@ -1016,108 +1118,6 @@
       "label": "2019-05-03T19:43:56-07:00",
       "attributes": {
         "label": "May 3, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "nl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 11,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Logger for Shortcuts"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Logger is the first developer console designed for Shortcuts.\n\nBuilding complex shortcuts is now easier than ever! Use the Logger's shortcut actions to write messages to the console. See them posted in realtime as your shortcut runs - no more Quick Look actions required.\n\nUse the powerful filtering tools to drill down into the output. Filter by category, device, date, contents, search or tags.\n\nAll your messages are synced securely between your devices using iCloud and you can even export your logs to plain text or markdown."
-    },
-    "im:price": {
-      "label": "€ 5,99",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Alex Hay"
-    },
-    "title": {
-      "label": "Logger for Shortcuts - Snailed It Development Ltd"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/logger-for-shortcuts/id1611554653?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/65/7a/91/657a91fd-edd4-601a-7d86-a747121b9b05/0386aabc-1867-49f9-b8f1-2f94277827a5_iOS_ipad_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/nl/app/logger-for-shortcuts/id1611554653?l=en&uo=2",
-      "attributes": {
-        "im:id": "1611554653",
-        "im:bundleId": "com.alexhay.Console"
-      }
-    },
-    "im:artist": {
-      "label": "Snailed It Development Ltd",
-      "attributes": {
-        "href": "https://apps.apple.com/nl/developer/snailed-it-development-ltd/id1493284299?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-03-10T00:00:00-07:00",
-      "attributes": {
-        "label": "March 10, 2022"
       }
     }
   },
@@ -1436,6 +1436,108 @@
       "total": 98
     },
     "im:name": {
+      "label": "Logger for Shortcuts"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/58/a4/d658a41f-eeaa-0b57-8854-a12b9d873188/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Logger is the first developer console designed for Shortcuts.\n\nBuilding complex shortcuts is now easier than ever! Use the Logger's shortcut actions to write messages to the console. See them posted in realtime as your shortcut runs - no more Quick Look actions required.\n\nUse the powerful filtering tools to drill down into the output. Filter by category, device, date, contents, search or tags.\n\nAll your messages are synced securely between your devices using iCloud and you can even export your logs to plain text or markdown."
+    },
+    "im:price": {
+      "label": "€ 5,99",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Alex Hay"
+    },
+    "title": {
+      "label": "Logger for Shortcuts - Snailed It Development Ltd"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/nl/app/logger-for-shortcuts/id1611554653?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/65/7a/91/657a91fd-edd4-601a-7d86-a747121b9b05/0386aabc-1867-49f9-b8f1-2f94277827a5_iOS_ipad_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/nl/app/logger-for-shortcuts/id1611554653?l=en&uo=2",
+      "attributes": {
+        "im:id": "1611554653",
+        "im:bundleId": "com.alexhay.Console"
+      }
+    },
+    "im:artist": {
+      "label": "Snailed It Development Ltd",
+      "attributes": {
+        "href": "https://apps.apple.com/nl/developer/snailed-it-development-ltd/id1493284299?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-03-10T00:00:00-07:00",
+      "attributes": {
+        "label": "March 10, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "nl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 16,
+      "total": 98
+    },
+    "im:name": {
       "label": "Source 3"
     },
     "im:image": [
@@ -1526,108 +1628,6 @@
       "label": "2014-10-08T10:20:13-07:00",
       "attributes": {
         "label": "October 8, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "nl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 16,
-      "total": 98
-    },
-    "im:name": {
-      "label": "RegEx+"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b4/a1/85/b4a185cd-0de0-845e-487c-be88176e722e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b4/a1/85/b4a185cd-0de0-845e-487c-be88176e722e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b4/a1/85/b4a185cd-0de0-845e-487c-be88176e722e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "A nifty develop tool for the regular expression, for both macOS and iOS. Your data are synced through your devices with CloudKit. There's also a cheat sheet that helps you to get a better understanding of metacharacters and operators of the regular expression."
-    },
-    "im:price": {
-      "label": "€ 0,99",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Lex.sh"
-    },
-    "title": {
-      "label": "RegEx+ - 圣罡 汤"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/regex/id1511763524?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/33/db/c3/33dbc3c0-23d6-b426-5990-20ca919c177e/c7258955-59c7-4a4a-b82d-9740376d4ae7_AppStoreiPadEN1.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/nl/app/regex/id1511763524?l=en&uo=2",
-      "attributes": {
-        "im:id": "1511763524",
-        "im:bundleId": "sh.lex.RegExCatalyst"
-      }
-    },
-    "im:artist": {
-      "label": "圣罡 汤",
-      "attributes": {
-        "href": "https://apps.apple.com/nl/developer/%E5%9C%A3%E7%BD%A1-%E6%B1%A4/id951344278?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-05-06T00:00:00-07:00",
-      "attributes": {
-        "label": "May 6, 2020"
       }
     }
   },
@@ -1742,108 +1742,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "ChatBot for Prompt Engineering"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/88/d8/b4/88d8b465-5d1b-8556-b1ed-f531580bf66e/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/88/d8/b4/88d8b465-5d1b-8556-b1ed-f531580bf66e/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/88/d8/b4/88d8b465-5d1b-8556-b1ed-f531580bf66e/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "ChatBot is a chat application for writing and testing prompts. You can get started by registering your OpenAI API Key.\n\nKey Features:\n・Creating new prompts.\n・Switching the prompt via the menu in the chat screen.\n・Testing the prompt in the chat screen.\n・Saving the chat logs and outputting them by the text format.\n・Copying the text by long pressing on the chat bubble.\n\nPrompts:\nThe ChatBot app provides a prompt menu within the chat screen. The contents of the prompt menu are used the files with \"prompt\" extension in the \"Prompts\" folder located in the ChatBot folder of the \"Files\" app. In the \"Prompts\" folder, you can place your own prompts and add items to the prompts menu.\n\nChat Logs:\nWhen saving a chat log, the content is outputted in the text format in the \"Exports\" folder in ChatBot folder of \"Folder\" app.\n\nIf you are a prompt engineer, this application will be very useful.\nEnjoy the prompt engineering!"
-    },
-    "im:price": {
-      "label": "€ 5,99",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 MagickWorX"
-    },
-    "title": {
-      "label": "ChatBot for Prompt Engineering - Kouichi Abe"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/chatbot-for-prompt-engineering/id6447947211?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/69/e3/c7/69e3c780-29ee-ab53-ca30-0b9419f6c8a3/37d7baca-fe20-4733-aae6-770ae8578c55_ss12.9_001.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/nl/app/chatbot-for-prompt-engineering/id6447947211?l=en&uo=2",
-      "attributes": {
-        "im:id": "6447947211",
-        "im:bundleId": "com.magickworx.ChatBot"
-      }
-    },
-    "im:artist": {
-      "label": "Kouichi Abe",
-      "attributes": {
-        "href": "https://apps.apple.com/nl/developer/kouichi-abe/id295852950?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-04-28T00:00:00-07:00",
-      "attributes": {
-        "label": "April 28, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "nl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 19,
-      "total": 98
-    },
-    "im:name": {
       "label": "iHTTP Tracker -Network monitor"
     },
     "im:image": [
@@ -1934,6 +1832,108 @@
       "label": "2019-05-21T14:09:54-07:00",
       "attributes": {
         "label": "May 21, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "nl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 19,
+      "total": 98
+    },
+    "im:name": {
+      "label": "RegEx+"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/36/51/a9/3651a9b2-0277-188b-e356-8f4ac9ea54b9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/36/51/a9/3651a9b2-0277-188b-e356-8f4ac9ea54b9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/36/51/a9/3651a9b2-0277-188b-e356-8f4ac9ea54b9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Unleash the Power of Regular Expressions with RegEx+!\n\nDesigned for developers by developers, RegEx+ is your go-to tool for mastering regular expressions on both macOS and iOS. Dive into a seamless experience as your data syncs effortlessly across devices via CloudKit, ensuring you have your work where you need it, when you need it. Whether you're a beginner or a seasoned pro, our comprehensive cheatsheet demystifies metacharacters and operators, empowering you to decode and construct complex patterns with ease. Elevate your coding game with RegEx+ and transform the way you handle text, data, and beyond!"
+    },
+    "im:price": {
+      "label": "€ 0,99",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024 Lex.sh"
+    },
+    "title": {
+      "label": "RegEx+ - 圣罡 汤"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/nl/app/regex/id1511763524?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/bd/ff/ae/bdffaee2-1722-0af1-56ec-dc8004f10235/c7258955-59c7-4a4a-b82d-9740376d4ae7_AppStoreiPadEN1.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/nl/app/regex/id1511763524?l=en&uo=2",
+      "attributes": {
+        "im:id": "1511763524",
+        "im:bundleId": "sh.lex.RegExCatalyst"
+      }
+    },
+    "im:artist": {
+      "label": "圣罡 汤",
+      "attributes": {
+        "href": "https://apps.apple.com/nl/developer/%E5%9C%A3%E7%BD%A1-%E6%B1%A4/id951344278?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-05-06T00:00:00-07:00",
+      "attributes": {
+        "label": "May 6, 2020"
       }
     }
   },
@@ -2048,30 +2048,30 @@
       "total": 98
     },
     "im:name": {
-      "label": "Netdata server monitoring"
+      "label": "ChatBot for Prompt Engineering"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/08/43/75/08437532-29da-553e-be12-c6beb39952f0/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/88/d8/b4/88d8b465-5d1b-8556-b1ed-f531580bf66e/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/08/43/75/08437532-29da-553e-be12-c6beb39952f0/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/88/d8/b4/88d8b465-5d1b-8556-b1ed-f531580bf66e/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/08/43/75/08437532-29da-553e-be12-c6beb39952f0/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/88/d8/b4/88d8b465-5d1b-8556-b1ed-f531580bf66e/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Netdata is distributed, real-time performance and health monitoring for systems and applications. It is a highly-optimized monitoring agent you install on all your systems and containers.\n\nNote. \n1. This app does NOT work with Netdata Cloud.\n2. This app is an independent iOS/macOS client and is not officially affiliated with, authorized, maintained, sponsored, or endorsed by Netdata (Netdata Inc) or any of its affiliates or subsidiaries. This application is open-source, and it operates by utilising the APIs provided by Netdata.\n\nFeatures\n\n- Real-time monitoring on the go\nMonitor everything in real time on your mobile device\n\n- Seamless connection\nWorks out-of-the-box with any Netdata instance\n\n- Authentication\nSupport for authenticating using HTTP/HTTPS Basic Auth\n\n- Monitor Local servers\nSupport for accessing local and remote Netdata instances\n\n- iCloud Sync\nYour data is automatically synced across all your devices\n\n- Open-source\nOpen-source iOS, iPadOS and macOS client"
+      "label": "ChatBot is a chat application for writing and testing prompts. You can get started by registering your OpenAI API Key.\n\nKey Features:\n・Creating new prompts.\n・Switching the prompt via the menu in the chat screen.\n・Testing the prompt in the chat screen.\n・Saving the chat logs and outputting them by the text format.\n・Copying the text by long pressing on the chat bubble.\n\nPrompts:\nThe ChatBot app provides a prompt menu within the chat screen. The contents of the prompt menu are used the files with \"prompt\" extension in the \"Prompts\" folder located in the ChatBot folder of the \"Files\" app. In the \"Prompts\" folder, you can place your own prompts and add items to the prompts menu.\n\nChat Logs:\nWhen saving a chat log, the content is outputted in the text format in the \"Exports\" folder in ChatBot folder of \"Folder\" app.\n\nIf you are a prompt engineer, this application will be very useful.\nEnjoy the prompt engineering!"
     },
     "im:price": {
       "label": "€ 5,99",
@@ -2087,17 +2087,17 @@
       }
     },
     "rights": {
-      "label": "© Copyright (C) Arjun Komath"
+      "label": "© 2023 MagickWorX"
     },
     "title": {
-      "label": "Netdata server monitoring - Arjun Komath"
+      "label": "ChatBot for Prompt Engineering - Kouichi Abe"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/netdata-server-monitoring/id1525322870?l=en&uo=2"
+          "href": "https://apps.apple.com/nl/app/chatbot-for-prompt-engineering/id6447947211?l=en&uo=2"
         }
       },
       {
@@ -2108,22 +2108,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/32/22/98/322298ee-6ce5-6475-3d38-7aba1f5512fb/6fddbdcc-16b1-446f-b11b-5fc975f45571_IMG_0066.PNG/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/69/e3/c7/69e3c780-29ee-ab53-ca30-0b9419f6c8a3/37d7baca-fe20-4733-aae6-770ae8578c55_ss12.9_001.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/nl/app/netdata-server-monitoring/id1525322870?l=en&uo=2",
+      "label": "https://apps.apple.com/nl/app/chatbot-for-prompt-engineering/id6447947211?l=en&uo=2",
       "attributes": {
-        "im:id": "1525322870",
-        "im:bundleId": "com.techulus.netdata"
+        "im:id": "6447947211",
+        "im:bundleId": "com.magickworx.ChatBot"
       }
     },
     "im:artist": {
-      "label": "Arjun Komath",
+      "label": "Kouichi Abe",
       "attributes": {
-        "href": "https://apps.apple.com/nl/developer/arjun-komath/id1388042509?l=en&uo=2"
+        "href": "https://apps.apple.com/nl/developer/kouichi-abe/id295852950?l=en&uo=2"
       }
     },
     "category": {
@@ -2135,9 +2135,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-09-16T00:00:00-07:00",
+      "label": "2023-04-28T00:00:00-07:00",
       "attributes": {
-        "label": "September 16, 2020"
+        "label": "April 28, 2023"
       }
     }
   },
@@ -2154,19 +2154,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/53/e9/14/53e914f8-ac00-f53e-81da-ae14e5f26dda/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a4/5a/f3/a45af376-ea3d-68ef-03ed-523e4f8406bb/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/53/e9/14/53e914f8-ac00-f53e-81da-ae14e5f26dda/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a4/5a/f3/a45af376-ea3d-68ef-03ed-523e4f8406bb/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/53/e9/14/53e914f8-ac00-f53e-81da-ae14e5f26dda/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a4/5a/f3/a45af376-ea3d-68ef-03ed-523e4f8406bb/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -4292,108 +4292,6 @@
       "total": 98
     },
     "im:name": {
-      "label": "UDevice - Dev Assistant"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e5/6a/9d/e56a9d48-7adc-988a-bb66-662e58fc1d12/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e5/6a/9d/e56a9d48-7adc-988a-bb66-662e58fc1d12/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e5/6a/9d/e56a9d48-7adc-988a-bb66-662e58fc1d12/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Http(s) Capture/Rewrite, ssh, Terminal, Python3, Cookie editing, Ping, File manager, DNS parsing, traceroute, port scanning, log analysis, regex，json formatting etc.\nProvide all kinds of dev/testing tools.\nDevice  Fingerprint, CPU, system, network, memory, display, browser, etc.\nDiscover and reveal the real and real-time data information of the equipment.\nApplied to development, testing, reverse analysis, investigation and evidence collection and daily equipment management."
-    },
-    "im:price": {
-      "label": "€ 2,99",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© ChenZhiPeng"
-    },
-    "title": {
-      "label": "UDevice - Dev Assistant - Gansu Zhenxian Network Technology Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/nl/app/udevice-dev-assistant/id1608053878?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/3c/69/653c6980-cb87-39ab-5850-abc66eb5de1e/db22fcec-acfa-4c8a-9982-0ef729c999b0_IMG_0169.PNG/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/nl/app/udevice-dev-assistant/id1608053878?l=en&uo=2",
-      "attributes": {
-        "im:id": "1608053878",
-        "im:bundleId": "com.korschen.UDevice"
-      }
-    },
-    "im:artist": {
-      "label": "Gansu Zhenxian Network Technology Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/nl/developer/gansu-zhenxian-network-technology-co-ltd/id1616881226?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-02-02T00:00:00-07:00",
-      "attributes": {
-        "label": "February 2, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "nl",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 44,
-      "total": 98
-    },
-    "im:name": {
       "label": "MermaidEditor"
     },
     "im:image": [
@@ -4492,7 +4390,7 @@
       "country_code": "nl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 45,
+      "index": 44,
       "total": 98
     },
     "im:name": {
@@ -4594,7 +4492,7 @@
       "country_code": "nl",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 46,
+      "index": 45,
       "total": 98
     },
     "im:name": {
@@ -4688,6 +4586,108 @@
       "label": "2017-11-29T16:28:40-07:00",
       "attributes": {
         "label": "November 29, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "nl",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 46,
+      "total": 98
+    },
+    "im:name": {
+      "label": "UDevice - Dev Assistant"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/28/18/ff/2818ffb7-a15c-0906-9595-c3bece9e314c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/28/18/ff/2818ffb7-a15c-0906-9595-c3bece9e314c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/28/18/ff/2818ffb7-a15c-0906-9595-c3bece9e314c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Http(s) Capture/Rewrite, ssh, Terminal, Python3, Cookie editing, Ping, File manager, DNS parsing, traceroute, port scanning, log analysis, regex，json formatting etc.\nProvide all kinds of dev/testing tools.\nDevice  Fingerprint, CPU, system, network, memory, display, browser, etc.\nDiscover and reveal the real and real-time data information of the equipment.\nApplied to development, testing, reverse analysis, investigation and evidence collection and daily equipment management."
+    },
+    "im:price": {
+      "label": "€ 2,99",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© ChenZhiPeng"
+    },
+    "title": {
+      "label": "UDevice - Dev Assistant - Gansu Zhenxian Network Technology Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/nl/app/udevice-dev-assistant/id1608053878?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/65/3c/69/653c6980-cb87-39ab-5850-abc66eb5de1e/db22fcec-acfa-4c8a-9982-0ef729c999b0_IMG_0169.PNG/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/nl/app/udevice-dev-assistant/id1608053878?l=en&uo=2",
+      "attributes": {
+        "im:id": "1608053878",
+        "im:bundleId": "com.korschen.UDevice"
+      }
+    },
+    "im:artist": {
+      "label": "Gansu Zhenxian Network Technology Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/nl/developer/gansu-zhenxian-network-technology-co-ltd/id1616881226?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/nl/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-02-02T00:00:00-07:00",
+      "attributes": {
+        "label": "February 2, 2022"
       }
     }
   },

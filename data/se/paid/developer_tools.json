@@ -722,108 +722,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "79,00 kr",
-      "attributes": {
-        "amount": "79.00",
-        "currency": "SEK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/se/app/docker-management/id1527656144?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/se/app/docker-management/id1527656144?l=en&uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/se/developer/nevis-shkenza/id1268450891?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "se",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 9,
-      "total": 99
-    },
-    "im:name": {
       "label": "Source 3"
     },
     "im:image": [
@@ -922,7 +820,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +922,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -1118,6 +1016,108 @@
       "label": "2015-11-16T16:22:40-07:00",
       "attributes": {
         "label": "November 16, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "se",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 11,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "79,00 kr",
+      "attributes": {
+        "amount": "79.00",
+        "currency": "SEK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/se/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/se/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/se/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
       }
     }
   },
@@ -1640,108 +1640,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Arduino Bluetooth Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "High-end, customizable, Bluetooth control for Arduino Projects\nConnect to and control your Arduino project with this easy-to-use Bluetooth Serial Monitor + Controller\nSend/Recieve Data - now even with custom voice commands utilizing speech recognition for keywords set by the user\n\nGreat for any IOT project\nCommand your Drones to take off\nTell your Smart Lights to Dance\nAsk your Robot to bring you a drink\nOr keep it simple and turn an LED on with nothing but your voice\n\nVery easy-to-use GUI\nAutomatically searches for Bluetooth Devices and Bluetooth-enabled Arduino boards or boards with a bluetooth module attached\nSend data as String format to your boards with whatever you programmed your Arduino to recognize and Receive data back in the Serial Monitor below\n\nNew features continually added, newest feature is Speech Recognition\n\nFor D-Pad:\nSet what Data string sends when each button is Pressed/Released (you can also leave onRelease() blank to send null)\n\nSuggestions on next features to add are welcome. Next in line are accelerometer control and if-statement controlled Data-sends for received response from the Arduino Device being controlled. If you have an idea leave it below or contact us."
-    },
-    "im:price": {
-      "label": "69,00 kr",
-      "attributes": {
-        "amount": "69.00",
-        "currency": "SEK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Bad Assassin Games 2022"
-    },
-    "title": {
-      "label": "Arduino Bluetooth Pro - Bad Assassin Games"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/se/app/arduino-bluetooth-pro/id1111181830?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/48/a3/3148a3ef-4fe0-6f93-39b4-7b2d3b956610/4c7c2b7d-3e39-4240-82cb-88251e8c69e9_hellothere121904.JPG/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/se/app/arduino-bluetooth-pro/id1111181830?l=en&uo=2",
-      "attributes": {
-        "im:id": "1111181830",
-        "im:bundleId": "com.vacantbuzzard.game89"
-      }
-    },
-    "im:artist": {
-      "label": "Bad Assassin Games",
-      "attributes": {
-        "href": "https://apps.apple.com/se/developer/bad-assassin-games/id556279629?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "se",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 18,
-      "total": 99
-    },
-    "im:name": {
       "label": "MongoLime - manage databases"
     },
     "im:image": [
@@ -1840,7 +1738,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -2036,6 +1934,108 @@
       "label": "2020-12-02T00:00:00-07:00",
       "attributes": {
         "label": "December 2, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "se",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 20,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Arduino Bluetooth Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "High-end, customizable, Bluetooth control for Arduino Projects\nConnect to and control your Arduino project with this easy-to-use Bluetooth Serial Monitor + Controller\nSend/Recieve Data - now even with custom voice commands utilizing speech recognition for keywords set by the user\n\nGreat for any IOT project\nCommand your Drones to take off\nTell your Smart Lights to Dance\nAsk your Robot to bring you a drink\nOr keep it simple and turn an LED on with nothing but your voice\n\nVery easy-to-use GUI\nAutomatically searches for Bluetooth Devices and Bluetooth-enabled Arduino boards or boards with a bluetooth module attached\nSend data as String format to your boards with whatever you programmed your Arduino to recognize and Receive data back in the Serial Monitor below\n\nNew features continually added, newest feature is Speech Recognition\n\nFor D-Pad:\nSet what Data string sends when each button is Pressed/Released (you can also leave onRelease() blank to send null)\n\nSuggestions on next features to add are welcome. Next in line are accelerometer control and if-statement controlled Data-sends for received response from the Arduino Device being controlled. If you have an idea leave it below or contact us."
+    },
+    "im:price": {
+      "label": "69,00 kr",
+      "attributes": {
+        "amount": "69.00",
+        "currency": "SEK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Bad Assassin Games 2022"
+    },
+    "title": {
+      "label": "Arduino Bluetooth Pro - Bad Assassin Games"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/se/app/arduino-bluetooth-pro/id1111181830?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/48/a3/3148a3ef-4fe0-6f93-39b4-7b2d3b956610/4c7c2b7d-3e39-4240-82cb-88251e8c69e9_hellothere121904.JPG/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/se/app/arduino-bluetooth-pro/id1111181830?l=en&uo=2",
+      "attributes": {
+        "im:id": "1111181830",
+        "im:bundleId": "com.vacantbuzzard.game89"
+      }
+    },
+    "im:artist": {
+      "label": "Bad Assassin Games",
+      "attributes": {
+        "href": "https://apps.apple.com/se/developer/bad-assassin-games/id556279629?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2022"
       }
     }
   },
@@ -2354,108 +2354,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "My Lisp"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
-    },
-    "im:price": {
-      "label": "49,00 kr",
-      "attributes": {
-        "amount": "49.00",
-        "currency": "SEK"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2008-2024 Laurent Rodier."
-    },
-    "title": {
-      "label": "My Lisp - Laurent Rodier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/se/app/my-lisp/id1245341806?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/9a/4c/d89a4c12-786c-ada7-aaa0-ee87c26362ff/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/se/app/my-lisp/id1245341806?l=en&uo=2",
-      "attributes": {
-        "im:id": "1245341806",
-        "im:bundleId": "net.lsrodier.MyLisp"
-      }
-    },
-    "im:artist": {
-      "label": "Laurent Rodier",
-      "attributes": {
-        "href": "https://apps.apple.com/se/developer/laurent-rodier/id697920086?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-07T11:32:31-07:00",
-      "attributes": {
-        "label": "November 7, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "se",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 25,
-      "total": 99
-    },
-    "im:name": {
       "label": "ESP32 BLE Terminal"
     },
     "im:image": [
@@ -2554,7 +2452,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2656,7 +2554,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 26,
       "total": 99
     },
     "im:name": {
@@ -2758,7 +2656,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2860,7 +2758,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2962,7 +2860,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 29,
       "total": 99
     },
     "im:name": {
@@ -3064,7 +2962,7 @@
       "country_code": "se",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -3158,6 +3056,108 @@
       "label": "2017-01-12T00:38:29-07:00",
       "attributes": {
         "label": "January 12, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "se",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 31,
+      "total": 99
+    },
+    "im:name": {
+      "label": "My Lisp"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
+    },
+    "im:price": {
+      "label": "49,00 kr",
+      "attributes": {
+        "amount": "49.00",
+        "currency": "SEK"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2008-2024 Laurent Rodier."
+    },
+    "title": {
+      "label": "My Lisp - Laurent Rodier"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/se/app/my-lisp/id1245341806?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/9a/4c/d89a4c12-786c-ada7-aaa0-ee87c26362ff/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/se/app/my-lisp/id1245341806?l=en&uo=2",
+      "attributes": {
+        "im:id": "1245341806",
+        "im:bundleId": "net.lsrodier.MyLisp"
+      }
+    },
+    "im:artist": {
+      "label": "Laurent Rodier",
+      "attributes": {
+        "href": "https://apps.apple.com/se/developer/laurent-rodier/id697920086?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/se/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-11-07T11:32:31-07:00",
+      "attributes": {
+        "label": "November 7, 2017"
       }
     }
   },

@@ -110,108 +110,6 @@
       "total": 79
     },
     "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "$9.99",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "NZD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/nz/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/nz/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/nz/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/nz/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "nz",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
-      "total": 79
-    },
-    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -310,7 +208,7 @@
       "country_code": "nz",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 3,
       "total": 79
     },
     "im:name": {
@@ -404,6 +302,108 @@
       "label": "2012-03-01T16:33:04-07:00",
       "attributes": {
         "label": "March 1, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "nz",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 4,
+      "total": 79
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "$9.99",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "NZD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/nz/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/nz/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/nz/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/nz/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
       }
     }
   },
@@ -1440,19 +1440,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/4a/03/7b4a0360-cee5-5a5e-ac24-a65d1d537731/AppIcon-0-0-1x_U007epad-0-0-85-220.jpeg/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/4a/03/7b4a0360-cee5-5a5e-ac24-a65d1d537731/AppIcon-0-0-1x_U007epad-0-0-85-220.jpeg/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/16/5f/7d165fb7-9cf3-4f42-cdd6-e8f79693a2d0/AppIconLadderTouch-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/4a/03/7b4a0360-cee5-5a5e-ac24-a65d1d537731/AppIcon-0-0-1x_U007epad-0-0-85-220.jpeg/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -1496,7 +1496,7 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/df/82/48/df824843-460e-30db-6b07-605f601a41b5/mzl.bopxoqxc.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/fa/7d/c3fa7dc3-ef3b-09bf-5fb2-8f37c66a897b/mzl.bopxoqxc.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
@@ -4296,19 +4296,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d1/26/d7/d126d706-1eda-7e8c-b46c-3872fb4494fe/AppIcon-0-1x_U007emarketing-0-10-0-sRGB-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/4c/cb/53/4ccb537a-a91d-9d92-5088-00135845d2e2/AppIcon-0-1x_U007emarketing-0-10-0-sRGB-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d1/26/d7/d126d706-1eda-7e8c-b46c-3872fb4494fe/AppIcon-0-1x_U007emarketing-0-10-0-sRGB-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/4c/cb/53/4ccb537a-a91d-9d92-5088-00135845d2e2/AppIcon-0-1x_U007emarketing-0-10-0-sRGB-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d1/26/d7/d126d706-1eda-7e8c-b46c-3872fb4494fe/AppIcon-0-1x_U007emarketing-0-10-0-sRGB-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/4c/cb/53/4ccb537a-a91d-9d92-5088-00135845d2e2/AppIcon-0-1x_U007emarketing-0-10-0-sRGB-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
@@ -4331,7 +4331,7 @@
       }
     },
     "rights": {
-      "label": "© 2020-2022 C.M. WONG"
+      "label": "© 2020-2024 C.M. WONG"
     },
     "title": {
       "label": "BetterAppIcons - ChakMing Wong"
@@ -4398,19 +4398,19 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/70/1c/21/701c21e0-5374-f3c2-fb79-66078ef1eb06/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/53/32/9f/53329fba-41cd-4956-d69a-8b2d597fa2b1/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/70/1c/21/701c21e0-5374-f3c2-fb79-66078ef1eb06/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/53/32/9f/53329fba-41cd-4956-d69a-8b2d597fa2b1/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/70/1c/21/701c21e0-5374-f3c2-fb79-66078ef1eb06/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/53/32/9f/53329fba-41cd-4956-d69a-8b2d597fa2b1/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }

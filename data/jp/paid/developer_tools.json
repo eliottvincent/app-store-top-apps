@@ -110,108 +110,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "LadderTouch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/4a/03/7b4a0360-cee5-5a5e-ac24-a65d1d537731/AppIcon-0-0-1x_U007epad-0-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/4a/03/7b4a0360-cee5-5a5e-ac24-a65d1d537731/AppIcon-0-0-1x_U007epad-0-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/4a/03/7b4a0360-cee5-5a5e-ac24-a65d1d537731/AppIcon-0-0-1x_U007epad-0-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
-    },
-    "im:price": {
-      "label": "¥600",
-      "attributes": {
-        "amount": "600",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© motonari hibi"
-    },
-    "title": {
-      "label": "LadderTouch - Motonari Hibi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/fa/7d/c3fa7dc3-ef3b-09bf-5fb2-8f37c66a897b/mzl.bopxoqxc.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
-      "attributes": {
-        "im:id": "386737169",
-        "im:bundleId": "motonari.hibi.LadderTouch"
-      }
-    },
-    "im:artist": {
-      "label": "Motonari Hibi",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-08-25T09:56:35-07:00",
-      "attributes": {
-        "label": "August 25, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
-      "total": 99
-    },
-    "im:name": {
       "label": "Scarlet"
     },
     "im:image": [
@@ -302,6 +200,108 @@
       "label": "2021-06-02T00:00:00-07:00",
       "attributes": {
         "label": "June 2, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 3,
+      "total": 99
+    },
+    "im:name": {
+      "label": "LadderTouch"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/4a/03/7b4a0360-cee5-5a5e-ac24-a65d1d537731/AppIcon-0-0-1x_U007epad-0-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/4a/03/7b4a0360-cee5-5a5e-ac24-a65d1d537731/AppIcon-0-0-1x_U007epad-0-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/4a/03/7b4a0360-cee5-5a5e-ac24-a65d1d537731/AppIcon-0-0-1x_U007epad-0-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "LadderTouch is an app to learn the basics of ladder logic, which is a graphical programming language.\nThis app has three functions.\nYou can learn about that mechanism by executing some of the prepared samples.\nYou can check your understanding with questions.\nIn addition, you can create and execute your own ladder.\nLadder functions of the timer, counter, and logical inverse are provided.\nThe user interface is designed to be easy to operate. The lines are written by tracing the screen. You can set an element by tapping a cell at which you want to add it. \n\n---------------ELEMENTS---------------\nInput(yellow)\nUp to 5 elements.\nYou can control the input signal by tapping the buttons at the bottom of the display.\n\nVirtual output(red)\nUp to 5 elements.\n\nInternal memory(gray)\nUp to 20 elements.\nVirtual output(red) and internal memory(gray) are the same for logical behavior.\nBut the difference is in usage. \nThe virtual output is the last element in the ladder logic chain.\nThe Internal memory is for the processing element of the ladder logic chain.\nThese are an imitation of the actual ladder logic with the output devices.\n\nTimer(blue)\nUp to 5 elements.\nThe timer can be set from 0.1 seconds to 10.0 seconds. The setting unit is 0.1 second.\nThe timer works only 'on delay'. This app does not include 'off delay'.\n\nOn Delay.\n ---++++++++++  source\n -------++++++  destination\n\nOff Delay.\n +++----------  source\n ++++++++-----  destination\n\n+ ON\n- OFF\nTime flows from left to right\n\nCounter(green)\nUp to 5 elements.\nYou can set from 1 to 50.\nThere is no counter reset element in this app. Many other ladder logic software has it.\nThe way to reset the counter is to stop running the ladder.\n\nAll elements can be inverse in the source area.\nHowever, timers and counters cannot do it in the destination area.\nIt is difficult to understand the inverse logic of a timer and counter in the destination area.\n\n---------------EDIT---------------\nYou can edit ladders only with the paid version.\n \nHow to write elements or lines\nSelect the pencil icon.\nTo add an element: Tap where you want to set the element and select the element.\nTo draw a line: Draw where you want to write a line.\n\nHow to delete elements or lines\nSelect the eraser icon.\nTap where you want to delete the element.\n\nHow to scroll\nSelect the scroll icon, then you can scroll.\n\nHow to remove useless spaces\nSelect the order icon.\nTap order icon to remove useless spaces.\n\nLine color\nGreen with complete ladder logic.\nRed with something wrong.\n\n--------------Other--------------\nThere is no function that connects to outer devices."
+    },
+    "im:price": {
+      "label": "¥600",
+      "attributes": {
+        "amount": "600",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© motonari hibi"
+    },
+    "title": {
+      "label": "LadderTouch - Motonari Hibi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/fa/7d/c3fa7dc3-ef3b-09bf-5fb2-8f37c66a897b/mzl.bopxoqxc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/laddertouch/id386737169?l=en&uo=2",
+      "attributes": {
+        "im:id": "386737169",
+        "im:bundleId": "motonari.hibi.LadderTouch"
+      }
+    },
+    "im:artist": {
+      "label": "Motonari Hibi",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/motonari-hibi/id386737172?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-08-25T09:56:35-07:00",
+      "attributes": {
+        "label": "August 25, 2010"
       }
     }
   },
@@ -518,108 +518,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "C Code Develop"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/2d/06/8d2d06a6-961d-0496-e2ea-e1b8953343b3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/2d/06/8d2d06a6-961d-0496-e2ea-e1b8953343b3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/2d/06/8d2d06a6-961d-0496-e2ea-e1b8953343b3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "-- Support code auto completion and automatic code formatting;\n-- Support debugger (breakpoints);\n-- Run Offline & Support File IO & Support interaction & Support multi-processing;\n-- Support Project References;\n\nA tiny C language development environment, support project management and header file reference, support code executing.\n\nFor Coding enthusiasts and Computer-Science students, some Data-Structure projects are included.\n\nYou can use the tiny environment provided to run your project locally, or you can export the project to your computer to compile and run the project. The tiny environment includes a small C standard library that supports commonly used header files and most standard C99 library functions, and C Code Develop provides a easy access header file ccd.h, also some C++ features like argument reference, iostream(cin and cout) are supported. For safety reasons, inline assembly and some other unsafe syntax are not supported.\n\n*1. Editor Support auto completion, auto format, long-press to document and other efficient features.\n*2. Terminal (stdin and stdout) is fully supported, and also you can open *.txt file in project use fopen(), because of the app now only support view and edit text file, you can't open file without .txt suffix or other suffix, or use binary (b) as open mode is not currently supported."
-    },
-    "im:price": {
-      "label": "¥100",
-      "attributes": {
-        "amount": "100",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "©2020 Xing Cheng"
-    },
-    "title": {
-      "label": "C Code Develop - 铖 邢"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0c/f1/c2/0cf1c26c-8ba2-ed92-b06d-f92ebda1a301/81c37035-57fb-4307-98e0-6bda3d77cd88_1._U65ad_U70b9_U8c03_U8bd5-en-129.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2",
-      "attributes": {
-        "im:id": "1503486606",
-        "im:bundleId": "org.forgetive.ccmp"
-      }
-    },
-    "im:artist": {
-      "label": "铖 邢",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/%E9%93%96-%E9%82%A2/id1497880786?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-06T00:00:00-07:00",
-      "attributes": {
-        "label": "January 6, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 7,
-      "total": 99
-    },
-    "im:name": {
       "label": "JINS MEME Logger"
     },
     "im:image": [
@@ -718,7 +616,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -820,7 +718,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -922,7 +820,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +922,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -1126,7 +1024,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -1228,7 +1126,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1330,109 +1228,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Hexer — Hex File Viewer"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive or your desktop. Or you can just share any file to it.\n\nBytes are highlighted in different colors: Printable characters are cyan, spaces blue, null bytes grey, control characters pink and so on. The colors appear across the binary, hexadecimal, and ascii column — or can just be turned off completely.\n\n▶ Many advanced options\n• Many popular themes from text editors and terminals\n• Line numbers (offsets)\n• Overscroll\n• Complete control over the formatting of what you copy or share\n• Column counts in powers of two (8 bytes, 16, 32, ...) or in any number that fits\n• Interpret bytes as ASCII, ISO Latin 1 or EBCDIC\n• The UI is navigable by keyboard and there are keyboard shortcuts to toggle almost everything\n• Further features for you to discover\n\n▶ Search\n• Search for content in the hexadecimal, ASCII or binary column\n• Preview results with context and jump to and highlight them in the document\n• Filter results with Regular Expression and based on case sensitivity\n• Jump between results with arrow keys\n\n▶ Analysis\n• Get information about the selection or the entire document\n• Decode to integers\n• See byte frequencies\n• See detected file signatures (magic numbers)\n• Read metadata like creation date and Unix permissions\n\n▶ The App is made by a real person out of love\nWhen you buy the app (no hidden in app purchases) the money goes straight to me to support development. If you have any questions or feature requests you can just write me an email and let me know. I will continue development with many more planned features like editing.\n\n▶ The App is friendly\nThere are no in app purchases, ads, tracking, nor is there any data collected. You buy it once and then use it. Nothing more. Nothing less."
-    },
-    "im:price": {
-      "label": "¥600",
-      "attributes": {
-        "amount": "600",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Hans Schülein"
-    },
-    "title": {
-      "label": "Hexer — Hex File Viewer - Hans Schulein"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/01/21/c2/0121c269-851f-dfb4-c75a-f78390e4fd5d/ffdc3ba6-bddd-443b-8f9d-2c29abeb249a_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-0_Main_framed.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2",
-      "attributes": {
-        "im:id": "1468880337",
-        "im:bundleId": "com.hans.Hexer"
-      }
-    },
-    "im:artist": {
-      "label": "Hans Schulein",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/hans-schulein/id1247291041?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-10-01T00:00:00-07:00",
-      "attributes": {
-        "label": "October 1, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 15,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1534,7 +1330,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1636,7 +1432,109 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 15,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Hexer — Hex File Viewer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3a/c1/96/3ac196b4-0501-b1f8-c90c-b51078686d64/AppIcon-0-1x_U007emarketing-0-0-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive or your desktop. Or you can just share any file to it.\n\nBytes are highlighted in different colors: Printable characters are cyan, spaces blue, null bytes grey, control characters pink and so on. The colors appear across the binary, hexadecimal, and ascii column — or can just be turned off completely.\n\n▶ Many advanced options\n• Many popular themes from text editors and terminals\n• Line numbers (offsets)\n• Overscroll\n• Complete control over the formatting of what you copy or share\n• Column counts in powers of two (8 bytes, 16, 32, ...) or in any number that fits\n• Interpret bytes as ASCII, ISO Latin 1 or EBCDIC\n• The UI is navigable by keyboard and there are keyboard shortcuts to toggle almost everything\n• Further features for you to discover\n\n▶ Search\n• Search for content in the hexadecimal, ASCII or binary column\n• Preview results with context and jump to and highlight them in the document\n• Filter results with Regular Expression and based on case sensitivity\n• Jump between results with arrow keys\n\n▶ Analysis\n• Get information about the selection or the entire document\n• Decode to integers\n• See byte frequencies\n• See detected file signatures (magic numbers)\n• Read metadata like creation date and Unix permissions\n\n▶ The App is made by a real person out of love\nWhen you buy the app (no hidden in app purchases) the money goes straight to me to support development. If you have any questions or feature requests you can just write me an email and let me know. I will continue development with many more planned features like editing.\n\n▶ The App is friendly\nThere are no in app purchases, ads, tracking, nor is there any data collected. You buy it once and then use it. Nothing more. Nothing less."
+    },
+    "im:price": {
+      "label": "¥600",
+      "attributes": {
+        "amount": "600",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Hans Schülein"
+    },
+    "title": {
+      "label": "Hexer — Hex File Viewer - Hans Schulein"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/01/21/c2/0121c269-851f-dfb4-c75a-f78390e4fd5d/ffdc3ba6-bddd-443b-8f9d-2c29abeb249a_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-0_Main_framed.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/hexer-hex-file-viewer/id1468880337?l=en&uo=2",
+      "attributes": {
+        "im:id": "1468880337",
+        "im:bundleId": "com.hans.Hexer"
+      }
+    },
+    "im:artist": {
+      "label": "Hans Schulein",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/hans-schulein/id1247291041?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-10-01T00:00:00-07:00",
+      "attributes": {
+        "label": "October 1, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +1636,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1840,7 +1738,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -2146,7 +2044,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -2248,7 +2146,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2350,7 +2248,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 23,
       "total": 99
     },
     "im:name": {
@@ -2452,109 +2350,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
-      "total": 99
-    },
-    "im:name": {
-      "label": "MermaidEditor"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "MermaidEditor is a diagram and chart editor, powered by mermaid-js. And MermaidEditor supports iPhone, iPad and Mac, with one app you can edit diagram everywhere on any device.\n\nMermaidEditor supports mermaid-js syntax highlighting and code completion, so it can help writing diagram and chart clearly, easily and quickly.\n\nYou can also easily export charts as PNG images or SVG files from the editor, or share image to other people with system actions.\n\n√ All Platforms\n\n- Both Mobile and Desktop platforms supported, you can edit diagram documents on iPhone, iPad or Mac\n- Document browser based app, easily edit files on device and sync document between devices\n- Multiple windows ready, it makes the editor more powerful on iPadOS\n- Keyboard shortcuts ready on iPadOS with keyboard connected\n\n√ Powerful Editor\n\n- Syntax Highlighting for mermaid-js grammar\n- Auto Completion in editor helps typing keywords quickly\n- Code Snippets likes parallel block in sequence diagram makes life easier\n- Instant Parsing Error indicator for locating syntax error\n\n√ Instant Preview\n\n- Auto Generated Preview when typing in editor\n- Zoom and Pan to move preview for checking diagram's detail\n- With Scroll wheel it can be easily zoom diagram on macOS\n\n√ Integrated Extensions\n\n- Thumbnail support, every .mmd file will has its own thumbnail when saving file\n- QuickLook Preview extension helps you preview mermaid document in Files app on iPhone or iPad and Finder on macOS\n\n√ Sharing\n\n- Save diagram document as its source with .mmd extension\n- Export diagram to PNG image or SVG file with one click\n\nFor mermaid-js grammar, please visit https://mermaid-js.github.io/mermaid/ for documentation."
-    },
-    "im:price": {
-      "label": "¥600",
-      "attributes": {
-        "amount": "600",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© TickPlant.com"
-    },
-    "title": {
-      "label": "MermaidEditor - 基伟 徐"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/mermaideditor/id1581312955?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/03/b4/51/03b451e3-895f-480a-aa13-09d610c55840/df693d58-6980-4405-adee-4620f5d31aa0_iPad__U622a_U56fe-1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/mermaideditor/id1581312955?l=en&uo=2",
-      "attributes": {
-        "im:id": "1581312955",
-        "im:bundleId": "com.tickplant.MermaidEditor"
-      }
-    },
-    "im:artist": {
-      "label": "基伟 徐",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/%E5%9F%BA%E4%BC%9F-%E5%BE%90/id391905315?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-08-15T00:00:00-07:00",
-      "attributes": {
-        "label": "August 15, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 26,
+      "index": 24,
       "total": 99
     },
     "im:name": {
@@ -2656,7 +2452,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 25,
       "total": 99
     },
     "im:name": {
@@ -2758,7 +2554,109 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 26,
+      "total": 99
+    },
+    "im:name": {
+      "label": "MermaidEditor"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/9a/5c/6a9a5c60-8241-8059-420d-52dffd2dc297/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "MermaidEditor is a diagram and chart editor, powered by mermaid-js. And MermaidEditor supports iPhone, iPad and Mac, with one app you can edit diagram everywhere on any device.\n\nMermaidEditor supports mermaid-js syntax highlighting and code completion, so it can help writing diagram and chart clearly, easily and quickly.\n\nYou can also easily export charts as PNG images or SVG files from the editor, or share image to other people with system actions.\n\n√ All Platforms\n\n- Both Mobile and Desktop platforms supported, you can edit diagram documents on iPhone, iPad or Mac\n- Document browser based app, easily edit files on device and sync document between devices\n- Multiple windows ready, it makes the editor more powerful on iPadOS\n- Keyboard shortcuts ready on iPadOS with keyboard connected\n\n√ Powerful Editor\n\n- Syntax Highlighting for mermaid-js grammar\n- Auto Completion in editor helps typing keywords quickly\n- Code Snippets likes parallel block in sequence diagram makes life easier\n- Instant Parsing Error indicator for locating syntax error\n\n√ Instant Preview\n\n- Auto Generated Preview when typing in editor\n- Zoom and Pan to move preview for checking diagram's detail\n- With Scroll wheel it can be easily zoom diagram on macOS\n\n√ Integrated Extensions\n\n- Thumbnail support, every .mmd file will has its own thumbnail when saving file\n- QuickLook Preview extension helps you preview mermaid document in Files app on iPhone or iPad and Finder on macOS\n\n√ Sharing\n\n- Save diagram document as its source with .mmd extension\n- Export diagram to PNG image or SVG file with one click\n\nFor mermaid-js grammar, please visit https://mermaid-js.github.io/mermaid/ for documentation."
+    },
+    "im:price": {
+      "label": "¥600",
+      "attributes": {
+        "amount": "600",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© TickPlant.com"
+    },
+    "title": {
+      "label": "MermaidEditor - 基伟 徐"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/mermaideditor/id1581312955?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/03/b4/51/03b451e3-895f-480a-aa13-09d610c55840/df693d58-6980-4405-adee-4620f5d31aa0_iPad__U622a_U56fe-1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/mermaideditor/id1581312955?l=en&uo=2",
+      "attributes": {
+        "im:id": "1581312955",
+        "im:bundleId": "com.tickplant.MermaidEditor"
+      }
+    },
+    "im:artist": {
+      "label": "基伟 徐",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/%E5%9F%BA%E4%BC%9F-%E5%BE%90/id391905315?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-08-15T00:00:00-07:00",
+      "attributes": {
+        "label": "August 15, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 27,
       "total": 99
     },
     "im:name": {
@@ -2860,7 +2758,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 28,
       "total": 99
     },
     "im:name": {
@@ -2962,34 +2860,34 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 29,
       "total": 99
     },
     "im:name": {
-      "label": "SSH Term Pro"
+      "label": "C Code Develop"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/2d/06/8d2d06a6-961d-0496-e2ea-e1b8953343b3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/2d/06/8d2d06a6-961d-0496-e2ea-e1b8953343b3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/2d/06/8d2d06a6-961d-0496-e2ea-e1b8953343b3/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Quickly manage Linux SSH servers from Mac and iPhone and iPad, support Terminal and SFTP and SCP and Docker and Redis, monitor CPU and memory as well as disk usage and other rich features"
+      "label": "-- Support code auto completion and automatic code formatting;\n-- Support debugger (breakpoints);\n-- Run Offline & Support File IO & Support interaction & Support multi-processing;\n-- Support Project References;\n\nA tiny C language development environment, support project management and header file reference, support code executing.\n\nFor Coding enthusiasts and Computer-Science students, some Data-Structure projects are included.\n\nYou can use the tiny environment provided to run your project locally, or you can export the project to your computer to compile and run the project. The tiny environment includes a small C standard library that supports commonly used header files and most standard C99 library functions, and C Code Develop provides a easy access header file ccd.h, also some C++ features like argument reference, iostream(cin and cout) are supported. For safety reasons, inline assembly and some other unsafe syntax are not supported.\n\n*1. Editor Support auto completion, auto format, long-press to document and other efficient features.\n*2. Terminal (stdin and stdout) is fully supported, and also you can open *.txt file in project use fopen(), because of the app now only support view and edit text file, you can't open file without .txt suffix or other suffix, or use binary (b) as open mode is not currently supported."
     },
     "im:price": {
       "label": "¥100",
@@ -3005,17 +2903,17 @@
       }
     },
     "rights": {
-      "label": "Copyright © 2022 sanliang fei, admin@0760.cn"
+      "label": "©2020 Xing Cheng"
     },
     "title": {
-      "label": "SSH Term Pro - 三量 费"
+      "label": "C Code Develop - 铖 邢"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/ssh-term-pro/id1636342413?l=en&uo=2"
+          "href": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2"
         }
       },
       {
@@ -3026,22 +2924,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/25/6d/c5/256dc5bd-d24a-6c3e-c881-8ae1e2658821/becd1478-07db-4bb3-a207-13ab0ea9f03a_1.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0c/f1/c2/0cf1c26c-8ba2-ed92-b06d-f92ebda1a301/81c37035-57fb-4307-98e0-6bda3d77cd88_1._U65ad_U70b9_U8c03_U8bd5-en-129.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/jp/app/ssh-term-pro/id1636342413?l=en&uo=2",
+      "label": "https://apps.apple.com/jp/app/c-code-develop/id1503486606?l=en&uo=2",
       "attributes": {
-        "im:id": "1636342413",
-        "im:bundleId": "cn.sshterm.pro"
+        "im:id": "1503486606",
+        "im:bundleId": "org.forgetive.ccmp"
       }
     },
     "im:artist": {
-      "label": "三量 费",
+      "label": "铖 邢",
       "attributes": {
-        "href": "https://apps.apple.com/jp/developer/%E4%B8%89%E9%87%8F-%E8%B4%B9/id1635301163?l=en&uo=2"
+        "href": "https://apps.apple.com/jp/developer/%E9%93%96-%E9%82%A2/id1497880786?l=en&uo=2"
       }
     },
     "category": {
@@ -3053,9 +2951,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2022-07-26T00:00:00-07:00",
+      "label": "2021-01-06T00:00:00-07:00",
       "attributes": {
-        "label": "July 26, 2022"
+        "label": "January 6, 2021"
       }
     }
   },
@@ -3064,7 +2962,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
+      "index": 30,
       "total": 99
     },
     "im:name": {
@@ -3158,6 +3056,108 @@
       "label": "2019-09-19T00:00:00-07:00",
       "attributes": {
         "label": "September 19, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 31,
+      "total": 99
+    },
+    "im:name": {
+      "label": "SSH Term Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/51/e8/96/51e89642-116b-6d3c-f93f-58cc0be96880/AppIcon-1x_U007epad-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Quickly manage Linux SSH servers from Mac and iPhone and iPad, support Terminal and SFTP and SCP and Docker and Redis, monitor CPU and memory as well as disk usage and other rich features"
+    },
+    "im:price": {
+      "label": "¥100",
+      "attributes": {
+        "amount": "100",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "Copyright © 2022 sanliang fei, admin@0760.cn"
+    },
+    "title": {
+      "label": "SSH Term Pro - 三量 费"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/ssh-term-pro/id1636342413?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/25/6d/c5/256dc5bd-d24a-6c3e-c881-8ae1e2658821/becd1478-07db-4bb3-a207-13ab0ea9f03a_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/ssh-term-pro/id1636342413?l=en&uo=2",
+      "attributes": {
+        "im:id": "1636342413",
+        "im:bundleId": "cn.sshterm.pro"
+      }
+    },
+    "im:artist": {
+      "label": "三量 费",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/%E4%B8%89%E9%87%8F-%E8%B4%B9/id1635301163?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-07-26T00:00:00-07:00",
+      "attributes": {
+        "label": "July 26, 2022"
       }
     }
   },
@@ -3884,108 +3884,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "TWSNMP Map Viewer"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/76/c9/aa76c99a-882c-1645-2aaf-8496747f9b13/AppIcon-1x_U007epad-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/76/c9/aa76c99a-882c-1645-2aaf-8496747f9b13/AppIcon-1x_U007epad-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/76/c9/aa76c99a-882c-1645-2aaf-8496747f9b13/AppIcon-1x_U007epad-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "TWSNMP FCのマップをスマホやタブレットで表示するアプリです。\nTWSNMP FCについては、\nhttps://note.com/twsnmp/n/nc6e49c284afb?magazine_key=meed0d0ddab5e\nをみてください。"
-    },
-    "im:price": {
-      "label": "¥300",
-      "attributes": {
-        "amount": "300",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2024 Masayuki Yamai"
-    },
-    "title": {
-      "label": "TWSNMP Map Viewer - Masayuki Yamai"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/twsnmp-map-viewer/id6476522327?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/11/54/76/115476ca-9e37-e43e-3a4e-2edeeb6b4bf2/4df36f6a-1216-4261-a404-48f3183d91d1_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2024-01-27_at_17.54.55.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/twsnmp-map-viewer/id6476522327?l=en&uo=2",
-      "attributes": {
-        "im:id": "6476522327",
-        "im:bundleId": "jp.co.twise.twsnmpmv"
-      }
-    },
-    "im:artist": {
-      "label": "Masayuki Yamai",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/masayuki-yamai/id1535856644?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2024-01-29T00:00:00-07:00",
-      "attributes": {
-        "label": "January 29, 2024"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 40,
-      "total": 99
-    },
-    "im:name": {
       "label": "UCoW - Ultimate Code Wrapper"
     },
     "im:image": [
@@ -4084,7 +3982,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 41,
+      "index": 40,
       "total": 99
     },
     "im:name": {
@@ -4186,7 +4084,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 42,
+      "index": 41,
       "total": 99
     },
     "im:name": {
@@ -4288,7 +4186,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 43,
+      "index": 42,
       "total": 99
     },
     "im:name": {
@@ -4390,7 +4288,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 44,
+      "index": 43,
       "total": 99
     },
     "im:name": {
@@ -4484,6 +4382,108 @@
       "label": "2020-03-29T00:00:00-07:00",
       "attributes": {
         "label": "March 29, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 44,
+      "total": 99
+    },
+    "im:name": {
+      "label": "TWSNMP Map Viewer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/76/c9/aa76c99a-882c-1645-2aaf-8496747f9b13/AppIcon-1x_U007epad-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/76/c9/aa76c99a-882c-1645-2aaf-8496747f9b13/AppIcon-1x_U007epad-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/76/c9/aa76c99a-882c-1645-2aaf-8496747f9b13/AppIcon-1x_U007epad-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "TWSNMP FCのマップをスマホやタブレットで表示するアプリです。\nTWSNMP FCについては、\nhttps://note.com/twsnmp/n/nc6e49c284afb?magazine_key=meed0d0ddab5e\nをみてください。"
+    },
+    "im:price": {
+      "label": "¥300",
+      "attributes": {
+        "amount": "300",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024 Masayuki Yamai"
+    },
+    "title": {
+      "label": "TWSNMP Map Viewer - Masayuki Yamai"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/twsnmp-map-viewer/id6476522327?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/11/54/76/115476ca-9e37-e43e-3a4e-2edeeb6b4bf2/4df36f6a-1216-4261-a404-48f3183d91d1_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2024-01-27_at_17.54.55.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/twsnmp-map-viewer/id6476522327?l=en&uo=2",
+      "attributes": {
+        "im:id": "6476522327",
+        "im:bundleId": "jp.co.twise.twsnmpmv"
+      }
+    },
+    "im:artist": {
+      "label": "Masayuki Yamai",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/masayuki-yamai/id1535856644?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-01-29T00:00:00-07:00",
+      "attributes": {
+        "label": "January 29, 2024"
       }
     }
   },
@@ -5312,108 +5312,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Simple Server: HTTP Server"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Simple Server is a small web server in your pocket.\n\n- Share your folders/files from your iPhone/iPad to other devices in the same local network.\n- Browse your shared folders and files via browsers easily.\n- Manage your folders/files on your iPhone/iPad via browsers.\n- Set a username/password for sharing/managing files.\n- Support Access Logs displaying HTTP method, URL, remote IP address, and access time of requests and responses.\n- On iPad, you can preview your static HTML files in Safari with Split View while the web server runs on the same iPad.\n\n\nTwo steps to share your folder:\n\n1. In the app, tap \"Select folder\" and select a folder to be shared. You can choose a folder on your device or iCloud.\n2. Tap the \"Start Server\" button. It's done!\n\nThen, connect to the address in a browser on any device in the same network. (e.g., A device that uses the same WiFi router.)\n\nAlso, you can allow remote users can manage folders and files if you want.\n\n\nCaution:\n\n- Simple HTTP Server should be running in the foreground. It cannot be run in the background. If you change to another app or turn off the screen, the web server will stop.\n- On iPad, you can browse files/folders via Safari with running the web server on the same device, thanks to multitasking.\n- However, if you switch to another app on your iPhone, the web server will stop. The server status will be automatically recovered when you return to the app. On iPhone, browsing files from other devices is only meaningful.\n- It works only in a local WiFi network or local wired network. You cannot connect to the web server via a cellular network."
-    },
-    "im:price": {
-      "label": "¥600",
-      "attributes": {
-        "amount": "600",
-        "currency": "JPY"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Bitsbaker LLC."
-    },
-    "title": {
-      "label": "Simple Server: HTTP Server - Bitsbaker LLC."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/jp/app/simple-server-http-server/id6443893597?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f9/95/44/f9954413-7d98-680e-4e21-223c4dc91226/5483fc7b-8f4e-4ff7-953d-486dedecd116_iPad_-_2732x2048_-_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/jp/app/simple-server-http-server/id6443893597?l=en&uo=2",
-      "attributes": {
-        "im:id": "6443893597",
-        "im:bundleId": "com.bitsbaker.SimpleServer"
-      }
-    },
-    "im:artist": {
-      "label": "Bitsbaker LLC.",
-      "attributes": {
-        "href": "https://apps.apple.com/jp/developer/bitsbaker-llc/id1631721150?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-10-18T00:00:00-07:00",
-      "attributes": {
-        "label": "October 18, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "jp",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 54,
-      "total": 99
-    },
-    "im:name": {
       "label": "Logger for Shortcuts"
     },
     "im:image": [
@@ -5512,7 +5410,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 55,
+      "index": 54,
       "total": 99
     },
     "im:name": {
@@ -5614,7 +5512,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 56,
+      "index": 55,
       "total": 99
     },
     "im:name": {
@@ -5716,7 +5614,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 57,
+      "index": 56,
       "total": 99
     },
     "im:name": {
@@ -5818,7 +5716,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 58,
+      "index": 57,
       "total": 99
     },
     "im:name": {
@@ -5920,7 +5818,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 59,
+      "index": 58,
       "total": 99
     },
     "im:name": {
@@ -6022,7 +5920,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 60,
+      "index": 59,
       "total": 99
     },
     "im:name": {
@@ -6121,7 +6019,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 61,
+      "index": 60,
       "total": 99
     },
     "im:name": {
@@ -6223,7 +6121,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 62,
+      "index": 61,
       "total": 99
     },
     "im:name": {
@@ -6325,7 +6223,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 63,
+      "index": 62,
       "total": 99
     },
     "im:name": {
@@ -6427,7 +6325,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 64,
+      "index": 63,
       "total": 99
     },
     "im:name": {
@@ -6529,7 +6427,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 65,
+      "index": 64,
       "total": 99
     },
     "im:name": {
@@ -6631,7 +6529,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 66,
+      "index": 65,
       "total": 99
     },
     "im:name": {
@@ -6733,7 +6631,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 67,
+      "index": 66,
       "total": 99
     },
     "im:name": {
@@ -6835,7 +6733,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 68,
+      "index": 67,
       "total": 99
     },
     "im:name": {
@@ -6937,7 +6835,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 69,
+      "index": 68,
       "total": 99
     },
     "im:name": {
@@ -7039,7 +6937,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 70,
+      "index": 69,
       "total": 99
     },
     "im:name": {
@@ -7141,7 +7039,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 71,
+      "index": 70,
       "total": 99
     },
     "im:name": {
@@ -7243,7 +7141,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 72,
+      "index": 71,
       "total": 99
     },
     "im:name": {
@@ -7345,7 +7243,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 73,
+      "index": 72,
       "total": 99
     },
     "im:name": {
@@ -7447,7 +7345,7 @@
       "country_code": "jp",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 74,
+      "index": 73,
       "total": 99
     },
     "im:name": {
@@ -7541,6 +7439,108 @@
       "label": "2015-02-12T23:38:01-07:00",
       "attributes": {
         "label": "February 12, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "jp",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 74,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Simple Server: HTTP Server"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/24/8d/60/248d6082-ac6b-3d6b-7d92-223781e5f72e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Simple Server is a small web server in your pocket.\n\n- Share your folders/files from your iPhone/iPad to other devices in the same local network.\n- Browse your shared folders and files via browsers easily.\n- Manage your folders/files on your iPhone/iPad via browsers.\n- Set a username/password for sharing/managing files.\n- Support Access Logs displaying HTTP method, URL, remote IP address, and access time of requests and responses.\n- On iPad, you can preview your static HTML files in Safari with Split View while the web server runs on the same iPad.\n\n\nTwo steps to share your folder:\n\n1. In the app, tap \"Select folder\" and select a folder to be shared. You can choose a folder on your device or iCloud.\n2. Tap the \"Start Server\" button. It's done!\n\nThen, connect to the address in a browser on any device in the same network. (e.g., A device that uses the same WiFi router.)\n\nAlso, you can allow remote users can manage folders and files if you want.\n\n\nCaution:\n\n- Simple HTTP Server should be running in the foreground. It cannot be run in the background. If you change to another app or turn off the screen, the web server will stop.\n- On iPad, you can browse files/folders via Safari with running the web server on the same device, thanks to multitasking.\n- However, if you switch to another app on your iPhone, the web server will stop. The server status will be automatically recovered when you return to the app. On iPhone, browsing files from other devices is only meaningful.\n- It works only in a local WiFi network or local wired network. You cannot connect to the web server via a cellular network."
+    },
+    "im:price": {
+      "label": "¥600",
+      "attributes": {
+        "amount": "600",
+        "currency": "JPY"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Bitsbaker LLC."
+    },
+    "title": {
+      "label": "Simple Server: HTTP Server - Bitsbaker LLC."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/jp/app/simple-server-http-server/id6443893597?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f9/95/44/f9954413-7d98-680e-4e21-223c4dc91226/5483fc7b-8f4e-4ff7-953d-486dedecd116_iPad_-_2732x2048_-_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/jp/app/simple-server-http-server/id6443893597?l=en&uo=2",
+      "attributes": {
+        "im:id": "6443893597",
+        "im:bundleId": "com.bitsbaker.SimpleServer"
+      }
+    },
+    "im:artist": {
+      "label": "Bitsbaker LLC.",
+      "attributes": {
+        "href": "https://apps.apple.com/jp/developer/bitsbaker-llc/id1631721150?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/jp/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-18T00:00:00-07:00",
+      "attributes": {
+        "label": "October 18, 2022"
       }
     }
   },

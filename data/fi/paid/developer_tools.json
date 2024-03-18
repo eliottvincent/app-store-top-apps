@@ -8,6 +8,108 @@
       "total": 79
     },
     "im:name": {
+      "label": "My Lisp"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
+    },
+    "im:price": {
+      "label": "3,99 €",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2008-2024 Laurent Rodier."
+    },
+    "title": {
+      "label": "My Lisp - Laurent Rodier"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/fi/app/my-lisp/id1245341806?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/9a/4c/d89a4c12-786c-ada7-aaa0-ee87c26362ff/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/fi/app/my-lisp/id1245341806?uo=2",
+      "attributes": {
+        "im:id": "1245341806",
+        "im:bundleId": "net.lsrodier.MyLisp"
+      }
+    },
+    "im:artist": {
+      "label": "Laurent Rodier",
+      "attributes": {
+        "href": "https://apps.apple.com/fi/developer/laurent-rodier/id697920086?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/fi/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-11-07T11:32:31-07:00",
+      "attributes": {
+        "label": "November 7, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "fi",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 79
+    },
+    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
+      "index": 3,
       "total": 79
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 79
     },
     "im:name": {
@@ -302,108 +404,6 @@
       "label": "2019-07-22T00:00:00-07:00",
       "attributes": {
         "label": "July 22, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "fi",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 4,
-      "total": 79
-    },
-    "im:name": {
-      "label": "iPulse - Monitor Your Device"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/ae/c9/8faec952-6307-84b0-55d2-a3537976c5ef/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/ae/c9/8faec952-6307-84b0-55d2-a3537976c5ef/AppIcon-0-0-1x_U007epad-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/ae/c9/8faec952-6307-84b0-55d2-a3537976c5ef/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "iPulse has been monitoring Macs for over 20 years. Now this essential developer tool is available for the first time on iOS and iPadOS.\n\nYour processors, network, memory, and storage space are constantly monitored and can be displayed in a convenient picture in picture view. It's like you're watching a movie of what's going on inside your device!\n\nThere are even sound effects for the movie: when configurable thresholds are exceeded, you'll hear an alert and know to check things out.\n\nAnd it's all done with minimal impact on your device performance and battery life.\n\niPulse displays the following information:\n\n• Efficiency core usage\n• Performance core usage\n• Graphics core usage\n• Download throughput\n• Upload throughput\n• System memory usage\n• App memory usage\n• Compressed memory usage\n• Internal and external storage usage\n\nWhether you're a power user or a developer wanting to profile an app, iPulse is an essential tool to have on your device."
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2024 The Iconfactory, Inc."
-    },
-    "title": {
-      "label": "iPulse - Monitor Your Device - The Iconfactory"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/fi/app/ipulse-monitor-your-device/id6474695786?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/8b/61/e48b6101-3fd7-f171-b53f-aed8d3a84f7e/c37c19e5-3775-452d-838f-8f7107be8302_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/fi/app/ipulse-monitor-your-device/id6474695786?uo=2",
-      "attributes": {
-        "im:id": "6474695786",
-        "im:bundleId": "com.iconfactory.iPulseMobile"
-      }
-    },
-    "im:artist": {
-      "label": "The Iconfactory",
-      "attributes": {
-        "href": "https://apps.apple.com/fi/developer/the-iconfactory/id281795483?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/fi/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2024-03-12T00:00:00-07:00",
-      "attributes": {
-        "label": "March 12, 2024"
       }
     }
   },
@@ -518,6 +518,108 @@
       "total": 79
     },
     "im:name": {
+      "label": "iPulse - Monitor Your Device"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/ae/c9/8faec952-6307-84b0-55d2-a3537976c5ef/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/ae/c9/8faec952-6307-84b0-55d2-a3537976c5ef/AppIcon-0-0-1x_U007epad-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/ae/c9/8faec952-6307-84b0-55d2-a3537976c5ef/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "iPulse has been monitoring Macs for over 20 years. Now this essential developer tool is available for the first time on iOS and iPadOS.\n\nYour processors, network, memory, and storage space are constantly monitored and can be displayed in a convenient picture in picture view. It's like you're watching a movie of what's going on inside your device!\n\nThere are even sound effects for the movie: when configurable thresholds are exceeded, you'll hear an alert and know to check things out.\n\nAnd it's all done with minimal impact on your device performance and battery life.\n\niPulse displays the following information:\n\n• Efficiency core usage\n• Performance core usage\n• Graphics core usage\n• Download throughput\n• Upload throughput\n• System memory usage\n• App memory usage\n• Compressed memory usage\n• Internal and external storage usage\n\nWhether you're a power user or a developer wanting to profile an app, iPulse is an essential tool to have on your device."
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024 The Iconfactory, Inc."
+    },
+    "title": {
+      "label": "iPulse - Monitor Your Device - The Iconfactory"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/fi/app/ipulse-monitor-your-device/id6474695786?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/8b/61/e48b6101-3fd7-f171-b53f-aed8d3a84f7e/c37c19e5-3775-452d-838f-8f7107be8302_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/fi/app/ipulse-monitor-your-device/id6474695786?uo=2",
+      "attributes": {
+        "im:id": "6474695786",
+        "im:bundleId": "com.iconfactory.iPulseMobile"
+      }
+    },
+    "im:artist": {
+      "label": "The Iconfactory",
+      "attributes": {
+        "href": "https://apps.apple.com/fi/developer/the-iconfactory/id281795483?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/fi/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-03-12T00:00:00-07:00",
+      "attributes": {
+        "label": "March 12, 2024"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "fi",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 7,
+      "total": 79
+    },
+    "im:name": {
       "label": "Smart NFC"
     },
     "im:image": [
@@ -616,7 +718,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 79
     },
     "im:name": {
@@ -718,7 +820,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 9,
       "total": 79
     },
     "im:name": {
@@ -820,7 +922,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 79
     },
     "im:name": {
@@ -922,7 +1024,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 11,
       "total": 79
     },
     "im:name": {
@@ -1024,7 +1126,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 12,
       "total": 79
     },
     "im:name": {
@@ -1126,7 +1228,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 12,
+      "index": 13,
       "total": 79
     },
     "im:name": {
@@ -1228,7 +1330,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 13,
+      "index": 14,
       "total": 79
     },
     "im:name": {
@@ -1330,7 +1432,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 15,
       "total": 79
     },
     "im:name": {
@@ -1432,7 +1534,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 16,
       "total": 79
     },
     "im:name": {
@@ -1534,7 +1636,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 17,
       "total": 79
     },
     "im:name": {
@@ -1636,7 +1738,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 18,
       "total": 79
     },
     "im:name": {
@@ -1738,7 +1840,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 19,
       "total": 79
     },
     "im:name": {
@@ -1840,7 +1942,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 20,
       "total": 79
     },
     "im:name": {
@@ -1942,7 +2044,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 21,
       "total": 79
     },
     "im:name": {
@@ -2044,7 +2146,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 22,
       "total": 79
     },
     "im:name": {
@@ -2146,7 +2248,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 23,
       "total": 79
     },
     "im:name": {
@@ -2248,7 +2350,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 24,
       "total": 79
     },
     "im:name": {
@@ -2350,7 +2452,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 24,
+      "index": 25,
       "total": 79
     },
     "im:name": {
@@ -2452,7 +2554,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 26,
       "total": 79
     },
     "im:name": {
@@ -2554,7 +2656,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 27,
       "total": 79
     },
     "im:name": {
@@ -2656,7 +2758,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 28,
       "total": 79
     },
     "im:name": {
@@ -2758,7 +2860,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 29,
       "total": 79
     },
     "im:name": {
@@ -2857,7 +2959,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 30,
       "total": 79
     },
     "im:name": {
@@ -2959,7 +3061,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 31,
       "total": 79
     },
     "im:name": {
@@ -3061,7 +3163,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 31,
+      "index": 32,
       "total": 79
     },
     "im:name": {
@@ -3163,7 +3265,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 32,
+      "index": 33,
       "total": 79
     },
     "im:name": {
@@ -3265,7 +3367,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 33,
+      "index": 34,
       "total": 79
     },
     "im:name": {
@@ -3367,7 +3469,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 34,
+      "index": 35,
       "total": 79
     },
     "im:name": {
@@ -3469,7 +3571,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 36,
       "total": 79
     },
     "im:name": {
@@ -3571,7 +3673,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 37,
       "total": 79
     },
     "im:name": {
@@ -3673,7 +3775,7 @@
       "country_code": "fi",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 37,
+      "index": 38,
       "total": 79
     },
     "im:name": {
@@ -3767,108 +3869,6 @@
       "label": "2019-05-05T14:44:46-07:00",
       "attributes": {
         "label": "May 5, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "fi",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 38,
-      "total": 79
-    },
-    "im:name": {
-      "label": "My Lisp"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e7/cb/79/e7cb7988-6b3d-1638-b4cd-144d4fc2f31d/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "My Lisp is a complete and universal Lisp environment running directly on the iPhone, iPad, and Mac. This interpreter is true to the original John McCarthy Lisp implementation with the fundamental 7 operators quote, atom, eq, car, cdr, cons, cond, along with lambda and label. My Lisp also contains core and mathematical operators borrowed from other Lisp dialects (Le Lisp, Lisp 1.5, MacLisp, Common Lisp and Scheme to name a few) to make it easy to learn, program, and most importantly, enjoy Lisp. It also features built-in functions for advanced mathematics, including complex numbers and numerical analysis (roots and zeros finder, integral approximation). The complete description of the fundamental, core, and built-in functions is available using a set of library functions completely written in My Lisp.\n\nMy Lisp offers an interpreter and an editor, all working on the iPhone, iPad, and Mac, and most importantly, without requiring any server connection, that is, the interpreter is executing locally on the iPhone, iPad or Mac My Lisp is installed on. \n\nLibrary and example files contain the source code of classical functions and problems solved by My Lisp and may be used as reference to learn Lisp and develop other programs. They include classical puzzles (hanoi and n-queens), basic mathematical functions (gcd, lcm, factorial, fibonacci, prime?), and the historical apply, mapcar and maplist functions. The Lambda Calculus example file contains various functions related to Lambda Calculus and Combinators, with alpha-conversion, beta-reduction, de Bruijn notations, etc. As a special note, the example file Symbolic Derivation contains a complete yet extensible symbolic derivation module allowing to compute the formal derivation of virtually any symbolic function expressed as a Lisp expression.\n\nA user manual and a reference manual are available from within the application but also on My Lisp web site (https://lisp.lsrodier.net) and in Apple Books. The complete source code of the library and example files is part of My Lisp. \n\nLast but not least, this overview couldn’t end without a sample definition of the notorious REPL function:\n\t(define (REPL eval_me) (REPL (println (eval (read)))))"
-    },
-    "im:price": {
-      "label": "3,99 €",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2008-2024 Laurent Rodier."
-    },
-    "title": {
-      "label": "My Lisp - Laurent Rodier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/fi/app/my-lisp/id1245341806?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/9a/4c/d89a4c12-786c-ada7-aaa0-ee87c26362ff/02927124-b8a1-4d05-9b7d-46672de8215d_01.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/fi/app/my-lisp/id1245341806?uo=2",
-      "attributes": {
-        "im:id": "1245341806",
-        "im:bundleId": "net.lsrodier.MyLisp"
-      }
-    },
-    "im:artist": {
-      "label": "Laurent Rodier",
-      "attributes": {
-        "href": "https://apps.apple.com/fi/developer/laurent-rodier/id697920086?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/fi/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-07T11:32:31-07:00",
-      "attributes": {
-        "label": "November 7, 2017"
       }
     }
   },

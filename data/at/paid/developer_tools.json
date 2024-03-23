@@ -8,210 +8,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "6,99 €",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/at/app/docker-management/id1527656144?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/at/app/docker-management/id1527656144?l=en&uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/at/developer/nevis-shkenza/id1268450891?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "at",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 2,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Scarlet"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/28/54/9e/28549ebc-cd9d-62d4-f86a-8a7deff7a67a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/28/54/9e/28549ebc-cd9d-62d4-f86a-8a7deff7a67a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/28/54/9e/28549ebc-cd9d-62d4-f86a-8a7deff7a67a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Let's face it, there are a lot of developers who like the idea of an issue tracker, but find it too much effort to use & maintain for solo, indie or hobby projects.\n\nEnter Scarlet. Scarlet is a personal issue tracker that saves to a file that you can include in your project directory, or anywhere you prefer. No accounts, no cloud services, no syncing, no third-party integration. Just a simple place to file away your project's to-dos and close them when they're complete.\n\nAdd tags to an issue to help organize things, and that's it — it really couldn't be simpler.\n\nTry all the features of the app for free with a limit to the number of issues supported, or unlock the full, unlimited version across iPhone, iPad and Mac with a simple, single in-app purchase to support future development."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021–2024 High Caffeine Content"
-    },
-    "title": {
-      "label": "Scarlet - Steven Troughton-Smith"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/at/app/scarlet/id1532669250?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/f3/a8/54/f3a85427-0785-e72b-ec9a-0335e7084227/32050ba7-70e2-4647-a18a-cac7d2f1c10c_iPad.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/at/app/scarlet/id1532669250?l=en&uo=2",
-      "attributes": {
-        "im:id": "1532669250",
-        "im:bundleId": "com.highcaffeinecontent.issues"
-      }
-    },
-    "im:artist": {
-      "label": "Steven Troughton-Smith",
-      "attributes": {
-        "href": "https://apps.apple.com/at/developer/steven-troughton-smith/id286133549?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-06-02T00:00:00-07:00",
-      "attributes": {
-        "label": "June 2, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "at",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 3,
-      "total": 99
-    },
-    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -310,7 +106,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 2,
       "total": 99
     },
     "im:name": {
@@ -412,7 +208,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -514,7 +310,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -616,7 +412,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -718,7 +514,109 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 6,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "6,99 €",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/at/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/at/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/at/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "at",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -820,7 +718,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -922,7 +820,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +922,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -1118,6 +1016,108 @@
       "label": "2011-11-15T12:29:31-07:00",
       "attributes": {
         "label": "November 15, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "at",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 11,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Scarlet"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/28/54/9e/28549ebc-cd9d-62d4-f86a-8a7deff7a67a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/28/54/9e/28549ebc-cd9d-62d4-f86a-8a7deff7a67a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/28/54/9e/28549ebc-cd9d-62d4-f86a-8a7deff7a67a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Let's face it, there are a lot of developers who like the idea of an issue tracker, but find it too much effort to use & maintain for solo, indie or hobby projects.\n\nEnter Scarlet. Scarlet is a personal issue tracker that saves to a file that you can include in your project directory, or anywhere you prefer. No accounts, no cloud services, no syncing, no third-party integration. Just a simple place to file away your project's to-dos and close them when they're complete.\n\nAdd tags to an issue to help organize things, and that's it — it really couldn't be simpler.\n\nTry all the features of the app for free with a limit to the number of issues supported, or unlock the full, unlimited version across iPhone, iPad and Mac with a simple, single in-app purchase to support future development."
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021–2024 High Caffeine Content"
+    },
+    "title": {
+      "label": "Scarlet - Steven Troughton-Smith"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/at/app/scarlet/id1532669250?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/f3/a8/54/f3a85427-0785-e72b-ec9a-0335e7084227/32050ba7-70e2-4647-a18a-cac7d2f1c10c_iPad.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/at/app/scarlet/id1532669250?l=en&uo=2",
+      "attributes": {
+        "im:id": "1532669250",
+        "im:bundleId": "com.highcaffeinecontent.issues"
+      }
+    },
+    "im:artist": {
+      "label": "Steven Troughton-Smith",
+      "attributes": {
+        "href": "https://apps.apple.com/at/developer/steven-troughton-smith/id286133549?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-06-02T00:00:00-07:00",
+      "attributes": {
+        "label": "June 2, 2021"
       }
     }
   },
@@ -1232,35 +1232,35 @@
       "total": 99
     },
     "im:name": {
-      "label": "ReactElements Studio"
+      "label": "Code App"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/8d/1d/078d1d51-d2c0-d161-03e0-e19cdebdbf7e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a4/5a/f3/a45af376-ea3d-68ef-03ed-523e4f8406bb/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/8d/1d/078d1d51-d2c0-d161-03e0-e19cdebdbf7e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a4/5a/f3/a45af376-ea3d-68ef-03ed-523e4f8406bb/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/8d/1d/078d1d51-d2c0-d161-03e0-e19cdebdbf7e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a4/5a/f3/a45af376-ea3d-68ef-03ed-523e4f8406bb/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "World's First Mobile HTML Editor with Building Block System!\nCreate React JSX Components with ease and without much programming skills!\nLearn Web Development the easy way!\n\nFeatures:\n- Write CSS by using Tailwind CSS utility classes\n- Simple HTML Builder with Building Blocks\n- Save your Containers for later use\n\nComing soon:\n- Search through ReactElements.com UI Marketplace\n- Upload your Creations to ReactElements.com"
+      "label": "Code App is a MIT-licensed desktop-class code editor for iPadOS with built-in Node.js, Python, C, C++, PHP and Java runtime.\n\nWe built it because there is nothing else on the App Store provides all these features in one app:\n* A robust, high-performance text editor (Monaco Editor from Visual Studio Code)\n* First class local file system support\n* Extensive local language support\n* SSH / FTP remote connection support (Files and terminal)\n* Embedded emulated terminal\n* Git Version Control\n* Package manager support (pip and npm)\n* Markdown, themes, server-side snippet execution and more\n\nRead Code App's documentation: code.thebaselab.com\nSee the project's source code, roadmap, discussion on GitHub: github.com/thebaselab/codeapp \nSend us an email: support@thebaselab.com\n\nPrivacy Policy: thebaselab.com/privacypolicies\nTerms of Use (EULA): www.apple.com/legal/internet-services/itunes/dev/stdeula/"
     },
     "im:price": {
-      "label": "0,99 €",
+      "label": "6,99 €",
       "attributes": {
-        "amount": "0.99",
+        "amount": "6.99",
         "currency": "EUR"
       }
     },
@@ -1271,17 +1271,17 @@
       }
     },
     "rights": {
-      "label": "© 2022 STRICS IT GmbH"
+      "label": "© 2022 thebaselab"
     },
     "title": {
-      "label": "ReactElements Studio - STRICS IT GmbH"
+      "label": "Code App - thebaselab Ltd"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/at/app/reactelements-studio/id1644689586?l=en&uo=2"
+          "href": "https://apps.apple.com/at/app/code-app/id1512938504?l=en&uo=2"
         }
       },
       {
@@ -1292,22 +1292,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/13/9c/8d/139c8d64-a311-31d7-1528-15c156b55d5c/9be9c6bb-b6ca-44bd-b86c-555dafb80797_7.png/480x480bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/c6/d8/de/c6d8decb-3671-49c7-31f1-9369b62a83d6/52adfdd6-81de-4c76-8d07-253133221b1f_custom__U2013_8.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/at/app/reactelements-studio/id1644689586?l=en&uo=2",
+      "label": "https://apps.apple.com/at/app/code-app/id1512938504?l=en&uo=2",
       "attributes": {
-        "im:id": "1644689586",
-        "im:bundleId": "com.reactelements.studio"
+        "im:id": "1512938504",
+        "im:bundleId": "thebaselab.VS-Code"
       }
     },
     "im:artist": {
-      "label": "STRICS IT GmbH",
+      "label": "thebaselab Ltd",
       "attributes": {
-        "href": "https://apps.apple.com/at/developer/strics-it-gmbh/id1498799328?l=en&uo=2"
+        "href": "https://apps.apple.com/at/developer/thebaselab-ltd/id1452525755?l=en&uo=2"
       }
     },
     "category": {
@@ -1319,9 +1319,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2022-09-20T00:00:00-07:00",
+      "label": "2020-05-28T00:00:00-07:00",
       "attributes": {
-        "label": "September 20, 2022"
+        "label": "May 28, 2020"
       }
     }
   },
@@ -1436,108 +1436,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Code App"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a4/5a/f3/a45af376-ea3d-68ef-03ed-523e4f8406bb/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a4/5a/f3/a45af376-ea3d-68ef-03ed-523e4f8406bb/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a4/5a/f3/a45af376-ea3d-68ef-03ed-523e4f8406bb/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Code App is a MIT-licensed desktop-class code editor for iPadOS with built-in Node.js, Python, C, C++, PHP and Java runtime.\n\nWe built it because there is nothing else on the App Store provides all these features in one app:\n* A robust, high-performance text editor (Monaco Editor from Visual Studio Code)\n* First class local file system support\n* Extensive local language support\n* SSH / FTP remote connection support (Files and terminal)\n* Embedded emulated terminal\n* Git Version Control\n* Package manager support (pip and npm)\n* Markdown, themes, server-side snippet execution and more\n\nRead Code App's documentation: code.thebaselab.com\nSee the project's source code, roadmap, discussion on GitHub: github.com/thebaselab/codeapp \nSend us an email: support@thebaselab.com\n\nPrivacy Policy: thebaselab.com/privacypolicies\nTerms of Use (EULA): www.apple.com/legal/internet-services/itunes/dev/stdeula/"
-    },
-    "im:price": {
-      "label": "6,99 €",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 thebaselab"
-    },
-    "title": {
-      "label": "Code App - thebaselab Ltd"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/at/app/code-app/id1512938504?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/c6/d8/de/c6d8decb-3671-49c7-31f1-9369b62a83d6/52adfdd6-81de-4c76-8d07-253133221b1f_custom__U2013_8.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/at/app/code-app/id1512938504?l=en&uo=2",
-      "attributes": {
-        "im:id": "1512938504",
-        "im:bundleId": "thebaselab.VS-Code"
-      }
-    },
-    "im:artist": {
-      "label": "thebaselab Ltd",
-      "attributes": {
-        "href": "https://apps.apple.com/at/developer/thebaselab-ltd/id1452525755?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-05-28T00:00:00-07:00",
-      "attributes": {
-        "label": "May 28, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "at",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 16,
-      "total": 99
-    },
-    "im:name": {
       "label": "UDIDit"
     },
     "im:image": [
@@ -1628,6 +1526,108 @@
       "label": "2009-08-15T00:00:00-07:00",
       "attributes": {
         "label": "August 15, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "at",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 16,
+      "total": 99
+    },
+    "im:name": {
+      "label": "ReactElements Studio"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/8d/1d/078d1d51-d2c0-d161-03e0-e19cdebdbf7e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/8d/1d/078d1d51-d2c0-d161-03e0-e19cdebdbf7e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/07/8d/1d/078d1d51-d2c0-d161-03e0-e19cdebdbf7e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "World's First Mobile HTML Editor with Building Block System!\nCreate React JSX Components with ease and without much programming skills!\nLearn Web Development the easy way!\n\nFeatures:\n- Write CSS by using Tailwind CSS utility classes\n- Simple HTML Builder with Building Blocks\n- Save your Containers for later use\n\nComing soon:\n- Search through ReactElements.com UI Marketplace\n- Upload your Creations to ReactElements.com"
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 STRICS IT GmbH"
+    },
+    "title": {
+      "label": "ReactElements Studio - STRICS IT GmbH"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/at/app/reactelements-studio/id1644689586?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/13/9c/8d/139c8d64-a311-31d7-1528-15c156b55d5c/9be9c6bb-b6ca-44bd-b86c-555dafb80797_7.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/at/app/reactelements-studio/id1644689586?l=en&uo=2",
+      "attributes": {
+        "im:id": "1644689586",
+        "im:bundleId": "com.reactelements.studio"
+      }
+    },
+    "im:artist": {
+      "label": "STRICS IT GmbH",
+      "attributes": {
+        "href": "https://apps.apple.com/at/developer/strics-it-gmbh/id1498799328?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-09-20T00:00:00-07:00",
+      "attributes": {
+        "label": "September 20, 2022"
       }
     }
   },

@@ -8,35 +8,35 @@
       "total": 98
     },
     "im:name": {
-      "label": "Shadowrocket"
+      "label": "Quantumult"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/fc/55/38fc5565-3f28-78e9-63f7-4772a9bc7bcc/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7e/68/66/7e686672-168b-3d8a-db13-3baaadc1d9c4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/fc/55/38fc5565-3f28-78e9-63f7-4772a9bc7bcc/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7e/68/66/7e686672-168b-3d8a-db13-3baaadc1d9c4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/fc/55/38fc5565-3f28-78e9-63f7-4772a9bc7bcc/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7e/68/66/7e686672-168b-3d8a-db13-3baaadc1d9c4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
+      "label": "***THIS APPLICATION DOES NOT PROVIDE ANY SERVER SIDE SERVICE***\n\nQuantumult is a powerful proxy client.\n• Right now supports protocol Shadowsocks(r), HTTP, HTTP over TLS, SOCKS5 and SOCKS5 over TLS, VMess.\n\nIt can capture all the TCP traffic and redirect under you own way by using Filter function.\n• The filter has a few types to match. For TCP traffic that has the upper layer protocol HTTP(S), 'HOST', 'HOST-SUFFIX', 'HOST-KEYWORD', 'USER-AGENT', 'GEOIP' and 'IP-CIDR' are all supported. For the other TCP traffic, 'GEOIP' and 'IP-CIDR' are supported. Especially, when deal with HTTP(S) traffic, Quantumult has another function called Rejection, it matchs the whole URL of the HTTP(S) request.\n• After match, the filter has a lot of actions to deal with the request, built-in policy 'DIRECT', 'REJECT', 'PROXY', all your servers and your customized policies. Actually you can see all the actions as a lot of paths and you can decide which request goes through which path by using filter function.\n\nMore over, Quantumult can be a convenient web develop tool on mobile device.\n• When you on the road without the Mac platform debug tools like Charles and Wireshark, you still can use Quantumult to log parts of the web request to debug some web issues.\n• Quantumult can log all the HTTP(S) request header and response header.\n• Yes, you are right it can log the HTTPS request header and response header, be sure to install and trust Quantumult root CA for this advanced function.\n\nSince quantumult has a function called PROXY, sure it can redirect your traffic to remote proxy servers. But be clear, we do NOT provide any server side service or support, you should build your own servers.\n• Like we said early Quantumult can redirect all TCP traffic through the filter function, that means you can visit different web site through different servers by the filter. See it can accelerate your network connection if you set your filter right, and of course the filter is totally customizable.\n• About the customized policy, there are 3 different types of customized policy, 'SSID', 'Latency' and 'Static'. The 'SSID' policy depends on your network enviroment, Wi-Fi, Cellular or specific Wi-Fi with the SSID your provided. The 'Latency' policy is based on the latencies of all the servers of the policy settings, the result is the shortest(The test interval has the option of 600 or 1200 seconds). The 'Static' policy is based on your manual selection of servers or other polices from the policy settings. Sure you are right, some of polices can wrap other polices, convinent, right ?\n\nAbout working state, Quantumult can work in 3 state, 'GLOBAL', 'DIRECT' AND 'AUTO'.\n• The GLOBAL state will ignore filter settings and redirect all TCP traffic through the built-in PROXY policy(you need build and add your server first).\n• The DIRECT state will ignore filter settings and redirect all TCP traffic directly to the destination web site. How this state useful ? Yes, it can be a simple web develop tools by analizing the reqeust header and response header including HTTPS.\n• The AUTO state, we call it auto because it base on the filter you set to divide the TCP traffic through different paths, like the popular ACL way.\n\nExtra, Quantumult can also work as a HTTP proxy server for devices under the same Wi-Fi, when this function is turned on, the home view will show the IP and port for other device easily to connect.\n\n\nAt last, some attentions.\n• About the location on the map of home view. It is not the real location in the real world, it's just the IP location and might not be correct."
     },
     "im:price": {
-      "label": "R59.99",
+      "label": "R199.99",
       "attributes": {
-        "amount": "59.99",
+        "amount": "199.99",
         "currency": "ZAR"
       }
     },
@@ -47,17 +47,17 @@
       }
     },
     "rights": {
-      "label": "© 2023 Li Guangming"
+      "label": "© 2018 Cross Utility Ltd."
     },
     "title": {
-      "label": "Shadowrocket - Shadow Launch Technology Limited"
+      "label": "Quantumult - Cross Utility Ltd"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/za/app/shadowrocket/id932747118?uo=2"
+          "href": "https://apps.apple.com/za/app/quantumult/id1252015438?uo=2"
         }
       },
       {
@@ -68,22 +68,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/8d/5d/2a/8d5d2abd-f53a-6258-d942-02e29b6af243/mzl.nufuqusq.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/za/app/shadowrocket/id932747118?uo=2",
+      "label": "https://apps.apple.com/za/app/quantumult/id1252015438?uo=2",
       "attributes": {
-        "im:id": "932747118",
-        "im:bundleId": "com.liguangming.Shadowrocket"
+        "im:id": "1252015438",
+        "im:bundleId": "com.crossutility.quantumult"
       }
     },
     "im:artist": {
-      "label": "Shadow Launch Technology Limited",
+      "label": "Cross Utility Ltd",
       "attributes": {
-        "href": "https://apps.apple.com/za/developer/shadow-launch-technology-limited/id687237009?uo=2"
+        "href": "https://apps.apple.com/za/developer/cross-utility-ltd/id1252015437?uo=2"
       }
     },
     "category": {
@@ -95,9 +95,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2015-04-13T19:09:18-07:00",
+      "label": "2017-06-28T16:02:05-07:00",
       "attributes": {
-        "label": "April 13, 2015"
+        "label": "June 28, 2017"
       }
     }
   },
@@ -110,132 +110,30 @@
       "total": 98
     },
     "im:name": {
-      "label": "FaceClock Pro - Analogue Clock"
+      "label": "Big Clock HD"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/22/13/7f/22137f40-784c-9a73-f155-f63ffe61c10e/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/8a/a3/23/8aa32300-a0a0-fbda-bd80-4248ca534f7a/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/22/13/7f/22137f40-784c-9a73-f155-f63ffe61c10e/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/8a/a3/23/8aa32300-a0a0-fbda-bd80-4248ca534f7a/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/22/13/7f/22137f40-784c-9a73-f155-f63ffe61c10e/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/8a/a3/23/8aa32300-a0a0-fbda-bd80-4248ca534f7a/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "CONVENIENCE \n• Know the current time every minute by listening the announcement. Announce the Time. It will speak the time as specified intervals with 3 different languages (English, Japanese, Indonesian, Chinese, Deutsch, Arabic, Korean French, Thai, Hindi and Spanish). \n• Swipe slowly up/down to change the brightness \n• Alarm Clock (with Snooze) \n• Music player control. \n• Battery indicator\n• Today's Widget to easy access\n\nCUSTOMIZABLE \n• Add background picture. \n• Change color scheme and clock face. More than 20+ clock face to choose from. \n• 24-hour analogue clock\n• 12-hour inverse clock (anti-clockwise)\n• Tik-tok / continuos clock movement.\n\nFUN \n• Visual Effect. \n• 'Announce the Time' speak the time for specified intervals and has 3 languages. \n• Pick your iTunes library for your alarm. \n\nPlease visit irekasoft.com/faceclock for more info and FAQ.\n\nPlease contact support@irekasoft.com if you are experiencing any issues."
-    },
-    "im:price": {
-      "label": "R59.99",
-      "attributes": {
-        "amount": "59.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© iReka Soft"
-    },
-    "title": {
-      "label": "FaceClock Pro - Analogue Clock - iReka Soft"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/faceclock-pro-analogue-clock/id673746301?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b8/08/a8/b808a8f6-e4fa-1e09-5c08-e8c39fd798d3/mzl.xstjbrhm.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/faceclock-pro-analogue-clock/id673746301?uo=2",
-      "attributes": {
-        "im:id": "673746301",
-        "im:bundleId": "com.irekasoft.faceclockpro"
-      }
-    },
-    "im:artist": {
-      "label": "iReka Soft",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/ireka-soft/id430308890?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-07-20T14:45:15-07:00",
-      "attributes": {
-        "label": "July 20, 2013"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 3,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Screen Test Utility"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7f/cd/2a/7fcd2a44-f0a1-ff0b-6ec4-270f42407699/AppIcon-0-0-1x_U007emarketing-0-7-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7f/cd/2a/7fcd2a44-f0a1-ff0b-6ec4-270f42407699/AppIcon-0-0-1x_U007emarketing-0-7-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7f/cd/2a/7fcd2a44-f0a1-ff0b-6ec4-270f42407699/AppIcon-0-0-1x_U007emarketing-0-7-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "iOS device owners-would you like an app where you could test all of the touch-points on your screen? Do you have a cracked screen? Did you have your gorilla-glass screen replaced? This is a great utility app that is a MUST-HAVE! For just $0.99 you can have this app for all of your iOS devices for testing your screen. You will never have to wonder again if your screen is fully functional. The best part about this app: NO ADS!"
+      "label": "Big Clock HD displays a big digital clock on your iPhone / iPad that's readable even from a distance. All iOS locales are supported, change them in the settings for the app.\n\nIf there's no big clock on the wall - now there's one in your pocket or in your iPad Dock!\n\nFEATURES\n- Big, readable display of date and time\n- Localized in all languages the iPhone/iPad supports\n- Prevents phone / iPad from auto-locking while displaying the time\n- Add seconds display via the Settings App\n- Widgets"
     },
     "im:price": {
       "label": "R19.99",
@@ -251,17 +149,17 @@
       }
     },
     "rights": {
-      "label": "© 2024 Twosome Solutions LLC"
+      "label": "© TheCodingMonkeys"
     },
     "title": {
-      "label": "Screen Test Utility - Twosome Solutions LLC"
+      "label": "Big Clock HD - TheCodingMonkeys"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/za/app/screen-test-utility/id1529055554?uo=2"
+          "href": "https://apps.apple.com/za/app/big-clock-hd/id364394834?uo=2"
         }
       },
       {
@@ -272,22 +170,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/94/33/cf/9433cf16-e154-97e6-10a2-dcd4f6133c60/43b2790f-d2ac-45d8-ab1c-c0a6ee053709_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2021-04-15_at_22.37.16.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/c0/2f/99/c02f99fe-131c-3541-9486-07c8a389b04f/1acae5b0-f2fb-4c19-86c9-b115c4c1caaf_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029-en-0.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/za/app/screen-test-utility/id1529055554?uo=2",
+      "label": "https://apps.apple.com/za/app/big-clock-hd/id364394834?uo=2",
       "attributes": {
-        "im:id": "1529055554",
-        "im:bundleId": "com.twosomesolutions.ScreenTestUtility"
+        "im:id": "364394834",
+        "im:bundleId": "de.codingmonkeys.BigClockHD"
       }
     },
     "im:artist": {
-      "label": "Twosome Solutions LLC",
+      "label": "TheCodingMonkeys",
       "attributes": {
-        "href": "https://apps.apple.com/za/developer/twosome-solutions-llc/id601620281?uo=2"
+        "href": "https://apps.apple.com/za/developer/thecodingmonkeys/id284181889?uo=2"
       }
     },
     "category": {
@@ -299,9 +197,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-08-26T00:00:00-07:00",
+      "label": "2010-04-01T12:33:54-07:00",
       "attributes": {
-        "label": "August 26, 2020"
+        "label": "April 1, 2010"
       }
     }
   },
@@ -310,7 +208,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 4,
+      "index": 3,
       "total": 98
     },
     "im:name": {
@@ -412,7 +310,1333 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
+      "index": 4,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Shadowrocket"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/fc/55/38fc5565-3f28-78e9-63f7-4772a9bc7bcc/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/fc/55/38fc5565-3f28-78e9-63f7-4772a9bc7bcc/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/fc/55/38fc5565-3f28-78e9-63f7-4772a9bc7bcc/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTTPS, DNS over TLS, DNS over QUIC."
+    },
+    "im:price": {
+      "label": "R59.99",
+      "attributes": {
+        "amount": "59.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Li Guangming"
+    },
+    "title": {
+      "label": "Shadowrocket - Shadow Launch Technology Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/shadowrocket/id932747118?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/shadowrocket/id932747118?uo=2",
+      "attributes": {
+        "im:id": "932747118",
+        "im:bundleId": "com.liguangming.Shadowrocket"
+      }
+    },
+    "im:artist": {
+      "label": "Shadow Launch Technology Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/shadow-launch-technology-limited/id687237009?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-04-13T19:09:18-07:00",
+      "attributes": {
+        "label": "April 13, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
       "index": 5,
+      "total": 98
+    },
+    "im:name": {
+      "label": "E85 Mix Ethanol Calculator"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/62/1f/c3/621fc32d-34d6-4bb3-4bbb-e71af22f9289/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/62/1f/c3/621fc32d-34d6-4bb3-4bbb-e71af22f9289/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/62/1f/c3/621fc32d-34d6-4bb3-4bbb-e71af22f9289/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The app is smart and it will remember your tank capacity and target ethanol mix values so next time you want to see how much E85 you need to add to get your target ethanol mix, you will only have to specify your current tank percentage. This way it is the fastest method to calculate how much gas and e85 you need to put in the tank. It is such a fast method, by the time you get out of your car, you already know how much fuel you need to add in the tank. Literally 3 seconds.\n\nAdditional Information:\n\nYou have the option to select what your current ethanol content is if you measured it with an ethanol content analyzer and the app easily calculates how much E85 and how much gas you need to add to reach your target ethanol mix.\n\nYou can also specify the ethanol content of your E85 if you measured it with an Ethanol Content Analyzer, so this way you get an exact guide as to how much E85 and how much gas you have to put in the tank.\n\nTank Capacity\n-Specify the capacity of your tank\n\nTank Percentage\n-How full is your tank\n\nE85 Ethanol Content\n-What is the Ethanol content of your E85 what you are about to put in the tank\n\nTarget Ethanol Mix\n-What your desired ethanol mix is, for example (E30 E40 E50 E60 E85)\n\nCurrent Ethanol Mix\n-What your current ethanol percentage is of your current fuel in the tank\n\nFor any questions please feel free to contact at profisoftgames@gmail.com"
+    },
+    "im:price": {
+      "label": "R39.99",
+      "attributes": {
+        "amount": "39.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 Profi-Soft"
+    },
+    "title": {
+      "label": "E85 Mix Ethanol Calculator - Adam Keninger"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/e85-mix-ethanol-calculator/id1473954071?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/a2/16/78/a21678c3-6941-9443-e1f3-195b4bcbbb22/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/e85-mix-ethanol-calculator/id1473954071?uo=2",
+      "attributes": {
+        "im:id": "1473954071",
+        "im:bundleId": "com.ProfiSoft.EthanolMix"
+      }
+    },
+    "im:artist": {
+      "label": "Adam Keninger",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/adam-keninger/id966549024?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-07-28T00:00:00-07:00",
+      "attributes": {
+        "label": "July 28, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 6,
+      "total": 98
+    },
+    "im:name": {
+      "label": "NetSpot WiFi Analyzer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/57/71/5f/57715fe6-a783-c430-3ab0-77d6a912ef2d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/57/71/5f/57715fe6-a783-c430-3ab0-77d6a912ef2d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/57/71/5f/57715fe6-a783-c430-3ab0-77d6a912ef2d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NetSpot 3 brings powerful WiFi site surveys to iPhone and iPad users. Internet speed test built right in. Build realistic WiFi heatmaps right on your iOS or iPadOS device in minutes, without additional expensive hardware! Analyze and troubleshoot your wireless networks with color-coded highly visual heatmaps that are very simple to create and interpret.\n\nNetSpot, famous for its versatile network tools with millions of business and home users across all platforms, is the only WiFi scanner app with heatmap visualizations. Effortlessly manage your Wi-Fi survey projects by organizing them into zones and multiple snapshots for each area. Flexible configuration settings let you customize the look and feel of your WiFi map and choose the desired gradient to properly highlight areas with high WiFi speed and stable connection, or low WiFi signal that may require some fine-tuning.\n\nNetSpot’s WiFi speedtest is a great one-tap solution to verify and track performance of your wireless setups over time.\n\nUSE NETSPOT AS...\n\n* WiFi analyzer - diagnoze your wireless networks and connection speed\n* WiFi scanner - collect and visualize your WiFi data\n* WiFi tester - check your Internet speed and record your historical results\n* WiFi mapper - conduct active WiFi site surveys for connected networks\n* WiFi troubleshooting app\n\nNetSpot WiFi heat mapper is fast, accurate and extremely simple. It helps you see the true coverage of your WiFi like never before, regardless of your mesh or no-mesh configuration, security settings, interfering networks or other factors. Every time you use NetSpot internet speed meter for WiFi site surveys, it delivers reliable interactive heatmaps that are easy to analyze.\n\nNETSPOT IS INCREDIBLY HELPFUL FOR...\n\n* WiFi network setup verification\n* WiFi signal and speed test\n* Creating WiFi heat map to detect areas of weak signal\n* Extending WiFi coverage and more"
+    },
+    "im:price": {
+      "label": "R99.99",
+      "attributes": {
+        "amount": "99.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Etwok Inc., USA"
+    },
+    "title": {
+      "label": "NetSpot WiFi Analyzer - Etwok Inc"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/netspot-wifi-analyzer/id1490247223?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/6e/5a/f0/6e5af03f-ea4e-b7b1-6d01-3190753e0276/285147c1-aa52-493b-a2aa-06aef9909699_NS3iOS1.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/netspot-wifi-analyzer/id1490247223?uo=2",
+      "attributes": {
+        "im:id": "1490247223",
+        "im:bundleId": "com.etwok.netspotIOS"
+      }
+    },
+    "im:artist": {
+      "label": "Etwok Inc",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/etwok-inc/id1483084004?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-05-04T00:00:00-07:00",
+      "attributes": {
+        "label": "May 4, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 7,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Calculator SC-323PU"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/20/81/832081f1-055b-6952-164f-6f96d01bbfb3/AppIcon-0-1x_U007emarketing-0-10-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/20/81/832081f1-055b-6952-164f-6f96d01bbfb3/AppIcon-0-1x_U007emarketing-0-10-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/20/81/832081f1-055b-6952-164f-6f96d01bbfb3/AppIcon-0-1x_U007emarketing-0-10-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "The SC-323PU is a multi functional calculator. It is designed in a way, that it simulates the visual and operational aspects of a true pocket calculator, such that the user will be immediately familiar with its interface. A complete operation manual is included within the App.\n\nThe SC-323PU offers the following calculator modes for different tasks:\n\n- SCIENTIFIC CALCULATOR\n- UNIT CONVERTER and UNIT CALCULATOR\n- LOGIC CALCULATOR (n-base conversion)\n\n• Full operating instructions are included in the App (visible when device is in landscape orientation).\n• All modes share the same memory contents, and calculation value, so that the different calculator modes can be used in one calculation task.\n• Pasteboard support (copy and paste)\n• Algebraic logic for calculation entry.\n• Priority of calculations according to a given mathematical formula.\n• 30 levels of parentheses or pending operations.\n• Variables and memories to store values and use in calculations.\n• Floating decimal point calculations with 20 digits mantissa and 2 digits exponent.\n• Calculations: Four arithmetic calculations, constant calculation, memory calculations, trigonometric and inverse trigonometric functions, hyperbolic and inverse hyperbolic functions, conversion of angles and time, reciprocals, square roots and cubic roots, X-th roots of Y, squares and powers, logarithmic and exponential functions, factorials, permutations, combinations, conversions of coordinates.\n• AER (Algebraic Expression Reserve)  for repetitive calculations of expressions and formulas.\n• Complex number calculations.\n• Different display modes selectable: floating point decimal, fixed point decimal, scientific notation and engineering notation.\n• DEG/RAD/GRAD selector key.\n• Fraction calculations.\n• Time calculations.\n• Frame rate calculations.\n• 47 physical constants.\n• Unit converter and currency converter.\n• Calculations with mixed units.\n• The calculator is shipped with 84 physical units and 16 SI prefixes predefined.\n• Exchange rate of currency units will be updated automatically from internet.\n• Additional units can be defined by user.\n• Single and two lines view modes optimized for different conversion tasks.\n• Conversions between 4 base systems HEX, DEC, OCT, BIN.\n• Boolean operations AND, OR, XOR, NOT, bit shift operations.\n• Conversion from “little endian” to “big endian” format and vice versa.\n• Handling of 8, 16, 32 and 64 bit signed and unsigned numbers including overflow calculations.\n\n\nAlso on your Apple Watch! You can do basic calculations, tip calculations, unit and currency conversions and even scientific calculations directly on your wrist. Designed with large keys for best usability on the small screen."
+    },
+    "im:price": {
+      "label": "R79.99",
+      "attributes": {
+        "amount": "79.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2009 - 2023 Thomas Oellinger"
+    },
+    "title": {
+      "label": "Calculator SC-323PU - Thomas Öllinger"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/calculator-sc-323pu/id301290196?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/28/64/ce/2864cefd-ac97-7965-64bb-a96d59082320/mzl.nruluolc.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/calculator-sc-323pu/id301290196?uo=2",
+      "attributes": {
+        "im:id": "301290196",
+        "im:bundleId": "at.murinsel.SC-323PU"
+      }
+    },
+    "im:artist": {
+      "label": "Thomas Öllinger",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/thomas-%C3%B6llinger/id301290199?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-07-11T14:18:56-07:00",
+      "attributes": {
+        "label": "July 11, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 8,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Nice Trace - Traceroute"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/aa/7e/c9/aa7ec970-984a-59cd-8358-817133fd3c1b/AppIcon-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/aa/7e/c9/aa7ec970-984a-59cd-8358-817133fd3c1b/AppIcon-1x_U007emarketing-0-6-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/aa/7e/c9/aa7ec970-984a-59cd-8358-817133fd3c1b/AppIcon-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Keep your network under control with Nice Trace - the most advanced traceroute app for iOS. The tool traces the route to the host in the Internet using easy, user-friendly interface and animations. You will immediately get information about any possible bottlenecks and problems since Nice Trace never stops working. It continues to monitor the whole path to the network resource in real time and keeps you informed.\n\nThe specially designed asynchronous algorithm lets Nice Trace quickly pass through problematic hops not hanging on them, thus increasing the speed. Now you can reach the destination host fast like never before.\n\nFEATURES\n- Real-time path monitoring with packet loss detection\n- Easily spot possible network bottlenecks\n- Country of origin detection of the network owner\n- Network range and AS number lookup\n- WHOIS hostnames, IP addresses, ASNs\n- E-mail trace results\n- Ultrafast asynchronous network I/O\n\nDisplays hops information (when available):\n- IP address\n- Reverse hostname (PTR DNS record)\n- Autonomous system (AS) number\n- Country of the network owner\n- Average packets round trip time (RTT)\n- Counts of packets that were sent and received\n- Percentage of the packet loss\n- IP network range (in hop details)\n- Other hops IP addresses and hostnames (in hop details)\n\nDEMO VIDEOS\nhttp://j.mp/nicetrace_vids\n\nMORE GREAT APPS\n· Spyglass - augmented reality & GPS navigator\n· Scany - Wi-Fi/LAN network scanner"
+    },
+    "im:price": {
+      "label": "R19.99",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Pavel Ahafonau"
+    },
+    "title": {
+      "label": "Nice Trace - Traceroute - Pavel Ahafonau"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/nice-trace-traceroute/id322722672?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/b6/f3/e1/b6f3e14a-aa99-17f4-8ca7-29c4c965a112/945b6cd9-13f1-4a04-9fdd-b6968a2ddee4_iPad_Pro__U002810.5-inch_U0029-01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/nice-trace-traceroute/id322722672?uo=2",
+      "attributes": {
+        "im:id": "322722672",
+        "im:bundleId": "com.paully.nicetrace"
+      }
+    },
+    "im:artist": {
+      "label": "Pavel Ahafonau",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/pavel-ahafonau/id319585607?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-07-16T14:04:08-07:00",
+      "attributes": {
+        "label": "July 16, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 9,
+      "total": 98
+    },
+    "im:name": {
+      "label": "FaceClock Pro - Analogue Clock"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/22/13/7f/22137f40-784c-9a73-f155-f63ffe61c10e/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/22/13/7f/22137f40-784c-9a73-f155-f63ffe61c10e/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/22/13/7f/22137f40-784c-9a73-f155-f63ffe61c10e/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "CONVENIENCE \n• Know the current time every minute by listening the announcement. Announce the Time. It will speak the time as specified intervals with 3 different languages (English, Japanese, Indonesian, Chinese, Deutsch, Arabic, Korean French, Thai, Hindi and Spanish). \n• Swipe slowly up/down to change the brightness \n• Alarm Clock (with Snooze) \n• Music player control. \n• Battery indicator\n• Today's Widget to easy access\n\nCUSTOMIZABLE \n• Add background picture. \n• Change color scheme and clock face. More than 20+ clock face to choose from. \n• 24-hour analogue clock\n• 12-hour inverse clock (anti-clockwise)\n• Tik-tok / continuos clock movement.\n\nFUN \n• Visual Effect. \n• 'Announce the Time' speak the time for specified intervals and has 3 languages. \n• Pick your iTunes library for your alarm. \n\nPlease visit irekasoft.com/faceclock for more info and FAQ.\n\nPlease contact support@irekasoft.com if you are experiencing any issues."
+    },
+    "im:price": {
+      "label": "R59.99",
+      "attributes": {
+        "amount": "59.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© iReka Soft"
+    },
+    "title": {
+      "label": "FaceClock Pro - Analogue Clock - iReka Soft"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/faceclock-pro-analogue-clock/id673746301?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b8/08/a8/b808a8f6-e4fa-1e09-5c08-e8c39fd798d3/mzl.xstjbrhm.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/faceclock-pro-analogue-clock/id673746301?uo=2",
+      "attributes": {
+        "im:id": "673746301",
+        "im:bundleId": "com.irekasoft.faceclockpro"
+      }
+    },
+    "im:artist": {
+      "label": "iReka Soft",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/ireka-soft/id430308890?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-07-20T14:45:15-07:00",
+      "attributes": {
+        "label": "July 20, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 10,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Toki Alarm: Puzzle Alarm Clock"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/e7/9f/13e79f7f-1dad-83f6-c49d-04a8dffc09b3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/e7/9f/13e79f7f-1dad-83f6-c49d-04a8dffc09b3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/e7/9f/13e79f7f-1dad-83f6-c49d-04a8dffc09b3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Do you have trouble getting up in the morning? Do you always snooze your alarm or set 10+ alarms just to wake up? Well, Toki Alarm is here to save your morning.\n\n\rToki Alarm is an alarm clock app that requires you to solve a puzzle to stop the alarm. With Toki Alarm, you are not only physically awake in the morning but mentally awake as all the puzzles get your brain functioning. Some fun puzzles include a maze, hangman, word search, and more!\n\r\n\n-Made by a student who knows the struggle of getting up in the morning\r\n\n\r\n• No in-app purchases, you get all the features\r\n• No sign-up or login required\r\n• Easy to use, simply UI\r\n\r\n\nWhat Toki Alarm saves you:\r\n• A $5 coffee\r\n• Time waking up\r\n• Being late\r\n\r\n\nPuzzle Features:\r\n• Multiple puzzles\r\n• Customizable difficulties\r\n• Global leaderboard\r\n• Customize what puzzles could be displayed\r\n• Playtest the puzzles\r\n• Emergency shutoff\r\n\r\n\nAlarm Features:\r\n• Set as many alarms as you want\r\n• Disable alarms\r\n• Set the ringtone out of the options provided\r\n• Custom alarm name\r\n\r\n\nUI Features:\r\n• Slick modern UI\r\n• Customizable theme colors\r\n• Dark/Night mode\n\n\r\n\r\nNote: Toki Alarm works best when your phone is off and your ringer is on."
+    },
+    "im:price": {
+      "label": "R19.99",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 Andrew Collins"
+    },
+    "title": {
+      "label": "Toki Alarm: Puzzle Alarm Clock - Andrew Michael Collins"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/toki-alarm-puzzle-alarm-clock/id1615680878?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/f2/9c/d6/f29cd638-5555-aed3-f235-90e00c564268/4c7079db-096c-46fc-ba23-3830fed80471_1.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/toki-alarm-puzzle-alarm-clock/id1615680878?uo=2",
+      "attributes": {
+        "im:id": "1615680878",
+        "im:bundleId": "xyz.andrewcollins.tokialarm"
+      }
+    },
+    "im:artist": {
+      "label": "Andrew Michael Collins",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/andrew-michael-collins/id1615680880?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-03-24T00:00:00-07:00",
+      "attributes": {
+        "label": "March 24, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 11,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Sure Bet Arbitrage Calculator"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/25/31/07/253107e9-4165-527c-fe80-53546a6a341b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/25/31/07/253107e9-4165-527c-fe80-53546a6a341b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/25/31/07/253107e9-4165-527c-fe80-53546a6a341b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Sure Bet Calculator is a helper tool for people who like to analyze their bets. With Sure Bet Calculator, you can analyze 2 and 3 odds bets and see if they are sure betting tips. \n\nThis app is designed for arbitrage betters and if you are an arbitrage better this app is very useful for you. You can check if there is a sure bet very easily and fast. Just enter odds and see the result very fast."
+    },
+    "im:price": {
+      "label": "R79.99",
+      "attributes": {
+        "amount": "79.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022"
+    },
+    "title": {
+      "label": "Sure Bet Arbitrage Calculator - Bhavinkumar Satashiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/sure-bet-arbitrage-calculator/id1585798624?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/10/74/ec/1074ec0e-949b-844f-ab15-9e0b1b0177ed/2af08f8a-1665-42fb-a5d4-9f509154992b_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2021-09-14_at_16.01.58.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/sure-bet-arbitrage-calculator/id1585798624?uo=2",
+      "attributes": {
+        "im:id": "1585798624",
+        "im:bundleId": "sure.bet.calculator"
+      }
+    },
+    "im:artist": {
+      "label": "Bhavinkumar Satashiya",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/bhavinkumar-satashiya/id1361485921?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-09-14T00:00:00-07:00",
+      "attributes": {
+        "label": "September 14, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 12,
+      "total": 98
+    },
+    "im:name": {
+      "label": "µMagnetometer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/be/38/30/be3830ef-6067-38c8-a33d-7bcdd248227c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/be/38/30/be3830ef-6067-38c8-a33d-7bcdd248227c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/be/38/30/be3830ef-6067-38c8-a33d-7bcdd248227c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "µMagnetometer is simple application for measure nearby magnetic field strength.\n\nNote: Magnetometer on IOS requires enabled Location Services!"
+    },
+    "im:price": {
+      "label": "R39.99",
+      "attributes": {
+        "amount": "39.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Dmytro Hrebeniuk"
+    },
+    "title": {
+      "label": "µMagnetometer - Dmytro Hrebeniuk"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/%C2%B5magnetometer/id1482576105?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/36/b0/2c/36b02c56-c129-0602-5b94-432431169736/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/%C2%B5magnetometer/id1482576105?uo=2",
+      "attributes": {
+        "im:id": "1482576105",
+        "im:bundleId": "com.dmytro.magnetometer"
+      }
+    },
+    "im:artist": {
+      "label": "Dmytro Hrebeniuk",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/dmytro-hrebeniuk/id1458758581?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-10-07T00:00:00-07:00",
+      "attributes": {
+        "label": "October 7, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 13,
+      "total": 98
+    },
+    "im:name": {
+      "label": "MiniWall Wallpapers"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/51/a6/0f/51a60f6d-ac38-d52f-7152-a6ca175da91c/AppIcon-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/51/a6/0f/51a60f6d-ac38-d52f-7152-a6ca175da91c/AppIcon-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/51/a6/0f/51a60f6d-ac38-d52f-7152-a6ca175da91c/AppIcon-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "MiniWall Wallpapers app comes with a awesome and unique collection of High quality Custom Made Wallpapers and Backgrounds. Make your iPhone stand out with unique and excellent HD Quality walls. Each and every wallpaper is unique in its own way. Give a special look to your device using this MiniWall Wallpapers app now.\r\n\r\nAnd New wallpapers added to the list every 3-4 days. so you'll get New walls everyday for your device. And Each wallpaper Is unique and handcrafted by our team.\r\n\r\nMiniWall Wallpapers FEATURES :\r\n- Awesome Custom made HD, 4K, WALLPAPERS\r\n- 450+ High Quality Walls and Growing.\r\n- Daily/Weekly New High-Quality walls arrival.\r\n- Well arranged categories and adding new categories over a time.\r\n- Simple and Easy Material Layout\r\n- Exclusive amazing wallpapers that can't found anywhere else.\r\n- Wide range of High Quality with separate categories\r\n\r\n\r\nwe can assure you that you'll love this Miniwall app. Our Team is always working to give you a Masterpiece new wallpapers regularly. So you can feel happiness every time you look at your screen wallpaper.\r\n\r\nSupport\r\nIf you have any issue with using this app. or request wallpaper of your taste. You can Contact me via below contact options.\r\n\r\nLicense\r\nAll the artworks offered on Pastel Wallpapers are for Personal Use only! If you are interested to use one of the artworks for a commercial purpose, please contact us.\r\n\r\nContact Me\r\nTwitter : twitter.com/arrowwalls\r\nEmail : arrowwalls9@gmail.com\r\nWebsite : arrow.bio.link\r\nwe can assure you that you'll love this app. Our Team is always working to give you a Masterpiece new wallpapers regularly. So you can feel happiness every time you look at your screen wallpaper."
+    },
+    "im:price": {
+      "label": "R19.99",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© ArrowWalls"
+    },
+    "title": {
+      "label": "MiniWall Wallpapers - Mustakim Maknojiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/miniwall-wallpapers/id1599513502?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/99/d4/11/99d411c1-0e12-5ec3-183d-e8435f8c5291/b1605af6-9fd5-4ad5-9379-555273c8d7a8_10__U00282_U0029.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/miniwall-wallpapers/id1599513502?uo=2",
+      "attributes": {
+        "im:id": "1599513502",
+        "im:bundleId": "com.arrow.wallpapers.miniwall"
+      }
+    },
+    "im:artist": {
+      "label": "Mustakim Maknojiya",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/mustakim-maknojiya/id1559231948?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-12-14T00:00:00-07:00",
+      "attributes": {
+        "label": "December 14, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 14,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Screen Test Utility"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7f/cd/2a/7fcd2a44-f0a1-ff0b-6ec4-270f42407699/AppIcon-0-0-1x_U007emarketing-0-7-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7f/cd/2a/7fcd2a44-f0a1-ff0b-6ec4-270f42407699/AppIcon-0-0-1x_U007emarketing-0-7-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7f/cd/2a/7fcd2a44-f0a1-ff0b-6ec4-270f42407699/AppIcon-0-0-1x_U007emarketing-0-7-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "iOS device owners-would you like an app where you could test all of the touch-points on your screen? Do you have a cracked screen? Did you have your gorilla-glass screen replaced? This is a great utility app that is a MUST-HAVE! For just $0.99 you can have this app for all of your iOS devices for testing your screen. You will never have to wonder again if your screen is fully functional. The best part about this app: NO ADS!"
+    },
+    "im:price": {
+      "label": "R19.99",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024 Twosome Solutions LLC"
+    },
+    "title": {
+      "label": "Screen Test Utility - Twosome Solutions LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/screen-test-utility/id1529055554?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/94/33/cf/9433cf16-e154-97e6-10a2-dcd4f6133c60/43b2790f-d2ac-45d8-ab1c-c0a6ee053709_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2021-04-15_at_22.37.16.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/screen-test-utility/id1529055554?uo=2",
+      "attributes": {
+        "im:id": "1529055554",
+        "im:bundleId": "com.twosomesolutions.ScreenTestUtility"
+      }
+    },
+    "im:artist": {
+      "label": "Twosome Solutions LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/twosome-solutions-llc/id601620281?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-26T00:00:00-07:00",
+      "attributes": {
+        "label": "August 26, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 15,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Watch Browser with Keyboard"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/b7/03/27b7034d-ea23-2f2f-0cb3-da201408a341/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/b7/03/27b7034d-ea23-2f2f-0cb3-da201408a341/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/b7/03/27b7034d-ea23-2f2f-0cb3-da201408a341/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Watch Browser with Keyboard is a tiny browser with its own customized QWERTY keyboard for your Apple Watch.\n\nIt's the #1 browser on your wrist when you don't have any other devices and want to browse the web.\nMultiple keyboards supported. Use the standard qwerty keyboard in watchOS if you use Series 7 or 8. But, there is no qwerty keyboard in older models, and there is only a scribble keyboard. But don't be disappointed! This app includes a customized QWERTY keyboard for typing web addresses or search keyboards. The customized QWERTY keyboard supports only English at this moment.\n\n# Features\n\n- Browse with any web address URL.\n- Multiple keyboards supported. The standard keyboard of watchOS or the customized QWERTY keyboard.\n- Search with your keyword with 20+ search engines. The supported search engines are Google, Microsoft Bing, DuckDuckGo, Amazon, Wikipedia, Baidu, AOL, Ask.com, Yandex, Brave, Ecosia, Kagi, Reddit, Mojeek, Qwant, You.com, Presearch, Swisscows, GitHub, Naver, Yahoo! Japan, and Dictionary.com.\n- The customized QWERTY keyboard on the watch is included for typing URLs or searching keywords. Or, you can use the standard keyboard if you want.\n- Bookmarks are stored on your iCloud account; you can manage them on your watch or iPhone.\n- Your browsing history is stored on your iCloud account, and you can manage them on your watch or iPhone.\n- You can save a bookmark from history on your watch or iPhone.\n- Watch Complications is supported. You can launch this app or your top favorite site with only one tap from your Watch face.\n- All configurations are stored on your iCloud account.\n- Favicons are displayed on bookmarks and browsing history.\n- Support Reload Page, Previous Page, Next Page, Reader mode on watchOS 10 (when tapping the address bar in watchOS).\n- Double-tapping the spacebar adds a dot(.) to the text.\n- Long pressing with 2+ seconds backspace deletes all text.\n- All data are stored only in your device and your iCloud account.\n\n\n# Limitations\n\n- The browsing experience is limited, and you can have trouble on many complex sites because of the very small screen size and devices' lower power.\n- Most login processes do not work because of the limitation.\n- The session is not stored. You'll start a new session next time when you close the browsing view once.\n- There is no back or forward button, but you can go back or forward by swiping left or right."
+    },
+    "im:price": {
+      "label": "R39.99",
+      "attributes": {
+        "amount": "39.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Bitsbaker LLC."
+    },
+    "title": {
+      "label": "Watch Browser with Keyboard - Bitsbaker LLC."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/watch-browser-with-keyboard/id1666318248?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8f/ca/be/8fcabe92-03a2-4501-cb8b-e24e5abe68ca/00bd71b3-da1d-41ef-9da1-1c650d6d6793_1242x2208_-_1.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/watch-browser-with-keyboard/id1666318248?uo=2",
+      "attributes": {
+        "im:id": "1666318248",
+        "im:bundleId": "com.bitsbaker.WatchBrowser"
+      }
+    },
+    "im:artist": {
+      "label": "Bitsbaker LLC.",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/bitsbaker-llc/id1631721150?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-03-01T00:00:00-07:00",
+      "attributes": {
+        "label": "March 1, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 16,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Convertor"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/59/b5/0e59b5b2-7c8f-5972-8889-ad4a125448f7/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/59/b5/0e59b5b2-7c8f-5972-8889-ad4a125448f7/AppIcon-0-0-1x_U007epad-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/59/b5/0e59b5b2-7c8f-5972-8889-ad4a125448f7/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Convertor is a comprehensive and user-friendly application designed to meet your needs for converting various units and performing geometric calculations with maximum accuracy and efficiency. Whether you are a student, a professional, or simply someone looking for a reliable tool for everyday use, \"Convertor\" is here to make your life easier.\n\nFeatures and options:\n\nUnit Converter: Quickly and accurately convert units of length, weight, temperature, speed, and volume with a few taps. Ideal for travel, cooking, study and professional use.\nGeometric calculations: Calculate the volume and surface area of cylinders, cubes and circles. This feature is invaluable for students and professionals working with geometric projections and design.\nUser-friendly interface: \"Convertor\" is designed with an emphasis on simplicity and intuitiveness, which allows easy and quick use of the application without complex settings.\nAccurate and reliable results: Use the latest algorithms to ensure accurate calculations, giving you confidence in the accuracy of your results.\nCustomizable settings: Customize the app to suit your needs, choose your preferred units and save frequently used conversions for quick access.\nThe \"Convertor\" application has been carefully designed with the needs of our users in mind, in order to provide a versatile, reliable and easy-to-use tool that will become an integral part of your daily life. With our application, you will always have accurate and fast calculations available to help you in any situation. Download \"Convertor\" now and start transforming the way you do your calculations!"
+    },
+    "im:price": {
+      "label": "R59.99",
+      "attributes": {
+        "amount": "59.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024, Marcel Haluza Apps. Všetky práva vyhradené."
+    },
+    "title": {
+      "label": "Convertor - MARCEL HALUZA"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/convertor/id6477897852?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/1c/5e/1b/1c5e1bea-0fb2-389e-e529-c268eb73a442/6b3ec9c2-9112-4ff4-b860-52b9fbe91513_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-02-22_at_10.28.12.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/convertor/id6477897852?uo=2",
+      "attributes": {
+        "im:id": "6477897852",
+        "im:bundleId": "Marcel-Haluza.konvertor"
+      }
+    },
+    "im:artist": {
+      "label": "MARCEL HALUZA",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/marcel-haluza/id1726085188?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-03-19T00:00:00-07:00",
+      "attributes": {
+        "label": "March 19, 2024"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 17,
       "total": 98
     },
     "im:name": {
@@ -514,7 +1738,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 6,
+      "index": 18,
       "total": 98
     },
     "im:name": {
@@ -616,7 +1840,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 7,
+      "index": 19,
       "total": 98
     },
     "im:name": {
@@ -718,7 +1942,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 8,
+      "index": 20,
       "total": 98
     },
     "im:name": {
@@ -820,7 +2044,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 9,
+      "index": 21,
       "total": 98
     },
     "im:name": {
@@ -922,7 +2146,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 10,
+      "index": 22,
       "total": 98
     },
     "im:name": {
@@ -1024,7 +2248,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 11,
+      "index": 23,
       "total": 98
     },
     "im:name": {
@@ -1126,7 +2350,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 12,
+      "index": 24,
       "total": 98
     },
     "im:name": {
@@ -1228,7 +2452,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 13,
+      "index": 25,
       "total": 98
     },
     "im:name": {
@@ -1330,7 +2554,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 14,
+      "index": 26,
       "total": 98
     },
     "im:name": {
@@ -1432,7 +2656,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 15,
+      "index": 27,
       "total": 98
     },
     "im:name": {
@@ -1534,7 +2758,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 16,
+      "index": 28,
       "total": 98
     },
     "im:name": {
@@ -1636,7 +2860,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 17,
+      "index": 29,
       "total": 98
     },
     "im:name": {
@@ -1738,7 +2962,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 18,
+      "index": 30,
       "total": 98
     },
     "im:name": {
@@ -1840,7 +3064,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 19,
+      "index": 31,
       "total": 98
     },
     "im:name": {
@@ -1942,7 +3166,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 20,
+      "index": 32,
       "total": 98
     },
     "im:name": {
@@ -2044,7 +3268,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 21,
+      "index": 33,
       "total": 98
     },
     "im:name": {
@@ -2146,7 +3370,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 22,
+      "index": 34,
       "total": 98
     },
     "im:name": {
@@ -2248,109 +3472,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 23,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Level - Spirit level"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3d/d7/8b/3dd78b46-b3c2-9c9f-9361-02511e8093b0/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3d/d7/8b/3dd78b46-b3c2-9c9f-9361-02511e8093b0/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3d/d7/8b/3dd78b46-b3c2-9c9f-9361-02511e8093b0/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "iBubbleLevel expands your iPhone with a precise level.\n\n\nFunctions:\n• calibrating function, making precise measurements possible\n• horizontal measurement\n• vertical measurement\n• measurement on inclined surfaces of 45 degrees\n\n\nTips for a better accuracy:\nThe best measuring results can be achieved if the calibration is carried out using a real level!"
-    },
-    "im:price": {
-      "label": "R19.99",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Dominic Rodemer 2008-2021"
-    },
-    "title": {
-      "label": "Level - Spirit level - Dominic Rodemer"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/level-spirit-level/id311637937?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/5e/a5/2a/5ea52ad9-4e8c-d366-3b51-579d6db54da9/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/level-spirit-level/id311637937?uo=2",
-      "attributes": {
-        "im:id": "311637937",
-        "im:bundleId": "net.domzilla.iwasserwaage"
-      }
-    },
-    "im:artist": {
-      "label": "Dominic Rodemer",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/dominic-rodemer/id309872333?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2009-04-15T19:51:43-07:00",
-      "attributes": {
-        "label": "April 15, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 24,
+      "index": 35,
       "total": 98
     },
     "im:name": {
@@ -2452,7 +3574,109 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 25,
+      "index": 36,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Level - Spirit level"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3d/d7/8b/3dd78b46-b3c2-9c9f-9361-02511e8093b0/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3d/d7/8b/3dd78b46-b3c2-9c9f-9361-02511e8093b0/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/3d/d7/8b/3dd78b46-b3c2-9c9f-9361-02511e8093b0/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "iBubbleLevel expands your iPhone with a precise level.\n\n\nFunctions:\n• calibrating function, making precise measurements possible\n• horizontal measurement\n• vertical measurement\n• measurement on inclined surfaces of 45 degrees\n\n\nTips for a better accuracy:\nThe best measuring results can be achieved if the calibration is carried out using a real level!"
+    },
+    "im:price": {
+      "label": "R19.99",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Dominic Rodemer 2008-2021"
+    },
+    "title": {
+      "label": "Level - Spirit level - Dominic Rodemer"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/level-spirit-level/id311637937?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/5e/a5/2a/5ea52ad9-4e8c-d366-3b51-579d6db54da9/pr_source.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/level-spirit-level/id311637937?uo=2",
+      "attributes": {
+        "im:id": "311637937",
+        "im:bundleId": "net.domzilla.iwasserwaage"
+      }
+    },
+    "im:artist": {
+      "label": "Dominic Rodemer",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/dominic-rodemer/id309872333?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-04-15T19:51:43-07:00",
+      "attributes": {
+        "label": "April 15, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 37,
       "total": 98
     },
     "im:name": {
@@ -2554,7 +3778,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 26,
+      "index": 38,
       "total": 98
     },
     "im:name": {
@@ -2656,7 +3880,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 27,
+      "index": 39,
       "total": 98
     },
     "im:name": {
@@ -2758,7 +3982,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 28,
+      "index": 40,
       "total": 98
     },
     "im:name": {
@@ -2860,7 +4084,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 29,
+      "index": 41,
       "total": 98
     },
     "im:name": {
@@ -2962,7 +4186,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 30,
+      "index": 42,
       "total": 98
     },
     "im:name": {
@@ -3064,1027 +4288,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 31,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Blaze : Browser & File Manager"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/99/d3/b8/99d3b8fb-abc0-1ff9-072e-d34142802655/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/99/d3/b8/99d3b8fb-abc0-1ff9-072e-d34142802655/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/99/d3/b8/99d3b8fb-abc0-1ff9-072e-d34142802655/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Blaze is the ultimate complete file manager for different file types for iOS!\nManage any files you have downloaded from browser or transferred from Mac / PC.\n\nSuper Awesome Features:\n1. Auto detection of files from links, to easily download files.\n2. Transfer, view and play any type of files from PC or Mac also!\n3. Que your files for downloading and the app will download the files in background also.\n4. Supports various file types to view, export or play within the app with inbuilt audio and video player.\n5. Rename, delete and manage files, you can even export any files to other apps of your choice!\n6. Clear cache and cookies after browsing.\n7. No annoying ADs inside app at all!\n8. Buy one time for unlimited transfer or storage, no extra In App Purchase required at all!\n\nFor support, please get in touch with us at: support@dropouts.in"
-    },
-    "im:price": {
-      "label": "R39.99",
-      "attributes": {
-        "amount": "39.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Dropouts Technologies LLP"
-    },
-    "title": {
-      "label": "Blaze : Browser & File Manager - Dropouts Technologies LLP"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/blaze-browser-file-manager/id1227271239?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/7c/ad/67/7cad67ad-79e6-2865-91a8-0ae8b7e0244c/3901ef5d-f9ae-462c-812f-24ecb84d8c5f_iPad_2nd_-_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/blaze-browser-file-manager/id1227271239?uo=2",
-      "attributes": {
-        "im:id": "1227271239",
-        "im:bundleId": "com.dropouts.blaze"
-      }
-    },
-    "im:artist": {
-      "label": "Dropouts Technologies LLP",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/dropouts-technologies-llp/id575481782?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-04-22T18:12:34-07:00",
-      "attributes": {
-        "label": "April 22, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 32,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Power Remote Pro: PPT Clicker"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/bf/f7/65/bff76541-491c-009f-995c-375fdc81a55e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/bf/f7/65/bff76541-491c-009f-995c-375fdc81a55e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/bf/f7/65/bff76541-491c-009f-995c-375fdc81a55e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "5 Design Awards & 60% OFF for limited time.\n#Most Stable:The only Powerpoint controller app supporting Dual-Channel Tech: Never lost connection during presentation.\n\nPower Remote Pro is a powerful PowerPoint/Keynote/Google Slides/PDF/Word clicker for Windows & Mac, supporting Dual-Channel Tech, Internet Connection, Previews and Notes, Auto Host Detection, 1sec connect and Mouse Control. \n(We have hidden an Easter egg in the end)\n\n#Product Features and Services:\n\n•Dual-Channel-Connection: Never lost connection during presentation\nBy using the exclusive and revolutionary Dual-Channel technology, every operation and every byte of data is transmitted via both Internet and LAN simultaneously, which makes this app incredibly and incomparably stable. \n\n•Notes and previews in Real-Time\nAsynchronized loading technique makes the Powerpoint notes and previews display in real-time, following your presentation without any delay. It is the fastest preload technology ever.\n(Not supported with Google slide)\n\n•Work alone on either channel\nDual-Channel also means that the two channels are able to work alone. As long as one channel works, this app works, maximumly eliminating your anxiety and risk when facing to different and complicate environment. \n\n•Much more accurate than physical remote\n The Asynchronized-Coding-Validation-Tech validate each of your operations, which makes it more precise and reliable than physical remote.\n\n•1 Sec Connect &  Automatic Host Detection \nThe best way of connection is let your iPhone find your computer automatically.\n\n•Distance-limitless Controling:\nThe Internet-Connection-Mode enables Power Remote to remote control smoothly from every signal corner of the world, without any space and distance's restriction.\n\n•Internet-Connection:\nWe have achieved Internet-Connection feature while most of other similar remote controllers are still demanding the phone and the computer to be connected under the same network. Now it's absolutely a revolution to replace the traditional physical remote controller with our innovative and unique tech.\n\n•Most advanced User Interface Design\n\n•Windows & Mac |  Mouse Control  |  NO In-App Purchases | Quick Tech Support  | PowerPoint & Keynote \n\n\n##Easter egg\nIf you've been asked to design a remote-controlling app for PowerPoint, what would you do?\n\nWe've spent 6 months consulting 126 speechmakers from 16 countries, including some TED speakers, to listen to them, to understand what they really need. And then we've spent 68 days to design the interaction and technical detail, and another 92 days to make a breakthrough in Dual-Channel and Asynchronous Validation. Finally, we've spent 102 days to run a massive test. It was not until every button and line of this app was placed where they should be, not until we found all our test users smiling with confidence on stage, not until our users are in close communion with our product that we finally signed our name: Wayhold.\n\nBecause we always know, what our products have been influencing is not only our users themselves, but also the millions of people that our users influence."
-    },
-    "im:price": {
-      "label": "R79.99",
-      "attributes": {
-        "amount": "79.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Wayhold"
-    },
-    "title": {
-      "label": "Power Remote Pro: PPT Clicker - Wayhold Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/power-remote-pro-ppt-clicker/id1244356210?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/e7/3e/ea/e73eeadf-44d9-88d4-01bf-41026050b919/mzl.fwgdjkov.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/power-remote-pro-ppt-clicker/id1244356210?uo=2",
-      "attributes": {
-        "im:id": "1244356210",
-        "im:bundleId": "com.wayhold.pptUltimate"
-      }
-    },
-    "im:artist": {
-      "label": "Wayhold Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/wayhold-co-ltd/id1154421684?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-08-01T08:10:32-07:00",
-      "attributes": {
-        "label": "August 1, 2017"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 33,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Starlink Watch"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/77/d3/d5/77d3d53e-6912-f5da-3188-322395a7c4f9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/77/d3/d5/77d3d53e-6912-f5da-3188-322395a7c4f9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/77/d3/d5/77d3d53e-6912-f5da-3188-322395a7c4f9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Explore the evolving starlink internet constellation in real time.\nUse your camera and augmented reality to highlight the satellites in the sky as they move overhead.\nSee where people have ordered, or where they are online."
-    },
-    "im:price": {
-      "label": "R59.99",
-      "attributes": {
-        "amount": "59.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© satellitemap.space 2021"
-    },
-    "title": {
-      "label": "Starlink Watch - adnil ramos"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/starlink-watch/id1598264303?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b5/9f/80/b59f80da-67ef-5e7a-f62a-45b0a40a0252/43f7ef00-a354-480d-9088-2d791df0b1a1_screenshot1.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/starlink-watch/id1598264303?uo=2",
-      "attributes": {
-        "im:id": "1598264303",
-        "im:bundleId": "space.satellitemap.alpha"
-      }
-    },
-    "im:artist": {
-      "label": "adnil ramos",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/adnil-ramos/id1598258243?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-12-10T00:00:00-07:00",
-      "attributes": {
-        "label": "December 10, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 34,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Moment-"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/63/2e/34/632e34cf-7bba-bcac-9c5c-eb79c82b0889/AppIcon-1x_U007emarketing-0-4-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/63/2e/34/632e34cf-7bba-bcac-9c5c-eb79c82b0889/AppIcon-1x_U007emarketing-0-4-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/63/2e/34/632e34cf-7bba-bcac-9c5c-eb79c82b0889/AppIcon-1x_U007emarketing-0-4-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Moment - Easy and Smart Dashboard for iPhone and Apple Watch makes your life easy, smart and focused on your health.\n\nDashboard\n- Monitor your Today Steps, Distance and Calories*\n(Moment reads Steps, Walking + Running Distance and Active Calories from Apple HealthKit data.)**\n- Current temperature, Current condition, Today forecast and Sunrise/Sunset\n- Battery life of your iPhone\n- Beautiful Digital and Analog Clock\n\nToday Widget\nMoment offers a dashboard widget that is placed in the Notification Center.\nAccess the dashboard from any screen, including the locked screen.\nJust swipe down from the top of the screen.\n\nAnnounce the time with Quotes of the moment\n- Every hour, every half hour or every quarter hour\n- With Quote and Voice\n\nApple Watch\n- Today Steps\n- Weather\n- iPhone Battery\n- Ring your iPhone with fun sounds\n- Display Today Steps or iPhone Battery on your Watch Glance\n\n* Data collected from HealthKit will not be used for marketing and advertising purposes.\n** The step counting works on iPhone 5s, iPhone 6, iPhone 6 Plus, iPhone 6s, iPhone 6s Plus, iPod touch 6th generation, iPad mini 2, iPad mini 3, iPad mini 4, iPad Air, and iPad Air 2 that has the Motion Coprocessor. iPhone 4, iPhone 4s, iPhone 5, and iPhone 5c does not have the Motion Coprocessor and does not support step counting."
-    },
-    "im:price": {
-      "label": "R19.99",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2015-2022 AllAboutApps Inc."
-    },
-    "title": {
-      "label": "Moment- - AllAboutApps"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/moment/id998244903?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/b7/82/c9/b782c9b7-82b5-a10a-7bf1-1b9eac8caff0/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/moment/id998244903?uo=2",
-      "attributes": {
-        "im:id": "998244903",
-        "im:bundleId": "net.allaboutapps.Moment"
-      }
-    },
-    "im:artist": {
-      "label": "AllAboutApps",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/allaboutapps/id307094026?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-07-10T12:57:35-07:00",
-      "attributes": {
-        "label": "July 10, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 35,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Microphone HD - recorder voice changer memo"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/be/a8/fb/bea8fbbf-cd04-98a2-fdcf-c3fcfe8767a4/pr_source.jpg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/be/a8/fb/bea8fbbf-cd04-98a2-fdcf-c3fcfe8767a4/pr_source.jpg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/be/a8/fb/bea8fbbf-cd04-98a2-fdcf-c3fcfe8767a4/pr_source.jpg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Microphone HD, a special effects recording software, in the recording can add a variety of music effects (applause, screaming, color, drums, etc.), podcast recording must app.\n\nThe following features are available:\n1, (background) recording;\n2, microphone tone adjustment;\n3, around the channel, stereo channel;\n4, scene simulation;\n5, music effects (applause, cheering, screaming, etc.);\n6, echo function;\n7, a variety of recording file format (wav, m4a, caf, aiff);\n8, recording file sharing function;\n9, WiFi recording file sharing."
-    },
-    "im:price": {
-      "label": "R99.99",
-      "attributes": {
-        "amount": "99.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2012 - 2017 NewSky Inc."
-    },
-    "title": {
-      "label": "Microphone HD - recorder voice changer memo - 学成 黄"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/microphone-hd-recorder-voice-changer-memo/id560770578?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/e5/d0/b4/e5d0b41e-0ca6-d2fc-dbfc-25897af38ab8/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/microphone-hd-recorder-voice-changer-memo/id560770578?uo=2",
-      "attributes": {
-        "im:id": "560770578",
-        "im:bundleId": "com.hxcheng.MicrophoneHD"
-      }
-    },
-    "im:artist": {
-      "label": "学成 黄",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/%E5%AD%A6%E6%88%90-%E9%BB%84/id468307064?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-09-27T14:31:13-07:00",
-      "attributes": {
-        "label": "September 27, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 36,
-      "total": 98
-    },
-    "im:name": {
-      "label": "CNC Lathe calculator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b0/ef/93/b0ef93c5-6fea-ee99-42c0-1643d0e84a8f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b0/ef/93/b0ef93c5-6fea-ee99-42c0-1643d0e84a8f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b0/ef/93/b0ef93c5-6fea-ee99-42c0-1643d0e84a8f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This software is very suitable for the practitioners of machining, CNC lathe and ordinary lathe.\nUsing this software, it is convenient to calculate, program and measure the common parts or working conditions in machining.\n\nMain functions:\n1. Arc tangent point calculation: it includes a variety of common part structures. It can quickly calculate the tangent point coordinates and generate the program in real time. At the same time, it provides the function of consider cutter compensation and generate G Code program.\n2. Thread calculation: query and calculate common threads, and generate processing programs in real time.\n3. CNC Macro program: macro program for common processing graphics\n4. Taper calculation: to calculate the taper, you can enter the distance between tool starting and tool returning, and compensate the tool tip.\n5. Trigonometric function: Calculation of angle and triangle\n6. Diagonal calculation: diagonal calculation of quadrilateral, hexagon and polygon\n7. Weight calculation: weight calculation of materials with common shapes\n8. Tolerance calculation: quick query of hole shaft fit tolerance\n9. Other calculations: chamfer calculation, linear velocity conversion, roughness calculation, etc"
-    },
-    "im:price": {
-      "label": "R99.99",
-      "attributes": {
-        "amount": "99.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Jnaly"
-    },
-    "title": {
-      "label": "CNC Lathe calculator - 宁 金"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/cnc-lathe-calculator/id1485500283?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/72/07/00/720700fa-1d8e-ab20-349c-eff89c5705a5/51420f0c-38d0-4809-8477-e60023ae26b1_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2022-04-19_at_15.44.35.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/cnc-lathe-calculator/id1485500283?uo=2",
-      "attributes": {
-        "im:id": "1485500283",
-        "im:bundleId": "com.jntc.LatheCaculate"
-      }
-    },
-    "im:artist": {
-      "label": "宁 金",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/%E5%AE%81-%E9%87%91/id1085058605?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-11-18T00:00:00-07:00",
-      "attributes": {
-        "label": "November 18, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 37,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Easy Time Zones"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5c/a1/fa/5ca1fa71-dc4e-8ed2-59a1-dfe79dcf2243/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5c/a1/fa/5ca1fa71-dc4e-8ed2-59a1-dfe79dcf2243/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5c/a1/fa/5ca1fa71-dc4e-8ed2-59a1-dfe79dcf2243/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Introducing \"Easy Time Zones\" - Your Ultimate Time Zone Companion!\r\n\r\nAre you tired of the constant struggle with time differences while juggling clients, friends, or family across the globe? We feel you, and that's why we've created the easiest and most intuitive app on the Apple App Store to make time zone conversions a breeze.\r\n\r\nAs the world becomes more connected, \"Easy Time Zones\" is on a mission to simplify your life and revolutionize the way you synchronize schedules. No more confusion, no more missed calls, just seamless scheduling at your fingertips!\r\n\r\nWith \"Easy Time Zones,\" you'll experience:\r\n• Effortless time zone conversion: Simply enter your time or their time, and let our smart app do the rest.\r\n• Stress-free scheduling: Organize meetings, webinars, or reunions in no time.\r\n• Real-time updates: Always stay current with the latest daylight savings and time zone changes.\r\n\r\nOur humble yet powerful app focuses on one thing - being the best at converting time zones. We believe that everyone deserves a simple solution to conquer time zone confusion, and our app is here to prove it.\r\n\r\nDon't miss out on the opportunity to make your life easier! Join thousands of satisfied users who are already experiencing the magic of \"Easy Time Zones.\" You won't believe how you managed without it!\r\n\r\nDownload \"Easy Time Zones\" today and never worry about time zone conversions again!\r\n\r\nP.S. The world doesn't wait, and neither should you. Embrace the simplicity of \"Easy Time Zones\" and always stay connected and on time, ensuring you're part of every moment that matters!"
-    },
-    "im:price": {
-      "label": "R39.99",
-      "attributes": {
-        "amount": "39.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Maksym Huk"
-    },
-    "title": {
-      "label": "Easy Time Zones - Maksym Huk"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/easy-time-zones/id1643460879?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/f7/44/34/f744342c-0a5b-fbd7-2194-03e0619697a9/11d29165-07f7-4e2b-aae4-c7f61309d8f8_Slice_1.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/easy-time-zones/id1643460879?uo=2",
-      "attributes": {
-        "im:id": "1643460879",
-        "im:bundleId": "com.maksymhuk.timezonetime"
-      }
-    },
-    "im:artist": {
-      "label": "Maksym Huk",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/maksym-huk/id506364681?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-09-16T00:00:00-07:00",
-      "attributes": {
-        "label": "September 16, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 38,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Vibrator - Massager for women"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/c5/4c/17/c54c17e4-e4e0-efab-6978-fd537c0a6fb6/AppIcon-1x_U007emarketing-0-8-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/c5/4c/17/c54c17e4-e4e0-efab-6978-fd537c0a6fb6/AppIcon-1x_U007emarketing-0-8-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/c5/4c/17/c54c17e4-e4e0-efab-6978-fd537c0a6fb6/AppIcon-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Vibrator is a mobile massager app, it can make your device into a tiny massager.\n\nIf you want to feel relaxation try contrasting vibration patterns. And we support 19 different haptic patterns and with ability of vibrate speed control.\n\nYou may use Vibrator to:\n\n- relax muscles\n- reduce anxiety & stress\n\nand for many other cases.\n\nThe popular vibrate pattern - Beep，Button，Camera，Hover and Pop are free. And you could upgrade to pro version to get the full features with no ads."
-    },
-    "im:price": {
-      "label": "R39.99",
-      "attributes": {
-        "amount": "39.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "Copyright © 2021 ZYSoft Inc."
-    },
-    "title": {
-      "label": "Vibrator - Massager for women - 余 张"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/vibrator-massager-for-women/id1558783458?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/62/55/2e/62552e48-2076-e3c4-9275-afc9cab85dbb/3ef93131-42cc-4714-9c23-22f31e18f59c_Apple_iPad_Pro_13_Inch_Screenshot_0.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/vibrator-massager-for-women/id1558783458?uo=2",
-      "attributes": {
-        "im:id": "1558783458",
-        "im:bundleId": "com.zy.ios.vibrator"
-      }
-    },
-    "im:artist": {
-      "label": "余 张",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/%E4%BD%99-%E5%BC%A0/id1544645313?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-03-23T00:00:00-07:00",
-      "attributes": {
-        "label": "March 23, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 39,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Commission Calculator ٭"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/97/52/b8/9752b8b6-93e8-8b78-32ea-fcbeb68296c4/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/97/52/b8/9752b8b6-93e8-8b78-32ea-fcbeb68296c4/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/97/52/b8/9752b8b6-93e8-8b78-32ea-fcbeb68296c4/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The Commission Calculator app serves as a valuable tool for individuals and businesses involved in sales by providing a convenient and efficient way to calculate commissions. Here are some key uses of the Commission Calculator app:\n\nSales Professionals:\n\nQuick Earnings Estimation: Sales representatives can instantly calculate their potential earnings based on sales performance, helping them set realistic targets and goals.\nScenario Planning: Easily model different sales scenarios by adjusting commission rates, bonuses, or thresholds to understand how changes may impact overall earnings.\nSales Managers:\n\nPerformance Analysis: Track and analyze the sales team's performance by using the app's reporting features. Identify top performers and areas for improvement.\n\nIncentive Planning: Design and experiment with various commission structures to motivate and incentivize the sales team. Evaluate the impact of different incentive models on overall team performance.\nBusiness Owners:\n\nCost Projection: Business owners can use the Commission Calculator to project and manage sales-related costs by accurately forecasting commission expenses.\nInternational Sales: For businesses operating globally, the app's multi-currency support ensures accurate commission calculations in various currencies.\nFreelancers and Independent Contractors:\n\nIncome Tracking: Freelancers and independent contractors can use the app to track and project their income based on completed projects and sales.\nTransparent Communication: Easily share commission breakdowns with clients or collaborators to maintain transparency and trust.\nFinancial Planning:\n\nBudgeting: Individuals can incorporate their commission earnings into personal or business budgets, aiding in financial planning and goal setting.\nTax Planning: Accurate commission calculations can assist in planning for tax obligations, ensuring that individuals and businesses are prepared for tax season.\nAccessibility Anytime, Anywhere:\n\nThe app's offline mode allows users to perform commission calculations even without an internet connection, making it convenient for on-the-go professionals.\nCollaboration and Communication:\n\nOverall, the Commission Calculator app is a versatile tool that empowers sales professionals and businesses to make informed decisions, optimize earnings, and streamline commission-related processes."
-    },
-    "im:price": {
-      "label": "R59.99",
-      "attributes": {
-        "amount": "59.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023"
-    },
-    "title": {
-      "label": "Commission Calculator ٭ - Jasmatbhai Satashiya"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/commission-calculator/id6474230127?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/f3/3b/74/f33b749e-917e-e04f-934d-6a65b9b75a44/15c8f038-883a-44f5-9ca3-9c5ec17ca7d3_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2023-12-13_at_12.42.27.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/commission-calculator/id6474230127?uo=2",
-      "attributes": {
-        "im:id": "6474230127",
-        "im:bundleId": "commission.calculator"
-      }
-    },
-    "im:artist": {
-      "label": "Jasmatbhai Satashiya",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/jasmatbhai-satashiya/id1656353988?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-12-13T00:00:00-07:00",
-      "attributes": {
-        "label": "December 13, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 40,
-      "total": 98
-    },
-    "im:name": {
-      "label": "全网短剧大全-热门短剧抢先看"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/13/ae/86/13ae8630-9d87-a117-8513-1dea332774d6/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/13/ae/86/13ae8630-9d87-a117-8513-1dea332774d6/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/13/ae/86/13ae8630-9d87-a117-8513-1dea332774d6/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "《全网短剧大全》各大平台大量热门短剧供您选择！！！\n\n功能介绍:\n 题材多样化：穿越、穿书、都市、古装、重生、逆袭、虐恋、萌宝多种题材供你选择，让你随时随地可体验到不同的故事世界。\n\n视频化阅读：多种精彩小说用短视频方式呈现，视觉和听觉的双重感受让您更能沉浸于故事情节中，让阅读变得更加有趣。\n\n个性化推荐：我们会根据您的观看历史偏好，为您提供推荐内容，您可以更快地找到符合您爱好的短剧，节省更多的时间。\n\n更新及时：全网热门短剧不断更新，让您持续享受新故事的奇妙旅程。\n隐私链接：https://doc.tjrdxj.cn/web/#/p/37234a112ac121200b3576951b3371d9\n付费协议：https://doc.tjrdxj.cn/web/#/p/f46a31ff23e4c3988aab828d5fd7c13d\n用户协议：https://doc.tjrdxj.cn/web/#/p/f3d3dc939e170a46e24f91bf6573b451"
-    },
-    "im:price": {
-      "label": "R3.99",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "2023©全网短剧大全"
-    },
-    "title": {
-      "label": "全网短剧大全-热门短剧抢先看 - 学尚 黄"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/%E5%85%A8%E7%BD%91%E7%9F%AD%E5%89%A7%E5%A4%A7%E5%85%A8-%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E6%8A%A2%E5%85%88%E7%9C%8B/id6451239549?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/d1/fc/35/d1fc35c9-1ede-8615-6ea2-1875a9dbf3f0/2b61b2ab-e791-4f64-877a-5bd3dcd2cff2_1242-2088-1.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/%E5%85%A8%E7%BD%91%E7%9F%AD%E5%89%A7%E5%A4%A7%E5%85%A8-%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E6%8A%A2%E5%85%88%E7%9C%8B/id6451239549?uo=2",
-      "attributes": {
-        "im:id": "6451239549",
-        "im:bundleId": "com.ASurnamePlayer.cn"
-      }
-    },
-    "im:artist": {
-      "label": "学尚 黄",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/%E5%AD%A6%E5%B0%9A-%E9%BB%84/id1637846512?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-07-21T00:00:00-07:00",
-      "attributes": {
-        "label": "July 21, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 41,
+      "index": 43,
       "total": 98
     },
     "im:name": {
@@ -4186,7 +4390,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 42,
+      "index": 44,
       "total": 98
     },
     "im:name": {
@@ -4288,7 +4492,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 43,
+      "index": 45,
       "total": 98
     },
     "im:name": {
@@ -4390,7 +4594,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 44,
+      "index": 46,
       "total": 98
     },
     "im:name": {
@@ -4492,7 +4696,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 45,
+      "index": 47,
       "total": 98
     },
     "im:name": {
@@ -4594,7 +4798,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 46,
+      "index": 48,
       "total": 98
     },
     "im:name": {
@@ -4696,7 +4900,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 47,
+      "index": 49,
       "total": 98
     },
     "im:name": {
@@ -4798,7 +5002,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 48,
+      "index": 50,
       "total": 98
     },
     "im:name": {
@@ -4900,7 +5104,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 49,
+      "index": 51,
       "total": 98
     },
     "im:name": {
@@ -5002,7 +5206,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 50,
+      "index": 52,
       "total": 98
     },
     "im:name": {
@@ -5104,7 +5308,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 51,
+      "index": 53,
       "total": 98
     },
     "im:name": {
@@ -5206,7 +5410,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 52,
+      "index": 54,
       "total": 98
     },
     "im:name": {
@@ -5308,7 +5512,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 53,
+      "index": 55,
       "total": 98
     },
     "im:name": {
@@ -5410,7 +5614,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 54,
+      "index": 56,
       "total": 98
     },
     "im:name": {
@@ -5512,7 +5716,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 55,
+      "index": 57,
       "total": 98
     },
     "im:name": {
@@ -5614,109 +5818,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 56,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Crystal Adblock – Block unwanted ads!"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/85/47/b9/8547b96f-b6f8-7d37-022e-85821eaf06bd/contsched.sdollfsg.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/85/47/b9/8547b96f-b6f8-7d37-022e-85821eaf06bd/contsched.sdollfsg.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/85/47/b9/8547b96f-b6f8-7d37-022e-85821eaf06bd/contsched.sdollfsg.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Start blocking ads on Safari immediately. Ad blocking loads pages 4x faster, saves up to 50% of your data and much more! Crystal Adblock is easy to use and makes the browsing experience on your iPhone and iPad much more enjoyable.\n\n\n*Block all annoying ads on your iPhone and iPad*\nAds will no longer clutter the  small screen of your mobile device. Browse your favorite webpages without distractions from annoying banners and pop-ups. \n\n\n*Save up to 50% of your data*\nAds can consume a really high percentage of your data plan. By blocking ads, Crystal Adblock helps to optimize the usage of your data for the online activities that matter to you.\n \n\n*Load pages 4x faster & enhance battery life*\nBrowsing is sped up considerably with Crystal Adblock. The duration of your device’s battery life is also rapidly improved. \n\n\n*Stay safe and secure*\nDid you know that ads can hide malware and tracking? Protect yourself from these risks by using Crystal Adblock.\n\nA few words from satisfied users:\n\n***** I couldn't be more pleased with how well this app performs\n***** Simple, cheap and does what it says it does. Can't get better than that!!\n***** Completely satisfied! You won't regret buying this app for less than a dollar.\n***** Makes the Internet usable again .\n***** SO NECESSARY\n\n\nGet Crystal Adblock now and enjoy ad-free browsing!\n\nDiscover more at http://crystalapp.co \nFacebook: https://www.facebook.com/crystalapp\nTwitter: @_CrystalApp"
-    },
-    "im:price": {
-      "label": "R19.99",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Murphy Apps"
-    },
-    "title": {
-      "label": "Crystal Adblock – Block unwanted ads! - Eyeo GmbH"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/crystal-adblock-block-unwanted-ads/id1022177308?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple22/v4/a9/07/94/a9079457-5ebe-d874-dcc1-96b5bdfdadb6/mzm.rvcwtyqh.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/crystal-adblock-block-unwanted-ads/id1022177308?uo=2",
-      "attributes": {
-        "im:id": "1022177308",
-        "im:bundleId": "co.MurphyApps.Crystal"
-      }
-    },
-    "im:artist": {
-      "label": "Eyeo GmbH",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/eyeo-gmbh/id1015653329?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-09-16T11:12:36-07:00",
-      "attributes": {
-        "label": "September 16, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 57,
+      "index": 58,
       "total": 98
     },
     "im:name": {
@@ -5818,7 +5920,109 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 58,
+      "index": 59,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Crystal Adblock – Block unwanted ads!"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/85/47/b9/8547b96f-b6f8-7d37-022e-85821eaf06bd/contsched.sdollfsg.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/85/47/b9/8547b96f-b6f8-7d37-022e-85821eaf06bd/contsched.sdollfsg.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/85/47/b9/8547b96f-b6f8-7d37-022e-85821eaf06bd/contsched.sdollfsg.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Start blocking ads on Safari immediately. Ad blocking loads pages 4x faster, saves up to 50% of your data and much more! Crystal Adblock is easy to use and makes the browsing experience on your iPhone and iPad much more enjoyable.\n\n\n*Block all annoying ads on your iPhone and iPad*\nAds will no longer clutter the  small screen of your mobile device. Browse your favorite webpages without distractions from annoying banners and pop-ups. \n\n\n*Save up to 50% of your data*\nAds can consume a really high percentage of your data plan. By blocking ads, Crystal Adblock helps to optimize the usage of your data for the online activities that matter to you.\n \n\n*Load pages 4x faster & enhance battery life*\nBrowsing is sped up considerably with Crystal Adblock. The duration of your device’s battery life is also rapidly improved. \n\n\n*Stay safe and secure*\nDid you know that ads can hide malware and tracking? Protect yourself from these risks by using Crystal Adblock.\n\nA few words from satisfied users:\n\n***** I couldn't be more pleased with how well this app performs\n***** Simple, cheap and does what it says it does. Can't get better than that!!\n***** Completely satisfied! You won't regret buying this app for less than a dollar.\n***** Makes the Internet usable again .\n***** SO NECESSARY\n\n\nGet Crystal Adblock now and enjoy ad-free browsing!\n\nDiscover more at http://crystalapp.co \nFacebook: https://www.facebook.com/crystalapp\nTwitter: @_CrystalApp"
+    },
+    "im:price": {
+      "label": "R19.99",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Murphy Apps"
+    },
+    "title": {
+      "label": "Crystal Adblock – Block unwanted ads! - Eyeo GmbH"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/crystal-adblock-block-unwanted-ads/id1022177308?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple22/v4/a9/07/94/a9079457-5ebe-d874-dcc1-96b5bdfdadb6/mzm.rvcwtyqh.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/crystal-adblock-block-unwanted-ads/id1022177308?uo=2",
+      "attributes": {
+        "im:id": "1022177308",
+        "im:bundleId": "co.MurphyApps.Crystal"
+      }
+    },
+    "im:artist": {
+      "label": "Eyeo GmbH",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/eyeo-gmbh/id1015653329?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-09-16T11:12:36-07:00",
+      "attributes": {
+        "label": "September 16, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 60,
       "total": 98
     },
     "im:name": {
@@ -5920,7 +6124,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 59,
+      "index": 61,
       "total": 98
     },
     "im:name": {
@@ -6022,7 +6226,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 60,
+      "index": 62,
       "total": 98
     },
     "im:name": {
@@ -6124,7 +6328,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 61,
+      "index": 63,
       "total": 98
     },
     "im:name": {
@@ -6226,7 +6430,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 62,
+      "index": 64,
       "total": 98
     },
     "im:name": {
@@ -6328,7 +6532,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 63,
+      "index": 65,
       "total": 98
     },
     "im:name": {
@@ -6430,7 +6634,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 64,
+      "index": 66,
       "total": 98
     },
     "im:name": {
@@ -6532,7 +6736,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 65,
+      "index": 67,
       "total": 98
     },
     "im:name": {
@@ -6634,7 +6838,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 66,
+      "index": 68,
       "total": 98
     },
     "im:name": {
@@ -6736,7 +6940,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 67,
+      "index": 69,
       "total": 98
     },
     "im:name": {
@@ -6838,7 +7042,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 68,
+      "index": 70,
       "total": 98
     },
     "im:name": {
@@ -6940,7 +7144,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 69,
+      "index": 71,
       "total": 98
     },
     "im:name": {
@@ -7042,7 +7246,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 70,
+      "index": 72,
       "total": 98
     },
     "im:name": {
@@ -7144,7 +7348,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 71,
+      "index": 73,
       "total": 98
     },
     "im:name": {
@@ -7246,7 +7450,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 72,
+      "index": 74,
       "total": 98
     },
     "im:name": {
@@ -7348,7 +7552,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 73,
+      "index": 75,
       "total": 98
     },
     "im:name": {
@@ -7450,7 +7654,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 74,
+      "index": 76,
       "total": 98
     },
     "im:name": {
@@ -7552,7 +7756,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 75,
+      "index": 77,
       "total": 98
     },
     "im:name": {
@@ -7654,7 +7858,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 76,
+      "index": 78,
       "total": 98
     },
     "im:name": {
@@ -7756,7 +7960,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 77,
+      "index": 79,
       "total": 98
     },
     "im:name": {
@@ -7858,7 +8062,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 78,
+      "index": 80,
       "total": 98
     },
     "im:name": {
@@ -7960,7 +8164,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 79,
+      "index": 81,
       "total": 98
     },
     "im:name": {
@@ -8062,7 +8266,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 80,
+      "index": 82,
       "total": 98
     },
     "im:name": {
@@ -8164,7 +8368,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 81,
+      "index": 83,
       "total": 98
     },
     "im:name": {
@@ -8266,7 +8470,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 82,
+      "index": 84,
       "total": 98
     },
     "im:name": {
@@ -8368,7 +8572,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 83,
+      "index": 85,
       "total": 98
     },
     "im:name": {
@@ -8470,7 +8674,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 84,
+      "index": 86,
       "total": 98
     },
     "im:name": {
@@ -8572,7 +8776,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 85,
+      "index": 87,
       "total": 98
     },
     "im:name": {
@@ -8674,7 +8878,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 86,
+      "index": 88,
       "total": 98
     },
     "im:name": {
@@ -8776,7 +8980,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 87,
+      "index": 89,
       "total": 98
     },
     "im:name": {
@@ -8878,7 +9082,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 88,
+      "index": 90,
       "total": 98
     },
     "im:name": {
@@ -8980,7 +9184,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 89,
+      "index": 91,
       "total": 98
     },
     "im:name": {
@@ -9082,7 +9286,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 90,
+      "index": 92,
       "total": 98
     },
     "im:name": {
@@ -9184,7 +9388,109 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 91,
+      "index": 93,
+      "total": 98
+    },
+    "im:name": {
+      "label": "Phone Drive: File Storage Sync"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/4b/20/9f4b20ae-d8d7-8752-1b7a-9565826b3768/AppIcon-pro-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/4b/20/9f4b20ae-d8d7-8752-1b7a-9565826b3768/AppIcon-pro-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/4b/20/9f4b20ae-d8d7-8752-1b7a-9565826b3768/AppIcon-pro-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Introducing Phone Drive - File Manager: Transform your iOS device into a portable Wireless Flash Drive.\n\nWith Phone Drive, you can effortlessly store, view, and manage local or cloud files on your iPhone or iPad. Seamlessly connect to Phone Drive from any Mac or PC over a WiFi network and transfer files through simple drag and drop from Web Browser, Finder or Windows Explorer.\n\nExperience the convenience of managing multiple cloud accounts in a single application. Download, upload, view, and even stream videos or music directly from your cloud drives.\n\nPhone Drive boasts a comprehensive set of features including a document viewer, PDF reader, music player, image viewer, voice recorder, text editor, file manager, and support for various file operations such as delete, move, copy, email, share, zip, unzip, and more.\n\n\n*** KEY FEATURES ***\n• SUPPORT CLOUD STORAGE: \nConnect to multiple Dropbox, Google Drive, OneDrive, Box Drive, FTP, WebDAV, Yandex Disk, and iCloud Drive storage accounts. (*additional in-app purchase required)\n\n• MULTIMEDIA PLAYER:\nCreate custom audio playlists with options like repeat, shuffle, background playback, and multitask remote control. Stream videos and music directly from your cloud storage.\n\n• DOCUMENT READER:\nView MS Office, iWork, Text, and HTML files with ease.\n\n• FILE OPERATION:\nEffortlessly move, copy, rename, delete, zip, unzip, unrar, create files, and folders.\n\n• FILE SHARING:\nShare files with other iPhone/iPad devices via Bluetooth or Wi-Fi, with automatic search for nearby available devices.\n\n• EASY FILE UPLOAD:\nConveniently upload files through drag and drop via your PC/Mac web browser or USB using iTunes.\n\n• TEXT EDITOR:\nEdit text files and source codes directly on your iOS device with the built-in text editor.\n\n• IMPORT/ FILES CREATION:\nCreate text files, capture images, record videos or voice memos, and import pictures from your photo library.\n\n• ﻿PASSCODE LOCK:\nProtect your files from unauthorized access. Utilize Touch ID and Face ID support for secure unlocking.\n\n• UNIVERSALITY:\nEnjoy the benefits of this app on both iPhone and iPad with a single purchase.\n\n\n*** AUDIO PLAYER ***\n• Play MP3 files as playlists.\n• Repeat and shuffle songs.\n• Background audio playback.\n• Multitask audio remote control.\n• Stream music from cloud storage.\n\n\n*** VIEWABLE FORMATS ***\nPhone Drive supports the following formats:\n\n• Audio (WAV, MP3, M4A, CAF, AIF, AIFF, AAC)\n• Images (JPG, PNG, GIF, BMP, TIF, TIFF, ICO)\n• Movies (MP4, MOV, MPV, M4V)\n• iWorks (Pages, numbers, and Keynote)\n• Microsoft Office (Word, Excel and PowerPoint)\n• RTF (Rich Text Format)\n• RTFD (TextEdit with embedded images)\n• PDF Documents\n• Plain text\n• Source code\n• HTML web pages \n• Web archives\n\n\nExplore more about Phone Drive at:\nWebsite : https://sixbytes.io\nTwitter: https://twitter.com/SixbytesApp\nFacebook: https://www.facebook.com/sixbytesapp\n\nFor detailed information, please review our Terms of Service and Privacy Policy:\n• Terms of service: https://sixbytes.io/assets/terms-of-service.pdf\n• Privacy policy: https://sixbytes.io/assets/privacy-policy.pdf"
+    },
+    "im:price": {
+      "label": "R79.99",
+      "attributes": {
+        "amount": "79.99",
+        "currency": "ZAR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "Copyright © 2024 Phone Drive"
+    },
+    "title": {
+      "label": "Phone Drive: File Storage Sync - Eightythree Technology"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/za/app/phone-drive-file-storage-sync/id431033044?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/d4/65/f1/d465f168-85ca-82f8-ec0f-0c557db09e04/3254e269-f02d-4cd6-9664-52089985f87f_4.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/za/app/phone-drive-file-storage-sync/id431033044?uo=2",
+      "attributes": {
+        "im:id": "431033044",
+        "im:bundleId": "com.eightythree.iPhoneDrive"
+      }
+    },
+    "im:artist": {
+      "label": "Eightythree Technology",
+      "attributes": {
+        "href": "https://apps.apple.com/za/developer/eightythree-technology/id431033047?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6002",
+        "term": "Utilities",
+        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
+        "label": "Utilities"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-04-25T19:13:55-07:00",
+      "attributes": {
+        "label": "April 25, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "za",
+      "pricing": "paid",
+      "genre": "utilities",
+      "index": 94,
       "total": 98
     },
     "im:name": {
@@ -9286,7 +9592,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 92,
+      "index": 95,
       "total": 98
     },
     "im:name": {
@@ -9388,7 +9694,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 93,
+      "index": 96,
       "total": 98
     },
     "im:name": {
@@ -9490,7 +9796,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 94,
+      "index": 97,
       "total": 98
     },
     "im:name": {
@@ -9592,7 +9898,7 @@
       "country_code": "za",
       "pricing": "paid",
       "genre": "utilities",
-      "index": 95,
+      "index": 98,
       "total": 98
     },
     "im:name": {
@@ -9686,312 +9992,6 @@
       "label": "2015-01-29T11:46:31-07:00",
       "attributes": {
         "label": "January 29, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 96,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Device Locator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/99/6a/6a/996a6abe-7024-b8c6-3464-657437d958ae/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/99/6a/6a/996a6abe-7024-b8c6-3464-657437d958ae/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/99/6a/6a/996a6abe-7024-b8c6-3464-657437d958ae/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Swipe down to instantly know where your loved ones are without having to read confusing maps!\n\nKnow when your kids and your elderly come home, leave from school, get to work and are where they are suppose to be. Get real time notifications for when members leave or arrive at designated locations. Keep a long running history of your loved one's locations. Quickly view a current snapshot of where all off your loved ones are. Information is available on the iPhone, Apple Watch, iPad and from any web browser.\n\nThis app can also be used as Lojack for your iPhone or iPad!\n\nKeep a running log of your device's location history! If the phone is lost and out of battery or turned off, you will still have its last known location before the phone lost power. \n\nThis application can be used to locate a miss placed iPhone or keep tabs on a loved one. To track your loved one or locate your device, the app must be installed on the target iPhone. \n\nEvery time your phone changes cell towers, this application will turn on the GPS for 10 seconds and record the best location that your phone can determine. This location is then made available online and distributed to all your registered devices. Location information can be viewed by logging into your account from any computer or phone that has an internet browser. \n\nFeatures: \n* TRACKING OF UNLIMITED # OF DEVICES \n* Apple Watch App with Glance\n* Today Extension to see where your family is with a quick swipe on your iPhone, iPad or iPod Touch\n* Native iPad Support\n* Ability to sound an alarm on your device from any computer. \n* Ability to send a message with sound to the device. \n* Ability to request a location update with a push message. \n* Ability to cache locations when network is not available to retransmit later. Great for camping or traveling around the world. \n* Ability to record location on every cell phone tower switch. \n* Ability to send location even when the application is not running or in the background! \n* Ability to forward your location information to your own service. \n* Ability to lock the application to prevent the device's user from accessing your account. \n* Ability to keep track of and graph your phone's battery life. \n* Can show your locations on top of openstreetmap.org map tiles. \n* Ability to make and receive VOIP calls between devices and from the website.\n\nUnlike other applications, this application has been well thought out to provide you EXACTLY what you need to help you locate your device. Whether it is lost near by or stolen you have all the tools available. This application was developed with user feedback in mind. If someone has not asked for what you want we will do our best to meet your needs! \n\nThe application reports your device's location to a central server that you can log in to from your browser to track your device's location. This is done without decreasing your device's battery life or performance. \n\nOnce the application has been configured it will report your device's location every time your iPhone connects to a new cell tower. The application continues to report even after it has been closed and removed from the multitasking bar. \n\n*NOTE* This application will report in the background ONLY on devices that support multitasking! \n\nFOR WEB DEVELOPERS: \nThe service lets you specify custom URLs which get polled every time your device checks in with the service. You can use this feature to post your location in a blog or just to keep a long running record of your travels on your own web server. \n\n*NOTE* \nThis service is provided AS IS. No guarantees are made that this service will help you locate your device. No guarantees are made that the service will be available at all times. \n\nProper configuration is required to make full use of this service. \n\n*NOTE* \nContinued use of GPS running in the background can dramatically decrease battery life. \n\nYour feedback is welcome."
-    },
-    "im:price": {
-      "label": "R79.99",
-      "attributes": {
-        "amount": "79.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 eParty llc"
-    },
-    "title": {
-      "label": "Device Locator - eParty llc"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/device-locator/id380395093?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/8f/f0/a2/8ff0a2c7-61ef-c0d8-14b6-56db516fb905/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/device-locator/id380395093?uo=2",
-      "attributes": {
-        "im:id": "380395093",
-        "im:bundleId": "com.singhsurma.locator"
-      }
-    },
-    "im:artist": {
-      "label": "eParty llc",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/eparty-llc/id360526986?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-07-09T14:20:55-07:00",
-      "attributes": {
-        "label": "July 9, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 97,
-      "total": 98
-    },
-    "im:name": {
-      "label": "WinMail.dat Viewer for OS 10"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/d9/8a/8c/d98a8ce4-5b17-3b88-fed6-356840eebba0/contsched.rdpvahdg.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/d9/8a/8c/d98a8ce4-5b17-3b88-fed6-356840eebba0/contsched.rdpvahdg.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/d9/8a/8c/d98a8ce4-5b17-3b88-fed6-356840eebba0/contsched.rdpvahdg.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The most trusted and oldest winmail viewer on Appstore.\nSupports iOS 10,  iOS 9, iPhone 7, iPhone 7 Plus, 6S and 6S Plus\n\n+++CELEBRATING OVER 150,000 USERS.+++\n= Featured in the App Store's \"What's Hot\" list =\n= Featured in the App Store's \"New & Noteworthy\" list =\n\nSupports ioS10, iOS9, iOS8  iOS7, iOS6 and iPhone 6,7, iPhone 6,7 Plus, iPhone 5 , iPad mini, iPad Air!!\n--User Says-------\nUseful to fix winmail.dat attachments in Evernote by pembery \n\nI am currently blighted by winmail.dat attachments in Evernote. I can now open the winmail.dat attachment with this app from within Evernote and the open the \"proper\" attachment back into Evernote (and save it) with just a couple of clicks. Especially useful when a PDF is wrapped into a winmail.dat.\n----------------------------------------\nPlease note that, there is no need to open the application directly by tapping on application icon on device. ON installation, It get registered as an addon for mail application, you just need to tap on winmaildat attachment in your email which will the open the application with the content of your attachment.\n\nHere are the Help Instructions: \n 1) Open up the email and touch on the icon of the winmail.dat file.\n 2)  You will see the \"Open in Winmail.dat Viewer\" screen using a short tap; if not then keep touching the icon till the whole box darkens. \n 3) Once you keep touching the icon (on left side) itself, after a couple of seconds, a 2-choice menu pops up from the bottom. \n 4) Click on - \"Open in Winmail.dat Viewer\" app. The winmail.dat file will then open, showing the attachments inside.\n \nYou can perform following on contents on winmail.dat attachment\n- Saving image file in Camera role folder, in photo album\n- Share image using twitter, Facebook, weibo\n- Assign image to contact\n- forwarding opened files/documents using mail\n- Printing documents\n- opening single files in external applications\n- Copy files on clipboard\n\nKindly give good ratings and reviews if you like this application. Thank You!! \n \nPLEASE NOTE:\n 1) ON SOME DEVICES APPLICATION MAY REQUIRE REBOOT AFTER INSTALLATION.\n 2) IF ATTACHMENT SIZE IS LARGE THEN IT MAY TAKE SOME TIME TO OPEN IT IN VIEWER.\n \nDo you have winmail.dat files in email attachments  and you are iPhone user ?  viewing their contents is painful task of downloading them to Mac then open them?    This application allows you to view and extract contents of those winmail.dat messages (which are TNEF-encoded messages) in flawless way.   That means if you receive winmail.dat on your e-mail, then with 'Winmail.dat Viewer' you can view the rich text message contents and attachments embedded into this file using the appropriate software/app.  You may receive winmail.dat files from the senders who are using Microsoft Outlook (1997, 2000, 2003, 2007, 2010). Winmail.dat contains all attachments and rich text message, and not all e-mail clients can recognize its format. Winmail.dat Viewer is the solution .\n\n  PLEASE NOTE: The \"Winmail.dat Viewer\" app will open ONLY a \"winmail.dat\" attachment.  \n Here are the Help Instructions: \n 1) Open up the email and touch on the icon of the winmail.dat file.\n  2)  You will see the \"Open in Winmail.dat Viewer\" screen using a short tap; if not then keep touching the icon till the whole box darkens. \n 3) Once you keep touching the icon (on left side) itself, after a couple of seconds, a 2-choice menu pops up from the bottom. \n 4) Click on - \"Open in Winmail.dat Viewer\" app. The winmail.dat file will then open, showing the attachments inside.\n\n###Now save images from winmail.dat attachments directly in to Photos folder on iPhone and iPad. So you can happily see the pics even after deleting the email from your inbox###\nOption to disable this feature is also provided in settings of the application.\nYou can save following images formats on your iPhone/iPad,\n - .tiff, .tif\n         - .jpg, .jpeg\n         - .gif\n         - .png\n         - .bmp, .BMPf\n         - .ico\n         - .cur\n         - .xbm"
-    },
-    "im:price": {
-      "label": "R19.99",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2016@iHorizon TechnoSolutions"
-    },
-    "title": {
-      "label": "WinMail.dat Viewer for OS 10 - Bhushan Vaghode"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/winmail-dat-viewer-for-os-10/id531284520?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/c0/ad/15/c0ad15cc-fecd-e619-b270-f4b5100ed75a/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/winmail-dat-viewer-for-os-10/id531284520?uo=2",
-      "attributes": {
-        "im:id": "531284520",
-        "im:bundleId": "com.sandy.winmail"
-      }
-    },
-    "im:artist": {
-      "label": "Bhushan Vaghode",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/bhushan-vaghode/id715028721?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-06-22T18:01:58-07:00",
-      "attributes": {
-        "label": "June 22, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "za",
-      "pricing": "paid",
-      "genre": "utilities",
-      "index": 98,
-      "total": 98
-    },
-    "im:name": {
-      "label": "Light Meter - measure luminosity in lux, fc, lumen"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b8/9d/01/b89d0100-b9c4-3823-0bd5-1c267e5a96ac/mzl.zqypjfcb.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b8/9d/01/b89d0100-b9c4-3823-0bd5-1c267e5a96ac/mzl.zqypjfcb.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b8/9d/01/b89d0100-b9c4-3823-0bd5-1c267e5a96ac/mzl.zqypjfcb.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Light meter in your pocket!\n\nExclusive accuracy of measurements. Calibrated with professional high-precision illuminometer. \n\nWe have made this Light Meter for that you could save on purchasing of professional illuminometers which cost hundreds of dollars. At the same time we love beautiful design and we like to surprise, therefore, having acquired our illuminometer you also receive the graceful and extremely convenient device with intuitive interface.\n\nPlease note that Light Meter app is not a replacement for a professional device and should be used for private purposes only.\n\nFeatures: \n- Unique and attractive design. \n- Exclusive simplicity and convenience of use .\n- Lighting fast measurements.\n- Lux and foot candle measurement.\n\nHave any questions or suggestions? Write to us: support@lightmeterpro.com"
-    },
-    "im:price": {
-      "label": "R39.99",
-      "attributes": {
-        "amount": "39.99",
-        "currency": "ZAR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Vlad Polyanskiy Luxmeter"
-    },
-    "title": {
-      "label": "Light Meter - measure luminosity in lux, fc, lumen - Vlad Polyanskiy"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/za/app/light-meter-measure-luminosity-in-lux-fc-lumen/id642285909?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/f8/32/59/f832597e-1c58-7054-4de3-699c9fdbcf9b/mzl.zbbglmog.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/za/app/light-meter-measure-luminosity-in-lux-fc-lumen/id642285909?uo=2",
-      "attributes": {
-        "im:id": "642285909",
-        "im:bundleId": "com.lightmeterpro.Light-Meter"
-      }
-    },
-    "im:artist": {
-      "label": "Vlad Polyanskiy",
-      "attributes": {
-        "href": "https://apps.apple.com/za/developer/vlad-polyanskiy/id438646985?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6002",
-        "term": "Utilities",
-        "scheme": "https://apps.apple.com/za/genre/ios-utilities/id6002?uo=2",
-        "label": "Utilities"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2013-05-13T16:20:24-07:00",
-      "attributes": {
-        "label": "May 13, 2013"
       }
     }
   }

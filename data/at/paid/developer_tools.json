@@ -8,6 +8,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "6,99 €",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/at/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/at/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/at/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "at",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 2,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 3,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -412,7 +514,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 5,
+      "index": 6,
       "total": 99
     },
     "im:name": {
@@ -514,7 +616,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 6,
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -616,7 +718,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 7,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -718,7 +820,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 8,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -820,7 +922,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -922,7 +1024,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 10,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +1126,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 11,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1118,108 +1220,6 @@
       "label": "2009-08-15T00:00:00-07:00",
       "attributes": {
         "label": "August 15, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "at",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 12,
-      "total": 99
-    },
-    "im:name": {
-      "label": "SSL Toolkit"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "SSL Toolkit offers useful tools to help you in your daily work with SSL certificates.\n\nThese are some features provided by SSL Toolkit :\n- Check installed certificate\n- Check TLS versions\n- Search Certificate Transparency Log\n- View Certificate Transparency Log in realtime\n- PKCS7 Converter\n- PKCS12 Converter\n- Generate self-signed certificates\n- Generate RSA / ECC CSR\n- Manage RSA / ECC CSR\n- PEM parser supporting X509, PKCS7 and CSR in PEM format.\n- OCSP Check\n- IDN converter\n- Base64 Converter\n- Root/Intermediate search\n- CRL Check"
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Feuerberg Software"
-    },
-    "title": {
-      "label": "SSL Toolkit - Daniel Linsenmeier"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/at/app/ssl-toolkit/id1547278785?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/37/43/c3/3743c3fc-aa0d-c084-72fe-1e176def2e31/910563fb-909e-4923-b8ed-68eb88bb5f26_apple_tablet_screenshot_0.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/at/app/ssl-toolkit/id1547278785?l=en&uo=2",
-      "attributes": {
-        "im:id": "1547278785",
-        "im:bundleId": "de.feuerbergsoftware.ssl-checker"
-      }
-    },
-    "im:artist": {
-      "label": "Daniel Linsenmeier",
-      "attributes": {
-        "href": "https://apps.apple.com/at/developer/daniel-linsenmeier/id1543220963?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-01-22T00:00:00-07:00",
-      "attributes": {
-        "label": "January 22, 2021"
       }
     }
   },
@@ -1334,6 +1334,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "SSL Toolkit"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/86/52/f08652fd-0b69-2e7a-d17a-4a6a195746db/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "SSL Toolkit offers useful tools to help you in your daily work with SSL certificates.\n\nThese are some features provided by SSL Toolkit :\n- Check installed certificate\n- Check TLS versions\n- Search Certificate Transparency Log\n- View Certificate Transparency Log in realtime\n- PKCS7 Converter\n- PKCS12 Converter\n- Generate self-signed certificates\n- Generate RSA / ECC CSR\n- Manage RSA / ECC CSR\n- PEM parser supporting X509, PKCS7 and CSR in PEM format.\n- OCSP Check\n- IDN converter\n- Base64 Converter\n- Root/Intermediate search\n- CRL Check"
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 Feuerberg Software"
+    },
+    "title": {
+      "label": "SSL Toolkit - Daniel Linsenmeier"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/at/app/ssl-toolkit/id1547278785?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/37/43/c3/3743c3fc-aa0d-c084-72fe-1e176def2e31/910563fb-909e-4923-b8ed-68eb88bb5f26_apple_tablet_screenshot_0.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/at/app/ssl-toolkit/id1547278785?l=en&uo=2",
+      "attributes": {
+        "im:id": "1547278785",
+        "im:bundleId": "de.feuerbergsoftware.ssl-checker"
+      }
+    },
+    "im:artist": {
+      "label": "Daniel Linsenmeier",
+      "attributes": {
+        "href": "https://apps.apple.com/at/developer/daniel-linsenmeier/id1543220963?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-01-22T00:00:00-07:00",
+      "attributes": {
+        "label": "January 22, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "at",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 15,
+      "total": 99
+    },
+    "im:name": {
       "label": "OpenTerm"
     },
     "im:image": [
@@ -1432,211 +1534,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Harbour - Docker Manager"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/81/1f/78811f0c-4268-1bb7-d07e-b7c6a3102f9c/AppIcon-0-1x_U007epad-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/81/1f/78811f0c-4268-1bb7-d07e-b7c6a3102f9c/AppIcon-0-1x_U007epad-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/81/1f/78811f0c-4268-1bb7-d07e-b7c6a3102f9c/AppIcon-0-1x_U007epad-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Meet Harbour - Docker/Portainer Management App for iOS!\n\nMultiple Servers & Endpoints\nEffortlessly manage multiple Docker servers and endpoints from one centralized platform. Whether it's your home server, or production environment at work, Harbour ensures seamless connectivity and control.\n\nManage Your Containers\nTake charge of your Docker containers with ease. From managing container's states, to monitoring their status and logs, Harbour puts container management at your fingertips.\n\nControl Your Stacks\nStreamline your application deployment process by managing Docker stacks efficiently. With Harbour, you can effortlessly view and start/stop stacks, ensuring smooth operation of your containerized applications.\n\nWidgets - Containers at a Glance\nStay informed about your containers' status and performance with Harbour's intuitive widgets. Get (almost) real-time insights right on your Home Screen, keeping you updated without switching between applications.\n\nHandoff - Continue Where You Left Off\nSeamlessly transition between your iOS device and other Apple devices with Handoff support. Start your Docker management tasks on one device and effortlessly continue from where you left off on another, ensuring uninterrupted productivity.\n\nBackground Notifications\nStay informed about important events and updates even when Harbour is not actively in use. Background notifications keep you in the loop, ensuring you never miss critical alerts regarding your Docker containers.\n\niPadOS Support\nExtend your Docker management capabilities to your iPad with full support for iPadOS. Enjoy the convenience of managing your containers and stacks on a larger screen, whether you're at your desk or on the go.\n\nNo Telemetry\nYour privacy matters. Harbour is committed to respecting your privacy by ensuring that no telemetry data is collected. Rest assured that your Docker management activities remain confidential and secure."
-    },
-    "im:price": {
-      "label": "1,99 €",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2024 shameful"
-    },
-    "title": {
-      "label": "Harbour - Docker Manager - Kacper Kaczmarzyk"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/at/app/harbour-docker-manager/id1582439659?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8d/9e/c4/8d9ec4b2-52c6-7f54-3cbe-5905df0257d4/3c810819-a62c-4861-a5fb-77b035735e57_Simulator_Screenshot_-_iPad_Pro__U002810.5-inch_U0029_-_2024-01-27_at_00.18.20.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/at/app/harbour-docker-manager/id1582439659?l=en&uo=2",
-      "attributes": {
-        "im:id": "1582439659",
-        "im:bundleId": "xyz.shameful.Harbour"
-      }
-    },
-    "im:artist": {
-      "label": "Kacper Kaczmarzyk",
-      "attributes": {
-        "href": "https://apps.apple.com/at/developer/kacper-kaczmarzyk/id1582439661?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2024-04-06T00:00:00-07:00",
-      "attributes": {
-        "label": "April 6, 2024"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "at",
-      "pricing": "paid",
-      "genre": "developer_tools",
       "index": 16,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "6,99 €",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/at/app/docker-management/id1527656144?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/at/app/docker-management/id1527656144?l=en&uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/at/developer/nevis-shkenza/id1268450891?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "at",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1738,211 +1636,109 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
+      "index": 17,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Harbour - Docker Manager"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/26/78/252678c7-880b-0f74-1002-4e454907d358/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/26/78/252678c7-880b-0f74-1002-4e454907d358/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/26/78/252678c7-880b-0f74-1002-4e454907d358/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Meet Harbour - Docker/Portainer Management App for iOS!\n\nMultiple Servers & Endpoints\nEffortlessly manage multiple Docker servers and endpoints from one centralized platform. Whether it's your home server, or production environment at work, Harbour ensures seamless connectivity and control.\n\nManage Your Containers\nTake charge of your Docker containers with ease. From managing container's states, to monitoring their status and logs, Harbour puts container management at your fingertips.\n\nControl Your Stacks\nStreamline your application deployment process by managing Docker stacks efficiently. With Harbour, you can effortlessly view, start/stop, deploy and remove stacks, ensuring smooth operation of your containerized applications.\n\nWidgets - Containers at a Glance\nStay informed about your containers' status and performance with Harbour's intuitive widgets. Get (almost) real-time insights right on your Home Screen, keeping you updated without switching between applications.\n\nHandoff - Continue Where You Left Off\nSeamlessly transition between your iOS device and other Apple devices with Handoff support. Start your Docker management tasks on one device and effortlessly continue from where you left off on another, ensuring uninterrupted productivity.\n\nBackground Notifications\nStay informed about important events and updates even when Harbour is not actively in use. Background notifications keep you in the loop, ensuring you never miss critical alerts regarding your Docker containers.\n\niPadOS Support\nExtend your Docker management capabilities to your iPad with full support for iPadOS. Enjoy the convenience of managing your containers and stacks on a larger screen, whether you're at your desk or on the go.\n\nNo Telemetry\nYour privacy matters. Harbour is committed to respecting your privacy by ensuring that no telemetry data is collected :)"
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024 shameful"
+    },
+    "title": {
+      "label": "Harbour - Docker Manager - Kacper Kaczmarzyk"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/at/app/harbour-docker-manager/id1582439659?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/cc/78/0ccc781b-4bfd-cb14-c889-81d035f6da15/53834641-c79c-408a-84fd-82606720183b_Containers-Light.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/at/app/harbour-docker-manager/id1582439659?l=en&uo=2",
+      "attributes": {
+        "im:id": "1582439659",
+        "im:bundleId": "xyz.shameful.Harbour"
+      }
+    },
+    "im:artist": {
+      "label": "Kacper Kaczmarzyk",
+      "attributes": {
+        "href": "https://apps.apple.com/at/developer/kacper-kaczmarzyk/id1582439661?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-04-06T00:00:00-07:00",
+      "attributes": {
+        "label": "April 6, 2024"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "at",
+      "pricing": "paid",
+      "genre": "developer_tools",
       "index": 18,
-      "total": 99
-    },
-    "im:name": {
-      "label": "iPulse - Monitor Your Device"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/f8/6c/4bf86c5c-76dc-cf17-bc8c-1358d2187894/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/f8/6c/4bf86c5c-76dc-cf17-bc8c-1358d2187894/AppIcon-0-0-1x_U007epad-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/f8/6c/4bf86c5c-76dc-cf17-bc8c-1358d2187894/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "iPulse has been monitoring Macs for over 20 years. Now this essential developer tool is available for the first time on iOS and iPadOS.\n\nYour processors, network, memory, and storage space are constantly monitored and can be displayed in a convenient picture in picture view. It's like you're watching a movie of what's going on inside your device!\n\nThere are even sound effects for the movie: when configurable thresholds are exceeded, you'll hear an alert and know to check things out.\n\nAnd it's all done with minimal impact on your device performance and battery life.\n\niPulse displays the following information:\n\n• Efficiency core usage\n• Performance core usage\n• Graphics core usage\n• Download throughput\n• Upload throughput\n• System memory usage\n• App memory usage\n• Compressed memory usage\n• Internal and external storage usage\n\nWhether you're a power user or a developer wanting to profile an app, iPulse is an essential tool to have on your device."
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2024 The Iconfactory, Inc."
-    },
-    "title": {
-      "label": "iPulse - Monitor Your Device - The Iconfactory"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/at/app/ipulse-monitor-your-device/id6474695786?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/8b/61/e48b6101-3fd7-f171-b53f-aed8d3a84f7e/c37c19e5-3775-452d-838f-8f7107be8302_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/at/app/ipulse-monitor-your-device/id6474695786?l=en&uo=2",
-      "attributes": {
-        "im:id": "6474695786",
-        "im:bundleId": "com.iconfactory.iPulseMobile"
-      }
-    },
-    "im:artist": {
-      "label": "The Iconfactory",
-      "attributes": {
-        "href": "https://apps.apple.com/at/developer/the-iconfactory/id281795483?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2024-03-12T00:00:00-07:00",
-      "attributes": {
-        "label": "March 12, 2024"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "at",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 19,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Haptics - Test Haptic Feedback"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/56/c5/da/56c5dae9-9075-5897-3ba0-b356046b2356/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/56/c5/da/56c5dae9-9075-5897-3ba0-b356046b2356/AppIcon-0-0-1x_U007epad-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/56/c5/da/56c5dae9-9075-5897-3ba0-b356046b2356/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Haptics makes it easy to test variations of the built-in haptic feedback types on iPhone and Apple Watch.\n\nDeveloped for Apple platform developers, you can configure the haptic feedback types for testing or viewing of the code without having to create a demo app.\n\n\nHaptics contains these great features:\n\nCONFIGURE\n\nIt’s quick and easy to get started. Simply choose a haptic feedback type and use the built-in controls to select the variation of that haptic feedback you’d like to view.\n\n\nTEST\n\nUsing your iPhone or Apple Watch, you can test how your configured haptic feedback vibrations will feel to your user.\n\n\nVIEW CODE\n\nHaptics provides you the ability to preview what the code will look like for your configuration in real-time. As you update the configuration, the code updates.\n\n\nCOPY & SHARE CODE\n\nTo use the Swift code in your project, you can use the copy and share options.\n\n\nUNIVERSAL PURCHASE\n\nGet this app across multiple Apple platforms with a single purchase.\n\n\nIf you like this app, I’d really appreciate it if you could take the time to leave a positive review! Having issues? Please get in touch:\n\nEmail: support@adamfoot.dev\nWebsite: https://adamfoot.dev"
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2019 Adam Foot"
-    },
-    "title": {
-      "label": "Haptics - Test Haptic Feedback - Adam Foot"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/at/app/haptics-test-haptic-feedback/id1474606532?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/00/99/b5/0099b5a8-c97a-e726-09e9-50249e1ff75d/841835bd-a9ad-4139-87d4-b23614119c11_iPad_12.9_Home_Button__U00281_U0029.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/at/app/haptics-test-haptic-feedback/id1474606532?l=en&uo=2",
-      "attributes": {
-        "im:id": "1474606532",
-        "im:bundleId": "app.FootWare.Haptics"
-      }
-    },
-    "im:artist": {
-      "label": "Adam Foot",
-      "attributes": {
-        "href": "https://apps.apple.com/at/developer/adam-foot/id1071261283?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-09-19T00:00:00-07:00",
-      "attributes": {
-        "label": "September 19, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "at",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -2044,109 +1840,7 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Wuma - Uptime Kuma Manager"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/61/81/37/618137fb-ed26-e2d4-df80-702c72cabb47/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/61/81/37/618137fb-ed26-e2d4-df80-702c72cabb47/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/61/81/37/618137fb-ed26-e2d4-df80-702c72cabb47/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Wuma enhances your experience with \"Uptime Kuma\" service monitoring by offering valuable features that keep you informed and in control. \nExplore the benefits of Wuma, including real-time status updates and push notifications, all designed to make managing your services effortless.\n\nKey Features:\n\niOS Widget Integration: \nStay in the know at a glance with our iOS widget. Monitor the status of your services monitored by \"Uptime Kuma\" directly from your iOS device's home screen.\n\nPush Notifications: \nReceive instant alerts via push notifications whenever there is a change in the status of your monitored services. Wuma keeps you informed in real time, ensuring you're always up to date. Easy to configure.\n\nApple Watch Compatibility \nKeep an eye on your service statuses right from your wrist with Apple Watch support. Enjoy the convenience of monitoring your services wherever you are.\n\nPlease note that a subscription is required to access at PushNotification and Apple Watch Compatibility."
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Wuma"
-    },
-    "title": {
-      "label": "Wuma - Uptime Kuma Manager - Gianpiero Radano"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/at/app/wuma-uptime-kuma-manager/id1662404144?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/26/57/3126573a-7c01-3f2b-87a0-56a9ba9b2845/9630e37c-4e86-465a-b56f-1e5423c6cf48_4.jpg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/at/app/wuma-uptime-kuma-manager/id1662404144?l=en&uo=2",
-      "attributes": {
-        "im:id": "1662404144",
-        "im:bundleId": "me.radano.wuma"
-      }
-    },
-    "im:artist": {
-      "label": "Gianpiero Radano",
-      "attributes": {
-        "href": "https://apps.apple.com/at/developer/gianpiero-radano/id1059168092?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-01-04T00:00:00-07:00",
-      "attributes": {
-        "label": "January 4, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "at",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 22,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -2248,7 +1942,109 @@
       "country_code": "at",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 20,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Haptics - Test Haptic Feedback"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/56/c5/da/56c5dae9-9075-5897-3ba0-b356046b2356/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/56/c5/da/56c5dae9-9075-5897-3ba0-b356046b2356/AppIcon-0-0-1x_U007epad-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/56/c5/da/56c5dae9-9075-5897-3ba0-b356046b2356/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Haptics makes it easy to test variations of the built-in haptic feedback types on iPhone and Apple Watch.\n\nDeveloped for Apple platform developers, you can configure the haptic feedback types for testing or viewing of the code without having to create a demo app.\n\n\nHaptics contains these great features:\n\nCONFIGURE\n\nIt’s quick and easy to get started. Simply choose a haptic feedback type and use the built-in controls to select the variation of that haptic feedback you’d like to view.\n\n\nTEST\n\nUsing your iPhone or Apple Watch, you can test how your configured haptic feedback vibrations will feel to your user.\n\n\nVIEW CODE\n\nHaptics provides you the ability to preview what the code will look like for your configuration in real-time. As you update the configuration, the code updates.\n\n\nCOPY & SHARE CODE\n\nTo use the Swift code in your project, you can use the copy and share options.\n\n\nUNIVERSAL PURCHASE\n\nGet this app across multiple Apple platforms with a single purchase.\n\n\nIf you like this app, I’d really appreciate it if you could take the time to leave a positive review! Having issues? Please get in touch:\n\nEmail: support@adamfoot.dev\nWebsite: https://adamfoot.dev"
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2019 Adam Foot"
+    },
+    "title": {
+      "label": "Haptics - Test Haptic Feedback - Adam Foot"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/at/app/haptics-test-haptic-feedback/id1474606532?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/00/99/b5/0099b5a8-c97a-e726-09e9-50249e1ff75d/841835bd-a9ad-4139-87d4-b23614119c11_iPad_12.9_Home_Button__U00281_U0029.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/at/app/haptics-test-haptic-feedback/id1474606532?l=en&uo=2",
+      "attributes": {
+        "im:id": "1474606532",
+        "im:bundleId": "app.FootWare.Haptics"
+      }
+    },
+    "im:artist": {
+      "label": "Adam Foot",
+      "attributes": {
+        "href": "https://apps.apple.com/at/developer/adam-foot/id1071261283?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2019-09-19T00:00:00-07:00",
+      "attributes": {
+        "label": "September 19, 2019"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "at",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -2342,6 +2138,210 @@
       "label": "2022-03-10T00:00:00-07:00",
       "attributes": {
         "label": "March 10, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "at",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 22,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Wuma - Uptime Kuma Manager"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/61/81/37/618137fb-ed26-e2d4-df80-702c72cabb47/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/61/81/37/618137fb-ed26-e2d4-df80-702c72cabb47/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/61/81/37/618137fb-ed26-e2d4-df80-702c72cabb47/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Wuma enhances your experience with \"Uptime Kuma\" service monitoring by offering valuable features that keep you informed and in control. \nExplore the benefits of Wuma, including real-time status updates and push notifications, all designed to make managing your services effortless.\n\nKey Features:\n\niOS Widget Integration: \nStay in the know at a glance with our iOS widget. Monitor the status of your services monitored by \"Uptime Kuma\" directly from your iOS device's home screen.\n\nPush Notifications: \nReceive instant alerts via push notifications whenever there is a change in the status of your monitored services. Wuma keeps you informed in real time, ensuring you're always up to date. Easy to configure.\n\nApple Watch Compatibility \nKeep an eye on your service statuses right from your wrist with Apple Watch support. Enjoy the convenience of monitoring your services wherever you are.\n\nPlease note that a subscription is required to access at PushNotification and Apple Watch Compatibility."
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Wuma"
+    },
+    "title": {
+      "label": "Wuma - Uptime Kuma Manager - Gianpiero Radano"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/at/app/wuma-uptime-kuma-manager/id1662404144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/26/57/3126573a-7c01-3f2b-87a0-56a9ba9b2845/9630e37c-4e86-465a-b56f-1e5423c6cf48_4.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/at/app/wuma-uptime-kuma-manager/id1662404144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1662404144",
+        "im:bundleId": "me.radano.wuma"
+      }
+    },
+    "im:artist": {
+      "label": "Gianpiero Radano",
+      "attributes": {
+        "href": "https://apps.apple.com/at/developer/gianpiero-radano/id1059168092?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2023-01-04T00:00:00-07:00",
+      "attributes": {
+        "label": "January 4, 2023"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "at",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 23,
+      "total": 99
+    },
+    "im:name": {
+      "label": "iPulse - Monitor Your Device"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/f8/6c/4bf86c5c-76dc-cf17-bc8c-1358d2187894/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/f8/6c/4bf86c5c-76dc-cf17-bc8c-1358d2187894/AppIcon-0-0-1x_U007epad-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/f8/6c/4bf86c5c-76dc-cf17-bc8c-1358d2187894/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "iPulse has been monitoring Macs for over 20 years. Now this essential developer tool is available for the first time on iOS and iPadOS.\n\nYour processors, network, memory, and storage space are constantly monitored and can be displayed in a convenient picture in picture view. It's like you're watching a movie of what's going on inside your device!\n\nThere are even sound effects for the movie: when configurable thresholds are exceeded, you'll hear an alert and know to check things out.\n\nAnd it's all done with minimal impact on your device performance and battery life.\n\niPulse displays the following information:\n\n• Efficiency core usage\n• Performance core usage\n• Graphics core usage\n• Download throughput\n• Upload throughput\n• System memory usage\n• App memory usage\n• Compressed memory usage\n• Internal and external storage usage\n\nWhether you're a power user or a developer wanting to profile an app, iPulse is an essential tool to have on your device."
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024 The Iconfactory, Inc."
+    },
+    "title": {
+      "label": "iPulse - Monitor Your Device - The Iconfactory"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/at/app/ipulse-monitor-your-device/id6474695786?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/8b/61/e48b6101-3fd7-f171-b53f-aed8d3a84f7e/c37c19e5-3775-452d-838f-8f7107be8302_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/at/app/ipulse-monitor-your-device/id6474695786?l=en&uo=2",
+      "attributes": {
+        "im:id": "6474695786",
+        "im:bundleId": "com.iconfactory.iPulseMobile"
+      }
+    },
+    "im:artist": {
+      "label": "The Iconfactory",
+      "attributes": {
+        "href": "https://apps.apple.com/at/developer/the-iconfactory/id281795483?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/at/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-03-12T00:00:00-07:00",
+      "attributes": {
+        "label": "March 12, 2024"
       }
     }
   },

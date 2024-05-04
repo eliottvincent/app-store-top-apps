@@ -314,108 +314,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "MusiKraken"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/01/ea/6001ea84-b143-c3d1-7d59-e7f975b08bf4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/01/ea/6001ea84-b143-c3d1-7d59-e7f975b08bf4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/01/ea/6001ea84-b143-c3d1-7d59-e7f975b08bf4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "MusiKraken is an Experimental MIDI Controller Construction Kit.\n\nWinner of the 2022 MIDI Innovation Awards in the category \"Software Prototypes / Non-Commercial Products\".\n\nMake music using device sensors like Touch, Accelerometer, Microphone and Camera (face, hand, body joint and color tracking and depth sensor support), or connected devices like Game Controllers or an Apple Watch.\n\nChoose from several types of modules in the editor and connect the ports to create your own MIDI controller setup. Use  Route the MIDI signals through effect modules to control multiple instruments simultaneously or generate creative combinations.\n\nMusiKraken supports sending and receiving MIDI data over Wi-Fi, Bluetooth or via Core MIDI (for example by using Inter-Device Audio and MIDI (IDAM)). And it can host Audio Unit Instruments.\n\nImportant: Please note that some of the modules only work on iOS devices with specific hardware: ARKit Face Tracking and the TrueDepth module need a TrueDepth front camera, and Hand and Body Joint Tracking needs at least iOS 14, and might be too slow on older devices.\n\nInput Modules:\n-Keyboard: MPE support, scale highlighting, control multiple values by sliding and touch pressure or finger radius.\n-Chords Pad: Play chords and its inversions of a selected scale.\n-Touchpad: Slide multiple fingers on a touchpad to control up to 5 values simultaneously.\n-ARKit Face Tracking: Uses the TrueDepth camera to generate notes or control parameters using your mouth, eyes, tongue or by moving your head.\n-Mouth Tracking: Uses the normal camera to control parameters using your mouth.\n-TrueDepth: Use the depth signal of your camera to generate MIDI data by moving your hand (or anything else) in front of the device.\n-Hand Tracking: Uses the camera to convert your hand position and simple hand gestures to MIDI. You can use one or two hands and it can also use the TrueDepth sensor if available.\n-Body Tracking: Uses the camera to track hand, feet and head positions of up to two persons.\n-Color Tracking: Track objects by color.\n-Motion Sensors: Uses the combination of Accelerometer, Gyroscope and Magnetometer to detect the current rotation of the device.\n-Accelerometer: Measures the acceleration of the device.\n-Apple Watch: Use the motion sensors, heart rate, touch and digital crown.\n-Game Controller: Use buttons, thumbsticks and everything else.\n-Microphone: Detects pitch and volume using the microphone.\n-External Input Device: Receives MIDI events of connected input devices.\n\nOutput Modules:\n-External Output Device: Send MIDI events to any device accessible via Core MIDI.\n-AudioUnit: Load any Music Device or MIDI Processor Audio Unit and generate sounds directly in the app.\n-Core MIDI Network: Send MIDI via WiFi.\n-Snarp Network MIDI: My own implementation to send MIDI via WiFi.\n-SimpleSynth: Generate simple synthesizer sounds directly on the device.\n\nEffects:\n-Chord Splitter: Splits incoming chords into separate notes and sends these to separate channels.\n-Channel Switcher: Change the MIDI channel of events.\n-Value to MIDI Converter: Converter to convert numerical values (green ports) to MIDI events (orange ports).\n-Transposer: Transpose MIDI notes.\n-Arpeggiator: Cycles through the notes of incoming chords in a specific pattern.\n-Speed: Computes a new value based on the change speed of another value.\n-Beat: Play a beat if a value is changed quickly.\n-Threshold: Plays notes if a value goes over a specific threshold.\n-LFO: Generates an LFO from incoming values.\n-Envelope: Generates an ADSR output value based on note input.\n-Latch: Keeps notes alive until the same note is played again.\n-Filter: Filter events by channel, note, velocity or CC.\n\nHealthKit is used in the app to access Apple Watch data like heart beat or motion sensors. The app only uses sensor data to generate MIDI events."
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020-2024 Snarp"
-    },
-    "title": {
-      "label": "MusiKraken - Snarp"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/musikraken/id1538781007?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/2a/d7/e6/2ad7e67c-4e40-b002-7d28-58ff72901986/8fd79fcf-cb65-4d09-9e23-9fceac430e1b_MusiKraken_screenshot1_ipad_en.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/musikraken/id1538781007?uo=2",
-      "attributes": {
-        "im:id": "1538781007",
-        "im:bundleId": "ch.snarp.musikraken"
-      }
-    },
-    "im:artist": {
-      "label": "Snarp",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/snarp/id376179401?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-11-24T00:00:00-07:00",
-      "attributes": {
-        "label": "November 24, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 5,
-      "total": 100
-    },
-    "im:name": {
       "label": "SoundHound∞ - Music Discovery"
     },
     "im:image": [
@@ -514,7 +412,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 6,
+      "index": 5,
       "total": 100
     },
     "im:name": {
@@ -616,7 +514,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 7,
+      "index": 6,
       "total": 100
     },
     "im:name": {
@@ -718,7 +616,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 8,
+      "index": 7,
       "total": 100
     },
     "im:name": {
@@ -820,7 +718,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 9,
+      "index": 8,
       "total": 100
     },
     "im:name": {
@@ -922,7 +820,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 10,
+      "index": 9,
       "total": 100
     },
     "im:name": {
@@ -1024,7 +922,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 11,
+      "index": 10,
       "total": 100
     },
     "im:name": {
@@ -1126,7 +1024,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 12,
+      "index": 11,
       "total": 100
     },
     "im:name": {
@@ -1228,7 +1126,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 13,
+      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -1330,7 +1228,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 14,
+      "index": 13,
       "total": 100
     },
     "im:name": {
@@ -1432,7 +1330,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 15,
+      "index": 14,
       "total": 100
     },
     "im:name": {
@@ -1534,7 +1432,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 16,
+      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1636,7 +1534,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 17,
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1738,7 +1636,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 18,
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -1840,7 +1738,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 19,
+      "index": 18,
       "total": 100
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 20,
+      "index": 19,
       "total": 100
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 21,
+      "index": 20,
       "total": 100
     },
     "im:name": {
@@ -2138,6 +2036,108 @@
       "label": "2013-04-23T09:23:18-07:00",
       "attributes": {
         "label": "April 23, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 21,
+      "total": 100
+    },
+    "im:name": {
+      "label": "VirtualDJ Remote"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/bb/e5/dfbbe521-5053-ac5f-f10e-97eb27e175c4/AppIcon-0-0-1x_U007emarketing-0-7-0-GLES2_U002c0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/bb/e5/dfbbe521-5053-ac5f-f10e-97eb27e175c4/AppIcon-0-0-1x_U007emarketing-0-7-0-GLES2_U002c0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/bb/e5/dfbbe521-5053-ac5f-f10e-97eb27e175c4/AppIcon-0-0-1x_U007emarketing-0-7-0-GLES2_U002c0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Mix with VirtualDJ directly from your iPhone or iPad !\n\nWhether you want to use your iPad as a virtual scratch turntable, or just want to step away from the booth for a moment but still continue to monitor the mix from your iPhone, or even want to mix the whole gig wirelessly from your iPad while the computer plugged to your sound system delivers the beats, the VirtualDJ Remote application gives you full freedom to operate VirtualDJ over a WIFI connection.\n\nIMPORTANT NOTICE: this application needs to connect to the software VirtualDJ running on a Mac or PC computer. The VirtualDJ software is available for FREE on www.virtualdj.com\n\n\nSIMPLE WIRELESS SETUP:\nVirtualDJ Remote and VirtualDJ Software connect over a simple Wifi connection.\nIf you are already using a wifi network, the connection will be done automatically, using Bonjour.\nOtherwise, you can easily create an ad-hoc wifi network, and enter the device IP address in the VirtualDJ software for immediate connection.\n\nEASY AUDIO CONFIGURATION:\nThe audio is being played by the computer, so you just need to plug your audio system to your computer, no need to carry audio wires to your iPhone/iPad.\n\nSUPPORT THE FULL POWER OF VIRTUALDJ:\nVirtualDJ is the most used DJ software, with more than 100,000,000 users, and has been used reliably by professional DJs all over the world for the past 10 years.\nIt features almost everything a DJ can need, from beat mixing, effects, song suggestions, samplers, video mixing, etc.\n\nMAXIMUM VERSATILITY:\nThe interface and functionalities of the VirtualDJ Remote can be completely tailored to your exact needs, by using new Skins.\nThe Skin format is compatible with the popular VirtualDJ’s skin SDK, and thousands of users are working on creating skins to fit every needs. You can download their creations, or easily create one by yourself.\nAnything is possible, from a full-featured sampler pad, an effect table, a turntable emulator, a complete controller, or whatever else your imagination and need will come up with.\n\nYOU CAN DO MORE:\n- Mix music videos and plug your computer to a projector to get the video out\n- Broadcast your mix live on Internet radios\n- Record your sessions on your computer\n- Get personalized advices on what to play next with MusicGroups\n- Mix with 3, 4, 6, or how many decks you want simultaneously (up to 99)"
+    },
+    "im:price": {
+      "label": "9,99 €",
+      "attributes": {
+        "amount": "9.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024 Atomix Productions"
+    },
+    "title": {
+      "label": "VirtualDJ Remote - Atomix Productions America Inc."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/virtualdj-remote/id407160120?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/56/cd/dc/56cddc3c-d0dd-0d6d-73e5-4901eb6af547/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/virtualdj-remote/id407160120?uo=2",
+      "attributes": {
+        "im:id": "407160120",
+        "im:bundleId": "com.atomixproductions.VirtualDJRemote"
+      }
+    },
+    "im:artist": {
+      "label": "Atomix Productions America Inc.",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/atomix-productions-america-inc/id938290526?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-12-15T20:48:14-07:00",
+      "attributes": {
+        "label": "December 15, 2010"
       }
     }
   },
@@ -2252,312 +2252,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Tenuto"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Tenuto is a collection of 24 highly-customizable exercises designed to enhance your musicality. From recognizing chords on a keyboard to identifying intervals by ear, it has an exercise for you. Tenuto also includes six musical calculators for accidentals, intervals, scales, chords, analysis symbols, and twelve-tone matrices.\n\nA short description of the exercises and calculators follows. For a full list of all available customizations, visit the \"Developer Website\" link on this page or open http://tenuto.link/features/ in your web browser.\n\n––––––\n\n• Note Identification\n• Key Signature Identification\n• Interval Identification\n• Scale Identification\n• Chord Identification\nTap the button corresponding to the written staff line. For example: if shown a C, E, and G with a sharp; tap the \"Augmented Triad\" button.\n\n––––––\n\n• Note Construction\n• Key Signature Construction\n• Interval Construction\n• Scale Construction\n• Chord Construction\nConstruct the specified label by moving notes and/or adding accidentals. For example: if shown a C and an \"Augmented 4th\" label, move the second note to F and add a sharp.\n\n––––––\n\n• Keyboard Reverse Identification\nTap the piano key corresponding to the written note on the staff. While similar to Note Identification, this exercise uses a piano keyboard rather than note name buttons.\n\n• Keyboard Note Identification\n• Keyboard Interval Identification\n• Keyboard Scale Identification\n• Keyboard Chord Identification\nTap the button corresponding to the highlighted piano key(s). If the C and G keys are highlighted, tap the \"P5\" (Perfect 5th) button.\n\n––––––\n\n• Fretboard Note Identification\n• Fretboard Interval Identification\n• Fretboard Scale Identification\n• Fretboard Chord Identification\nTap the button corresponding to the marked fretboard position(s). If the 2nd fret of the D string is marked, tap the \"E\" button.\n\n––––––\n\n• Keyboard Ear Training\n• Note Ear Training\nListen to the played reference and question notes. Select the piano key or note button corresponding to the question note.\n\n• Interval Ear Training\n• Scale Ear Training\n• Chord Ear Training\nTap the button corresponding to the played notes. If E and F are played, tap the \"Minor 2nd\" button.\n\n––––––\n\n• Accidental Calculator\nDisplay the accidental for a note and key.\n\n• Interval Calculator\nDisplay the interval for a note, type, and key.\n\n• Chord Calculator\nDisplay the scale for a tonic and scale type.\n\n• Chord Calculator\nDisplay the chord for a note, type, and key.\n\n• Analysis Calculator\nDisplay the chord for a symbol and key.\n\n• Matrix Calculator\nDisplay the twelve-tone matrix for a specified tone row."
-    },
-    "im:price": {
-      "label": "5,99 €",
-      "attributes": {
-        "amount": "5.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2011-2020, musictheory.net, LLC"
-    },
-    "title": {
-      "label": "Tenuto - musictheory.net"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/tenuto/id459313476?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/5b/a5/d2/5ba5d215-8a4a-7a6a-84eb-fb8e16f69949/mzl.uyxsfprp.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/tenuto/id459313476?uo=2",
-      "attributes": {
-        "im:id": "459313476",
-        "im:bundleId": "net.musictheory.Tenuto"
-      }
-    },
-    "im:artist": {
-      "label": "musictheory.net",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/musictheory-net/id459313479?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2011-08-30T13:12:52-07:00",
-      "attributes": {
-        "label": "August 30, 2011"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 24,
-      "total": 100
-    },
-    "im:name": {
-      "label": "AudioTools - dB, Sound & Audio"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/65/b8/a765b808-b491-4183-0c02-076817550e84/AudioTools_Icons-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/65/b8/a765b808-b491-4183-0c02-076817550e84/AudioTools_Icons-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/65/b8/a765b808-b491-4183-0c02-076817550e84/AudioTools_Icons-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "AudioTools from Studio Six Digital is a suite of professional-grade audio and acoustic analysis apps. Included in the price of this app is a great collection of professional tools -- SPL, RTA, FFT, Speaker Polarity Test, Generator, Audio Scope, CLF Viewer, and Recorder, and the framework to add more powerful modules as you need them.\n\nCustomize AudioTools for your needs by buying any of the additional optional modules, like Smaart Tools I, SPL Graph, or Impulse Response, at any time right from your iOS device.\n\nWe test every iOS device and calibrate the microphone level and frequency response for the best results. We have the ability to turn off the Apple low frequency filters, and on many devices we can measure up to 120 dB SPL.\n\nAdd iTestMic, iPrecisionMic, or iAudioInterface2 for a complete professional audio and acoustic test and measurement platform.\n\nActual reviews:\n\n“...AudioTools is a “how did I ever live without it” app”.\n\n“I think this application is the best I EVER purchased.”\n\n“I have used many thousands of dollars of complicated test equipment that doesn’t measure up to this app suite.”\n\n***** Included in the app price *****\n\n* SPL Meter\nA faithful reproduction of a classic analog SPL meter. Includes A and C weighting, and Fast and Slow ANSI decay modes. All filters meet or exceed ANSI type 1.\n\n* RTA\nA 1/3 and octave band Real Time Analyzer. Includes touch-GUI range control, a cursor, max/min bars, and noise curve overlays. \n\n* FFT\nDetailed acoustic analysis, up to 32876 points. View full detail or smooth to 1/24, 1/6, 1/3 or octave. Includes cursor, scalable graphics, and peak tracking.\n\n* Polarity\nSpeaker polarity checker. Route the test signal to a speaker, and read the polarity of the speaker on the screen.\n\n* CLF Viewer\nShow loudspeaker data, including plots for impedance, axial response, sensitivity, polar response, and 6dB coverage, and a 3D color balloon plot. \n\n* Delay Finder\nMeasures the time it takes for a pulse to return from a speaker. \n\n* Generator\nGenerates sine waves, square waves, white and pink noise.\n\n* Line Level Tests\nA line level measurement function and frequency counter.\n\n* Audio Scope\nA dual-channel audio oscilloscope that includes auto-triggering, variable gain and sweep rate, and storage of scope images.\n\n* Recorder\nA mono/stereo audio recorder with WAV and compressed formats and 8k-48k sample rate. Transfer files via WIFI.\n\n* File transfer of results via wifi to PC / Mac.\n\n* Audio Calculators\n\n***** Optional modules available for purchase from within AudioTools *****\n\n* Smaart® Tools - Single channel module.\nThe power of Smaart® on a mobile platform. Includes RTA graphs to 1/48th octave and Spectrograph. Split-screen on iPad.\n\n* Transfer Function -- Requires 2-channel interface. \nTwo-channel FFT-based measurement. Allows you to analyze sound system performance with music or pink noise as the signal source.\n\n* ETC\nEnergy Time Curve. Plot decay of an impulse over time, and compute RT60 time. Internal or External trigger.\n\n* Impulse Response\nRecord and analyze an impulse or sine sweep, compute octave and 1/3 octave ETC, T30, C50, C80, CT, Definition.\n\n* LARSA\nFast and accurate sine-sweep measurement of loudspeakers and rooms.\n\n* SPL Pro\nDigital SPL meter with ANSI Slow, Fast, Peak, and Impulse mode, along with LEQ. Includes A and C weighting, and all 10 octave band filters.\n\n* SPL Graph\nPlot second-by-second SPL level for up to 24 hours, and optionally record the audio. Also, add the optional Octave Band Logging upgrade to elevate this tool to rival any professional logging SPL Meter.\n\n* SPL Traffic Light\nMonitor live sound levels SPL and Leq and see status in a simple green-yellow-red display.\n\n* STIPA Speech Intelligibility\nMeets the current NFPA code standards for testing evac systems and schools.\n\n* Speaker Distortion\nMeasure THD+n of any driver.\n\n* THD+n (requires iAudioInterface)\n\n* Impedance Meter and Plot (requires iAudioInterface)\n\n* Phase Meter\n\n* Amplitude Sweep"
-    },
-    "im:price": {
-      "label": "22,99 €",
-      "attributes": {
-        "amount": "22.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Andrew Smith"
-    },
-    "title": {
-      "label": "AudioTools - dB, Sound & Audio - Andrew Smith"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/audiotools-db-sound-audio/id325307477?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a5/96/19/a59619c9-fb12-e431-952b-25fa0a03d593/mzl.iocnhqah.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/audiotools-db-sound-audio/id325307477?uo=2",
-      "attributes": {
-        "im:id": "325307477",
-        "im:bundleId": "com.studiosixdigital.audiotools"
-      }
-    },
-    "im:artist": {
-      "label": "Andrew Smith",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/andrew-smith/id291822462?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2009-09-08T14:04:44-07:00",
-      "attributes": {
-        "label": "September 8, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 25,
-      "total": 100
-    },
-    "im:name": {
-      "label": "VirtualDJ Remote"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/bb/e5/dfbbe521-5053-ac5f-f10e-97eb27e175c4/AppIcon-0-0-1x_U007emarketing-0-7-0-GLES2_U002c0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/bb/e5/dfbbe521-5053-ac5f-f10e-97eb27e175c4/AppIcon-0-0-1x_U007emarketing-0-7-0-GLES2_U002c0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/bb/e5/dfbbe521-5053-ac5f-f10e-97eb27e175c4/AppIcon-0-0-1x_U007emarketing-0-7-0-GLES2_U002c0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Mix with VirtualDJ directly from your iPhone or iPad !\n\nWhether you want to use your iPad as a virtual scratch turntable, or just want to step away from the booth for a moment but still continue to monitor the mix from your iPhone, or even want to mix the whole gig wirelessly from your iPad while the computer plugged to your sound system delivers the beats, the VirtualDJ Remote application gives you full freedom to operate VirtualDJ over a WIFI connection.\n\nIMPORTANT NOTICE: this application needs to connect to the software VirtualDJ running on a Mac or PC computer. The VirtualDJ software is available for FREE on www.virtualdj.com\n\n\nSIMPLE WIRELESS SETUP:\nVirtualDJ Remote and VirtualDJ Software connect over a simple Wifi connection.\nIf you are already using a wifi network, the connection will be done automatically, using Bonjour.\nOtherwise, you can easily create an ad-hoc wifi network, and enter the device IP address in the VirtualDJ software for immediate connection.\n\nEASY AUDIO CONFIGURATION:\nThe audio is being played by the computer, so you just need to plug your audio system to your computer, no need to carry audio wires to your iPhone/iPad.\n\nSUPPORT THE FULL POWER OF VIRTUALDJ:\nVirtualDJ is the most used DJ software, with more than 100,000,000 users, and has been used reliably by professional DJs all over the world for the past 10 years.\nIt features almost everything a DJ can need, from beat mixing, effects, song suggestions, samplers, video mixing, etc.\n\nMAXIMUM VERSATILITY:\nThe interface and functionalities of the VirtualDJ Remote can be completely tailored to your exact needs, by using new Skins.\nThe Skin format is compatible with the popular VirtualDJ’s skin SDK, and thousands of users are working on creating skins to fit every needs. You can download their creations, or easily create one by yourself.\nAnything is possible, from a full-featured sampler pad, an effect table, a turntable emulator, a complete controller, or whatever else your imagination and need will come up with.\n\nYOU CAN DO MORE:\n- Mix music videos and plug your computer to a projector to get the video out\n- Broadcast your mix live on Internet radios\n- Record your sessions on your computer\n- Get personalized advices on what to play next with MusicGroups\n- Mix with 3, 4, 6, or how many decks you want simultaneously (up to 99)"
-    },
-    "im:price": {
-      "label": "9,99 €",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2024 Atomix Productions"
-    },
-    "title": {
-      "label": "VirtualDJ Remote - Atomix Productions America Inc."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/virtualdj-remote/id407160120?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/56/cd/dc/56cddc3c-d0dd-0d6d-73e5-4901eb6af547/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/virtualdj-remote/id407160120?uo=2",
-      "attributes": {
-        "im:id": "407160120",
-        "im:bundleId": "com.atomixproductions.VirtualDJRemote"
-      }
-    },
-    "im:artist": {
-      "label": "Atomix Productions America Inc.",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/atomix-productions-america-inc/id938290526?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2010-12-15T20:48:14-07:00",
-      "attributes": {
-        "label": "December 15, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 26,
-      "total": 100
-    },
-    "im:name": {
       "label": "Drums! - A studio quality drum kit in your pocket"
     },
     "im:image": [
@@ -2656,7 +2350,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 27,
+      "index": 24,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +2452,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 28,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2860,7 +2554,211 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 29,
+      "index": 26,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Tenuto"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/d3/e4/a6/d3e4a643-adb7-7899-406e-e5909e9826a7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Tenuto is a collection of 24 highly-customizable exercises designed to enhance your musicality. From recognizing chords on a keyboard to identifying intervals by ear, it has an exercise for you. Tenuto also includes six musical calculators for accidentals, intervals, scales, chords, analysis symbols, and twelve-tone matrices.\n\nA short description of the exercises and calculators follows. For a full list of all available customizations, visit the \"Developer Website\" link on this page or open http://tenuto.link/features/ in your web browser.\n\n––––––\n\n• Note Identification\n• Key Signature Identification\n• Interval Identification\n• Scale Identification\n• Chord Identification\nTap the button corresponding to the written staff line. For example: if shown a C, E, and G with a sharp; tap the \"Augmented Triad\" button.\n\n––––––\n\n• Note Construction\n• Key Signature Construction\n• Interval Construction\n• Scale Construction\n• Chord Construction\nConstruct the specified label by moving notes and/or adding accidentals. For example: if shown a C and an \"Augmented 4th\" label, move the second note to F and add a sharp.\n\n––––––\n\n• Keyboard Reverse Identification\nTap the piano key corresponding to the written note on the staff. While similar to Note Identification, this exercise uses a piano keyboard rather than note name buttons.\n\n• Keyboard Note Identification\n• Keyboard Interval Identification\n• Keyboard Scale Identification\n• Keyboard Chord Identification\nTap the button corresponding to the highlighted piano key(s). If the C and G keys are highlighted, tap the \"P5\" (Perfect 5th) button.\n\n––––––\n\n• Fretboard Note Identification\n• Fretboard Interval Identification\n• Fretboard Scale Identification\n• Fretboard Chord Identification\nTap the button corresponding to the marked fretboard position(s). If the 2nd fret of the D string is marked, tap the \"E\" button.\n\n––––––\n\n• Keyboard Ear Training\n• Note Ear Training\nListen to the played reference and question notes. Select the piano key or note button corresponding to the question note.\n\n• Interval Ear Training\n• Scale Ear Training\n• Chord Ear Training\nTap the button corresponding to the played notes. If E and F are played, tap the \"Minor 2nd\" button.\n\n––––––\n\n• Accidental Calculator\nDisplay the accidental for a note and key.\n\n• Interval Calculator\nDisplay the interval for a note, type, and key.\n\n• Chord Calculator\nDisplay the scale for a tonic and scale type.\n\n• Chord Calculator\nDisplay the chord for a note, type, and key.\n\n• Analysis Calculator\nDisplay the chord for a symbol and key.\n\n• Matrix Calculator\nDisplay the twelve-tone matrix for a specified tone row."
+    },
+    "im:price": {
+      "label": "5,99 €",
+      "attributes": {
+        "amount": "5.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2011-2020, musictheory.net, LLC"
+    },
+    "title": {
+      "label": "Tenuto - musictheory.net"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/tenuto/id459313476?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/5b/a5/d2/5ba5d215-8a4a-7a6a-84eb-fb8e16f69949/mzl.uyxsfprp.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/tenuto/id459313476?uo=2",
+      "attributes": {
+        "im:id": "459313476",
+        "im:bundleId": "net.musictheory.Tenuto"
+      }
+    },
+    "im:artist": {
+      "label": "musictheory.net",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/musictheory-net/id459313479?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2011-08-30T13:12:52-07:00",
+      "attributes": {
+        "label": "August 30, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 27,
+      "total": 100
+    },
+    "im:name": {
+      "label": "AudioTools - dB, Sound & Audio"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/0c/9a/160c9a0c-a500-7d55-e8c9-87572412da58/AudioTools_Icons-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/0c/9a/160c9a0c-a500-7d55-e8c9-87572412da58/AudioTools_Icons-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/0c/9a/160c9a0c-a500-7d55-e8c9-87572412da58/AudioTools_Icons-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "AudioTools from Studio Six Digital is a suite of professional-grade audio and acoustic analysis apps. Included in the price of this app is a great collection of professional tools -- SPL, RTA, FFT, Speaker Polarity Test, Generator, Audio Scope, CLF Viewer, and Recorder, and the framework to add more powerful modules as you need them.\n\nCustomize AudioTools for your needs by buying any of the additional optional modules, like Smaart Tools I, SPL Graph, or Impulse Response, at any time right from your iOS device.\n\nWe test every iOS device and calibrate the microphone level and frequency response for the best results. We have the ability to turn off the Apple low frequency filters, and on many devices we can measure up to 120 dB SPL.\n\nAdd iTestMic, iPrecisionMic, or iAudioInterface2 for a complete professional audio and acoustic test and measurement platform.\n\nActual reviews:\n\n“...AudioTools is a “how did I ever live without it” app”.\n\n“I think this application is the best I EVER purchased.”\n\n“I have used many thousands of dollars of complicated test equipment that doesn’t measure up to this app suite.”\n\n***** Included in the app price *****\n\n* SPL Meter\nA faithful reproduction of a classic analog SPL meter. Includes A and C weighting, and Fast and Slow ANSI decay modes. All filters meet or exceed ANSI type 1.\n\n* RTA\nA 1/3 and octave band Real Time Analyzer. Includes touch-GUI range control, a cursor, max/min bars, and noise curve overlays. \n\n* FFT\nDetailed acoustic analysis, up to 32876 points. View full detail or smooth to 1/24, 1/6, 1/3 or octave. Includes cursor, scalable graphics, and peak tracking.\n\n* Polarity\nSpeaker polarity checker. Route the test signal to a speaker, and read the polarity of the speaker on the screen.\n\n* CLF Viewer\nShow loudspeaker data, including plots for impedance, axial response, sensitivity, polar response, and 6dB coverage, and a 3D color balloon plot. \n\n* Delay Finder\nMeasures the time it takes for a pulse to return from a speaker. \n\n* Generator\nGenerates sine waves, square waves, white and pink noise.\n\n* Line Level Tests\nA line level measurement function and frequency counter.\n\n* Audio Scope\nA dual-channel audio oscilloscope that includes auto-triggering, variable gain and sweep rate, and storage of scope images.\n\n* Recorder\nA mono/stereo audio recorder with WAV and compressed formats and 8k-48k sample rate. Transfer files via WIFI.\n\n* File transfer of results via wifi to PC / Mac.\n\n* Audio Calculators\n\n***** Optional modules available for purchase from within AudioTools *****\n\n* Smaart® Tools - Single channel module.\nThe power of Smaart® on a mobile platform. Includes RTA graphs to 1/48th octave and Spectrograph. Split-screen on iPad.\n\n* Transfer Function -- Requires 2-channel interface. \nTwo-channel FFT-based measurement. Allows you to analyze sound system performance with music or pink noise as the signal source.\n\n* ETC\nEnergy Time Curve. Plot decay of an impulse over time, and compute RT60 time. Internal or External trigger.\n\n* Impulse Response\nRecord and analyze an impulse or sine sweep, compute octave and 1/3 octave ETC, T30, C50, C80, CT, Definition.\n\n* LARSA\nFast and accurate sine-sweep measurement of loudspeakers and rooms.\n\n* SPL Pro\nDigital SPL meter with ANSI Slow, Fast, Peak, and Impulse mode, along with LEQ. Includes A and C weighting, and all 10 octave band filters.\n\n* SPL Graph\nPlot second-by-second SPL level for up to 24 hours, and optionally record the audio. Also, add the optional Octave Band Logging upgrade to elevate this tool to rival any professional logging SPL Meter.\n\n* SPL Traffic Light\nMonitor live sound levels SPL and Leq and see status in a simple green-yellow-red display.\n\n* STIPA Speech Intelligibility\nMeets the current NFPA code standards for testing evac systems and schools.\n\n* Speaker Distortion\nMeasure THD+n of any driver.\n\n* THD+n (requires iAudioInterface)\n\n* Impedance Meter and Plot (requires iAudioInterface)\n\n* Phase Meter\n\n* Amplitude Sweep"
+    },
+    "im:price": {
+      "label": "22,99 €",
+      "attributes": {
+        "amount": "22.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Andrew Smith"
+    },
+    "title": {
+      "label": "AudioTools - dB, Sound & Audio - Andrew Smith"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/audiotools-db-sound-audio/id325307477?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/a5/96/19/a59619c9-fb12-e431-952b-25fa0a03d593/mzl.iocnhqah.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/audiotools-db-sound-audio/id325307477?uo=2",
+      "attributes": {
+        "im:id": "325307477",
+        "im:bundleId": "com.studiosixdigital.audiotools"
+      }
+    },
+    "im:artist": {
+      "label": "Andrew Smith",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/andrew-smith/id291822462?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-09-08T14:04:44-07:00",
+      "attributes": {
+        "label": "September 8, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 28,
       "total": 100
     },
     "im:name": {
@@ -2962,7 +2860,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 30,
+      "index": 29,
       "total": 100
     },
     "im:name": {
@@ -3064,7 +2962,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 31,
+      "index": 30,
       "total": 100
     },
     "im:name": {
@@ -3166,7 +3064,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 32,
+      "index": 31,
       "total": 100
     },
     "im:name": {
@@ -3268,7 +3166,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 33,
+      "index": 32,
       "total": 100
     },
     "im:name": {
@@ -3370,7 +3268,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 34,
+      "index": 33,
       "total": 100
     },
     "im:name": {
@@ -3472,109 +3370,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 35,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Theory Lessons"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e7/0e/51/e70e514b-fb96-dd00-a0ae-fc57871164a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e7/0e/51/e70e514b-fb96-dd00-a0ae-fc57871164a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e7/0e/51/e70e514b-fb96-dd00-a0ae-fc57871164a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Theory Lessons features 39 music theory lessons from musictheory.net, presented in their original animated versions.\n\nComplete lesson list:\n\n• The Staff, Clefs, and Ledger Lines\n• Note Duration\n• Measures and Time Signature\n• Rest Duration\n• Dots and Ties\n• Steps and Accidentals\n\n• Simple and Compound Meter\n• Odd Meter\n\n• The Major Scale\n• The Minor Scales\n• Scale Degrees\n• Key Signatures\n• Key Signature Calculation\n\n• Generic Intervals\n• Specific Intervals\n• Writing Intervals\n• Interval Inversion\n\n• Introduction to Chords\n• Triad Inversion\n• Seventh Chords\n• More Seventh Chords\n• Seventh Chord Inversion\n\n• Diatonic Triads\n• Roman Numeral Analysis: Triads\n• Diatonic Seventh Chords\n• Roman Numeral Analysis: Seventh Chords\n• Composing with Minor Scales\n• Voicing Chords\n• Analysis: O Canada\n\n• Nonharmonic Tones\n• Phrases and Cadences\n• Circle Progressions\n• Common Chord Progressions\n• Triads in First Inversion\n• Triads in Second Inversion\n• Analysis: Auld Lang Syne\n\n• Building Neapolitan Chords\n• Using Neapolitan Chords\n• Analysis: Moonlight Sonata"
-    },
-    "im:price": {
-      "label": "2,99 €",
-      "attributes": {
-        "amount": "2.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2011-2021 musictheory.net, LLC"
-    },
-    "title": {
-      "label": "Theory Lessons - musictheory.net"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/theory-lessons/id493157418?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/02/f2/9b/02f29be3-0699-d9a5-ad9f-400e001ca57a/d797881e-e7d1-4205-b091-2efbf34e5b8f_Simulator_Screen_Shot_-_13._iPad_10.5_U0022_-_2020-08-23_at_03.01.42.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/theory-lessons/id493157418?uo=2",
-      "attributes": {
-        "im:id": "493157418",
-        "im:bundleId": "net.musictheory.TheoryLessons"
-      }
-    },
-    "im:artist": {
-      "label": "musictheory.net",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/musictheory-net/id459313479?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-01-17T00:00:00-07:00",
-      "attributes": {
-        "label": "January 17, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 36,
+      "index": 34,
       "total": 100
     },
     "im:name": {
@@ -3676,7 +3472,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 37,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3778,7 +3574,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 38,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3880,7 +3676,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 39,
+      "index": 37,
       "total": 100
     },
     "im:name": {
@@ -3982,7 +3778,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 40,
+      "index": 38,
       "total": 100
     },
     "im:name": {
@@ -4084,7 +3880,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 41,
+      "index": 39,
       "total": 100
     },
     "im:name": {
@@ -4186,7 +3982,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 42,
+      "index": 40,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Theory Lessons"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e7/0e/51/e70e514b-fb96-dd00-a0ae-fc57871164a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e7/0e/51/e70e514b-fb96-dd00-a0ae-fc57871164a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e7/0e/51/e70e514b-fb96-dd00-a0ae-fc57871164a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Theory Lessons features 39 music theory lessons from musictheory.net, presented in their original animated versions.\n\nComplete lesson list:\n\n• The Staff, Clefs, and Ledger Lines\n• Note Duration\n• Measures and Time Signature\n• Rest Duration\n• Dots and Ties\n• Steps and Accidentals\n\n• Simple and Compound Meter\n• Odd Meter\n\n• The Major Scale\n• The Minor Scales\n• Scale Degrees\n• Key Signatures\n• Key Signature Calculation\n\n• Generic Intervals\n• Specific Intervals\n• Writing Intervals\n• Interval Inversion\n\n• Introduction to Chords\n• Triad Inversion\n• Seventh Chords\n• More Seventh Chords\n• Seventh Chord Inversion\n\n• Diatonic Triads\n• Roman Numeral Analysis: Triads\n• Diatonic Seventh Chords\n• Roman Numeral Analysis: Seventh Chords\n• Composing with Minor Scales\n• Voicing Chords\n• Analysis: O Canada\n\n• Nonharmonic Tones\n• Phrases and Cadences\n• Circle Progressions\n• Common Chord Progressions\n• Triads in First Inversion\n• Triads in Second Inversion\n• Analysis: Auld Lang Syne\n\n• Building Neapolitan Chords\n• Using Neapolitan Chords\n• Analysis: Moonlight Sonata"
+    },
+    "im:price": {
+      "label": "2,99 €",
+      "attributes": {
+        "amount": "2.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2011-2021 musictheory.net, LLC"
+    },
+    "title": {
+      "label": "Theory Lessons - musictheory.net"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/theory-lessons/id493157418?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/02/f2/9b/02f29be3-0699-d9a5-ad9f-400e001ca57a/d797881e-e7d1-4205-b091-2efbf34e5b8f_Simulator_Screen_Shot_-_13._iPad_10.5_U0022_-_2020-08-23_at_03.01.42.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/theory-lessons/id493157418?uo=2",
+      "attributes": {
+        "im:id": "493157418",
+        "im:bundleId": "net.musictheory.TheoryLessons"
+      }
+    },
+    "im:artist": {
+      "label": "musictheory.net",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/musictheory-net/id459313479?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-01-17T00:00:00-07:00",
+      "attributes": {
+        "label": "January 17, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 41,
       "total": 100
     },
     "im:name": {
@@ -4288,7 +4186,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 43,
+      "index": 42,
       "total": 100
     },
     "im:name": {
@@ -4390,7 +4288,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 44,
+      "index": 43,
       "total": 100
     },
     "im:name": {
@@ -4492,7 +4390,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 45,
+      "index": 44,
       "total": 100
     },
     "im:name": {
@@ -4594,7 +4492,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 46,
+      "index": 45,
       "total": 100
     },
     "im:name": {
@@ -4696,7 +4594,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 47,
+      "index": 46,
       "total": 100
     },
     "im:name": {
@@ -4798,7 +4696,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 48,
+      "index": 47,
       "total": 100
     },
     "im:name": {
@@ -4900,7 +4798,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 49,
+      "index": 48,
       "total": 100
     },
     "im:name": {
@@ -5002,109 +4900,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 50,
-      "total": 100
-    },
-    "im:name": {
-      "label": "mconnect Player"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/7f/e8/c97fe885-5b57-b496-901a-18834a9f5dc7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/7f/e8/c97fe885-5b57-b496-901a-18834a9f5dc7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/7f/e8/c97fe885-5b57-b496-901a-18834a9f5dc7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "mconnect Player is a media player app to support UPnP/DLNA and Google Cast(Chromecast). \n- Send Video/Photo/Music to UPnP and Google Cast (Chromecast) devices. \n- Gapless Playback by App and to UPnP renderers.\n- DSD and FLAC music playback by App.\n- Play TIDAL, Qobuz and Bugs music & video to UPnP and Google Cast devices.\n- Send media files to Apple AirPlay compatible devices from PC, NAS and Internet.\n\nYou can play media files from any Servers to any Playback Devices with mconnect Player.\n\n[Media Servers]\n- Your iPhone and iPad.\n- UPnP compatible servers: PC and NAS.\n- Internet Music integrated into App: TIDAL, Qobuz and Bugs.\n- Cloud Server integrated into App: OneDrive and Dropbox.\n\n[Playback Devices]\n- Your iPhone and iPad.\n- UPnP compatible renderers: Smart TV, UPnP supported Audio, UPnP receivers.\n- Google Cast: Chromecast, Google Cast compatible Audio.\n- AirPlay compatible devices: Apple TV, Airport Express, AirPlay Audio.\n\nNote: If you send a media file to a remote playback device, the playable media format depends on the media decoder in the remote playback device.\n\niPhone, iPad, AirPlay, Apple TV, and AirPort Express are registered trademarks of Apple Inc.\nGoogle Cast and Chromecast are registered trademarks of Google Inc.\nDLNA is a trademark of Digital Living Network Alliance.\nUPnP is a certification mark of the UPnP Forum in the United States and other countries.\nTIDAL is a trademark of ASPIRO AB.\nQobuz is a trademark of XANDRIE SA.\nBugs is a trademark of NHN Bugs Corp."
-    },
-    "im:price": {
-      "label": "6,99 €",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2012-23 ConversDigital Co., Ltd."
-    },
-    "title": {
-      "label": "mconnect Player - ConversDigital Co., Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/si/app/mconnect-player/id503760460?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/84/75/13/847513e8-3b5f-2a72-9004-1744d24dff1d/mzl.cjluwqax.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/si/app/mconnect-player/id503760460?uo=2",
-      "attributes": {
-        "im:id": "503760460",
-        "im:bundleId": "com.conversdigital.mconnectplayer"
-      }
-    },
-    "im:artist": {
-      "label": "ConversDigital Co., Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/si/developer/conversdigital-co-ltd/id503760463?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6011",
-        "term": "Music",
-        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
-        "label": "Music"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-02-22T14:06:36-07:00",
-      "attributes": {
-        "label": "February 22, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "si",
-      "pricing": "paid",
-      "genre": "music",
-      "index": 51,
+      "index": 49,
       "total": 100
     },
     "im:name": {
@@ -5206,7 +5002,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 52,
+      "index": 50,
       "total": 100
     },
     "im:name": {
@@ -5308,7 +5104,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 53,
+      "index": 51,
       "total": 100
     },
     "im:name": {
@@ -5410,7 +5206,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 54,
+      "index": 52,
       "total": 100
     },
     "im:name": {
@@ -5512,7 +5308,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 55,
+      "index": 53,
       "total": 100
     },
     "im:name": {
@@ -5614,7 +5410,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 56,
+      "index": 54,
       "total": 100
     },
     "im:name": {
@@ -5716,7 +5512,109 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 57,
+      "index": 55,
+      "total": 100
+    },
+    "im:name": {
+      "label": "mconnect Player"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/7f/e8/c97fe885-5b57-b496-901a-18834a9f5dc7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/7f/e8/c97fe885-5b57-b496-901a-18834a9f5dc7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/7f/e8/c97fe885-5b57-b496-901a-18834a9f5dc7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "mconnect Player is a media player app to support UPnP/DLNA and Google Cast(Chromecast). \n- Send Video/Photo/Music to UPnP and Google Cast (Chromecast) devices. \n- Gapless Playback by App and to UPnP renderers.\n- DSD and FLAC music playback by App.\n- Play TIDAL, Qobuz and Bugs music & video to UPnP and Google Cast devices.\n- Send media files to Apple AirPlay compatible devices from PC, NAS and Internet.\n\nYou can play media files from any Servers to any Playback Devices with mconnect Player.\n\n[Media Servers]\n- Your iPhone and iPad.\n- UPnP compatible servers: PC and NAS.\n- Internet Music integrated into App: TIDAL, Qobuz and Bugs.\n- Cloud Server integrated into App: OneDrive and Dropbox.\n\n[Playback Devices]\n- Your iPhone and iPad.\n- UPnP compatible renderers: Smart TV, UPnP supported Audio, UPnP receivers.\n- Google Cast: Chromecast, Google Cast compatible Audio.\n- AirPlay compatible devices: Apple TV, Airport Express, AirPlay Audio.\n\nNote: If you send a media file to a remote playback device, the playable media format depends on the media decoder in the remote playback device.\n\niPhone, iPad, AirPlay, Apple TV, and AirPort Express are registered trademarks of Apple Inc.\nGoogle Cast and Chromecast are registered trademarks of Google Inc.\nDLNA is a trademark of Digital Living Network Alliance.\nUPnP is a certification mark of the UPnP Forum in the United States and other countries.\nTIDAL is a trademark of ASPIRO AB.\nQobuz is a trademark of XANDRIE SA.\nBugs is a trademark of NHN Bugs Corp."
+    },
+    "im:price": {
+      "label": "6,99 €",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2012-23 ConversDigital Co., Ltd."
+    },
+    "title": {
+      "label": "mconnect Player - ConversDigital Co., Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/mconnect-player/id503760460?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/84/75/13/847513e8-3b5f-2a72-9004-1744d24dff1d/mzl.cjluwqax.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/mconnect-player/id503760460?uo=2",
+      "attributes": {
+        "im:id": "503760460",
+        "im:bundleId": "com.conversdigital.mconnectplayer"
+      }
+    },
+    "im:artist": {
+      "label": "ConversDigital Co., Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/conversdigital-co-ltd/id503760463?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-02-22T14:06:36-07:00",
+      "attributes": {
+        "label": "February 22, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 56,
       "total": 100
     },
     "im:name": {
@@ -5818,7 +5716,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 58,
+      "index": 57,
       "total": 100
     },
     "im:name": {
@@ -5920,7 +5818,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 59,
+      "index": 58,
       "total": 100
     },
     "im:name": {
@@ -6022,39 +5920,39 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 60,
+      "index": 59,
       "total": 100
     },
     "im:name": {
-      "label": "Rhythm Sight Reading Trainer"
+      "label": "MusiKraken"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/41/d8/44/41d8446c-27cf-d473-794d-a808f3edee7e/AppIcon-1x_U007emarketing-0-4-85-220-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/01/ea/6001ea84-b143-c3d1-7d59-e7f975b08bf4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/41/d8/44/41d8446c-27cf-d473-794d-a808f3edee7e/AppIcon-1x_U007emarketing-0-4-85-220-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/01/ea/6001ea84-b143-c3d1-7d59-e7f975b08bf4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/41/d8/44/41d8446c-27cf-d473-794d-a808f3edee7e/AppIcon-1x_U007emarketing-0-4-85-220-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/01/ea/6001ea84-b143-c3d1-7d59-e7f975b08bf4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Accelerate your sight reading skills with instant feedback on timing accuracy. Our carefully graduated levels, from beginner to professional, allow you to start at your optimal skill level and progress at your own pace. You'll improve more rapidly than practicing solely on your instrument. Practice anytime and anywhere. Many advanced features.\n\nKEY FEATURES\n\nDIVERSE EXERCISES\n\n- Explore common and rare rhythms from 2 to 12 beats per bar (2/2, 3/2, 4/2, 2/4, 3/4, 4/4, 5/4, 6/4, 7/4, 3/8, 5/8, 6/8, 7/8, 9/8, 12/8).\n\n- More than 200 fixed exercises (100 (longer ones) on iPad).\n\n- Thousands of random exercises.\n\n- Suitable for absolute beginners as well as professionals.\n\n- Challenge yourself with exercises involving rests, ties, syncopations, duplets, triplets, quadruplets and quintuplets.\n\n- Add swing to quarter note meter exercises with varying degrees of swing intensity.\n\n- Automatic count-off with one or two bars.\n\n- Longer (random) exercises in landscape orientation.\n\n\nPRACTICE & TEST MODE\n\n- Practice mode: listen or tap along while the rhythm is played.\n\n- Test mode: hear the metronome and read/tap the rhythm.\n\n- Visual feedback instantly displays accuracy with each tap (color and position).\n\n- Easily adjust metronome tempo by sliding or keypad.\n\n- Two tap buttons for higher tempos or tapping with alternating fingers.\n\n\nRHYTHM EDITOR\n\n- Edit any exercise to suit your preferences.\n\n- Intuitive editor with minimal taps.\n\n- Includes an editor for ties.\n\n- Unlimited undo.\n\n- Add your exercises to favorites.\n\n- Share exercises with others.\n\n\nEXTRA CHALLENGES\n\n- Expert mode: higher default tempo and more accuracy required.\n\n- Endurance test (continuous reading).\n\n- Speeding-up tests.\n\n- Left- and right-hand independence: tap the beat and rhythm with two buttons.\n\n- Note duration test.\n\n- Count 6/8 in two (dotted quarter as the beat).\n\n- Ear training function for rhythmic dictation.\n\n- Maintain rhythm focus while notes from a chord progression are played.\n\n\nREPORTING\n\n- View a frequency chart of your tap results.\n\n- Access progress reports for fixed and random exercises.\n\n- Share your results, such as a 100% score graphic or progress reports, via email.\n\n\nSOUNDS\n\n- Choose from various percussive instruments for app player, metronome, and taps.\n\n- Play chord progressions with guitar, e-piano, marimba, or bass.\n\n- Optional stereo sound with taps in the right ear and metronome/player in the left ear.\n\n- Optional beat-counting voice function.\n\n\nMICROPHONE\n\n- Utilize the microphone for an alternative to tap buttons.\n\n- Play rhythms with hand claps, finger-snaps, or an instrument.\n\n- Adjust sensitivity settings.\n\n- Supports external microphones.\n\n\nMIDI\n\n- Receive taps from a Midi device connected via Apple USB camera adapter or USB-C (e.g., keyboard, guitar, drum kit).\n \n- Automatic device detection.\n\n- Touch-sensitivity support.\n\n- Export any exercise as a MIDI file.\n\n\nOTHER FEATURES\n\n- Experience very low latency with instant response.\n\n- Support for left-handed tapping.\n\n- Choose between classical and flat interface themes.\n\n- Support for dark mode (iOS13+).\n\n- Universal app (iPhone, iPad and iPod Touch).\n\n- Supports all screen sizes.\n\n- Tested on iOS and iPadOS 17."
+      "label": "MusiKraken is an Experimental MIDI Controller Construction Kit.\n\nWinner of the 2022 MIDI Innovation Awards in the category \"Software Prototypes / Non-Commercial Products\".\n\nMake music using device sensors like Touch, Accelerometer, Microphone and Camera (face, hand, body joint and color tracking and depth sensor support), or connected devices like Game Controllers or an Apple Watch.\n\nChoose from several types of modules in the editor and connect the ports to create your own MIDI controller setup. Use  Route the MIDI signals through effect modules to control multiple instruments simultaneously or generate creative combinations.\n\nMusiKraken supports sending and receiving MIDI data over Wi-Fi, Bluetooth or via Core MIDI (for example by using Inter-Device Audio and MIDI (IDAM)). And it can host Audio Unit Instruments.\n\nImportant: Please note that some of the modules only work on iOS devices with specific hardware: ARKit Face Tracking and the TrueDepth module need a TrueDepth front camera, and Hand and Body Joint Tracking needs at least iOS 14, and might be too slow on older devices.\n\nInput Modules:\n-Keyboard: MPE support, scale highlighting, control multiple values by sliding and touch pressure or finger radius.\n-Chords Pad: Play chords and its inversions of a selected scale.\n-Touchpad: Slide multiple fingers on a touchpad to control up to 5 values simultaneously.\n-ARKit Face Tracking: Uses the TrueDepth camera to generate notes or control parameters using your mouth, eyes, tongue or by moving your head.\n-Mouth Tracking: Uses the normal camera to control parameters using your mouth.\n-TrueDepth: Use the depth signal of your camera to generate MIDI data by moving your hand (or anything else) in front of the device.\n-Hand Tracking: Uses the camera to convert your hand position and simple hand gestures to MIDI. You can use one or two hands and it can also use the TrueDepth sensor if available.\n-Body Tracking: Uses the camera to track hand, feet and head positions of up to two persons.\n-Color Tracking: Track objects by color.\n-Motion Sensors: Uses the combination of Accelerometer, Gyroscope and Magnetometer to detect the current rotation of the device.\n-Accelerometer: Measures the acceleration of the device.\n-Apple Watch: Use the motion sensors, heart rate, touch and digital crown.\n-Game Controller: Use buttons, thumbsticks and everything else.\n-Microphone: Detects pitch and volume using the microphone.\n-External Input Device: Receives MIDI events of connected input devices.\n\nOutput Modules:\n-External Output Device: Send MIDI events to any device accessible via Core MIDI.\n-AudioUnit: Load any Music Device or MIDI Processor Audio Unit and generate sounds directly in the app.\n-Core MIDI Network: Send MIDI via WiFi.\n-Snarp Network MIDI: My own implementation to send MIDI via WiFi.\n-SimpleSynth: Generate simple synthesizer sounds directly on the device.\n\nEffects:\n-Chord Splitter: Splits incoming chords into separate notes and sends these to separate channels.\n-Channel Switcher: Change the MIDI channel of events.\n-Value to MIDI Converter: Converter to convert numerical values (green ports) to MIDI events (orange ports).\n-Transposer: Transpose MIDI notes.\n-Arpeggiator: Cycles through the notes of incoming chords in a specific pattern.\n-Speed: Computes a new value based on the change speed of another value.\n-Beat: Play a beat if a value is changed quickly.\n-Threshold: Plays notes if a value goes over a specific threshold.\n-LFO: Generates an LFO from incoming values.\n-Envelope: Generates an ADSR output value based on note input.\n-Latch: Keeps notes alive until the same note is played again.\n-Filter: Filter events by channel, note, velocity or CC.\n\nHealthKit is used in the app to access Apple Watch data like heart beat or motion sensors. The app only uses sensor data to generate MIDI events."
     },
     "im:price": {
-      "label": "3,99 €",
+      "label": "9,99 €",
       "attributes": {
-        "amount": "3.99",
+        "amount": "9.99",
         "currency": "EUR"
       }
     },
@@ -6065,17 +5963,17 @@
       }
     },
     "rights": {
-      "label": "© none"
+      "label": "© 2020-2024 Snarp"
     },
     "title": {
-      "label": "Rhythm Sight Reading Trainer - Rolfs Apps"
+      "label": "MusiKraken - Snarp"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/si/app/rhythm-sight-reading-trainer/id396302174?uo=2"
+          "href": "https://apps.apple.com/si/app/musikraken/id1538781007?uo=2"
         }
       },
       {
@@ -6086,22 +5984,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/7d/88/1f/7d881fbd-cb62-e944-5be6-a1489c7d1292/ffd1e1d9-6e14-4fef-af8a-fbf49c92c751_iPad1294_01.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/2a/d7/e6/2ad7e67c-4e40-b002-7d28-58ff72901986/8fd79fcf-cb65-4d09-9e23-9fceac430e1b_MusiKraken_screenshot1_ipad_en.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/si/app/rhythm-sight-reading-trainer/id396302174?uo=2",
+      "label": "https://apps.apple.com/si/app/musikraken/id1538781007?uo=2",
       "attributes": {
-        "im:id": "396302174",
-        "im:bundleId": "ReadRhythm"
+        "im:id": "1538781007",
+        "im:bundleId": "ch.snarp.musikraken"
       }
     },
     "im:artist": {
-      "label": "Rolfs Apps",
+      "label": "Snarp",
       "attributes": {
-        "href": "https://apps.apple.com/si/developer/rolfs-apps/id376191908?uo=2"
+        "href": "https://apps.apple.com/si/developer/snarp/id376179401?uo=2"
       }
     },
     "category": {
@@ -6113,9 +6011,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2010-10-11T18:42:51-07:00",
+      "label": "2020-11-24T00:00:00-07:00",
       "attributes": {
-        "label": "October 11, 2010"
+        "label": "November 24, 2020"
       }
     }
   },
@@ -6124,7 +6022,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 61,
+      "index": 60,
       "total": 100
     },
     "im:name": {
@@ -6226,7 +6124,7 @@
       "country_code": "si",
       "pricing": "paid",
       "genre": "music",
-      "index": 62,
+      "index": 61,
       "total": 100
     },
     "im:name": {
@@ -6320,6 +6218,108 @@
       "label": "2012-07-23T19:25:01-07:00",
       "attributes": {
         "label": "July 23, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "si",
+      "pricing": "paid",
+      "genre": "music",
+      "index": 62,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Rhythm Sight Reading Trainer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/41/d8/44/41d8446c-27cf-d473-794d-a808f3edee7e/AppIcon-1x_U007emarketing-0-4-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/41/d8/44/41d8446c-27cf-d473-794d-a808f3edee7e/AppIcon-1x_U007emarketing-0-4-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/41/d8/44/41d8446c-27cf-d473-794d-a808f3edee7e/AppIcon-1x_U007emarketing-0-4-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Accelerate your sight reading skills with instant feedback on timing accuracy. Our carefully graduated levels, from beginner to professional, allow you to start at your optimal skill level and progress at your own pace. You'll improve more rapidly than practicing solely on your instrument. Practice anytime and anywhere. Many advanced features.\n\nKEY FEATURES\n\nDIVERSE EXERCISES\n\n- Explore common and rare rhythms from 2 to 12 beats per bar (2/2, 3/2, 4/2, 2/4, 3/4, 4/4, 5/4, 6/4, 7/4, 3/8, 5/8, 6/8, 7/8, 9/8, 12/8).\n\n- More than 200 fixed exercises (100 (longer ones) on iPad).\n\n- Thousands of random exercises.\n\n- Suitable for absolute beginners as well as professionals.\n\n- Challenge yourself with exercises involving rests, ties, syncopations, duplets, triplets, quadruplets and quintuplets.\n\n- Add swing to quarter note meter exercises with varying degrees of swing intensity.\n\n- Automatic count-off with one or two bars.\n\n- Longer (random) exercises in landscape orientation.\n\n\nPRACTICE & TEST MODE\n\n- Practice mode: listen or tap along while the rhythm is played.\n\n- Test mode: hear the metronome and read/tap the rhythm.\n\n- Visual feedback instantly displays accuracy with each tap (color and position).\n\n- Easily adjust metronome tempo by sliding or keypad.\n\n- Two tap buttons for higher tempos or tapping with alternating fingers.\n\n\nRHYTHM EDITOR\n\n- Edit any exercise to suit your preferences.\n\n- Intuitive editor with minimal taps.\n\n- Includes an editor for ties.\n\n- Unlimited undo.\n\n- Add your exercises to favorites.\n\n- Share exercises with others.\n\n\nEXTRA CHALLENGES\n\n- Expert mode: higher default tempo and more accuracy required.\n\n- Endurance test (continuous reading).\n\n- Speeding-up tests.\n\n- Left- and right-hand independence: tap the beat and rhythm with two buttons.\n\n- Note duration test.\n\n- Count 6/8 in two (dotted quarter as the beat).\n\n- Ear training function for rhythmic dictation.\n\n- Maintain rhythm focus while notes from a chord progression are played.\n\n\nREPORTING\n\n- View a frequency chart of your tap results.\n\n- Access progress reports for fixed and random exercises.\n\n- Share your results, such as a 100% score graphic or progress reports, via email.\n\n\nSOUNDS\n\n- Choose from various percussive instruments for app player, metronome, and taps.\n\n- Play chord progressions with guitar, e-piano, marimba, or bass.\n\n- Optional stereo sound with taps in the right ear and metronome/player in the left ear.\n\n- Optional beat-counting voice function.\n\n\nMICROPHONE\n\n- Utilize the microphone for an alternative to tap buttons.\n\n- Play rhythms with hand claps, finger-snaps, or an instrument.\n\n- Adjust sensitivity settings.\n\n- Supports external microphones.\n\n\nMIDI\n\n- Receive taps from a Midi device connected via Apple USB camera adapter or USB-C (e.g., keyboard, guitar, drum kit).\n \n- Automatic device detection.\n\n- Touch-sensitivity support.\n\n- Export any exercise as a MIDI file.\n\n\nOTHER FEATURES\n\n- Experience very low latency with instant response.\n\n- Support for left-handed tapping.\n\n- Choose between classical and flat interface themes.\n\n- Support for dark mode (iOS13+).\n\n- Universal app (iPhone, iPad and iPod Touch).\n\n- Supports all screen sizes.\n\n- Tested on iOS and iPadOS 17."
+    },
+    "im:price": {
+      "label": "3,99 €",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© none"
+    },
+    "title": {
+      "label": "Rhythm Sight Reading Trainer - Rolfs Apps"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/si/app/rhythm-sight-reading-trainer/id396302174?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/7d/88/1f/7d881fbd-cb62-e944-5be6-a1489c7d1292/ffd1e1d9-6e14-4fef-af8a-fbf49c92c751_iPad1294_01.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/si/app/rhythm-sight-reading-trainer/id396302174?uo=2",
+      "attributes": {
+        "im:id": "396302174",
+        "im:bundleId": "ReadRhythm"
+      }
+    },
+    "im:artist": {
+      "label": "Rolfs Apps",
+      "attributes": {
+        "href": "https://apps.apple.com/si/developer/rolfs-apps/id376191908?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6011",
+        "term": "Music",
+        "scheme": "https://apps.apple.com/si/genre/ios-music/id6011?uo=2",
+        "label": "Music"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2010-10-11T18:42:51-07:00",
+      "attributes": {
+        "label": "October 11, 2010"
       }
     }
   },

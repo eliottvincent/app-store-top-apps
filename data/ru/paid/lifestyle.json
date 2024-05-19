@@ -212,35 +212,35 @@
       "total": 100
     },
     "im:name": {
-      "label": "Astrological Charts Pro"
+      "label": "VAG Virtual Cockpit ELM327 OBD"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/8a/2b/8b8a2be1-c1cd-25a0-b706-740492afe797/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/8a/2b/8b8a2be1-c1cd-25a0-b706-740492afe797/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/8a/2b/8b8a2be1-c1cd-25a0-b706-740492afe797/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Astrological Charts Pro is a professional astrological program for iOS, which reports 12 types of astrological charts, contains, besides planets, 13 asteroids and 23 fictitious points, including trans-Neptunian, and several lots. \n\nApp contains essential and accidental scores table with the ability to customize the order of values calculation. There is a choice of 11 house systems, 20 types of aspect with customizable orbs and database of about 100000 places with specified time zones, so the difference with GMT is determined automatically, besides, you can add new place. \n\nThe program calculates exact dates of triggering aspects, periods of aspects by orb, moments of sign changes, lunar phases, lunar days, eclipses, void of course Moon, midpoints and planetary hours. There are Tropical and Sidereal zodiac in program. You can find fixed stars here.\n\nThere are interpretations of natal planets in zodiac signs, houses and retrograde state, transit planets in natal houses, natal aspects, transit-natal aspects, synastry aspects, ascendent and natal houses in signs in app.\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!\nThis program not only contains longitude, but data such as latitude, speed, declination and parallels aspects for 10 planets.\n!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\nChart types:\n1) Transit/Natal\n2) Natal + Transit\n3) Synastry (by selected natal data 1 and 2)\n4) Secondary Progressions (natal chart + 1 day = 1 year delta between selected natal data and specified transit data)\n5) Zodiacal Directions (natal chart + 1° = 1 year delta between selected natal data and specified transit data)\n6) Directions for Arcs of the Sun, the Moon or a planet (natal chart + planet distance traveled in degrees for 1 day = 1 year delta between selected natal data and specified transit data)\n7) Profections (natal chart + 30° = 1 year delta between selected natal data and specified transit data)\n8) Returns of the Sun, Moon, Mercury, Venus, Mars, Jupiter or Saturn (by selected natal data and specified transit data from which return dates are calculated)\n9) Lunar Phase (by selected natal data and specified transit data from which return dates are calculated)\n10) Composite (by selected natal data 1 and 2)\n11) Middle (by selected natal data 1 and 2)\n12) Harmonics (by selected natal data or specified transit data)"
+      "label": "The VAG Virtual Cockpit shows important diagnostic parameters of your car. You only need an ELM327 adapter.\n\nVersion 3.3 shows the next parameters.\n\nVirtual Cockpit\n1) Opened doors\n2) Speed\n3) RPM\n4) Oil temperature\n5) Coolant temperature\n6) Fuel in the tank in litres\n7) Range in kilometers\n8) Average consumption\n9) Time in the machine\n10) Odometer\n11) Outside temperature\n12) Voltage\n\nEngine control unit\n1) RPM\n2) Mass Air Flow Sensor (G70)\n3) Intake Air Temperature (G42)\n4) Exhaust Temperature Projection\n5) Oil Warning Threshold\n6) Oil Level\n7) Boost Specified\n8) Boost Actual\n9) Misfire Counter\n10) Ignition Angle Delay\n11) Oil temperature\n12) Valve N75\n\nTransmission control unit\n1) ATF Temperature (G93) - AISIN\n2) Temperature Transmission Fluid (G93) - DSG6\n3) Temperature Control Module (G510) - DSG6\n4) Temperature Clutch Oil (G509) - DSG6\n5) Temperature Control Device (G510) - DSG7\n6) Temperature Microprocessor - DSG7\n7) Clutch Temperature - DSG7\n\nBattery control unit\n1) Battery voltage\n2) Battery current\n3) Battery temperature\n4) Battery state\n6) Battery aging\n7) Internal battery resistance\n8) Alternator current\n9) Alternator power\n\nAWD unit\n\nHaldex 3/4\n1) Oil temperature\n2) Oil pressure\n3) Torque\n4) Pump current\n5) Supply voltage (Terminal 30)\n\nHaldex 5\n1) Oil temperature\n2) Pump current\n3) Supply voltage (Terminal 30)\n4) Pump voltage\n5) PWM signal of pump\n6) Temperature of the control unit\n7) Temperature of friction discs\n\nLong hold of the TRIP switch changes the view style of the parameters.\n\nSupported next ELM327 adapters:\n- Viecar BLE 4.0\n- Konnwei BLE 4.0\n- Vgate vLinker MC+\n- OBDLink MX+\n\nThe application has been tested with Skoda Octavia A5 2011 release. \nPartially or fully supported by other auto brands of the VAG group:\nVolkswagen\nSkoda\nSeat\nAudi\nPorsche\n\nIf the parameters are not displayed correctly or not completely, please contact with me by Email: vagvirtualcockpit@ya.ru."
     },
     "im:price": {
-      "label": "2,990.00 RUB",
+      "label": "199.00 RUB",
       "attributes": {
-        "amount": "2990.00",
+        "amount": "199.00",
         "currency": "RUB"
       }
     },
@@ -251,17 +251,17 @@
       }
     },
     "rights": {
-      "label": "© 2015-2024 Roman Shimchenko"
+      "label": "© 2022 Yurkin Vitaliy"
     },
     "title": {
-      "label": "Astrological Charts Pro - Roman Shimchenko"
+      "label": "VAG Virtual Cockpit ELM327 OBD - Vitaliy Yorkin"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/astrological-charts-pro/id925026545?l=en&uo=2"
+          "href": "https://apps.apple.com/ru/app/vag-virtual-cockpit-elm327-obd/id1468103297?l=en&uo=2"
         }
       },
       {
@@ -272,22 +272,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource113/v4/a5/a4/7d/a5a47dfe-d3e3-e38b-f2a8-faccb63c2cde/bcbc0aa5-c036-4b7f-ae48-909770926445_Simulator_Screen_Shot_-_iPad_Pro_10.5_new_-_2023-01-02_at_23.26.02.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/65/8d/a3/658da341-ad7b-a429-ee52-63b9609b47cb/pr_source.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ru/app/astrological-charts-pro/id925026545?l=en&uo=2",
+      "label": "https://apps.apple.com/ru/app/vag-virtual-cockpit-elm327-obd/id1468103297?l=en&uo=2",
       "attributes": {
-        "im:id": "925026545",
-        "im:bundleId": "com.rsastrodev.AstrologicalChartsPro"
+        "im:id": "1468103297",
+        "im:bundleId": "VS.VagVirtualCockpit"
       }
     },
     "im:artist": {
-      "label": "Roman Shimchenko",
+      "label": "Vitaliy Yorkin",
       "attributes": {
-        "href": "https://apps.apple.com/ru/developer/roman-shimchenko/id916564826?l=en&uo=2"
+        "href": "https://apps.apple.com/ru/developer/vitaliy-yorkin/id866761663?l=en&uo=2"
       }
     },
     "category": {
@@ -299,9 +299,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2014-10-14T09:01:45-07:00",
+      "label": "2019-06-22T12:43:34-07:00",
       "attributes": {
-        "label": "October 14, 2014"
+        "label": "June 22, 2019"
       }
     }
   },
@@ -416,618 +416,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Физиогномика"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/29/ff/e3/29ffe33e-5032-0a8b-8165-1713cb0875be/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/29/ff/e3/29ffe33e-5032-0a8b-8165-1713cb0875be/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/29/ff/e3/29ffe33e-5032-0a8b-8165-1713cb0875be/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Приложение Физиогномика использует нейронные сети для анализа формы и черт лица человека по фото и составляет психологический портрет личности с описанием основных характеристик."
-    },
-    "im:price": {
-      "label": "99.00 RUB",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Well Built App, LLC"
-    },
-    "title": {
-      "label": "Физиогномика - Well Built App, LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/%D1%84%D0%B8%D0%B7%D0%B8%D0%BE%D0%B3%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/id1503475237?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/7c/51/15/7c5115cc-c828-bf5c-8b70-81d5e7eea4fb/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/%D1%84%D0%B8%D0%B7%D0%B8%D0%BE%D0%B3%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/id1503475237?l=en&uo=2",
-      "attributes": {
-        "im:id": "1503475237",
-        "im:bundleId": "com.igorlavrynenko.physiognomy"
-      }
-    },
-    "im:artist": {
-      "label": "Well Built App, LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/well-built-app-llc/id1547607571?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-04-11T00:00:00-07:00",
-      "attributes": {
-        "label": "April 11, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 6,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Fliqlo"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/7c/d6/d97cd6ff-0e6e-c603-3184-d3857a88698c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/7c/d6/d97cd6ff-0e6e-c603-3184-d3857a88698c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/7c/d6/d97cd6ff-0e6e-c603-3184-d3857a88698c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This is a clock app that re-creates the behavior of a vintage flip clock with a modern and minimal design. On Mac, Fliqlo has long been popular as a screensaver module with the same design since its first release in 2002, and this iOS/iPadOS app is also made with exactly the same design. With its large, highly visible font, you can check the time even from a distance. Also, in everyday life and at work, its modest matt black presence does not distract you or disrupt your productivity, even when using the app for extended periods of time. Its full-screen appearance integrates with the iPhone/iPad device body and blends into your living space ambience, as if it were a minimalist home decor item.\n\nFEATURES:\n- Switch between 12/24 hour clock\n- Switch between portrait and landscape mode\n- Option to show seconds when tapping screen\n- Brightness/dimness control inside the app\n- Show/hide background tiles\n- Enlarge/reduce to any size\n\nNOTES:\n- Your device’s Auto-Lock is disabled while this clock is active in the foreground.\n- This app does not start automatically like the Mac screensaver.\n- You cannot replace your device’s Lock Screen with this clock."
-    },
-    "im:price": {
-      "label": "99.00 RUB",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 9031"
-    },
-    "title": {
-      "label": "Fliqlo - Yuji Adachi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/fliqlo/id900833042?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/55/e6/8c/55e68c0a-cf6c-45fc-da29-3595353d3678/b9746c82-1a2a-4ab9-a673-66f3cf07fbd5_12.9inch__U0028iPad_Pro_2nd_U0029-1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/fliqlo/id900833042?l=en&uo=2",
-      "attributes": {
-        "im:id": "900833042",
-        "im:bundleId": "com.9031.fliqlo"
-      }
-    },
-    "im:artist": {
-      "label": "Yuji Adachi",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/yuji-adachi/id549135474?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-07-27T08:52:19-07:00",
-      "attributes": {
-        "label": "July 27, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 7,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Numero Lab"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/56/5f/a9/565fa95a-e3dd-7297-c0c6-5ab57e039c2c/AppIcon-1x_U007emarketing-0-5-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/56/5f/a9/565fa95a-e3dd-7297-c0c6-5ab57e039c2c/AppIcon-1x_U007emarketing-0-5-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/56/5f/a9/565fa95a-e3dd-7297-c0c6-5ab57e039c2c/AppIcon-1x_U007emarketing-0-5-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "This calculator implements the calculations explained in my numerology courses. The first of them, the introductory one, is available at https://bit.ly/numero-intro.\n\nTo determine the numerological parameters for the person you are interested in, create an entry for him or her (by clicking on the button in the lower right corner of the screen). Enter the person's first name, middle name, and last name (or at least the first name), as well as the date of birth. After the new entry appears on the main screen, touch it and you will see all the main numerological parameters for this person. The numerological core is discussed in detail in the introductory course, many other parameters will be explained in the coming more advanced courses.\n\nAt the bottom of the screen, under the numerological parameters, you will find buttons that you can click to see the \"Virtual Mannequin\" and the \"Simplified Analysis\", both discussed in the introductory course.\n\nIf you press the button on the main screen in the upper right corner, you will see the express analysis screen. Here you can enter any word or name, or numerical information: date, phone number, and so on. The app will automatically determine the type of analysed information and display its numerological parameters."
-    },
-    "im:price": {
-      "label": "249.00 RUB",
-      "attributes": {
-        "amount": "249.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Alexander Kolesnikov"
-    },
-    "title": {
-      "label": "Numero Lab - Alexander Kolesnikov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/numero-lab/id1623045800?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/58/f6/c3/58f6c3ea-4138-6205-f6c8-c1016eff44da/a7dbdfb8-408d-425c-98c1-794cd481fafa_01.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/numero-lab/id1623045800?l=en&uo=2",
-      "attributes": {
-        "im:id": "1623045800",
-        "im:bundleId": "com.siriuslab.numerolab"
-      }
-    },
-    "im:artist": {
-      "label": "Alexander Kolesnikov",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/alexander-kolesnikov/id1444540730?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-05-08T00:00:00-07:00",
-      "attributes": {
-        "label": "May 8, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 8,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Calendar Widget - Date Widgets"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/29/cc/9729cc5e-58f7-cb89-b149-3ba963fd166e/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/29/cc/9729cc5e-58f7-cb89-b149-3ba963fd166e/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/29/cc/9729cc5e-58f7-cb89-b149-3ba963fd166e/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Calendar Widget is the app you need for customising your home screen with beautiful calendar. Choose from stunning preset widget designs, or you can make your own. \n\nChoose a picture you want and decorate your home screen prettily with Calendar Widget. \n\nGet Aesthetic Look to your Home Screen. It's a free app. \n• Standby Widget.\n• LockScreen Widget, iOS 17\n• Transparent widget.\n• Create Beautiful Calendar Widget \n• Multiple calendar options \n• Multiple widget with large variety of presets \n• Set Unlimited widgets \n• Supports all size of widgets \n• Apple Watch App\n• No ads \n\nGet your widget up and running in no time. Just Select and its done. \nNow Install the Calendar Widget App and enjoy !!!"
-    },
-    "im:price": {
-      "label": "99.00 RUB",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Amit verma"
-    },
-    "title": {
-      "label": "Calendar Widget - Date Widgets - Amit Verma"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/calendar-widget-date-widgets/id1550340128?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b2/35/42/b2354237-8d07-f4cb-6448-b1c2c4a95d28/56cea270-fd47-4057-832a-86a2529c3e8d_1.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/calendar-widget-date-widgets/id1550340128?l=en&uo=2",
-      "attributes": {
-        "im:id": "1550340128",
-        "im:bundleId": "Amit.Verma.apps.photo.widget.new.Calendar-Widget"
-      }
-    },
-    "im:artist": {
-      "label": "Amit Verma",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/amit-verma/id1219761009?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-04-08T00:00:00-07:00",
-      "attributes": {
-        "label": "April 8, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 9,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Lunar calendar Dara"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2e/9c/ec/2e9cec6f-fa13-8ec8-ddd2-e0de79d128da/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2e/9c/ec/2e9cec6f-fa13-8ec8-ddd2-e0de79d128da/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2e/9c/ec/2e9cec6f-fa13-8ec8-ddd2-e0de79d128da/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Universal lunar calendar with recommendations for every day.\nFor any location the program calculates the phases of the moon, the exact time of the lunar days and the position of the moon in the signs of the zodiac.\nBased on this data are made the recommendations for every day - beauty tips for women, business advices, gardening, working with dreams, featured meditation, etc.\nThe program has three modes of display of the information - detailed for the current day, deployed for the week and in the form of the standard calendar for a month\nAlso, there is a mode of viewing detailed information for each lunar aspect separately.\nProvides fine-tuning the location based on GPS data.\nThe app is optimized for both iPhone and iPad."
-    },
-    "im:price": {
-      "label": "349.00 RUB",
-      "attributes": {
-        "amount": "349.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2014 Rivendel Inc."
-    },
-    "title": {
-      "label": "Lunar calendar Dara - YURIY ZDOROVEYUSHEV"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/lunar-calendar-dara/id950960572?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/22/56/f1/2256f163-9622-be3b-47e5-95835fd254fa/mzl.mzztvctk.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/lunar-calendar-dara/id950960572?l=en&uo=2",
-      "attributes": {
-        "im:id": "950960572",
-        "im:bundleId": "ru.rivendel.Dara"
-      }
-    },
-    "im:artist": {
-      "label": "YURIY ZDOROVEYUSHEV",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/yuriy-zdoroveyushev/id950960571?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-12-29T15:53:36-07:00",
-      "attributes": {
-        "label": "December 29, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 10,
-      "total": 100
-    },
-    "im:name": {
-      "label": "EzoManager – esoteric planner"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/52/6c/72526c07-c535-7702-4064-785f4fb15f49/AppIcon-0-1x_U007epad-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/52/6c/72526c07-c535-7702-4064-785f4fb15f49/AppIcon-0-1x_U007epad-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/52/6c/72526c07-c535-7702-4064-785f4fb15f49/AppIcon-0-1x_U007epad-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Personal biorhythms. Lunar calendar. Tattva clock. Chinese body clock. Sun zodiac sign. Solstices and equinoxes. Threatened organs.\n\nWidget. Spoken word. Scheduling based on multiple influences with the option to share or add to your calendar. Battery friendly. Works without Wi-Fi and mobile data.\n\nYou can find everything at a glance. This mobile application, watch application and widget is intended for everyone who uses astrology and esotericism in everyday life. It is about connecting old truths and modern technologies.\n\nThe past is past and what will happen, you can change right now. Perhaps the application will bring you not only fun, but also easier decision making.\n\nThe most important is the exact time of sunrise and noon in your locality, which this application takes into account. Tattva clocks are processed according to sunrise and organ clocks according to astronomical noon in your locality.\n\nBe constantly informed about the influence of the Moon, the current tattva in your locality, the active and resting organ according to the Chinese organ clock, your current biorhythms or the influence of the Sun using a mobile application, widgets or directly in your Apple watch.\n\nDo you need to know the influence of tattvas on your everyday life and plan important events according to them? Improve your skills with current biorhythms? Let the Moon help you work in the garden? Stop the complex analysis on your own and let the application tell you the essentials.\n\nThis application was created using the knowledge of Michal Čurgali, who is actively involved in esoteric for more than twenty years. He previously worked as a military supersonic pilot or senior manager in a multinational company. He no longer leads a hurried active life. He gives lectures on esoteric and is engaged in his small business. He recommends this application to anyone who wants to live life to the fullest, to have a successful life and to use the power of nature.\n\nREMINDER: Remember that you don't have to follow astrology, esoteric or any advice in this application at all costs, always trust doctors and specialists first and foremost!  In many cases, you are the only architect of your own happiness. There is no scientific evidence that astrology and esotericism work. Try to be in a positive mood. Don't wait for luck, do something for it.\n\nWARNING: The information provided in the application may not be accurate. We are not liable for any losses or consequences caused by decisions based on the information in applications or widgets. Use of applications and its components is at your own risk. The responsibility for decisions based on the information provided in applications and their other components lies solely with you.\n\nUsed music:\nLost In Sargam by | e s c p | https://escp-music.bandcamp.com\nMusic promoted by https://www.free-stock-music.com\nAttribution 4.0 International (CC BY 4.0)\nhttps://creativecommons.org/licenses/by/4.0/\n\nSpecial thanks to the authors of the background images and photography:\n- Freeimages.com – Fred Fokkelman, Ryan Goldman, Sundeip Arora (Sun Designs)\n- Unsplash.com – Alexander Andrews, David Billings, Eberhard Grossgasteiger, Vincent Guth, Josh Miller, Jake Weirick"
-    },
-    "im:price": {
-      "label": "899.00 RUB",
-      "attributes": {
-        "amount": "899.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Michal Indra and Michal Čurgali"
-    },
-    "title": {
-      "label": "EzoManager – esoteric planner - Michal Indra"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/ezomanager-esoteric-planner/id1531614752?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/4c/31/28/4c312898-8820-a52b-d7e0-c1adc94fe6b6/ba3b81c1-f728-464f-8ecb-ce0308c29876_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2022-06-29_at_11.54.56.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/ezomanager-esoteric-planner/id1531614752?l=en&uo=2",
-      "attributes": {
-        "im:id": "1531614752",
-        "im:bundleId": "com.michalindra.EzoManager"
-      }
-    },
-    "im:artist": {
-      "label": "Michal Indra",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/michal-indra/id1256483572?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-09-18T00:00:00-07:00",
-      "attributes": {
-        "label": "September 18, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 11,
-      "total": 100
-    },
-    "im:name": {
       "label": "Stylebook"
     },
     "im:image": [
@@ -1126,211 +514,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 12,
-      "total": 100
-    },
-    "im:name": {
-      "label": "VAG Virtual Cockpit ELM327 OBD"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ad/6b/e8/ad6be895-5447-f51f-f894-89fe8a31ef81/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The VAG Virtual Cockpit shows important diagnostic parameters of your car. You only need an ELM327 adapter.\n\nVersion 3.3 shows the next parameters.\n\nVirtual Cockpit\n1) Opened doors\n2) Speed\n3) RPM\n4) Oil temperature\n5) Coolant temperature\n6) Fuel in the tank in litres\n7) Range in kilometers\n8) Average consumption\n9) Time in the machine\n10) Odometer\n11) Outside temperature\n12) Voltage\n\nEngine control unit\n1) RPM\n2) Mass Air Flow Sensor (G70)\n3) Intake Air Temperature (G42)\n4) Exhaust Temperature Projection\n5) Oil Warning Threshold\n6) Oil Level\n7) Boost Specified\n8) Boost Actual\n9) Misfire Counter\n10) Ignition Angle Delay\n11) Oil temperature\n12) Valve N75\n\nTransmission control unit\n1) ATF Temperature (G93) - AISIN\n2) Temperature Transmission Fluid (G93) - DSG6\n3) Temperature Control Module (G510) - DSG6\n4) Temperature Clutch Oil (G509) - DSG6\n5) Temperature Control Device (G510) - DSG7\n6) Temperature Microprocessor - DSG7\n7) Clutch Temperature - DSG7\n\nBattery control unit\n1) Battery voltage\n2) Battery current\n3) Battery temperature\n4) Battery state\n6) Battery aging\n7) Internal battery resistance\n8) Alternator current\n9) Alternator power\n\nAWD unit\n\nHaldex 3/4\n1) Oil temperature\n2) Oil pressure\n3) Torque\n4) Pump current\n5) Supply voltage (Terminal 30)\n\nHaldex 5\n1) Oil temperature\n2) Pump current\n3) Supply voltage (Terminal 30)\n4) Pump voltage\n5) PWM signal of pump\n6) Temperature of the control unit\n7) Temperature of friction discs\n\nLong hold of the TRIP switch changes the view style of the parameters.\n\nSupported next ELM327 adapters:\n- Viecar BLE 4.0\n- Konnwei BLE 4.0\n- Vgate vLinker MC+\n- OBDLink MX+\n\nThe application has been tested with Skoda Octavia A5 2011 release. \nPartially or fully supported by other auto brands of the VAG group:\nVolkswagen\nSkoda\nSeat\nAudi\nPorsche\n\nIf the parameters are not displayed correctly or not completely, please contact with me by Email: vagvirtualcockpit@ya.ru."
-    },
-    "im:price": {
-      "label": "199.00 RUB",
-      "attributes": {
-        "amount": "199.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 Yurkin Vitaliy"
-    },
-    "title": {
-      "label": "VAG Virtual Cockpit ELM327 OBD - Vitaliy Yorkin"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/vag-virtual-cockpit-elm327-obd/id1468103297?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/65/8d/a3/658da341-ad7b-a429-ee52-63b9609b47cb/pr_source.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/vag-virtual-cockpit-elm327-obd/id1468103297?l=en&uo=2",
-      "attributes": {
-        "im:id": "1468103297",
-        "im:bundleId": "VS.VagVirtualCockpit"
-      }
-    },
-    "im:artist": {
-      "label": "Vitaliy Yorkin",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/vitaliy-yorkin/id866761663?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2019-06-22T12:43:34-07:00",
-      "attributes": {
-        "label": "June 22, 2019"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 13,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Sprut.home Smart Home"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/26/55/19/26551943-0fbd-c2b7-0e3c-043ca9ca7af2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/26/55/19/26551943-0fbd-c2b7-0e3c-043ca9ca7af2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/26/55/19/26551943-0fbd-c2b7-0e3c-043ca9ca7af2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Sprut.home is an incredibly simple and revolutionary interface for your smart home. The management has never been so pleasant. Even your grandmother will be able to use our application.\n\nAdvantages:\n\n- Events, sensors, cameras and control - now in one visually clear place. Turning on the light, you see in real time how it illuminates your room, and an icon of the light bulb appears in the event bar to quickly understand what happened.\n\n- The simplest possible movement between rooms, which looks like a merry-go-round and works with a vertical swipe. Switching between houses is carried out by means of a horizontal swipe.\n\n- We was analyzed all the smart home management applications available today and the practical experience of our sprut.ai community, and composed all the important information in an intuitive place. This allows you to quickly understand what's going on in your house.\n\n- The control is adapted for use with one hand. All elements are available, and their control is as comfortable as possible.\n\n- If there is a camera in the room, you will see the last snapshot from the camera when rewind the carousel of the rooms, and if you stop at any room, the Live stream will turn on and you will be able to see what is happening without even entering the room.\n\n- Disk interface for setting up devices. Intuitively clear and as convenient as possible.\n\n- Everything has inertia. Our interface, too. It's really convenient."
-    },
-    "im:price": {
-      "label": "999.00 RUB",
-      "attributes": {
-        "amount": "999.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Sprut"
-    },
-    "title": {
-      "label": "Sprut.home Smart Home - Oleg CHELBAEV"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/sprut-home-smart-home/id1464952923?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/a0/93/ef/a093ef96-a016-1078-a339-798a37bc10cc/f2781a14-4dbc-4c30-b6c0-1fd26b9fb9b0_1.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/sprut-home-smart-home/id1464952923?l=en&uo=2",
-      "attributes": {
-        "im:id": "1464952923",
-        "im:bundleId": "sprut.ai.app.home"
-      }
-    },
-    "im:artist": {
-      "label": "Oleg CHELBAEV",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/oleg-chelbaev/id736275039?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-10-28T00:00:00-07:00",
-      "attributes": {
-        "label": "October 28, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 14,
+      "index": 6,
       "total": 100
     },
     "im:name": {
@@ -1432,7 +616,1027 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
+      "index": 7,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Гардеробная"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c2/3d/5a/c23d5aa7-4754-4ed0-4363-09f1399679d9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c2/3d/5a/c23d5aa7-4754-4ed0-4363-09f1399679d9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c2/3d/5a/c23d5aa7-4754-4ed0-4363-09f1399679d9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Хотите чтобы ваши вещи были в одном месте? \nВам больше не придется держать в голове все вещи, сочетать их в уме. Не придется проводить у шкафа много времени в раздумьях: в чем мне пойти сегодня. У вас не возникнет больше фразы: мне нечего надеть! \nПредставляю вам мое новое приложение, которое я сделала для себя, а сейчас решила поделиться с вами. \nЗагружаете фотографии ваших вещей, описываете их удобными кнопками, а дальше - полностью ваша фантазия. Создавайте свои LOOKи! Все мы любим путешествовать. В моем приложении есть функция Собранный чемодан. Добавляйте в чемодан все для отпуска заранее! Основное отличие от аналогичных приложений - размер приложения минимальный даже со всеми фотографиями.\nБез встроенных покупок, без рекламы."
+    },
+    "im:price": {
+      "label": "99.00 RUB",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Наталия Хрулева"
+    },
+    "title": {
+      "label": "Гардеробная - Sunspear Software LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/%D0%B3%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F/id1315745273?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/fe/22/40/fe224006-2002-6c81-a038-d845864a6028/5fa54b88-3772-4019-a4b9-08332243fa4f_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-07-23_at_13.15.20.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/%D0%B3%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F/id1315745273?l=en&uo=2",
+      "attributes": {
+        "im:id": "1315745273",
+        "im:bundleId": "ru.khruleva.garderobnaia"
+      }
+    },
+    "im:artist": {
+      "label": "Sunspear Software LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/sunspear-software-llc/id1478643604?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-11-25T11:20:08-07:00",
+      "attributes": {
+        "label": "November 25, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 8,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Salatuk - صلاتك"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/64/aa/fb/64aafb94-67de-112b-d227-63d88a7a49f5/AppIcon-0-0-1x_U007emarketing-0-0-0-3-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/64/aa/fb/64aafb94-67de-112b-d227-63d88a7a49f5/AppIcon-0-0-1x_U007emarketing-0-0-0-3-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/64/aa/fb/64aafb94-67de-112b-d227-63d88a7a49f5/AppIcon-0-0-1x_U007emarketing-0-0-0-3-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "*************************\nSalatuk is your Muslim Prayers Companion.\n\nBy locating you automatically, this application gives you the appropriate prayer times as well as the direction of the Qibla. \n\nThe Salatuk algorithm supports many calculation methods adopted by most Muslim countries. Depending on your location, the application choose the appropriate calculation method and Fiqhi school. \n\nFor an accurate location, please ensure that your location settings and your Internet connection or your GPS are enabled!\n\nNote about App features :\n-------------------------------\nIf you are familiar with Salatuk in other platforms please note that this version DOESN'T SUPPORT some features like \"Turn Phone to Silent after Athan\". Other features like \"Full Athan\" and \"Custom Athan\" are supported only when the app is ope. This is because of technical limitations. We will try to fix it once iOS system allows it.\n\nNote about Athan :\n-----------------\nSalatuk remind you that it's time for prayer with a \"4 takbeerats\" instead of full Athan. Because of technical limitations, it's possible to play full Athan only if the app is open. \n\nAlso, if you have problems to hear the notifications, please make sure to enable the following parameters in your device :\n\n1) Settings>Sounds>Alerts \n2) Settings>Notifications>Salatuk \n3) Your phone is not on mute and volume is correct\n\nNote about Prayers times :\n-----------------------------------\nPlease note that we pay attention to ensure that the prayer times of Salatuk are accurate. However, in some countries those times may be not exact. In this case, please refer to the official islamic institutions or mosques in your country and adjust manually the prayer times in the application settings.\n\nSalatuk supports currently 3 languages : Arabic, English and French.\n\nTips for a better usage\n-----------------------------\n\n1- In order to refresh the prayer alarms, make sure to open the application once a week. Please do so also when you change your location or timing (summer time).\n\n2- The prayer alarms corresponds to 2 or 4 Takbeerats. If you want to hear the complete Athan you should open the app at the moment of the Athan.\n\n**********************************************************************************\n\nتطبيق صلاتك رفيقك للحفاظ على صلاتك.\nعن طريق تحديد موقعك  تلقائيا، بإمكان هذا التطبيق أن يعلمك بأوقات الصلاة وكذلك تحديد اتجاه القبلة. تطبيق صلاتك يستعمل عددا مهما من الطرق الحسابية  المعتمدة في أغلب العالم الإسلامي. اعتمادا على موقعك، يختار التطبيق طريقة الحساب والمدرسة الفقهية المناسبة. \n\nحول خصائص التطبيق \n---------------------\nإذا كنت ممن يستعمل صلاتك على أنظمة أخرى، المرجو الانتباه إلى أن هذه النسخة لا تحتوي على بعض الخصائص مثل \"التحويل إلى الصامت\" كما أن بعض الخصائص الأخرى مثل \"الأذان الكامل\" و\"إضافة أذان من الذاكرة\" لا تشتغل إلا إذا كان التطبيق مفتوحا. يرجع ذلك إلى بعض القيود التقنية الموجودة حاليا في نظام أبل وسنحاول دعمها حالما ترفع هذه القيود.\n\n\nحول سماع الأذان \n---------------\nمن ناحية  أخرى إذا كان عندك مشكل في سماع التنبيهات، المرجو التاكد من أن الإعدادات التالية مفعلة في هاتفك : \n1) الإعدادات > الأصوات > تنبيهات التذكير\n2) الإعدادات >التنبيهات > صلاتك   \n3) هاتفك ليس في الوضع الصامت والصوت في مستوى جيد\n\nحول مواقيت الصلاة:\n-----------------\nننوه إلى أنه رغم المجهودات لتدقيق مواقيت الصلاة التي يقوم بها فريق صلاتك، إلا أنه في بعض البلدان قد تكون المواقيت غير مضبوطة بشكل تام، في هذه الحالة نرجو منكم الاعتماد على المواقيت الرسمية في بلدكم أو المسجد القريب منكم، مع العلم أنه يمكنكم تعديل الأوقات يدويا في نافذة الإعدادات.\n\nنصائح من أجل استعمال أفضل \n-------------------------\n\n1- حتى يتم تحديث إشعارات الأذان إحرص على فتح التطبيق مرة كل أسبوع على الأقل أو عندما تغير مكانك أو يتغير التوقيت في بلدك (التوقيت الصيفي)\n\n2- تطبيق صلاتك يشعرك بدخول وقت الصلاة على شكل تكبيرتين أو 4 تكبيرات. إذا أردت أن تستمع إلى الأذان كاملا المرجو أن تفتح التطبيق أثناء الأذان."
+    },
+    "im:price": {
+      "label": "249.00 RUB",
+      "attributes": {
+        "amount": "249.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Masarat App"
+    },
+    "title": {
+      "label": "Salatuk - صلاتك - Masarat App"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/salatuk-%D8%B5%D9%84%D8%A7%D8%AA%D9%83/id686077611?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d1/61/0a/d1610a1a-bb4d-6730-fbb9-078cc99b9b86/pr_source.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/salatuk-%D8%B5%D9%84%D8%A7%D8%AA%D9%83/id686077611?l=en&uo=2",
+      "attributes": {
+        "im:id": "686077611",
+        "im:bundleId": "com.masaratapp.salatuk"
+      }
+    },
+    "im:artist": {
+      "label": "Masarat App",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/masarat-app/id526065575?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2013-09-02T01:31:14-07:00",
+      "attributes": {
+        "label": "September 2, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 9,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Astrological Charts Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/8a/2b/8b8a2be1-c1cd-25a0-b706-740492afe797/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/8a/2b/8b8a2be1-c1cd-25a0-b706-740492afe797/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/8a/2b/8b8a2be1-c1cd-25a0-b706-740492afe797/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Astrological Charts Pro is a professional astrological program for iOS, which reports 12 types of astrological charts, contains, besides planets, 13 asteroids and 23 fictitious points, including trans-Neptunian, and several lots. \n\nApp contains essential and accidental scores table with the ability to customize the order of values calculation. There is a choice of 11 house systems, 20 types of aspect with customizable orbs and database of about 100000 places with specified time zones, so the difference with GMT is determined automatically, besides, you can add new place. \n\nThe program calculates exact dates of triggering aspects, periods of aspects by orb, moments of sign changes, lunar phases, lunar days, eclipses, void of course Moon, midpoints and planetary hours. There are Tropical and Sidereal zodiac in program. You can find fixed stars here.\n\nThere are interpretations of natal planets in zodiac signs, houses and retrograde state, transit planets in natal houses, natal aspects, transit-natal aspects, synastry aspects, ascendent and natal houses in signs in app.\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!\nThis program not only contains longitude, but data such as latitude, speed, declination and parallels aspects for 10 planets.\n!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\nChart types:\n1) Transit/Natal\n2) Natal + Transit\n3) Synastry (by selected natal data 1 and 2)\n4) Secondary Progressions (natal chart + 1 day = 1 year delta between selected natal data and specified transit data)\n5) Zodiacal Directions (natal chart + 1° = 1 year delta between selected natal data and specified transit data)\n6) Directions for Arcs of the Sun, the Moon or a planet (natal chart + planet distance traveled in degrees for 1 day = 1 year delta between selected natal data and specified transit data)\n7) Profections (natal chart + 30° = 1 year delta between selected natal data and specified transit data)\n8) Returns of the Sun, Moon, Mercury, Venus, Mars, Jupiter or Saturn (by selected natal data and specified transit data from which return dates are calculated)\n9) Lunar Phase (by selected natal data and specified transit data from which return dates are calculated)\n10) Composite (by selected natal data 1 and 2)\n11) Middle (by selected natal data 1 and 2)\n12) Harmonics (by selected natal data or specified transit data)"
+    },
+    "im:price": {
+      "label": "2,990.00 RUB",
+      "attributes": {
+        "amount": "2990.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2015-2024 Roman Shimchenko"
+    },
+    "title": {
+      "label": "Astrological Charts Pro - Roman Shimchenko"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/astrological-charts-pro/id925026545?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource113/v4/a5/a4/7d/a5a47dfe-d3e3-e38b-f2a8-faccb63c2cde/bcbc0aa5-c036-4b7f-ae48-909770926445_Simulator_Screen_Shot_-_iPad_Pro_10.5_new_-_2023-01-02_at_23.26.02.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/astrological-charts-pro/id925026545?l=en&uo=2",
+      "attributes": {
+        "im:id": "925026545",
+        "im:bundleId": "com.rsastrodev.AstrologicalChartsPro"
+      }
+    },
+    "im:artist": {
+      "label": "Roman Shimchenko",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/roman-shimchenko/id916564826?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-10-14T09:01:45-07:00",
+      "attributes": {
+        "label": "October 14, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 10,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Физиогномика"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/29/ff/e3/29ffe33e-5032-0a8b-8165-1713cb0875be/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/29/ff/e3/29ffe33e-5032-0a8b-8165-1713cb0875be/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/29/ff/e3/29ffe33e-5032-0a8b-8165-1713cb0875be/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Приложение Физиогномика использует нейронные сети для анализа формы и черт лица человека по фото и составляет психологический портрет личности с описанием основных характеристик."
+    },
+    "im:price": {
+      "label": "99.00 RUB",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Well Built App, LLC"
+    },
+    "title": {
+      "label": "Физиогномика - Well Built App, LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/%D1%84%D0%B8%D0%B7%D0%B8%D0%BE%D0%B3%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/id1503475237?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/7c/51/15/7c5115cc-c828-bf5c-8b70-81d5e7eea4fb/pr_source.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/%D1%84%D0%B8%D0%B7%D0%B8%D0%BE%D0%B3%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/id1503475237?l=en&uo=2",
+      "attributes": {
+        "im:id": "1503475237",
+        "im:bundleId": "com.igorlavrynenko.physiognomy"
+      }
+    },
+    "im:artist": {
+      "label": "Well Built App, LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/well-built-app-llc/id1547607571?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-04-11T00:00:00-07:00",
+      "attributes": {
+        "label": "April 11, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 11,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Fliqlo"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/7c/d6/d97cd6ff-0e6e-c603-3184-d3857a88698c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/7c/d6/d97cd6ff-0e6e-c603-3184-d3857a88698c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/7c/d6/d97cd6ff-0e6e-c603-3184-d3857a88698c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is a clock app that re-creates the behavior of a vintage flip clock with a modern and minimal design. On Mac, Fliqlo has long been popular as a screensaver module with the same design since its first release in 2002, and this iOS/iPadOS app is also made with exactly the same design. With its large, highly visible font, you can check the time even from a distance. Also, in everyday life and at work, its modest matt black presence does not distract you or disrupt your productivity, even when using the app for extended periods of time. Its full-screen appearance integrates with the iPhone/iPad device body and blends into your living space ambience, as if it were a minimalist home decor item.\n\nFEATURES:\n- Switch between 12/24 hour clock\n- Switch between portrait and landscape mode\n- Option to show seconds when tapping screen\n- Brightness/dimness control inside the app\n- Show/hide background tiles\n- Enlarge/reduce to any size\n\nNOTES:\n- Your device’s Auto-Lock is disabled while this clock is active in the foreground.\n- This app does not start automatically like the Mac screensaver.\n- You cannot replace your device’s Lock Screen with this clock."
+    },
+    "im:price": {
+      "label": "99.00 RUB",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2023 9031"
+    },
+    "title": {
+      "label": "Fliqlo - Yuji Adachi"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/fliqlo/id900833042?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/55/e6/8c/55e68c0a-cf6c-45fc-da29-3595353d3678/b9746c82-1a2a-4ab9-a673-66f3cf07fbd5_12.9inch__U0028iPad_Pro_2nd_U0029-1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/fliqlo/id900833042?l=en&uo=2",
+      "attributes": {
+        "im:id": "900833042",
+        "im:bundleId": "com.9031.fliqlo"
+      }
+    },
+    "im:artist": {
+      "label": "Yuji Adachi",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/yuji-adachi/id549135474?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-07-27T08:52:19-07:00",
+      "attributes": {
+        "label": "July 27, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 12,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Numero Lab"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/56/5f/a9/565fa95a-e3dd-7297-c0c6-5ab57e039c2c/AppIcon-1x_U007emarketing-0-5-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/56/5f/a9/565fa95a-e3dd-7297-c0c6-5ab57e039c2c/AppIcon-1x_U007emarketing-0-5-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/56/5f/a9/565fa95a-e3dd-7297-c0c6-5ab57e039c2c/AppIcon-1x_U007emarketing-0-5-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This calculator implements the calculations explained in my numerology courses. The first of them, the introductory one, is available at https://bit.ly/numero-intro.\n\nTo determine the numerological parameters for the person you are interested in, create an entry for him or her (by clicking on the button in the lower right corner of the screen). Enter the person's first name, middle name, and last name (or at least the first name), as well as the date of birth. After the new entry appears on the main screen, touch it and you will see all the main numerological parameters for this person. The numerological core is discussed in detail in the introductory course, many other parameters will be explained in the coming more advanced courses.\n\nAt the bottom of the screen, under the numerological parameters, you will find buttons that you can click to see the \"Virtual Mannequin\" and the \"Simplified Analysis\", both discussed in the introductory course.\n\nIf you press the button on the main screen in the upper right corner, you will see the express analysis screen. Here you can enter any word or name, or numerical information: date, phone number, and so on. The app will automatically determine the type of analysed information and display its numerological parameters."
+    },
+    "im:price": {
+      "label": "249.00 RUB",
+      "attributes": {
+        "amount": "249.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Alexander Kolesnikov"
+    },
+    "title": {
+      "label": "Numero Lab - Alexander Kolesnikov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/numero-lab/id1623045800?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/58/f6/c3/58f6c3ea-4138-6205-f6c8-c1016eff44da/a7dbdfb8-408d-425c-98c1-794cd481fafa_01.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/numero-lab/id1623045800?l=en&uo=2",
+      "attributes": {
+        "im:id": "1623045800",
+        "im:bundleId": "com.siriuslab.numerolab"
+      }
+    },
+    "im:artist": {
+      "label": "Alexander Kolesnikov",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/alexander-kolesnikov/id1444540730?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-05-08T00:00:00-07:00",
+      "attributes": {
+        "label": "May 8, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 13,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Calendar Widget - Date Widgets"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/29/cc/9729cc5e-58f7-cb89-b149-3ba963fd166e/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/29/cc/9729cc5e-58f7-cb89-b149-3ba963fd166e/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/97/29/cc/9729cc5e-58f7-cb89-b149-3ba963fd166e/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Calendar Widget is the app you need for customising your home screen with beautiful calendar. Choose from stunning preset widget designs, or you can make your own. \n\nChoose a picture you want and decorate your home screen prettily with Calendar Widget. \n\nGet Aesthetic Look to your Home Screen. It's a free app. \n• Standby Widget.\n• LockScreen Widget, iOS 17\n• Transparent widget.\n• Create Beautiful Calendar Widget \n• Multiple calendar options \n• Multiple widget with large variety of presets \n• Set Unlimited widgets \n• Supports all size of widgets \n• Apple Watch App\n• No ads \n\nGet your widget up and running in no time. Just Select and its done. \nNow Install the Calendar Widget App and enjoy !!!"
+    },
+    "im:price": {
+      "label": "99.00 RUB",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Amit verma"
+    },
+    "title": {
+      "label": "Calendar Widget - Date Widgets - Amit Verma"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/calendar-widget-date-widgets/id1550340128?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b2/35/42/b2354237-8d07-f4cb-6448-b1c2c4a95d28/56cea270-fd47-4057-832a-86a2529c3e8d_1.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/calendar-widget-date-widgets/id1550340128?l=en&uo=2",
+      "attributes": {
+        "im:id": "1550340128",
+        "im:bundleId": "Amit.Verma.apps.photo.widget.new.Calendar-Widget"
+      }
+    },
+    "im:artist": {
+      "label": "Amit Verma",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/amit-verma/id1219761009?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-04-08T00:00:00-07:00",
+      "attributes": {
+        "label": "April 8, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 14,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Lunar calendar Dara"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2e/9c/ec/2e9cec6f-fa13-8ec8-ddd2-e0de79d128da/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2e/9c/ec/2e9cec6f-fa13-8ec8-ddd2-e0de79d128da/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2e/9c/ec/2e9cec6f-fa13-8ec8-ddd2-e0de79d128da/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Universal lunar calendar with recommendations for every day.\nFor any location the program calculates the phases of the moon, the exact time of the lunar days and the position of the moon in the signs of the zodiac.\nBased on this data are made the recommendations for every day - beauty tips for women, business advices, gardening, working with dreams, featured meditation, etc.\nThe program has three modes of display of the information - detailed for the current day, deployed for the week and in the form of the standard calendar for a month\nAlso, there is a mode of viewing detailed information for each lunar aspect separately.\nProvides fine-tuning the location based on GPS data.\nThe app is optimized for both iPhone and iPad."
+    },
+    "im:price": {
+      "label": "349.00 RUB",
+      "attributes": {
+        "amount": "349.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2014 Rivendel Inc."
+    },
+    "title": {
+      "label": "Lunar calendar Dara - YURIY ZDOROVEYUSHEV"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/lunar-calendar-dara/id950960572?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/22/56/f1/2256f163-9622-be3b-47e5-95835fd254fa/mzl.mzztvctk.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/lunar-calendar-dara/id950960572?l=en&uo=2",
+      "attributes": {
+        "im:id": "950960572",
+        "im:bundleId": "ru.rivendel.Dara"
+      }
+    },
+    "im:artist": {
+      "label": "YURIY ZDOROVEYUSHEV",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/yuriy-zdoroveyushev/id950960571?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-12-29T15:53:36-07:00",
+      "attributes": {
+        "label": "December 29, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
       "index": 15,
+      "total": 100
+    },
+    "im:name": {
+      "label": "EzoManager – esoteric planner"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/52/6c/72526c07-c535-7702-4064-785f4fb15f49/AppIcon-0-1x_U007epad-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/52/6c/72526c07-c535-7702-4064-785f4fb15f49/AppIcon-0-1x_U007epad-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/52/6c/72526c07-c535-7702-4064-785f4fb15f49/AppIcon-0-1x_U007epad-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Personal biorhythms. Lunar calendar. Tattva clock. Chinese body clock. Sun zodiac sign. Solstices and equinoxes. Threatened organs.\n\nWidget. Spoken word. Scheduling based on multiple influences with the option to share or add to your calendar. Battery friendly. Works without Wi-Fi and mobile data.\n\nYou can find everything at a glance. This mobile application, watch application and widget is intended for everyone who uses astrology and esotericism in everyday life. It is about connecting old truths and modern technologies.\n\nThe past is past and what will happen, you can change right now. Perhaps the application will bring you not only fun, but also easier decision making.\n\nThe most important is the exact time of sunrise and noon in your locality, which this application takes into account. Tattva clocks are processed according to sunrise and organ clocks according to astronomical noon in your locality.\n\nBe constantly informed about the influence of the Moon, the current tattva in your locality, the active and resting organ according to the Chinese organ clock, your current biorhythms or the influence of the Sun using a mobile application, widgets or directly in your Apple watch.\n\nDo you need to know the influence of tattvas on your everyday life and plan important events according to them? Improve your skills with current biorhythms? Let the Moon help you work in the garden? Stop the complex analysis on your own and let the application tell you the essentials.\n\nThis application was created using the knowledge of Michal Čurgali, who is actively involved in esoteric for more than twenty years. He previously worked as a military supersonic pilot or senior manager in a multinational company. He no longer leads a hurried active life. He gives lectures on esoteric and is engaged in his small business. He recommends this application to anyone who wants to live life to the fullest, to have a successful life and to use the power of nature.\n\nREMINDER: Remember that you don't have to follow astrology, esoteric or any advice in this application at all costs, always trust doctors and specialists first and foremost!  In many cases, you are the only architect of your own happiness. There is no scientific evidence that astrology and esotericism work. Try to be in a positive mood. Don't wait for luck, do something for it.\n\nWARNING: The information provided in the application may not be accurate. We are not liable for any losses or consequences caused by decisions based on the information in applications or widgets. Use of applications and its components is at your own risk. The responsibility for decisions based on the information provided in applications and their other components lies solely with you.\n\nUsed music:\nLost In Sargam by | e s c p | https://escp-music.bandcamp.com\nMusic promoted by https://www.free-stock-music.com\nAttribution 4.0 International (CC BY 4.0)\nhttps://creativecommons.org/licenses/by/4.0/\n\nSpecial thanks to the authors of the background images and photography:\n- Freeimages.com – Fred Fokkelman, Ryan Goldman, Sundeip Arora (Sun Designs)\n- Unsplash.com – Alexander Andrews, David Billings, Eberhard Grossgasteiger, Vincent Guth, Josh Miller, Jake Weirick"
+    },
+    "im:price": {
+      "label": "899.00 RUB",
+      "attributes": {
+        "amount": "899.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Michal Indra and Michal Čurgali"
+    },
+    "title": {
+      "label": "EzoManager – esoteric planner - Michal Indra"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/ezomanager-esoteric-planner/id1531614752?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/4c/31/28/4c312898-8820-a52b-d7e0-c1adc94fe6b6/ba3b81c1-f728-464f-8ecb-ce0308c29876_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2022-06-29_at_11.54.56.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/ezomanager-esoteric-planner/id1531614752?l=en&uo=2",
+      "attributes": {
+        "im:id": "1531614752",
+        "im:bundleId": "com.michalindra.EzoManager"
+      }
+    },
+    "im:artist": {
+      "label": "Michal Indra",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/michal-indra/id1256483572?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-09-18T00:00:00-07:00",
+      "attributes": {
+        "label": "September 18, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 16,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Sprut.home Smart Home"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/26/55/19/26551943-0fbd-c2b7-0e3c-043ca9ca7af2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/26/55/19/26551943-0fbd-c2b7-0e3c-043ca9ca7af2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/26/55/19/26551943-0fbd-c2b7-0e3c-043ca9ca7af2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Sprut.home is an incredibly simple and revolutionary interface for your smart home. The management has never been so pleasant. Even your grandmother will be able to use our application.\n\nAdvantages:\n\n- Events, sensors, cameras and control - now in one visually clear place. Turning on the light, you see in real time how it illuminates your room, and an icon of the light bulb appears in the event bar to quickly understand what happened.\n\n- The simplest possible movement between rooms, which looks like a merry-go-round and works with a vertical swipe. Switching between houses is carried out by means of a horizontal swipe.\n\n- We was analyzed all the smart home management applications available today and the practical experience of our sprut.ai community, and composed all the important information in an intuitive place. This allows you to quickly understand what's going on in your house.\n\n- The control is adapted for use with one hand. All elements are available, and their control is as comfortable as possible.\n\n- If there is a camera in the room, you will see the last snapshot from the camera when rewind the carousel of the rooms, and if you stop at any room, the Live stream will turn on and you will be able to see what is happening without even entering the room.\n\n- Disk interface for setting up devices. Intuitively clear and as convenient as possible.\n\n- Everything has inertia. Our interface, too. It's really convenient."
+    },
+    "im:price": {
+      "label": "999.00 RUB",
+      "attributes": {
+        "amount": "999.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Sprut"
+    },
+    "title": {
+      "label": "Sprut.home Smart Home - Oleg CHELBAEV"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/sprut-home-smart-home/id1464952923?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/a0/93/ef/a093ef96-a016-1078-a339-798a37bc10cc/f2781a14-4dbc-4c30-b6c0-1fd26b9fb9b0_1.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/sprut-home-smart-home/id1464952923?l=en&uo=2",
+      "attributes": {
+        "im:id": "1464952923",
+        "im:bundleId": "sprut.ai.app.home"
+      }
+    },
+    "im:artist": {
+      "label": "Oleg CHELBAEV",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/oleg-chelbaev/id736275039?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-10-28T00:00:00-07:00",
+      "attributes": {
+        "label": "October 28, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -1534,7 +1738,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 16,
+      "index": 18,
       "total": 100
     },
     "im:name": {
@@ -1636,7 +1840,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 17,
+      "index": 19,
       "total": 100
     },
     "im:name": {
@@ -1738,7 +1942,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 18,
+      "index": 20,
       "total": 100
     },
     "im:name": {
@@ -1840,7 +2044,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 19,
+      "index": 21,
       "total": 100
     },
     "im:name": {
@@ -1942,7 +2146,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 20,
+      "index": 22,
       "total": 100
     },
     "im:name": {
@@ -2044,109 +2248,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 21,
-      "total": 100
-    },
-    "im:name": {
-      "label": "iPhemeris Astrology Charts"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/89/45/b5894503-cc23-52d4-157c-c77958b7f2fb/AppIcon-0-0-1x_U007epad-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/89/45/b5894503-cc23-52d4-157c-c77958b7f2fb/AppIcon-0-0-1x_U007epad-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/89/45/b5894503-cc23-52d4-157c-c77958b7f2fb/AppIcon-0-0-1x_U007epad-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "The best Astrology software (also on MacOS)! Includes Natal Charts, Transit Charts, Progressions, Relocation, Solar & Lunar Return, Relationship & Composite charts, mid-points and a tabular Ephemeris & Calendars for the years 1700-2099 (extendable to 7700 years 4700 BC - 2995 AD).\n\n- All major astrological charting capabilities.\n- Book style monthly Ephemeris for any month. Customize it for any time & location. Stop carrying all those books and get iPhemeris.\n- Sync and backup charts via iCloud between iPhemeris on all your MacOS & iOS devices!\n- Includes \"Sky Now\", a continuously updating chart of the sky for any location.\n\nASTROLOGICAL CHARTING FEATURES\n• Natal Charts\n• Transit Charts\n• Progressions: Secondary, Solar Arc Longitude, Solar Arc RA, Naibod in Longitude, Naibod RA, Quotidian\n• Solar & Lunar Return\n• Relocation\n• Relationship Charts (Composite / Mid-point)\n• Bi-Wheel Charts\n• Tri-wheels (In-App purchase)\n• Aspects: 0°, 30°, 36°, 40°, 45°, 51.4°, 60°, 72°, 80°, 90°, 108°, 120°, 135°, 150°, 160°, 165°, 180°, Parallel, Contra-parallel.\n• Reports: Synastry Grid, Aspects, Points, Elements, Rulerships, Dignities.\n• Reports: Midpoints (In-App purchase).\n• Rectification tool - time step charts by: minutes, hours, days, months & years.\n• House Systems:  Placidus, Equal, Koch, Regiomantanus, Campanus, Meridian, Morinus, Porphyry, Topocentric, Whole, Vedic, Alcabitius, Aries 0, Solar House, Equal MC, Bhava, Major Planets & North Node as 1st House Cusp.\n• Print & share charts & reports.\n• \"Sky Now\", real-time chart for your location.\n• \"Houses Now\", real-time table of cusps for your location.\n• Customize: planets, points, aspects and orbs shown on charts.\n• Customize wheel style.\n• Create custom color scheme for your Astrology Wheels.\n• Heliocentric and Topocentric charts (In-App purchase).\n\nEPHEMERIS FEATURES\n• 400 Years included (1700 - 2100). Sub-second accuracy based on JPL DE 431.\n• Ephemeris can be extended (In-App Purchase) to 7700 years: 4700 BC - 2995 AD. The Extended adds Heliocentric & Topocentric capabilities.\n• Tropical or Sidereal positions.\n• Set Ephemeris to any time & time zone.\n• Heliocentric, topocentric options.\n• Declination tables with latitude.\n• Graphic Ephemeris - Longitude & Declination (In-App Purchase)\n• All Planets +Chiron, Vesta, Pallas, Juno, Ceres, Cupido, Pholus, Eros (433), Nessus, Psyche, Vulcan.\n• Uranian Hypothetical Bodies (8): Cupido, Hades, Zeus, Kronos, Apollon, Admetos, Vulkanus, Poseidon (Requires IAP)\n• North Node & White Moon (Lilith) / White Moon (Selena). True or Mean.\n• Moon's position at ephemeris time & 12 hours later.\n• Table of Moon Phases.\n• Table of Lunar & Solar Eclipses.\n• Table of Planetary Ingress.\n• Equinox & Solstice date and time.\n• Void of Course Moon tables (In-App purchase).\n• 15 pre-defined Ayanamsa (sidereal mode), or define your own.\n• Aspectarian - Monthly calendar of aspects.\n• Transit Calendar - Monthly calendar of transits to any saved chart.\n• Select the planets, points, aspects & orbs to display on Ephemeris & Calendars.\n• Planetary directions.\n• Sidereal Time.\n• Jump to a any date in Ephemeris and Calendars.\n\nOTHER FEATURES\n• Save your charts in iCloud and sync between iPhemeris on all your iOS & MacOS devices.\n• Menus in English, French, Spanish, Italian, German, Russian, Turkish, Ukrainian, Chinese, Japanese, Korean.\n\nATLAS & TIME ZONES\n• iPhemeris uses TzData, the international TimeZone database used by computers around the world.\n• Lookup Latitude & Longitude via global map with address search."
-    },
-    "im:price": {
-      "label": "2,490.00 RUB",
-      "attributes": {
-        "amount": "2490.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2008-2024 Clifford Ribaudo. iPhemeris ®"
-    },
-    "title": {
-      "label": "iPhemeris Astrology Charts - Clifford Ribaudo"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/iphemeris-astrology-charts/id296160763?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/58/e3/69/58e369c3-57ed-f25c-6ae4-14edeb44f1ba/67e3e968-29ef-4494-bb28-6a1cdf5216fd_simulator_screenshot_BDD24FFC-A828-4EAE-A9A8-F2BFAAD6823E.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/iphemeris-astrology-charts/id296160763?l=en&uo=2",
-      "attributes": {
-        "im:id": "296160763",
-        "im:bundleId": "cribaudo.iphemeris"
-      }
-    },
-    "im:artist": {
-      "label": "Clifford Ribaudo",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/clifford-ribaudo/id296160766?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2008-11-12T18:43:20-07:00",
-      "attributes": {
-        "label": "November 12, 2008"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 22,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2248,7 +2350,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 23,
+      "index": 24,
       "total": 100
     },
     "im:name": {
@@ -2350,7 +2452,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 24,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2452,7 +2554,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 25,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2554,7 +2656,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 26,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -2656,7 +2758,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 27,
+      "index": 28,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +2860,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 28,
+      "index": 29,
       "total": 100
     },
     "im:name": {
@@ -2860,7 +2962,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 29,
+      "index": 30,
       "total": 100
     },
     "im:name": {
@@ -2962,7 +3064,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 30,
+      "index": 31,
       "total": 100
     },
     "im:name": {
@@ -3064,7 +3166,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 31,
+      "index": 32,
       "total": 100
     },
     "im:name": {
@@ -3166,7 +3268,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 32,
+      "index": 33,
       "total": 100
     },
     "im:name": {
@@ -3268,7 +3370,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 33,
+      "index": 34,
       "total": 100
     },
     "im:name": {
@@ -3370,7 +3472,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 34,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3472,7 +3574,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 35,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3574,7 +3676,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 36,
+      "index": 37,
       "total": 100
     },
     "im:name": {
@@ -3676,7 +3778,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 37,
+      "index": 38,
       "total": 100
     },
     "im:name": {
@@ -3770,108 +3872,6 @@
       "label": "2012-03-07T16:05:06-07:00",
       "attributes": {
         "label": "March 7, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 38,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Live Wallpapers & Backgrounds+"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/00/46/72/004672fd-a133-e879-73aa-bffb3758a175/AppIcon2-Paid-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/00/46/72/004672fd-a133-e879-73aa-bffb3758a175/AppIcon2-Paid-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/00/46/72/004672fd-a133-e879-73aa-bffb3758a175/AppIcon2-Paid-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Finally, Live Wallpaper on your iPhone! 100+ beautifully designed moving wallpapers to choose from. Live wallpaper for Lock Screen only works on iPhone 6s, 7, 8, X, 11, 12 or later\n\nFrom christmas trees, aquariums, coral reefs with sharks, fireplaces, candle lights, beautiful beaches and living landscapes to geometric patterns, there is something for everyone.\n\nSwipe between the wallpapers to save the ones you would like to use to your Camera Roll. From there simply take the same steps you normally do to make regular photos your lockscreen and/or wallpaper.\n\nHow to set as a live lock screen wallpaper:\n+ Simply swipe between Live Wallpapers\n+ Touch the photo to play animation fully\n+ If you like a particular live wallpaper, press the save button to save it to your Photo's app Camera Roll\n+ To set as a live wallpaper for your lock screen press the action button and select wallpaper action \n+ For best quality, please zoom out the picture because it is slightly zoomed in by default\n+ If you touch the lock screen it will play your selected live wallpaper"
-    },
-    "im:price": {
-      "label": "99.00 RUB",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 Voros Innovation"
-    },
-    "title": {
-      "label": "Live Wallpapers & Backgrounds+ - Voros Innovation"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/live-wallpapers-backgrounds/id1067651799?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/bf/45/41/bf454120-e094-4e32-0526-097e0a592790/pr_source.jpg/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/live-wallpapers-backgrounds/id1067651799?l=en&uo=2",
-      "attributes": {
-        "im:id": "1067651799",
-        "im:bundleId": "com.vinnov.Live-Wallpapers"
-      }
-    },
-    "im:artist": {
-      "label": "Voros Innovation",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/voros-innovation/id438175470?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-12-18T11:50:40-07:00",
-      "attributes": {
-        "label": "December 18, 2015"
       }
     }
   },
@@ -3986,6 +3986,108 @@
       "total": 100
     },
     "im:name": {
+      "label": "Live Wallpapers & Backgrounds+"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/00/46/72/004672fd-a133-e879-73aa-bffb3758a175/AppIcon2-Paid-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/00/46/72/004672fd-a133-e879-73aa-bffb3758a175/AppIcon2-Paid-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/00/46/72/004672fd-a133-e879-73aa-bffb3758a175/AppIcon2-Paid-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Finally, Live Wallpaper on your iPhone! 100+ beautifully designed moving wallpapers to choose from. Live wallpaper for Lock Screen only works on iPhone 6s, 7, 8, X, 11, 12 or later\n\nFrom christmas trees, aquariums, coral reefs with sharks, fireplaces, candle lights, beautiful beaches and living landscapes to geometric patterns, there is something for everyone.\n\nSwipe between the wallpapers to save the ones you would like to use to your Camera Roll. From there simply take the same steps you normally do to make regular photos your lockscreen and/or wallpaper.\n\nHow to set as a live lock screen wallpaper:\n+ Simply swipe between Live Wallpapers\n+ Touch the photo to play animation fully\n+ If you like a particular live wallpaper, press the save button to save it to your Photo's app Camera Roll\n+ To set as a live wallpaper for your lock screen press the action button and select wallpaper action \n+ For best quality, please zoom out the picture because it is slightly zoomed in by default\n+ If you touch the lock screen it will play your selected live wallpaper"
+    },
+    "im:price": {
+      "label": "99.00 RUB",
+      "attributes": {
+        "amount": "99.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Voros Innovation"
+    },
+    "title": {
+      "label": "Live Wallpapers & Backgrounds+ - Voros Innovation"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/live-wallpapers-backgrounds/id1067651799?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/bf/45/41/bf454120-e094-4e32-0526-097e0a592790/pr_source.jpg/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/live-wallpapers-backgrounds/id1067651799?l=en&uo=2",
+      "attributes": {
+        "im:id": "1067651799",
+        "im:bundleId": "com.vinnov.Live-Wallpapers"
+      }
+    },
+    "im:artist": {
+      "label": "Voros Innovation",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/voros-innovation/id438175470?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-12-18T11:50:40-07:00",
+      "attributes": {
+        "label": "December 18, 2015"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 41,
+      "total": 100
+    },
+    "im:name": {
       "label": "Hairstyle Try On PRO"
     },
     "im:image": [
@@ -4084,7 +4186,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 41,
+      "index": 42,
       "total": 100
     },
     "im:name": {
@@ -4186,7 +4288,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 42,
+      "index": 43,
       "total": 100
     },
     "im:name": {
@@ -4288,7 +4390,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 43,
+      "index": 44,
       "total": 100
     },
     "im:name": {
@@ -4390,7 +4492,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 44,
+      "index": 45,
       "total": 100
     },
     "im:name": {
@@ -4492,7 +4594,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 45,
+      "index": 46,
       "total": 100
     },
     "im:name": {
@@ -4594,7 +4696,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "lifestyle",
-      "index": 46,
+      "index": 47,
       "total": 100
     },
     "im:name": {
@@ -4688,108 +4790,6 @@
       "label": "2010-06-02T15:39:50-07:00",
       "attributes": {
         "label": "June 2, 2010"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 47,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Гардеробная"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c2/3d/5a/c23d5aa7-4754-4ed0-4363-09f1399679d9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c2/3d/5a/c23d5aa7-4754-4ed0-4363-09f1399679d9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c2/3d/5a/c23d5aa7-4754-4ed0-4363-09f1399679d9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Хотите чтобы ваши вещи были в одном месте? \nВам больше не придется держать в голове все вещи, сочетать их в уме. Не придется проводить у шкафа много времени в раздумьях: в чем мне пойти сегодня. У вас не возникнет больше фразы: мне нечего надеть! \nПредставляю вам мое новое приложение, которое я сделала для себя, а сейчас решила поделиться с вами. \nЗагружаете фотографии ваших вещей, описываете их удобными кнопками, а дальше - полностью ваша фантазия. Создавайте свои LOOKи! Все мы любим путешествовать. В моем приложении есть функция Собранный чемодан. Добавляйте в чемодан все для отпуска заранее! Основное отличие от аналогичных приложений - размер приложения минимальный даже со всеми фотографиями.\nБез встроенных покупок, без рекламы."
-    },
-    "im:price": {
-      "label": "99.00 RUB",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Наталия Хрулева"
-    },
-    "title": {
-      "label": "Гардеробная - Sunspear Software LLC"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/%D0%B3%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F/id1315745273?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/fe/22/40/fe224006-2002-6c81-a038-d845864a6028/5fa54b88-3772-4019-a4b9-08332243fa4f_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-07-23_at_13.15.20.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/%D0%B3%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F/id1315745273?l=en&uo=2",
-      "attributes": {
-        "im:id": "1315745273",
-        "im:bundleId": "ru.khruleva.garderobnaia"
-      }
-    },
-    "im:artist": {
-      "label": "Sunspear Software LLC",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/sunspear-software-llc/id1478643604?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-11-25T11:20:08-07:00",
-      "attributes": {
-        "label": "November 25, 2017"
       }
     }
   },
@@ -7454,108 +7454,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Китайский календарь"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/dd/d2/1fddd287-672c-0059-777f-ac67c80606ad/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/dd/d2/1fddd287-672c-0059-777f-ac67c80606ad/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/dd/d2/1fddd287-672c-0059-777f-ac67c80606ad/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Китайский солнечно-лунный календарь для предсказательных практик (бацзы, выбора дат, фэншуй) \nпокажет вам столпы (иероглифы) каждого часа, дня, месяца и года с 1900 по 2040 гг. В календаре \nтакже отмечены смены солнечных сезонов, лунные дни и числа Гуа для всех, родившихся в этот период.\n\nВозможности календаря\nКитайский календарь позволяет не только вести счет дням, но также и отслеживать изменение энергии \nв течение времени. Он цикличен; в основе его лежат 10 небесных стволов и 12 земных ветвей, объединенных \nпопарно (в столпы) в цикле 60-ти цзя-цзы. Стволы и ветви могут быть иньскими или янскими и относиться \nк одной из пяти стихий: воде, дереву, огню, земле, металлу.\n\nКаждыйчас, день, месяц и год обозначаются одним таким столпом, который описывает энергию (ци),\nсодержащуюся в нем. 4 столпа даты отражают ее характер.\n\nИспользуется календарь для построения карты рождения человека (бацзы), выбора времени, фэншуй.\n\nЧисло Гуа, отраженное дополнительно в нашем календаре, представляет собой характеристику конкретного человека; используется в фэншуй."
-    },
-    "im:price": {
-      "label": "1,490.00 RUB",
-      "attributes": {
-        "amount": "1490.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2018, www.mingli.ru"
-    },
-    "title": {
-      "label": "Китайский календарь - Mingli"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C/id534188598?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/1b/03/d1/1b03d188-9a54-55ac-b8f3-0876097fb9d0/pr_source.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C/id534188598?l=en&uo=2",
-      "attributes": {
-        "im:id": "534188598",
-        "im:bundleId": "ru.thedma.chinese-calendar"
-      }
-    },
-    "im:artist": {
-      "label": "Mingli",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/mingli/id526669654?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6012",
-        "term": "Lifestyle",
-        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
-        "label": "Lifestyle"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-06-14T09:24:53-07:00",
-      "attributes": {
-        "label": "June 14, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "lifestyle",
-      "index": 75,
-      "total": 100
-    },
-    "im:name": {
       "label": "Talking Babsy Baby"
     },
     "im:image": [
@@ -7646,6 +7544,108 @@
       "label": "2011-01-25T14:28:09-07:00",
       "attributes": {
         "label": "January 25, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "lifestyle",
+      "index": 75,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Китайский календарь"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/dd/d2/1fddd287-672c-0059-777f-ac67c80606ad/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/dd/d2/1fddd287-672c-0059-777f-ac67c80606ad/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/dd/d2/1fddd287-672c-0059-777f-ac67c80606ad/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Китайский солнечно-лунный календарь для предсказательных практик (бацзы, выбора дат, фэншуй) \nпокажет вам столпы (иероглифы) каждого часа, дня, месяца и года с 1900 по 2040 гг. В календаре \nтакже отмечены смены солнечных сезонов, лунные дни и числа Гуа для всех, родившихся в этот период.\n\nВозможности календаря\nКитайский календарь позволяет не только вести счет дням, но также и отслеживать изменение энергии \nв течение времени. Он цикличен; в основе его лежат 10 небесных стволов и 12 земных ветвей, объединенных \nпопарно (в столпы) в цикле 60-ти цзя-цзы. Стволы и ветви могут быть иньскими или янскими и относиться \nк одной из пяти стихий: воде, дереву, огню, земле, металлу.\n\nКаждыйчас, день, месяц и год обозначаются одним таким столпом, который описывает энергию (ци),\nсодержащуюся в нем. 4 столпа даты отражают ее характер.\n\nИспользуется календарь для построения карты рождения человека (бацзы), выбора времени, фэншуй.\n\nЧисло Гуа, отраженное дополнительно в нашем календаре, представляет собой характеристику конкретного человека; используется в фэншуй."
+    },
+    "im:price": {
+      "label": "1,490.00 RUB",
+      "attributes": {
+        "amount": "1490.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2018, www.mingli.ru"
+    },
+    "title": {
+      "label": "Китайский календарь - Mingli"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C/id534188598?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/1b/03/d1/1b03d188-9a54-55ac-b8f3-0876097fb9d0/pr_source.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C/id534188598?l=en&uo=2",
+      "attributes": {
+        "im:id": "534188598",
+        "im:bundleId": "ru.thedma.chinese-calendar"
+      }
+    },
+    "im:artist": {
+      "label": "Mingli",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/mingli/id526669654?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6012",
+        "term": "Lifestyle",
+        "scheme": "https://apps.apple.com/ru/genre/ios-lifestyle/id6012?l=en&uo=2",
+        "label": "Lifestyle"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-06-14T09:24:53-07:00",
+      "attributes": {
+        "label": "June 14, 2012"
       }
     }
   },
@@ -10106,35 +10106,35 @@
       "total": 100
     },
     "im:name": {
-      "label": "Salatuk - صلاتك"
+      "label": "Wedding Planner for Brides"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/64/aa/fb/64aafb94-67de-112b-d227-63d88a7a49f5/AppIcon-0-0-1x_U007emarketing-0-0-0-3-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/e6/ec/ff/e6ecff7e-3bb6-3204-cd80-9c9f936daabf/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/64/aa/fb/64aafb94-67de-112b-d227-63d88a7a49f5/AppIcon-0-0-1x_U007emarketing-0-0-0-3-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/e6/ec/ff/e6ecff7e-3bb6-3204-cd80-9c9f936daabf/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/64/aa/fb/64aafb94-67de-112b-d227-63d88a7a49f5/AppIcon-0-0-1x_U007emarketing-0-0-0-3-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/e6/ec/ff/e6ecff7e-3bb6-3204-cd80-9c9f936daabf/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "*************************\nSalatuk is your Muslim Prayers Companion.\n\nBy locating you automatically, this application gives you the appropriate prayer times as well as the direction of the Qibla. \n\nThe Salatuk algorithm supports many calculation methods adopted by most Muslim countries. Depending on your location, the application choose the appropriate calculation method and Fiqhi school. \n\nFor an accurate location, please ensure that your location settings and your Internet connection or your GPS are enabled!\n\nNote about App features :\n-------------------------------\nIf you are familiar with Salatuk in other platforms please note that this version DOESN'T SUPPORT some features like \"Turn Phone to Silent after Athan\". Other features like \"Full Athan\" and \"Custom Athan\" are supported only when the app is ope. This is because of technical limitations. We will try to fix it once iOS system allows it.\n\nNote about Athan :\n-----------------\nSalatuk remind you that it's time for prayer with a \"4 takbeerats\" instead of full Athan. Because of technical limitations, it's possible to play full Athan only if the app is open. \n\nAlso, if you have problems to hear the notifications, please make sure to enable the following parameters in your device :\n\n1) Settings>Sounds>Alerts \n2) Settings>Notifications>Salatuk \n3) Your phone is not on mute and volume is correct\n\nNote about Prayers times :\n-----------------------------------\nPlease note that we pay attention to ensure that the prayer times of Salatuk are accurate. However, in some countries those times may be not exact. In this case, please refer to the official islamic institutions or mosques in your country and adjust manually the prayer times in the application settings.\n\nSalatuk supports currently 3 languages : Arabic, English and French.\n\nTips for a better usage\n-----------------------------\n\n1- In order to refresh the prayer alarms, make sure to open the application once a week. Please do so also when you change your location or timing (summer time).\n\n2- The prayer alarms corresponds to 2 or 4 Takbeerats. If you want to hear the complete Athan you should open the app at the moment of the Athan.\n\n**********************************************************************************\n\nتطبيق صلاتك رفيقك للحفاظ على صلاتك.\nعن طريق تحديد موقعك  تلقائيا، بإمكان هذا التطبيق أن يعلمك بأوقات الصلاة وكذلك تحديد اتجاه القبلة. تطبيق صلاتك يستعمل عددا مهما من الطرق الحسابية  المعتمدة في أغلب العالم الإسلامي. اعتمادا على موقعك، يختار التطبيق طريقة الحساب والمدرسة الفقهية المناسبة. \n\nحول خصائص التطبيق \n---------------------\nإذا كنت ممن يستعمل صلاتك على أنظمة أخرى، المرجو الانتباه إلى أن هذه النسخة لا تحتوي على بعض الخصائص مثل \"التحويل إلى الصامت\" كما أن بعض الخصائص الأخرى مثل \"الأذان الكامل\" و\"إضافة أذان من الذاكرة\" لا تشتغل إلا إذا كان التطبيق مفتوحا. يرجع ذلك إلى بعض القيود التقنية الموجودة حاليا في نظام أبل وسنحاول دعمها حالما ترفع هذه القيود.\n\n\nحول سماع الأذان \n---------------\nمن ناحية  أخرى إذا كان عندك مشكل في سماع التنبيهات، المرجو التاكد من أن الإعدادات التالية مفعلة في هاتفك : \n1) الإعدادات > الأصوات > تنبيهات التذكير\n2) الإعدادات >التنبيهات > صلاتك   \n3) هاتفك ليس في الوضع الصامت والصوت في مستوى جيد\n\nحول مواقيت الصلاة:\n-----------------\nننوه إلى أنه رغم المجهودات لتدقيق مواقيت الصلاة التي يقوم بها فريق صلاتك، إلا أنه في بعض البلدان قد تكون المواقيت غير مضبوطة بشكل تام، في هذه الحالة نرجو منكم الاعتماد على المواقيت الرسمية في بلدكم أو المسجد القريب منكم، مع العلم أنه يمكنكم تعديل الأوقات يدويا في نافذة الإعدادات.\n\nنصائح من أجل استعمال أفضل \n-------------------------\n\n1- حتى يتم تحديث إشعارات الأذان إحرص على فتح التطبيق مرة كل أسبوع على الأقل أو عندما تغير مكانك أو يتغير التوقيت في بلدك (التوقيت الصيفي)\n\n2- تطبيق صلاتك يشعرك بدخول وقت الصلاة على شكل تكبيرتين أو 4 تكبيرات. إذا أردت أن تستمع إلى الأذان كاملا المرجو أن تفتح التطبيق أثناء الأذان."
+      "label": "Network your respective plans on this journey together and stay in constant communication about the organization of your individual dream wedding.\n\nBased on the prospective date of the wedding day, the app calculates your personal wedding countdown and assists you in taking care of all upcoming tasks in a timely manner. \n\nAn extensive to-do list, which can be manually tailored to fit your dream wedding, ensures that you do not forget anything while organizing your wedding day. \n\nWith our wedding app, creating and editing guest lists is a breeze. \n\nAn integrated cost calculator helps you keep track of total costs, money already paid, and outstanding payments.\n\nPost the status of your wedding preparations on Facebook and Twitter, and allow your friends, acquaintances and visitors to follow the current state of affairs at all times.\n\nDo not miss a single task anymore! Use push messages to be conveniently reminded of things to do. This simplifies the planning of your personal dream wedding, and ensures that no detail is overlooked.\n\nFeatures Summary\n\n* Universal App \n* Sync for partner\n* Section for your vendors\n* Wedding Countdown\n* Individual cost planner\n* Pre-defined, flexible cost list\n* Breakdown in overall costs, expenses already paid and outstanding costs\n* Print and email function for the cost list\n* Flexible guest list with address book import\n* Adjustable Task Scheduler with helpful information\n* Push messages for all outstanding tasks\n* Share option to Facebook and Twitter\n*  Widget: Your personal countdown always directly in view"
     },
     "im:price": {
-      "label": "249.00 RUB",
+      "label": "99.00 RUB",
       "attributes": {
-        "amount": "249.00",
+        "amount": "99.00",
         "currency": "RUB"
       }
     },
@@ -10145,17 +10145,17 @@
       }
     },
     "rights": {
-      "label": "© Masarat App"
+      "label": "© eys-apps"
     },
     "title": {
-      "label": "Salatuk - صلاتك - Masarat App"
+      "label": "Wedding Planner for Brides - Patrick Eysoldt"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/salatuk-%D8%B5%D9%84%D8%A7%D8%AA%D9%83/id686077611?l=en&uo=2"
+          "href": "https://apps.apple.com/ru/app/wedding-planner-for-brides/id495499491?l=en&uo=2"
         }
       },
       {
@@ -10166,22 +10166,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d1/61/0a/d1610a1a-bb4d-6730-fbb9-078cc99b9b86/pr_source.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/eb/1b/ff/eb1bff6e-602b-0a39-3614-81a37c744fc0/mzl.qtxycpbp.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ru/app/salatuk-%D8%B5%D9%84%D8%A7%D8%AA%D9%83/id686077611?l=en&uo=2",
+      "label": "https://apps.apple.com/ru/app/wedding-planner-for-brides/id495499491?l=en&uo=2",
       "attributes": {
-        "im:id": "686077611",
-        "im:bundleId": "com.masaratapp.salatuk"
+        "im:id": "495499491",
+        "im:bundleId": "de.eysoldt.Hochzeit"
       }
     },
     "im:artist": {
-      "label": "Masarat App",
+      "label": "Patrick Eysoldt",
       "attributes": {
-        "href": "https://apps.apple.com/ru/developer/masarat-app/id526065575?l=en&uo=2"
+        "href": "https://apps.apple.com/ru/developer/patrick-eysoldt/id1137929249?l=en&uo=2"
       }
     },
     "category": {
@@ -10193,9 +10193,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2013-09-02T01:31:14-07:00",
+      "label": "2012-01-19T19:37:08-07:00",
       "attributes": {
-        "label": "September 2, 2013"
+        "label": "January 19, 2012"
       }
     }
   }

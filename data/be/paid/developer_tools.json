@@ -726,26 +726,26 @@
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/7f/37/c77f37d4-4237-fc40-f0e0-2c45ead74516/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- search images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
     },
     "im:price": {
       "label": "6,99 €",
@@ -1436,108 +1436,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "ActionsHub - GitHub Actions"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/f2/ee/6e/f2ee6e5a-a91a-2ffe-1093-720f4a3ef78d/PlayerAppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/f2/ee/6e/f2ee6e5a-a91a-2ffe-1093-720f4a3ef78d/PlayerAppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/f2/ee/6e/f2ee6e5a-a91a-2ffe-1093-720f4a3ef78d/PlayerAppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "ActionsHub, a GitHub Actions client, is the easiest way to view and manage your GitHub Actions Workflows on your mobile.\n\nFeatures:\nCancel or Re-run any Workflow Run with a single tap!\nMonitor the progress and status of any Workflow Run and its Steps.\nConnect directly to GitHub API. Your credentials are stored only on your device.\nAll the Workflow Run info - status, branch, Pull Request, Commit - in one screen. \n\nYou will need to be a contributor to the repository to see it in the ActionsHub app.\n\nYou will need to give ‘repo’ and ‘workflow’ scopes to the generated GitHub Access Token for the app to be fully functional.\n\nActionsHub is not affiliated with GitHub in any way, and it is a third-party GitHub Actions client."
-    },
-    "im:price": {
-      "label": "3,99 €",
-      "attributes": {
-        "amount": "3.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2020 Kodika.io Software Limited"
-    },
-    "title": {
-      "label": "ActionsHub - GitHub Actions - Kodika.io Software Limited"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/be/app/actionshub-github-actions/id1526165336?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/07/2e/76/072e7651-035d-1c64-bc09-2ceccd24e0bf/22063039-a22c-4fcc-bf14-a6f3a703399f_ipad-03.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/be/app/actionshub-github-actions/id1526165336?uo=2",
-      "attributes": {
-        "im:id": "1526165336",
-        "im:bundleId": "io.kodika.apps.github-actions"
-      }
-    },
-    "im:artist": {
-      "label": "Kodika.io Software Limited",
-      "attributes": {
-        "href": "https://apps.apple.com/be/developer/kodika-io-software-limited/id1433898887?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-07T00:00:00-07:00",
-      "attributes": {
-        "label": "August 7, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "be",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 16,
-      "total": 99
-    },
-    "im:name": {
       "label": "PasteMe - Pastebin Client"
     },
     "im:image": [
@@ -1636,7 +1534,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 17,
+      "index": 16,
       "total": 99
     },
     "im:name": {
@@ -1738,7 +1636,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 18,
+      "index": 17,
       "total": 99
     },
     "im:name": {
@@ -1840,7 +1738,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -2138,6 +2036,108 @@
       "label": "2012-03-25T21:34:23-07:00",
       "attributes": {
         "label": "March 25, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "be",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 21,
+      "total": 99
+    },
+    "im:name": {
+      "label": "ActionsHub - GitHub Actions"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/f2/ee/6e/f2ee6e5a-a91a-2ffe-1093-720f4a3ef78d/PlayerAppIcon-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/f2/ee/6e/f2ee6e5a-a91a-2ffe-1093-720f4a3ef78d/PlayerAppIcon-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/f2/ee/6e/f2ee6e5a-a91a-2ffe-1093-720f4a3ef78d/PlayerAppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "ActionsHub, a GitHub Actions client, is the easiest way to view and manage your GitHub Actions Workflows on your mobile.\n\nFeatures:\nCancel or Re-run any Workflow Run with a single tap!\nMonitor the progress and status of any Workflow Run and its Steps.\nConnect directly to GitHub API. Your credentials are stored only on your device.\nAll the Workflow Run info - status, branch, Pull Request, Commit - in one screen. \n\nYou will need to be a contributor to the repository to see it in the ActionsHub app.\n\nYou will need to give ‘repo’ and ‘workflow’ scopes to the generated GitHub Access Token for the app to be fully functional.\n\nActionsHub is not affiliated with GitHub in any way, and it is a third-party GitHub Actions client."
+    },
+    "im:price": {
+      "label": "3,99 €",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2020 Kodika.io Software Limited"
+    },
+    "title": {
+      "label": "ActionsHub - GitHub Actions - Kodika.io Software Limited"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/be/app/actionshub-github-actions/id1526165336?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/07/2e/76/072e7651-035d-1c64-bc09-2ceccd24e0bf/22063039-a22c-4fcc-bf14-a6f3a703399f_ipad-03.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/be/app/actionshub-github-actions/id1526165336?uo=2",
+      "attributes": {
+        "im:id": "1526165336",
+        "im:bundleId": "io.kodika.apps.github-actions"
+      }
+    },
+    "im:artist": {
+      "label": "Kodika.io Software Limited",
+      "attributes": {
+        "href": "https://apps.apple.com/be/developer/kodika-io-software-limited/id1433898887?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-07T00:00:00-07:00",
+      "attributes": {
+        "label": "August 7, 2020"
       }
     }
   },

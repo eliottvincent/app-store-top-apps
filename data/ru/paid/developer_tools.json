@@ -8,35 +8,35 @@
       "total": 100
     },
     "im:name": {
-      "label": "Docker Management"
+      "label": "Cookie Editor For Safari"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/68/6d/f4/686df447-3640-d844-7d9e-d00d960fed20/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/68/6d/f4/686df447-3640-d844-7d9e-d00d960fed20/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/68/6d/f4/686df447-3640-d844-7d9e-d00d960fed20/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- search images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+      "label": "With our app, you can confidently examine and edit your cookies as you please. Cookie Editor equips you with the essential tools to edit the cookies on the current tab of your iOS, iPadOS, and MacOS devices, giving you complete control over your browsing experience.\n\nOur Cookie Editor provides you with the ability to thoroughly examine and edit the cookies of the current website in various ways. Not only can you create a new cookie manually, but you can also import text in JSON or Netscape format to make the process even easier. In addition, exporting cookies is made easy with the available options in JSON and Netscape format. If you're searching for a specific cookie, you can easily find it using the intuitive search function. And if you're looking to clear your cookies, you can do so with just one click, providing an efficient way to manage your cookies. Overall, managing cookies with our Cookie Editor is not only simple and straightforward, but also provides a wealth of options to ensure complete control over your online experience.\n\nTo edit your cookies, simply download the app and get started! We are confident that you will find the app easy to use and that it will meet all of your needs.\n\nPrivacy Policy: https://www.zamalabs.com/cookie-editor-privacy-policy\nTerms & Conditions: https://www.zamalabs.com/cookie-editor-terms-and-conditions\nCheck out our other apps by visiting: https://www.zamalabs.com/\nIf you want to reach us, feel free to send an email to scipio@zamalabs.com!"
     },
     "im:price": {
-      "label": "499.00 RUB",
+      "label": "99.00 RUB",
       "attributes": {
-        "amount": "499.00",
+        "amount": "99.00",
         "currency": "RUB"
       }
     },
@@ -47,17 +47,17 @@
       }
     },
     "rights": {
-      "label": "© nevishs"
+      "label": "© 2023 Zamalabs"
     },
     "title": {
-      "label": "Docker Management - Nevis Shkenza"
+      "label": "Cookie Editor For Safari - Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/docker-management/id1527656144?l=en&uo=2"
+          "href": "https://apps.apple.com/ru/app/cookie-editor-for-safari/id6446626905?l=en&uo=2"
         }
       },
       {
@@ -68,22 +68,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0d/c1/34/0dc13421-ceb3-0061-4b2f-6768bfc2263f/2d57df9a-7206-4442-ba2c-2b527e2335b6_12.9_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ru/app/docker-management/id1527656144?l=en&uo=2",
+      "label": "https://apps.apple.com/ru/app/cookie-editor-for-safari/id6446626905?l=en&uo=2",
       "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
+        "im:id": "6446626905",
+        "im:bundleId": "com.zamalabs.CookieEditorExtension"
       }
     },
     "im:artist": {
-      "label": "Nevis Shkenza",
+      "label": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
       "attributes": {
-        "href": "https://apps.apple.com/ru/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+        "href": "https://apps.apple.com/ru/developer/zamalabs-yaz%C4%B1l%C4%B1m-ve-bilgi-teknolojileri-limited-%C5%9Firketi/id1637867851?l=en&uo=2"
       }
     },
     "category": {
@@ -95,9 +95,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
+      "label": "2023-04-05T00:00:00-07:00",
       "attributes": {
-        "label": "August 14, 2020"
+        "label": "April 5, 2023"
       }
     }
   },
@@ -212,6 +212,108 @@
       "total": 100
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- search images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "499.00 RUB",
+      "attributes": {
+        "amount": "499.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/docker-management/id1527656144?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/docker-management/id1527656144?l=en&uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/nevis-shkenza/id1268450891?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 4,
+      "total": 100
+    },
+    "im:name": {
       "label": "Textastic Code Editor"
     },
     "im:image": [
@@ -302,108 +404,6 @@
       "label": "2016-03-12T01:33:30-07:00",
       "attributes": {
         "label": "March 12, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 4,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Sutāto - Retro Emulator"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/a1/ef/4ca1efad-7330-3fe1-c203-4729d80f5482/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/a1/ef/4ca1efad-7330-3fe1-c203-4729d80f5482/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/a1/ef/4ca1efad-7330-3fe1-c203-4729d80f5482/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Sutāto is the only emulator crafted specifically for playing NES and Gameboy games on your iPhone and iPad.\n\nWith unparalleled speed and precision, Sutāto faithfully replicates nearly every aspect of the original hardware, delivering an authentic gaming experience like no other.\n\nFEATURES:\n\nSeamless usability: With an intuitive interface, Sutāto makes it effortless to navigate and start playing your favorite Gameboy and NES titles.\n\nCustomization options: Tailor your experience with a variety of video and audio filters.\n\nSave at any moment: Resume your game from where you left off with auto-save functionality.\n\nRelive your classics: Enjoy your beloved NES and Gameboy favorites on your iOS device, whether you're on the go or relaxing at home.\n\nController Support: Connect your preferred controller for play with your favorite NES titles.\n\nWiki in Game: Discover the History Behind Your Favorite Games.\n\nNo ads: Sutāto is ad-free, ensuring uninterrupted gaming sessions without any limitations.\n\nNote: \nSutāto and its developer(s) are not affiliated with, endorsed by, or connected to the companies that created the gaming console."
-    },
-    "im:price": {
-      "label": "199.00 RUB",
-      "attributes": {
-        "amount": "199.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2024 SA-MOO-RAI"
-    },
-    "title": {
-      "label": "Sutāto - Retro Emulator - Valentin Dreyfus"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/sut%C4%81to-retro-emulator/id6483049943?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/06/c0/1306c018-ed11-0311-d3bd-f727fc66c299/d862effb-dd49-4c0f-8182-abf4971e8357_Frame_49.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/sut%C4%81to-retro-emulator/id6483049943?l=en&uo=2",
-      "attributes": {
-        "im:id": "6483049943",
-        "im:bundleId": "com.sa-moo-rai.surpriseGB"
-      }
-    },
-    "im:artist": {
-      "label": "Valentin Dreyfus",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/valentin-dreyfus/id1710589551?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2024-04-25T00:00:00-07:00",
-      "attributes": {
-        "label": "April 25, 2024"
       }
     }
   },
@@ -1130,108 +1130,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Cookie Editor For Safari"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/68/6d/f4/686df447-3640-d844-7d9e-d00d960fed20/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/68/6d/f4/686df447-3640-d844-7d9e-d00d960fed20/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/68/6d/f4/686df447-3640-d844-7d9e-d00d960fed20/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "With our app, you can confidently examine and edit your cookies as you please. Cookie Editor equips you with the essential tools to edit the cookies on the current tab of your iOS, iPadOS, and MacOS devices, giving you complete control over your browsing experience.\n\nOur Cookie Editor provides you with the ability to thoroughly examine and edit the cookies of the current website in various ways. Not only can you create a new cookie manually, but you can also import text in JSON or Netscape format to make the process even easier. In addition, exporting cookies is made easy with the available options in JSON and Netscape format. If you're searching for a specific cookie, you can easily find it using the intuitive search function. And if you're looking to clear your cookies, you can do so with just one click, providing an efficient way to manage your cookies. Overall, managing cookies with our Cookie Editor is not only simple and straightforward, but also provides a wealth of options to ensure complete control over your online experience.\n\nTo edit your cookies, simply download the app and get started! We are confident that you will find the app easy to use and that it will meet all of your needs.\n\nPrivacy Policy: https://www.zamalabs.com/cookie-editor-privacy-policy\nTerms & Conditions: https://www.zamalabs.com/cookie-editor-terms-and-conditions\nCheck out our other apps by visiting: https://www.zamalabs.com/\nIf you want to reach us, feel free to send an email to scipio@zamalabs.com!"
-    },
-    "im:price": {
-      "label": "99.00 RUB",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2023 Zamalabs"
-    },
-    "title": {
-      "label": "Cookie Editor For Safari - Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/cookie-editor-for-safari/id6446626905?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/0d/c1/34/0dc13421-ceb3-0061-4b2f-6768bfc2263f/2d57df9a-7206-4442-ba2c-2b527e2335b6_12.9_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/cookie-editor-for-safari/id6446626905?l=en&uo=2",
-      "attributes": {
-        "im:id": "6446626905",
-        "im:bundleId": "com.zamalabs.CookieEditorExtension"
-      }
-    },
-    "im:artist": {
-      "label": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/zamalabs-yaz%C4%B1l%C4%B1m-ve-bilgi-teknolojileri-limited-%C5%9Firketi/id1637867851?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2023-04-05T00:00:00-07:00",
-      "attributes": {
-        "label": "April 5, 2023"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 13,
-      "total": 100
-    },
-    "im:name": {
       "label": "Kuber - Kubernetes Dashboard"
     },
     "im:image": [
@@ -1330,7 +1228,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 14,
+      "index": 13,
       "total": 100
     },
     "im:name": {
@@ -1432,39 +1330,39 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 15,
+      "index": 14,
       "total": 100
     },
     "im:name": {
-      "label": "Programming Notebook PRO"
+      "label": "Sutāto - Retro Emulator"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/a1/ef/4ca1efad-7330-3fe1-c203-4729d80f5482/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/a1/ef/4ca1efad-7330-3fe1-c203-4729d80f5482/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/a1/ef/4ca1efad-7330-3fe1-c203-4729d80f5482/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "This is the PRO version of our free application, Programming Notebook.\n\nFEATURES:\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- ability to hide navigation bar\n- status bar hidden automatically\n- dark mode support\n- new buttons to enable easier navigation on tricky web pages\n- JS injection to modify the site HTML slightly to remove contents that are unnecessary and consume space on a mobile device\n- no need to double tap in the browser in order to be recognized by buttons\n- automatic link handling, including authentication flow for Google sign-in\n- ability to connect runtime to Google Drive, both that of the current account and another account, thanks to automatic link handling\n- iPhone and iPad support\n- No ads\n\nCOMING SOON\n- Other programming sites will be returning shortly. The feature has briefly been removed with the latest update, as it is being reworked\n- Split view for opening multiple sites at once\n- Support for multitasking on iPad\n- Markdown toolbar, automatically recognizes when a text cell is being edited\n- Ability to upload an image from your photos album to a text cell.\n- Copy/paste functionality\n- Swipe from edges to navigate backwards/forwards, allows us to preserve space on screen by removing unnecessary navigation buttons\n- Search history"
+      "label": "Sutāto is the only emulator crafted specifically for playing NES and Gameboy games on your iPhone and iPad.\n\nWith unparalleled speed and precision, Sutāto faithfully replicates nearly every aspect of the original hardware, delivering an authentic gaming experience like no other.\n\nFEATURES:\n\nSeamless usability: With an intuitive interface, Sutāto makes it effortless to navigate and start playing your favorite Gameboy and NES titles.\n\nCustomization options: Tailor your experience with a variety of video and audio filters.\n\nSave at any moment: Resume your game from where you left off with auto-save functionality.\n\nRelive your classics: Enjoy your beloved NES and Gameboy favorites on your iOS device, whether you're on the go or relaxing at home.\n\nController Support: Connect your preferred controller for play with your favorite NES titles.\n\nWiki in Game: Discover the History Behind Your Favorite Games.\n\nNo ads: Sutāto is ad-free, ensuring uninterrupted gaming sessions without any limitations.\n\nNote: \nSutāto and its developer(s) are not affiliated with, endorsed by, or connected to the companies that created the gaming console."
     },
     "im:price": {
-      "label": "499.00 RUB",
+      "label": "199.00 RUB",
       "attributes": {
-        "amount": "499.00",
+        "amount": "199.00",
         "currency": "RUB"
       }
     },
@@ -1475,17 +1373,17 @@
       }
     },
     "rights": {
-      "label": "© 2021 Ryan Rudes"
+      "label": "© 2024 SA-MOO-RAI"
     },
     "title": {
-      "label": "Programming Notebook PRO - Ryan Rudes"
+      "label": "Sutāto - Retro Emulator - Valentin Dreyfus"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/programming-notebook-pro/id1521883614?l=en&uo=2"
+          "href": "https://apps.apple.com/ru/app/sut%C4%81to-retro-emulator/id6483049943?l=en&uo=2"
         }
       },
       {
@@ -1496,22 +1394,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/40/07/c9/4007c95f-5b45-95d1-7ed2-211987e2cbf4/e60eea41-9d07-4882-bf28-5c96eb650311_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-05-06_at_18.41.09.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/06/c0/1306c018-ed11-0311-d3bd-f727fc66c299/d862effb-dd49-4c0f-8182-abf4971e8357_Frame_49.jpg/1024x1024bb.jpg",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ru/app/programming-notebook-pro/id1521883614?l=en&uo=2",
+      "label": "https://apps.apple.com/ru/app/sut%C4%81to-retro-emulator/id6483049943?l=en&uo=2",
       "attributes": {
-        "im:id": "1521883614",
-        "im:bundleId": "com.appconda.ryan-rudes"
+        "im:id": "6483049943",
+        "im:bundleId": "com.sa-moo-rai.surpriseGB"
       }
     },
     "im:artist": {
-      "label": "Ryan Rudes",
+      "label": "Valentin Dreyfus",
       "attributes": {
-        "href": "https://apps.apple.com/ru/developer/ryan-rudes/id1698870132?l=en&uo=2"
+        "href": "https://apps.apple.com/ru/developer/valentin-dreyfus/id1710589551?l=en&uo=2"
       }
     },
     "category": {
@@ -1523,9 +1421,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2020-07-07T00:00:00-07:00",
+      "label": "2024-04-25T00:00:00-07:00",
       "attributes": {
-        "label": "July 7, 2020"
+        "label": "April 25, 2024"
       }
     }
   },
@@ -1534,7 +1432,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 16,
+      "index": 15,
       "total": 100
     },
     "im:name": {
@@ -1628,6 +1526,108 @@
       "label": "2014-10-08T10:20:13-07:00",
       "attributes": {
         "label": "October 8, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 16,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Programming Notebook PRO"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/4a/7a/df/4a7adfe6-e4e4-d44c-1505-6ec0a544aec2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "This is the PRO version of our free application, Programming Notebook.\n\nFEATURES:\n- Prevents automatic zooming when selecting text boxes to allow for code editing with ease.\n- Disables bouncing to allow for horizontal scrolling through code cells.\n- ability to hide navigation bar\n- status bar hidden automatically\n- dark mode support\n- new buttons to enable easier navigation on tricky web pages\n- JS injection to modify the site HTML slightly to remove contents that are unnecessary and consume space on a mobile device\n- no need to double tap in the browser in order to be recognized by buttons\n- automatic link handling, including authentication flow for Google sign-in\n- ability to connect runtime to Google Drive, both that of the current account and another account, thanks to automatic link handling\n- iPhone and iPad support\n- No ads\n\nCOMING SOON\n- Other programming sites will be returning shortly. The feature has briefly been removed with the latest update, as it is being reworked\n- Split view for opening multiple sites at once\n- Support for multitasking on iPad\n- Markdown toolbar, automatically recognizes when a text cell is being edited\n- Ability to upload an image from your photos album to a text cell.\n- Copy/paste functionality\n- Swipe from edges to navigate backwards/forwards, allows us to preserve space on screen by removing unnecessary navigation buttons\n- Search history"
+    },
+    "im:price": {
+      "label": "499.00 RUB",
+      "attributes": {
+        "amount": "499.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2021 Ryan Rudes"
+    },
+    "title": {
+      "label": "Programming Notebook PRO - Ryan Rudes"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/programming-notebook-pro/id1521883614?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/40/07/c9/4007c95f-5b45-95d1-7ed2-211987e2cbf4/e60eea41-9d07-4882-bf28-5c96eb650311_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00282nd_generation_U0029_-_2021-05-06_at_18.41.09.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/programming-notebook-pro/id1521883614?l=en&uo=2",
+      "attributes": {
+        "im:id": "1521883614",
+        "im:bundleId": "com.appconda.ryan-rudes"
+      }
+    },
+    "im:artist": {
+      "label": "Ryan Rudes",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/ryan-rudes/id1698870132?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-07-07T00:00:00-07:00",
+      "attributes": {
+        "label": "July 7, 2020"
       }
     }
   },
@@ -2252,108 +2252,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "ESP32 BLE Terminal"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
-    },
-    "im:price": {
-      "label": "99.00 RUB",
-      "attributes": {
-        "amount": "99.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2021 mightyIT"
-    },
-    "title": {
-      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/esp32-ble-terminal/id1567601472?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/esp32-ble-terminal/id1567601472?l=en&uo=2",
-      "attributes": {
-        "im:id": "1567601472",
-        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
-      }
-    },
-    "im:artist": {
-      "label": "Gopi Gadhiya",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/gopi-gadhiya/id1387816354?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-06-01T00:00:00-07:00",
-      "attributes": {
-        "label": "June 1, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 24,
-      "total": 100
-    },
-    "im:name": {
       "label": "Code - Compile & Run Program"
     },
     "im:image": [
@@ -2452,39 +2350,39 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 25,
+      "index": 24,
       "total": 100
     },
     "im:name": {
-      "label": "Harbour - Docker Manager"
+      "label": "ESP32 BLE Terminal"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/7a/b1/9a7ab192-ac98-a080-8898-7b92cb8a6fd0/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/7a/b1/9a7ab192-ac98-a080-8898-7b92cb8a6fd0/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/7a/b1/9a7ab192-ac98-a080-8898-7b92cb8a6fd0/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/bb/e8/36bbe8cd-a253-6e5e-6336-586ea3826e69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Meet Harbour - Docker/Portainer Management App for iOS!\n\nMultiple Servers & Endpoints\nEffortlessly manage multiple Docker servers and endpoints from one centralized platform. Whether it's your home server, or production environment at work, Harbour ensures seamless connectivity and control.\n\nManage Your Containers\nTake charge of your Docker containers with ease. From managing container's states, to monitoring their status and logs, Harbour puts container management at your fingertips.\n\nControl Your Stacks\nStreamline your application deployment process by managing Docker stacks efficiently. With Harbour, you can effortlessly view, start/stop, deploy and remove stacks, ensuring smooth operation of your containerized applications.\n\nWidgets - Containers at a Glance\nStay informed about your containers' status and performance with Harbour's intuitive widgets. Get (almost) real-time insights right on your Home Screen, keeping you updated without switching between applications.\n\nHandoff - Continue Where You Left Off\nSeamlessly transition between your iOS device and other Apple devices with Handoff support. Start your Docker management tasks on one device and effortlessly continue from where you left off on another, ensuring uninterrupted productivity.\n\nBackground Notifications\nStay informed about important events and updates even when Harbour is not actively in use. Background notifications keep you in the loop, ensuring you never miss critical alerts regarding your Docker containers.\n\niPadOS Support\nExtend your Docker management capabilities to your iPad with full support for iPadOS. Enjoy the convenience of managing your containers and stacks on a larger screen, whether you're at your desk or on the go.\n\nNo Telemetry\nYour privacy matters. Harbour is committed to respecting your privacy by ensuring that no telemetry data is collected :)"
+      "label": "INTRODUCTION:\n\n- One-of-a-kind App that is used for scanning nearby BLE devices and also use for serial communication.\n- Control any Micro-controller that uses any BLE Module like ESP32 through your smart phone.\n-- This app can send and receive commands via BLE so you can debug your ESP32 based hardware problems easily.\n\n\nFEATURES:\n\n- Separate panels for sending and receiving data.\n- Custom your own buttons for frequent sending of same data.\n- Monitoring receiving data as ASCII or HEX.\n- Sending Data as ASCII or HEX.\n- Auto send commands at timed interval\n- Selection for \\r \\n at the end of sending data.\n- Send Log file of Received and Sent data.\n- Simple copy option in sent data just long press on data.\n- Keep Screen on/off option.\n- Remove Ads option.\n\n\nNOTE:\n\n- By default, Received data in ASCII format and It can be changed from top MENU.\n- By default, Data sent in ASCII format and It can be changed from long pressing of particular Button.\n- By default, \\r\\n will be sent on every sending data and It can be changeable from long pressing of particular Button."
     },
     "im:price": {
-      "label": "249.00 RUB",
+      "label": "99.00 RUB",
       "attributes": {
-        "amount": "249.00",
+        "amount": "99.00",
         "currency": "RUB"
       }
     },
@@ -2495,17 +2393,17 @@
       }
     },
     "rights": {
-      "label": "© 2024 shameful"
+      "label": "© 2021 mightyIT"
     },
     "title": {
-      "label": "Harbour - Docker Manager - Kacper Kaczmarzyk"
+      "label": "ESP32 BLE Terminal - Gopi Gadhiya"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/harbour-docker-manager/id1582439659?l=en&uo=2"
+          "href": "https://apps.apple.com/ru/app/esp32-ble-terminal/id1567601472?l=en&uo=2"
         }
       },
       {
@@ -2516,22 +2414,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/cc/78/0ccc781b-4bfd-cb14-c889-81d035f6da15/53834641-c79c-408a-84fd-82606720183b_Containers-Light.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/5f/83/15/5f8315c4-99c6-5e1d-89c6-0648a80b8538/723fbcaf-2716-4a55-b8c8-0040657efb0c_1.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/ru/app/harbour-docker-manager/id1582439659?l=en&uo=2",
+      "label": "https://apps.apple.com/ru/app/esp32-ble-terminal/id1567601472?l=en&uo=2",
       "attributes": {
-        "im:id": "1582439659",
-        "im:bundleId": "xyz.shameful.Harbour"
+        "im:id": "1567601472",
+        "im:bundleId": "com.mightyIT.ESP32-BLE-Terminal"
       }
     },
     "im:artist": {
-      "label": "Kacper Kaczmarzyk",
+      "label": "Gopi Gadhiya",
       "attributes": {
-        "href": "https://apps.apple.com/ru/developer/kacper-kaczmarzyk/id1582439661?l=en&uo=2"
+        "href": "https://apps.apple.com/ru/developer/gopi-gadhiya/id1387816354?l=en&uo=2"
       }
     },
     "category": {
@@ -2543,9 +2441,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2024-04-06T00:00:00-07:00",
+      "label": "2021-06-01T00:00:00-07:00",
       "attributes": {
-        "label": "April 6, 2024"
+        "label": "June 1, 2021"
       }
     }
   },
@@ -2554,7 +2452,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 26,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2656,7 +2554,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 27,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +2656,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 28,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -2860,7 +2758,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 29,
+      "index": 28,
       "total": 100
     },
     "im:name": {
@@ -2962,7 +2860,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 30,
+      "index": 29,
       "total": 100
     },
     "im:name": {
@@ -3056,6 +2954,108 @@
       "label": "2021-01-14T00:00:00-07:00",
       "attributes": {
         "label": "January 14, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 30,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Harbour - Docker Manager"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/7a/b1/9a7ab192-ac98-a080-8898-7b92cb8a6fd0/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/7a/b1/9a7ab192-ac98-a080-8898-7b92cb8a6fd0/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/7a/b1/9a7ab192-ac98-a080-8898-7b92cb8a6fd0/AppIcon-0-1x_U007epad-0-0-0-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Meet Harbour - Docker/Portainer Management App for iOS!\n\nMultiple Servers & Endpoints\nEffortlessly manage multiple Docker servers and endpoints from one centralized platform. Whether it's your home server, or production environment at work, Harbour ensures seamless connectivity and control.\n\nManage Your Containers\nTake charge of your Docker containers with ease. From managing container's states, to monitoring their status and logs, Harbour puts container management at your fingertips.\n\nControl Your Stacks\nStreamline your application deployment process by managing Docker stacks efficiently. With Harbour, you can effortlessly view, start/stop, deploy and remove stacks, ensuring smooth operation of your containerized applications.\n\nWidgets - Containers at a Glance\nStay informed about your containers' status and performance with Harbour's intuitive widgets. Get (almost) real-time insights right on your Home Screen, keeping you updated without switching between applications.\n\nHandoff - Continue Where You Left Off\nSeamlessly transition between your iOS device and other Apple devices with Handoff support. Start your Docker management tasks on one device and effortlessly continue from where you left off on another, ensuring uninterrupted productivity.\n\nBackground Notifications\nStay informed about important events and updates even when Harbour is not actively in use. Background notifications keep you in the loop, ensuring you never miss critical alerts regarding your Docker containers.\n\niPadOS Support\nExtend your Docker management capabilities to your iPad with full support for iPadOS. Enjoy the convenience of managing your containers and stacks on a larger screen, whether you're at your desk or on the go.\n\nNo Telemetry\nYour privacy matters. Harbour is committed to respecting your privacy by ensuring that no telemetry data is collected :)"
+    },
+    "im:price": {
+      "label": "249.00 RUB",
+      "attributes": {
+        "amount": "249.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024 shameful"
+    },
+    "title": {
+      "label": "Harbour - Docker Manager - Kacper Kaczmarzyk"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/harbour-docker-manager/id1582439659?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/cc/78/0ccc781b-4bfd-cb14-c889-81d035f6da15/53834641-c79c-408a-84fd-82606720183b_Containers-Light.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/harbour-docker-manager/id1582439659?l=en&uo=2",
+      "attributes": {
+        "im:id": "1582439659",
+        "im:bundleId": "xyz.shameful.Harbour"
+      }
+    },
+    "im:artist": {
+      "label": "Kacper Kaczmarzyk",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/kacper-kaczmarzyk/id1582439661?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-04-06T00:00:00-07:00",
+      "attributes": {
+        "label": "April 6, 2024"
       }
     }
   },
@@ -3272,108 +3272,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Rust Recipes Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c6/9d/87c69d17-4361-82d5-62f5-5c478547a101/AppIcon-1x_U007emarketing-0-4-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c6/9d/87c69d17-4361-82d5-62f5-5c478547a101/AppIcon-1x_U007emarketing-0-4-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c6/9d/87c69d17-4361-82d5-62f5-5c478547a101/AppIcon-1x_U007emarketing-0-4-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "• Contains a directory of standard, frequently used operations in Rust and SQL queries.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Finding the best decision on the Internet may demand hours of working time. Ready for use and tested code \"recipes\" are included in the application.\n\n• One app for iOS and MacOS. Buy once and use on your phone, tablet or computer.\n\n• The application is a good tool when passing an exam or preparing for an interview, helping you study typical tasks.\n\n• All examples in the application are available offline. The application can be used when the Internet connection is not available.\n\n• Quick search of the correct example by the code or by the name of topic. \n\n• Being a developer, I use this program when I need to remember quickly how to solve a given task in one or another programming language.\n\nIf you can help translate the application into your language, please contact me by email."
-    },
-    "im:price": {
-      "label": "199.00 RUB",
-      "attributes": {
-        "amount": "199.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Obraztsov Fedor Alexandrovich"
-    },
-    "title": {
-      "label": "Rust Recipes Pro - Fedor Obraztsov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/rust-recipes-pro/id6443946748?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/9e/c0/d19ec0d4-5d9d-f099-479e-c8c36a907ba5/c9de1b07-a064-4387-a2a5-87eee83b7b05_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2022-10-25_at_11.19.52.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/rust-recipes-pro/id6443946748?l=en&uo=2",
-      "attributes": {
-        "im:id": "6443946748",
-        "im:bundleId": "ru.obraztsov.codeSamplesRustPro"
-      }
-    },
-    "im:artist": {
-      "label": "Fedor Obraztsov",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/fedor-obraztsov/id1012115119?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-10-24T00:00:00-07:00",
-      "attributes": {
-        "label": "October 24, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 34,
-      "total": 100
-    },
-    "im:name": {
       "label": "mitmproxy helper by txthinking"
     },
     "im:image": [
@@ -3472,7 +3370,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 35,
+      "index": 34,
       "total": 100
     },
     "im:name": {
@@ -3574,7 +3472,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 36,
+      "index": 35,
       "total": 100
     },
     "im:name": {
@@ -3676,109 +3574,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 37,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Java Recipes Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ef/da/06efda94-21ad-3dbe-6916-5a1973690304/AppIcon-1x_U007emarketing-0-4-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ef/da/06efda94-21ad-3dbe-6916-5a1973690304/AppIcon-1x_U007emarketing-0-4-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ef/da/06efda94-21ad-3dbe-6916-5a1973690304/AppIcon-1x_U007emarketing-0-4-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "• Contains a directory of standard, frequently used operations in Java and SQL queries.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Here you will find ready-made and proven code “recipes” that will help you quickly and efficiently solve emerging problems.\n\n• The application is a good tool when passing an exam or preparing for an interview, helping you study typical tasks.\n\n• One app for iOS and MacOS. Buy once and use on your phone, tablet or computer.\n\n• Quick search of the correct example by the code or by the name of topic. \n\n• All examples in the application are available offline. The application can be used when the Internet connection is not available.\n\n• As a developer, I use this application myself to increase the speed of my work.\n\nIf you can help translate the application into your language, please contact me by email."
-    },
-    "im:price": {
-      "label": "199.00 RUB",
-      "attributes": {
-        "amount": "199.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Obraztsov Fedor Alexandrovich"
-    },
-    "title": {
-      "label": "Java Recipes Pro - Fedor Obraztsov"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/java-recipes-pro/id1576134529?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ed/32/3e/ed323e87-fcf4-0de6-eb27-0711d0208317/41591074-c649-484f-932e-2df8bf022408_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-07-13_at_10.25.30.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/java-recipes-pro/id1576134529?l=en&uo=2",
-      "attributes": {
-        "im:id": "1576134529",
-        "im:bundleId": "ru.obraztsov.codeSamplesJavaPro"
-      }
-    },
-    "im:artist": {
-      "label": "Fedor Obraztsov",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/fedor-obraztsov/id1012115119?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2021-07-12T00:00:00-07:00",
-      "attributes": {
-        "label": "July 12, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 38,
+      "index": 36,
       "total": 100
     },
     "im:name": {
@@ -3880,7 +3676,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 39,
+      "index": 37,
       "total": 100
     },
     "im:name": {
@@ -3974,6 +3770,210 @@
       "label": "2020-03-29T00:00:00-07:00",
       "attributes": {
         "label": "March 29, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 38,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Java Recipes Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ef/da/06efda94-21ad-3dbe-6916-5a1973690304/AppIcon-1x_U007emarketing-0-4-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ef/da/06efda94-21ad-3dbe-6916-5a1973690304/AppIcon-1x_U007emarketing-0-4-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ef/da/06efda94-21ad-3dbe-6916-5a1973690304/AppIcon-1x_U007emarketing-0-4-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "• Contains a directory of standard, frequently used operations in Java and SQL queries.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Here you will find ready-made and proven code “recipes” that will help you quickly and efficiently solve emerging problems.\n\n• The application is a good tool when passing an exam or preparing for an interview, helping you study typical tasks.\n\n• One app for iOS and MacOS. Buy once and use on your phone, tablet or computer.\n\n• Quick search of the correct example by the code or by the name of topic. \n\n• All examples in the application are available offline. The application can be used when the Internet connection is not available.\n\n• As a developer, I use this application myself to increase the speed of my work.\n\nIf you can help translate the application into your language, please contact me by email."
+    },
+    "im:price": {
+      "label": "199.00 RUB",
+      "attributes": {
+        "amount": "199.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Obraztsov Fedor Alexandrovich"
+    },
+    "title": {
+      "label": "Java Recipes Pro - Fedor Obraztsov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/java-recipes-pro/id1576134529?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ed/32/3e/ed323e87-fcf4-0de6-eb27-0711d0208317/41591074-c649-484f-932e-2df8bf022408_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-07-13_at_10.25.30.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/java-recipes-pro/id1576134529?l=en&uo=2",
+      "attributes": {
+        "im:id": "1576134529",
+        "im:bundleId": "ru.obraztsov.codeSamplesJavaPro"
+      }
+    },
+    "im:artist": {
+      "label": "Fedor Obraztsov",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/fedor-obraztsov/id1012115119?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2021-07-12T00:00:00-07:00",
+      "attributes": {
+        "label": "July 12, 2021"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 39,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Rust Recipes Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c6/9d/87c69d17-4361-82d5-62f5-5c478547a101/AppIcon-1x_U007emarketing-0-4-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c6/9d/87c69d17-4361-82d5-62f5-5c478547a101/AppIcon-1x_U007emarketing-0-4-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c6/9d/87c69d17-4361-82d5-62f5-5c478547a101/AppIcon-1x_U007emarketing-0-4-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "• Contains a directory of standard, frequently used operations in Rust and SQL queries.\n\n• The best examples of codes from books and specific internet resources are selected in the program. Finding the best decision on the Internet may demand hours of working time. Ready for use and tested code \"recipes\" are included in the application.\n\n• One app for iOS and MacOS. Buy once and use on your phone, tablet or computer.\n\n• The application is a good tool when passing an exam or preparing for an interview, helping you study typical tasks.\n\n• All examples in the application are available offline. The application can be used when the Internet connection is not available.\n\n• Quick search of the correct example by the code or by the name of topic. \n\n• Being a developer, I use this program when I need to remember quickly how to solve a given task in one or another programming language.\n\nIf you can help translate the application into your language, please contact me by email."
+    },
+    "im:price": {
+      "label": "199.00 RUB",
+      "attributes": {
+        "amount": "199.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Obraztsov Fedor Alexandrovich"
+    },
+    "title": {
+      "label": "Rust Recipes Pro - Fedor Obraztsov"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/rust-recipes-pro/id6443946748?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/9e/c0/d19ec0d4-5d9d-f099-479e-c8c36a907ba5/c9de1b07-a064-4387-a2a5-87eee83b7b05_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2022-10-25_at_11.19.52.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/rust-recipes-pro/id6443946748?l=en&uo=2",
+      "attributes": {
+        "im:id": "6443946748",
+        "im:bundleId": "ru.obraztsov.codeSamplesRustPro"
+      }
+    },
+    "im:artist": {
+      "label": "Fedor Obraztsov",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/fedor-obraztsov/id1012115119?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-24T00:00:00-07:00",
+      "attributes": {
+        "label": "October 24, 2022"
       }
     }
   },
@@ -6128,108 +6128,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Arduino Bluetooth Pro"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "High-end, customizable, Bluetooth control for Arduino Projects\nConnect to and control your Arduino project with this easy-to-use Bluetooth Serial Monitor + Controller\nSend/Recieve Data - now even with custom voice commands utilizing speech recognition for keywords set by the user\n\nGreat for any IOT project\nCommand your Drones to take off\nTell your Smart Lights to Dance\nAsk your Robot to bring you a drink\nOr keep it simple and turn an LED on with nothing but your voice\n\nVery easy-to-use GUI\nAutomatically searches for Bluetooth Devices and Bluetooth-enabled Arduino boards or boards with a bluetooth module attached\nSend data as String format to your boards with whatever you programmed your Arduino to recognize and Receive data back in the Serial Monitor below\n\nNew features continually added, newest feature is Speech Recognition\n\nFor D-Pad:\nSet what Data string sends when each button is Pressed/Released (you can also leave onRelease() blank to send null)\n\nSuggestions on next features to add are welcome. Next in line are accelerometer control and if-statement controlled Data-sends for received response from the Arduino Device being controlled. If you have an idea leave it below or contact us."
-    },
-    "im:price": {
-      "label": "449.00 RUB",
-      "attributes": {
-        "amount": "449.00",
-        "currency": "RUB"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Bad Assassin Games 2022"
-    },
-    "title": {
-      "label": "Arduino Bluetooth Pro - Bad Assassin Games"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ru/app/arduino-bluetooth-pro/id1111181830?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/48/a3/3148a3ef-4fe0-6f93-39b4-7b2d3b956610/4c7c2b7d-3e39-4240-82cb-88251e8c69e9_hellothere121904.JPG/480x480bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ru/app/arduino-bluetooth-pro/id1111181830?l=en&uo=2",
-      "attributes": {
-        "im:id": "1111181830",
-        "im:bundleId": "com.vacantbuzzard.game89"
-      }
-    },
-    "im:artist": {
-      "label": "Bad Assassin Games",
-      "attributes": {
-        "href": "https://apps.apple.com/ru/developer/bad-assassin-games/id556279629?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-10-30T00:00:00-07:00",
-      "attributes": {
-        "label": "October 30, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ru",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 62,
-      "total": 100
-    },
-    "im:name": {
       "label": "HTMLSource"
     },
     "im:image": [
@@ -6328,7 +6226,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 63,
+      "index": 62,
       "total": 100
     },
     "im:name": {
@@ -6430,7 +6328,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 64,
+      "index": 63,
       "total": 100
     },
     "im:name": {
@@ -6532,7 +6430,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 65,
+      "index": 64,
       "total": 100
     },
     "im:name": {
@@ -6634,7 +6532,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 66,
+      "index": 65,
       "total": 100
     },
     "im:name": {
@@ -6736,7 +6634,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 67,
+      "index": 66,
       "total": 100
     },
     "im:name": {
@@ -6838,7 +6736,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 68,
+      "index": 67,
       "total": 100
     },
     "im:name": {
@@ -6940,7 +6838,7 @@
       "country_code": "ru",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 69,
+      "index": 68,
       "total": 100
     },
     "im:name": {
@@ -7034,6 +6932,108 @@
       "label": "2010-10-30T00:00:00-07:00",
       "attributes": {
         "label": "October 30, 2010"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ru",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 69,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Arduino Bluetooth Pro"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/9d/59/af9d5917-9e92-0789-3445-58a43e19c64e/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "High-end, customizable, Bluetooth control for Arduino Projects\nConnect to and control your Arduino project with this easy-to-use Bluetooth Serial Monitor + Controller\nSend/Recieve Data - now even with custom voice commands utilizing speech recognition for keywords set by the user\n\nGreat for any IOT project\nCommand your Drones to take off\nTell your Smart Lights to Dance\nAsk your Robot to bring you a drink\nOr keep it simple and turn an LED on with nothing but your voice\n\nVery easy-to-use GUI\nAutomatically searches for Bluetooth Devices and Bluetooth-enabled Arduino boards or boards with a bluetooth module attached\nSend data as String format to your boards with whatever you programmed your Arduino to recognize and Receive data back in the Serial Monitor below\n\nNew features continually added, newest feature is Speech Recognition\n\nFor D-Pad:\nSet what Data string sends when each button is Pressed/Released (you can also leave onRelease() blank to send null)\n\nSuggestions on next features to add are welcome. Next in line are accelerometer control and if-statement controlled Data-sends for received response from the Arduino Device being controlled. If you have an idea leave it below or contact us."
+    },
+    "im:price": {
+      "label": "449.00 RUB",
+      "attributes": {
+        "amount": "449.00",
+        "currency": "RUB"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Bad Assassin Games 2022"
+    },
+    "title": {
+      "label": "Arduino Bluetooth Pro - Bad Assassin Games"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ru/app/arduino-bluetooth-pro/id1111181830?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/48/a3/3148a3ef-4fe0-6f93-39b4-7b2d3b956610/4c7c2b7d-3e39-4240-82cb-88251e8c69e9_hellothere121904.JPG/480x480bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ru/app/arduino-bluetooth-pro/id1111181830?l=en&uo=2",
+      "attributes": {
+        "im:id": "1111181830",
+        "im:bundleId": "com.vacantbuzzard.game89"
+      }
+    },
+    "im:artist": {
+      "label": "Bad Assassin Games",
+      "attributes": {
+        "href": "https://apps.apple.com/ru/developer/bad-assassin-games/id556279629?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/ru/genre/ios-developer-tools/id6026?l=en&uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-10-30T00:00:00-07:00",
+      "attributes": {
+        "label": "October 30, 2022"
       }
     }
   },

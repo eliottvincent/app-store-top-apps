@@ -722,6 +722,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Docker Management"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- search images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
+    },
+    "im:price": {
+      "label": "6,99 €",
+      "attributes": {
+        "amount": "6.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© nevishs"
+    },
+    "title": {
+      "label": "Docker Management - Nevis Shkenza"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2",
+      "attributes": {
+        "im:id": "1527656144",
+        "im:bundleId": "com.nevishs.docker.ios"
+      }
+    },
+    "im:artist": {
+      "label": "Nevis Shkenza",
+      "attributes": {
+        "href": "https://apps.apple.com/be/developer/nevis-shkenza/id1268450891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2020-08-14T00:00:00-07:00",
+      "attributes": {
+        "label": "August 14, 2020"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "be",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 9,
+      "total": 99
+    },
+    "im:name": {
       "label": "Harbour - Docker Manager"
     },
     "im:image": [
@@ -820,7 +922,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 9,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -914,108 +1016,6 @@
       "label": "2021-06-01T00:00:00-07:00",
       "attributes": {
         "label": "June 1, 2021"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "be",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 10,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Docker Management"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/0f/75/560f7583-9a32-2bcf-5692-0c53fe622b4a/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Connect via ssh to your Linux/MacOS machine and manage your docker.\n\nThis application allows you to:\n- connect to multiple servers\n- list containers\n- create containers\n- start containers\n- stop containers\n- restart containers\n- remove containers\n- inspect containers\n- view resource usage of containers\n- view live logs of containers\n- enter shell of containers\n- list images\n- build images\n- search images\n- remove images\n- inspect images\n- connect through password or ssh key\n\nFeatures\n- server info is stored on phone only (the data is wiped out if app is removed)\n\nNOTE\nNo docker daemon or docker api is required to be enabled for this app, simply connect via ssh. It is strongly recommended NOT to open unnecessary ports on your server (such as enabling docker daemon) as it can expose your server to more security threads.\n\nQ/A\nQ: Why I can not connect with non-root users?\nA: The docker commands are executed by the app without \"sudo\" so you will need to add your non-root user to the docker group with the following command:\n       sudo usermod -aG docker $USER\n       sudo reboot\n\nQ: How to connect to Docker Desktop on MacOS?\nA: Since docker for MacOS is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /usr/local/bin/docker\n     Note: make sure to enable \"Remote login\" on your mac and start docker desktop in order to connect.\n\nQ: How to connect to Synology server?\nA: If non-root user, then add user to docker group on your server:\n       sudo synogroup --add docker $USER\n     Since docker for synology is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:\n       # for synology version 7.1.xxx or lower\n       /volume1/@appstore/Docker/usr/bin/docker\n       # for synology version 7.2.xxx or higher\n       /volume1/@appstore/ContainerManager/usr/bin/docker\n\nQ: How to connect to QNAP server?\nA: If non-root user, then add user to docker group on your server:\n       sudo addgroup $USER administrators\n     Since docker for QNAP is setup on different path, change it on my app by going to server information view, at the end of the page there is \"Advance Settings\" and set it to:  \n       /share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker\n\nFound a bug?\nSend an email to: nevis.applications@gmail.com"
-    },
-    "im:price": {
-      "label": "6,99 €",
-      "attributes": {
-        "amount": "6.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© nevishs"
-    },
-    "title": {
-      "label": "Docker Management - Nevis Shkenza"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/aa/ec/aaaaec73-8415-820a-f07d-1e8f7e7a3c76/c5d74c3d-cb38-402b-80d3-24c95cb98bcd_WhatsApp_Image_2022-12-09_at_12.16.28_U00281_U0029.jpeg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/be/app/docker-management/id1527656144?uo=2",
-      "attributes": {
-        "im:id": "1527656144",
-        "im:bundleId": "com.nevishs.docker.ios"
-      }
-    },
-    "im:artist": {
-      "label": "Nevis Shkenza",
-      "attributes": {
-        "href": "https://apps.apple.com/be/developer/nevis-shkenza/id1268450891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-08-14T00:00:00-07:00",
-      "attributes": {
-        "label": "August 14, 2020"
       }
     }
   },
@@ -1640,108 +1640,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Base64 Image Converter"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/da/a5/c9daa573-d008-b5e9-8dd2-d9f608754599/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/da/a5/c9daa573-d008-b5e9-8dd2-d9f608754599/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/da/a5/c9daa573-d008-b5e9-8dd2-d9f608754599/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Base64 Image Converter – Your Essential Image & Code Tool\n\nUnlock the power of base64 with the simplest, most intuitive image converter. Whether you're a developer, designer, or just curious about how images and code intertwine, Base64 Image Converter is your go-to solution.\n\nEffortless Conversions:\n\nEncode: Transform any image from your photo library into clean base64 code. Perfect for embedding images directly into HTML, CSS, or other web projects.\nDecode: Instantly convert base64 strings back into viewable image formats.\nClipboard Magic: Paste base64 code directly from your clipboard or copy encoded results with a single tap.\nImage Picker: Seamlessly choose images from your photo library or use your device's camera to capture new ones.\nPreview & Save:\n\nDual Preview: See both your original image and its base64 representation side-by-side.\nSave & Share: Save decoded images to your camera roll or share them directly with friends, colleagues, or your favorite apps.\nWhy Choose Base64 Image Converter?\n\nIntuitive Design: No confusing menus or complex settings – just pure, streamlined functionality.\nLightning Fast: Experience blazing fast conversions even with large image files.\nOffline Reliability: Convert images anytime, anywhere – no internet connection required.\nWho It's For:\n\nWeb Developers: Embed images directly into your code without relying on external file hosting.\nGraphic Designers: Share image previews as code snippets for easy collaboration.\nTech Enthusiasts: Explore the fascinating world of base64 encoding and decoding."
-    },
-    "im:price": {
-      "label": "0,99 €",
-      "attributes": {
-        "amount": "0.99",
-        "currency": "EUR"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2024 Marcin Slusarek"
-    },
-    "title": {
-      "label": "Base64 Image Converter - Marcin Slusarek"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/be/app/base64-image-converter/id6503717869?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/23/1d/ed231d62-9538-c581-bbfc-c5985d946c33/ca3824d4-f215-4a7b-b200-8feef5ae7a60_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-06-16_at_13.07.05.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/be/app/base64-image-converter/id6503717869?uo=2",
-      "attributes": {
-        "im:id": "6503717869",
-        "im:bundleId": "com.adianit.image-to-base64"
-      }
-    },
-    "im:artist": {
-      "label": "Marcin Slusarek",
-      "attributes": {
-        "href": "https://apps.apple.com/be/developer/marcin-slusarek/id1453324891?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6026",
-        "term": "Developer Tools",
-        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
-        "label": "Developer Tools"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2024-06-04T00:00:00-07:00",
-      "attributes": {
-        "label": "June 4, 2024"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "be",
-      "pricing": "paid",
-      "genre": "developer_tools",
-      "index": 18,
-      "total": 99
-    },
-    "im:name": {
       "label": "PasteMe - Pastebin Client"
     },
     "im:image": [
@@ -1840,7 +1738,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 19,
+      "index": 18,
       "total": 99
     },
     "im:name": {
@@ -1942,7 +1840,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 20,
+      "index": 19,
       "total": 99
     },
     "im:name": {
@@ -2044,7 +1942,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 21,
+      "index": 20,
       "total": 99
     },
     "im:name": {
@@ -2146,7 +2044,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 22,
+      "index": 21,
       "total": 99
     },
     "im:name": {
@@ -2248,7 +2146,7 @@
       "country_code": "be",
       "pricing": "paid",
       "genre": "developer_tools",
-      "index": 23,
+      "index": 22,
       "total": 99
     },
     "im:name": {
@@ -2342,6 +2240,108 @@
       "label": "2012-03-25T21:34:23-07:00",
       "attributes": {
         "label": "March 25, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "be",
+      "pricing": "paid",
+      "genre": "developer_tools",
+      "index": 23,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Base64 Image Converter"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/da/a5/c9daa573-d008-b5e9-8dd2-d9f608754599/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/da/a5/c9daa573-d008-b5e9-8dd2-d9f608754599/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/da/a5/c9daa573-d008-b5e9-8dd2-d9f608754599/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Base64 Image Converter – Your Essential Image & Code Tool\n\nUnlock the power of base64 with the simplest, most intuitive image converter. Whether you're a developer, designer, or just curious about how images and code intertwine, Base64 Image Converter is your go-to solution.\n\nEffortless Conversions:\n\nEncode: Transform any image from your photo library into clean base64 code. Perfect for embedding images directly into HTML, CSS, or other web projects.\nDecode: Instantly convert base64 strings back into viewable image formats.\nClipboard Magic: Paste base64 code directly from your clipboard or copy encoded results with a single tap.\nImage Picker: Seamlessly choose images from your photo library or use your device's camera to capture new ones.\nPreview & Save:\n\nDual Preview: See both your original image and its base64 representation side-by-side.\nSave & Share: Save decoded images to your camera roll or share them directly with friends, colleagues, or your favorite apps.\nWhy Choose Base64 Image Converter?\n\nIntuitive Design: No confusing menus or complex settings – just pure, streamlined functionality.\nLightning Fast: Experience blazing fast conversions even with large image files.\nOffline Reliability: Convert images anytime, anywhere – no internet connection required.\nWho It's For:\n\nWeb Developers: Embed images directly into your code without relying on external file hosting.\nGraphic Designers: Share image previews as code snippets for easy collaboration.\nTech Enthusiasts: Explore the fascinating world of base64 encoding and decoding."
+    },
+    "im:price": {
+      "label": "0,99 €",
+      "attributes": {
+        "amount": "0.99",
+        "currency": "EUR"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024 Marcin Slusarek"
+    },
+    "title": {
+      "label": "Base64 Image Converter - Marcin Slusarek"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/be/app/base64-image-converter/id6503717869?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/23/1d/ed231d62-9538-c581-bbfc-c5985d946c33/ca3824d4-f215-4a7b-b200-8feef5ae7a60_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-06-16_at_13.07.05.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/be/app/base64-image-converter/id6503717869?uo=2",
+      "attributes": {
+        "im:id": "6503717869",
+        "im:bundleId": "com.adianit.image-to-base64"
+      }
+    },
+    "im:artist": {
+      "label": "Marcin Slusarek",
+      "attributes": {
+        "href": "https://apps.apple.com/be/developer/marcin-slusarek/id1453324891?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6026",
+        "term": "Developer Tools",
+        "scheme": "https://apps.apple.com/be/genre/ios-developer-tools/id6026?uo=2",
+        "label": "Developer Tools"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-06-04T00:00:00-07:00",
+      "attributes": {
+        "label": "June 4, 2024"
       }
     }
   },
@@ -3196,9 +3196,9 @@
       "label": "RegEx Lab - test regular expressions\n\n• Highlighting of regex syntax and of matches and capture groups.\n• Choose the color of the match highlights\n• Results List View which lists all the matches and capture groups.\n• Replace feature\n• Dark theme (by default) based on the Solarized color palette\n• Themes to choose from (light/dark)\n• A handy cheatsheet which tells you about the different operators, option flags and metacharacters.\n• An extra row of keyboard keys for common special characters\n• Undo / Redo quick access buttons\n• Support for Dynamic Type (iOS Settings Text Size)\n• Export / Import feature\n\nQuestions, suggestions, issues?\nregexlab@sovio.co\n\nMade by Nikolay Suvandzhiev"
     },
     "im:price": {
-      "label": "1,99 €",
+      "label": "0,99 €",
       "attributes": {
-        "amount": "1.99",
+        "amount": "0.99",
         "currency": "EUR"
       }
     },

@@ -8,6 +8,108 @@
       "total": 99
     },
     "im:name": {
+      "label": "Yaba Sanshiro 2"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/10/ce/9e10ceaa-3736-37d5-9087-ae2589cf1590/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/10/ce/9e10ceaa-3736-37d5-9087-ae2589cf1590/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/10/ce/9e10ceaa-3736-37d5-9087-ae2589cf1590/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "'Yaba Sanshiro' has implemented SS hardware using software, allowing you to play SS games on iOS devices.\n\nFor copyright protection, 'Yaba Sanshiro' does not include BIOS data or games. You can play your games by following these instructions:\nYou can also check out this YouTube video. https://www.youtube.com/watch?v=VxHDJR2Xcf4\n\n# What You Need\n\n* iPhone 8 or above\n* Mac or PC\n* SS game CD-ROM\n* CD drive connected to your Mac or PC\n\n# Steps\n\n1) Dump the CD-ROM image from your own SEGA Saturn game CD-ROM. If you are using a PC, you can use our dumping tool. If you are using a Mac, follow these steps:\n   * Install the CD-ROM dump tool. AnyToISO Converter is recommended.\n   * Dump your CD-ROM. The .cue format is recommended.\n   * Install brew.\n   * Install chdman with this command:\n   \n   ```brew install rom-tools```\n\n   * Convert the CD-ROM image to a CHD file with this command. Replace [game file name] with the name you assigned to the CD-ROM image:\n   \n   ```chdman createcd -i [game file name].cue -o [game file name].chd```\n\n2) Transfer the CHD file to a location accessible by your iPhone. The iCloud Drive is the easiest option.\n\n3) Run YabaSanshiro on your iPhone.\n\n4) Tap the + button and select your CHD file.\n\n5) Tap the CHD file you added. The game will then start.\n\n---\n\n# Menu\n\nBy pressing the menu button, you can display the menu screen.\n\n## Exit\nReturn to the home screen.\n\n## Save State\nSave the current state.\n\n## Load State\nLoad a previously saved state.\n\n## Show Remap Controls (If you connect a gamepad)\nTap the button you want to assign, then press the gamepad button.\n\n## Adjust Controller\nAdjust the size of the on-screen controller.\n\n## Settings\n\n### Cartridge\nSelect the type of cartridge installed on your emulated SEGA Saturn. Backup RAM is an external backup RAM to save game data. RAM is an external RAM for specific games that require a large amount of RAM, like King of Fighters.\n\n### Show FPS\nShow or hide the Frames Per Second (FPS), which indicates the speed of emulation on your device. ‘60/60’ represents optimal performance, equivalent to the actual SEGA Saturn speed.\n\n### Frame Skip\nWhen FPS is less than 60, uoYabause skips frames to reach 60 FPS. If this option is enabled, YabaSanshiro may drop frames, which could disrupt the internal SEGA Saturn emulation. ‘Off’ is recommended for accurate emulation.\n\n### Force Landscape Mode\nAutomatically switch to landscape mode when emulation starts.\n\n### Rotate 90 Degrees\nThe screen is rendered rotating 90 degrees for some vertical scrolling games like 'RayForce'.\n\n### Keep Original Aspect Ratio\nIf this option is disabled, YabaSanshiro stretches to fill the entire screen. Otherwise, YabaSanshiro maintains the classic 4:3 screen size.\n\n### Rendering Resolution\n* Native - Native resolution of your iOS device.\n* 4x\n* 2x\n* Original - Original SS resolution.\n\n### Sound Engine\nYou can choose between 'High quality but heavy' or 'Low quality but light'.\n\n### Controller\nYabaSanshiro includes an on-screen gamepad, but you can also use MFI game controllers, which Apple officially supports.\n\n\n\nLicense: GNU GENERAL PUBLIC LICENSE Version 2 https://raw.githubusercontent.com/devmiyax/yabause/master/LICENSE\nSource Code: https://github.com/devmiyax/yabause\nPrivacy Policy: https://www.uoyabause.org/static_pages/privacy_policy"
+    },
+    "im:price": {
+      "label": "29,99 lei",
+      "attributes": {
+        "amount": "29.99",
+        "currency": "RON"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© devMiyax"
+    },
+    "title": {
+      "label": "Yaba Sanshiro 2 - Shinya Miyamoto"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ro/app/yaba-sanshiro-2/id1549144351?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/17/72/09177202-bc87-d023-1a89-d0c3b41eeb5d/6114a4c4-28aa-4f0e-9985-9dbcf7f09eaa_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-06_at_20.14.24.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ro/app/yaba-sanshiro-2/id1549144351?uo=2",
+      "attributes": {
+        "im:id": "1549144351",
+        "im:bundleId": "org.devMiyax.yabasanshiro2"
+      }
+    },
+    "im:artist": {
+      "label": "Shinya Miyamoto",
+      "attributes": {
+        "href": "https://apps.apple.com/ro/developer/shinya-miyamoto/id1549144353?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6016",
+        "term": "Entertainment",
+        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
+        "label": "Entertainment"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-08-02T00:00:00-07:00",
+      "attributes": {
+        "label": "August 2, 2024"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ro",
+      "pricing": "paid",
+      "genre": "entertainment",
+      "index": 2,
+      "total": 99
+    },
+    "im:name": {
       "label": "Ye said"
     },
     "im:image": [
@@ -106,7 +208,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 2,
+      "index": 3,
       "total": 99
     },
     "im:name": {
@@ -208,7 +310,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 3,
+      "index": 4,
       "total": 99
     },
     "im:name": {
@@ -310,7 +412,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 4,
+      "index": 5,
       "total": 99
     },
     "im:name": {
@@ -412,7 +514,109 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 5,
+      "index": 6,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Little Kitten Favorite Pet Cat"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/59/60/5e/59605e03-7dc3-b838-1c0f-51905b8a36b2/CatAppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/59/60/5e/59605e03-7dc3-b838-1c0f-51905b8a36b2/CatAppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/59/60/5e/59605e03-7dc3-b838-1c0f-51905b8a36b2/CatAppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Little Kitten is every child's dream pet - a cheeky, funny and adorable little friend. Take a ride on the airplane, shoot some hoops, play hide & seek and bed trampoline or get creative with paw painting - you can always have a great time with your kitten pal! Explore the kitten's world and discover cute animations, laugh with and care for your adorable, realistic pet.\nThe unique game-design encourages children to explore the room with minimal use of icons or menus. The 7 mini-games offer a wide variety of interactions and are designed so they appeal to a wide age range. The philosophy is not about winning, losing or competition, it's about having fun in a child-friendly environment and learning without even realizing it! Great Mini-Games with purpose!:\n\nCompatibility: The App doesn't support iPad2, iPhone 4s, iPad Mini1, iPod5 with iOS9\n\n1) Kitten Hide&Seek - encourages focus and attention.\n2) Paw Painting - creativity unleashed! Mix red, yellow, blue to get every imaginable colour - your child will learn realistic paint mixing, then come up with your own masterpiece using a paw print or a standard brush.\n3) Mouse & Cheese - Memorize where the zones are to sneak mouse past little kitten over to the cheese. Or just have some laughs seeing what happens when little kitten catches the mouse!\n4) Bed Trampoline - Discover all little kitten's hidden tricks and moves!\n5) Animal Puzzle - Educational 'mix and match' funny animal combinations to earn biscuits that you can then feed to your little kitten.\n6) Feeding - Each time you play a mini-game you receive cat food snacks, children love feeding the little kitten and watching it licking its lips and purr after a good feed! \n7) Cat-in-the-box - Educational 'hand-eye coordination' mini-game \n8) Balloon Popping - can you discovered all the different shapes?!\n\nNot using any text menus, the game can be easily navigated by young children. Parents have the option to limit screen time for their kids: after a chosen time, the kitten gets tired and goes to sleep.\nLittle Kitten is a high-tech app - using the latest 3d animation technology to create the visuals, it also uses cutting edge programming to maximize the user experience on your apple device. Enjoy the premium quality content in this original app brought to you by Squeakosaurus. For children 3-8 years.\n\n*  About Squeakosaurus *\nWe are a German based studio and the creators of the Little Kitten brand. We develop high-quality apps for children aged 2-8 years. We are parents ourselves and place great importance on creating child-friendly products that enrich our children's lives and promote learning. We work with selected highly skilled artists from around the world to produce outstanding products, because kids deserve the best!"
+    },
+    "im:price": {
+      "label": "29,99 lei",
+      "attributes": {
+        "amount": "29.99",
+        "currency": "RON"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Squeakosaurus"
+    },
+    "title": {
+      "label": "Little Kitten Favorite Pet Cat - Squeakosaurus ug & co. kg"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ro/app/little-kitten-favorite-pet-cat/id1171095810?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/91/3d/0e/913d0eba-ede8-6f56-a03f-d3126d3581da/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ro/app/little-kitten-favorite-pet-cat/id1171095810?uo=2",
+      "attributes": {
+        "im:id": "1171095810",
+        "im:bundleId": "com.foxandsheep.littlekitten"
+      }
+    },
+    "im:artist": {
+      "label": "Squeakosaurus ug & co. kg",
+      "attributes": {
+        "href": "https://apps.apple.com/ro/developer/squeakosaurus-ug-co-kg/id1474972853?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6016",
+        "term": "Entertainment",
+        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
+        "label": "Entertainment"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2017-01-03T01:00:13-07:00",
+      "attributes": {
+        "label": "January 3, 2017"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ro",
+      "pricing": "paid",
+      "genre": "entertainment",
+      "index": 7,
       "total": 99
     },
     "im:name": {
@@ -514,7 +718,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 6,
+      "index": 8,
       "total": 99
     },
     "im:name": {
@@ -616,7 +820,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 7,
+      "index": 9,
       "total": 99
     },
     "im:name": {
@@ -718,109 +922,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 8,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Soviet posters HD"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/03/5c/6a/035c6a41-4565-6f55-b554-7bf42fa49c98/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/03/5c/6a/035c6a41-4565-6f55-b554-7bf42fa49c98/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/03/5c/6a/035c6a41-4565-6f55-b554-7bf42fa49c98/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Large collection of old Russian and Soviet Union posters. \n\nA look back at the posters from that era creates a chronicled timeline of Soviet Union’s creation and evolution. Each and every major event in the life of the Soviet people is reflected in the legacy of socialist agitprop.\n\nSoviet posters have always kept pace with the times. They created images of role models for generations of Soviet workers and soldiers, exposed international warmongers and fought for world peace.\n\nKEY FEATURES \n- Universal compact app for iPad/iPhone/iPod\n- Easily search for posters \n- Favorites \n- Slideshow \n\n- Send pictures via email \n- Download HD pictures from server in Photo Album \n- Getting the HD version of each picture (from 2548*4226 to 7689*4215 pixels) via email \n\nEnjoy your viewing!"
-    },
-    "im:price": {
-      "label": "9,99 lei",
-      "attributes": {
-        "amount": "9.99",
-        "currency": "RON"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Macsoftex, 2022"
-    },
-    "title": {
-      "label": "Soviet posters HD - Macsoftex"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ro/app/soviet-posters-hd/id504170528?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ea/a7/46/eaa7467e-e6d0-7592-6ad9-f950b10dd6b6/307e9ae5-f55f-4fb6-b26f-ef668e33b0be_2g_ipad_1_en.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ro/app/soviet-posters-hd/id504170528?uo=2",
-      "attributes": {
-        "im:id": "504170528",
-        "im:bundleId": "com.evoapps.SovietPostersHD"
-      }
-    },
-    "im:artist": {
-      "label": "Macsoftex",
-      "attributes": {
-        "href": "https://apps.apple.com/ro/developer/macsoftex/id881813280?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6016",
-        "term": "Entertainment",
-        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
-        "label": "Entertainment"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-03-27T14:16:09-07:00",
-      "attributes": {
-        "label": "March 27, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ro",
-      "pricing": "paid",
-      "genre": "entertainment",
-      "index": 9,
+      "index": 10,
       "total": 99
     },
     "im:name": {
@@ -922,7 +1024,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 10,
+      "index": 11,
       "total": 99
     },
     "im:name": {
@@ -1024,7 +1126,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 11,
+      "index": 12,
       "total": 99
     },
     "im:name": {
@@ -1126,7 +1228,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 12,
+      "index": 13,
       "total": 99
     },
     "im:name": {
@@ -1228,7 +1330,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 13,
+      "index": 14,
       "total": 99
     },
     "im:name": {
@@ -1330,7 +1432,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 14,
+      "index": 15,
       "total": 99
     },
     "im:name": {
@@ -1424,108 +1526,6 @@
       "label": "2008-11-28T10:51:18-07:00",
       "attributes": {
         "label": "November 28, 2008"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ro",
-      "pricing": "paid",
-      "genre": "entertainment",
-      "index": 15,
-      "total": 99
-    },
-    "im:name": {
-      "label": "Little Kitten Favorite Pet Cat"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/59/60/5e/59605e03-7dc3-b838-1c0f-51905b8a36b2/CatAppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/59/60/5e/59605e03-7dc3-b838-1c0f-51905b8a36b2/CatAppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/59/60/5e/59605e03-7dc3-b838-1c0f-51905b8a36b2/CatAppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Little Kitten is every child's dream pet - a cheeky, funny and adorable little friend. Take a ride on the airplane, shoot some hoops, play hide & seek and bed trampoline or get creative with paw painting - you can always have a great time with your kitten pal! Explore the kitten's world and discover cute animations, laugh with and care for your adorable, realistic pet.\nThe unique game-design encourages children to explore the room with minimal use of icons or menus. The 7 mini-games offer a wide variety of interactions and are designed so they appeal to a wide age range. The philosophy is not about winning, losing or competition, it's about having fun in a child-friendly environment and learning without even realizing it! Great Mini-Games with purpose!:\n\nCompatibility: The App doesn't support iPad2, iPhone 4s, iPad Mini1, iPod5 with iOS9\n\n1) Kitten Hide&Seek - encourages focus and attention.\n2) Paw Painting - creativity unleashed! Mix red, yellow, blue to get every imaginable colour - your child will learn realistic paint mixing, then come up with your own masterpiece using a paw print or a standard brush.\n3) Mouse & Cheese - Memorize where the zones are to sneak mouse past little kitten over to the cheese. Or just have some laughs seeing what happens when little kitten catches the mouse!\n4) Bed Trampoline - Discover all little kitten's hidden tricks and moves!\n5) Animal Puzzle - Educational 'mix and match' funny animal combinations to earn biscuits that you can then feed to your little kitten.\n6) Feeding - Each time you play a mini-game you receive cat food snacks, children love feeding the little kitten and watching it licking its lips and purr after a good feed! \n7) Cat-in-the-box - Educational 'hand-eye coordination' mini-game \n8) Balloon Popping - can you discovered all the different shapes?!\n\nNot using any text menus, the game can be easily navigated by young children. Parents have the option to limit screen time for their kids: after a chosen time, the kitten gets tired and goes to sleep.\nLittle Kitten is a high-tech app - using the latest 3d animation technology to create the visuals, it also uses cutting edge programming to maximize the user experience on your apple device. Enjoy the premium quality content in this original app brought to you by Squeakosaurus. For children 3-8 years.\n\n*  About Squeakosaurus *\nWe are a German based studio and the creators of the Little Kitten brand. We develop high-quality apps for children aged 2-8 years. We are parents ourselves and place great importance on creating child-friendly products that enrich our children's lives and promote learning. We work with selected highly skilled artists from around the world to produce outstanding products, because kids deserve the best!"
-    },
-    "im:price": {
-      "label": "29,99 lei",
-      "attributes": {
-        "amount": "29.99",
-        "currency": "RON"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Squeakosaurus"
-    },
-    "title": {
-      "label": "Little Kitten Favorite Pet Cat - Squeakosaurus ug & co. kg"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ro/app/little-kitten-favorite-pet-cat/id1171095810?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/91/3d/0e/913d0eba-ede8-6f56-a03f-d3126d3581da/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ro/app/little-kitten-favorite-pet-cat/id1171095810?uo=2",
-      "attributes": {
-        "im:id": "1171095810",
-        "im:bundleId": "com.foxandsheep.littlekitten"
-      }
-    },
-    "im:artist": {
-      "label": "Squeakosaurus ug & co. kg",
-      "attributes": {
-        "href": "https://apps.apple.com/ro/developer/squeakosaurus-ug-co-kg/id1474972853?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6016",
-        "term": "Entertainment",
-        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
-        "label": "Entertainment"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2017-01-03T01:00:13-07:00",
-      "attributes": {
-        "label": "January 3, 2017"
       }
     }
   },
@@ -5006,108 +5006,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Radio - Receiver"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/32/00/2e/32002e69-a7e6-3fa3-1c7a-f2776b7ee8b1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/32/00/2e/32002e69-a7e6-3fa3-1c7a-f2776b7ee8b1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/32/00/2e/32002e69-a7e6-3fa3-1c7a-f2776b7ee8b1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Receiver is an Internet radio with over 40,000 radio stations, more than 25,000 podcasts, and a radio alarm clock.\n\nFeatures include:\n\n+ More than 40,000 radio stations\n+ More than 25,000 podcasts\n+ Add your own streams\n+ Search by genre, region, language, sound quality, popularity, etc.\n+ List of channels with high audio quality\n+ Sync favorites with your other devices\n\n+ Siri shortcuts\n+ HomePod support\n+ CarPlay support\n+ Apple Watch app\n+ Airplay and Chromecast support\n+ Dark Mode\n\n+ iMessage app to recommend a station\n+ Widget with your favourite stations\n\n+ Alarm clock (radio, music, sound) with any number of alarms\n+ Sleep Timer\n+ Snooze function\n\n+ Beautiful analog clock in landscape format\n+ Choose your individual look from 5 different colors\n+ Show song cover art (if available)\n\n+  Focused on supporting accessibility features such as \"Voice Over\" for the visually impaired\n\nWith Receiver you are always informed about the latest news from a wide variety of sources: sports, Bundesliga live, reports, radio plays, news, music, podcasts, reports, travel, weather and much more. Listen to stations like BBC, NPR, ESPN, Bestnetradio, KCRW, Radio Paradise and many more."
-    },
-    "im:price": {
-      "label": "19,99 lei",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "RON"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2009-2024 MAMP GmbH"
-    },
-    "title": {
-      "label": "Radio - Receiver - appsolute GmbH"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ro/app/radio-receiver/id311658127?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/88/fd/e4/88fde401-f8bc-bc4b-67e9-6b8e63cc7b92/mzl.lsnttrpf.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ro/app/radio-receiver/id311658127?uo=2",
-      "attributes": {
-        "im:id": "311658127",
-        "im:bundleId": "de.appsolute.vtuner"
-      }
-    },
-    "im:artist": {
-      "label": "appsolute GmbH",
-      "attributes": {
-        "href": "https://apps.apple.com/ro/developer/appsolute-gmbh/id284444551?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6016",
-        "term": "Entertainment",
-        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
-        "label": "Entertainment"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2009-04-16T14:50:03-07:00",
-      "attributes": {
-        "label": "April 16, 2009"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ro",
-      "pricing": "paid",
-      "genre": "entertainment",
-      "index": 51,
-      "total": 99
-    },
-    "im:name": {
       "label": "Nighty Night!"
     },
     "im:image": [
@@ -5198,6 +5096,108 @@
       "label": "2011-05-06T00:00:00-07:00",
       "attributes": {
         "label": "May 6, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ro",
+      "pricing": "paid",
+      "genre": "entertainment",
+      "index": 51,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Radio - Receiver"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/32/00/2e/32002e69-a7e6-3fa3-1c7a-f2776b7ee8b1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/32/00/2e/32002e69-a7e6-3fa3-1c7a-f2776b7ee8b1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/32/00/2e/32002e69-a7e6-3fa3-1c7a-f2776b7ee8b1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Receiver is an Internet radio with over 40,000 radio stations, more than 25,000 podcasts, and a radio alarm clock.\n\nFeatures include:\n\n+ More than 40,000 radio stations\n+ More than 25,000 podcasts\n+ Add your own streams\n+ Search by genre, region, language, sound quality, popularity, etc.\n+ List of channels with high audio quality\n+ Sync favorites with your other devices\n\n+ Siri shortcuts\n+ HomePod support\n+ CarPlay support\n+ Apple Watch app\n+ Airplay and Chromecast support\n+ Dark Mode\n\n+ iMessage app to recommend a station\n+ Widget with your favourite stations\n\n+ Alarm clock (radio, music, sound) with any number of alarms\n+ Sleep Timer\n+ Snooze function\n\n+ Beautiful analog clock in landscape format\n+ Choose your individual look from 5 different colors\n+ Show song cover art (if available)\n\n+  Focused on supporting accessibility features such as \"Voice Over\" for the visually impaired\n\nWith Receiver you are always informed about the latest news from a wide variety of sources: sports, Bundesliga live, reports, radio plays, news, music, podcasts, reports, travel, weather and much more. Listen to stations like BBC, NPR, ESPN, Bestnetradio, KCRW, Radio Paradise and many more."
+    },
+    "im:price": {
+      "label": "19,99 lei",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "RON"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2009-2024 MAMP GmbH"
+    },
+    "title": {
+      "label": "Radio - Receiver - appsolute GmbH"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ro/app/radio-receiver/id311658127?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/88/fd/e4/88fde401-f8bc-bc4b-67e9-6b8e63cc7b92/mzl.lsnttrpf.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ro/app/radio-receiver/id311658127?uo=2",
+      "attributes": {
+        "im:id": "311658127",
+        "im:bundleId": "de.appsolute.vtuner"
+      }
+    },
+    "im:artist": {
+      "label": "appsolute GmbH",
+      "attributes": {
+        "href": "https://apps.apple.com/ro/developer/appsolute-gmbh/id284444551?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6016",
+        "term": "Entertainment",
+        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
+        "label": "Entertainment"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2009-04-16T14:50:03-07:00",
+      "attributes": {
+        "label": "April 16, 2009"
       }
     }
   },
@@ -5312,108 +5312,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Popcorn - Movies, TV Series"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a1/03/28/a1032856-5366-e766-c674-ce324723ac9b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a1/03/28/a1032856-5366-e766-c674-ce324723ac9b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a1/03/28/a1032856-5366-e766-c674-ce324723ac9b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "NO ADS! NOW 100% AD-FREE\n\nYou've heard about it, and here it is.\nMovies online catalogs,\nNew movies for descriptions"
-    },
-    "im:price": {
-      "label": "19,99 lei",
-      "attributes": {
-        "amount": "19.99",
-        "currency": "RON"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Danilo Oliveira"
-    },
-    "title": {
-      "label": "Popcorn - Movies, TV Series - Danilo Oliveira"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ro/app/popcorn-movies-tv-series/id1165981655?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/bb/9b/90/bb9b9042-6452-efad-784c-bee6f43d7448/2f708366-f293-41d3-9839-ee3504e5ac65_Simulator_Screen_Shot_-_iPad_Pro__U00289.7-inch_U0029_-_2021-04-20_at_15.09.45.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ro/app/popcorn-movies-tv-series/id1165981655?uo=2",
-      "attributes": {
-        "im:id": "1165981655",
-        "im:bundleId": "danilo.oliveira.Popcorn-Movie"
-      }
-    },
-    "im:artist": {
-      "label": "Danilo Oliveira",
-      "attributes": {
-        "href": "https://apps.apple.com/ro/developer/danilo-oliveira/id1161142847?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6016",
-        "term": "Entertainment",
-        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
-        "label": "Entertainment"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-10-18T09:55:00-07:00",
-      "attributes": {
-        "label": "October 18, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ro",
-      "pricing": "paid",
-      "genre": "entertainment",
-      "index": 54,
-      "total": 99
-    },
-    "im:name": {
       "label": "Animation Creator"
     },
     "im:image": [
@@ -5504,6 +5402,108 @@
       "label": "2009-07-27T14:43:48-07:00",
       "attributes": {
         "label": "July 27, 2009"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ro",
+      "pricing": "paid",
+      "genre": "entertainment",
+      "index": 54,
+      "total": 99
+    },
+    "im:name": {
+      "label": "Popcorn - Movies, TV Series"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a1/03/28/a1032856-5366-e766-c674-ce324723ac9b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a1/03/28/a1032856-5366-e766-c674-ce324723ac9b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a1/03/28/a1032856-5366-e766-c674-ce324723ac9b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "NO ADS! NOW 100% AD-FREE\n\nYou've heard about it, and here it is.\nMovies online catalogs,\nNew movies for descriptions"
+    },
+    "im:price": {
+      "label": "19,99 lei",
+      "attributes": {
+        "amount": "19.99",
+        "currency": "RON"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Danilo Oliveira"
+    },
+    "title": {
+      "label": "Popcorn - Movies, TV Series - Danilo Oliveira"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ro/app/popcorn-movies-tv-series/id1165981655?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/bb/9b/90/bb9b9042-6452-efad-784c-bee6f43d7448/2f708366-f293-41d3-9839-ee3504e5ac65_Simulator_Screen_Shot_-_iPad_Pro__U00289.7-inch_U0029_-_2021-04-20_at_15.09.45.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ro/app/popcorn-movies-tv-series/id1165981655?uo=2",
+      "attributes": {
+        "im:id": "1165981655",
+        "im:bundleId": "danilo.oliveira.Popcorn-Movie"
+      }
+    },
+    "im:artist": {
+      "label": "Danilo Oliveira",
+      "attributes": {
+        "href": "https://apps.apple.com/ro/developer/danilo-oliveira/id1161142847?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6016",
+        "term": "Entertainment",
+        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
+        "label": "Entertainment"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-10-18T09:55:00-07:00",
+      "attributes": {
+        "label": "October 18, 2016"
       }
     }
   },
@@ -9480,108 +9480,6 @@
       "total": 99
     },
     "im:name": {
-      "label": "Human Benchmarks - Brain Test"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/ef/a7/65efa771-b5dc-cd23-b4e3-8f9d4930f7a6/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/ef/a7/65efa771-b5dc-cd23-b4e3-8f9d4930f7a6/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/ef/a7/65efa771-b5dc-cd23-b4e3-8f9d4930f7a6/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Human benchmark App is the perfect way to challenge and improve your cognitive skills, and it offers a variety of tests and training modes to help you do just that. With the app's Chimp Test, you can measure your working memory and see how you stack up against others in your age group. The Verbal Memory and Sequence Memory tests are great for improving memory and cognitive skills. And with the Hearing test, you can check your ability to hear high-frequency sounds.\n\n     The app also offers a Reaction Test, which is a great way to improve your reaction time and hand-eye coordination. And with the Number Memory test, you can work on your ability to remember and recall sequences of numbers.\n\n     Whether you're looking to improve your cognitive skills for work, school, or just for personal development, Human benchmark App has something for everyone. With its personalized training plans and challenge modes, you can work on your weaknesses and build on your strengths. So why wait? Download Human benchmark App today and start improving your cognitive abilities!"
-    },
-    "im:price": {
-      "label": "4,99 lei",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "RON"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Stephen Zhu"
-    },
-    "title": {
-      "label": "Human Benchmarks - Brain Test - 爽 朱"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/ro/app/human-benchmarks-brain-test/id1494900905?uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/e5/44/dae54443-f0e0-f7fc-2fbe-4287acc8ba42/991f9d04-bff5-4799-89e1-0997e4492e92_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/ro/app/human-benchmarks-brain-test/id1494900905?uo=2",
-      "attributes": {
-        "im:id": "1494900905",
-        "im:bundleId": "org.stephen.humanBenchmark"
-      }
-    },
-    "im:artist": {
-      "label": "爽 朱",
-      "attributes": {
-        "href": "https://apps.apple.com/ro/developer/%E7%88%BD-%E6%9C%B1/id1490259333?uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6016",
-        "term": "Entertainment",
-        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
-        "label": "Entertainment"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2020-01-30T00:00:00-07:00",
-      "attributes": {
-        "label": "January 30, 2020"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "ro",
-      "pricing": "paid",
-      "genre": "entertainment",
-      "index": 95,
-      "total": 99
-    },
-    "im:name": {
       "label": "Blind Spot Oracle Cards"
     },
     "im:image": [
@@ -9680,7 +9578,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 96,
+      "index": 95,
       "total": 99
     },
     "im:name": {
@@ -9782,7 +9680,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 97,
+      "index": 96,
       "total": 99
     },
     "im:name": {
@@ -9884,7 +9782,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 98,
+      "index": 97,
       "total": 99
     },
     "im:name": {
@@ -9986,7 +9884,7 @@
       "country_code": "ro",
       "pricing": "paid",
       "genre": "entertainment",
-      "index": 99,
+      "index": 98,
       "total": 99
     },
     "im:name": {
@@ -10080,6 +9978,108 @@
       "label": "2011-05-21T23:20:04-07:00",
       "attributes": {
         "label": "May 21, 2011"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "ro",
+      "pricing": "paid",
+      "genre": "entertainment",
+      "index": 99,
+      "total": 99
+    },
+    "im:name": {
+      "label": "iRetroPhone - Rotary Dialer"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/fe/df/40fedf77-efa8-32e4-9523-c5541a1211bb/AppIcon-0-0-1x_U007ephone-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/fe/df/40fedf77-efa8-32e4-9523-c5541a1211bb/AppIcon-0-0-1x_U007ephone-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/fe/df/40fedf77-efa8-32e4-9523-c5541a1211bb/AppIcon-0-0-1x_U007ephone-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Take your iphone back to the 20th Century.\n\n\"And iRetroPhone, the goofiest $2.99 I’ve spent so far, draws an old-fashioned rotary dial on the screen.\"\n                                            -  Saul Hansell (New York Times - Bits Blog)\n\nRetro Rotary Dial Phone Application for your iphone (And it really works!!)\nAs one of the inaugural apps to grace the App Store, iRetroPhone set a precedent for creativity and uniqueness in mobile applications. \n\nExperience the Magic of Rotary Dialing\nWith iRetroPhone, we've meticulously recreated the tactile and auditory sensations of the classic rotary dialer. Every spin of the dial, every click, brings with it a wave of nostalgia, transporting users to a simpler time where every call was an experience in itself.\n\nFeatures That Dial Back Time:\n- Authentic Rotary Interface: Designed to mimic the look and feel of vintage rotary phones, providing an immersive retro experience.\n- Dial-Up Sound Effects: High-quality, realistic sound effects that replicate the mechanical sounds of a rotary dialer.\n- Customizable Skins: Choose from a variety of classic phone models to personalize your iRetroPhone experience.\n\nCheck our website (http://www.iRetroPhone.com) for the latest demo movie."
+    },
+    "im:price": {
+      "label": "4,99 lei",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "RON"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© ObjectGraph LLC"
+    },
+    "title": {
+      "label": "iRetroPhone - Rotary Dialer - ObjectGraph LLC"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/ro/app/iretrophone-rotary-dialer/id284700702?uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/b0/79/aab0791b-b2e6-9b80-022f-4f75b620eb74/64e6883a-39d4-484b-8475-9470862e4f95_iPhone_5.5_U0022_Display_-_Apple_iPhone_14_Pro_6.1-inch_-_Screenshot2.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/ro/app/iretrophone-rotary-dialer/id284700702?uo=2",
+      "attributes": {
+        "im:id": "284700702",
+        "im:bundleId": "com.objectgraph.iRetroPhone"
+      }
+    },
+    "im:artist": {
+      "label": "ObjectGraph LLC",
+      "attributes": {
+        "href": "https://apps.apple.com/ro/developer/objectgraph-llc/id284700705?uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6016",
+        "term": "Entertainment",
+        "scheme": "https://apps.apple.com/ro/genre/ios-entertainment/id6016?uo=2",
+        "label": "Entertainment"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-04-08T00:00:00-07:00",
+      "attributes": {
+        "label": "April 8, 2024"
       }
     }
   }

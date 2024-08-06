@@ -110,108 +110,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Odrid HMI"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fd/86/85/fd8685ad-14b0-d75a-becc-212a3351d6a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fd/86/85/fd8685ad-14b0-d75a-becc-212a3351d6a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fd/86/85/fd8685ad-14b0-d75a-becc-212a3351d6a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Operator panel for various industrial control system. Communication over Wi-Fi or mobile internet with the protocols Modbus/TCP (Class 0 and 1), Modbus RTU class 1 and Siemens S7 Communication (ISO-on-TCP).\n\nOdrid HMI is an alternative to traditional SCADA systems and operator panels. The app supports multiple data types and has easy navigation between pages using swipe gestures or buttons.\n\nOdrid HMI is also great to use for home automation with PLCs that have e.g. Modbus/TCP protocol is implemented to remotely control and monitor lighting, ventilation, heating etc in the residence or holiday home.\n\nAdvantages:\n\nExcellent technical support.\nFree updates.\nGraphic HMIs with multi touch function can be created in minutes.\nFree-of-charge development tool with test run feature.\nVirtually unlimited number of pages, objects and variables.\nDoes not require any third-party services.\nGenuine native app.\n\nFeatures:\n\nParameters for communication such as IP address, port number, protocol, etc. can be specified per page.\nAutomatic polling of all variables displayed in the current page, no need for separate tag list.\nMany formats for numeric variables such as 16 and 32 bit integer, unsigned, hex, ASCII, float (IEEE 754), etc.\nPrioritized event-driven transfer to the controller.\nPages are edited in the measurement unit dp (Density Independent Pixels).\nLife bit for monitoring the operator panel in the controller. (Function similar to coordination area in Siemens S7.)\nNumeric variables can be displayed as predefined text for example alarms, sequence steps etc.\nDetailed diagnostics of connection and communication.\nVariable areas for system variables, local variables and constants.\nPossibility of automatic return to the start page after some time of inactivity.\nSelectable order for high and low words of 32-bit variables in the Modbus protocol.\nPoll interval can be set do save data traffic or battery.\nSupport for Baltic, Central European, Chinese (GB2312, BIG5), Cyrillic, Eastern European, Greek, Hebrew, Japanese (Shift JIS), Turkish, Vietnamese and Western character sets.\nAbility to test run pages in the development tool.\nLED-objects can be displayed as rectangles and in any size e.g. for Andon-systems.\nBackground color for pages can be selected.\nModbus Device ID can be changed with GUI objects during operation.\nImage buttons.\nPassword fields.\nFloating point and hexadecimal number formatting.\nTimestamp for page files.\nHyperlinks.\nDocument information in page files.\n\nImplemented protocols in the current version:\n\nModbus/TCP: Class 0, Function 3 and 16. Reads and writes 64,512 holding registers.\n\nModbus/TCP: Class 1, Function 1, 2, 4 and 5. Reads 65,535 discrete inputs, 65,535 input registers and reads and writes 65,535 outputs (coils).\n\nModbus RTU: Class 0 and 1.\n\nSiemens S7 Communication: Reads and writes 8192 bytes in datablock 1 to 4095 and in the Input, Memory and Output areas.\n\n(Default value for highest Siemens S7 databock is 255.)\n\nFree-of-charge development tool for creating the pages to be used by Odrid HMI:\nhttps://www.idea-teknik.com/odrid_hmi_download.html\n\nManual:\nhttps://www.idea-teknik.com/odrid_hmi_manual.html\n\nVersion history:\nhttps://www.idea-teknik.com/odrid_hmi_version_history.html\n\nModbus and Modbus/TCP are registered trademarks of Schneider Automation Inc.\n\nS7 and STEP 7 are trademarks of Siemens AG."
-    },
-    "im:price": {
-      "label": "USD 4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2007 - 2024. Jan Almqvist / IDEA-Teknik"
-    },
-    "title": {
-      "label": "Odrid HMI - Jan Almqvist"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/py/app/odrid-hmi/id1066799333?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/93/4f/7f/934f7fbd-4666-c1da-0b54-a53c37a2932f/mzl.dhumdclt.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/py/app/odrid-hmi/id1066799333?l=en&uo=2",
-      "attributes": {
-        "im:id": "1066799333",
-        "im:bundleId": "se.ideautomation.Odrid-HMI"
-      }
-    },
-    "im:artist": {
-      "label": "Jan Almqvist",
-      "attributes": {
-        "href": "https://apps.apple.com/py/developer/jan-almqvist/id1061683330?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2015-12-17T08:37:24-07:00",
-      "attributes": {
-        "label": "December 17, 2015"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "py",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 3,
-      "total": 100
-    },
-    "im:name": {
       "label": "Forest: Focus for Productivity"
     },
     "im:image": [
@@ -310,7 +208,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 4,
+      "index": 3,
       "total": 100
     },
     "im:name": {
@@ -412,7 +310,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 5,
+      "index": 4,
       "total": 100
     },
     "im:name": {
@@ -514,7 +412,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 6,
+      "index": 5,
       "total": 100
     },
     "im:name": {
@@ -616,7 +514,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 7,
+      "index": 6,
       "total": 100
     },
     "im:name": {
@@ -718,7 +616,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 8,
+      "index": 7,
       "total": 100
     },
     "im:name": {
@@ -820,7 +718,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 9,
+      "index": 8,
       "total": 100
     },
     "im:name": {
@@ -922,7 +820,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 10,
+      "index": 9,
       "total": 100
     },
     "im:name": {
@@ -1024,7 +922,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 11,
+      "index": 10,
       "total": 100
     },
     "im:name": {
@@ -1126,7 +1024,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 12,
+      "index": 11,
       "total": 100
     },
     "im:name": {
@@ -1228,7 +1126,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 13,
+      "index": 12,
       "total": 100
     },
     "im:name": {
@@ -1330,109 +1228,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 14,
-      "total": 100
-    },
-    "im:name": {
-      "label": "Zoiper Premium voip soft phone"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/b6/5e/8ab65eec-09ab-71a3-6bf9-1b7dbc84a024/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/b6/5e/8ab65eec-09ab-71a3-6bf9-1b7dbc84a024/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/b6/5e/8ab65eec-09ab-71a3-6bf9-1b7dbc84a024/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Zoiper is an easy to use sip video softphone, with excellent voice quality and easy to setup.  \n \nFeel free to contact us with support questions or for more information on whitelabel solutions.\n\nConnect Zoiper to your PBX or voip provider and make crystal clear, echo free, voice or video calls through wireless and 3g.  \n\nZoiper works flawlessly in the background and is optimized to use as little battery as possible while ensuring the reliability of incoming calls.  \n\nUse bluetooth to pair the Zoiper SIP softphone to your car audio system or your headset and enjoy voip on the go.\n\n  This softphone comes with a built in QR code scanner for 1 click account configurations. Never type account details and credentials again! \n\nTry it for 7 days free! Subscription is not charged if cancelled within trial period. Please note that the in-app subscription purchases are not supported through Family Sharing.\n\n1-Year Subscription: $9.99, 1 month $0.99 USD, automatically renewed until cancelled by the user.\nAdditional Subscription Information:\n• Subscriptions will be automatically renewed within 24-hours prior to following subscription period. Please check user's Account Setting to disable the auto-renewal.\n\nFeatures:\n - Call waiting\n- Call transfer\n- Call statistics  \n- Call recording\n- Conference calls\n- Instant messaging (SIP simple)\n- Presence (SIP simple)\n- Encryption (TLS / ZRTP)\n\nSupported codecs:\n - g.711 (ulaw/alaw)\n- OPUS\n- G722\n- G.722.1\n- G.722.1C\n - Speex\n - iLBC\n - gsm \n- g.729*\n - vp8 \n- h264*\n\n  * The 3rd party patented codecs h264 and g729 are available as optional in app purchase.    \n\nZoiper is also available as an OEM / whitelabel solution license and can be customized on demand.\n\nBe sure to configure ios to allow notifications for incoming calls for Zoiper and provide access to the contact list.\n\nFor more information on Zoiper’s features, please visit: https://www.zoiper.com/en/products/zoiperios\nTerms of use: https://www.zoiper.com/en/zoiper-general-terms\nPrivacy Policy: https://www.zoiper.com/en/zoiper-privacy-policy\n\nRegarding the subscriptions:\n\n• Payment will be charged to iTunes Account at confirmation of purchase\n• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period\n• Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal\n• Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable"
-    },
-    "im:price": {
-      "label": "USD 4.99",
-      "attributes": {
-        "amount": "4.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Securax"
-    },
-    "title": {
-      "label": "Zoiper Premium voip soft phone - Securax Ltd."
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/py/app/zoiper-premium-voip-soft-phone/id787863350?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/8b/3d/0f/8b3d0fce-5ba9-e2a5-e1b0-f055965966d1/mzl.wpydisnl.png/480x480bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/py/app/zoiper-premium-voip-soft-phone/id787863350?l=en&uo=2",
-      "attributes": {
-        "im:id": "787863350",
-        "im:bundleId": "com.zoiper.zoiperiphonepremium"
-      }
-    },
-    "im:artist": {
-      "label": "Securax Ltd.",
-      "attributes": {
-        "href": "https://apps.apple.com/py/developer/securax-ltd/id415872143?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2014-01-06T14:57:27-07:00",
-      "attributes": {
-        "label": "January 6, 2014"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "py",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 15,
+      "index": 13,
       "total": 100
     },
     "im:name": {
@@ -1534,7 +1330,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 16,
+      "index": 14,
       "total": 100
     },
     "im:name": {
@@ -1636,7 +1432,109 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 17,
+      "index": 15,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Zoiper Premium voip soft phone"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/b6/5e/8ab65eec-09ab-71a3-6bf9-1b7dbc84a024/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/b6/5e/8ab65eec-09ab-71a3-6bf9-1b7dbc84a024/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/b6/5e/8ab65eec-09ab-71a3-6bf9-1b7dbc84a024/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Zoiper is an easy to use sip video softphone, with excellent voice quality and easy to setup.  \n \nFeel free to contact us with support questions or for more information on whitelabel solutions.\n\nConnect Zoiper to your PBX or voip provider and make crystal clear, echo free, voice or video calls through wireless and 3g.  \n\nZoiper works flawlessly in the background and is optimized to use as little battery as possible while ensuring the reliability of incoming calls.  \n\nUse bluetooth to pair the Zoiper SIP softphone to your car audio system or your headset and enjoy voip on the go.\n\n  This softphone comes with a built in QR code scanner for 1 click account configurations. Never type account details and credentials again! \n\nTry it for 7 days free! Subscription is not charged if cancelled within trial period. Please note that the in-app subscription purchases are not supported through Family Sharing.\n\n1-Year Subscription: $9.99, 1 month $0.99 USD, automatically renewed until cancelled by the user.\nAdditional Subscription Information:\n• Subscriptions will be automatically renewed within 24-hours prior to following subscription period. Please check user's Account Setting to disable the auto-renewal.\n\nFeatures:\n - Call waiting\n- Call transfer\n- Call statistics  \n- Call recording\n- Conference calls\n- Instant messaging (SIP simple)\n- Presence (SIP simple)\n- Encryption (TLS / ZRTP)\n\nSupported codecs:\n - g.711 (ulaw/alaw)\n- OPUS\n- G722\n- G.722.1\n- G.722.1C\n - Speex\n - iLBC\n - gsm \n- g.729*\n - vp8 \n- h264*\n\n  * The 3rd party patented codecs h264 and g729 are available as optional in app purchase.    \n\nZoiper is also available as an OEM / whitelabel solution license and can be customized on demand.\n\nBe sure to configure ios to allow notifications for incoming calls for Zoiper and provide access to the contact list.\n\nFor more information on Zoiper’s features, please visit: https://www.zoiper.com/en/products/zoiperios\nTerms of use: https://www.zoiper.com/en/zoiper-general-terms\nPrivacy Policy: https://www.zoiper.com/en/zoiper-privacy-policy\n\nRegarding the subscriptions:\n\n• Payment will be charged to iTunes Account at confirmation of purchase\n• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period\n• Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal\n• Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable"
+    },
+    "im:price": {
+      "label": "USD 4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Securax"
+    },
+    "title": {
+      "label": "Zoiper Premium voip soft phone - Securax Ltd."
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/py/app/zoiper-premium-voip-soft-phone/id787863350?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/8b/3d/0f/8b3d0fce-5ba9-e2a5-e1b0-f055965966d1/mzl.wpydisnl.png/480x480bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/py/app/zoiper-premium-voip-soft-phone/id787863350?l=en&uo=2",
+      "attributes": {
+        "im:id": "787863350",
+        "im:bundleId": "com.zoiper.zoiperiphonepremium"
+      }
+    },
+    "im:artist": {
+      "label": "Securax Ltd.",
+      "attributes": {
+        "href": "https://apps.apple.com/py/developer/securax-ltd/id415872143?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2014-01-06T14:57:27-07:00",
+      "attributes": {
+        "label": "January 6, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "py",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 16,
       "total": 100
     },
     "im:name": {
@@ -1738,7 +1636,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 18,
+      "index": 17,
       "total": 100
     },
     "im:name": {
@@ -1840,109 +1738,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 19,
-      "total": 100
-    },
-    "im:name": {
-      "label": "eDrawings"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/59/b2/d859b2b2-cbaa-d081-5acd-31b7e0082879/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/59/b2/d859b2b2-cbaa-d081-5acd-31b7e0082879/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/59/b2/d859b2b2-cbaa-d081-5acd-31b7e0082879/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "eDrawings® is the only CAD viewer on iPad, iPad mini, iPhone and iPod Touch that allows you to view native eDrawings files as well as native SolidWorks® parts, assemblies and drawings files. In addition, eDrawings allows convenient viewing of DWG and DXF files.\n\neDrawings includes Augmented Reality (AR). This allows you to view your 3D models in 1:1 scale into the real world. By simply activating the device’s camera, you can bring your virtual 3D designs in a real context and see them in situ, sitting on your desk or on your conference room table or even in the palm of your hand, through your iPad, Pad mini, iPhone or iPod Touch’s screen. Move around the room and see your design from any perspective.\n\neDrawings is the email-enabled communication tool that dramatically eases sharing of product design information. You can load and send files via email to collaborate more effectively with everyone involved in product development, including people who are not regular CAD software users to interpret and understand 2D and 3D designs.\n\nMulti-touch gestures let you pan, zoom, and rotate models easily. eDrawings also supports configurations, drawing sheets, and exploded views for eDrawings files published from SolidWorks® and all other supported CAD software.\n\nFeatures:\n* Intuitive and easy-to-use user interface\n* Visualize your 3D models in real context with Augmented Reality (AR)\n* Open 3D (EASM, EPRT, SLDASM, SLDPRT, IGES, IGS, JT, STEP, STP, IFC), 2D (EDRW, SLDDRW, DWG, DXF) and associated files from any source: email attachments, cloud storage services (Dropbox™, SkyDrive®, Google Drive, YouSendIt®, and others), web and FTP sites, networks, and iTunes® File Sharing. \n* Zoom, pan and rotate your 2D or 3D CAD data using multi-touch\n* Animate 3D standard views as well as 2D drawing views.\n* Browse your assembly components tree, configurations and drawing sheets\n* View your designs in full screen and double tap to fit it on screen\n* Adapt the scale of your 3D model in AR mode\n* Freeze the background in AR mode with viewpoint lock to prolong AR experience without holding up your device.\n* Sample files included\n\nFor more information, visit:\nhttp://www.edrawingsviewer.com"
-    },
-    "im:price": {
-      "label": "USD 1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 1999-2024 Dassault Systemes SolidWorks Corporation"
-    },
-    "title": {
-      "label": "eDrawings - Dassault Systemes SolidWorks Corporation"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/py/app/edrawings/id520231936?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/8d/1a/c88d1adf-06ce-5c18-55dd-2dc9bbc1b9c7/mzl.iqtznkyx.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/py/app/edrawings/id520231936?l=en&uo=2",
-      "attributes": {
-        "im:id": "520231936",
-        "im:bundleId": "com.solidworks.edrawings"
-      }
-    },
-    "im:artist": {
-      "label": "Dassault Systemes SolidWorks Corporation",
-      "attributes": {
-        "href": "https://apps.apple.com/py/developer/dassault-systemes-solidworks-corporation/id520231939?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-05-01T00:00:00-07:00",
-      "attributes": {
-        "label": "May 1, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "py",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 20,
+      "index": 18,
       "total": 100
     },
     "im:name": {
@@ -2036,6 +1832,210 @@
       "label": "2014-05-07T15:40:17-07:00",
       "attributes": {
         "label": "May 7, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "py",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 19,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Rocket Video Cast"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/46/2d/08/462d08b0-01be-b38f-2f43-147edef41b04/AppIcon-1x_U007emarketing-0-7-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/46/2d/08/462d08b0-01be-b38f-2f43-147edef41b04/AppIcon-1x_U007emarketing-0-7-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/46/2d/08/462d08b0-01be-b38f-2f43-147edef41b04/AppIcon-1x_U007emarketing-0-7-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Unleash your TV with Rocket Video Cast. With Rocket you can browse the web and stream any web video on your TV.\n\nRocket is also a fully featured file manager that allows you to store files to your iOS device. You can then view the stored files right on your device offline or transfer them to your computer, and of course you can cast your stored videos to your big screen, just copy them into the app using iTunes File Sharing.\n\nFeatures: \n- Cast videos from all major streaming video sites\n- Cast from major file sharing sites\n- Full featured web browser \n- Start screen with the most frequent visited history entry's \n- Open saved tabs on startup\n- Real-time search in your browsing history, bookmarks and tabs \n- Search engine integration in the Address bar \n- Share URL's via Twitter, Mail \n- Search in the website \n- Passcode protected\n- FTP Server to transfer files in and out of the app\n- FIle Manager to organize your files in folders etc.\n- Playlists and background audio\n- Address bar search engine options (Google, Bing, DuckDuckGo, StartPage can be changed App Settings > Search Engine)\n- Multi format video/audio player allows you to play almost any video and audio format without leaving the app (wmv, mpeg, mpeg1, mpeg2, mpeg4, 3gp, sf, avi, divx, dv, gxf, m2p, m2ts, m2v, m4v, mkv, moov, mov, mp4, mpg, mpv, mt2s, mts, mxf, ogm, ogv, ps, qt, ts, vob, webm, wm, mp3, m4a, wma).\n- Extract audio from mp4 files (convert to mp3)\n- Cast your Rocket playlist for files in the app\n..and lots lots more.\n\nSupported format for TV include mp4, m4v, m3u8, hls, and live streams are supported.\n\nIMPORTANT NOTES, PLEASE READ BEFORE PURCHASING: \nFlash video, iTunes purchased videos, Silverlight and other DRM protected videos like Amazon Instant Videos, HBO now, Hulu, Netflix are not supported!\n\nThis app is not affiliated with Google or one of its products or trademarks and is developed independently."
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© Gplex"
+    },
+    "title": {
+      "label": "Rocket Video Cast - Ameen Mody"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/py/app/rocket-video-cast/id582793399?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/27/cf/bb/27cfbb35-25c3-6acf-5474-0e8bf69dc827/mzl.nocovvsj.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/py/app/rocket-video-cast/id582793399?l=en&uo=2",
+      "attributes": {
+        "im:id": "582793399",
+        "im:bundleId": "com.gplexdb.musicplayeriphone"
+      }
+    },
+    "im:artist": {
+      "label": "Ameen Mody",
+      "attributes": {
+        "href": "https://apps.apple.com/py/developer/ameen-mody/id1231983233?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2012-12-19T12:29:06-07:00",
+      "attributes": {
+        "label": "December 19, 2012"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "py",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 20,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Odrid HMI"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fd/86/85/fd8685ad-14b0-d75a-becc-212a3351d6a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fd/86/85/fd8685ad-14b0-d75a-becc-212a3351d6a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fd/86/85/fd8685ad-14b0-d75a-becc-212a3351d6a8/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Operator panel for various industrial control system. Communication over Wi-Fi or mobile internet with the protocols Modbus/TCP (Class 0 and 1), Modbus RTU class 1 and Siemens S7 Communication (ISO-on-TCP).\n\nOdrid HMI is an alternative to traditional SCADA systems and operator panels. The app supports multiple data types and has easy navigation between pages using swipe gestures or buttons.\n\nOdrid HMI is also great to use for home automation with PLCs that have e.g. Modbus/TCP protocol is implemented to remotely control and monitor lighting, ventilation, heating etc in the residence or holiday home.\n\nAdvantages:\n\nExcellent technical support.\nFree updates.\nGraphic HMIs with multi touch function can be created in minutes.\nFree-of-charge development tool with test run feature.\nVirtually unlimited number of pages, objects and variables.\nDoes not require any third-party services.\nGenuine native app.\n\nFeatures:\n\nParameters for communication such as IP address, port number, protocol, etc. can be specified per page.\nAutomatic polling of all variables displayed in the current page, no need for separate tag list.\nMany formats for numeric variables such as 16 and 32 bit integer, unsigned, hex, ASCII, float (IEEE 754), etc.\nPrioritized event-driven transfer to the controller.\nPages are edited in the measurement unit dp (Density Independent Pixels).\nLife bit for monitoring the operator panel in the controller. (Function similar to coordination area in Siemens S7.)\nNumeric variables can be displayed as predefined text for example alarms, sequence steps etc.\nDetailed diagnostics of connection and communication.\nVariable areas for system variables, local variables and constants.\nPossibility of automatic return to the start page after some time of inactivity.\nSelectable order for high and low words of 32-bit variables in the Modbus protocol.\nPoll interval can be set do save data traffic or battery.\nSupport for Baltic, Central European, Chinese (GB2312, BIG5), Cyrillic, Eastern European, Greek, Hebrew, Japanese (Shift JIS), Turkish, Vietnamese and Western character sets.\nAbility to test run pages in the development tool.\nLED-objects can be displayed as rectangles and in any size e.g. for Andon-systems.\nBackground color for pages can be selected.\nModbus Device ID can be changed with GUI objects during operation.\nImage buttons.\nPassword fields.\nFloating point and hexadecimal number formatting.\nTimestamp for page files.\nHyperlinks.\nDocument information in page files.\n\nImplemented protocols in the current version:\n\nModbus/TCP: Class 0, Function 3 and 16. Reads and writes 64,512 holding registers.\n\nModbus/TCP: Class 1, Function 1, 2, 4 and 5. Reads 65,535 discrete inputs, 65,535 input registers and reads and writes 65,535 outputs (coils).\n\nModbus RTU: Class 0 and 1.\n\nSiemens S7 Communication: Reads and writes 8192 bytes in datablock 1 to 4095 and in the Input, Memory and Output areas.\n\n(Default value for highest Siemens S7 databock is 255.)\n\nFree-of-charge development tool for creating the pages to be used by Odrid HMI:\nhttps://www.idea-teknik.com/odrid_hmi_download.html\n\nManual:\nhttps://www.idea-teknik.com/odrid_hmi_manual.html\n\nVersion history:\nhttps://www.idea-teknik.com/odrid_hmi_version_history.html\n\nModbus and Modbus/TCP are registered trademarks of Schneider Automation Inc.\n\nS7 and STEP 7 are trademarks of Siemens AG."
+    },
+    "im:price": {
+      "label": "USD 4.99",
+      "attributes": {
+        "amount": "4.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2007 - 2024. Jan Almqvist / IDEA-Teknik"
+    },
+    "title": {
+      "label": "Odrid HMI - Jan Almqvist"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/py/app/odrid-hmi/id1066799333?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/93/4f/7f/934f7fbd-4666-c1da-0b54-a53c37a2932f/mzl.dhumdclt.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/py/app/odrid-hmi/id1066799333?l=en&uo=2",
+      "attributes": {
+        "im:id": "1066799333",
+        "im:bundleId": "se.ideautomation.Odrid-HMI"
+      }
+    },
+    "im:artist": {
+      "label": "Jan Almqvist",
+      "attributes": {
+        "href": "https://apps.apple.com/py/developer/jan-almqvist/id1061683330?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2015-12-17T08:37:24-07:00",
+      "attributes": {
+        "label": "December 17, 2015"
       }
     }
   },
@@ -2150,108 +2150,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Rocket Video Cast"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/46/2d/08/462d08b0-01be-b38f-2f43-147edef41b04/AppIcon-1x_U007emarketing-0-7-85-220.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/46/2d/08/462d08b0-01be-b38f-2f43-147edef41b04/AppIcon-1x_U007emarketing-0-7-85-220.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/46/2d/08/462d08b0-01be-b38f-2f43-147edef41b04/AppIcon-1x_U007emarketing-0-7-85-220.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Unleash your TV with Rocket Video Cast. With Rocket you can browse the web and stream any web video on your TV.\n\nRocket is also a fully featured file manager that allows you to store files to your iOS device. You can then view the stored files right on your device offline or transfer them to your computer, and of course you can cast your stored videos to your big screen, just copy them into the app using iTunes File Sharing.\n\nFeatures: \n- Cast videos from all major streaming video sites\n- Cast from major file sharing sites\n- Full featured web browser \n- Start screen with the most frequent visited history entry's \n- Open saved tabs on startup\n- Real-time search in your browsing history, bookmarks and tabs \n- Search engine integration in the Address bar \n- Share URL's via Twitter, Mail \n- Search in the website \n- Passcode protected\n- FTP Server to transfer files in and out of the app\n- FIle Manager to organize your files in folders etc.\n- Playlists and background audio\n- Address bar search engine options (Google, Bing, DuckDuckGo, StartPage can be changed App Settings > Search Engine)\n- Multi format video/audio player allows you to play almost any video and audio format without leaving the app (wmv, mpeg, mpeg1, mpeg2, mpeg4, 3gp, sf, avi, divx, dv, gxf, m2p, m2ts, m2v, m4v, mkv, moov, mov, mp4, mpg, mpv, mt2s, mts, mxf, ogm, ogv, ps, qt, ts, vob, webm, wm, mp3, m4a, wma).\n- Extract audio from mp4 files (convert to mp3)\n- Cast your Rocket playlist for files in the app\n..and lots lots more.\n\nSupported format for TV include mp4, m4v, m3u8, hls, and live streams are supported.\n\nIMPORTANT NOTES, PLEASE READ BEFORE PURCHASING: \nFlash video, iTunes purchased videos, Silverlight and other DRM protected videos like Amazon Instant Videos, HBO now, Hulu, Netflix are not supported!\n\nThis app is not affiliated with Google or one of its products or trademarks and is developed independently."
-    },
-    "im:price": {
-      "label": "USD 1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© Gplex"
-    },
-    "title": {
-      "label": "Rocket Video Cast - Ameen Mody"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/py/app/rocket-video-cast/id582793399?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/27/cf/bb/27cfbb35-25c3-6acf-5474-0e8bf69dc827/mzl.nocovvsj.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/py/app/rocket-video-cast/id582793399?l=en&uo=2",
-      "attributes": {
-        "im:id": "582793399",
-        "im:bundleId": "com.gplexdb.musicplayeriphone"
-      }
-    },
-    "im:artist": {
-      "label": "Ameen Mody",
-      "attributes": {
-        "href": "https://apps.apple.com/py/developer/ameen-mody/id1231983233?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2012-12-19T12:29:06-07:00",
-      "attributes": {
-        "label": "December 19, 2012"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "py",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 23,
-      "total": 100
-    },
-    "im:name": {
       "label": "WebCamera"
     },
     "im:image": [
@@ -2350,7 +2248,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 24,
+      "index": 23,
       "total": 100
     },
     "im:name": {
@@ -2452,39 +2350,39 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 25,
+      "index": 24,
       "total": 100
     },
     "im:name": {
-      "label": "PDF to PPTX & PPT Converter"
+      "label": "eDrawings"
     },
     "im:image": [
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/c6/d7/4bc6d7e9-2232-6d96-11ac-24a181adfc21/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/59/b2/d859b2b2-cbaa-d081-5acd-31b7e0082879/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/53x53bb.png",
         "attributes": {
           "height": "53"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/c6/d7/4bc6d7e9-2232-6d96-11ac-24a181adfc21/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/59/b2/d859b2b2-cbaa-d081-5acd-31b7e0082879/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/75x75bb.png",
         "attributes": {
           "height": "75"
         }
       },
       {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/c6/d7/4bc6d7e9-2232-6d96-11ac-24a181adfc21/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/59/b2/d859b2b2-cbaa-d081-5acd-31b7e0082879/AppIcon-1x_U007emarketing-0-5-0-85-220-0.png/100x100bb.png",
         "attributes": {
           "height": "100"
         }
       }
     ],
     "summary": {
-      "label": "Introducing our cutting-edge PDF to PPTX & PPT Converter app, your ultimate solution for seamlessly transforming PDF documents into dynamic PowerPoint presentations. Whether you need to convert scanned PDFs or traditional ones, this app offers unparalleled convenience and efficiency.\n\n\nConvert PDF to PPTX: \nEffortlessly convert PDF files into editable PPTX presentations, preserving formatting, images, and text with precision.\n\nConvert PDF to PPT: \nInstantly transform PDF documents into PowerPoint slides without any restrictions, enabling you to customize and enhance your presentations.\n\nUser-Friendly Interface: \nIntuitive and easy-to-navigate interface makes the conversion process simple for users of all levels, with step-by-step instructions guiding you through each conversion.\n\nVersatile Output: \nReceive your converted presentations in the widely compatible PPTX or PPT format, ensuring compatibility with various PowerPoint versions and platforms.\n\nEasily transform scanned PDF documents into dynamic PPTX presentations with our PDF to PPTX converter app. Seamlessly extract tables and convert scanned files into editable presentations.\n\nHere's how to convert PDF to PPTX effortlessly:\n\nSelect the PDF file you wish to convert to PPTX. If the file is a scan, OCR will activate automatically.\nAllow the converter to reconstruct the file into PPTX format.\n\nExperience the convenience of our PDF to PPT converter, delivering your files in the versatile PPTX presentation format. Unlock the best solution for transforming PDFs into editable presentations, complete with tables and formulas.\n\nEnjoy unlimited conversions with no limitations. Convert as many PDF files to PPTX format as needed."
+      "label": "eDrawings® is the only CAD viewer on iPad, iPad mini, iPhone and iPod Touch that allows you to view native eDrawings files as well as native SolidWorks® parts, assemblies and drawings files. In addition, eDrawings allows convenient viewing of DWG and DXF files.\n\neDrawings includes Augmented Reality (AR). This allows you to view your 3D models in 1:1 scale into the real world. By simply activating the device’s camera, you can bring your virtual 3D designs in a real context and see them in situ, sitting on your desk or on your conference room table or even in the palm of your hand, through your iPad, Pad mini, iPhone or iPod Touch’s screen. Move around the room and see your design from any perspective.\n\neDrawings is the email-enabled communication tool that dramatically eases sharing of product design information. You can load and send files via email to collaborate more effectively with everyone involved in product development, including people who are not regular CAD software users to interpret and understand 2D and 3D designs.\n\nMulti-touch gestures let you pan, zoom, and rotate models easily. eDrawings also supports configurations, drawing sheets, and exploded views for eDrawings files published from SolidWorks® and all other supported CAD software.\n\nFeatures:\n* Intuitive and easy-to-use user interface\n* Visualize your 3D models in real context with Augmented Reality (AR)\n* Open 3D (EASM, EPRT, SLDASM, SLDPRT, IGES, IGS, JT, STEP, STP, IFC), 2D (EDRW, SLDDRW, DWG, DXF) and associated files from any source: email attachments, cloud storage services (Dropbox™, SkyDrive®, Google Drive, YouSendIt®, and others), web and FTP sites, networks, and iTunes® File Sharing. \n* Zoom, pan and rotate your 2D or 3D CAD data using multi-touch\n* Animate 3D standard views as well as 2D drawing views.\n* Browse your assembly components tree, configurations and drawing sheets\n* View your designs in full screen and double tap to fit it on screen\n* Adapt the scale of your 3D model in AR mode\n* Freeze the background in AR mode with viewpoint lock to prolong AR experience without holding up your device.\n* Sample files included\n\nFor more information, visit:\nhttp://www.edrawingsviewer.com"
     },
     "im:price": {
-      "label": "USD 3.99",
+      "label": "USD 1.99",
       "attributes": {
-        "amount": "3.99",
+        "amount": "1.99",
         "currency": "USD"
       }
     },
@@ -2495,17 +2393,17 @@
       }
     },
     "rights": {
-      "label": "© 2024"
+      "label": "© 1999-2024 Dassault Systemes SolidWorks Corporation"
     },
     "title": {
-      "label": "PDF to PPTX & PPT Converter - Jasmatbhai Satashiya"
+      "label": "eDrawings - Dassault Systemes SolidWorks Corporation"
     },
     "link": [
       {
         "attributes": {
           "rel": "alternate",
           "type": "text/html",
-          "href": "https://apps.apple.com/py/app/pdf-to-pptx-ppt-converter/id6482107992?l=en&uo=2"
+          "href": "https://apps.apple.com/py/app/edrawings/id520231936?l=en&uo=2"
         }
       },
       {
@@ -2516,22 +2414,22 @@
           "title": "Preview",
           "rel": "enclosure",
           "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/0e/60/c00e60cd-a74b-d30a-f6e0-81cafcd33c48/445699d0-d65b-4861-a0a3-3250bb836268_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-05_at_10.27.38.png/1024x1024bb.png",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/8d/1a/c88d1adf-06ce-5c18-55dd-2dc9bbc1b9c7/mzl.iqtznkyx.png/1024x1024bb.png",
           "im:assetType": "preview"
         }
       }
     ],
     "id": {
-      "label": "https://apps.apple.com/py/app/pdf-to-pptx-ppt-converter/id6482107992?l=en&uo=2",
+      "label": "https://apps.apple.com/py/app/edrawings/id520231936?l=en&uo=2",
       "attributes": {
-        "im:id": "6482107992",
-        "im:bundleId": "pdf.to.ppt.converter"
+        "im:id": "520231936",
+        "im:bundleId": "com.solidworks.edrawings"
       }
     },
     "im:artist": {
-      "label": "Jasmatbhai Satashiya",
+      "label": "Dassault Systemes SolidWorks Corporation",
       "attributes": {
-        "href": "https://apps.apple.com/py/developer/jasmatbhai-satashiya/id1656353988?l=en&uo=2"
+        "href": "https://apps.apple.com/py/developer/dassault-systemes-solidworks-corporation/id520231939?l=en&uo=2"
       }
     },
     "category": {
@@ -2543,9 +2441,9 @@
       }
     },
     "im:releaseDate": {
-      "label": "2024-04-09T00:00:00-07:00",
+      "label": "2012-05-01T00:00:00-07:00",
       "attributes": {
-        "label": "April 9, 2024"
+        "label": "May 1, 2012"
       }
     }
   },
@@ -2554,7 +2452,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 26,
+      "index": 25,
       "total": 100
     },
     "im:name": {
@@ -2656,7 +2554,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 27,
+      "index": 26,
       "total": 100
     },
     "im:name": {
@@ -2758,7 +2656,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 28,
+      "index": 27,
       "total": 100
     },
     "im:name": {
@@ -2852,6 +2750,108 @@
       "label": "2014-11-20T19:25:41-07:00",
       "attributes": {
         "label": "November 20, 2014"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "py",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 28,
+      "total": 100
+    },
+    "im:name": {
+      "label": "PDF to PPTX & PPT Converter"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/c6/d7/4bc6d7e9-2232-6d96-11ac-24a181adfc21/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/c6/d7/4bc6d7e9-2232-6d96-11ac-24a181adfc21/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/c6/d7/4bc6d7e9-2232-6d96-11ac-24a181adfc21/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Introducing our cutting-edge PDF to PPTX & PPT Converter app, your ultimate solution for seamlessly transforming PDF documents into dynamic PowerPoint presentations. Whether you need to convert scanned PDFs or traditional ones, this app offers unparalleled convenience and efficiency.\n\n\nConvert PDF to PPTX: \nEffortlessly convert PDF files into editable PPTX presentations, preserving formatting, images, and text with precision.\n\nConvert PDF to PPT: \nInstantly transform PDF documents into PowerPoint slides without any restrictions, enabling you to customize and enhance your presentations.\n\nUser-Friendly Interface: \nIntuitive and easy-to-navigate interface makes the conversion process simple for users of all levels, with step-by-step instructions guiding you through each conversion.\n\nVersatile Output: \nReceive your converted presentations in the widely compatible PPTX or PPT format, ensuring compatibility with various PowerPoint versions and platforms.\n\nEasily transform scanned PDF documents into dynamic PPTX presentations with our PDF to PPTX converter app. Seamlessly extract tables and convert scanned files into editable presentations.\n\nHere's how to convert PDF to PPTX effortlessly:\n\nSelect the PDF file you wish to convert to PPTX. If the file is a scan, OCR will activate automatically.\nAllow the converter to reconstruct the file into PPTX format.\n\nExperience the convenience of our PDF to PPT converter, delivering your files in the versatile PPTX presentation format. Unlock the best solution for transforming PDFs into editable presentations, complete with tables and formulas.\n\nEnjoy unlimited conversions with no limitations. Convert as many PDF files to PPTX format as needed."
+    },
+    "im:price": {
+      "label": "USD 3.99",
+      "attributes": {
+        "amount": "3.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2024"
+    },
+    "title": {
+      "label": "PDF to PPTX & PPT Converter - Jasmatbhai Satashiya"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/py/app/pdf-to-pptx-ppt-converter/id6482107992?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/0e/60/c00e60cd-a74b-d30a-f6e0-81cafcd33c48/445699d0-d65b-4861-a0a3-3250bb836268_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-05_at_10.27.38.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/py/app/pdf-to-pptx-ppt-converter/id6482107992?l=en&uo=2",
+      "attributes": {
+        "im:id": "6482107992",
+        "im:bundleId": "pdf.to.ppt.converter"
+      }
+    },
+    "im:artist": {
+      "label": "Jasmatbhai Satashiya",
+      "attributes": {
+        "href": "https://apps.apple.com/py/developer/jasmatbhai-satashiya/id1656353988?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2024-04-09T00:00:00-07:00",
+      "attributes": {
+        "label": "April 9, 2024"
       }
     }
   },
@@ -5006,108 +5006,6 @@
       "total": 100
     },
     "im:name": {
-      "label": "Webmail App"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/c2/84/13c284f8-2b24-70b1-f210-b4988f321734/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/c2/84/13c284f8-2b24-70b1-f210-b4988f321734/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/c2/84/13c284f8-2b24-70b1-f210-b4988f321734/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "Simple and safe email application which will facilitate access, view and manage your email from your multiple email accounts at one place. Professional email client to handle your corporate email requirements. Stay upbeat with features of desktop email client power packed on your cellphone.  Keep your critical device data safe from your all email recipients using latest security protocols and privacy protection. Webmail is available and supports multiple languages.\n\nWhy to choose webmail App:\n-        Manage multiple email accounts of IMAP, Exchange, POP, other\n-        Email synchronization and scheduling\n-        Unified mailbox for multiple accounts\n-        Easy-to-use message editor\n-        Simple email, folder search\n-        Folders & filters\n-        Moving emails between accounts\n-        Quick text features\n-        Intuitive user interface\n\n• Webmail App Completely free app with professional email capabilities.\n\n• Take a full control of all your email accounts in a single application i.e. Gmail, Outlook, Yahoo, Exchange and many others\n\n• Configurable swipe gestures that let you decide important actions to appear when you slide an email to delete, mark, flag or archive\n\n• Organize and filter emails as per your preferences, it’s all easy to manage how your mailbox should look like\n\n• Be relieved with one of the most secure email application which keeps your device ID like crucial details away from any recipients of your emails"
-    },
-    "im:price": {
-      "label": "USD 1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© 2022 @ SoWebmail"
-    },
-    "title": {
-      "label": "Webmail App - LAXMAN KATTIKAR"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/py/app/webmail-app/id1602403259?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7e/be/4d/7ebe4d78-4286-b2ff-fd6e-999457b21bdc/318045e8-270c-489d-a2f4-d740079578f3_Apple_iPad_Pro_13_Inch_Screenshot_1.png/1024x1024bb.png",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/py/app/webmail-app/id1602403259?l=en&uo=2",
-      "attributes": {
-        "im:id": "1602403259",
-        "im:bundleId": "com.colloidle.webmail"
-      }
-    },
-    "im:artist": {
-      "label": "LAXMAN KATTIKAR",
-      "attributes": {
-        "href": "https://apps.apple.com/py/developer/laxman-kattikar/id1551532983?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2022-03-14T00:00:00-07:00",
-      "attributes": {
-        "label": "March 14, 2022"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "py",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 51,
-      "total": 100
-    },
-    "im:name": {
       "label": "Electrodoc Pro"
     },
     "im:image": [
@@ -5206,7 +5104,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 52,
+      "index": 51,
       "total": 100
     },
     "im:name": {
@@ -5308,7 +5206,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 53,
+      "index": 52,
       "total": 100
     },
     "im:name": {
@@ -5410,109 +5308,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 54,
-      "total": 100
-    },
-    "im:name": {
-      "label": "To Do Matrix - Priority Tasks"
-    },
-    "im:image": [
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/15/8d/16/158d16ee-622c-61b8-b499-269dcab62f3e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/53x53bb.png",
-        "attributes": {
-          "height": "53"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/15/8d/16/158d16ee-622c-61b8-b499-269dcab62f3e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/75x75bb.png",
-        "attributes": {
-          "height": "75"
-        }
-      },
-      {
-        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/15/8d/16/158d16ee-622c-61b8-b499-269dcab62f3e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/100x100bb.png",
-        "attributes": {
-          "height": "100"
-        }
-      }
-    ],
-    "summary": {
-      "label": "TodoMatrix : To-do app with time management matrix\n\"First Things First\" - Stephen Covey\n\nTodoMatrix helps you to...\n- Get things done\n- Do important things first\n- Do urgent things first\n- Do important ones & More\n\nApplying the Eisenhower methodology, Priorities helps you sorting tasks into the right category, depending on their urgency and importance. \nStart now & before you know it, you'll be doing your best.\n\nFeatures:\n- Use Project Group Management 4 Quadrants\n- Use tags to manage all tasks\n- Add subtasks\n- Colorful color difference task\n- Project Grouping Color Customization\n- Intuitive chart statistics for custom dates\n- Filter task\n- Sharing data between iPad & iPhone devices via iCloud\n- Export CSV data\n- Password protection\n\nLet's do it!\n\nDo you like TodoMatrix or do you want to share ideas about it?\nPlease rate it on the App Store or contact us by email."
-    },
-    "im:price": {
-      "label": "USD 1.99",
-      "attributes": {
-        "amount": "1.99",
-        "currency": "USD"
-      }
-    },
-    "im:contentType": {
-      "attributes": {
-        "term": "Application",
-        "label": "Application"
-      }
-    },
-    "rights": {
-      "label": "© HUIYINGAPPS"
-    },
-    "title": {
-      "label": "To Do Matrix - Priority Tasks - 辉英 钟"
-    },
-    "link": [
-      {
-        "attributes": {
-          "rel": "alternate",
-          "type": "text/html",
-          "href": "https://apps.apple.com/py/app/to-do-matrix-priority-tasks/id1128110353?l=en&uo=2"
-        }
-      },
-      {
-        "im:duration": {
-          "label": "0"
-        },
-        "attributes": {
-          "title": "Preview",
-          "rel": "enclosure",
-          "type": "image/jpeg",
-          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/16/56/03/16560307-c29d-ee40-9041-58911c221d8d/pr_source.jpg/1024x1024bb.jpg",
-          "im:assetType": "preview"
-        }
-      }
-    ],
-    "id": {
-      "label": "https://apps.apple.com/py/app/to-do-matrix-priority-tasks/id1128110353?l=en&uo=2",
-      "attributes": {
-        "im:id": "1128110353",
-        "im:bundleId": "HuiYingApps2016.TodoMatrix"
-      }
-    },
-    "im:artist": {
-      "label": "辉英 钟",
-      "attributes": {
-        "href": "https://apps.apple.com/py/developer/%E8%BE%89%E8%8B%B1-%E9%92%9F/id966879303?l=en&uo=2"
-      }
-    },
-    "category": {
-      "attributes": {
-        "im:id": "6007",
-        "term": "Productivity",
-        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
-        "label": "Productivity"
-      }
-    },
-    "im:releaseDate": {
-      "label": "2016-06-27T21:01:59-07:00",
-      "attributes": {
-        "label": "June 27, 2016"
-      }
-    }
-  },
-  {
-    "$position": {
-      "country_code": "py",
-      "pricing": "paid",
-      "genre": "productivity",
-      "index": 55,
+      "index": 53,
       "total": 100
     },
     "im:name": {
@@ -5614,7 +5410,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 56,
+      "index": 54,
       "total": 100
     },
     "im:name": {
@@ -5716,7 +5512,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 57,
+      "index": 55,
       "total": 100
     },
     "im:name": {
@@ -5818,7 +5614,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 58,
+      "index": 56,
       "total": 100
     },
     "im:name": {
@@ -5920,7 +5716,109 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 59,
+      "index": 57,
+      "total": 100
+    },
+    "im:name": {
+      "label": "Webmail App"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/c2/84/13c284f8-2b24-70b1-f210-b4988f321734/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/c2/84/13c284f8-2b24-70b1-f210-b4988f321734/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/c2/84/13c284f8-2b24-70b1-f210-b4988f321734/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "Simple and safe email application which will facilitate access, view and manage your email from your multiple email accounts at one place. Professional email client to handle your corporate email requirements. Stay upbeat with features of desktop email client power packed on your cellphone.  Keep your critical device data safe from your all email recipients using latest security protocols and privacy protection. Webmail is available and supports multiple languages.\n\nWhy to choose webmail App:\n-        Manage multiple email accounts of IMAP, Exchange, POP, other\n-        Email synchronization and scheduling\n-        Unified mailbox for multiple accounts\n-        Easy-to-use message editor\n-        Simple email, folder search\n-        Folders & filters\n-        Moving emails between accounts\n-        Quick text features\n-        Intuitive user interface\n\n• Webmail App Completely free app with professional email capabilities.\n\n• Take a full control of all your email accounts in a single application i.e. Gmail, Outlook, Yahoo, Exchange and many others\n\n• Configurable swipe gestures that let you decide important actions to appear when you slide an email to delete, mark, flag or archive\n\n• Organize and filter emails as per your preferences, it’s all easy to manage how your mailbox should look like\n\n• Be relieved with one of the most secure email application which keeps your device ID like crucial details away from any recipients of your emails"
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© 2022 @ SoWebmail"
+    },
+    "title": {
+      "label": "Webmail App - LAXMAN KATTIKAR"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/py/app/webmail-app/id1602403259?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7e/be/4d/7ebe4d78-4286-b2ff-fd6e-999457b21bdc/318045e8-270c-489d-a2f4-d740079578f3_Apple_iPad_Pro_13_Inch_Screenshot_1.png/1024x1024bb.png",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/py/app/webmail-app/id1602403259?l=en&uo=2",
+      "attributes": {
+        "im:id": "1602403259",
+        "im:bundleId": "com.colloidle.webmail"
+      }
+    },
+    "im:artist": {
+      "label": "LAXMAN KATTIKAR",
+      "attributes": {
+        "href": "https://apps.apple.com/py/developer/laxman-kattikar/id1551532983?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2022-03-14T00:00:00-07:00",
+      "attributes": {
+        "label": "March 14, 2022"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "py",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 58,
       "total": 100
     },
     "im:name": {
@@ -6022,7 +5920,7 @@
       "country_code": "py",
       "pricing": "paid",
       "genre": "productivity",
-      "index": 60,
+      "index": 59,
       "total": 100
     },
     "im:name": {
@@ -6116,6 +6014,108 @@
       "label": "2013-11-15T19:05:43-07:00",
       "attributes": {
         "label": "November 15, 2013"
+      }
+    }
+  },
+  {
+    "$position": {
+      "country_code": "py",
+      "pricing": "paid",
+      "genre": "productivity",
+      "index": 60,
+      "total": 100
+    },
+    "im:name": {
+      "label": "To Do Matrix - Priority Tasks"
+    },
+    "im:image": [
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/15/8d/16/158d16ee-622c-61b8-b499-269dcab62f3e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/53x53bb.png",
+        "attributes": {
+          "height": "53"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/15/8d/16/158d16ee-622c-61b8-b499-269dcab62f3e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/75x75bb.png",
+        "attributes": {
+          "height": "75"
+        }
+      },
+      {
+        "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/15/8d/16/158d16ee-622c-61b8-b499-269dcab62f3e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/100x100bb.png",
+        "attributes": {
+          "height": "100"
+        }
+      }
+    ],
+    "summary": {
+      "label": "TodoMatrix : To-do app with time management matrix\n\"First Things First\" - Stephen Covey\n\nTodoMatrix helps you to...\n- Get things done\n- Do important things first\n- Do urgent things first\n- Do important ones & More\n\nApplying the Eisenhower methodology, Priorities helps you sorting tasks into the right category, depending on their urgency and importance. \nStart now & before you know it, you'll be doing your best.\n\nFeatures:\n- Use Project Group Management 4 Quadrants\n- Use tags to manage all tasks\n- Add subtasks\n- Colorful color difference task\n- Project Grouping Color Customization\n- Intuitive chart statistics for custom dates\n- Filter task\n- Sharing data between iPad & iPhone devices via iCloud\n- Export CSV data\n- Password protection\n\nLet's do it!\n\nDo you like TodoMatrix or do you want to share ideas about it?\nPlease rate it on the App Store or contact us by email."
+    },
+    "im:price": {
+      "label": "USD 1.99",
+      "attributes": {
+        "amount": "1.99",
+        "currency": "USD"
+      }
+    },
+    "im:contentType": {
+      "attributes": {
+        "term": "Application",
+        "label": "Application"
+      }
+    },
+    "rights": {
+      "label": "© HUIYINGAPPS"
+    },
+    "title": {
+      "label": "To Do Matrix - Priority Tasks - 辉英 钟"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://apps.apple.com/py/app/to-do-matrix-priority-tasks/id1128110353?l=en&uo=2"
+        }
+      },
+      {
+        "im:duration": {
+          "label": "0"
+        },
+        "attributes": {
+          "title": "Preview",
+          "rel": "enclosure",
+          "type": "image/jpeg",
+          "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/16/56/03/16560307-c29d-ee40-9041-58911c221d8d/pr_source.jpg/1024x1024bb.jpg",
+          "im:assetType": "preview"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://apps.apple.com/py/app/to-do-matrix-priority-tasks/id1128110353?l=en&uo=2",
+      "attributes": {
+        "im:id": "1128110353",
+        "im:bundleId": "HuiYingApps2016.TodoMatrix"
+      }
+    },
+    "im:artist": {
+      "label": "辉英 钟",
+      "attributes": {
+        "href": "https://apps.apple.com/py/developer/%E8%BE%89%E8%8B%B1-%E9%92%9F/id966879303?l=en&uo=2"
+      }
+    },
+    "category": {
+      "attributes": {
+        "im:id": "6007",
+        "term": "Productivity",
+        "scheme": "https://apps.apple.com/py/genre/ios-productivity/id6007?l=en&uo=2",
+        "label": "Productivity"
+      }
+    },
+    "im:releaseDate": {
+      "label": "2016-06-27T21:01:59-07:00",
+      "attributes": {
+        "label": "June 27, 2016"
       }
     }
   },
